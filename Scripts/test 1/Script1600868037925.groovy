@@ -19,3 +19,5 @@ WebUI.openBrowser('')
 
 WebUI.clickImage(findTestObject(null))
 
+WebUI.closeBrowser()
+
