@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>test 1</name>
+   <name>Saving tW Articles</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>f402d1f5-c861-4892-9b73-48ffd641fa13</testCaseGuid>
+   <testCaseGuid>ee0edc47-9013-4809-ad72-1ee653b798fe</testCaseGuid>
 </TestCaseEntity>

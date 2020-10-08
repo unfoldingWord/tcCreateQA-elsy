@@ -17,7 +17,27 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.clickImage(findTestObject(null))
+WebUI.maximizeWindow()
 
-WebUI.closeBrowser()
+println('Opening ' + GlobalVariable.url)
+
+WebUI.navigateToUrl(GlobalVariable.url)
+
+if (user == '') {
+    println('Logging in as ' + GlobalVariable.user1Name)
+
+    WebUI.setText(findTestObject('Object Repository/Page_tC Create/input__username'), GlobalVariable.user1Name)
+
+    WebUI.setText(findTestObject('Object Repository/Page_tC Create/input__password'), GlobalVariable.user1Password)
+
+    WebUI.click(findTestObject('Object Repository/Page_tC Create/button_Login'))
+} else if (user != '?') {
+    println('Logging in as ' + user)
+
+    WebUI.setText(findTestObject('Object Repository/Page_tC Create/input__username'), user)
+
+    WebUI.setText(findTestObject('Object Repository/Page_tC Create/input__password'), password)
+
+    WebUI.click(findTestObject('Object Repository/Page_tC Create/button_Login'))
+}
 
