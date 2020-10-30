@@ -7,14 +7,18 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>button.MuiButtonBase-root.MuiIconButton-root.jss56 > span.MuiIconButton-label > svg.MuiSvgIcon-root > path</value>
+         <value>path</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;App-header&quot;)/div[@class=&quot;headroom-wrapper&quot;]/div[@class=&quot;headroom headroom--unfixed headroom-disable-animation&quot;]/div[@class=&quot;jss1&quot;]/header[@class=&quot;MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary jss4 MuiPaper-elevation4&quot;]/div[@class=&quot;MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters&quot;]/div[@class=&quot;jss5&quot;]/div[1]/button[@class=&quot;MuiButtonBase-root MuiIconButton-root MuiIconButton-colorInherit&quot;]/span[@class=&quot;MuiIconButton-label&quot;]/svg[@class=&quot;MuiSvgIcon-root&quot;]/path[1]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,13 +32,13 @@
       <matchCondition>equals</matchCondition>
       <name>d</name>
       <type>Main</type>
-      <value>M4 18h17v-6H4v6zM4 5v6h17V5H4z</value>
+      <value>M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[1]/div[@class=&quot;jss50&quot;]/div[@class=&quot;jss54&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-elevation1 MuiPaper-rounded&quot;]/div[@class=&quot;jss55&quot;]/button[@class=&quot;MuiButtonBase-root MuiIconButton-root jss56&quot;]/span[@class=&quot;MuiIconButton-label&quot;]/svg[@class=&quot;MuiSvgIcon-root&quot;]/path[1]</value>
+      <value>id(&quot;App-header&quot;)/div[@class=&quot;headroom-wrapper&quot;]/div[@class=&quot;headroom headroom--unfixed headroom-disable-animation&quot;]/div[@class=&quot;jss1&quot;]/header[@class=&quot;MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary jss4 MuiPaper-elevation4&quot;]/div[@class=&quot;MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters&quot;]/div[@class=&quot;jss5&quot;]/div[1]/button[@class=&quot;MuiButtonBase-root MuiIconButton-root MuiIconButton-colorInherit&quot;]/span[@class=&quot;MuiIconButton-label&quot;]/svg[@class=&quot;MuiSvgIcon-root&quot;]/path[1]</value>
    </webElementProperties>
 </WebElementEntity>

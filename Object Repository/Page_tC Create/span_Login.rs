@@ -6,12 +6,12 @@
    <elementGuidId>d8cd1ad2-48d9-45ab-9e36-d446ffcf02fa</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root']/div/div/div/div/div[2]/div/div/form/button/span</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>span.MuiButton-label</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div/div[2]/div/div/form/button/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

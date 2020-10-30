@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_unfoldingWord</name>
+   <name>span_translate_test</name>
    <tag></tag>
-   <elementGuidId>b6894d03-e6ec-4f12-aa12-a0c8615e2c35</elementGuidId>
+   <elementGuidId>312ba6a0-9450-421b-b326-92cc9cd0101d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='root']/div/div/div/div/div[2]/div/ul/ul/div[2]/div/div[2]/span</value>
+         <value>//div[@id='root']/div/div/div/div/div[2]/div/ul/ul/div/div/div[2]/span</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>span.MuiTypography-root.MuiListItemText-primary.MuiTypography-body1.MuiTypography-displayBlock</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -35,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>unfoldingWord</value>
+      <value>translate_test</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,41 +49,41 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div/div/div/div/div[2]/div/ul/ul/div[2]/div/div[2]/span</value>
+      <value>//div[@id='root']/div/div/div/div/div[2]/div/ul/ul/div/div/div[2]/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='translate_test'])[1]/following::span[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='File'])[1]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/preceding::span[6]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='unfoldingWord'])[1]/preceding::span[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/preceding::span[8]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/preceding::span[8]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='unfoldingWord']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='translate_test']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div[2]/span</value>
+      <value>//ul/div/div/div[2]/span</value>
    </webElementXpaths>
 </WebElementEntity>

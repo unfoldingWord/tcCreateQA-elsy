@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_English - unfoldingWorden_twElsyLambert-tc-create-1_MuiButtonBase-root MuiIconButton-root jss56</name>
+   <name>button_DrawerClose</name>
    <tag></tag>
-   <elementGuidId>5eb9f4fe-3702-43a7-a22f-fab69854709c</elementGuidId>
+   <elementGuidId>97d30609-114b-4c19-be64-363f3327762a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[6]</value>
+         <key>CSS</key>
+         <value>div.jss8 > button.MuiButtonBase-root.MuiIconButton-root</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and @data-test = 'drawer-menu-close-button']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[179]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,7 +32,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>MuiButtonBase-root MuiIconButton-root jss56</value>
+      <value>MuiButtonBase-root MuiIconButton-root</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,73 +49,59 @@
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-label</name>
+      <name>data-test</name>
       <type>Main</type>
-      <value>Save</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-describedby</name>
-      <type>Main</type>
-      <value>mui-2074</value>
+      <value>drawer-menu-close-button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[1]/div[@class=&quot;jss50&quot;]/div[@class=&quot;jss54&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-elevation1 MuiPaper-rounded&quot;]/div[@class=&quot;jss55&quot;]/button[@class=&quot;MuiButtonBase-root MuiIconButton-root jss56&quot;]</value>
+      <value>/html[1]/body[1]/div[@class=&quot;MuiDrawer-root MuiDrawer-modal jss6&quot;]/div[@class=&quot;MuiPaper-root MuiDrawer-paper jss7 MuiDrawer-paperAnchorLeft MuiPaper-elevation16&quot;]/div[@class=&quot;jss8&quot;]/button[@class=&quot;MuiButtonBase-root MuiIconButton-root&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[6]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='root']/div/div/div/div[2]/div/div/button[4]</value>
+      <value>(//button[@type='button'])[179]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='English - unfoldingWord/en_tw/ElsyLambert-tc-create-1'])[1]/following::button[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='English - unfoldingWord/en_tw/master'])[1]/following::button[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[2]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='abomination, abominable'])[1]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Report Bug or Feedback'])[1]/preceding::button[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='abomination, abominable'])[2]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Expand all Scripture'])[1]/preceding::button[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button[4]</value>
+      <value>//div[3]/div/button</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>svg_English - unfoldingWorden_twElsyLambert-tc-create-1_MuiSvgIcon-root</name>
+   <name>PSV UGNT Header</name>
    <tag></tag>
-   <elementGuidId>fcfc5d0d-1da6-4394-aa16-c50db73e0256</elementGuidId>
+   <elementGuidId>fbec3717-74e2-4ef1-915a-545144035792</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='English - unfoldingWord/en_tw/ElsyLambert-tc-create-1'])[1]/following::*[name()='svg'][5]</value>
+         <value>//div[@id='wrapY']/table/thead/tr/th</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>th.MuiTableCell-root-512.MuiTableCell-head-513.jss503</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,69 +21,62 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>svg</value>
+      <value>th</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>MuiSvgIcon-root</value>
+      <value>MuiTableCell-root-512 MuiTableCell-head-513 jss503</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>focusable</name>
+      <name>scope</name>
       <type>Main</type>
-      <value>false</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>viewBox</name>
-      <type>Main</type>
-      <value>0 0 24 24</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-hidden</name>
-      <type>Main</type>
-      <value>true</value>
+      <value>col</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>unfoldingWord® Greek New Testament v0.14</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[1]/div[@class=&quot;jss50&quot;]/div[@class=&quot;jss54&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-elevation1 MuiPaper-rounded&quot;]/div[@class=&quot;jss55&quot;]/button[@class=&quot;MuiButtonBase-root MuiIconButton-root jss56&quot;]/span[@class=&quot;MuiIconButton-label&quot;]/svg[@class=&quot;MuiSvgIcon-root&quot;]</value>
+      <value>id(&quot;header-1-1-rtc9&quot;)/div[@class=&quot;jss309&quot;]/div[@class=&quot;jss312&quot;]/div[@id=&quot;wrapY&quot;]/table[@class=&quot;MuiTable-root-500 jss323&quot;]/thead[@class=&quot;MuiTableHead-root-504 jss502&quot;]/tr[@class=&quot;MuiTableRow-root-505 MuiTableRow-head-507&quot;]/th[@class=&quot;MuiTableCell-root-512 MuiTableCell-head-513 jss503&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='English - unfoldingWord/en_tw/ElsyLambert-tc-create-1'])[1]/following::*[name()='svg'][5]</value>
+      <value>//div[@id='wrapY']/table/thead/tr/th</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='English - unfoldingWord/en_tw/master'])[1]/following::*[name()='svg'][7]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Titus 1:1'])[1]/following::th[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='abomination, abominable'])[1]/preceding::*[name()='svg'][1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Should, may, must'])[2]/following::th[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:position</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='abomination, abominable'])[2]/preceding::*[name()='svg'][2]</value>
+      <value>//div[2]/table/thead/tr/th</value>
    </webElementXpaths>
 </WebElementEntity>

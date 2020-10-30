@@ -38,7 +38,7 @@ WebUI.click(findTestObject('tW Objects/h1_Almighty'))
 
 WebUI.setText(findTestObject('tW Objects/div_Almighty test'), '<h1 id="almighty" style="">Almighty test</h1>')
 
-WebUI.click(findTestObject('tW test objects/Page_tC Create/button_English - unfoldingWorden_twElsyLambert-tc-create-1_MuiButtonBase-root MuiIconButton-root jss56'))
+WebUI.click(findTestObject('Page_tC Create/button_English - unfoldingWorden_twElsyLambert-tc-create-1_MuiButtonBase-root MuiIconButton-root jss56'))
 
 WebUI.closeBrowser()
 

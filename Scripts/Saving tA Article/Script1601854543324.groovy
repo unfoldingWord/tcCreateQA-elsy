@@ -36,7 +36,7 @@ WebUI.click(findTestObject('Object Repository/Page_tC Create/span_Login'))
 */
 CustomKeywords.'com.helper.login.loginhelper.logintoapp'()
 
-WebUI.click(findTestObject('Object Repository/Page_tC Create/span_unfoldingWord'))
+WebUI.click(findTestObject('Page_tC Create/Organization unfoldingWord'))
 
 WebUI.click(findTestObject('Object Repository/Page_tC Create/div_unfoldingWord Translation Academyunfold_cb119f'))
 
@@ -50,13 +50,9 @@ WebUI.click(findTestObject('Page_tC Create/span_translate'))
 
 WebUI.click(findTestObject('Object Repository/Page_tC Create/span_bita-farming'))
 
-WebUI.click(findTestObject('Page_tC Create/span_01.md'))
+//WebUI.click(findTestObject('Object Repository/Page_tC Create/span_01.md'))
 
 WebUI.click(findTestObject('Object Repository/Page_tC Create/div_A FARMER represents God, and the VINEYA_8b10d9'))
-
-WebUI.click(findTestObject('Object Repository/Page_tC Create/h4_A FARMER represents God, and the VINEYAR_af8b39'))
-
-WebUI.click(findTestObject('Object Repository/Page_tC Create/h4_A FARMER represents God, and the VINEYAR_af8b39'))
 
 WebUI.setText(findTestObject('Object Repository/Page_tC Create/div_A FARMER represents God, and the VINEYA_0e4666'), '<h4 id="afarmerrepresentsgodandthevineyardrepresentshischosenpeople" style="">A FARMER represents God, and the VINEYARD represents his chosen people&nbsp; test edit</h4>')
 

@@ -7,18 +7,17 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'MuiTypography-root MuiListItemText-primary MuiTypography-body2 MuiTypography-displayBlock' and (text() = '01.md' or . = '01.md')]</value>
+         <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[1]/div[@class=&quot;MuiPaper-root MuiPaper-elevation1 MuiPaper-rounded&quot;]/div[@class=&quot;jss11&quot;]/div[2]/div[@class=&quot;jss12&quot;]/div[@class=&quot;MuiCollapse-container MuiCollapse-entered&quot;]/div[@class=&quot;MuiCollapse-wrapper&quot;]/div[@class=&quot;MuiCollapse-wrapperInner&quot;]/ul[@class=&quot;MuiList-root jss45 MuiList-dense MuiList-padding&quot;]/div[8]/div[@class=&quot;MuiCollapse-container MuiCollapse-entered&quot;]/div[@class=&quot;MuiCollapse-wrapper&quot;]/div[@class=&quot;MuiCollapse-wrapperInner&quot;]/ul[@class=&quot;MuiList-root jss45 MuiList-dense MuiList-padding&quot;]/div[2]/div[@class=&quot;MuiCollapse-container MuiCollapse-entered&quot;]/div[@class=&quot;MuiCollapse-wrapper&quot;]/div[@class=&quot;MuiCollapse-wrapperInner&quot;]/ul[@class=&quot;MuiList-root jss45 MuiList-dense MuiList-padding&quot;]/div[1]/div[@class=&quot;MuiButtonBase-root MuiListItem-root jss46 MuiListItem-dense MuiListItem-gutters MuiListItem-button&quot;]/div[@class=&quot;MuiListItemText-root jss47 MuiListItemText-dense MuiListItemText-multiline&quot;]/span[@class=&quot;MuiTypography-root MuiListItemText-primary MuiTypography-body2 MuiTypography-displayBlock&quot;][count(. | //*[@class = 'MuiTypography-root MuiListItemText-primary MuiTypography-body2 MuiTypography-displayBlock' and (text() = '01.md' or . = '01.md')]) = count(//*[@class = 'MuiTypography-root MuiListItemText-primary MuiTypography-body2 MuiTypography-displayBlock' and (text() = '01.md' or . = '01.md')])]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='root']/div/div/div/div/div[2]/div/div/div/div/ul/div[8]/div[2]/div/div/ul/div[2]/div[2]/div/div/ul/div/div/div[2]/span</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,7 +27,7 @@
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -42,7 +41,7 @@
       <value>01.md</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

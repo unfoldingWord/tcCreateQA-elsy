@@ -32,7 +32,7 @@ WebUI.click(findTestObject('Page_tC Create/span_translate'))
 
 WebUI.click(findTestObject('Object Repository/Page_tC Create/span_bita-animals'))
 
-WebUI.click(findTestObject('Page_tC Create/button_English - unfoldingWorden_taElsyLamb_7e25b4'))
+WebUI.click(findTestObject('Object Repository/Page_tC Create/span_01.md'))
 
 WebUI.click(findTestObject('Object Repository/Page_tC Create/p_God is my rock. I take refuge in him.  He_f0de96'))
 
