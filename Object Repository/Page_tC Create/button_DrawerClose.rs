@@ -6,16 +6,16 @@
    <elementGuidId>97d30609-114b-4c19-be64-363f3327762a</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[179]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>div.jss8 > button.MuiButtonBase-root.MuiIconButton-root</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[@type = 'button' and @data-test = 'drawer-menu-close-button']</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[179]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>undo text in Editor</name>
+   <tag>#458</tag>
+   <comment></comment>
+   <testCaseGuid>d598dc72-ac9d-42f3-8ac7-48073c8d4a15</testCaseGuid>
+</TestCaseEntity>

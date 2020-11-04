@@ -28,9 +28,14 @@ public class ExpandAllScriptureToggle {
 	def toggleAllScripture(toState) {
 		def newState = toState.toLowerCase()
 		def myState = ''
-		def drawerOpen = WebUI.waitForElementPresent(findTestObject('Object Repository/Page_tC Create/button__CloseMenu') ,2)
+		def drawerOpen = WebUI.waitForElementPresent(findTestObject('Object Repository/Page_tC Create/button_DrawerClose') ,2, FailureHandling.OPTIONAL)
 		if (!drawerOpen) {
-			WebUI.click(findTestObject('Object Repository/Page_tC Create/Hamburger Menu Button'))
+			try {
+				WebUI.click(findTestObject('Object Repository/Page_tC Create/Hamburger Menu Button'), FailureHandling.STOP_ON_FAILURE)
+			} catch (Exception e) {
+				WebUI.scrollToElement(findTestObject('Object Repository/Page_tC Create/chip_Repo'), 2)
+				WebUI.click(findTestObject('Page_tC Create/button_DrawerOpen'), FailureHandling.STOP_ON_FAILURE)
+			}
 		}
 
 		WebUI.delay(1)
@@ -53,7 +58,9 @@ public class ExpandAllScriptureToggle {
 			return myState
 		}
 		if (!drawerOpen) {
-			WebUI.click(findTestObject('Object Repository/Page_tC Create/button_DrawerClose'))
+			WebUI.click(findTestObject('Page_tC Create/button_DrawerClose'))
+			WebUI.waitForElementVisible(findTestObject('Object Repository/Page_tC Create/Hamburger Menu Button'), 5)
 		}
+		return myState
 	}
 }

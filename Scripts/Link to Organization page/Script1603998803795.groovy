@@ -39,7 +39,7 @@ if (actualTooltip.equals(expectedTooltip)) {
 WebUI.click(findTestObject('Object Repository/Organization Link/button_unfoldingWord_MuiButtonBase-root MuiIconButton-root'))
 
 WebUI.switchToWindowIndex(1)
-if (WebUI.verifyElementVisible(findTestObject('Object Repository/Organization Link/a_Home') , FailureHandling.CONTINUE_ON_FAILURE) )// Add object from website page
+if (WebUI.verifyElementVisible(findTestObject('Object Repository/Organization Link/div_unfoldingWord') , FailureHandling.CONTINUE_ON_FAILURE) )// Add object from website page
 {
 	System.out.println("Organization page is opening")
 }

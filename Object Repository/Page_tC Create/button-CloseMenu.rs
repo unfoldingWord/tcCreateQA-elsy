@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button__CloseMenu</name>
+   <name>button-CloseMenu</name>
    <tag></tag>
    <elementGuidId>9c957f51-65dd-4e68-b589-43151e918b88</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.jss8 > button.MuiButtonBase-root.MuiIconButton-root</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[@type = 'button' and @data-test = 'drawer-menu-close-button']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.jss8 > button.MuiButtonBase-root.MuiIconButton-root</value>
       </entry>
       <entry>
          <key>XPATH</key>
