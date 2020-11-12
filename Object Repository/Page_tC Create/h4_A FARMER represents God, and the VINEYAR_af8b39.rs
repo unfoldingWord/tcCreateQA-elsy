@@ -6,25 +6,29 @@
    <elementGuidId>68b254b0-448a-40a4-87f5-2580383ae839</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>div.MuiGrid-root.jss63.MuiGrid-item.MuiGrid-grid-xs-12 > div.jss64 > div.jss65 > #afarmerrepresentsgodandthevineyardrepresentshischosenpeople</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(//h4[@id='afarmerrepresentsgodandthevineyardrepresentshischosenpeople'])[2]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>div.MuiGrid-root.jss63.MuiGrid-item.MuiGrid-grid-xs-12 > div.jss64 > div.jss65 > #afarmerrepresentsgodandthevineyardrepresentshischosenpeople</value>
+         <key>BASIC</key>
+         <value>//h4[(text() = 'A FARMER represents God, and the VINEYARD represents his chosen people' or . = 'A FARMER represents God, and the VINEYARD represents his chosen people')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>h4</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>

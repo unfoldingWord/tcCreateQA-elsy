@@ -54,9 +54,7 @@ public class ExpandAllScriptureToggle {
 				WebUI.delay(1)
 			}
 		}
-		else {
-			return myState
-		}
+		
 		if (!drawerOpen) {
 			WebUI.click(findTestObject('Page_tC Create/button_DrawerClose'))
 			WebUI.waitForElementVisible(findTestObject('Object Repository/Page_tC Create/Hamburger Menu Button'), 5)

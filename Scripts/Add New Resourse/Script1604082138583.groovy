@@ -36,9 +36,16 @@ WebUI.click(findTestObject('Page_tC Create/Add new resource objects/div_en - Eng
 WebUI.click(findTestObject('Page_tC Create/Add new resource objects/span_en_tn_57-TIT.tsv'))
 
 //Add steps to validate if PSV is on
-CustomKeywords.'com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScripture'('test')
-
+def buttonstate = CustomKeywords.'com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScripture'('test')
+System.out.println(" the state of the button is"+ buttonstate )
 WebUI.delay(1)
+
+ if (buttonstate == "off")
+ {
+ CustomKeywords.'com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScripture'('on')
+ }
+ else
+ {
 
 WebUI.scrollToElement(findTestObject('Page_tC Create/Add new resource objects/h6_TIT 1intro'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -86,6 +93,6 @@ if (WebUI.verifyElementChecked(findTestObject('Object Repository/Page_tC Create/
 } else {
     System.out.println('Resource unchecked')
 }
-
+ }
 WebUI.closeBrowser()
 
