@@ -46,6 +46,8 @@ WebUI.delay(1)
  }
  else
  {
+	 System.out.println("Parallel scripture viewer is ON")
+ }
 
 WebUI.scrollToElement(findTestObject('Page_tC Create/Add new resource objects/h6_TIT 1intro'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -93,6 +95,6 @@ if (WebUI.verifyElementChecked(findTestObject('Object Repository/Page_tC Create/
 } else {
     System.out.println('Resource unchecked')
 }
- }
-WebUI.closeBrowser()
+ 
+//WebUI.closeBrowser()
 
