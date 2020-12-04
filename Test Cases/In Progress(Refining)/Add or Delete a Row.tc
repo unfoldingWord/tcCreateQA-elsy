@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Add New Resourse</name>
-   <tag>#322</tag>
+   <name>Add or Delete a Row</name>
+   <tag></tag>
    <comment></comment>
-   <testCaseGuid>daa37d56-ac00-4fbb-8235-b9f6a1851dcf</testCaseGuid>
+   <testCaseGuid>b19cd214-0dd9-44c8-84d1-9e12b8fca769</testCaseGuid>
 </TestCaseEntity>

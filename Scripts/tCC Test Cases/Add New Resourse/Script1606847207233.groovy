@@ -77,7 +77,7 @@ if (WebUI.verifyElementChecked(findTestObject('Object Repository/Page_tC Create/
 
     WebUI.delay(2)
 
-    //WebUI.click(findTestObject('Object Repository/Page_tC Create/Add new resource objects/Header_Unlocked Literal Bible - Hindi v5')) // check the new Resource Header
+ // check the new Resource Header
     if (WebUI.verifyElementVisible(findTestObject('Object Repository/Page_tC Create/Add new resource objects/Header_Unlocked Literal Bible - Hindi v5'), 
         FailureHandling.CONTINUE_ON_FAILURE)) {
         System.out.println('New Resource Header Present in the Scripture Viewer')
@@ -85,16 +85,77 @@ if (WebUI.verifyElementChecked(findTestObject('Object Repository/Page_tC Create/
         if (WebUI.verifyElementVisible(findTestObject('Object Repository/Page_tC Create/Add new resource objects/Hindi ULB Text'), 
             FailureHandling.CONTINUE_ON_FAILURE)) //verify the text is loaded
         {
-            System.out.println(' New Resource Text is Present in the Scripture Viewer')
+            System.out.println(' New Resource Text added by a Relative path is Present in the Scripture Viewer')
         } else {
-            System.out.println('Error:New Resource Text is not present in the Scripture Viewer')
+            System.out.println('Error:New Resource Text added by a Relative path is not present in the Scripture Viewer')
         }
     } else {
-        System.out.println('Error: New Resource is not Present in the Scripture Viewer')
+        System.out.println('Error: New Resource added by a Relative path is not Present in the Scripture Viewer')
     }
 } else {
     System.out.println('Resource unchecked')
 }
- 
-//WebUI.closeBrowser()
+ //-------------checking for a Url-----
+WebUI.click(findTestObject('Object Repository/Page_tC Create/Add new resource objects/button_Manage Versions'))
+
+WebUI.click(findTestObject('Page_tC Create/Add new resource objects/input_Resource Path_resourceUrl'))
+
+WebUI.setText(findTestObject('Page_tC Create/Add new resource objects/input_Resource Path_resourceUrl'), 'https://git.door43.org/ru_gl/ru_rlob' // enter the URL
+	)
+
+//https://git.door43.org/ru_gl/ru_rlob
+WebUI.click(findTestObject('Object Repository/Page_tC Create/Add new resource objects/button_Add_Resource Path'))
+
+// check if the Resource is checked
+if (WebUI.verifyElementChecked(findTestObject('Object Repository/Page_tC Create/Add new resource objects/input_unfoldingWord Simplified Text-Russian check box'),
+	1)) {
+	//click out of the box to see the PSV
+	WebDriver driver = DriverFactory.getWebDriver()
+
+	Actions action = new Actions(driver)
+
+	action.sendKeys(Keys.ESCAPE).build().perform()
+
+	WebUI.delay(2)
+
+ // check the new Resource Header
+	if (WebUI.verifyElementVisible(findTestObject('Object Repository/Page_tC Create/Add new resource objects/span_RLOB v1'),
+		FailureHandling.CONTINUE_ON_FAILURE)) {
+		System.out.println('New Resource Header Present in the Scripture Viewer')
+
+		if (WebUI.verifyElementVisible(findTestObject('Object Repository/Page_tC Create/Add new resource objects/div_11-russian text'),
+			FailureHandling.CONTINUE_ON_FAILURE)) //verify the text is loaded
+		{
+			System.out.println(' New Resource Text added by a URL is Present in the Scripture Viewer')
+		} else {
+			System.out.println('Error:New Resource Text added by a URL is not present in the Scripture Viewer')
+		}
+	} else {
+		System.out.println('Error: New Resource added by a URL is not Present in the Scripture Viewer')
+	}
+} else {
+	System.out.println('Resource unchecked')
+}
+// ---------check other books--------
+WebUI.delay(2)
+//WebUI.scrollToElement(findTestObject('Object Repository/Page_tC Create/Hamburger Menu Button'), 2)
+//WebUI.click(findTestObject('Object Repository/Page_tC Create/Hamburger Menu Button'))
+try {
+	WebUI.click(findTestObject('Object Repository/Page_tC Create/Hamburger Menu Button'), FailureHandling.STOP_ON_FAILURE)
+} catch (Exception e) {
+	WebUI.scrollToElement(findTestObject('Object Repository/Page_tC Create/chip_Repo'), 2)
+	WebUI.click(findTestObject('Page_tC Create/button_DrawerOpen'), FailureHandling.STOP_ON_FAILURE)
+}
+WebUI.click(findTestObject('Object Repository/Page_tC Create/Add new resource objects/span_en_tn_01-GEN.tsv'))
+WebUI.click(findTestObject('Object Repository/Page_tC Create/button_DrawerClose'))
+WebUI.delay(1)
+//validate
+if(WebUI.verifyElementVisible(findTestObject('Object Repository/Page_tC Create/Add new resource objects/h6_GEN frontintro'), FailureHandling.CONTINUE_ON_FAILURE))
+{
+	System.out.println('Other Books which do not have the added resource did not crash ')
+}
+else{
+	System.out.println('Other Books which do not have the added resource crashed ')
+}
+WebUI.closeBrowser()
 

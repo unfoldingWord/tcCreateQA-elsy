@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Add New Resourse</name>
-   <tag>#322</tag>
+   <name>Expand chapter</name>
+   <tag></tag>
    <comment></comment>
-   <testCaseGuid>daa37d56-ac00-4fbb-8235-b9f6a1851dcf</testCaseGuid>
+   <testCaseGuid>53598747-54c1-42a2-863c-87dd4b4f7243</testCaseGuid>
 </TestCaseEntity>
