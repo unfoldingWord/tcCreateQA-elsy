@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Delete</name>
+   <tag></tag>
+   <elementGuidId>591eaa54-6f32-4761-8ec8-2a4bf3be5734</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'Delete' or . = 'Delete')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.MuiButtonBase-root-696.MuiButton-root-2401.MuiButton-text-2403.MuiButton-textSecondary-2405 > span.MuiButton-label-2402</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::span[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiButton-label-2402</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Delete</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;MuiDialog-root-2343&quot;]/div[@class=&quot;MuiDialog-container-2346 MuiDialog-scrollPaper-2344&quot;]/div[@class=&quot;MuiPaper-root-2360 MuiDialog-paper-2347 MuiDialog-paperScrollPaper-2348 MuiDialog-paperWidthSm-2352 MuiPaper-elevation24-2387 MuiPaper-rounded-2361&quot;]/div[@class=&quot;MuiDialogActions-root-2399 MuiDialogActions-spacing-2400&quot;]/button[@class=&quot;MuiButtonBase-root-696 MuiButton-root-2401 MuiButton-text-2403 MuiButton-textSecondary-2405&quot;]/span[@class=&quot;MuiButton-label-2402&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::span[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OccurrenceNote:'])[1]/following::span[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Delete']/parent::*</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[3]/button[2]/span</value>
+   </webElementXpaths>
+</WebElementEntity>

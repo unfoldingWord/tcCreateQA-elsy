@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_unfoldingWord</name>
+   <name>button_Titus 11_Expand chapter button</name>
    <tag></tag>
-   <elementGuidId>4fe63bab-674a-4a7d-8311-c0b0aa7c0ea3</elementGuidId>
+   <elementGuidId>7ecfc524-d090-4017-9225-3fe9e10c77f4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='root']/div/div/div/div/div[2]/div/ul/ul/div[2]/div</value>
+         <value>(//button[@type='button'])[19]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'unfoldingWord' or . = 'unfoldingWord')]</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button MuiListItem-alignItemsFlexStart MuiListItem-secondaryAction</value>
+      <value>MuiButtonBase-root-482 MuiIconButton-root-474 jss462 MuiIconButton-sizeSmall-480</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,64 +43,64 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>role</name>
+      <name>type</name>
       <type>Main</type>
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-disabled</name>
+      <name>aria-label</name>
       <type>Main</type>
-      <value>false</value>
+      <value>Expand Chapter</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-test</name>
+      <name>title</name>
       <type>Main</type>
-      <value>organization-item</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>unfoldingWord</value>
+      <value>Expand Chapter</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[1]/div[@class=&quot;MuiPaper-root MuiPaper-elevation1 MuiPaper-rounded&quot;]/div[@class=&quot;jss11&quot;]/div[2]/div[@class=&quot;jss12&quot;]/ul[@class=&quot;MuiList-root jss33 MuiList-padding&quot;]/ul[@class=&quot;MuiList-root MuiList-padding&quot;]/div[@class=&quot;MuiListItem-container&quot;]/div[@class=&quot;MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button MuiListItem-alignItemsFlexStart MuiListItem-secondaryAction&quot;]</value>
+      <value>id(&quot;header-1-1-rtc9&quot;)/div[@class=&quot;jss256&quot;]/div[@class=&quot;jss259&quot;]/div[@class=&quot;MuiGrid-root-328 jss326 MuiGrid-container-329 MuiGrid-align-items-xs-center-337 MuiGrid-justify-xs-space-between-348&quot;]/div[@class=&quot;MuiGrid-root-328 MuiGrid-item-330&quot;]/div[@class=&quot;MuiGrid-root-328 jss461 MuiGrid-container-329 MuiGrid-align-items-xs-center-337 MuiGrid-justify-xs-flex-end-347&quot;]/span[3]/button[@class=&quot;MuiButtonBase-root-482 MuiIconButton-root-474 jss462 MuiIconButton-sizeSmall-480&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[19]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div/div/div/div/div[2]/div/ul/ul/div[2]/div</value>
+      <value>//div[@id='header-1-1-rtc9']/div/div/div/div[2]/div/span[3]/button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='translate_test'])[1]/following::div[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Titus 1:1'])[1]/following::button[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/preceding::div[5]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Should, may, must'])[2]/following::button[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//ul/div[2]/div</value>
+      <value>//span[3]/button</value>
    </webElementXpaths>
 </WebElementEntity>

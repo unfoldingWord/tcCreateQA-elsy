@@ -1,92 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Organization unfoldingWord</name>
+   <name>h1_Almighty article on DCS</name>
    <tag></tag>
-   <elementGuidId>b6894d03-e6ec-4f12-aa12-a0c8615e2c35</elementGuidId>
+   <elementGuidId>f8caa739-9080-411f-9c28-bc942e4d7526</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//div[@id='root']/div/div/div/div/div[2]/div/ul/ul/div[2]/div/div[2]/span</value>
+         <value>//h1[@id='user-content-almighty']</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'unfoldingWord' or . = 'unfoldingWord')]</value>
+         <value>//h1[(contains(text(), 'Almighty') or contains(., 'Almighty'))]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#user-content-almighty</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>h1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>id</name>
       <type>Main</type>
-      <value>MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock</value>
+      <value>user-content-almighty</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>unfoldingWord</value>
+      <value>Almighty</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[1]/div[@class=&quot;MuiPaper-root MuiPaper-elevation1 MuiPaper-rounded&quot;]/div[@class=&quot;jss11&quot;]/div[2]/div[@class=&quot;jss12&quot;]/ul[@class=&quot;MuiList-root jss33 MuiList-padding&quot;]/ul[@class=&quot;MuiList-root MuiList-padding&quot;]/div[@class=&quot;MuiListItem-container&quot;]/div[@class=&quot;MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button MuiListItem-alignItemsFlexStart MuiListItem-secondaryAction&quot;]/div[@class=&quot;MuiListItemText-root MuiListItemText-multiline&quot;]/span[@class=&quot;MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock&quot;]</value>
+      <value>id(&quot;user-content-almighty&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//div[@id='root']/div/div/div/div/div[2]/div/ul/ul/div[2]/div/div[2]/span</value>
+      <value>//h1[@id='user-content-almighty']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='translate_test'])[1]/following::span[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='History'])[1]/following::h1[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/preceding::span[6]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Blame'])[1]/following::h1[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/preceding::span[8]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Facts:'])[1]/preceding::h1[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='unfoldingWord']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Translation Suggestions:'])[1]/preceding::h1[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Almighty']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div[2]/span</value>
+      <value>//h1</value>
    </webElementXpaths>
 </WebElementEntity>

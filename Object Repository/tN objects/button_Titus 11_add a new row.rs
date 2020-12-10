@@ -6,19 +6,19 @@
    <elementGuidId>b923170a-aab1-49b5-be84-48c7009fa6e2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'button' and @title = 'Add a Row']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.MuiButtonBase-root-482.MuiIconButton-root-474.jss500</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'MuiButtonBase-root-482 MuiIconButton-root-474 jss500' and @type = 'button' and @title = 'Add a Row']</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>(//button[@type='button'])[20]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,7 +28,7 @@
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>

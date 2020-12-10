@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Organization unfoldingWord</name>
+   <name>chip_English - unfoldingWorden_twElsyLambert-tc-create-1</name>
    <tag></tag>
-   <elementGuidId>b6894d03-e6ec-4f12-aa12-a0c8615e2c35</elementGuidId>
+   <elementGuidId>1ba0092e-14d2-459f-9d31-cb3b370d7b90</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='root']/div/div/div/div/div[2]/div/ul/ul/div[2]/div/div[2]/span</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'unfoldingWord' or . = 'unfoldingWord')]</value>
+         <value>//div[@id='root']/div/div/div/div/div[2]/div/span/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -27,66 +24,73 @@
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>title</name>
       <type>Main</type>
-      <value>MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock</value>
+      <value>Go to Article</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>unfoldingWord</value>
+      <value>English - unfoldingWord/en_tw/ElsyLambert-tc-create-1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[1]/div[@class=&quot;MuiPaper-root MuiPaper-elevation1 MuiPaper-rounded&quot;]/div[@class=&quot;jss11&quot;]/div[2]/div[@class=&quot;jss12&quot;]/ul[@class=&quot;MuiList-root jss33 MuiList-padding&quot;]/ul[@class=&quot;MuiList-root MuiList-padding&quot;]/div[@class=&quot;MuiListItem-container&quot;]/div[@class=&quot;MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button MuiListItem-alignItemsFlexStart MuiListItem-secondaryAction&quot;]/div[@class=&quot;MuiListItemText-root MuiListItemText-multiline&quot;]/span[@class=&quot;MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock&quot;]</value>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[1]/div[@class=&quot;jss50&quot;]/div[@class=&quot;MuiGrid-root jss52 MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-wrap-xs-nowrap&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12&quot;]/div[@class=&quot;MuiButtonBase-root MuiChip-root jss53 MuiChip-outlined MuiChip-clickable MuiChip-deletable&quot;]/span[@class=&quot;MuiChip-label&quot;]/span[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div/div/div/div/div[2]/div/ul/ul/div[2]/div/div[2]/span</value>
+      <value>//div[@id='root']/div/div/div/div/div[2]/div/span/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='translate_test'])[1]/following::span[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='English - unfoldingWord/en_tw/master'])[1]/following::span[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/preceding::span[6]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='en_tw'])[1]/following::span[7]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/preceding::span[8]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Almighty'])[1]/preceding::span[13]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='unfoldingWord']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Almighty'])[2]/preceding::span[13]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='English - unfoldingWord/en_tw/ElsyLambert-tc-create-1']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div[2]/span</value>
+      <value>//div[2]/div/span/span</value>
    </webElementXpaths>
 </WebElementEntity>

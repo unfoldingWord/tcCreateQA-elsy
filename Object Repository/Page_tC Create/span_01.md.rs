@@ -6,16 +6,15 @@
    <elementGuidId>4e65c0ae-5a65-4a1a-8d9c-83187fc17374</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'MuiTypography-root MuiListItemText-primary MuiTypography-body2 MuiTypography-displayBlock' and (text() = '01.md' or . = '01.md')]</value>
+         <value>//*[(text() = '01.md' or . = '01.md')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='root']/div/div/div/div/div[2]/div/div/div/div/ul/div[8]/div[2]/div/div/ul/div[3]/div[2]/div/div/ul/div/div/div[2]/span</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -28,7 +27,7 @@
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>

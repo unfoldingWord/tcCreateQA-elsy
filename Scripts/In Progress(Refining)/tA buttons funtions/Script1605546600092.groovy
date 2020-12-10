@@ -38,7 +38,7 @@ WebUI.click(findTestObject('Object Repository/Page_tC Create/p_God is my rock. I
 
 WebUI.setText(findTestObject('Object Repository/Page_tC Create/div_God is my rock. I take refuge in him.  _41a8ce'), '<blockquote style="">\n  <p style="">God is my rock. I take refuge in him.<br>\n  He is my shield, the <strong>horn</strong> of my salvation, my stronghold, and my refuge,<br>\n  the one who saves me from violence. (2 Samuel 22:3 ULT)</p>\n</blockquote>')
 
-WebUI.click(findTestObject('Page_tC Create/button_English - unfoldingWorden_taElsyLambert-tc-create-1_MuiButtonBase-root MuiIconButton-root jss56'))
+WebUI.click(findTestObject('Page_tC Create/button_Blocks'))
 
 WebUI.click(findTestObject('Page_tC Create/svg_English - unfoldingWorden_taElsyLambert-tc-create-1_MuiSvgIcon-root'))
 

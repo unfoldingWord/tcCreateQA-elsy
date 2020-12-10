@@ -6,12 +6,16 @@
    <elementGuidId>d89cf9f3-ff98-420f-a902-1c3c20e552df</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//h1[@id='almighty'])[2]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.MuiGrid-root.jss63.MuiGrid-item.MuiGrid-grid-xs-12 > div.jss64 > div.jss65 > #almighty</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[2]/div/div/h1</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(contains(text(), 'Almighty') or contains(., 'Almighty'))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -24,7 +28,7 @@
       <value>h1</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
@@ -32,7 +36,7 @@
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Almighty</value>

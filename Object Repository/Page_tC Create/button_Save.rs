@@ -6,14 +6,18 @@
    <elementGuidId>4398c61b-49a9-4899-b44a-9687bb935958</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(//button[@type='button'])[4]</value>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and @aria-label = 'Save']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -44,11 +48,11 @@
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-label</name>
       <type>Main</type>
-      <value>Blocks</value>
+      <value>Save</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

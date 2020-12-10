@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button__Close-Columns</name>
+   <name>p_rmpx</name>
    <tag></tag>
-   <elementGuidId>b2a2f176-9702-4d74-8095-15497af400b5</elementGuidId>
+   <elementGuidId>0dc1a4c0-aeea-4742-872f-259c8b0bc31f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.MuiButtonBase-root-163.MuiIconButton-root-155.jss107</value>
+         <key>BASIC</key>
+         <value>//p[(text() = 'rmpx' or . = 'rmpx')]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'button' and @aria-label = 'Close']</value>
+         <key>CSS</key>
+         <value>div.cell-3-4.jss252 > div.jss257 > div.jss254 > div.jss264 > div.jss265 > p</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[74]</value>
+         <value>//tr[@id='MUIDataTableBodyRow-3']/td[2]/div/div/div/div[2]/div/div/p</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -25,83 +25,69 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
+      <value>p</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>text</name>
       <type>Main</type>
-      <value>MuiButtonBase-root-163 MuiIconButton-root-155 jss107</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tabindex</name>
-      <type>Main</type>
-      <value>0</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>button</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-label</name>
-      <type>Main</type>
-      <value>Close</value>
+      <value>rmpx</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[@class=&quot;MuiPopover-root-173&quot;]/div[@class=&quot;MuiPaper-root-67 MuiPopover-paper-174 MuiPaper-elevation2-72 MuiPaper-rounded-68&quot;]/button[@class=&quot;MuiButtonBase-root-163 MuiIconButton-root-155 jss107&quot;]</value>
+      <value>id(&quot;MUIDataTableBodyRow-3&quot;)/td[@class=&quot;MuiTableCell-root-214 MuiTableCell-body-216 jss240&quot;]/div[@class=&quot;jss240&quot;]/div[@class=&quot;cell-3-4 jss252&quot;]/div[@class=&quot;jss257&quot;]/div[@class=&quot;jss254&quot;]/div[@class=&quot;jss264&quot;]/div[@class=&quot;jss265&quot;]/p[1]</value>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[74]</value>
+      <value>//tr[@id='MUIDataTableBodyRow-3']/td[2]/div/div/div/div[2]/div/div/p</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ID'])[9]/following::p[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[2]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='empty'])[3]/following::p[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Show Columns'])[1]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SupportReference'])[8]/preceding::p[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='rowHeader'])[2]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='empty'])[4]/preceding::p[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='rmpx']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div[3]/button</value>
+      <value>//tr[4]/td[2]/div/div/div/div[2]/div/div/p</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,93 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Add</name>
+   <name>td_13</name>
    <tag></tag>
-   <elementGuidId>abad3808-64d9-4192-812a-3a04260cac75</elementGuidId>
+   <elementGuidId>e4a1bf2d-da29-4e0f-9a45-3082e548264e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>button.MuiButtonBase-root-482.MuiButton-root-2255.MuiButton-text-2257.MuiButton-textSecondary-2259</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[75]</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'button' and (text() = 'Add' or . = 'Add')]</value>
+         <value>//tr[@id='1:3']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>MuiButtonBase-root-482 MuiButton-root-2255 MuiButton-text-2257 MuiButton-textSecondary-2259</value>
+      <value>jss2122</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>tabindex</name>
+      <name>dir</name>
       <type>Main</type>
-      <value>0</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>button</value>
+      <value>auto</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Add</value>
+      <value>1:3 Then, at the right time, he communicated his plan through this message that he trusted me to preach. I do this in order to obey the command of God, who saves us.
+</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[@class=&quot;MuiDialog-root-2197&quot;]/div[@class=&quot;MuiDialog-container-2200 MuiDialog-scrollPaper-2198&quot;]/div[@class=&quot;MuiPaper-root-2214 MuiDialog-paper-2201 MuiDialog-paperScrollPaper-2202 MuiDialog-paperWidthSm-2206 MuiPaper-elevation24-2241 MuiPaper-rounded-2215&quot;]/div[@class=&quot;MuiDialogActions-root-2253 MuiDialogActions-spacing-2254&quot;]/button[@class=&quot;MuiButtonBase-root-482 MuiButton-root-2255 MuiButton-text-2257 MuiButton-textSecondary-2259&quot;]</value>
+      <value>id(&quot;header-1-1-rtc9&quot;)/div[@class=&quot;jss256&quot;]/div[@class=&quot;jss259&quot;]/div[@id=&quot;wrapY&quot;]/table[@class=&quot;MuiTable-root-501 jss324&quot;]/tbody[@class=&quot;MuiTableBody-root-510 jss325&quot;]/tr[@id=&quot;1:3&quot;]/td[@class=&quot;MuiTableCell-root-513 MuiTableCell-body-515 jss512&quot;]/div[@class=&quot;jss2122&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[75]</value>
+      <value>//tr[@id='1:3']/td[3]/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Savior'])[1]/following::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='OccurrenceNote:'])[1]/following::button[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='our'])[1]/following::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/div[3]/button[2]</value>
+      <value>//div[2]/table/tbody/tr[3]/td[3]/div</value>
    </webElementXpaths>
 </WebElementEntity>

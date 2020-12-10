@@ -15,18 +15,18 @@
       <guid>d5a7ca85-2ec7-436d-b07d-13c3fe08ecde</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/In Progress(Refining)/Parallel Scripture viewer</testCaseId>
+      <testCaseId>Test Cases/tCC Test Cases/tN_Parallel Scripture viewer</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>3277f785-6f62-4cfa-b995-4b332fc07336</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/tCC Test Cases/Link to Organization page</testCaseId>
+      <testCaseId>Test Cases/tCC Test Cases/tCC_Link to Organization page</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>28f36bb9-ea0f-48b8-b4b9-26d613a4daf7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/tCC Test Cases/undo text in tN Editor(FF)</testCaseId>
+      <testCaseId>Test Cases/tCC Test Cases/tN_undo text in tN Editor(FF)</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
