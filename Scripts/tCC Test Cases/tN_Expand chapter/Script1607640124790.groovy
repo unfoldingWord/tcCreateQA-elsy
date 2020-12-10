@@ -90,3 +90,4 @@ else{
 	System.out.println("Chapter is expanded but should be collapsed")
 	
 }
+WebUI.closeBrowser()
