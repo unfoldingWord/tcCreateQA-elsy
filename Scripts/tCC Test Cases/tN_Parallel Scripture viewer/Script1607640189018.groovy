@@ -15,6 +15,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+
+CustomKeywords.'com.tccreate.keywords.WriteToFile.writeTofilename'('tN-Parallel Scripture Viewer')
+
+CustomKeywords.'com.helper.login.TimeDate.getTimeDate'()
 
 CustomKeywords.'com.helper.login.loginhelper.logintoapp'()
 
@@ -39,29 +44,29 @@ CustomKeywords.'com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScriptur
 
 //Checks ULT in the scripture pane
 if (WebUI.verifyElementPresent(findTestObject('Page_tC Create/span_unfoldingWord Literal Text v14'), 5)) {
-    System.out.println('ULT is visible 1')
+    KeywordUtil.logInfo('ULT is visible 1')
 } else {
-    System.out.println('Cannot find ULT in PSV')
+   KeywordUtil.logInfo('Cannot find ULT in PSV')
 }
 
 //Checks UST in the scripture pane
 if (WebUI.verifyElementPresent(findTestObject('Page_tC Create/span_unfoldingWord Simplified Text v14'), 5)) {
-    System.out.println('UST is visible')
+ KeywordUtil.logInfo('UST is visible')
 } else {
-    System.out.println('Cannot find UST in PSV')
+    KeywordUtil.logInfo('Cannot find UST in PSV')
 }
 
-System.out.println('ParallelScripture is present')
+KeywordUtil.logInfo('ParallelScripture is present')
 
 //turn toggle Off
 CustomKeywords.'com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScripture'('"off"')
 
-System.out.println('button is toggled')
+KeywordUtil.logInfo('button is toggled')
 
 if (WebUI.verifyElementNotPresent(findTestObject('Page_tC Create/span_unfoldingWord Literal Text v14'), 3)) {
-    System.out.println('ULT is not visible as expected')
+    KeywordUtil.logInfo('ULT is not visible as expected')
 } else {
-    System.out.println('PSV is visible when it should not be')
+   KeywordUtil.logInfo('PSV is visible when it should not be')
 }
 
 WebUI.closeBrowser()

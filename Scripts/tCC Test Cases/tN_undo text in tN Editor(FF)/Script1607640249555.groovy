@@ -19,6 +19,11 @@ import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.interactions.Action as Action
 import org.openqa.selenium.interactions.Actions as Actions
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+
+CustomKeywords.'com.tccreate.keywords.WriteToFile.writeTofilename'('tN-undo editing')
+
+CustomKeywords.'com.helper.login.TimeDate.getTimeDate'()
 
 CustomKeywords.'com.helper.login.loginhelper.logintoapp'()
 
@@ -49,5 +54,5 @@ WebDriver driver = DriverFactory.getWebDriver()
 
 
 WebUI.sendKeys(findTestObject('Object Repository/Page_tC Create/div_Introduction to TitusPart 1'), Keys.chord(Keys.COMMAND, 'z'))
-System.out.println("Text is cleared successfully by undo action")
+KeywordUtil.logInfo("Text is cleared successfully by undo action")
 WebUI.closeBrowser()

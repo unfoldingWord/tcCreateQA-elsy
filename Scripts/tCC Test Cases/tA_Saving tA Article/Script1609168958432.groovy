@@ -15,7 +15,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
+CustomKeywords.'com.tccreate.keywords.WriteToFile.writeTofilename'('tA-Save')
+
+CustomKeywords.'com.helper.login.TimeDate.getTimeDate'()
 
 CustomKeywords.'com.helper.login.loginhelper.logintoapp'()
 
@@ -40,29 +44,36 @@ WebUI.click(findTestObject('Object Repository/Page_tC Create/div_A FARMER repres
 WebUI.sendKeys(findTestObject('Object Repository/tA/div_A FARMER represents God- Edit box'), ' test edit by the test script')
 
 WebUI.click(findTestObject('Page_tC Create/button_Save'))
+
 //validate
 //save button is garyed out
 WebUI.delay(2)
-if (WebUI.verifyElementNotClickable(findTestObject('Page_tC Create/button_Save'), FailureHandling.CONTINUE_ON_FAILURE))
-{
-	System.out.println(" Save button is greyed out as expected")
-}
-else{
-	System.out.println(" Error: Save button is still enabled")
 
+if (WebUI.verifyElementNotClickable(findTestObject('Page_tC Create/button_Save'), FailureHandling.CONTINUE_ON_FAILURE)) {
+    //System.out.println(' Save button is greyed out as expected')
+    KeywordUtil.logInfo(' \n Save button is greyed out as expected' // System.out.println(' Error: Save button is still enabled')
+        )
+} else {
+    KeywordUtil.logInfo('\n  Error: Save button is still enabled')
 }
+
 //Validate changes on DCS Repo
 WebUI.click(findTestObject('Object Repository/tA/Chip_English - unfoldingWorden_taElsyLambert-tc-create-1'))
-WebUI.delay(2)
-WebUI.switchToWindowIndex(1)
-if (WebUI.getText(findTestObject('Object Repository/tA/h4_dcs article')).contains('test edit by the test script'))
-{
-	System.out.println("The edits are saved on the DCS Repo File")
-}
-else{
-	System.out.println("The edits are not found on the DCS Repo File")
-}
-WebUI.switchToWindowIndex(0)
-WebUI.closeBrowser()
 
+WebUI.delay(2)
+
+WebUI.switchToWindowIndex(1)
+
+if (WebUI.getText(findTestObject('Object Repository/tA/h4_dcs article')).contains('test edit by the test script')) {
+    KeywordUtil.logInfo('\n The edits are saved on the DCS Repo File')
+} else {
+    KeywordUtil.logInfo('\n The edits are not found on the DCS Repo File')
+}
+
+WebUI.switchToWindowIndex(0)
+
+KeywordUtil.logInfo('\n TEST PASSED:Edits are saved successfully in tA articles')
+
+//String file_name = "/Users/elsylitsonlambert/Documents/Test Results/output.txt"
+WebUI.closeBrowser()
 

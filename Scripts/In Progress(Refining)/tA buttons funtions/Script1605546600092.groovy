@@ -15,32 +15,61 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+
+CustomKeywords.'com.tccreate.keywords.WriteToFile.writeTofilename'('tA-buttons')
+
+CustomKeywords.'com.helper.login.TimeDate.getTimeDate'()
 
 CustomKeywords.'com.helper.login.loginhelper.logintoapp'()
 
-WebUI.click(findTestObject('Object Repository/Page_tC Create/div_unfoldingWord'))
+WebUI.click(findTestObject('Page_tC Create/Organization unfoldingWord'))
 
-WebUI.click(findTestObject('Page_tC Create/div_unfoldingWord Translation Academyunfold_cb119f'))
+WebUI.click(findTestObject('Object Repository/Page_tC Create/div_unfoldingWord Translation Academyunfold_cb119f'))
 
-WebUI.click(findTestObject('Object Repository/Page_tC Create/div_Select Language'))
+WebUI.click(findTestObject('Object Repository/Page_tC Create/p_Select Language'))
 
-WebUI.setText(findTestObject('Page_tC Create/input_Step4Select Your Language_react-selec_aae5da'), 'en')
+WebUI.setText(findTestObject('Object Repository/Page_tC Create/input_Step4Select Your Language_react-selec_aae5da'), 'en')
 
-WebUI.click(findTestObject('Page_tC Create/div_en - English - English (Europe Gateway)'))
+WebUI.click(findTestObject('Object Repository/Page_tC Create/div_en - English - English (Europe Gateway)'))
 
 WebUI.click(findTestObject('Page_tC Create/span_translate'))
 
-WebUI.click(findTestObject('Object Repository/Page_tC Create/span_bita-animals'))
+WebUI.click(findTestObject('Object Repository/Page_tC Create/span_bita-farming'))
 
 WebUI.click(findTestObject('Object Repository/Page_tC Create/span_01.md'))
-
-WebUI.click(findTestObject('Object Repository/Page_tC Create/p_God is my rock. I take refuge in him.  He_f0de96'))
-
-WebUI.setText(findTestObject('Object Repository/Page_tC Create/div_God is my rock. I take refuge in him.  _41a8ce'), '<blockquote style="">\n  <p style="">God is my rock. I take refuge in him.<br>\n  He is my shield, the <strong>horn</strong> of my salvation, my stronghold, and my refuge,<br>\n  the one who saves me from violence. (2 Samuel 22:3 ULT)</p>\n</blockquote>')
-
-WebUI.click(findTestObject('Page_tC Create/button_Blocks'))
-
-WebUI.click(findTestObject('Page_tC Create/svg_English - unfoldingWorden_taElsyLambert-tc-create-1_MuiSvgIcon-root'))
+//section button
+WebUI.click(findTestObject('Object Repository/tA/button_Sections'))
+//verify if collapse button is visible
+if(WebUI.verifyElementNotPresent(findTestObject('Object Repository/tA/div_A FARMER represents God, collapse tab'), 2, FailureHandling.CONTINUE_ON_FAILURE))
+{
+	KeywordUtil.logInfo('Collapsable Sections are not visible and is expanded as expected \n')
+}
+else
+{
+	KeywordUtil.logInfo('Error: Section is nt expanded \n')
+}
+if(WebUI.getText(findTestObject('Object Repository/tA/div_My well beloved had a vineyard')).contains("My well beloved had a vineyard"))
+{
+	KeywordUtil.logInfo('Section is expanded as expected and text is visible \n')
+}
+else{
+	KeywordUtil.logInfo('Error:Section is not Expanded \n')
+}
+//blocks button
+WebUI.click(findTestObject('Object Repository/tA/button_Blocks'))
+//verify
+//
+//Preview button
+WebUI.click(findTestObject('Object Repository/tA/button_Preview'))
+//verify if MD char is visible in the block
+if(WebUI.getText(findTestObject('Object Repository/tA/block in preview mode')).contains(">"))
+{
+	KeywordUtil.logInfo('Preview mode is ON as expected \n')
+}
+else{
+	KeywordUtil.logInfo('Error:Preview mode is not seen \n')
+}
 
 WebUI.closeBrowser()
 

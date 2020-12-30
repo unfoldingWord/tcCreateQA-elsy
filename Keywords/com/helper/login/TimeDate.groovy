@@ -17,24 +17,21 @@ import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-//import java.lang.*;
-//import java.io.*;
+import java.sql.Timestamp;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+
 
 import internal.GlobalVariable
 
-public class Results{
+public class TimeDate {
+	private static final SimpleDateFormat sdf = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss");
+	@Keyword
+	public void getTimeDate()
+	{
+	Timestamp timestamp = new Timestamp(System.currentTimeMillis());
+	KeywordUtil.logInfo("Time at which the test run:" + timestamp);
 
-
-	public static void main(String[] args) throws Exception{
-
-		// create file
-		FileOutputStream f = new FileOutputStream("file.txt");
-
-		System.setOut(new PrintStream(f));
-
-		// this text will get redirected to file
-		//System.out.println("This is System class!!!");
-	}
-
-
+}
 }

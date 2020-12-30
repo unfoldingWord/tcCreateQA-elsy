@@ -15,6 +15,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+
+CustomKeywords.'com.tccreate.keywords.WriteToFile.writeTofilename'('tW-Save')
+
+CustomKeywords.'com.helper.login.TimeDate.getTimeDate'()
 
 CustomKeywords.'com.helper.login.loginhelper.logintoapp'()
 
@@ -44,10 +49,10 @@ WebUI.click(findTestObject('Object Repository/Page_tC Create/button_Save'))
 WebUI.delay(2)
 if (WebUI.verifyElementNotClickable(findTestObject('Page_tC Create/button_Save'), FailureHandling.CONTINUE_ON_FAILURE))
 {
-	System.out.println(" Save button is greyed out as expected")
+	KeywordUtil.logInfo(" Save button is greyed out as expected")
 }
 else{
-	System.out.println(" Error: Save button is still enabled")
+	KeywordUtil.logInfo(" Error: Save button is still enabled")
 
 }
 //Validate changes on DCS Repo
@@ -56,10 +61,10 @@ WebUI.delay(2)
 WebUI.switchToWindowIndex(1)
 if (WebUI.getText(findTestObject('Object Repository/tW Objects/h1_Almighty article on DCS')).contains('edits by a test script'))
 {
-	System.out.println("The edits are saved on the DCS Repo File")
+	KeywordUtil.logInfo("The edits are saved on the DCS Repo File")
 }
 else{
-	System.out.println("The edits are not found on the DCS Repo File")
+	KeywordUtil.logInfo("The edits are not found on the DCS Repo File")
 }
 WebUI.switchToWindowIndex(0)
 WebUI.closeBrowser()

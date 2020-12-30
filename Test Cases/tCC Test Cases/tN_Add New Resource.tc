@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>tN_Add New Resourse</name>
+   <name>tN_Add New Resource</name>
    <tag>#322</tag>
    <comment></comment>
    <testCaseGuid>daa37d56-ac00-4fbb-8235-b9f6a1851dcf</testCaseGuid>

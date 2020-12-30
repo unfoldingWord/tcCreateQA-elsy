@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Titus 11_Expand chapter button</name>
+   <name>button_Add</name>
    <tag></tag>
-   <elementGuidId>7ecfc524-d090-4017-9225-3fe9e10c77f4</elementGuidId>
+   <elementGuidId>479672d3-724d-47cb-a803-23b36ecdd6fe</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[19]</value>
+         <value>(//button[@type='button'])[75]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//*[@type = 'button' and (text() = 'Add' or . = 'Add')]</value>
       </entry>
       <entry>
          <key>CSS</key>
+         <value>button.MuiButtonBase-root-482.MuiButton-root-2255.MuiButton-text-2257.MuiButton-textSecondary-2259</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +32,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>MuiButtonBase-root-482 MuiIconButton-root-474 jss462 MuiIconButton-sizeSmall-480</value>
+      <value>MuiButtonBase-root-482 MuiButton-root-2255 MuiButton-text-2257 MuiButton-textSecondary-2259</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,66 +42,52 @@
       <value>0</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-label</name>
+      <name>text</name>
       <type>Main</type>
-      <value>Expand Chapter</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>title</name>
-      <type>Main</type>
-      <value>Expand Chapter</value>
+      <value>Add</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;header-1-1-rtc9&quot;)/div[@class=&quot;jss256&quot;]/div[@class=&quot;jss259&quot;]/div[@class=&quot;MuiGrid-root-328 jss326 MuiGrid-container-329 MuiGrid-align-items-xs-center-337 MuiGrid-justify-xs-space-between-348&quot;]/div[@class=&quot;MuiGrid-root-328 MuiGrid-item-330&quot;]/div[@class=&quot;MuiGrid-root-328 jss461 MuiGrid-container-329 MuiGrid-align-items-xs-center-337 MuiGrid-justify-xs-flex-end-347&quot;]/span[3]/button[@class=&quot;MuiButtonBase-root-482 MuiIconButton-root-474 jss462 MuiIconButton-sizeSmall-480&quot;]</value>
+      <value>/html[1]/body[1]/div[@class=&quot;MuiDialog-root-2197&quot;]/div[@class=&quot;MuiDialog-container-2200 MuiDialog-scrollPaper-2198&quot;]/div[@class=&quot;MuiPaper-root-2214 MuiDialog-paper-2201 MuiDialog-paperScrollPaper-2202 MuiDialog-paperWidthSm-2206 MuiPaper-elevation24-2241 MuiPaper-rounded-2215&quot;]/div[@class=&quot;MuiDialogActions-root-2253 MuiDialogActions-spacing-2254&quot;]/button[@class=&quot;MuiButtonBase-root-482 MuiButton-root-2255 MuiButton-text-2257 MuiButton-textSecondary-2259&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[19]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='header-1-1-rtc9']/div/div/div/div[2]/div/span[3]/button</value>
+      <value>(//button[@type='button'])[75]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Titus 1:1'])[1]/following::button[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Should, may, must'])[2]/following::button[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OccurrenceNote:'])[1]/following::button[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//span[3]/button</value>
+      <value>//div[3]/div/div[3]/button[2]</value>
    </webElementXpaths>
 </WebElementEntity>

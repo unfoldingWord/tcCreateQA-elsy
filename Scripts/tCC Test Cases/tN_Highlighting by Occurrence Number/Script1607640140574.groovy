@@ -19,6 +19,11 @@ import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.interactions.Action as Action
 import org.openqa.selenium.interactions.Actions as Actions
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+
+CustomKeywords.'com.tccreate.keywords.WriteToFile.writeTofilename'('tN-Highlighting by occurrence number')
+
+CustomKeywords.'com.helper.login.TimeDate.getTimeDate'()
 
 CustomKeywords.'com.helper.login.loginhelper.logintoapp'()
 
@@ -49,7 +54,7 @@ WebUI.delay(1)
  else
 
  {
-	 System.out.println("Parallel scripture viewer is ON")
+	 KeywordUtil.logInfo("Parallel scripture viewer is ON")
  }
  //scroll to PSV
 	 WebUI.scrollToElement(findTestObject('Object Repository/tN objects/div_Titus 11'), 2)
@@ -60,15 +65,15 @@ WebUI.delay(1)
 	
 	// copy and paste a OL word to ORiginal Quote text box
 	 def word1 = WebUI.getText(findTestObject('tN objects/word1'))
-	 System.out.println("the word is" + word1)
+	 KeywordUtil.logInfo("the word is" + word1)
 	 
 	 def color_word1 = WebUI.getCSSValue(findTestObject('tN objects/word1'), 'color');
 	 
 	 def backcolor_word1 = WebUI.getCSSValue(findTestObject('tN objects/word1'), "background-color");
 	 
-	 System.out.println(color_word1);
+	 KeywordUtil.logInfo(color_word1);
 	 
-	 System.out.println(backcolor_word1);
+	 KeywordUtil.logInfo(backcolor_word1);
 	 
 	 
 	
@@ -85,13 +90,13 @@ WebUI.delay(1)
 	 
 	 if(!color_word1.equals(backcolor_word1)){
 	 
-	 System.out.println("First Occurrence is highlighted!")
+	KeywordUtil.logInfo("First Occurrence is highlighted!")
 	 
 	 }
 	 
 	 else{
 	 
-	 System.out.println("First Occurrence is not highlighted! or No hightlight at all!")
+	 KeywordUtil.logInfo("First Occurrence is not highlighted! or No hightlight at all!")
 	 }
 	 
 	 //set the occurrence number to 2
@@ -112,13 +117,13 @@ WebUI.delay(1)
 
 	 if(!color_word2.equals(backcolor_word2)){
 	 
-	 System.out.println("Second occcurrence is highlighted!")
+	KeywordUtil.logInfo("Second occcurrence is highlighted!")
 	 
 	 }
 	 
 	 else{
 	 
-	 System.out.println("Text is not highlighted!")
+	 KeywordUtil.logInfo("Text is not highlighted!")
 	 }
 	
 	 //set the occurrence number to -1
@@ -136,13 +141,13 @@ WebUI.delay(1)
 
 	 if(!color_word1.equals(backcolor_word1) && !color_word2.equals(backcolor_word2) ){
 	 
-	 System.out.println("Both occurrences are highlighted!")
+	 KeywordUtil.logInfo("Both occurrences are highlighted!")
 	 
 	 }
 	 
 	 else{
 	 
-	 System.out.println("Text is not highlighted!")
+	KeywordUtil.logInfo("Text is not highlighted!")
 	 }
  WebUI.closeBrowser()
 

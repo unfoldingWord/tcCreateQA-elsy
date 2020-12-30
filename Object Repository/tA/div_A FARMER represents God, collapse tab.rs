@@ -6,16 +6,15 @@
    <elementGuidId>87c578e4-77ce-4d59-a679-bf24023553ef</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div[2]/div[2]/div[2]/div/div[2]</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[1]/div[@class=&quot;jss50&quot;]/div[@class=&quot;jss55&quot;]/div[@class=&quot;jss58&quot;]/div[@class=&quot;MuiPaper-root MuiExpansionPanel-root jss59 MuiExpansionPanel-rounded MuiPaper-elevation1 MuiPaper-rounded&quot;]/div[@class=&quot;MuiButtonBase-root MuiExpansionPanelSummary-root&quot;]/div[@class=&quot;MuiButtonBase-root MuiIconButton-root MuiExpansionPanelSummary-expandIcon MuiIconButton-edgeEnd&quot;]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root']/div/div/div/div[2]/div[2]/div[2]/div/div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

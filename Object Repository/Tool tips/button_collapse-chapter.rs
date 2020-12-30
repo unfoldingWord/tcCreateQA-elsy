@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Titus 11_Expand chapter button</name>
+   <name>button_collapse-chapter</name>
    <tag></tag>
-   <elementGuidId>7ecfc524-d090-4017-9225-3fe9e10c77f4</elementGuidId>
+   <elementGuidId>b2cbb92d-6008-4924-a78e-fe6ad4f0974e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//*[@type = 'button' and @aria-label = 'Collapse Chapter']</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -31,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>MuiButtonBase-root-482 MuiIconButton-root-474 jss462 MuiIconButton-sizeSmall-480</value>
+      <value>MuiButtonBase-root-523 MuiIconButton-root-515 jss503 MuiIconButton-sizeSmall-521</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,35 +41,35 @@
       <value>0</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-label</name>
       <type>Main</type>
-      <value>Expand Chapter</value>
+      <value>Collapse Chapter</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>title</name>
+      <name>aria-describedby</name>
       <type>Main</type>
-      <value>Expand Chapter</value>
+      <value>mui-8529</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;header-1-1-rtc9&quot;)/div[@class=&quot;jss256&quot;]/div[@class=&quot;jss259&quot;]/div[@class=&quot;MuiGrid-root-328 jss326 MuiGrid-container-329 MuiGrid-align-items-xs-center-337 MuiGrid-justify-xs-space-between-348&quot;]/div[@class=&quot;MuiGrid-root-328 MuiGrid-item-330&quot;]/div[@class=&quot;MuiGrid-root-328 jss461 MuiGrid-container-329 MuiGrid-align-items-xs-center-337 MuiGrid-justify-xs-flex-end-347&quot;]/span[3]/button[@class=&quot;MuiButtonBase-root-482 MuiIconButton-root-474 jss462 MuiIconButton-sizeSmall-480&quot;]</value>
+      <value>id(&quot;header-1-1-rtc9&quot;)/div[@class=&quot;jss297&quot;]/div[@class=&quot;jss300&quot;]/div[@class=&quot;MuiGrid-root-369 jss367 MuiGrid-container-370 MuiGrid-align-items-xs-center-378 MuiGrid-justify-xs-space-between-389&quot;]/div[@class=&quot;MuiGrid-root-369 MuiGrid-item-371&quot;]/div[@class=&quot;MuiGrid-root-369 jss502 MuiGrid-container-370 MuiGrid-align-items-xs-center-378 MuiGrid-justify-xs-flex-end-388&quot;]/span[3]/button[@class=&quot;MuiButtonBase-root-523 MuiIconButton-root-515 jss503 MuiIconButton-sizeSmall-521&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>

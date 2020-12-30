@@ -17,24 +17,36 @@ import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-//import java.lang.*;
-//import java.io.*;
+import java.io.FileWriter;
+import java.io.PrintWriter;
+import java.io.IOException;
 
 import internal.GlobalVariable
 
-public class Results{
+public class WriteFile {
+	private String path;
+	private boolean append_to_file = false;
 
+	//Writeover file
+	public WriteFile (String file_path) {
+		path = file_path; }
 
-	public static void main(String[] args) throws Exception{
-
-		// create file
-		FileOutputStream f = new FileOutputStream("file.txt");
-
-		System.setOut(new PrintStream(f));
-
-		// this text will get redirected to file
-		//System.out.println("This is System class!!!");
+	//Appends to file
+	public WriteFile (String file_path, boolean append_value){
+		path = file_path;
+		append_to_file = append_value;
 	}
+	public void WriteToFile (String textline) throws IOException {
+		FileWriter write = new FileWriter(path, append_to_file);
+		PrintWriter print_line = new PrintWriter(write);
+		print_line.printf("%s" + "%n", textline);
+		print_line.close(); }
 
-
+	public void WriteOutput() throws IOException
+	{
+		FileWriter write = new FileWriter(path, append_to_file);
+		FileOutputStream file_name = new FileOutputStream("file.txt");
+		WriteFile data = new WriteFile(file_name)
+		System.setOut(new PrintStream(file_name));
+	}
 }

@@ -22,6 +22,12 @@ import org.openqa.selenium.interactions.Action as Action
 import org.openqa.selenium.interactions.Actions as Actions
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+
+CustomKeywords.'com.tccreate.keywords.WriteToFile.writeTofilename'('tN-Expand chapter')
+
+CustomKeywords.'com.helper.login.TimeDate.getTimeDate'()
+
 CustomKeywords.'com.helper.login.loginhelper.logintoapp'()
 
 WebUI.click(findTestObject('Page_tC Create/Add new resource objects/span_unfoldingWord'))
@@ -47,7 +53,7 @@ WebUI.delay(1)
  }
  else
  {
-	 System.out.println("Parallel scripture viewer is ON")
+	 KeywordUtil.logInfo("Parallel scripture viewer is ON")
  }
 
 WebUI.scrollToElement(findTestObject('Page_tC Create/Add new resource objects/h6_TIT 1intro'), 2, FailureHandling.CONTINUE_ON_FAILURE)
@@ -68,11 +74,11 @@ for (int i: (1..18))
 
 if (WebUI.verifyElementVisible(findTestObject('Object Repository/tN objects/sup_315')))
 {
- System.out.println("Chapter is expanded successfully")
+ KeywordUtil.logInfo("Chapter is expanded successfully")
 
 }
 else{
-	System.out.println("Chapter not expanded")
+	KeywordUtil.logInfo("Chapter not expanded")
 	
 }
 WebUI.delay(3)
@@ -83,11 +89,11 @@ WebUI.delay(2)
 if (WebUI.verifyElementNotPresent(findTestObject('Object Repository/tN objects/sup_315'), 2, FailureHandling.CONTINUE_ON_FAILURE))
 {
 	
- System.out.println("Chapter is collapsed successfully")
+ KeywordUtil.logInfo("Chapter is collapsed successfully")
 
 }
 else{
-	System.out.println("Chapter is expanded but should be collapsed")
+KeywordUtil.logInfo("Chapter is expanded but should be collapsed")
 	
 }
 WebUI.closeBrowser()

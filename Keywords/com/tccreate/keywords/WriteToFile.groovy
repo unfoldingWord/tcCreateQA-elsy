@@ -1,4 +1,4 @@
-package com.helper.login
+package com.tccreate.keywords
 
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
@@ -17,24 +17,22 @@ import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-//import java.lang.*;
-//import java.io.*;
-
+import com.kms.katalon.core.util.KeywordUtil
 import internal.GlobalVariable
 
-public class Results{
+public class WriteToFile {
 
-
-	public static void main(String[] args) throws Exception{
-
-		// create file
-		FileOutputStream f = new FileOutputStream("file.txt");
-
-		System.setOut(new PrintStream(f));
-
-		// this text will get redirected to file
-		//System.out.println("This is System class!!!");
+	@Keyword
+	def writeTofilename(String file_name) {
+		File out = new File('/Users/elsylitsonlambert/Documents/Test Results/' + file_name)
+		if (out.exists()) {
+			out.delete()
+		}
+		KeywordUtil.metaClass.static.logInfo = { String message ->
+			out.append(message)
+			delegate.logger.logInfo(message)
+		}
 	}
 
-
+	//KeywordUtil.logInfo("TESTING LOGGER IN KATALON\n")
 }

@@ -14,6 +14,11 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+
+CustomKeywords.'com.tccreate.keywords.WriteToFile.writeTofilename'('tA-Add or delete row')
+
+CustomKeywords.'com.helper.login.TimeDate.getTimeDate'()
 
 CustomKeywords.'com.helper.login.loginhelper.logintoapp'()
 
@@ -40,11 +45,11 @@ WebUI.click(findTestObject('Object Repository/tN objects/button_Add'))
 //validate
 if (WebUI.verifyElementVisible(findTestObject('Object Repository/tN objects/p_empty')))
 {
-	System.out.println(" New row is added successfully")
+	KeywordUtil.logInfo(" New row is added successfully")
 }
 else
 {
-	System.out.println(" New row is not added successfully")
+	KeywordUtil.logInfo(" New row is not added successfully")
 }
 //delete the row
 WebUI.click(findTestObject('Object Repository/tN objects/button_Titus 11_Delete new row'))
@@ -52,9 +57,10 @@ WebUI.click(findTestObject('Object Repository/tN objects/span_Delete'))
 //validate
 if (WebUI.verifyElementVisible(findTestObject('Object Repository/tN objects/p_empty')))
 {
-	System.out.println(" New row is deleted successfully")
+	KeywordUtil.logInfo(" New row is deleted successfully")
 }
 else
 {
-	System.out.println(" New row is not deleted successfully")
+	KeywordUtil.logInfo(" New row is not deleted successfully")
 }
+WebUI.closeBrowser()

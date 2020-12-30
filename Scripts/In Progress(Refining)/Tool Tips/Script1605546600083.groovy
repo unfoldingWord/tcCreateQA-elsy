@@ -30,17 +30,80 @@ WebUI.click(findTestObject('Page_tC Create/Add new resource objects/div_en - Eng
 
 WebUI.click(findTestObject('Page_tC Create/Add new resource objects/span_en_tn_57-TIT.tsv'))
 
-String expectedTooltip = "Search";
 
+testToolTip('Object Repository/Tool tips/button_Search', "Search")
+testToolTip('Object Repository/Tool tips/button_Filter table', "Filter Table")
+testToolTip('Object Repository/Tool tips/button_view columns', "View Columns")
+testToolTip('Object Repository/Tool tips/button_Validate', "Validate")
+testToolTip('Object Repository/Tool tips/button_Preview', "Preview")
+//testToolTipInactive('Object Repository/Tool tips/button_Save', "Save")
+testToolTip('Object Repository/Tool tips/button_add a new row', "Add a Row")
+testToolTip('Object Repository/Tool tips/button_Delete new row', "Delete a Row")
+testToolTip('Object Repository/Tool tips/button_Move Row Down', "Move Row Down")
+testToolTip('Object Repository/Tool tips/button_Move row up', "Move Row Up")
+testToolTip('Object Repository/Tool tips/button_Manage Versions', "Manage Versions")
+testToggleTip("Object Repository/Tool tips/button_Expand chapter", "Expand Chapter",'Object Repository/Tool tips/button_collapse-chapter', "Collapse Chapter" )
+
+
+public void testToolTip(String button, String toolTip){
+	
 // Find the Search icon at the top right of the header //get the value of the "title" attribute of the icon
-String actualTooltip = WebUI.getAttribute(findTestObject('Object Repository/Tool tips/button_English - unfoldingWorden_tnElsyLambert-tc-create-1_MuiButtonBase-root-204 MuiIconButton-root-196 jss145'), "title")
+String actualTooltip = WebUI.getAttribute(findTestObject(button), "title")
 
 //Assert the tooltip's value is as expected
-System.out.println("Actual Title of Tool Tip"+actualTooltip);
+System.out.println("Actual Title of Tool Tip for button " +toolTip +" is " +actualTooltip);
+String expectedTooltip = toolTip;
 if(actualTooltip.equals(expectedTooltip)) {
-	System.out.println("Test Case Passed");
+	System.out.println("Test Case Passed for " +  toolTip);
 }
 else{
 	System.out.println("Test Case failed- Tool tips are different");
+
 }
+}
+ public void testToolTipInactive(String button, String toolTip){
+	 
+	 WebUI.mouseOver(findTestObject(button))
+	 
+		 WebUI.delay(1)
+	 
+		 if (WebUI.verifyTextPresent(toolTip, false, FailureHandling.OPTIONAL)) {
+			 println(toolTip + ' tool tip text is displayed')
+		 } else {
+			 println(('ERROR: The ' + toolTip) + ' tool tip text was not displayed.')
+	 
+			 
+		 }
+ }
+ 
+ public void testToggleTip(String button, String toolTip, String toggleButton, String toggleTip){
+	 
+ // Find the Search icon at the top right of the header //get the value of the "title" attribute of the icon
+ String actualTooltip = WebUI.getAttribute(findTestObject(button), "title")
+ 
+ //Assert the tooltip's value is as expected
+ System.out.println("Actual Title of Tool Tip for button " +toolTip +" is " +actualTooltip);
+ String expectedTooltip = toolTip;
+ if(actualTooltip.equals(expectedTooltip)) {
+	 System.out.println("Test Case Passed for " +toolTip);
+ }
+ else{
+	 System.out.println("Test Case failed- Tool tips are different");
+ 
+ }
+ WebUI.delay(2)
+ //scroll
+ 
+  WebUI.click(findTestObject(button))
+  
+  String toggleButtonTest= toggleButton
+ String toggleTipTest= toggleTip
+ 
+WebUI.delay(2)
+ 
+ testToolTip(toggleButtonTest, toggleTipTest)
+ 
+ 
+ 
+ }
 WebUI.closeBrowser()

@@ -19,7 +19,11 @@ import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.interactions.Action as Action
 import org.openqa.selenium.interactions.Actions as Actions
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
+CustomKeywords.'com.tccreate.keywords.WriteToFile.writeTofilename'('tN-Add new resource')
+
+CustomKeywords.'com.helper.login.TimeDate.getTimeDate'()
 CustomKeywords.'com.helper.login.loginhelper.logintoapp'()
 
 WebUI.click(findTestObject('Page_tC Create/Add new resource objects/span_unfoldingWord'))
@@ -46,7 +50,7 @@ WebUI.delay(1)
  }
  else
  {
-	 System.out.println("Parallel scripture viewer is ON")
+	 KeywordUtil.logInfo("Parallel scripture viewer is ON")
  }
 
 WebUI.scrollToElement(findTestObject('Page_tC Create/Add new resource objects/h6_TIT 1intro'), 2, FailureHandling.CONTINUE_ON_FAILURE)
@@ -85,15 +89,15 @@ if (WebUI.verifyElementChecked(findTestObject('Object Repository/Page_tC Create/
         if (WebUI.verifyElementVisible(findTestObject('Object Repository/Page_tC Create/Add new resource objects/Hindi ULB Text'), 
             FailureHandling.CONTINUE_ON_FAILURE)) //verify the text is loaded
         {
-            System.out.println(' New Resource Text added by a Relative path is Present in the Scripture Viewer')
+            KeywordUtil.logInfo(' New Resource Text added by a Relative path is Present in the Scripture Viewer')
         } else {
-            System.out.println('Error:New Resource Text added by a Relative path is not present in the Scripture Viewer')
+            KeywordUtil.logInfo('Error:New Resource Text added by a Relative path is not present in the Scripture Viewer')
         }
     } else {
-        System.out.println('Error: New Resource added by a Relative path is not Present in the Scripture Viewer')
+       KeywordUtil.logInfo('Error: New Resource added by a Relative path is not Present in the Scripture Viewer')
     }
 } else {
-    System.out.println('Resource unchecked')
+    KeywordUtil.logInfo('Resource unchecked')
 }
  //-------------checking for a Url-----
 WebUI.click(findTestObject('Object Repository/Page_tC Create/Add new resource objects/button_Manage Versions'))
@@ -126,15 +130,15 @@ if (WebUI.verifyElementChecked(findTestObject('Object Repository/Page_tC Create/
 		if (WebUI.verifyElementVisible(findTestObject('Object Repository/Page_tC Create/Add new resource objects/div_11-russian text'),
 			FailureHandling.CONTINUE_ON_FAILURE)) //verify the text is loaded
 		{
-			System.out.println(' New Resource Text added by a URL is Present in the Scripture Viewer')
+			KeywordUtil.logInfo(' New Resource Text added by a URL is Present in the Scripture Viewer')
 		} else {
-			System.out.println('Error:New Resource Text added by a URL is not present in the Scripture Viewer')
+			KeywordUtil.logInfo('Error:New Resource Text added by a URL is not present in the Scripture Viewer')
 		}
 	} else {
-		System.out.println('Error: New Resource added by a URL is not Present in the Scripture Viewer')
+		KeywordUtil.logInfo('Error: New Resource added by a URL is not Present in the Scripture Viewer')
 	}
 } else {
-	System.out.println('Resource unchecked')
+	KeywordUtil.logInfo('Resource unchecked')
 }
 // ---------check other books--------
 WebUI.delay(2)
@@ -152,10 +156,10 @@ WebUI.delay(1)
 //validate
 if(WebUI.verifyElementVisible(findTestObject('Object Repository/Page_tC Create/Add new resource objects/h6_GEN frontintro'), FailureHandling.CONTINUE_ON_FAILURE))
 {
-	System.out.println('Other Books which do not have the added resource did not crash ')
+	KeywordUtil.logInfo('Other Books which do not have the added resource did not crash ')
 }
 else{
-	System.out.println('Other Books which do not have the added resource crashed ')
+	KeywordUtil.logInfo('Other Books which do not have the added resource crashed ')
 }
 WebUI.closeBrowser()
 
