@@ -1,0 +1,1934 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite1- Regression" time="442.098" tests="9" failures="1" skips="0" errors="0">
+   <testsuite name="Test Suite1- Regression" tests="9" failures="1" errors="0" time="442.098" skips="0" timestamp="2021-01-21 13:34:33" hostname="elsylitsonlambert - localhost" id="Test Suites/Test Suite1- Regression">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/elsylitsonlambert/git/tcCreateQA-Elsy/Reports/20210121_133431/Test Suite1- Regression/20210121_133432"/>
+         <property name="logFiles" value="/Users/elsylitsonlambert/git/tcCreateQA-Elsy/Reports/20210121_133431/Test Suite1- Regression/20210121_133432/execution0.log"/>
+         <property name="attachments" value="/Users/elsylitsonlambert/git/tcCreateQA-Elsy/Reports/20210121_133431/Test Suite1- Regression/20210121_133432/1611254113284.png, /Users/elsylitsonlambert/git/tcCreateQA-Elsy/Reports/20210121_133431/Test Suite1- Regression/20210121_133432/1611254241299.png, /Users/elsylitsonlambert/git/tcCreateQA-Elsy/Reports/20210121_133431/Test Suite1- Regression/20210121_133432/1611254506888.png"/>
+         <property name="hostName" value="elsylitsonlambert - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.8.1.208"/>
+         <property name="browser" value="Chrome 87.0.4280.141"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="5bc83b5e21f4ea21382a633c380b4346"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/tCC Test Cases/tN_Parallel Scripture viewer" time="55.391" classname="Test Cases/tCC Test Cases/tN_Parallel Scripture viewer" status="PASSED">
+         <system-out><![CDATA[2021-01-21 13:34:34 - [TEST_CASE][PASSED] - Test Cases/tCC Test Cases/tN_Parallel Scripture viewer: Test Cases/tCC Test Cases/tN_Parallel Scripture viewer
+
+2021-01-21 13:34:34 - [TEST_STEP][PASSED] - com.tccreate.keywords.WriteToFile.writeTofilename("tN-Parallel Scripture Viewer"): com.tccreate.keywords.WriteToFile.writeTofilename is PASSED
+
+2021-01-21 13:34:34 - [MESSAGE][PASSED] - com.tccreate.keywords.WriteToFile.writeTofilename is PASSED
+
+2021-01-21 13:34:34 - [TEST_STEP][PASSED] - com.helper.login.TimeDate.getTimeDate(): com.helper.login.TimeDate.getTimeDate is PASSED
+
+2021-01-21 13:34:34 - [MESSAGE][INFO] - Time at which the test run:2021-01-21 13:34:34.451
+
+2021-01-21 13:34:34 - [MESSAGE][PASSED] - com.helper.login.TimeDate.getTimeDate is PASSED
+
+2021-01-21 13:34:34 - [TEST_STEP][PASSED] - com.helper.login.loginhelper.logintoapp(): com.helper.login.loginhelper.logintoapp is PASSED
+
+2021-01-21 13:34:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-01-21 13:34:34 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2021-01-21 13:34:36 - [MESSAGE][WARNING] - FFmpeg was not installed! Browser Recording will be disabled. Please follow this document to install FFmpeg first: https://docs.katalon.com/katalon-studio/docs/screenshots-videos.html#browser-based-recorder
+
+2021-01-21 13:34:39 - [MESSAGE][PASSED] - Browser is opened with url: 'https://develop--tc-create-app.netlify.app/'
+
+2021-01-21 13:34:39 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-01-21 13:34:40 - [MESSAGE][PASSED] - Current window maximized
+
+2021-01-21 13:34:41 - [MESSAGE][PASSED] - Keys 'elsylambert' sent to object: 'Object Repository/Page_tC Create/input__username'
+
+2021-01-21 13:34:42 - [MESSAGE][PASSED] - Keys 'fatak43' sent to object: 'Object Repository/Page_tC Create/input__password'
+
+2021-01-21 13:34:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/button_Login' is clicked on
+
+2021-01-21 13:34:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-01-21 13:34:45 - [MESSAGE][PASSED] - com.helper.login.loginhelper.logintoapp is PASSED
+
+2021-01-21 13:34:45 - [TEST_STEP][PASSED] - click(findTestObject("Page_tC Create/Organization unfoldingWord")): Object: 'Object Repository/Page_tC Create/Organization unfoldingWord' is clicked on
+
+2021-01-21 13:34:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/Organization unfoldingWord' is clicked on
+
+2021-01-21 13:34:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_tC Create/span_unfoldingWord Translation Notes")): Object: 'Object Repository/Page_tC Create/span_unfoldingWord Translation Notes' is clicked on
+
+2021-01-21 13:34:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/span_unfoldingWord Translation Notes' is clicked on
+
+2021-01-21 13:34:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_tC Create/div_Step 4 Select Your Language option am -_f1dc08")): Object: 'Object Repository/Page_tC Create/div_Step 4 Select Your Language option am -_f1dc08' is clicked on
+
+2021-01-21 13:34:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/div_Step 4 Select Your Language option am -_f1dc08' is clicked on
+
+2021-01-21 13:34:51 - [TEST_STEP][PASSED] - setText(findTestObject("Page_tC Create/input_Step4Select Your Language_react-selec_aae5da"), "en"): Text 'en' is set on object 'Object Repository/Page_tC Create/input_Step4Select Your Language_react-selec_aae5da'
+
+2021-01-21 13:34:53 - [MESSAGE][PASSED] - Text 'en' is set on object 'Object Repository/Page_tC Create/input_Step4Select Your Language_react-selec_aae5da'
+
+2021-01-21 13:34:53 - [TEST_STEP][PASSED] - click(findTestObject("Page_tC Create/div_en - English - English (Europe Gateway)")): Object: 'Object Repository/Page_tC Create/div_en - English - English (Europe Gateway)' is clicked on
+
+2021-01-21 13:34:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/div_en - English - English (Europe Gateway)' is clicked on
+
+2021-01-21 13:34:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_tC Create/span_en_tn_57-TIT.tsv")): Object: 'Object Repository/Page_tC Create/span_en_tn_57-TIT.tsv' is clicked on
+
+2021-01-21 13:34:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/span_en_tn_57-TIT.tsv' is clicked on
+
+2021-01-21 13:34:57 - [TEST_STEP][PASSED] - com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScripture(""test""): com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScripture is PASSED
+
+2021-01-21 13:35:00 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@type = 'button' and @data-test = 'drawer-menu-close-button']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-01-21 13:35:00 - [MESSAGE][WARNING] - Object 'Object Repository/Page_tC Create/button_DrawerClose' is not present after 2 second(s)
+
+2021-01-21 13:35:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/Hamburger Menu Button' is clicked on
+
+2021-01-21 13:35:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-01-21 13:35:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_tC Create/input_Expand all Scripture_default' is checked
+
+2021-01-21 13:35:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/input_Expand all Scripture_default' is clicked on
+
+2021-01-21 13:35:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-01-21 13:35:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/button_DrawerClose' is clicked on
+
+2021-01-21 13:35:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_tC Create/Hamburger Menu Button' is visible
+
+2021-01-21 13:35:07 - [MESSAGE][PASSED] - com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScripture is PASSED
+
+2021-01-21 13:35:07 - [TEST_STEP][PASSED] - com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScripture(""on""): com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScripture is PASSED
+
+2021-01-21 13:35:10 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@type = 'button' and @data-test = 'drawer-menu-close-button']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-01-21 13:35:10 - [MESSAGE][WARNING] - Object 'Object Repository/Page_tC Create/button_DrawerClose' is not present after 2 second(s)
+
+2021-01-21 13:35:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/Hamburger Menu Button' is clicked on
+
+2021-01-21 13:35:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-01-21 13:35:13 - [MESSAGE][WARNING] - Object 'Object Repository/Page_tC Create/input_Expand all Scripture_default' is not checked (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Page_tC Create/input_Expand all Scripture_default' is not checked
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.doCall(VerifyElementCheckedKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.call(VerifyElementCheckedKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.verifyElementChecked(VerifyElementCheckedKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.execute(VerifyElementCheckedKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(WebUiBuiltInKeywords.groovy:1379)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementChecked$7.call(Unknown Source)
+	at com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScripture(ExpandAllScriptureToggle.groovy:43)
+	at com.tccreate.keywords.ExpandAllScriptureToggle.invokeMethod(ExpandAllScriptureToggle.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at tN_Parallel Scripture viewer.run(tN_Parallel Scripture viewer:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1611254072426.run(TempTestSuite1611254072426.groovy:39)
+)
+[[ATTACHMENT|/Users/elsylitsonlambert/git/tcCreateQA-Elsy/Reports/20210121_133431/Test Suite1- Regression/20210121_133432/1611254113284.png]]
+
+2021-01-21 13:35:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/input_Expand all Scripture_default' is clicked on
+
+2021-01-21 13:35:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-01-21 13:35:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/button_DrawerClose' is clicked on
+
+2021-01-21 13:35:18 - [MESSAGE][PASSED] - Object 'Object Repository/Page_tC Create/Hamburger Menu Button' is visible
+
+2021-01-21 13:35:18 - [MESSAGE][PASSED] - com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScripture is PASSED
+
+2021-01-21 13:35:18 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_tC Create/span_unfoldingWord Literal Text v14"), 5)): null
+
+2021-01-21 13:35:18 - [MESSAGE][PASSED] - Object 'Object Repository/Page_tC Create/span_unfoldingWord Literal Text v14' is present
+
+2021-01-21 13:35:18 - [TEST_STEP][PASSED] - logInfo("ULT is visible 1"): ULT is visible 1
+
+2021-01-21 13:35:18 - [MESSAGE][INFO] - ULT is visible 1
+
+2021-01-21 13:35:18 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_tC Create/span_unfoldingWord Simplified Text v14"), 5)): null
+
+2021-01-21 13:35:18 - [MESSAGE][PASSED] - Object 'Object Repository/Page_tC Create/span_unfoldingWord Simplified Text v14' is present
+
+2021-01-21 13:35:18 - [TEST_STEP][PASSED] - logInfo("UST is visible"): UST is visible
+
+2021-01-21 13:35:18 - [MESSAGE][INFO] - UST is visible
+
+2021-01-21 13:35:18 - [TEST_STEP][PASSED] - logInfo("ParallelScripture is present"): ParallelScripture is present
+
+2021-01-21 13:35:18 - [MESSAGE][INFO] - ParallelScripture is present
+
+2021-01-21 13:35:18 - [TEST_STEP][PASSED] - com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScripture(""off""): com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScripture is PASSED
+
+2021-01-21 13:35:22 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@type = 'button' and @data-test = 'drawer-menu-close-button']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-01-21 13:35:22 - [MESSAGE][WARNING] - Object 'Object Repository/Page_tC Create/button_DrawerClose' is not present after 2 second(s)
+
+2021-01-21 13:35:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/Hamburger Menu Button' is clicked on
+
+2021-01-21 13:35:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-01-21 13:35:24 - [MESSAGE][PASSED] - Object 'Object Repository/Page_tC Create/input_Expand all Scripture_default' is checked
+
+2021-01-21 13:35:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/input_Expand all Scripture_default' is clicked on
+
+2021-01-21 13:35:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-01-21 13:35:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/button_DrawerClose' is clicked on
+
+2021-01-21 13:35:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_tC Create/Hamburger Menu Button' is visible
+
+2021-01-21 13:35:29 - [MESSAGE][PASSED] - com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScripture is PASSED
+
+2021-01-21 13:35:29 - [TEST_STEP][PASSED] - logInfo("button is toggled"): button is toggled
+
+2021-01-21 13:35:29 - [MESSAGE][INFO] - button is toggled
+
+2021-01-21 13:35:29 - [TEST_STEP][PASSED] - if (verifyElementNotPresent(findTestObject("Page_tC Create/span_unfoldingWord Literal Text v14"), 3)): null
+
+2021-01-21 13:35:29 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_tC Create/span_unfoldingWord Literal Text v14' located by 'By.xpath: //div[@id='wrapY']/table/thead/tr/th[2]/span' is not present after '3' second(s)
+
+2021-01-21 13:35:29 - [TEST_STEP][PASSED] - logInfo("ULT is not visible as expected"): ULT is not visible as expected
+
+2021-01-21 13:35:29 - [MESSAGE][INFO] - ULT is not visible as expected
+
+2021-01-21 13:35:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-01-21 13:35:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/tCC Test Cases/tCC_Link to Organization page" time="15.766" classname="Test Cases/tCC Test Cases/tCC_Link to Organization page" status="PASSED">
+         <system-out><![CDATA[2021-01-21 13:35:29 - [TEST_CASE][PASSED] - Test Cases/tCC Test Cases/tCC_Link to Organization page: Test Cases/tCC Test Cases/tCC_Link to Organization page
+
+2021-01-21 13:35:29 - [TEST_STEP][PASSED] - com.helper.login.loginhelper.logintoapp(): com.helper.login.loginhelper.logintoapp is PASSED
+
+2021-01-21 13:35:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-01-21 13:35:29 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2021-01-21 13:35:30 - [MESSAGE][WARNING] - FFmpeg was not installed! Browser Recording will be disabled. Please follow this document to install FFmpeg first: https://docs.katalon.com/katalon-studio/docs/screenshots-videos.html#browser-based-recorder
+
+2021-01-21 13:35:35 - [MESSAGE][PASSED] - Browser is opened with url: 'https://develop--tc-create-app.netlify.app/'
+
+2021-01-21 13:35:35 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-01-21 13:35:36 - [MESSAGE][PASSED] - Current window maximized
+
+2021-01-21 13:35:37 - [MESSAGE][PASSED] - Keys 'elsylambert' sent to object: 'Object Repository/Page_tC Create/input__username'
+
+2021-01-21 13:35:38 - [MESSAGE][PASSED] - Keys 'fatak43' sent to object: 'Object Repository/Page_tC Create/input__password'
+
+2021-01-21 13:35:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/button_Login' is clicked on
+
+2021-01-21 13:35:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-01-21 13:35:41 - [MESSAGE][PASSED] - com.helper.login.loginhelper.logintoapp is PASSED
+
+2021-01-21 13:35:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Organization Link/span_unfoldingWord"), 1): Object 'Object Repository/Organization Link/span_unfoldingWord' is present
+
+2021-01-21 13:35:41 - [MESSAGE][PASSED] - Object 'Object Repository/Organization Link/span_unfoldingWord' is present
+
+2021-01-21 13:35:41 - [TEST_STEP][PASSED] - expectedTooltip = "Go to Organization": null
+
+2021-01-21 13:35:41 - [TEST_STEP][PASSED] - actualTooltip = getAttribute(findTestObject("Object Repository/Organization Link/button_unfoldingWord_MuiButtonBase-root MuiIconButton-root"), "title"): Attribute 'title' of object 'Object Repository/Organization Link/button_unfoldingWord_MuiButtonBase-root MuiIconButton-root' is: 'Go to Organization'
+
+2021-01-21 13:35:42 - [MESSAGE][PASSED] - Attribute 'title' of object 'Object Repository/Organization Link/button_unfoldingWord_MuiButtonBase-root MuiIconButton-root' is: 'Go to Organization'
+
+2021-01-21 13:35:42 - [TEST_STEP][PASSED] - out.println("Actual Title of Tool Tip" + actualTooltip): null
+
+2021-01-21 13:35:42 - [TEST_STEP][PASSED] - if (actualTooltip.equals(expectedTooltip)): null
+
+2021-01-21 13:35:42 - [TEST_STEP][PASSED] - out.println("Test Case Passed"): null
+
+2021-01-21 13:35:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Organization Link/button_unfoldingWord_MuiButtonBase-root MuiIconButton-root")): Object: 'Object Repository/Organization Link/button_unfoldingWord_MuiButtonBase-root MuiIconButton-root' is clicked on
+
+2021-01-21 13:35:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Organization Link/button_unfoldingWord_MuiButtonBase-root MuiIconButton-root' is clicked on
+
+2021-01-21 13:35:43 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2021-01-21 13:35:43 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2021-01-21 13:35:43 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Object Repository/Organization Link/div_unfoldingWord"), CONTINUE_ON_FAILURE)): null
+
+2021-01-21 13:35:45 - [MESSAGE][PASSED] - Object 'Object Repository/Organization Link/div_unfoldingWord' is visible
+
+2021-01-21 13:35:45 - [TEST_STEP][PASSED] - out.println("Organization page is opening"): null
+
+2021-01-21 13:35:45 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2021-01-21 13:35:45 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2021-01-21 13:35:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-01-21 13:35:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/tCC Test Cases/tN_undo text in tN Editor(FF)" time="29.326" classname="Test Cases/tCC Test Cases/tN_undo text in tN Editor(FF)" status="PASSED">
+         <system-out><![CDATA[2021-01-21 13:35:45 - [TEST_CASE][PASSED] - Test Cases/tCC Test Cases/tN_undo text in tN Editor(FF): Test Cases/tCC Test Cases/tN_undo text in tN Editor(FF)
+
+2021-01-21 13:35:45 - [TEST_STEP][PASSED] - com.tccreate.keywords.WriteToFile.writeTofilename("tN-undo editing"): com.tccreate.keywords.WriteToFile.writeTofilename is PASSED
+
+2021-01-21 13:35:45 - [MESSAGE][PASSED] - com.tccreate.keywords.WriteToFile.writeTofilename is PASSED
+
+2021-01-21 13:35:45 - [TEST_STEP][PASSED] - com.helper.login.TimeDate.getTimeDate(): com.helper.login.TimeDate.getTimeDate is PASSED
+
+2021-01-21 13:35:45 - [MESSAGE][INFO] - Time at which the test run:2021-01-21 13:35:45.496
+
+2021-01-21 13:35:45 - [MESSAGE][PASSED] - com.helper.login.TimeDate.getTimeDate is PASSED
+
+2021-01-21 13:35:45 - [TEST_STEP][PASSED] - com.helper.login.loginhelper.logintoapp(): com.helper.login.loginhelper.logintoapp is PASSED
+
+2021-01-21 13:35:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-01-21 13:35:45 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2021-01-21 13:35:46 - [MESSAGE][WARNING] - FFmpeg was not installed! Browser Recording will be disabled. Please follow this document to install FFmpeg first: https://docs.katalon.com/katalon-studio/docs/screenshots-videos.html#browser-based-recorder
+
+2021-01-21 13:35:51 - [MESSAGE][PASSED] - Browser is opened with url: 'https://develop--tc-create-app.netlify.app/'
+
+2021-01-21 13:35:51 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-01-21 13:35:51 - [MESSAGE][PASSED] - Current window maximized
+
+2021-01-21 13:35:53 - [MESSAGE][PASSED] - Keys 'elsylambert' sent to object: 'Object Repository/Page_tC Create/input__username'
+
+2021-01-21 13:35:54 - [MESSAGE][PASSED] - Keys 'fatak43' sent to object: 'Object Repository/Page_tC Create/input__password'
+
+2021-01-21 13:35:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/button_Login' is clicked on
+
+2021-01-21 13:35:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-01-21 13:35:56 - [MESSAGE][PASSED] - com.helper.login.loginhelper.logintoapp is PASSED
+
+2021-01-21 13:35:56 - [TEST_STEP][PASSED] - click(findTestObject("Page_tC Create/Organization unfoldingWord")): Object: 'Object Repository/Page_tC Create/Organization unfoldingWord' is clicked on
+
+2021-01-21 13:35:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/Organization unfoldingWord' is clicked on
+
+2021-01-21 13:35:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_tC Create/span_unfoldingWord Translation Notes")): Object: 'Object Repository/Page_tC Create/span_unfoldingWord Translation Notes' is clicked on
+
+2021-01-21 13:36:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/span_unfoldingWord Translation Notes' is clicked on
+
+2021-01-21 13:36:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_tC Create/div_Step 4 Select Your Language option am -_f1dc08")): Object: 'Object Repository/Page_tC Create/div_Step 4 Select Your Language option am -_f1dc08' is clicked on
+
+2021-01-21 13:36:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/div_Step 4 Select Your Language option am -_f1dc08' is clicked on
+
+2021-01-21 13:36:02 - [TEST_STEP][PASSED] - setText(findTestObject("Page_tC Create/input_Step4Select Your Language_react-selec_aae5da"), "en"): Text 'en' is set on object 'Object Repository/Page_tC Create/input_Step4Select Your Language_react-selec_aae5da'
+
+2021-01-21 13:36:05 - [MESSAGE][PASSED] - Text 'en' is set on object 'Object Repository/Page_tC Create/input_Step4Select Your Language_react-selec_aae5da'
+
+2021-01-21 13:36:05 - [TEST_STEP][PASSED] - click(findTestObject("Page_tC Create/div_en - English - English (Europe Gateway)")): Object: 'Object Repository/Page_tC Create/div_en - English - English (Europe Gateway)' is clicked on
+
+2021-01-21 13:36:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/div_en - English - English (Europe Gateway)' is clicked on
+
+2021-01-21 13:36:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_tC Create/span_en_tn_57-TIT.tsv")): Object: 'Object Repository/Page_tC Create/span_en_tn_57-TIT.tsv' is clicked on
+
+2021-01-21 13:36:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/span_en_tn_57-TIT.tsv' is clicked on
+
+2021-01-21 13:36:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_tC Create/div_Introduction to TitusPart 1")): Object: 'Object Repository/Page_tC Create/div_Introduction to TitusPart 1' is clicked on
+
+2021-01-21 13:36:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/div_Introduction to TitusPart 1' is clicked on
+
+2021-01-21 13:36:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_tC Create/div_Introduction to TitusPart 1"), "edit again "): Keys 'edit again ' sent to object: 'Object Repository/Page_tC Create/div_Introduction to TitusPart 1'
+
+2021-01-21 13:36:13 - [MESSAGE][PASSED] - Keys 'edit again ' sent to object: 'Object Repository/Page_tC Create/div_Introduction to TitusPart 1'
+
+2021-01-21 13:36:13 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2021-01-21 13:36:13 - [TEST_STEP][PASSED] - action = new org.openqa.selenium.interactions.Actions(driver): null
+
+2021-01-21 13:36:13 - [TEST_STEP][PASSED] - keyUp(COMMAND).perform(): null
+
+2021-01-21 13:36:13 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_tC Create/div_Introduction to TitusPart 1"), Keys.chord(COMMAND, "z")): Keys 'COMMAND + z' sent to object: 'Object Repository/Page_tC Create/div_Introduction to TitusPart 1'
+
+2021-01-21 13:36:14 - [MESSAGE][PASSED] - Keys 'COMMAND + z' sent to object: 'Object Repository/Page_tC Create/div_Introduction to TitusPart 1'
+
+2021-01-21 13:36:14 - [TEST_STEP][PASSED] - logInfo("Text is cleared successfully by undo action"): Text is cleared successfully by undo action
+
+2021-01-21 13:36:14 - [MESSAGE][INFO] - Text is cleared successfully by undo action
+
+2021-01-21 13:36:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-01-21 13:36:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/tCC Test Cases/tN_Add or Delete a Row" time="67.797" classname="Test Cases/tCC Test Cases/tN_Add or Delete a Row" status="FAILED">
+         <failure type="FAILED" message="Test Cases/tCC Test Cases/tN_Add or Delete a Row FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/tN objects/span_Delete' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/tN objects/span_Delete'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:617)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at tN_Add or Delete a Row.run(tN_Add or Delete a Row:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1611254072426.run(TempTestSuite1611254072426.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/tN objects/span_Delete' located by '' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1369)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:617)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1607640096280.run(Script1607640096280.groovy:56)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:617)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at tN_Add or Delete a Row.run(tN_Add or Delete a Row:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1611254072426.run(TempTestSuite1611254072426.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/tN objects/span_Delete'
+	... 21 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/tN objects/span_Delete' located by '' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1369)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2021-01-21 13:36:14 - [TEST_CASE][FAILED] - Test Cases/tCC Test Cases/tN_Add or Delete a Row: Test Cases/tCC Test Cases/tN_Add or Delete a Row FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/tN objects/span_Delete' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/tN objects/span_Delete'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:617)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at tN_Add or Delete a Row.run(tN_Add or Delete a Row:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1611254072426.run(TempTestSuite1611254072426.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/tN objects/span_Delete' located by '' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1369)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:617)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1607640096280.run(Script1607640096280.groovy:56)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:617)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at tN_Add or Delete a Row.run(tN_Add or Delete a Row:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1611254072426.run(TempTestSuite1611254072426.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/tN objects/span_Delete'
+	... 21 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/tN objects/span_Delete' located by '' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1369)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2021-01-21 13:36:14 - [TEST_STEP][PASSED] - com.tccreate.keywords.WriteToFile.writeTofilename("tA-Add or delete row"): com.tccreate.keywords.WriteToFile.writeTofilename is PASSED
+
+2021-01-21 13:36:14 - [MESSAGE][PASSED] - com.tccreate.keywords.WriteToFile.writeTofilename is PASSED
+
+2021-01-21 13:36:14 - [TEST_STEP][PASSED] - com.helper.login.TimeDate.getTimeDate(): com.helper.login.TimeDate.getTimeDate is PASSED
+
+2021-01-21 13:36:14 - [MESSAGE][INFO] - Time at which the test run:2021-01-21 13:36:14.799
+
+2021-01-21 13:36:14 - [MESSAGE][PASSED] - com.helper.login.TimeDate.getTimeDate is PASSED
+
+2021-01-21 13:36:14 - [TEST_STEP][PASSED] - com.helper.login.loginhelper.logintoapp(): com.helper.login.loginhelper.logintoapp is PASSED
+
+2021-01-21 13:36:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-01-21 13:36:14 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2021-01-21 13:36:15 - [MESSAGE][WARNING] - FFmpeg was not installed! Browser Recording will be disabled. Please follow this document to install FFmpeg first: https://docs.katalon.com/katalon-studio/docs/screenshots-videos.html#browser-based-recorder
+
+2021-01-21 13:36:20 - [MESSAGE][PASSED] - Browser is opened with url: 'https://develop--tc-create-app.netlify.app/'
+
+2021-01-21 13:36:20 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-01-21 13:36:20 - [MESSAGE][PASSED] - Current window maximized
+
+2021-01-21 13:36:22 - [MESSAGE][PASSED] - Keys 'elsylambert' sent to object: 'Object Repository/Page_tC Create/input__username'
+
+2021-01-21 13:36:23 - [MESSAGE][PASSED] - Keys 'fatak43' sent to object: 'Object Repository/Page_tC Create/input__password'
+
+2021-01-21 13:36:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/button_Login' is clicked on
+
+2021-01-21 13:36:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-01-21 13:36:26 - [MESSAGE][PASSED] - com.helper.login.loginhelper.logintoapp is PASSED
+
+2021-01-21 13:36:26 - [TEST_STEP][PASSED] - click(findTestObject("Page_tC Create/Add new resource objects/span_unfoldingWord")): Object: 'Object Repository/Page_tC Create/Add new resource objects/span_unfoldingWord' is clicked on
+
+2021-01-21 13:36:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/Add new resource objects/span_unfoldingWord' is clicked on
+
+2021-01-21 13:36:27 - [TEST_STEP][PASSED] - click(findTestObject("Page_tC Create/Add new resource objects/span_unfoldingWord Translation Notes")): Object: 'Object Repository/Page_tC Create/Add new resource objects/span_unfoldingWord Translation Notes' is clicked on
+
+2021-01-21 13:36:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/Add new resource objects/span_unfoldingWord Translation Notes' is clicked on
+
+2021-01-21 13:36:30 - [TEST_STEP][PASSED] - click(findTestObject("Page_tC Create/Add new resource objects/div_Select Language")): Object: 'Object Repository/Page_tC Create/Add new resource objects/div_Select Language' is clicked on
+
+2021-01-21 13:36:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/Add new resource objects/div_Select Language' is clicked on
+
+2021-01-21 13:36:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_tC Create/Add new resource objects/input_Step4Select Your Language_react-selec_aae5da"), "en"): Text 'en' is set on object 'Object Repository/Page_tC Create/Add new resource objects/input_Step4Select Your Language_react-selec_aae5da'
+
+2021-01-21 13:36:34 - [MESSAGE][PASSED] - Text 'en' is set on object 'Object Repository/Page_tC Create/Add new resource objects/input_Step4Select Your Language_react-selec_aae5da'
+
+2021-01-21 13:36:34 - [TEST_STEP][PASSED] - click(findTestObject("Page_tC Create/Add new resource objects/div_en - English - English (Europe Gateway)")): Object: 'Object Repository/Page_tC Create/Add new resource objects/div_en - English - English (Europe Gateway)' is clicked on
+
+2021-01-21 13:36:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/Add new resource objects/div_en - English - English (Europe Gateway)' is clicked on
+
+2021-01-21 13:36:36 - [TEST_STEP][PASSED] - click(findTestObject("Page_tC Create/Add new resource objects/span_en_tn_57-TIT.tsv")): Object: 'Object Repository/Page_tC Create/Add new resource objects/span_en_tn_57-TIT.tsv' is clicked on
+
+2021-01-21 13:36:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/Add new resource objects/span_en_tn_57-TIT.tsv' is clicked on
+
+2021-01-21 13:36:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tN objects/button_view columns")): Object: 'Object Repository/tN objects/button_view columns' is clicked on
+
+2021-01-21 13:36:41 - [MESSAGE][PASSED] - Object: 'Object Repository/tN objects/button_view columns' is clicked on
+
+2021-01-21 13:36:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tN objects/input_ID")): Object: 'Object Repository/tN objects/input_ID' is clicked on
+
+2021-01-21 13:36:42 - [MESSAGE][PASSED] - Object: 'Object Repository/tN objects/input_ID' is clicked on
+
+2021-01-21 13:36:42 - [TEST_STEP][PASSED] - click(findTestObject("tN objects/button__Close-Columns")): Object: 'Object Repository/tN objects/button__Close-Columns' is clicked on
+
+2021-01-21 13:36:44 - [MESSAGE][PASSED] - Object: 'Object Repository/tN objects/button__Close-Columns' is clicked on
+
+2021-01-21 13:36:44 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/tN objects/div_Titus 11"), 2): Scroll to object 'Object Repository/tN objects/div_Titus 11' successfully
+
+2021-01-21 13:36:45 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/tN objects/div_Titus 11' successfully
+
+2021-01-21 13:36:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tN objects/button_Titus 11_add a new row")): Object: 'Object Repository/tN objects/button_Titus 11_add a new row' is clicked on
+
+2021-01-21 13:36:46 - [MESSAGE][PASSED] - Object: 'Object Repository/tN objects/button_Titus 11_add a new row' is clicked on
+
+2021-01-21 13:36:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tN objects/button_Add")): Object: 'Object Repository/tN objects/button_Add' is clicked on
+
+2021-01-21 13:36:48 - [MESSAGE][PASSED] - Object: 'Object Repository/tN objects/button_Add' is clicked on
+
+2021-01-21 13:36:48 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Object Repository/tN objects/p_empty"))): null
+
+2021-01-21 13:36:48 - [MESSAGE][PASSED] - Object 'Object Repository/tN objects/p_empty' is visible
+
+2021-01-21 13:36:48 - [TEST_STEP][PASSED] - logInfo(" New row is added successfully"):  New row is added successfully
+
+2021-01-21 13:36:48 - [MESSAGE][INFO] -  New row is added successfully
+
+2021-01-21 13:36:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tN objects/button_Titus 11_Delete new row")): Object: 'Object Repository/tN objects/button_Titus 11_Delete new row' is clicked on
+
+2021-01-21 13:36:50 - [MESSAGE][PASSED] - Object: 'Object Repository/tN objects/button_Titus 11_Delete new row' is clicked on
+
+2021-01-21 13:36:50 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/tN objects/span_Delete")): Unable to click on object 'Object Repository/tN objects/span_Delete' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/tN objects/span_Delete'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:617)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at tN_Add or Delete a Row.run(tN_Add or Delete a Row:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1611254072426.run(TempTestSuite1611254072426.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/tN objects/span_Delete' located by '' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1369)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:617)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1607640096280.run(Script1607640096280.groovy:56)
+	... 13 more
+)
+
+2021-01-21 13:37:21 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-01-21 13:37:21 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/tN objects/span_Delete' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/tN objects/span_Delete'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:617)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at tN_Add or Delete a Row.run(tN_Add or Delete a Row:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1611254072426.run(TempTestSuite1611254072426.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/tN objects/span_Delete' located by '' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1369)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:617)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1607640096280.run(Script1607640096280.groovy:56)
+	... 13 more
+)
+[[ATTACHMENT|/Users/elsylitsonlambert/git/tcCreateQA-Elsy/Reports/20210121_133431/Test Suite1- Regression/20210121_133432/1611254241299.png]]
+
+2021-01-21 13:37:21 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Object Repository/tN objects/p_empty"))): null
+
+2021-01-21 13:37:22 - [MESSAGE][PASSED] - Object 'Object Repository/tN objects/p_empty' is visible
+
+2021-01-21 13:37:22 - [TEST_STEP][PASSED] - logInfo(" New row is deleted successfully"):  New row is deleted successfully
+
+2021-01-21 13:37:22 - [MESSAGE][INFO] -  New row is deleted successfully
+
+2021-01-21 13:37:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-01-21 13:37:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2021-01-21 13:36:14 - [TEST_CASE][FAILED] - Test Cases/tCC Test Cases/tN_Add or Delete a Row: Test Cases/tCC Test Cases/tN_Add or Delete a Row FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/tN objects/span_Delete' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/tN objects/span_Delete'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:617)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at tN_Add or Delete a Row.run(tN_Add or Delete a Row:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1611254072426.run(TempTestSuite1611254072426.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/tN objects/span_Delete' located by '' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1369)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:617)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1607640096280.run(Script1607640096280.groovy:56)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:617)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at tN_Add or Delete a Row.run(tN_Add or Delete a Row:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1611254072426.run(TempTestSuite1611254072426.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/tN objects/span_Delete'
+	... 21 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/tN objects/span_Delete' located by '' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1369)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/tCC Test Cases/tN_Expand chapter" time="74.348" classname="Test Cases/tCC Test Cases/tN_Expand chapter" status="PASSED">
+         <system-out><![CDATA[2021-01-21 13:37:22 - [TEST_CASE][PASSED] - Test Cases/tCC Test Cases/tN_Expand chapter: Test Cases/tCC Test Cases/tN_Expand chapter
+
+2021-01-21 13:37:22 - [TEST_STEP][PASSED] - com.tccreate.keywords.WriteToFile.writeTofilename("tN-Expand chapter"): com.tccreate.keywords.WriteToFile.writeTofilename is PASSED
+
+2021-01-21 13:37:22 - [MESSAGE][PASSED] - com.tccreate.keywords.WriteToFile.writeTofilename is PASSED
+
+2021-01-21 13:37:22 - [TEST_STEP][PASSED] - com.helper.login.TimeDate.getTimeDate(): com.helper.login.TimeDate.getTimeDate is PASSED
+
+2021-01-21 13:37:22 - [MESSAGE][INFO] - Time at which the test run:2021-01-21 13:37:22.639
+
+2021-01-21 13:37:22 - [MESSAGE][PASSED] - com.helper.login.TimeDate.getTimeDate is PASSED
+
+2021-01-21 13:37:22 - [TEST_STEP][PASSED] - com.helper.login.loginhelper.logintoapp(): com.helper.login.loginhelper.logintoapp is PASSED
+
+2021-01-21 13:37:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-01-21 13:37:22 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2021-01-21 13:37:23 - [MESSAGE][WARNING] - FFmpeg was not installed! Browser Recording will be disabled. Please follow this document to install FFmpeg first: https://docs.katalon.com/katalon-studio/docs/screenshots-videos.html#browser-based-recorder
+
+2021-01-21 13:37:28 - [MESSAGE][PASSED] - Browser is opened with url: 'https://develop--tc-create-app.netlify.app/'
+
+2021-01-21 13:37:28 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-01-21 13:37:28 - [MESSAGE][PASSED] - Current window maximized
+
+2021-01-21 13:37:30 - [MESSAGE][PASSED] - Keys 'elsylambert' sent to object: 'Object Repository/Page_tC Create/input__username'
+
+2021-01-21 13:37:31 - [MESSAGE][PASSED] - Keys 'fatak43' sent to object: 'Object Repository/Page_tC Create/input__password'
+
+2021-01-21 13:37:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/button_Login' is clicked on
+
+2021-01-21 13:37:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-01-21 13:37:34 - [MESSAGE][PASSED] - com.helper.login.loginhelper.logintoapp is PASSED
+
+2021-01-21 13:37:34 - [TEST_STEP][PASSED] - click(findTestObject("Page_tC Create/Add new resource objects/span_unfoldingWord")): Object: 'Object Repository/Page_tC Create/Add new resource objects/span_unfoldingWord' is clicked on
+
+2021-01-21 13:37:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/Add new resource objects/span_unfoldingWord' is clicked on
+
+2021-01-21 13:37:35 - [TEST_STEP][PASSED] - click(findTestObject("Page_tC Create/Add new resource objects/span_unfoldingWord Translation Notes")): Object: 'Object Repository/Page_tC Create/Add new resource objects/span_unfoldingWord Translation Notes' is clicked on
+
+2021-01-21 13:37:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/Add new resource objects/span_unfoldingWord Translation Notes' is clicked on
+
+2021-01-21 13:37:38 - [TEST_STEP][PASSED] - click(findTestObject("Page_tC Create/Add new resource objects/div_Select Language")): Object: 'Object Repository/Page_tC Create/Add new resource objects/div_Select Language' is clicked on
+
+2021-01-21 13:37:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/Add new resource objects/div_Select Language' is clicked on
+
+2021-01-21 13:37:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_tC Create/Add new resource objects/input_Step4Select Your Language_react-selec_aae5da"), "en"): Text 'en' is set on object 'Object Repository/Page_tC Create/Add new resource objects/input_Step4Select Your Language_react-selec_aae5da'
+
+2021-01-21 13:37:42 - [MESSAGE][PASSED] - Text 'en' is set on object 'Object Repository/Page_tC Create/Add new resource objects/input_Step4Select Your Language_react-selec_aae5da'
+
+2021-01-21 13:37:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_tC Create/Add new resource objects/div_en - English - English (Europe Gateway)")): Object: 'Object Repository/Page_tC Create/Add new resource objects/div_en - English - English (Europe Gateway)' is clicked on
+
+2021-01-21 13:37:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/Add new resource objects/div_en - English - English (Europe Gateway)' is clicked on
+
+2021-01-21 13:37:44 - [TEST_STEP][PASSED] - click(findTestObject("Page_tC Create/Add new resource objects/span_en_tn_57-TIT.tsv")): Object: 'Object Repository/Page_tC Create/Add new resource objects/span_en_tn_57-TIT.tsv' is clicked on
+
+2021-01-21 13:37:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/Add new resource objects/span_en_tn_57-TIT.tsv' is clicked on
+
+2021-01-21 13:37:45 - [TEST_STEP][PASSED] - buttonstate = com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScripture("test"): com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScripture is PASSED
+
+2021-01-21 13:37:49 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@type = 'button' and @data-test = 'drawer-menu-close-button']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-01-21 13:37:49 - [MESSAGE][WARNING] - Object 'Object Repository/Page_tC Create/button_DrawerClose' is not present after 2 second(s)
+
+2021-01-21 13:37:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/Hamburger Menu Button' is clicked on
+
+2021-01-21 13:37:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-01-21 13:37:51 - [MESSAGE][PASSED] - Object 'Object Repository/Page_tC Create/input_Expand all Scripture_default' is checked
+
+2021-01-21 13:37:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/button_DrawerClose' is clicked on
+
+2021-01-21 13:37:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_tC Create/Hamburger Menu Button' is visible
+
+2021-01-21 13:37:53 - [MESSAGE][PASSED] - com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScripture is PASSED
+
+2021-01-21 13:37:53 - [TEST_STEP][PASSED] - out.println(" the state of the button is" + buttonstate): null
+
+2021-01-21 13:37:53 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-01-21 13:37:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-01-21 13:37:54 - [TEST_STEP][PASSED] - if (buttonstate == "off"): null
+
+2021-01-21 13:37:54 - [TEST_STEP][PASSED] - else: Parallel scripture viewer is ON
+
+2021-01-21 13:37:54 - [TEST_STEP][PASSED] - logInfo("Parallel scripture viewer is ON"): Parallel scripture viewer is ON
+
+2021-01-21 13:37:54 - [MESSAGE][INFO] - Parallel scripture viewer is ON
+
+2021-01-21 13:37:54 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_tC Create/Add new resource objects/h6_TIT 1intro"), 2, CONTINUE_ON_FAILURE): Scroll to object 'Object Repository/Page_tC Create/Add new resource objects/h6_TIT 1intro' successfully
+
+2021-01-21 13:37:54 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_tC Create/Add new resource objects/h6_TIT 1intro' successfully
+
+2021-01-21 13:37:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tN objects/button_Titus 11_Expand chapter button")): Object: 'Object Repository/tN objects/button_Titus 11_Expand chapter button' is clicked on
+
+2021-01-21 13:37:56 - [MESSAGE][PASSED] - Object: 'Object Repository/tN objects/button_Titus 11_Expand chapter button' is clicked on
+
+2021-01-21 13:37:56 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Object Repository/tN objects/td_12")): Object: 'Object Repository/tN objects/td_12' is hovered
+
+2021-01-21 13:37:56 - [MESSAGE][PASSED] - Object: 'Object Repository/tN objects/td_12' is hovered
+
+2021-01-21 13:37:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tN objects/td_12")): Object: 'Object Repository/tN objects/td_12' is clicked on
+
+2021-01-21 13:37:58 - [MESSAGE][PASSED] - Object: 'Object Repository/tN objects/td_12' is clicked on
+
+2021-01-21 13:37:58 - [TEST_STEP][PASSED] - for (int i : (1..18)): Keys 'PAGE_DOWN + ' sent to object: 'tempBody'
+
+2021-01-21 13:37:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(PAGE_DOWN)): Keys 'PAGE_DOWN + ' sent to object: 'tempBody'
+
+2021-01-21 13:37:58 - [MESSAGE][WARNING] - Test object id is null
+
+2021-01-21 13:37:58 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2021-01-21 13:37:59 - [MESSAGE][PASSED] - Keys 'PAGE_DOWN + ' sent to object: 'tempBody'
+
+2021-01-21 13:37:59 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(PAGE_DOWN)): Keys 'PAGE_DOWN + ' sent to object: 'tempBody'
+
+2021-01-21 13:37:59 - [MESSAGE][WARNING] - Test object id is null
+
+2021-01-21 13:37:59 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2021-01-21 13:38:01 - [MESSAGE][PASSED] - Keys 'PAGE_DOWN + ' sent to object: 'tempBody'
+
+2021-01-21 13:38:01 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(PAGE_DOWN)): Keys 'PAGE_DOWN + ' sent to object: 'tempBody'
+
+2021-01-21 13:38:01 - [MESSAGE][WARNING] - Test object id is null
+
+2021-01-21 13:38:01 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2021-01-21 13:38:02 - [MESSAGE][PASSED] - Keys 'PAGE_DOWN + ' sent to object: 'tempBody'
+
+2021-01-21 13:38:02 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(PAGE_DOWN)): Keys 'PAGE_DOWN + ' sent to object: 'tempBody'
+
+2021-01-21 13:38:02 - [MESSAGE][WARNING] - Test object id is null
+
+2021-01-21 13:38:02 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2021-01-21 13:38:04 - [MESSAGE][PASSED] - Keys 'PAGE_DOWN + ' sent to object: 'tempBody'
+
+2021-01-21 13:38:04 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(PAGE_DOWN)): Keys 'PAGE_DOWN + ' sent to object: 'tempBody'
+
+2021-01-21 13:38:04 - [MESSAGE][WARNING] - Test object id is null
+
+2021-01-21 13:38:04 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2021-01-21 13:38:06 - [MESSAGE][PASSED] - Keys 'PAGE_DOWN + ' sent to object: 'tempBody'
+
+2021-01-21 13:38:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(PAGE_DOWN)): Keys 'PAGE_DOWN + ' sent to object: 'tempBody'
+
+2021-01-21 13:38:06 - [MESSAGE][WARNING] - Test object id is null
+
+2021-01-21 13:38:06 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2021-01-21 13:38:07 - [MESSAGE][PASSED] - Keys 'PAGE_DOWN + ' sent to object: 'tempBody'
+
+2021-01-21 13:38:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(PAGE_DOWN)): Keys 'PAGE_DOWN + ' sent to object: 'tempBody'
+
+2021-01-21 13:38:07 - [MESSAGE][WARNING] - Test object id is null
+
+2021-01-21 13:38:07 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2021-01-21 13:38:09 - [MESSAGE][PASSED] - Keys 'PAGE_DOWN + ' sent to object: 'tempBody'
+
+2021-01-21 13:38:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(PAGE_DOWN)): Keys 'PAGE_DOWN + ' sent to object: 'tempBody'
+
+2021-01-21 13:38:09 - [MESSAGE][WARNING] - Test object id is null
+
+2021-01-21 13:38:09 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2021-01-21 13:38:11 - [MESSAGE][PASSED] - Keys 'PAGE_DOWN + ' sent to object: 'tempBody'
+
+2021-01-21 13:38:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(PAGE_DOWN)): Keys 'PAGE_DOWN + ' sent to object: 'tempBody'
+
+2021-01-21 13:38:11 - [MESSAGE][WARNING] - Test object id is null
+
+2021-01-21 13:38:11 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2021-01-21 13:38:13 - [MESSAGE][PASSED] - Keys 'PAGE_DOWN + ' sent to object: 'tempBody'
+
+2021-01-21 13:38:13 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(PAGE_DOWN)): Keys 'PAGE_DOWN + ' sent to object: 'tempBody'
+
+2021-01-21 13:38:13 - [MESSAGE][WARNING] - Test object id is null
+
+2021-01-21 13:38:13 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2021-01-21 13:38:14 - [MESSAGE][PASSED] - Keys 'PAGE_DOWN + ' sent to object: 'tempBody'
+
+2021-01-21 13:38:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(PAGE_DOWN)): Keys 'PAGE_DOWN + ' sent to object: 'tempBody'
+
+2021-01-21 13:38:14 - [MESSAGE][WARNING] - Test object id is null
+
+2021-01-21 13:38:14 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2021-01-21 13:38:16 - [MESSAGE][PASSED] - Keys 'PAGE_DOWN + ' sent to object: 'tempBody'
+
+2021-01-21 13:38:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(PAGE_DOWN)): Keys 'PAGE_DOWN + ' sent to object: 'tempBody'
+
+2021-01-21 13:38:16 - [MESSAGE][WARNING] - Test object id is null
+
+2021-01-21 13:38:16 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2021-01-21 13:38:18 - [MESSAGE][PASSED] - Keys 'PAGE_DOWN + ' sent to object: 'tempBody'
+
+2021-01-21 13:38:18 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(PAGE_DOWN)): Keys 'PAGE_DOWN + ' sent to object: 'tempBody'
+
+2021-01-21 13:38:18 - [MESSAGE][WARNING] - Test object id is null
+
+2021-01-21 13:38:18 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2021-01-21 13:38:19 - [MESSAGE][PASSED] - Keys 'PAGE_DOWN + ' sent to object: 'tempBody'
+
+2021-01-21 13:38:19 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(PAGE_DOWN)): Keys 'PAGE_DOWN + ' sent to object: 'tempBody'
+
+2021-01-21 13:38:19 - [MESSAGE][WARNING] - Test object id is null
+
+2021-01-21 13:38:19 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2021-01-21 13:38:21 - [MESSAGE][PASSED] - Keys 'PAGE_DOWN + ' sent to object: 'tempBody'
+
+2021-01-21 13:38:21 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(PAGE_DOWN)): Keys 'PAGE_DOWN + ' sent to object: 'tempBody'
+
+2021-01-21 13:38:21 - [MESSAGE][WARNING] - Test object id is null
+
+2021-01-21 13:38:21 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2021-01-21 13:38:23 - [MESSAGE][PASSED] - Keys 'PAGE_DOWN + ' sent to object: 'tempBody'
+
+2021-01-21 13:38:23 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(PAGE_DOWN)): Keys 'PAGE_DOWN + ' sent to object: 'tempBody'
+
+2021-01-21 13:38:23 - [MESSAGE][WARNING] - Test object id is null
+
+2021-01-21 13:38:23 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2021-01-21 13:38:24 - [MESSAGE][PASSED] - Keys 'PAGE_DOWN + ' sent to object: 'tempBody'
+
+2021-01-21 13:38:24 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(PAGE_DOWN)): Keys 'PAGE_DOWN + ' sent to object: 'tempBody'
+
+2021-01-21 13:38:24 - [MESSAGE][WARNING] - Test object id is null
+
+2021-01-21 13:38:24 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2021-01-21 13:38:26 - [MESSAGE][PASSED] - Keys 'PAGE_DOWN + ' sent to object: 'tempBody'
+
+2021-01-21 13:38:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(PAGE_DOWN)): Keys 'PAGE_DOWN + ' sent to object: 'tempBody'
+
+2021-01-21 13:38:26 - [MESSAGE][WARNING] - Test object id is null
+
+2021-01-21 13:38:26 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2021-01-21 13:38:28 - [MESSAGE][PASSED] - Keys 'PAGE_DOWN + ' sent to object: 'tempBody'
+
+2021-01-21 13:38:28 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Object Repository/tN objects/sup_315"))): null
+
+2021-01-21 13:38:28 - [MESSAGE][PASSED] - Object 'Object Repository/tN objects/sup_315' is visible
+
+2021-01-21 13:38:28 - [TEST_STEP][PASSED] - logInfo("Chapter is expanded successfully"): Chapter is expanded successfully
+
+2021-01-21 13:38:28 - [MESSAGE][INFO] - Chapter is expanded successfully
+
+2021-01-21 13:38:28 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-01-21 13:38:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-01-21 13:38:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(PAGE_UP)): Keys 'PAGE_UP + ' sent to object: 'tempBody'
+
+2021-01-21 13:38:31 - [MESSAGE][WARNING] - Test object id is null
+
+2021-01-21 13:38:31 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2021-01-21 13:38:33 - [MESSAGE][PASSED] - Keys 'PAGE_UP + ' sent to object: 'tempBody'
+
+2021-01-21 13:38:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tN objects/button_Titus 11_collapse-chapter")): Object: 'Object Repository/tN objects/button_Titus 11_collapse-chapter' is clicked on
+
+2021-01-21 13:38:34 - [MESSAGE][PASSED] - Object: 'Object Repository/tN objects/button_Titus 11_collapse-chapter' is clicked on
+
+2021-01-21 13:38:34 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-01-21 13:38:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-01-21 13:38:36 - [TEST_STEP][PASSED] - if (verifyElementNotPresent(findTestObject("Object Repository/tN objects/sup_315"), 2, CONTINUE_ON_FAILURE)): null
+
+2021-01-21 13:38:36 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/tN objects/sup_315' located by 'By.xpath: //tr[@id='3:15']/td[3]/div/sup' is not present after '2' second(s)
+
+2021-01-21 13:38:36 - [TEST_STEP][PASSED] - logInfo("Chapter is collapsed successfully"): Chapter is collapsed successfully
+
+2021-01-21 13:38:36 - [MESSAGE][INFO] - Chapter is collapsed successfully
+
+2021-01-21 13:38:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-01-21 13:38:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/tCC Test Cases/tN_Highlighting by Occurrence Number" time="55.371" classname="Test Cases/tCC Test Cases/tN_Highlighting by Occurrence Number" status="PASSED">
+         <system-out><![CDATA[2021-01-21 13:38:36 - [TEST_CASE][PASSED] - Test Cases/tCC Test Cases/tN_Highlighting by Occurrence Number: Test Cases/tCC Test Cases/tN_Highlighting by Occurrence Number
+
+2021-01-21 13:38:36 - [TEST_STEP][PASSED] - com.tccreate.keywords.WriteToFile.writeTofilename("tN-Highlighting by occurrence number"): com.tccreate.keywords.WriteToFile.writeTofilename is PASSED
+
+2021-01-21 13:38:36 - [MESSAGE][PASSED] - com.tccreate.keywords.WriteToFile.writeTofilename is PASSED
+
+2021-01-21 13:38:36 - [TEST_STEP][PASSED] - com.helper.login.TimeDate.getTimeDate(): com.helper.login.TimeDate.getTimeDate is PASSED
+
+2021-01-21 13:38:36 - [MESSAGE][INFO] - Time at which the test run:2021-01-21 13:38:36.975
+
+2021-01-21 13:38:36 - [MESSAGE][PASSED] - com.helper.login.TimeDate.getTimeDate is PASSED
+
+2021-01-21 13:38:36 - [TEST_STEP][PASSED] - com.helper.login.loginhelper.logintoapp(): com.helper.login.loginhelper.logintoapp is PASSED
+
+2021-01-21 13:38:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-01-21 13:38:36 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2021-01-21 13:38:37 - [MESSAGE][WARNING] - FFmpeg was not installed! Browser Recording will be disabled. Please follow this document to install FFmpeg first: https://docs.katalon.com/katalon-studio/docs/screenshots-videos.html#browser-based-recorder
+
+2021-01-21 13:38:41 - [MESSAGE][PASSED] - Browser is opened with url: 'https://develop--tc-create-app.netlify.app/'
+
+2021-01-21 13:38:41 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-01-21 13:38:41 - [MESSAGE][PASSED] - Current window maximized
+
+2021-01-21 13:38:43 - [MESSAGE][PASSED] - Keys 'elsylambert' sent to object: 'Object Repository/Page_tC Create/input__username'
+
+2021-01-21 13:38:44 - [MESSAGE][PASSED] - Keys 'fatak43' sent to object: 'Object Repository/Page_tC Create/input__password'
+
+2021-01-21 13:38:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/button_Login' is clicked on
+
+2021-01-21 13:38:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-01-21 13:38:46 - [MESSAGE][PASSED] - com.helper.login.loginhelper.logintoapp is PASSED
+
+2021-01-21 13:38:46 - [TEST_STEP][PASSED] - click(findTestObject("Page_tC Create/Organization unfoldingWord")): Object: 'Object Repository/Page_tC Create/Organization unfoldingWord' is clicked on
+
+2021-01-21 13:38:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/Organization unfoldingWord' is clicked on
+
+2021-01-21 13:38:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_tC Create/span_unfoldingWord Translation Notes")): Object: 'Object Repository/Page_tC Create/span_unfoldingWord Translation Notes' is clicked on
+
+2021-01-21 13:38:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/span_unfoldingWord Translation Notes' is clicked on
+
+2021-01-21 13:38:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_tC Create/div_Step 4 Select Your Language option am -_f1dc08")): Object: 'Object Repository/Page_tC Create/div_Step 4 Select Your Language option am -_f1dc08' is clicked on
+
+2021-01-21 13:38:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/div_Step 4 Select Your Language option am -_f1dc08' is clicked on
+
+2021-01-21 13:38:52 - [TEST_STEP][PASSED] - setText(findTestObject("Page_tC Create/input_Step4Select Your Language_react-selec_aae5da"), "en"): Text 'en' is set on object 'Object Repository/Page_tC Create/input_Step4Select Your Language_react-selec_aae5da'
+
+2021-01-21 13:38:55 - [MESSAGE][PASSED] - Text 'en' is set on object 'Object Repository/Page_tC Create/input_Step4Select Your Language_react-selec_aae5da'
+
+2021-01-21 13:38:55 - [TEST_STEP][PASSED] - click(findTestObject("Page_tC Create/div_en - English - English (Europe Gateway)")): Object: 'Object Repository/Page_tC Create/div_en - English - English (Europe Gateway)' is clicked on
+
+2021-01-21 13:38:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/div_en - English - English (Europe Gateway)' is clicked on
+
+2021-01-21 13:38:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_tC Create/span_en_tn_57-TIT.tsv")): Object: 'Object Repository/Page_tC Create/span_en_tn_57-TIT.tsv' is clicked on
+
+2021-01-21 13:38:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/span_en_tn_57-TIT.tsv' is clicked on
+
+2021-01-21 13:38:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tN objects/button_view columns")): Object: 'Object Repository/tN objects/button_view columns' is clicked on
+
+2021-01-21 13:39:01 - [MESSAGE][PASSED] - Object: 'Object Repository/tN objects/button_view columns' is clicked on
+
+2021-01-21 13:39:01 - [TEST_STEP][PASSED] - click(findTestObject("tN objects/input_OrigQuote_checkbox")): Object: 'Object Repository/tN objects/input_OrigQuote_checkbox' is clicked on
+
+2021-01-21 13:39:03 - [MESSAGE][PASSED] - Object: 'Object Repository/tN objects/input_OrigQuote_checkbox' is clicked on
+
+2021-01-21 13:39:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tN objects/input_SupportReference")): Object: 'Object Repository/tN objects/input_SupportReference' is clicked on
+
+2021-01-21 13:39:04 - [MESSAGE][PASSED] - Object: 'Object Repository/tN objects/input_SupportReference' is clicked on
+
+2021-01-21 13:39:04 - [TEST_STEP][PASSED] - click(findTestObject("tN objects/button__Close-Columns")): Object: 'Object Repository/tN objects/button__Close-Columns' is clicked on
+
+2021-01-21 13:39:06 - [MESSAGE][PASSED] - Object: 'Object Repository/tN objects/button__Close-Columns' is clicked on
+
+2021-01-21 13:39:06 - [TEST_STEP][PASSED] - buttonstate = com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScripture("test"): com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScripture is PASSED
+
+2021-01-21 13:39:09 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@type = 'button' and @data-test = 'drawer-menu-close-button']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-01-21 13:39:09 - [MESSAGE][WARNING] - Object 'Object Repository/Page_tC Create/button_DrawerClose' is not present after 2 second(s)
+
+2021-01-21 13:39:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/Hamburger Menu Button' is clicked on
+
+2021-01-21 13:39:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-01-21 13:39:12 - [MESSAGE][PASSED] - Object 'Object Repository/Page_tC Create/input_Expand all Scripture_default' is checked
+
+2021-01-21 13:39:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/button_DrawerClose' is clicked on
+
+2021-01-21 13:39:14 - [MESSAGE][PASSED] - Object 'Object Repository/Page_tC Create/Hamburger Menu Button' is visible
+
+2021-01-21 13:39:14 - [MESSAGE][PASSED] - com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScripture is PASSED
+
+2021-01-21 13:39:14 - [TEST_STEP][PASSED] - out.println(" the state of the button is" + buttonstate): null
+
+2021-01-21 13:39:14 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-01-21 13:39:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-01-21 13:39:15 - [TEST_STEP][PASSED] - if (buttonstate == "off"): null
+
+2021-01-21 13:39:15 - [TEST_STEP][PASSED] - else: Parallel scripture viewer is ON
+
+2021-01-21 13:39:15 - [TEST_STEP][PASSED] - logInfo("Parallel scripture viewer is ON"): Parallel scripture viewer is ON
+
+2021-01-21 13:39:15 - [MESSAGE][INFO] - Parallel scripture viewer is ON
+
+2021-01-21 13:39:15 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/tN objects/div_Titus 11"), 2): Scroll to object 'Object Repository/tN objects/div_Titus 11' successfully
+
+2021-01-21 13:39:15 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/tN objects/div_Titus 11' successfully
+
+2021-01-21 13:39:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tN objects/button_Titus 11_add a new row")): Object: 'Object Repository/tN objects/button_Titus 11_add a new row' is clicked on
+
+2021-01-21 13:39:16 - [MESSAGE][PASSED] - Object: 'Object Repository/tN objects/button_Titus 11_add a new row' is clicked on
+
+2021-01-21 13:39:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tN objects/button_Add")): Object: 'Object Repository/tN objects/button_Add' is clicked on
+
+2021-01-21 13:39:18 - [MESSAGE][PASSED] - Object: 'Object Repository/tN objects/button_Add' is clicked on
+
+2021-01-21 13:39:18 - [TEST_STEP][PASSED] - word1 = getText(findTestObject("tN objects/word1")): Text of object 'Object Repository/tN objects/word1' is: 'Θεοῦ'
+
+2021-01-21 13:39:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/tN objects/word1' is: 'Θεοῦ'
+
+2021-01-21 13:39:19 - [TEST_STEP][PASSED] - logInfo("the word is" + word1): the word isΘεοῦ
+
+2021-01-21 13:39:19 - [MESSAGE][INFO] - the word isΘεοῦ
+
+2021-01-21 13:39:19 - [TEST_STEP][PASSED] - color_word1 = getCSSValue(findTestObject("tN objects/word1"), "color"): Get CSS 'color' value on 'Object Repository/tN objects/word1' successfully: 'rgba(0, 0, 0, 0.87)'.
+
+2021-01-21 13:39:19 - [MESSAGE][PASSED] - Get CSS 'color' value on 'Object Repository/tN objects/word1' successfully: 'rgba(0, 0, 0, 0.87)'.
+
+2021-01-21 13:39:19 - [TEST_STEP][PASSED] - backcolor_word1 = getCSSValue(findTestObject("tN objects/word1"), "background-color"): Get CSS 'background-color' value on 'Object Repository/tN objects/word1' successfully: 'rgba(0, 0, 0, 0)'.
+
+2021-01-21 13:39:19 - [MESSAGE][PASSED] - Get CSS 'background-color' value on 'Object Repository/tN objects/word1' successfully: 'rgba(0, 0, 0, 0)'.
+
+2021-01-21 13:39:19 - [TEST_STEP][PASSED] - logInfo(color_word1): rgba(0, 0, 0, 0.87)
+
+2021-01-21 13:39:19 - [MESSAGE][INFO] - rgba(0, 0, 0, 0.87)
+
+2021-01-21 13:39:19 - [TEST_STEP][PASSED] - logInfo(backcolor_word1): rgba(0, 0, 0, 0)
+
+2021-01-21 13:39:19 - [MESSAGE][INFO] - rgba(0, 0, 0, 0)
+
+2021-01-21 13:39:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tN objects/p_OL_box")): Object: 'Object Repository/tN objects/p_OL_box' is clicked on
+
+2021-01-21 13:39:21 - [MESSAGE][PASSED] - Object: 'Object Repository/tN objects/p_OL_box' is clicked on
+
+2021-01-21 13:39:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/tN objects/p_OL_box"), "Θεοῦ"): Text 'Θεοῦ' is set on object 'Object Repository/tN objects/p_OL_box'
+
+2021-01-21 13:39:23 - [MESSAGE][PASSED] - Text 'Θεοῦ' is set on object 'Object Repository/tN objects/p_OL_box'
+
+2021-01-21 13:39:23 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2021-01-21 13:39:23 - [TEST_STEP][PASSED] - action = new org.openqa.selenium.interactions.Actions(driver): null
+
+2021-01-21 13:39:23 - [TEST_STEP][PASSED] - build().perform(): null
+
+2021-01-21 13:39:24 - [TEST_STEP][PASSED] - if (!(color_word1.equals(backcolor_word1))): First Occurrence is highlighted!
+
+2021-01-21 13:39:24 - [TEST_STEP][PASSED] - logInfo("First Occurrence is highlighted!"): First Occurrence is highlighted!
+
+2021-01-21 13:39:24 - [MESSAGE][INFO] - First Occurrence is highlighted!
+
+2021-01-21 13:39:24 - [TEST_STEP][PASSED] - color_word2 = getCSSValue(findTestObject("tN objects/word2"), "color"): Get CSS 'color' value on 'Object Repository/tN objects/word2' successfully: 'rgba(0, 0, 0, 0.87)'.
+
+2021-01-21 13:39:24 - [MESSAGE][PASSED] - Get CSS 'color' value on 'Object Repository/tN objects/word2' successfully: 'rgba(0, 0, 0, 0.87)'.
+
+2021-01-21 13:39:24 - [TEST_STEP][PASSED] - backcolor_word2 = getCSSValue(findTestObject("tN objects/word2"), "background-color"): Get CSS 'background-color' value on 'Object Repository/tN objects/word2' successfully: 'rgba(0, 0, 0, 0)'.
+
+2021-01-21 13:39:24 - [MESSAGE][PASSED] - Get CSS 'background-color' value on 'Object Repository/tN objects/word2' successfully: 'rgba(0, 0, 0, 0)'.
+
+2021-01-21 13:39:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tN objects/p_occurrence box")): Object: 'Object Repository/tN objects/p_occurrence box' is clicked on
+
+2021-01-21 13:39:26 - [MESSAGE][PASSED] - Object: 'Object Repository/tN objects/p_occurrence box' is clicked on
+
+2021-01-21 13:39:26 - [TEST_STEP][PASSED] - clearText(findTestObject("Object Repository/tN objects/p_occurrence box"), CONTINUE_ON_FAILURE): Text of object 'Object Repository/tN objects/p_occurrence box' is cleared
+
+2021-01-21 13:39:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/tN objects/p_occurrence box' is cleared
+
+2021-01-21 13:39:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/tN objects/p_occurrence box"), "2"): Keys '2' sent to object: 'Object Repository/tN objects/p_occurrence box'
+
+2021-01-21 13:39:28 - [MESSAGE][PASSED] - Keys '2' sent to object: 'Object Repository/tN objects/p_occurrence box'
+
+2021-01-21 13:39:28 - [TEST_STEP][PASSED] - build().perform(): null
+
+2021-01-21 13:39:29 - [TEST_STEP][PASSED] - if (!(color_word2.equals(backcolor_word2))): Second occcurrence is highlighted!
+
+2021-01-21 13:39:29 - [TEST_STEP][PASSED] - logInfo("Second occcurrence is highlighted!"): Second occcurrence is highlighted!
+
+2021-01-21 13:39:29 - [MESSAGE][INFO] - Second occcurrence is highlighted!
+
+2021-01-21 13:39:29 - [TEST_STEP][PASSED] - clearText(findTestObject("Object Repository/tN objects/p_occurrence box"), CONTINUE_ON_FAILURE): Text of object 'Object Repository/tN objects/p_occurrence box' is cleared
+
+2021-01-21 13:39:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/tN objects/p_occurrence box' is cleared
+
+2021-01-21 13:39:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/tN objects/p_occurrence box"), "-1"): Keys '-1' sent to object: 'Object Repository/tN objects/p_occurrence box'
+
+2021-01-21 13:39:32 - [MESSAGE][PASSED] - Keys '-1' sent to object: 'Object Repository/tN objects/p_occurrence box'
+
+2021-01-21 13:39:32 - [TEST_STEP][PASSED] - build().perform(): null
+
+2021-01-21 13:39:32 - [TEST_STEP][PASSED] - if (!(color_word1.equals(backcolor_word1)) && !(color_word2.equals(backcolor_word2))): Both occurrences are highlighted!
+
+2021-01-21 13:39:32 - [TEST_STEP][PASSED] - logInfo("Both occurrences are highlighted!"): Both occurrences are highlighted!
+
+2021-01-21 13:39:32 - [MESSAGE][INFO] - Both occurrences are highlighted!
+
+2021-01-21 13:39:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-01-21 13:39:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/tCC Test Cases/tW_Saving tW Article" time="36.95" classname="Test Cases/tCC Test Cases/tW_Saving tW Article" status="PASSED">
+         <system-out><![CDATA[2021-01-21 13:39:32 - [TEST_CASE][PASSED] - Test Cases/tCC Test Cases/tW_Saving tW Article: Test Cases/tCC Test Cases/tW_Saving tW Article
+
+2021-01-21 13:39:32 - [TEST_STEP][PASSED] - com.tccreate.keywords.WriteToFile.writeTofilename("tW-Save"): com.tccreate.keywords.WriteToFile.writeTofilename is PASSED
+
+2021-01-21 13:39:32 - [MESSAGE][PASSED] - com.tccreate.keywords.WriteToFile.writeTofilename is PASSED
+
+2021-01-21 13:39:32 - [TEST_STEP][PASSED] - com.helper.login.TimeDate.getTimeDate(): com.helper.login.TimeDate.getTimeDate is PASSED
+
+2021-01-21 13:39:32 - [MESSAGE][INFO] - Time at which the test run:2021-01-21 13:39:32.322
+
+2021-01-21 13:39:32 - [MESSAGE][PASSED] - com.helper.login.TimeDate.getTimeDate is PASSED
+
+2021-01-21 13:39:32 - [TEST_STEP][PASSED] - com.helper.login.loginhelper.logintoapp(): com.helper.login.loginhelper.logintoapp is PASSED
+
+2021-01-21 13:39:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-01-21 13:39:32 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2021-01-21 13:39:33 - [MESSAGE][WARNING] - FFmpeg was not installed! Browser Recording will be disabled. Please follow this document to install FFmpeg first: https://docs.katalon.com/katalon-studio/docs/screenshots-videos.html#browser-based-recorder
+
+2021-01-21 13:39:36 - [MESSAGE][PASSED] - Browser is opened with url: 'https://develop--tc-create-app.netlify.app/'
+
+2021-01-21 13:39:36 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-01-21 13:39:37 - [MESSAGE][PASSED] - Current window maximized
+
+2021-01-21 13:39:38 - [MESSAGE][PASSED] - Keys 'elsylambert' sent to object: 'Object Repository/Page_tC Create/input__username'
+
+2021-01-21 13:39:39 - [MESSAGE][PASSED] - Keys 'fatak43' sent to object: 'Object Repository/Page_tC Create/input__password'
+
+2021-01-21 13:39:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/button_Login' is clicked on
+
+2021-01-21 13:39:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-01-21 13:39:42 - [MESSAGE][PASSED] - com.helper.login.loginhelper.logintoapp is PASSED
+
+2021-01-21 13:39:42 - [TEST_STEP][PASSED] - click(findTestObject("tW Objects/div_unfoldingWord")): Object: 'Object Repository/tW Objects/div_unfoldingWord' is clicked on
+
+2021-01-21 13:39:43 - [MESSAGE][PASSED] - Object: 'Object Repository/tW Objects/div_unfoldingWord' is clicked on
+
+2021-01-21 13:39:43 - [TEST_STEP][PASSED] - click(findTestObject("tW Objects/div_unfoldingWord Translation Wordsunfoldin_70512f")): Object: 'Object Repository/tW Objects/div_unfoldingWord Translation Wordsunfoldin_70512f' is clicked on
+
+2021-01-21 13:39:46 - [MESSAGE][PASSED] - Object: 'Object Repository/tW Objects/div_unfoldingWord Translation Wordsunfoldin_70512f' is clicked on
+
+2021-01-21 13:39:46 - [TEST_STEP][PASSED] - click(findTestObject("tW Objects/p_Select Language")): Object: 'Object Repository/tW Objects/p_Select Language' is clicked on
+
+2021-01-21 13:39:47 - [MESSAGE][PASSED] - Object: 'Object Repository/tW Objects/p_Select Language' is clicked on
+
+2021-01-21 13:39:47 - [TEST_STEP][PASSED] - setText(findTestObject("tW Objects/input_Step4Select Your Language_react-selec_aae5da"), "en"): Text 'en' is set on object 'Object Repository/tW Objects/input_Step4Select Your Language_react-selec_aae5da'
+
+2021-01-21 13:39:50 - [MESSAGE][PASSED] - Text 'en' is set on object 'Object Repository/tW Objects/input_Step4Select Your Language_react-selec_aae5da'
+
+2021-01-21 13:39:50 - [TEST_STEP][PASSED] - click(findTestObject("tW Objects/div_en - English - English (Europe Gateway)")): Object: 'Object Repository/tW Objects/div_en - English - English (Europe Gateway)' is clicked on
+
+2021-01-21 13:39:52 - [MESSAGE][PASSED] - Object: 'Object Repository/tW Objects/div_en - English - English (Europe Gateway)' is clicked on
+
+2021-01-21 13:39:52 - [TEST_STEP][PASSED] - click(findTestObject("tW Objects/span_bible")): Object: 'Object Repository/tW Objects/span_bible' is clicked on
+
+2021-01-21 13:39:54 - [MESSAGE][PASSED] - Object: 'Object Repository/tW Objects/span_bible' is clicked on
+
+2021-01-21 13:39:54 - [TEST_STEP][PASSED] - click(findTestObject("tW Objects/span_kt")): Object: 'Object Repository/tW Objects/span_kt' is clicked on
+
+2021-01-21 13:39:56 - [MESSAGE][PASSED] - Object: 'Object Repository/tW Objects/span_kt' is clicked on
+
+2021-01-21 13:39:56 - [TEST_STEP][PASSED] - click(findTestObject("tW Objects/span_almighty.md")): Object: 'Object Repository/tW Objects/span_almighty.md' is clicked on
+
+2021-01-21 13:39:58 - [MESSAGE][PASSED] - Object: 'Object Repository/tW Objects/span_almighty.md' is clicked on
+
+2021-01-21 13:39:58 - [TEST_STEP][PASSED] - click(findTestObject("tW Objects/h1_Almighty")): Object: 'Object Repository/tW Objects/h1_Almighty' is clicked on
+
+2021-01-21 13:40:00 - [MESSAGE][PASSED] - Object: 'Object Repository/tW Objects/h1_Almighty' is clicked on
+
+2021-01-21 13:40:00 - [TEST_STEP][PASSED] - sendKeys(findTestObject("tW Objects/div_Almighty test"), "  edits by a test script"): Keys '  edits by a test script' sent to object: 'Object Repository/tW Objects/div_Almighty test'
+
+2021-01-21 13:40:01 - [MESSAGE][PASSED] - Keys '  edits by a test script' sent to object: 'Object Repository/tW Objects/div_Almighty test'
+
+2021-01-21 13:40:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_tC Create/button_Save")): Object: 'Object Repository/Page_tC Create/button_Save' is clicked on
+
+2021-01-21 13:40:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/button_Save' is clicked on
+
+2021-01-21 13:40:03 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-01-21 13:40:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-01-21 13:40:05 - [TEST_STEP][PASSED] - if (verifyElementNotClickable(findTestObject("Page_tC Create/button_Save"), CONTINUE_ON_FAILURE)): null
+
+2021-01-21 13:40:05 - [MESSAGE][PASSED] - Object 'Object Repository/Page_tC Create/button_Save' is NOT clickable
+
+2021-01-21 13:40:05 - [TEST_STEP][PASSED] - logInfo(" Save button is greyed out as expected"):  Save button is greyed out as expected
+
+2021-01-21 13:40:05 - [MESSAGE][INFO] -  Save button is greyed out as expected
+
+2021-01-21 13:40:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tW Objects/chip_English - unfoldingWorden_twElsyLambert-tc-create-1")): Object: 'Object Repository/tW Objects/chip_English - unfoldingWorden_twElsyLambert-tc-create-1' is clicked on
+
+2021-01-21 13:40:06 - [MESSAGE][PASSED] - Object: 'Object Repository/tW Objects/chip_English - unfoldingWorden_twElsyLambert-tc-create-1' is clicked on
+
+2021-01-21 13:40:06 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-01-21 13:40:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-01-21 13:40:08 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2021-01-21 13:40:08 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2021-01-21 13:40:08 - [TEST_STEP][PASSED] - if (getText(findTestObject("Object Repository/tW Objects/h1_Almighty article on DCS")).contains("edits by a test script")): null
+
+2021-01-21 13:40:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/tW Objects/h1_Almighty article on DCS' is: 'Almighty  edits by a test script'
+
+2021-01-21 13:40:09 - [TEST_STEP][PASSED] - logInfo("The edits are saved on the DCS Repo File"): The edits are saved on the DCS Repo File
+
+2021-01-21 13:40:09 - [MESSAGE][INFO] - The edits are saved on the DCS Repo File
+
+2021-01-21 13:40:09 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2021-01-21 13:40:09 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2021-01-21 13:40:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-01-21 13:40:09 - [MESSAGE][PASSED] - Browser is closed
+
+2021-01-21 13:40:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-01-21 13:40:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/tCC Test Cases/tA_Saving tA Article" time="38.716" classname="Test Cases/tCC Test Cases/tA_Saving tA Article" status="PASSED">
+         <system-out><![CDATA[2021-01-21 13:40:09 - [TEST_CASE][PASSED] - Test Cases/tCC Test Cases/tA_Saving tA Article: Test Cases/tCC Test Cases/tA_Saving tA Article
+
+2021-01-21 13:40:09 - [TEST_STEP][PASSED] - com.tccreate.keywords.WriteToFile.writeTofilename("tA-Save"): com.tccreate.keywords.WriteToFile.writeTofilename is PASSED
+
+2021-01-21 13:40:09 - [MESSAGE][PASSED] - com.tccreate.keywords.WriteToFile.writeTofilename is PASSED
+
+2021-01-21 13:40:09 - [TEST_STEP][PASSED] - com.helper.login.TimeDate.getTimeDate(): com.helper.login.TimeDate.getTimeDate is PASSED
+
+2021-01-21 13:40:09 - [MESSAGE][INFO] - Time at which the test run:2021-01-21 13:40:09.278
+
+2021-01-21 13:40:09 - [MESSAGE][PASSED] - com.helper.login.TimeDate.getTimeDate is PASSED
+
+2021-01-21 13:40:09 - [TEST_STEP][PASSED] - com.helper.login.loginhelper.logintoapp(): com.helper.login.loginhelper.logintoapp is PASSED
+
+2021-01-21 13:40:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-01-21 13:40:09 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2021-01-21 13:40:10 - [MESSAGE][WARNING] - FFmpeg was not installed! Browser Recording will be disabled. Please follow this document to install FFmpeg first: https://docs.katalon.com/katalon-studio/docs/screenshots-videos.html#browser-based-recorder
+
+2021-01-21 13:40:15 - [MESSAGE][PASSED] - Browser is opened with url: 'https://develop--tc-create-app.netlify.app/'
+
+2021-01-21 13:40:15 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-01-21 13:40:15 - [MESSAGE][PASSED] - Current window maximized
+
+2021-01-21 13:40:16 - [MESSAGE][PASSED] - Keys 'elsylambert' sent to object: 'Object Repository/Page_tC Create/input__username'
+
+2021-01-21 13:40:18 - [MESSAGE][PASSED] - Keys 'fatak43' sent to object: 'Object Repository/Page_tC Create/input__password'
+
+2021-01-21 13:40:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/button_Login' is clicked on
+
+2021-01-21 13:40:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-01-21 13:40:20 - [MESSAGE][PASSED] - com.helper.login.loginhelper.logintoapp is PASSED
+
+2021-01-21 13:40:20 - [TEST_STEP][PASSED] - click(findTestObject("Page_tC Create/Organization unfoldingWord")): Object: 'Object Repository/Page_tC Create/Organization unfoldingWord' is clicked on
+
+2021-01-21 13:40:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/Organization unfoldingWord' is clicked on
+
+2021-01-21 13:40:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_tC Create/div_unfoldingWord Translation Academyunfold_cb119f")): Object: 'Object Repository/Page_tC Create/div_unfoldingWord Translation Academyunfold_cb119f' is clicked on
+
+2021-01-21 13:40:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/div_unfoldingWord Translation Academyunfold_cb119f' is clicked on
+
+2021-01-21 13:40:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_tC Create/p_Select Language")): Object: 'Object Repository/Page_tC Create/p_Select Language' is clicked on
+
+2021-01-21 13:40:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/p_Select Language' is clicked on
+
+2021-01-21 13:40:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_tC Create/input_Step4Select Your Language_react-selec_aae5da"), "en"): Text 'en' is set on object 'Object Repository/Page_tC Create/input_Step4Select Your Language_react-selec_aae5da'
+
+2021-01-21 13:40:29 - [MESSAGE][PASSED] - Text 'en' is set on object 'Object Repository/Page_tC Create/input_Step4Select Your Language_react-selec_aae5da'
+
+2021-01-21 13:40:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_tC Create/div_en - English - English (Europe Gateway)")): Object: 'Object Repository/Page_tC Create/div_en - English - English (Europe Gateway)' is clicked on
+
+2021-01-21 13:40:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/div_en - English - English (Europe Gateway)' is clicked on
+
+2021-01-21 13:40:30 - [TEST_STEP][PASSED] - click(findTestObject("Page_tC Create/span_translate")): Object: 'Object Repository/Page_tC Create/span_translate' is clicked on
+
+2021-01-21 13:40:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/span_translate' is clicked on
+
+2021-01-21 13:40:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_tC Create/span_bita-farming")): Object: 'Object Repository/Page_tC Create/span_bita-farming' is clicked on
+
+2021-01-21 13:40:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/span_bita-farming' is clicked on
+
+2021-01-21 13:40:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_tC Create/span_01.md")): Object: 'Object Repository/Page_tC Create/span_01.md' is clicked on
+
+2021-01-21 13:40:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/span_01.md' is clicked on
+
+2021-01-21 13:40:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_tC Create/div_A FARMER represents God, and the VINEYA_8b10d9")): Object: 'Object Repository/Page_tC Create/div_A FARMER represents God, and the VINEYA_8b10d9' is clicked on
+
+2021-01-21 13:40:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/div_A FARMER represents God, and the VINEYA_8b10d9' is clicked on
+
+2021-01-21 13:40:38 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/tA/div_A FARMER represents God- Edit box"), " test edit by the test script"): Keys ' test edit by the test script' sent to object: 'Object Repository/tA/div_A FARMER represents God- Edit box'
+
+2021-01-21 13:40:40 - [MESSAGE][PASSED] - Keys ' test edit by the test script' sent to object: 'Object Repository/tA/div_A FARMER represents God- Edit box'
+
+2021-01-21 13:40:40 - [TEST_STEP][PASSED] - click(findTestObject("Page_tC Create/button_Save")): Object: 'Object Repository/Page_tC Create/button_Save' is clicked on
+
+2021-01-21 13:40:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/button_Save' is clicked on
+
+2021-01-21 13:40:41 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-01-21 13:40:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-01-21 13:40:43 - [TEST_STEP][PASSED] - if (verifyElementNotClickable(findTestObject("Page_tC Create/button_Save"), CONTINUE_ON_FAILURE)): null
+
+2021-01-21 13:40:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_tC Create/button_Save' is NOT clickable
+
+2021-01-21 13:40:44 - [TEST_STEP][PASSED] - logInfo(" 
+ Save button is greyed out as expected"):  
+ Save button is greyed out as expected
+
+2021-01-21 13:40:44 - [MESSAGE][INFO] -  
+ Save button is greyed out as expected
+
+2021-01-21 13:40:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tA/Chip_English - unfoldingWorden_taElsyLambert-tc-create-1")): Object: 'Object Repository/tA/Chip_English - unfoldingWorden_taElsyLambert-tc-create-1' is clicked on
+
+2021-01-21 13:40:45 - [MESSAGE][PASSED] - Object: 'Object Repository/tA/Chip_English - unfoldingWorden_taElsyLambert-tc-create-1' is clicked on
+
+2021-01-21 13:40:45 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-01-21 13:40:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-01-21 13:40:47 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2021-01-21 13:40:47 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2021-01-21 13:40:47 - [TEST_STEP][PASSED] - if (getText(findTestObject("Object Repository/tA/h4_dcs article")).contains("test edit by the test script")): null
+
+2021-01-21 13:40:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/tA/h4_dcs article' is: 'A FARMER represents God, and the VINEYARD represents his chosen people test edit by the test script'
+
+2021-01-21 13:40:47 - [TEST_STEP][PASSED] - logInfo("
+ The edits are saved on the DCS Repo File"): 
+ The edits are saved on the DCS Repo File
+
+2021-01-21 13:40:47 - [MESSAGE][INFO] - 
+ The edits are saved on the DCS Repo File
+
+2021-01-21 13:40:47 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2021-01-21 13:40:47 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2021-01-21 13:40:47 - [TEST_STEP][PASSED] - logInfo("
+ TEST PASSED:Edits are saved successfully in tA articles"): 
+ TEST PASSED:Edits are saved successfully in tA articles
+
+2021-01-21 13:40:47 - [MESSAGE][INFO] - 
+ TEST PASSED:Edits are saved successfully in tA articles
+
+2021-01-21 13:40:47 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-01-21 13:40:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/tCC Test Cases/tN_Add New Resource" time="67.993" classname="Test Cases/tCC Test Cases/tN_Add New Resource" status="PASSED">
+         <system-out><![CDATA[2021-01-21 13:40:47 - [TEST_CASE][PASSED] - Test Cases/tCC Test Cases/tN_Add New Resource: Test Cases/tCC Test Cases/tN_Add New Resource
+
+2021-01-21 13:40:48 - [TEST_STEP][PASSED] - com.tccreate.keywords.WriteToFile.writeTofilename("tN-Add new resource"): com.tccreate.keywords.WriteToFile.writeTofilename is PASSED
+
+2021-01-21 13:40:48 - [MESSAGE][PASSED] - com.tccreate.keywords.WriteToFile.writeTofilename is PASSED
+
+2021-01-21 13:40:48 - [TEST_STEP][PASSED] - com.helper.login.TimeDate.getTimeDate(): com.helper.login.TimeDate.getTimeDate is PASSED
+
+2021-01-21 13:40:48 - [MESSAGE][INFO] - Time at which the test run:2021-01-21 13:40:48.019
+
+2021-01-21 13:40:48 - [MESSAGE][PASSED] - com.helper.login.TimeDate.getTimeDate is PASSED
+
+2021-01-21 13:40:48 - [TEST_STEP][PASSED] - com.helper.login.loginhelper.logintoapp(): com.helper.login.loginhelper.logintoapp is PASSED
+
+2021-01-21 13:40:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-01-21 13:40:48 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2021-01-21 13:40:48 - [MESSAGE][WARNING] - FFmpeg was not installed! Browser Recording will be disabled. Please follow this document to install FFmpeg first: https://docs.katalon.com/katalon-studio/docs/screenshots-videos.html#browser-based-recorder
+
+2021-01-21 13:40:52 - [MESSAGE][PASSED] - Browser is opened with url: 'https://develop--tc-create-app.netlify.app/'
+
+2021-01-21 13:40:52 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-01-21 13:40:52 - [MESSAGE][PASSED] - Current window maximized
+
+2021-01-21 13:40:54 - [MESSAGE][PASSED] - Keys 'elsylambert' sent to object: 'Object Repository/Page_tC Create/input__username'
+
+2021-01-21 13:40:55 - [MESSAGE][PASSED] - Keys 'fatak43' sent to object: 'Object Repository/Page_tC Create/input__password'
+
+2021-01-21 13:40:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/button_Login' is clicked on
+
+2021-01-21 13:40:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-01-21 13:40:57 - [MESSAGE][PASSED] - com.helper.login.loginhelper.logintoapp is PASSED
+
+2021-01-21 13:40:57 - [TEST_STEP][PASSED] - click(findTestObject("Page_tC Create/Add new resource objects/span_unfoldingWord")): Object: 'Object Repository/Page_tC Create/Add new resource objects/span_unfoldingWord' is clicked on
+
+2021-01-21 13:40:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/Add new resource objects/span_unfoldingWord' is clicked on
+
+2021-01-21 13:40:59 - [TEST_STEP][PASSED] - click(findTestObject("Page_tC Create/Add new resource objects/span_unfoldingWord Translation Notes")): Object: 'Object Repository/Page_tC Create/Add new resource objects/span_unfoldingWord Translation Notes' is clicked on
+
+2021-01-21 13:41:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/Add new resource objects/span_unfoldingWord Translation Notes' is clicked on
+
+2021-01-21 13:41:02 - [TEST_STEP][PASSED] - click(findTestObject("Page_tC Create/Add new resource objects/div_Select Language")): Object: 'Object Repository/Page_tC Create/Add new resource objects/div_Select Language' is clicked on
+
+2021-01-21 13:41:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/Add new resource objects/div_Select Language' is clicked on
+
+2021-01-21 13:41:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_tC Create/Add new resource objects/input_Step4Select Your Language_react-selec_aae5da"), "en"): Text 'en' is set on object 'Object Repository/Page_tC Create/Add new resource objects/input_Step4Select Your Language_react-selec_aae5da'
+
+2021-01-21 13:41:06 - [MESSAGE][PASSED] - Text 'en' is set on object 'Object Repository/Page_tC Create/Add new resource objects/input_Step4Select Your Language_react-selec_aae5da'
+
+2021-01-21 13:41:06 - [TEST_STEP][PASSED] - click(findTestObject("Page_tC Create/Add new resource objects/div_en - English - English (Europe Gateway)")): Object: 'Object Repository/Page_tC Create/Add new resource objects/div_en - English - English (Europe Gateway)' is clicked on
+
+2021-01-21 13:41:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/Add new resource objects/div_en - English - English (Europe Gateway)' is clicked on
+
+2021-01-21 13:41:07 - [TEST_STEP][PASSED] - click(findTestObject("Page_tC Create/Add new resource objects/span_en_tn_57-TIT.tsv")): Object: 'Object Repository/Page_tC Create/Add new resource objects/span_en_tn_57-TIT.tsv' is clicked on
+
+2021-01-21 13:41:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/Add new resource objects/span_en_tn_57-TIT.tsv' is clicked on
+
+2021-01-21 13:41:09 - [TEST_STEP][PASSED] - buttonstate = com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScripture("test"): com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScripture is PASSED
+
+2021-01-21 13:41:12 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@type = 'button' and @data-test = 'drawer-menu-close-button']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-01-21 13:41:12 - [MESSAGE][WARNING] - Object 'Object Repository/Page_tC Create/button_DrawerClose' is not present after 2 second(s)
+
+2021-01-21 13:41:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/Hamburger Menu Button' is clicked on
+
+2021-01-21 13:41:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-01-21 13:41:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_tC Create/input_Expand all Scripture_default' is checked
+
+2021-01-21 13:41:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/button_DrawerClose' is clicked on
+
+2021-01-21 13:41:17 - [MESSAGE][PASSED] - Object 'Object Repository/Page_tC Create/Hamburger Menu Button' is visible
+
+2021-01-21 13:41:17 - [MESSAGE][PASSED] - com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScripture is PASSED
+
+2021-01-21 13:41:17 - [TEST_STEP][PASSED] - out.println(" the state of the button is" + buttonstate): null
+
+2021-01-21 13:41:17 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-01-21 13:41:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-01-21 13:41:18 - [TEST_STEP][PASSED] - if (buttonstate == "off"): null
+
+2021-01-21 13:41:18 - [TEST_STEP][PASSED] - else: Parallel scripture viewer is ON
+
+2021-01-21 13:41:18 - [TEST_STEP][PASSED] - logInfo("Parallel scripture viewer is ON"): Parallel scripture viewer is ON
+
+2021-01-21 13:41:18 - [MESSAGE][INFO] - Parallel scripture viewer is ON
+
+2021-01-21 13:41:18 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_tC Create/Add new resource objects/h6_TIT 1intro"), 2, CONTINUE_ON_FAILURE): Scroll to object 'Object Repository/Page_tC Create/Add new resource objects/h6_TIT 1intro' successfully
+
+2021-01-21 13:41:18 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_tC Create/Add new resource objects/h6_TIT 1intro' successfully
+
+2021-01-21 13:41:18 - [TEST_STEP][PASSED] - click(findTestObject("Page_tC Create/Add new resource objects/h6_Titus 11")): Object: 'Object Repository/Page_tC Create/Add new resource objects/h6_Titus 11' is clicked on
+
+2021-01-21 13:41:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/Add new resource objects/h6_Titus 11' is clicked on
+
+2021-01-21 13:41:20 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_tC Create/Add new resource objects/h6_Titus 11"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_tC Create/Add new resource objects/h6_Titus 11' is visible
+
+2021-01-21 13:41:20 - [MESSAGE][PASSED] - Object 'Object Repository/Page_tC Create/Add new resource objects/h6_Titus 11' is visible
+
+2021-01-21 13:41:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_tC Create/Add new resource objects/button_Manage Versions")): Object: 'Object Repository/Page_tC Create/Add new resource objects/button_Manage Versions' is clicked on
+
+2021-01-21 13:41:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/Add new resource objects/button_Manage Versions' is clicked on
+
+2021-01-21 13:41:21 - [TEST_STEP][PASSED] - click(findTestObject("Page_tC Create/Add new resource objects/input_Resource Path_resourceUrl")): Object: 'Object Repository/Page_tC Create/Add new resource objects/input_Resource Path_resourceUrl' is clicked on
+
+2021-01-21 13:41:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/Add new resource objects/input_Resource Path_resourceUrl' is clicked on
+
+2021-01-21 13:41:23 - [TEST_STEP][PASSED] - setText(findTestObject("Page_tC Create/Add new resource objects/input_Resource Path_resourceUrl"), "Door43-Catalog/hi/ulb/master/"): Text 'Door43-Catalog/hi/ulb/master/' is set on object 'Object Repository/Page_tC Create/Add new resource objects/input_Resource Path_resourceUrl'
+
+2021-01-21 13:41:26 - [MESSAGE][PASSED] - Text 'Door43-Catalog/hi/ulb/master/' is set on object 'Object Repository/Page_tC Create/Add new resource objects/input_Resource Path_resourceUrl'
+
+2021-01-21 13:41:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_tC Create/Add new resource objects/button_Add_Resource Path")): Object: 'Object Repository/Page_tC Create/Add new resource objects/button_Add_Resource Path' is clicked on
+
+2021-01-21 13:41:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/Add new resource objects/button_Add_Resource Path' is clicked on
+
+2021-01-21 13:41:27 - [TEST_STEP][PASSED] - if (verifyElementChecked(findTestObject("Object Repository/Page_tC Create/Add new resource objects/input_unfoldingWord Simplified Textv14_jss5689"), 1)): null
+
+2021-01-21 13:41:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_tC Create/Add new resource objects/input_unfoldingWord Simplified Textv14_jss5689' is checked
+
+2021-01-21 13:41:28 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2021-01-21 13:41:28 - [TEST_STEP][PASSED] - action = new org.openqa.selenium.interactions.Actions(driver): null
+
+2021-01-21 13:41:28 - [TEST_STEP][PASSED] - build().perform(): null
+
+2021-01-21 13:41:28 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-01-21 13:41:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-01-21 13:41:30 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Object Repository/Page_tC Create/Add new resource objects/Header_Unlocked Literal Bible - Hindi v5"), CONTINUE_ON_FAILURE)): null
+
+2021-01-21 13:41:30 - [MESSAGE][PASSED] - Object 'Object Repository/Page_tC Create/Add new resource objects/Header_Unlocked Literal Bible - Hindi v5' is visible
+
+2021-01-21 13:41:30 - [TEST_STEP][PASSED] - out.println("New Resource Header Present in the Scripture Viewer"): null
+
+2021-01-21 13:41:30 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Object Repository/Page_tC Create/Add new resource objects/Hindi ULB Text"), CONTINUE_ON_FAILURE)): null
+
+2021-01-21 13:41:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_tC Create/Add new resource objects/Hindi ULB Text' is visible
+
+2021-01-21 13:41:31 - [TEST_STEP][PASSED] - logInfo(" New Resource Text added by a Relative path is Present in the Scripture Viewer"):  New Resource Text added by a Relative path is Present in the Scripture Viewer
+
+2021-01-21 13:41:31 - [MESSAGE][INFO] -  New Resource Text added by a Relative path is Present in the Scripture Viewer
+
+2021-01-21 13:41:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_tC Create/Add new resource objects/button_Manage Versions")): Object: 'Object Repository/Page_tC Create/Add new resource objects/button_Manage Versions' is clicked on
+
+2021-01-21 13:41:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/Add new resource objects/button_Manage Versions' is clicked on
+
+2021-01-21 13:41:32 - [TEST_STEP][PASSED] - click(findTestObject("Page_tC Create/Add new resource objects/input_Resource Path_resourceUrl")): Object: 'Object Repository/Page_tC Create/Add new resource objects/input_Resource Path_resourceUrl' is clicked on
+
+2021-01-21 13:41:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/Add new resource objects/input_Resource Path_resourceUrl' is clicked on
+
+2021-01-21 13:41:34 - [TEST_STEP][PASSED] - setText(findTestObject("Page_tC Create/Add new resource objects/input_Resource Path_resourceUrl"), "https://git.door43.org/ru_gl/ru_rlob"): Text 'https://git.door43.org/ru_gl/ru_rlob' is set on object 'Object Repository/Page_tC Create/Add new resource objects/input_Resource Path_resourceUrl'
+
+2021-01-21 13:41:37 - [MESSAGE][PASSED] - Text 'https://git.door43.org/ru_gl/ru_rlob' is set on object 'Object Repository/Page_tC Create/Add new resource objects/input_Resource Path_resourceUrl'
+
+2021-01-21 13:41:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_tC Create/Add new resource objects/button_Add_Resource Path")): Object: 'Object Repository/Page_tC Create/Add new resource objects/button_Add_Resource Path' is clicked on
+
+2021-01-21 13:41:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/Add new resource objects/button_Add_Resource Path' is clicked on
+
+2021-01-21 13:41:38 - [TEST_STEP][PASSED] - if (verifyElementChecked(findTestObject("Object Repository/Page_tC Create/Add new resource objects/input_unfoldingWord Simplified Text-Russian check box"), 1)): null
+
+2021-01-21 13:41:39 - [MESSAGE][PASSED] - Object 'Object Repository/Page_tC Create/Add new resource objects/input_unfoldingWord Simplified Text-Russian check box' is checked
+
+2021-01-21 13:41:39 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2021-01-21 13:41:39 - [TEST_STEP][PASSED] - action = new org.openqa.selenium.interactions.Actions(driver): null
+
+2021-01-21 13:41:39 - [TEST_STEP][PASSED] - build().perform(): null
+
+2021-01-21 13:41:40 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-01-21 13:41:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-01-21 13:41:42 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Object Repository/Page_tC Create/Add new resource objects/span_RLOB v1"), CONTINUE_ON_FAILURE)): null
+
+2021-01-21 13:41:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_tC Create/Add new resource objects/span_RLOB v1' is visible
+
+2021-01-21 13:41:42 - [TEST_STEP][PASSED] - out.println("New Resource Header Present in the Scripture Viewer"): null
+
+2021-01-21 13:41:42 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Object Repository/Page_tC Create/Add new resource objects/div_11-russian text"), CONTINUE_ON_FAILURE)): null
+
+2021-01-21 13:41:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_tC Create/Add new resource objects/div_11-russian text' is visible
+
+2021-01-21 13:41:42 - [TEST_STEP][PASSED] - logInfo(" New Resource Text added by a URL is Present in the Scripture Viewer"):  New Resource Text added by a URL is Present in the Scripture Viewer
+
+2021-01-21 13:41:42 - [MESSAGE][INFO] -  New Resource Text added by a URL is Present in the Scripture Viewer
+
+2021-01-21 13:41:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-01-21 13:41:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-01-21 13:41:44 - [TEST_STEP][FAILED] - try: Unable to click on object 'Object Repository/Page_tC Create/Hamburger Menu Button' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_tC Create/Hamburger Menu Button'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:605)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at tN_Add New Resource.run(tN_Add New Resource:148)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1611254072426.run(TempTestSuite1611254072426.groovy:39)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (36, -32)
+  (Session info: chrome=87.0.4280.141)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'ELSYs-MacBook-Pro.local', ip: 'fe80:0:0:0:14ff:628a:7e5d:a248%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/sf/msc8p_nx3x3...}, goog:chromeOptions: {debuggerAddress: localhost:64434}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5bc83b5e21f4ea21382a633c380b4346
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:605)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at Script1609194777899.run(Script1609194777899.groovy:148)
+	... 13 more
+)
+
+2021-01-21 13:41:44 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Page_tC Create/Hamburger Menu Button"), STOP_ON_FAILURE): Unable to click on object 'Object Repository/Page_tC Create/Hamburger Menu Button' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_tC Create/Hamburger Menu Button'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:605)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at tN_Add New Resource.run(tN_Add New Resource:148)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1611254072426.run(TempTestSuite1611254072426.groovy:39)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (36, -32)
+  (Session info: chrome=87.0.4280.141)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'ELSYs-MacBook-Pro.local', ip: 'fe80:0:0:0:14ff:628a:7e5d:a248%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/sf/msc8p_nx3x3...}, goog:chromeOptions: {debuggerAddress: localhost:64434}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5bc83b5e21f4ea21382a633c380b4346
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:605)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at Script1609194777899.run(Script1609194777899.groovy:148)
+	... 13 more
+)
+
+2021-01-21 13:41:47 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_tC Create/Hamburger Menu Button' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_tC Create/Hamburger Menu Button'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:605)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at tN_Add New Resource.run(tN_Add New Resource:148)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1611254072426.run(TempTestSuite1611254072426.groovy:39)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (36, -32)
+  (Session info: chrome=87.0.4280.141)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'ELSYs-MacBook-Pro.local', ip: 'fe80:0:0:0:14ff:628a:7e5d:a248%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/sf/msc8p_nx3x3...}, goog:chromeOptions: {debuggerAddress: localhost:64434}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5bc83b5e21f4ea21382a633c380b4346
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:605)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at Script1609194777899.run(Script1609194777899.groovy:148)
+	... 13 more
+)
+[[ATTACHMENT|/Users/elsylitsonlambert/git/tcCreateQA-Elsy/Reports/20210121_133431/Test Suite1- Regression/20210121_133432/1611254506888.png]]
+
+2021-01-21 13:41:47 - [TEST_STEP][PASSED] - catch (Exception e): Object: 'Object Repository/Page_tC Create/button_DrawerOpen' is clicked on
+
+2021-01-21 13:41:47 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Page_tC Create/chip_Repo"), 2): Scroll to object 'Object Repository/Page_tC Create/chip_Repo' successfully
+
+2021-01-21 13:41:47 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_tC Create/chip_Repo' successfully
+
+2021-01-21 13:41:47 - [TEST_STEP][PASSED] - click(findTestObject("Page_tC Create/button_DrawerOpen"), STOP_ON_FAILURE): Object: 'Object Repository/Page_tC Create/button_DrawerOpen' is clicked on
+
+2021-01-21 13:41:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/button_DrawerOpen' is clicked on
+
+2021-01-21 13:41:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_tC Create/Add new resource objects/span_en_tn_01-GEN.tsv")): Object: 'Object Repository/Page_tC Create/Add new resource objects/span_en_tn_01-GEN.tsv' is clicked on
+
+2021-01-21 13:41:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/Add new resource objects/span_en_tn_01-GEN.tsv' is clicked on
+
+2021-01-21 13:41:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_tC Create/button_DrawerClose")): Object: 'Object Repository/Page_tC Create/button_DrawerClose' is clicked on
+
+2021-01-21 13:41:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tC Create/button_DrawerClose' is clicked on
+
+2021-01-21 13:41:54 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-01-21 13:41:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-01-21 13:41:55 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Object Repository/Page_tC Create/Add new resource objects/h6_GEN frontintro"), CONTINUE_ON_FAILURE)): null
+
+2021-01-21 13:41:55 - [MESSAGE][PASSED] - Object 'Object Repository/Page_tC Create/Add new resource objects/h6_GEN frontintro' is visible
+
+2021-01-21 13:41:55 - [TEST_STEP][PASSED] - logInfo("Other Books which do not have the added resource did not crash "): Other Books which do not have the added resource did not crash 
+
+2021-01-21 13:41:55 - [MESSAGE][INFO] - Other Books which do not have the added resource did not crash 
+
+2021-01-21 13:41:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-01-21 13:41:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-01-21 13:34:33 - [TEST_SUITE][INCOMPLETE] - Test Suite1- Regression: null]]></system-out>
+      <system-err><![CDATA[2021-01-21 13:34:33 - [TEST_SUITE][INCOMPLETE] - Test Suite1- Regression: null]]></system-err>
+   </testsuite>
+</testsuites>

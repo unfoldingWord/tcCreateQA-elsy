@@ -17,6 +17,7 @@ import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 import internal.GlobalVariable
 
@@ -30,10 +31,13 @@ public class loginhelper {
 		WebUI.sendKeys(findTestObject('Object Repository/Page_tC Create/input__password'), Password)
 		WebUI.click(findTestObject('Object Repository/Page_tC Create/button_Login'))
 		WebUI.delay(1)
+		return
 	}
 	@Keyword
 	public void logintoapp() {
 		loginApp(GlobalVariable.url, GlobalVariable.user1Name, GlobalVariable.user1Password)
+		def version= WebUI.getText(findTestObject('Object Repository/Page_tC Create/tcc-version number'))
+		KeywordUtil.logInfo(": The current version and build number is " + version )
 	}
 }
 

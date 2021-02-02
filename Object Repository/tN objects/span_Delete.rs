@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//span[(text() = 'Delete' or . = 'Delete')]</value>
+         <value>//*[(text() = 'Delete' or . = 'Delete')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -35,7 +35,7 @@
       <value>MuiButton-label-2402</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

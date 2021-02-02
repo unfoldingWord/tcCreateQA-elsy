@@ -42,6 +42,7 @@ testToolTip('Object Repository/Tool tips/button_Delete new row', "Delete a Row")
 testToolTip('Object Repository/Tool tips/button_Move Row Down', "Move Row Down")
 testToolTip('Object Repository/Tool tips/button_Move row up', "Move Row Up")
 testToolTip('Object Repository/Tool tips/button_Manage Versions', "Manage Versions")
+WebUI.scrollToElement(findTestObject('Object Repository/Tool tips/button_Expand chapter'), 2)
 testToggleTip("Object Repository/Tool tips/button_Expand chapter", "Expand Chapter",'Object Repository/Tool tips/button_collapse-chapter', "Collapse Chapter" )
 
 
@@ -76,10 +77,10 @@ else{
 		 }
  }
  
- public void testToggleTip(String button, String toolTip, String toggleButton, String toggleTip){
+ public void testToggleTip(String button1, String toolTip, String toggleButton, String toggleTip){
 	 
  // Find the Search icon at the top right of the header //get the value of the "title" attribute of the icon
- String actualTooltip = WebUI.getAttribute(findTestObject(button), "title")
+ String actualTooltip = WebUI.getAttribute(findTestObject(button1), "title")
  
  //Assert the tooltip's value is as expected
  System.out.println("Actual Title of Tool Tip for button " +toolTip +" is " +actualTooltip);
@@ -94,16 +95,15 @@ else{
  WebUI.delay(2)
  //scroll
  
-  WebUI.click(findTestObject(button))
+  WebUI.click(findTestObject(button1))
   
-  String toggleButtonTest= toggleButton
+  String button= toggleButton
  String toggleTipTest= toggleTip
- 
+ System.out.println("Togglebutton" +button)
+ System.out.println("ToggleTip" +toggleTipTest);
 WebUI.delay(2)
  
- testToolTip(toggleButtonTest, toggleTipTest)
- 
- 
+ testToolTip(button, toggleTipTest)
  
  }
 WebUI.closeBrowser()

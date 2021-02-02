@@ -61,4 +61,38 @@ public class ExpandAllScriptureToggle {
 		}
 		return myState
 	}
+
+	@Keyword
+	def chooseValidationLevel(level) {
+		def retCode = true
+		def drawerOpen = WebUI.waitForElementPresent(findTestObject('Page_tC Create/button_DrawerClose'), 1, FailureHandling.OPTIONAL)
+		if (!drawerOpen) {
+			try {
+				WebUI.click(findTestObject('Page_tC Create/button_DrawerOpen'), FailureHandling.STOP_ON_FAILURE)
+			} catch (Exception e) {
+				WebUI.scrollToElement(findTestObject('Page_tCC translationAcademy/chip_Repo'), 2)
+				WebUI.click(findTestObject('Page_tC Create/button_DrawerOpen'), FailureHandling.STOP_ON_FAILURE)
+			}
+		}
+		WebUI.delay(1)
+
+		if (level.toLowerCase().contains('hi')) {
+			WebUI.click(findTestObject('Object Repository/tN objects/radio_ValidationLevel_High'))
+		} else if (level.toLowerCase().contains('me')) {
+			WebUI.click(findTestObject('Object Repository/tN objects/radio_ValidationLevel_Medium'))
+		} else 	if (level.toLowerCase().contains('lo')) {
+			WebUI.click(findTestObject('Object Repository/tN objects/radio_ValidationLevel_Low'))
+		}
+
+		if (!drawerOpen) {
+			if (WebUI.waitForElementVisible(findTestObject('Page_tC Create/button_DrawerClose'),2)) {
+				WebUI.click(findTestObject('Page_tC Create/button_DrawerClose'))
+				WebUI.waitForElementVisible(findTestObject('Page_tC Create/button_DrawerOpen'), 5)
+			} else {
+				retCode = false
+			}
+		}
+		println('returning ' + retCode)
+		return retCode
+	}
 }
