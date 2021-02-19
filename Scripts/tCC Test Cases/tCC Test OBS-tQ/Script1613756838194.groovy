@@ -18,31 +18,27 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-CustomKeywords.'com.tccreate.keywords.WriteToFile.writeTofilename'('tW-Save')
+CustomKeywords.'com.tccreate.keywords.WriteToFile.writeTofilename'('OBS-tQ-Save')
 
 CustomKeywords.'com.helper.login.TimeDate.getTimeDate'()
 
 CustomKeywords.'com.helper.login.loginhelper.logintoapp'()
 
-WebUI.click(findTestObject('tW Objects/div_unfoldingWord'))
+CustomKeywords.'com.tccreate.keywords.selectOrg.organization'('')
 
-WebUI.click(findTestObject('tW Objects/div_unfoldingWord Translation Wordsunfoldin_70512f'))
+CustomKeywords.'com.tccreate.keywords.selectOrg.resource'('unfoldingWord® Open Bible Stories Translation Questions')
+CustomKeywords.'com.tccreate.keywords.selectOrg.language'("")
 
-WebUI.click(findTestObject('tW Objects/p_Select Language'))
 
-WebUI.setText(findTestObject('tW Objects/input_Step4Select Your Language_react-selec_aae5da'), 'en')
+WebUI.click(findTestObject('Object Repository/OBS-tn/div_content'))
 
-WebUI.click(findTestObject('tW Objects/div_en - English - English (Europe Gateway)'))
+WebUI.click(findTestObject('Object Repository/OBS-tn/span_02'))
 
-WebUI.click(findTestObject('tW Objects/span_bible'))
+WebUI.click(findTestObject('Object Repository/OBS-tn/span_01.md'))
 
-WebUI.click(findTestObject('tW Objects/span_kt'))
+WebUI.click(findTestObject('Object Repository/obs-tq/div_question edit box'))
 
-WebUI.click(findTestObject('tW Objects/span_almighty.md'))
-
-WebUI.click(findTestObject('tW Objects/h1_Almighty'))
-
-WebUI.sendKeys(findTestObject('tW Objects/div_Almighty test'), '  edits by a test script')
+WebUI.sendKeys(findTestObject('Object Repository/obs-tq/div_question edit box'), '  edits by a test script')
 
 WebUI.click(findTestObject('Object Repository/Page_tC Create/button_Save'))
 //validate
@@ -57,10 +53,10 @@ else{
 
 }
 //Validate changes on DCS Repo
-WebUI.click(findTestObject('Object Repository/tW Objects/chip_English - unfoldingWorden_twElsyLambert-tc-create-1'))
+WebUI.click(findTestObject('Object Repository/obs-tq/span_English - unfoldingWorden_obs-tqElsyLambert-tc-create-1'))
 WebUI.delay(2)
 WebUI.switchToWindowIndex(1)
-if (WebUI.getText(findTestObject('Object Repository/tW Objects/h1_Almighty article on DCS')).contains('edits by a test script'))
+if (WebUI.getText(findTestObject('Object Repository/obs-tq/h1_DCS Repo question')).contains('edits by a test script'))
 {
 	KeywordUtil.logInfo("The edits are saved on the DCS Repo File")
 }
