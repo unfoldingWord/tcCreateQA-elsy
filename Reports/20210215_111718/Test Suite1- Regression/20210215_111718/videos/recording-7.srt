@@ -1,0 +1,100 @@
+1
+00:00:00,000 --> 00:00:00,000
+9. com.helper.login.loginhelper.logintoapp()
+
+2
+00:00:00,000 --> 00:00:00,000
+13. click(findTestObject("tW Objects/div_unfoldingWord"))
+
+3
+00:00:00,000 --> 00:00:00,000
+17. click(findTestObject("tW Objects/div_unfoldingWord Translation Wordsunfoldin_70512f"))
+
+4
+00:00:00,000 --> 00:00:00,000
+21. click(findTestObject("tW Objects/p_Select Language"))
+
+5
+00:00:00,000 --> 00:00:00,000
+25. setText(findTestObject("tW Objects/input_Step4Select Your Language_react-selec_aae5da"), "en")
+
+6
+00:00:00,000 --> 00:00:00,000
+29. click(findTestObject("tW Objects/div_en - English - English (Europe Gateway)"))
+
+7
+00:00:00,000 --> 00:00:00,000
+33. click(findTestObject("tW Objects/span_bible"))
+
+8
+00:00:00,000 --> 00:00:00,000
+37. click(findTestObject("tW Objects/span_kt"))
+
+9
+00:00:00,000 --> 00:00:00,000
+41. click(findTestObject("tW Objects/span_almighty.md"))
+
+10
+00:00:00,000 --> 00:00:00,000
+45. click(findTestObject("tW Objects/h1_Almighty"))
+
+11
+00:00:00,000 --> 00:00:00,000
+49. sendKeys(findTestObject("tW Objects/div_Almighty test"), "  edits by a test script")
+
+12
+00:00:00,000 --> 00:00:00,000
+53. click(findTestObject("Object Repository/Page_tC Create/button_Save"))
+
+13
+00:00:00,000 --> 00:00:00,000
+57. delay(2)
+
+14
+00:00:00,000 --> 00:00:00,000
+61. if (verifyElementNotClickable(findTestObject("Page_tC Create/button_Save"), CONTINUE_ON_FAILURE))
+
+15
+00:00:00,000 --> 00:00:00,000
+1. logInfo(" Save button is greyed out as expected")
+
+16
+00:00:00,000 --> 00:00:00,000
+65. click(findTestObject("Object Repository/tW Objects/chip_English - unfoldingWorden_twElsyLambert-tc-create-1"))
+
+17
+00:00:00,000 --> 00:00:00,000
+69. delay(2)
+
+18
+00:00:00,000 --> 00:00:00,000
+73. switchToWindowIndex(1)
+
+19
+00:00:00,000 --> 00:00:00,000
+77. if (getText(findTestObject("Object Repository/tW Objects/h1_Almighty article on DCS")).contains("edits by a test script"))
+
+20
+00:00:00,000 --> 00:00:00,000
+1. logInfo("The edits are saved on the DCS Repo File")
+
+21
+00:00:00,000 --> 00:00:00,000
+81. switchToWindowIndex(0)
+
+22
+00:00:00,000 --> 00:00:00,000
+85. closeBrowser()
+
+23
+00:00:00,000 --> 00:00:00,000
+89. closeBrowser()
+
+24
+00:00:00,000 --> 00:00:00,000
+1. com.tccreate.keywords.WriteToFile.writeTofilename("tA-Save")
+
+25
+00:00:00,000 --> 00:00:00,000
+5. com.helper.login.TimeDate.getTimeDate()
+

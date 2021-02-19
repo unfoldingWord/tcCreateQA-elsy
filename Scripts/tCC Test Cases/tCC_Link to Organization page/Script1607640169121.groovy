@@ -15,6 +15,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+CustomKeywords.'com.tccreate.keywords.WriteToFile.writeTofilename'('Links to Org page')
+
+CustomKeywords.'com.helper.login.TimeDate.getTimeDate'()
+
 CustomKeywords.'com.helper.login.loginhelper.logintoapp'()
 
 

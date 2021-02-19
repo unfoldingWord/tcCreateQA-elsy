@@ -22,16 +22,11 @@ CustomKeywords.'com.tccreate.keywords.WriteToFile.writeTofilename'('tW-Save')
 CustomKeywords.'com.helper.login.TimeDate.getTimeDate'()
 
 CustomKeywords.'com.helper.login.loginhelper.logintoapp'()
+CustomKeywords.'com.tccreate.keywords.selectOrg.organization'('')
 
-WebUI.click(findTestObject('tW Objects/div_unfoldingWord'))
+CustomKeywords.'com.tccreate.keywords.selectOrg.resource'('unfoldingWord® Translation Words')
+CustomKeywords.'com.tccreate.keywords.selectOrg.language'("")
 
-WebUI.click(findTestObject('tW Objects/div_unfoldingWord Translation Wordsunfoldin_70512f'))
-
-WebUI.click(findTestObject('tW Objects/p_Select Language'))
-
-WebUI.setText(findTestObject('tW Objects/input_Step4Select Your Language_react-selec_aae5da'), 'en')
-
-WebUI.click(findTestObject('tW Objects/div_en - English - English (Europe Gateway)'))
 
 WebUI.click(findTestObject('tW Objects/span_bible'))
 

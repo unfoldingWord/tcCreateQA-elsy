@@ -1,0 +1,184 @@
+1
+00:00:00,000 --> 00:00:00,000
+9. com.helper.login.loginhelper.logintoapp()
+
+2
+00:00:00,000 --> 00:00:00,000
+13. click(findTestObject("Page_tC Create/Add new resource objects/span_unfoldingWord"))
+
+3
+00:00:00,000 --> 00:00:00,000
+17. click(findTestObject("Page_tC Create/Add new resource objects/span_unfoldingWord Translation Notes"))
+
+4
+00:00:00,000 --> 00:00:00,000
+21. click(findTestObject("Page_tC Create/Add new resource objects/div_Select Language"))
+
+5
+00:00:00,000 --> 00:00:00,000
+25. setText(findTestObject("Object Repository/Page_tC Create/Add new resource objects/input_Step4Select Your Language_react-selec_aae5da"), "en")
+
+6
+00:00:00,000 --> 00:00:00,000
+29. click(findTestObject("Page_tC Create/Add new resource objects/div_en - English - English (Europe Gateway)"))
+
+7
+00:00:00,000 --> 00:00:00,000
+33. click(findTestObject("Page_tC Create/Add new resource objects/span_en_tn_57-TIT.tsv"))
+
+8
+00:00:00,000 --> 00:00:00,000
+37. buttonstate = com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScripture("test")
+
+9
+00:00:00,000 --> 00:00:00,000
+41. out.println(" the state of the button is" + buttonstate)
+
+10
+00:00:00,000 --> 00:00:00,000
+45. delay(1)
+
+11
+00:00:00,000 --> 00:00:00,000
+49. if (buttonstate == "off")
+
+12
+00:00:00,000 --> 00:00:00,000
+2. logInfo("Parallel scripture viewer is ON")
+
+13
+00:00:00,000 --> 00:00:00,000
+53. scrollToElement(findTestObject("Page_tC Create/Add new resource objects/h6_TIT 1intro"), 2, CONTINUE_ON_FAILURE)
+
+14
+00:00:00,000 --> 00:00:00,000
+57. click(findTestObject("Object Repository/tN objects/button_Titus 11_Expand chapter button"))
+
+15
+00:00:00,000 --> 00:00:00,000
+61. mouseOver(findTestObject("Object Repository/tN objects/td_12"))
+
+16
+00:00:00,000 --> 00:00:00,000
+65. click(findTestObject("Object Repository/tN objects/td_12"))
+
+17
+00:00:00,000 --> 00:00:00,000
+69. for (int i : (1..18))
+
+18
+00:00:00,000 --> 00:00:00,000
+1. sendKeys(findTestObject(null), Keys.chord(PAGE_DOWN))
+
+19
+00:00:00,000 --> 00:00:00,000
+1. sendKeys(findTestObject(null), Keys.chord(PAGE_DOWN))
+
+20
+00:00:00,000 --> 00:00:00,000
+1. sendKeys(findTestObject(null), Keys.chord(PAGE_DOWN))
+
+21
+00:00:00,000 --> 00:00:00,000
+1. sendKeys(findTestObject(null), Keys.chord(PAGE_DOWN))
+
+22
+00:00:00,000 --> 00:00:00,000
+1. sendKeys(findTestObject(null), Keys.chord(PAGE_DOWN))
+
+23
+00:00:00,000 --> 00:00:00,000
+1. sendKeys(findTestObject(null), Keys.chord(PAGE_DOWN))
+
+24
+00:00:00,000 --> 00:00:00,000
+1. sendKeys(findTestObject(null), Keys.chord(PAGE_DOWN))
+
+25
+00:00:00,000 --> 00:00:00,000
+1. sendKeys(findTestObject(null), Keys.chord(PAGE_DOWN))
+
+26
+00:00:00,000 --> 00:00:00,000
+1. sendKeys(findTestObject(null), Keys.chord(PAGE_DOWN))
+
+27
+00:00:00,000 --> 00:00:00,000
+1. sendKeys(findTestObject(null), Keys.chord(PAGE_DOWN))
+
+28
+00:00:00,000 --> 00:00:00,000
+1. sendKeys(findTestObject(null), Keys.chord(PAGE_DOWN))
+
+29
+00:00:00,000 --> 00:00:00,000
+1. sendKeys(findTestObject(null), Keys.chord(PAGE_DOWN))
+
+30
+00:00:00,000 --> 00:00:00,000
+1. sendKeys(findTestObject(null), Keys.chord(PAGE_DOWN))
+
+31
+00:00:00,000 --> 00:00:00,000
+1. sendKeys(findTestObject(null), Keys.chord(PAGE_DOWN))
+
+32
+00:00:00,000 --> 00:00:00,000
+1. sendKeys(findTestObject(null), Keys.chord(PAGE_DOWN))
+
+33
+00:00:00,000 --> 00:00:00,000
+1. sendKeys(findTestObject(null), Keys.chord(PAGE_DOWN))
+
+34
+00:00:00,000 --> 00:00:00,000
+1. sendKeys(findTestObject(null), Keys.chord(PAGE_DOWN))
+
+35
+00:00:00,000 --> 00:00:00,000
+1. sendKeys(findTestObject(null), Keys.chord(PAGE_DOWN))
+
+36
+00:00:00,000 --> 00:00:00,000
+73. if (verifyElementVisible(findTestObject("Object Repository/tN objects/sup_315")))
+
+37
+00:00:00,000 --> 00:00:00,000
+1. logInfo("Chapter is expanded successfully")
+
+38
+00:00:00,000 --> 00:00:00,000
+77. delay(3)
+
+39
+00:00:00,000 --> 00:00:00,000
+81. sendKeys(findTestObject(null), Keys.chord(PAGE_UP))
+
+40
+00:00:00,000 --> 00:00:00,000
+85. click(findTestObject("Object Repository/tN objects/button_Titus 11_collapse-chapter"))
+
+41
+00:00:00,000 --> 00:00:00,000
+89. delay(2)
+
+42
+00:00:00,000 --> 00:00:00,000
+93. if (verifyElementNotPresent(findTestObject("Object Repository/tN objects/sup_315"), 2, CONTINUE_ON_FAILURE))
+
+43
+00:00:00,000 --> 00:00:00,000
+1. logInfo("Chapter is collapsed successfully")
+
+44
+00:00:00,000 --> 00:00:00,000
+97. closeBrowser()
+
+45
+00:00:00,000 --> 00:00:00,000
+1. com.tccreate.keywords.WriteToFile.writeTofilename("tN-Highlighting by occurrence number")
+
+46
+00:00:00,000 --> 00:00:00,000
+5. com.helper.login.TimeDate.getTimeDate()
+

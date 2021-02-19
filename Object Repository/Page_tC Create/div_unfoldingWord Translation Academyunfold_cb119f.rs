@@ -6,15 +6,19 @@
    <elementGuidId>08f23f44-3564-4811-9df0-95aa4756ef8b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root']/div/div/div/div/div[2]/div/ul/div/div</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.MuiButtonBase-root.MuiListItem-root.MuiListItem-gutters.MuiListItem-button.MuiListItem-alignItemsFlexStart.MuiListItem-secondaryAction</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'unfoldingWord® Translation AcademyunfoldingWord/en_ta' or . = 'unfoldingWord® Translation AcademyunfoldingWord/en_ta')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div/div[2]/div/ul/div/div</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

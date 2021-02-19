@@ -74,17 +74,10 @@ for (def fileNum : (start..end)) {
 //Load Project in tN
 CustomKeywords.'com.helper.login.loginhelper.logintoapp'()
 
-WebUI.click(findTestObject('Page_tC Create/Add new resource objects/span_unfoldingWord'))
+CustomKeywords.'com.tccreate.keywords.selectOrg.organization'('')
 
-WebUI.click(findTestObject('Page_tC Create/Add new resource objects/span_unfoldingWord Translation Notes'))
-
-WebUI.click(findTestObject('Page_tC Create/Add new resource objects/div_Select Language'))
-
-WebUI.setText(findTestObject('Object Repository/Page_tC Create/Add new resource objects/input_Step4Select Your Language_react-selec_aae5da'),
-	'en')
-
-WebUI.click(findTestObject('Page_tC Create/Add new resource objects/div_en - English - English (Europe Gateway)'))
-
+CustomKeywords.'com.tccreate.keywords.selectOrg.resource'('unfoldingWord® Translation Notes')
+CustomKeywords.'com.tccreate.keywords.selectOrg.language'("")
 WebUI.click(findTestObject('Page_tC Create/Add new resource objects/span_en_tn_57-TIT.tsv'))
 
 // Set validation level to low
@@ -98,71 +91,7 @@ if (newContent == '') {  // The validator did not find any errors. Continue with
 	//CustomKeywords.'unfoldingWord_Keywords.SendMessage.SendInfoMessage'(msg)
 	//continue
 }
-	
-/*println(baseLines)
 
-newLines = removeExcerpts(myFile)
-
-
-fixedRows = []	// New array to hold the index of base file rows that no longer appear in the validation file - assume they're fixed
-l = 0
-//	for (line in baseLines) {
-baseLines.each({ def line ->
-		if (!newLines.contains(line)) {
-			fixedRows.add(l)
-			msg = ('The error in row ' + (l+1) + ' in ' + testFile + '_base.csv' + ' was not found by the validator.' )
-			println(msg)
-			CustomKeywords.'unfoldingWord_Keywords.SendMessage.SendInfoMessage'(msg)
-		}
-		l ++
-	})
-
-//    println('newContent:' + newContent)
-// Test to see if the validation results are what was expected based on the originally saved validation file
-baseLines = []
-
-new File(baseFile).eachLine({ def line ->
-		baseLines.add(line)
-	})
-
-println(baseLines)
-
-newLines = []
-
-new File(myFile).eachLine({ def line ->
-		newLines.add(line)
-	})
-
-//	println(newLines)
-errorFlag = false
-
-//	for (line in baseLines) {
-baseLines.each({ def line ->
-		if (!(line) in newLines) {
-			errorFlag = true
-		}
-	})
-
-testCount++
-
-if (errorFlag) {
-	errorCount++
-
-	println(('ERROR: Initial validation content  in ' + testFile) + ' does not include the expected errors')
-
-	CustomKeywords.'unfoldingWord_Keywords.SendMessage.SendFailMessage'(('Test failed because the initial validation content  in ' +
-		testFile) + ' does not match the base content.')
-
-	WebUI.closeBrowser()
-
-	continue
-	
-	WebUI.closeBrowser()
-} else {
-	passCount++
-
-	println('Initial content matches the base content')
-}*/
 
 if (fileNum == 0) {
 	if (newContent == ''){

@@ -1,0 +1,192 @@
+1
+00:00:00,000 --> 00:00:00,000
+9. com.helper.login.loginhelper.logintoapp()
+
+2
+00:00:00,000 --> 00:00:00,000
+13. click(findTestObject("Page_tC Create/Organization unfoldingWord"))
+
+3
+00:00:00,000 --> 00:00:00,000
+17. click(findTestObject("Object Repository/Page_tC Create/span_unfoldingWord Translation Notes"))
+
+4
+00:00:00,000 --> 00:00:00,000
+21. click(findTestObject("Object Repository/Page_tC Create/div_Step 4 Select Your Language option am -_f1dc08"))
+
+5
+00:00:00,000 --> 00:00:00,000
+25. setText(findTestObject("Page_tC Create/input_Step4Select Your Language_react-selec_aae5da"), "en")
+
+6
+00:00:00,000 --> 00:00:00,000
+29. click(findTestObject("Page_tC Create/div_en - English - English (Europe Gateway)"))
+
+7
+00:00:00,000 --> 00:00:00,000
+33. click(findTestObject("Object Repository/Page_tC Create/span_en_tn_57-TIT.tsv"))
+
+8
+00:00:00,000 --> 00:00:00,000
+37. click(findTestObject("Object Repository/tN objects/button_view columns"))
+
+9
+00:00:00,000 --> 00:00:00,000
+41. click(findTestObject("tN objects/input_OrigQuote_checkbox"))
+
+10
+00:00:00,000 --> 00:00:00,000
+45. click(findTestObject("Object Repository/tN objects/input_SupportReference"))
+
+11
+00:00:00,000 --> 00:00:00,000
+49. click(findTestObject("tN objects/button__Close-Columns"))
+
+12
+00:00:00,000 --> 00:00:00,000
+53. buttonstate = com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScripture("test")
+
+13
+00:00:00,000 --> 00:00:00,000
+57. out.println(" the state of the button is" + buttonstate)
+
+14
+00:00:00,000 --> 00:00:00,000
+61. delay(1)
+
+15
+00:00:00,000 --> 00:00:00,000
+65. if (buttonstate == "off")
+
+16
+00:00:00,000 --> 00:00:00,000
+2. logInfo("Parallel scripture viewer is ON")
+
+17
+00:00:00,000 --> 00:00:00,000
+69. scrollToElement(findTestObject("Object Repository/tN objects/div_Titus 11"), 2)
+
+18
+00:00:00,000 --> 00:00:00,000
+73. click(findTestObject("Object Repository/tN objects/button_Titus 11_add a new row"))
+
+19
+00:00:00,000 --> 00:00:00,000
+77. click(findTestObject("Object Repository/tN objects/button_Add"))
+
+20
+00:00:00,000 --> 00:00:00,000
+81. word1 = getText(findTestObject("tN objects/word1"))
+
+21
+00:00:00,000 --> 00:00:00,000
+85. logInfo("the word is" + word1)
+
+22
+00:00:00,000 --> 00:00:00,000
+89. color_word1 = getCSSValue(findTestObject("tN objects/word1"), "color")
+
+23
+00:00:00,000 --> 00:00:00,000
+93. backcolor_word1 = getCSSValue(findTestObject("tN objects/word1"), "background-color")
+
+24
+00:00:00,000 --> 00:00:00,000
+97. logInfo(color_word1)
+
+25
+00:00:00,000 --> 00:00:00,000
+101. logInfo(backcolor_word1)
+
+26
+00:00:00,000 --> 00:00:00,000
+105. click(findTestObject("Object Repository/tN objects/p_OL_box"))
+
+27
+00:00:00,000 --> 00:00:00,000
+109. setText(findTestObject("Object Repository/tN objects/p_OL_box"), "Θεοῦ")
+
+28
+00:00:00,000 --> 00:00:00,000
+113. driver = getWebDriver()
+
+29
+00:00:00,000 --> 00:00:00,000
+117. action = new org.openqa.selenium.interactions.Actions(driver)
+
+30
+00:00:00,000 --> 00:00:00,000
+121. build().perform()
+
+31
+00:00:00,000 --> 00:00:00,000
+125. if (!(color_word1.equals(backcolor_word1)))
+
+32
+00:00:00,000 --> 00:00:00,000
+1. logInfo("First Occurrence is highlighted!")
+
+33
+00:00:00,000 --> 00:00:00,000
+129. color_word2 = getCSSValue(findTestObject("tN objects/word2"), "color")
+
+34
+00:00:00,000 --> 00:00:00,000
+133. backcolor_word2 = getCSSValue(findTestObject("tN objects/word2"), "background-color")
+
+35
+00:00:00,000 --> 00:00:00,000
+137. click(findTestObject("Object Repository/tN objects/p_occurrence box"))
+
+36
+00:00:00,000 --> 00:00:00,000
+141. clearText(findTestObject("Object Repository/tN objects/p_occurrence box"), CONTINUE_ON_FAILURE)
+
+37
+00:00:00,000 --> 00:00:00,000
+145. sendKeys(findTestObject("Object Repository/tN objects/p_occurrence box"), "2")
+
+38
+00:00:00,000 --> 00:00:00,000
+149. build().perform()
+
+39
+00:00:00,000 --> 00:00:00,000
+153. if (!(color_word2.equals(backcolor_word2)))
+
+40
+00:00:00,000 --> 00:00:00,000
+1. logInfo("Second occcurrence is highlighted!")
+
+41
+00:00:00,000 --> 00:00:00,000
+157. clearText(findTestObject("Object Repository/tN objects/p_occurrence box"), CONTINUE_ON_FAILURE)
+
+42
+00:00:00,000 --> 00:00:00,000
+161. sendKeys(findTestObject("Object Repository/tN objects/p_occurrence box"), "-1")
+
+43
+00:00:00,000 --> 00:00:00,000
+165. build().perform()
+
+44
+00:00:00,000 --> 00:00:00,000
+169. if (!(color_word1.equals(backcolor_word1)) && !(color_word2.equals(backcolor_word2)))
+
+45
+00:00:00,000 --> 00:00:00,000
+1. logInfo("Both occurrences are highlighted!")
+
+46
+00:00:00,000 --> 00:00:00,000
+173. closeBrowser()
+
+47
+00:00:00,000 --> 00:00:00,000
+1. com.tccreate.keywords.WriteToFile.writeTofilename("tW-Save")
+
+48
+00:00:00,000 --> 00:00:00,000
+5. com.helper.login.TimeDate.getTimeDate()
+

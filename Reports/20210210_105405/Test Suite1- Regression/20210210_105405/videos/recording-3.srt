@@ -1,0 +1,68 @@
+1
+00:00:00,000 --> 00:00:00,000
+9. com.helper.login.loginhelper.logintoapp()
+
+2
+00:00:00,000 --> 00:00:00,000
+13. click(findTestObject("Page_tC Create/Organization unfoldingWord"))
+
+3
+00:00:00,000 --> 00:00:00,000
+17. click(findTestObject("Object Repository/Page_tC Create/span_unfoldingWord Translation Notes"))
+
+4
+00:00:00,000 --> 00:00:00,000
+21. click(findTestObject("Object Repository/Page_tC Create/div_Step 4 Select Your Language option am -_f1dc08"))
+
+5
+00:00:00,000 --> 00:00:00,000
+25. setText(findTestObject("Page_tC Create/input_Step4Select Your Language_react-selec_aae5da"), "en")
+
+6
+00:00:00,000 --> 00:00:00,000
+29. click(findTestObject("Page_tC Create/div_en - English - English (Europe Gateway)"))
+
+7
+00:00:00,000 --> 00:00:00,000
+33. click(findTestObject("Object Repository/Page_tC Create/span_en_tn_57-TIT.tsv"))
+
+8
+00:00:00,000 --> 00:00:00,000
+37. click(findTestObject("Object Repository/Page_tC Create/div_Introduction to TitusPart 1"))
+
+9
+00:00:00,000 --> 00:00:00,000
+41. sendKeys(findTestObject("Object Repository/Page_tC Create/div_Introduction to TitusPart 1"), "edit again ")
+
+10
+00:00:00,000 --> 00:00:00,000
+45. driver = getWebDriver()
+
+11
+00:00:00,000 --> 00:00:00,000
+49. action = new org.openqa.selenium.interactions.Actions(driver)
+
+12
+00:00:00,000 --> 00:00:00,000
+53. keyUp(COMMAND).perform()
+
+13
+00:00:00,000 --> 00:00:00,000
+57. sendKeys(findTestObject("Object Repository/Page_tC Create/div_Introduction to TitusPart 1"), Keys.chord(COMMAND, "z"))
+
+14
+00:00:00,000 --> 00:00:00,000
+61. logInfo("Text is cleared successfully by undo action")
+
+15
+00:00:00,000 --> 00:00:00,000
+65. closeBrowser()
+
+16
+00:00:00,000 --> 00:00:00,000
+1. com.tccreate.keywords.WriteToFile.writeTofilename("tA-Add or delete row")
+
+17
+00:00:00,000 --> 00:00:00,000
+5. com.helper.login.TimeDate.getTimeDate()
+

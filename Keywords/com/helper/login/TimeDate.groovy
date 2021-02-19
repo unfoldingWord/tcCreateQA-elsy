@@ -28,10 +28,8 @@ import internal.GlobalVariable
 public class TimeDate {
 	private static final SimpleDateFormat sdf = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss");
 	@Keyword
-	public void getTimeDate()
-	{
-	Timestamp timestamp = new Timestamp(System.currentTimeMillis());
-	KeywordUtil.logInfo("Time at which the test run:" + timestamp);
-
-}
+	public void getTimeDate() {
+		Timestamp timestamp = new Timestamp(System.currentTimeMillis());
+		KeywordUtil.logInfo("Time at which the test run:" + timestamp);
+	}
 }

@@ -1,0 +1,76 @@
+1
+00:00:00,000 --> 00:00:00,000
+9. com.helper.login.loginhelper.logintoapp()
+
+2
+00:00:00,000 --> 00:00:00,000
+13. click(findTestObject("Page_tC Create/Organization unfoldingWord"))
+
+3
+00:00:00,000 --> 00:00:00,000
+17. click(findTestObject("Object Repository/Page_tC Create/span_unfoldingWord Translation Notes"))
+
+4
+00:00:00,000 --> 00:00:00,000
+21. click(findTestObject("Object Repository/Page_tC Create/div_Step 4 Select Your Language option am -_f1dc08"))
+
+5
+00:00:00,000 --> 00:00:00,000
+25. setText(findTestObject("Page_tC Create/input_Step4Select Your Language_react-selec_aae5da"), "en")
+
+6
+00:00:00,000 --> 00:00:00,000
+29. click(findTestObject("Page_tC Create/div_en - English - English (Europe Gateway)"))
+
+7
+00:00:00,000 --> 00:00:00,000
+33. click(findTestObject("Object Repository/Page_tC Create/span_en_tn_57-TIT.tsv"))
+
+8
+00:00:00,000 --> 00:00:00,000
+37. com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScripture(""test"")
+
+9
+00:00:00,000 --> 00:00:00,000
+41. com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScripture(""on"")
+
+10
+00:00:00,000 --> 00:00:00,000
+45. if (verifyElementPresent(findTestObject("Page_tC Create/span_unfoldingWord Literal Text v14"), 5))
+
+11
+00:00:00,000 --> 00:00:00,000
+1. logInfo("ULT is visible 1")
+
+12
+00:00:00,000 --> 00:00:00,000
+49. if (verifyElementPresent(findTestObject("Page_tC Create/span_unfoldingWord Simplified Text v14"), 5))
+
+13
+00:00:00,000 --> 00:00:00,000
+1. logInfo("UST is visible")
+
+14
+00:00:00,000 --> 00:00:00,000
+53. logInfo("ParallelScripture is present")
+
+15
+00:00:00,000 --> 00:00:00,000
+57. com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScripture(""off"")
+
+16
+00:00:00,000 --> 00:00:00,000
+61. logInfo("button is toggled")
+
+17
+00:00:00,000 --> 00:00:00,000
+65. if (verifyElementNotPresent(findTestObject("Page_tC Create/span_unfoldingWord Literal Text v14"), 3))
+
+18
+00:00:00,000 --> 00:00:00,000
+1. logInfo("ULT is not visible as expected")
+
+19
+00:00:00,000 --> 00:00:00,000
+69. closeBrowser()
+

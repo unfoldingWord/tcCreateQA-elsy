@@ -23,15 +23,11 @@ CustomKeywords.'com.helper.login.TimeDate.getTimeDate'()
 
 CustomKeywords.'com.helper.login.loginhelper.logintoapp'()
 
-WebUI.click(findTestObject('Page_tC Create/Organization unfoldingWord'))
+CustomKeywords.'com.tccreate.keywords.selectOrg.organization'('')
 
-WebUI.click(findTestObject('Object Repository/Page_tC Create/div_unfoldingWord Translation Academyunfold_cb119f'))
+CustomKeywords.'com.tccreate.keywords.selectOrg.resource'('unfoldingWord® Translation Academy')
+CustomKeywords.'com.tccreate.keywords.selectOrg.language'("")
 
-WebUI.click(findTestObject('Object Repository/Page_tC Create/p_Select Language'))
-
-WebUI.setText(findTestObject('Object Repository/Page_tC Create/input_Step4Select Your Language_react-selec_aae5da'), 'en')
-
-WebUI.click(findTestObject('Object Repository/Page_tC Create/div_en - English - English (Europe Gateway)'))
 
 WebUI.click(findTestObject('Page_tC Create/span_translate'))
 

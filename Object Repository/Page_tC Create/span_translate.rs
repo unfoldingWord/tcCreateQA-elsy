@@ -6,16 +6,15 @@
    <elementGuidId>db7abe36-ef81-468e-bf08-3dd55cb6d5cf</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root']/div/div/div/div/div[2]/div/div/div/div/ul/div[8]/div/div[2]/span</value>
+         <key>CSS</key>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'MuiTypography-root MuiListItemText-primary MuiTypography-body2 MuiTypography-displayBlock' and (text() = 'translate/' or . = 'translate/')]</value>
+         <value>//*[(text() = 'translate/' or . = 'translate/')]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div/div[2]/div/div/div/div/ul/div[8]/div/div[2]/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

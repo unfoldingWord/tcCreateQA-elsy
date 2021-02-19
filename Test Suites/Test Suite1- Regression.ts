@@ -27,7 +27,7 @@
       <guid>28f36bb9-ea0f-48b8-b4b9-26d613a4daf7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/tCC Test Cases/tN_undo text in tN Editor(FF)</testCaseId>
+      <testCaseId>Test Cases/tCC Test Cases/tN_undo text in tN Editor</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>89ffe5a1-62ff-4a72-a9f3-a6035914d120</guid>
@@ -64,5 +64,17 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/tCC Test Cases/tN_Add New Resource</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9c773658-0936-40b0-b247-cc25920df251</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/tCC Test Cases/tN_Tool Tips</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>34c2499f-f29a-421a-bfa7-093a0569fd6f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/tCC Test Cases/tA buttons funtions</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

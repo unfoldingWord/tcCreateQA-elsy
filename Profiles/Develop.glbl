@@ -3,7 +3,7 @@
    <description></description>
    <name>Develop</name>
    <tag></tag>
-   <defaultProfile>false</defaultProfile>
+   <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'https://develop--tc-create-app.netlify.app/'</initValue>
@@ -26,7 +26,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>findTestObject('Page_tC Create/listOrg_translate_test')</initValue>
+      <initValue>'Object Repository/page_tC Create/Organization unfoldingWord'</initValue>
       <name>organization</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -61,7 +61,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'/Users/elsylitsonlambert/git/tcCreateQA-Elsy'</initValue>
+      <initValue>'/Users/elsylitsonlambert/git/tcCreateQA'</initValue>
       <name>projectPath</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

@@ -1,0 +1,88 @@
+1
+00:00:00,000 --> 00:00:00,000
+9. com.helper.login.loginhelper.logintoapp()
+
+2
+00:00:00,000 --> 00:00:00,000
+13. click(findTestObject("Page_tC Create/Add new resource objects/span_unfoldingWord"))
+
+3
+00:00:00,000 --> 00:00:00,000
+17. click(findTestObject("Page_tC Create/Add new resource objects/span_unfoldingWord Translation Notes"))
+
+4
+00:00:00,000 --> 00:00:00,000
+21. click(findTestObject("Page_tC Create/Add new resource objects/div_Select Language"))
+
+5
+00:00:00,000 --> 00:00:00,000
+25. setText(findTestObject("Object Repository/Page_tC Create/Add new resource objects/input_Step4Select Your Language_react-selec_aae5da"), "en")
+
+6
+00:00:00,000 --> 00:00:00,000
+29. click(findTestObject("Page_tC Create/Add new resource objects/div_en - English - English (Europe Gateway)"))
+
+7
+00:00:00,000 --> 00:00:00,000
+33. click(findTestObject("Page_tC Create/Add new resource objects/span_en_tn_57-TIT.tsv"))
+
+8
+00:00:00,000 --> 00:00:00,000
+37. click(findTestObject("Object Repository/tN objects/button_view columns"))
+
+9
+00:00:00,000 --> 00:00:00,000
+41. click(findTestObject("Object Repository/tN objects/input_ID"))
+
+10
+00:00:00,000 --> 00:00:00,000
+45. click(findTestObject("tN objects/button__Close-Columns"))
+
+11
+00:00:00,000 --> 00:00:00,000
+49. scrollToElement(findTestObject("Object Repository/tN objects/div_Titus 11"), 2)
+
+12
+00:00:00,000 --> 00:00:00,000
+53. click(findTestObject("Object Repository/tN objects/button_Titus 11_add a new row"))
+
+13
+00:00:00,000 --> 00:00:00,000
+57. click(findTestObject("Object Repository/tN objects/button_Add"))
+
+14
+00:00:00,000 --> 00:00:00,000
+61. if (verifyElementVisible(findTestObject("Object Repository/tN objects/p_empty")))
+
+15
+00:00:00,000 --> 00:00:00,000
+1. logInfo(" New row is added successfully")
+
+16
+00:00:00,000 --> 00:00:00,000
+65. click(findTestObject("Object Repository/tN objects/button_Titus 11_Delete new row"))
+
+17
+00:00:00,000 --> 00:00:00,000
+69. click(findTestObject("Object Repository/tN objects/span_Delete"))
+
+18
+00:00:00,000 --> 00:00:00,000
+73. if (verifyElementVisible(findTestObject("Object Repository/tN objects/p_empty")))
+
+19
+00:00:00,000 --> 00:00:00,000
+1. logInfo(" New row is deleted successfully")
+
+20
+00:00:00,000 --> 00:00:00,000
+77. closeBrowser()
+
+21
+00:00:00,000 --> 00:00:00,000
+1. com.tccreate.keywords.WriteToFile.writeTofilename("tN-Expand chapter")
+
+22
+00:00:00,000 --> 00:00:00,000
+5. com.helper.login.TimeDate.getTimeDate()
+

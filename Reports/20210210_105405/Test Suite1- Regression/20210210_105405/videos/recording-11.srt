@@ -1,0 +1,79 @@
+1
+00:00:00,000 --> 00:00:00,000
+9. com.helper.login.loginhelper.logintoapp()
+
+2
+00:00:00,000 --> 00:00:00,000
+13. click(findTestObject("Page_tC Create/Organization unfoldingWord"))
+
+3
+00:00:00,000 --> 00:00:00,000
+17. click(findTestObject("Object Repository/Page_tC Create/div_unfoldingWord Translation Academyunfold_cb119f"))
+
+4
+00:00:00,000 --> 00:00:00,000
+21. click(findTestObject("Object Repository/Page_tC Create/p_Select Language"))
+
+5
+00:00:00,000 --> 00:00:00,000
+25. setText(findTestObject("Object Repository/Page_tC Create/input_Step4Select Your Language_react-selec_aae5da"), "en")
+
+6
+00:00:00,000 --> 00:00:00,000
+29. click(findTestObject("Object Repository/Page_tC Create/div_en - English - English (Europe Gateway)"))
+
+7
+00:00:00,000 --> 00:00:00,000
+33. click(findTestObject("Page_tC Create/span_translate"))
+
+8
+00:00:00,000 --> 00:00:00,000
+37. click(findTestObject("Object Repository/Page_tC Create/span_bita-farming"))
+
+9
+00:00:00,000 --> 00:00:00,000
+41. click(findTestObject("Object Repository/Page_tC Create/span_01.md"))
+
+10
+00:00:00,000 --> 00:00:00,000
+45. click(findTestObject("Object Repository/tA/button_Sections"))
+
+11
+00:00:00,000 --> 00:00:00,000
+49. if (verifyElementNotPresent(findTestObject("Object Repository/tA/div_A FARMER represents God, collapse tab"), 2, CONTINUE_ON_FAILURE))
+
+12
+00:00:00,000 --> 00:00:00,000
+1. logInfo("Collapsable Sections are not visible and is expanded as expected 
+")
+
+13
+00:00:00,000 --> 00:00:00,000
+53. if (getText(findTestObject("Object Repository/tA/div_My well beloved had a vineyard")).contains("My well beloved had a vineyard"))
+
+14
+00:00:00,000 --> 00:00:00,000
+1. logInfo("Section is expanded as expected and text is visible 
+")
+
+15
+00:00:00,000 --> 00:00:00,000
+57. click(findTestObject("Object Repository/tA/button_Blocks"))
+
+16
+00:00:00,000 --> 00:00:00,000
+61. click(findTestObject("Object Repository/tA/button_Preview"))
+
+17
+00:00:00,000 --> 00:00:00,000
+65. if (getText(findTestObject("Object Repository/tA/block in preview mode")).contains(">"))
+
+18
+00:00:00,000 --> 00:00:00,000
+1. logInfo("Preview mode is ON as expected 
+")
+
+19
+00:00:00,000 --> 00:00:00,000
+69. closeBrowser()
+
