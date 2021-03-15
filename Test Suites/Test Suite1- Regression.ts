@@ -77,4 +77,28 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/tCC Test Cases/tA buttons funtions</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>6aae0acc-bd44-4714-9eed-8bec590cadaf</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/tCC Test Cases/tCC Test OBS-tQ</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e86741dd-dd31-439e-9b05-61cb0f081081</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/tCC Test Cases/tCC-Test OBS-tn</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>db53eb01-7af0-4d21-8abf-23ded244f246</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/tCC Test Cases/tCC Test OBS Study Notes</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1c785542-ba90-43b8-9fc5-47ab2d44136f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/tCC Test Cases/Tool Tips - tA</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

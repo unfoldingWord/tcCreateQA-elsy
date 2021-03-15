@@ -6,8 +6,11 @@
    <elementGuidId>9fc53529-b56f-40a2-83a1-ea23e6976008</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>id(&quot;header---&quot;)/div[@class=&quot;jss256&quot;]/div[@class=&quot;jss259&quot;]/div[@id=&quot;wrapY&quot;]/table[@class=&quot;MuiTable-root-717 jss539&quot;]/tbody[@class=&quot;MuiTableBody-root-726 jss540&quot;]/tr[@id=&quot;1:1&quot;]/td[@class=&quot;MuiTableCell-root-729 MuiTableCell-body-731 jss728&quot;]/div[@class=&quot;jss5526&quot;]/span[11][count(. | //*[(text() = 'Θεοῦ' or . = 'Θεοῦ')]) = count(//*[(text() = 'Θεοῦ' or . = 'Θεοῦ')])]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -49,7 +52,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;header-1-1-rtc9&quot;)/div[@class=&quot;jss256&quot;]/div[@class=&quot;jss259&quot;]/div[@id=&quot;wrapY&quot;]/table[@class=&quot;MuiTable-root-501 jss324&quot;]/tbody[@class=&quot;MuiTableBody-root-510 jss325&quot;]/tr[@id=&quot;1:1&quot;]/td[@class=&quot;MuiTableCell-root-513 MuiTableCell-body-515 jss512&quot;]/div[@class=&quot;jss2122&quot;]/span[11]</value>
+      <value>id(&quot;header---&quot;)/div[@class=&quot;jss256&quot;]/div[@class=&quot;jss259&quot;]/div[@id=&quot;wrapY&quot;]/table[@class=&quot;MuiTable-root-717 jss539&quot;]/tbody[@class=&quot;MuiTableBody-root-726 jss540&quot;]/tr[@id=&quot;1:1&quot;]/td[@class=&quot;MuiTableCell-root-729 MuiTableCell-body-731 jss728&quot;]/div[@class=&quot;jss5526&quot;]/span[11]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

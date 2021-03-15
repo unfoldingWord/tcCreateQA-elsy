@@ -6,10 +6,6 @@
    <elementGuidId>2423c52f-128e-48bf-b4fb-ccdbfae3dda6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root']/div/div/div/div[2]/div[2]/div[2]/div/div/div/div/div[3]/div[2]/div/div</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[(text() = '
   My well beloved had a vineyard on a very fertile hill.
@@ -29,7 +25,10 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div[2]/div[2]/div[2]/div/div/div/div/div[3]/div[2]/div/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -63,7 +62,7 @@
       <value>true</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -84,7 +83,7 @@
       <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[1]/div[@class=&quot;jss97&quot;]/div[@class=&quot;jss102&quot;]/div[@class=&quot;MuiPaper-root MuiExpansionPanel-root jss106 Mui-expanded MuiExpansionPanel-rounded MuiPaper-elevation1 MuiPaper-rounded&quot;]/div[@class=&quot;MuiCollapse-container MuiCollapse-entered&quot;]/div[@class=&quot;MuiCollapse-wrapper&quot;]/div[@class=&quot;MuiCollapse-wrapperInner&quot;]/div[1]/div[@class=&quot;MuiExpansionPanelDetails-root jss107&quot;]/div[@class=&quot;MuiGrid-root jss109 MuiGrid-container MuiGrid-wrap-xs-nowrap&quot;]/div[@class=&quot;MuiGrid-root jss111 MuiGrid-item MuiGrid-grid-xs-12&quot;]/div[@class=&quot;jss112&quot;]/div[@class=&quot;jss113&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>

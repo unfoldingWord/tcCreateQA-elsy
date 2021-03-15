@@ -6,7 +6,7 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description>Preview Demo</description>
-      <initValue>'https://5fbc1733e1cd8b30598d2a0d--tc-create-app.netlify.app/'</initValue>
+      <initValue>'https://604351ba1d11bbe19dada29d--tc-create-app.netlify.app/'</initValue>
       <name>url</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -26,7 +26,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>findTestObject('Page_tC Create/listOrg_translate_test')</initValue>
+      <initValue>'Object Repository/page_tC Create/Organization unfoldingWord'</initValue>
       <name>organization</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

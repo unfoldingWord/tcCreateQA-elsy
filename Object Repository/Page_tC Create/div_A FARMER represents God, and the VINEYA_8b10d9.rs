@@ -6,6 +6,10 @@
    <elementGuidId>d4ce0cf2-90b6-4150-9baf-fce3c7e6e2ff</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'MuiExpansionPanelSummary-content' and (text() = 'A FARMER represents God, and the VINEYARD represents his chosen people' or . = 'A FARMER represents God, and the VINEYARD represents his chosen people')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
       </entry>
       <entry>
@@ -13,7 +17,7 @@
          <value>//div[@id='root']/div/div/div/div[2]/div[2]/div[2]/div/div</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -23,7 +27,7 @@
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>

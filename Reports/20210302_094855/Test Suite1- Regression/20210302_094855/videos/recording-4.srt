@@ -1,0 +1,80 @@
+1
+00:00:00,000 --> 00:00:00,000
+9. com.helper.login.loginhelper.logintoapp()
+
+2
+00:00:00,000 --> 00:00:00,000
+13. com.tccreate.keywords.selectOrg.organization("")
+
+3
+00:00:00,000 --> 00:00:00,000
+17. com.tccreate.keywords.selectOrg.resource("unfoldingWord® Translation Notes")
+
+4
+00:00:00,000 --> 00:00:00,000
+21. com.tccreate.keywords.selectOrg.language("")
+
+5
+00:00:00,000 --> 00:00:00,000
+25. click(findTestObject("Page_tC Create/Add new resource objects/span_en_tn_57-TIT.tsv"))
+
+6
+00:00:00,000 --> 00:00:00,000
+29. click(findTestObject("Object Repository/tN objects/button_view columns"))
+
+7
+00:00:00,000 --> 00:00:00,000
+33. click(findTestObject("Object Repository/tN objects/input_ID"))
+
+8
+00:00:00,000 --> 00:00:00,000
+37. click(findTestObject("tN objects/button__Close-Columns"))
+
+9
+00:00:00,000 --> 00:00:00,000
+41. scrollToElement(findTestObject("Object Repository/tN objects/div_Titus 11"), 2)
+
+10
+00:00:00,000 --> 00:00:00,000
+45. click(findTestObject("Object Repository/tN objects/button_Titus 11_add a new row"))
+
+11
+00:00:00,000 --> 00:00:00,000
+49. click(findTestObject("Object Repository/tN objects/button_Add"))
+
+12
+00:00:00,000 --> 00:00:00,000
+53. if (verifyElementVisible(findTestObject("Object Repository/tN objects/p_empty")))
+
+13
+00:00:00,000 --> 00:00:00,000
+1. logInfo(" New row is added successfully")
+
+14
+00:00:00,000 --> 00:00:00,000
+57. click(findTestObject("Object Repository/tN objects/button_Titus 11_Delete new row"))
+
+15
+00:00:00,000 --> 00:00:00,000
+61. click(findTestObject("Object Repository/tN objects/span_Delete"))
+
+16
+00:00:00,000 --> 00:00:00,000
+65. if (verifyElementVisible(findTestObject("Object Repository/tN objects/p_empty")))
+
+17
+00:00:00,000 --> 00:00:00,000
+1. logInfo(" New row is deleted successfully")
+
+18
+00:00:00,000 --> 00:00:00,000
+69. closeBrowser()
+
+19
+00:00:00,000 --> 00:00:00,000
+1. com.tccreate.keywords.WriteToFile.writeTofilename("tN-Expand chapter")
+
+20
+00:00:00,000 --> 00:00:00,000
+5. com.helper.login.TimeDate.getTimeDate()
+

@@ -6,21 +6,19 @@
    <elementGuidId>c4818b24-cae6-4efb-9431-2d770ab37988</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>h6.MuiTypography-root.jss2.MuiTypography-h6.MuiTypography-colorInherit.MuiTypography-noWrap</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//header[@id='App-header']/div/div/div/header/div/h6</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//h6[(text() = 'translationCore Create - v1.1.0-rc.4 build 18-e095e04
-' or . = 'translationCore Create - v1.1.0-rc.4 build 18-e095e04
-')]</value>
+         <value>//h6[@class = 'MuiTypography-root jss2 MuiTypography-h6 MuiTypography-colorInherit MuiTypography-noWrap']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h6.MuiTypography-root.jss2.MuiTypography-h6.MuiTypography-colorInherit.MuiTypography-noWrap</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,14 +28,14 @@
       <value>h6</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>MuiTypography-root jss2 MuiTypography-h6 MuiTypography-colorInherit MuiTypography-noWrap</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

@@ -94,4 +94,14 @@
       <initValue>false</initValue>
       <name>scriptRunning</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'chrome'</initValue>
+      <name>browser</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Mac'</initValue>
+      <name>systemOS</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -45,7 +45,8 @@ else
 {
 	KeywordUtil.logInfo('Error: Section is nt expanded \n')
 }
-if(WebUI.getText(findTestObject('Object Repository/tA/div_My well beloved had a vineyard')).contains("My well beloved had a vineyard"))
+//WebUI.click(findTestObject('Object Repository/tA/p_My well section'))
+if(WebUI.getText(findTestObject('Object Repository/tA/p_My well section')).contains("My well beloved had a vineyard"))
 {
 	KeywordUtil.logInfo('Section is expanded as expected and text is visible \n')
 }

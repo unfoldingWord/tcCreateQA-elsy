@@ -28,7 +28,7 @@ public class selectOrg {
 		}
 		println('Choosing organization ' + organization)
 
-		WebUI.click(findTestObject(organization))
+		WebUI.click(findTestObject('Page_tC Create/listOption_organisation_Parmed', [('org_code') : organization]))
 
 		def alerted = WebUI.waitForAlert(2)
 

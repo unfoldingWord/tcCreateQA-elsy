@@ -36,7 +36,7 @@ WebUI.click(findTestObject('tW Objects/span_almighty.md'))
 
 WebUI.click(findTestObject('tW Objects/h1_Almighty'))
 
-WebUI.sendKeys(findTestObject('tW Objects/div_Almighty test'), '  edits by a test script')
+WebUI.sendKeys(findTestObject('tW Objects/h1_Almighty'), '  edits by a test script')
 
 WebUI.click(findTestObject('Object Repository/Page_tC Create/button_Save'))
 //validate

@@ -6,19 +6,19 @@
    <elementGuidId>5686b7d7-a378-43aa-b201-f68cc3a3bee6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.MuiCollapse-container.MuiCollapse-entered > div.MuiCollapse-wrapper > div.MuiCollapse-wrapperInner > div > div.MuiExpansionPanelDetails-root.jss60 > div.MuiGrid-root.jss62.MuiGrid-container.MuiGrid-wrap-xs-nowrap > div.MuiGrid-root.jss64.MuiGrid-item.MuiGrid-grid-xs-12 > div.jss65 > div.jss66</value>
+         <key>BASIC</key>
+         <value>//*[@dir = 'auto' and (contains(text(), 'A FARMER represents God') or contains(., 'A FARMER represents God'))]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>CSS</key>
+         <value>div.MuiCollapse-container.MuiCollapse-entered > div.MuiCollapse-wrapper > div.MuiCollapse-wrapperInner > div > div.MuiExpansionPanelDetails-root.jss60 > div.MuiGrid-root.jss62.MuiGrid-container.MuiGrid-wrap-xs-nowrap > div.MuiGrid-root.jss64.MuiGrid-item.MuiGrid-grid-xs-12 > div.jss65 > div.jss66</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='root']/div/div/div/div[2]/div[2]/div[2]/div[2]/div/div/div/div/div/div[2]/div/div</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,7 +28,7 @@
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>dir</name>
       <type>Main</type>
@@ -49,7 +49,7 @@
       <value>true</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>

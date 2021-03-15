@@ -6,10 +6,6 @@
    <elementGuidId>d89cf9f3-ff98-420f-a902-1c3c20e552df</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[2]/div/div/h1</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[(contains(text(), 'Almighty') or contains(., 'Almighty'))]</value>
       </entry>
@@ -17,8 +13,12 @@
          <key>CSS</key>
          <value>div.MuiGrid-root.jss63.MuiGrid-item.MuiGrid-grid-xs-12 > div.jss64 > div.jss65 > #almighty</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[2]/div/div/h1</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

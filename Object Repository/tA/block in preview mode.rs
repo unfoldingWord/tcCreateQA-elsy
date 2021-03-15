@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='root']/div/div/div/div[2]/div[2]/div[2]/div/div/div/div/div/div[2]/div/pre/code</value>
+         <value>//div[@id='translatableComponent']/div/div[2]/div[2]/div/div/div/div/div/div[2]/div/pre/code</value>
       </entry>
       <entry>
          <key>CSS</key>

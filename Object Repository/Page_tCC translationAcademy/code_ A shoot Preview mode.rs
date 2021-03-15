@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>code_ A shoot Preview mode</name>
+   <tag></tag>
+   <elementGuidId>69db2dfa-26bc-4006-955d-c6f0d2cd9a66</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='translatableComponent']/div/div[2]/div[2]/div[2]/div/div/div/div/div[3]/div[2]/div/pre/code</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>code</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>jss67</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>dir</name>
+      <type>Main</type>
+      <value>auto</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>contenteditable</name>
+      <type>Main</type>
+      <value>true</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>> **A shoot** will sprout from the root of Jesse, and **a branch** out of his root will bear fruit. (Isaiah 11:1 ULT)
+>
+> See, the days are coming—this is Yahweh’s declaration—when I will raise up for David a righteous **branch**. He will reign as king; he will act wisely and cause justice and righteousness in the land. (Jeremiah 23:5 ULT)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;translatableComponent&quot;)/div[@class=&quot;jss55&quot;]/div[@class=&quot;jss58&quot;]/div[@class=&quot;MuiPaper-root MuiExpansionPanel-root jss59 Mui-expanded MuiExpansionPanel-rounded MuiPaper-elevation1 MuiPaper-rounded&quot;]/div[@class=&quot;MuiCollapse-container MuiCollapse-entered&quot;]/div[@class=&quot;MuiCollapse-wrapper&quot;]/div[@class=&quot;MuiCollapse-wrapperInner&quot;]/div[1]/div[@class=&quot;MuiExpansionPanelDetails-root jss60&quot;]/div[@class=&quot;MuiGrid-root jss62 MuiGrid-container MuiGrid-wrap-xs-nowrap&quot;]/div[@class=&quot;MuiGrid-root jss64 MuiGrid-item MuiGrid-grid-xs-12&quot;]/div[@class=&quot;jss65&quot;]/pre[@class=&quot;jss68&quot;]/code[@class=&quot;jss67&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='translatableComponent']/div/div[2]/div[2]/div[2]/div/div/div/div/div[3]/div[2]/div/pre/code</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='#### A BRANCH represents a person’s descendant'])[2]/following::code[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='#### A BRANCH represents a person’s descendant'])[1]/following::code[5]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='In Job when it says “his branch will be cut off,” it means that he will not have any descendants.'])[1]/preceding::code[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='In Job when it says “his branch will be cut off,” it means that he will not have any descendants.'])[2]/preceding::code[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/div/pre/code</value>
+   </webElementXpaths>
+</WebElementEntity>

@@ -37,7 +37,7 @@ WebUI.click(findTestObject('Object Repository/Page_tC Create/span_01.md'))
 
 WebUI.click(findTestObject('Object Repository/Page_tC Create/div_A FARMER represents God, and the VINEYA_8b10d9'))
 
-WebUI.sendKeys(findTestObject('Object Repository/tA/div_A FARMER represents God- Edit box'), ' test edit by the test script')
+WebUI.sendKeys(findTestObject('Object Repository/tA/div_A FARMER represents God,edit box'), ' test edit by the test script')
 
 WebUI.click(findTestObject('Page_tC Create/button_Save'))
 
