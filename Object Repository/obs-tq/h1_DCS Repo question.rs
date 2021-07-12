@@ -10,6 +10,10 @@
          <value>#user-content-why-were-adam-and-eve-not-ashamed-that-they-were-naked</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(starts-with(text(), 'Why were Adam and Eve ') or starts-with(., 'Why were Adam and Eve '))]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//h1[@id='user-content-why-were-adam-and-eve-not-ashamed-that-they-were-naked']</value>
       </entry>
@@ -32,10 +36,10 @@
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>contains</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Why were Adam and Eve not ashamed that they were naked?</value>
+      <value>Why were Adam and Eve </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

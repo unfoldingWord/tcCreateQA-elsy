@@ -1,0 +1,76 @@
+1
+00:00:00,000 --> 00:00:00,000
+9. com.helper.login.loginhelper.logintoapp()
+
+2
+00:00:00,000 --> 00:00:00,000
+13. com.tccreate.keywords.selectOrg.organization("")
+
+3
+00:00:00,000 --> 00:00:00,000
+17. com.tccreate.keywords.selectOrg.resource("unfoldingWord® Open Bible Stories Translation Questions")
+
+4
+00:00:00,000 --> 00:00:00,000
+21. com.tccreate.keywords.selectOrg.language("")
+
+5
+00:00:00,000 --> 00:00:00,000
+25. click(findTestObject("Object Repository/OBS-tn/div_content"))
+
+6
+00:00:00,000 --> 00:00:00,000
+29. click(findTestObject("Object Repository/OBS-tn/span_02"))
+
+7
+00:00:00,000 --> 00:00:00,000
+33. click(findTestObject("Object Repository/OBS-tn/span_01.md"))
+
+8
+00:00:00,000 --> 00:00:00,000
+37. click(findTestObject("Object Repository/obs-tq/div_question edit box"))
+
+9
+00:00:00,000 --> 00:00:00,000
+41. sendKeys(findTestObject("Object Repository/obs-tq/div_question edit box"), "  edits by a test script")
+
+10
+00:00:00,000 --> 00:00:00,000
+45. click(findTestObject("Object Repository/Page_tC Create/button_Save"))
+
+11
+00:00:00,000 --> 00:00:00,000
+49. delay(2)
+
+12
+00:00:00,000 --> 00:00:00,000
+53. if (verifyElementNotClickable(findTestObject("Page_tC Create/button_Save"), CONTINUE_ON_FAILURE))
+
+13
+00:00:00,000 --> 00:00:00,000
+1. logInfo(" Save button is greyed out as expected")
+
+14
+00:00:00,000 --> 00:00:00,000
+57. click(findTestObject("Object Repository/obs-tq/span_English - unfoldingWorden_obs-tqElsyLambert-tc-create-1"))
+
+15
+00:00:00,000 --> 00:00:00,000
+61. delay(2)
+
+16
+00:00:00,000 --> 00:00:00,000
+65. switchToWindowIndex(1)
+
+17
+00:00:00,000 --> 00:00:00,000
+69. if (getText(findTestObject("Object Repository/obs-tq/h1_DCS Repo question")).contains("edits by a test script"))
+
+18
+00:00:00,000 --> 00:00:00,000
+1. com.tccreate.keywords.WriteToFile.writeTofilename("OBS-tN-Save")
+
+19
+00:00:00,000 --> 00:00:00,000
+5. com.helper.login.TimeDate.getTimeDate()
+

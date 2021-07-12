@@ -144,5 +144,6 @@ WebUI.delay(1)
 	 
 	KeywordUtil.logInfo("Text is not highlighted!")
 	 }
+	 WebUI.delay(2)
  WebUI.closeBrowser()
 

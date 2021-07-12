@@ -58,7 +58,7 @@ WebUI.click(findTestObject('Object Repository/tN objects/button_Titus 11_Expand 
 WebUI.mouseOver(findTestObject('Object Repository/tN objects/td_12'))
 WebUI.click(findTestObject('Object Repository/tN objects/td_12'))
 //WebUI.scrollToElement(findTestObject('Object Repository/tN objects/td_13'), 1)
-for (int i: (1..18))
+for (int i: (1..19))
 {
 	
 	WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.PAGE_DOWN))

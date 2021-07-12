@@ -6,11 +6,11 @@
    <elementGuidId>9fc53529-b56f-40a2-83a1-ea23e6976008</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>id(&quot;header---&quot;)/div[@class=&quot;jss256&quot;]/div[@class=&quot;jss259&quot;]/div[@id=&quot;wrapY&quot;]/table[@class=&quot;MuiTable-root-717 jss539&quot;]/tbody[@class=&quot;MuiTableBody-root-726 jss540&quot;]/tr[@id=&quot;1:1&quot;]/td[@class=&quot;MuiTableCell-root-729 MuiTableCell-body-731 jss728&quot;]/div[@class=&quot;jss5526&quot;]/span[11][count(. | //*[(text() = 'Θεοῦ' or . = 'Θεοῦ')]) = count(//*[(text() = 'Θεοῦ' or . = 'Θεοῦ')])]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>BASIC</key>
+         <value>//*[@data-test = 'aligned-word-object' and (text() = 'Θεοῦ' or . = 'Θεοῦ')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -27,7 +27,7 @@
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-test</name>
       <type>Main</type>
@@ -48,7 +48,7 @@
       <value>Θεοῦ</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

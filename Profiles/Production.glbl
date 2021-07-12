@@ -26,7 +26,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>findTestObject('Page_tC Create/listOrg_translate_test')</initValue>
+      <initValue>'unfoldingWord'</initValue>
       <name>organization</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

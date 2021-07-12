@@ -1,0 +1,60 @@
+1
+00:00:00,000 --> 00:00:00,000
+9. com.helper.login.loginhelper.logintoapp()
+
+2
+00:00:00,000 --> 00:00:00,000
+13. verifyElementPresent(findTestObject("Object Repository/Organization Link/span_unfoldingWord"), 1)
+
+3
+00:00:00,000 --> 00:00:00,000
+17. expectedTooltip = "Go to Organization"
+
+4
+00:00:00,000 --> 00:00:00,000
+21. actualTooltip = getAttribute(findTestObject("Object Repository/Organization Link/button_unfoldingWord_MuiButtonBase-root MuiIconButton-root"), "title")
+
+5
+00:00:00,000 --> 00:00:00,000
+25. out.println("Actual Title of Tool Tip" + actualTooltip)
+
+6
+00:00:00,000 --> 00:00:00,000
+29. if (actualTooltip.equals(expectedTooltip))
+
+7
+00:00:00,000 --> 00:00:00,000
+1. out.println("Test Case Passed")
+
+8
+00:00:00,000 --> 00:00:00,000
+33. click(findTestObject("Object Repository/Organization Link/button_unfoldingWord_MuiButtonBase-root MuiIconButton-root"))
+
+9
+00:00:00,000 --> 00:00:00,000
+37. switchToWindowIndex(1)
+
+10
+00:00:00,000 --> 00:00:00,000
+41. if (verifyElementVisible(findTestObject("Object Repository/Organization Link/div_unfoldingWord"), CONTINUE_ON_FAILURE))
+
+11
+00:00:00,000 --> 00:00:00,000
+1. out.println("Organization page is opening")
+
+12
+00:00:00,000 --> 00:00:00,000
+45. switchToWindowIndex(0)
+
+13
+00:00:00,000 --> 00:00:00,000
+49. closeBrowser()
+
+14
+00:00:00,000 --> 00:00:00,000
+1. com.tccreate.keywords.WriteToFile.writeTofilename("tN-undo editing")
+
+15
+00:00:00,000 --> 00:00:00,000
+5. com.helper.login.TimeDate.getTimeDate()
+
