@@ -9,7 +9,7 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>Develop</profileName>
+            <profileName>default</profileName>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>

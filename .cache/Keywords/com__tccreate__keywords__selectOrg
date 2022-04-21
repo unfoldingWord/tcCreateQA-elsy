@@ -1,0 +1,68 @@
+{
+  "keywordFileContentHash": "9B2DD5FB2192086DC71C21855F0986B1",
+  "keywordClasses": [
+    {
+      "name": "com.tccreate.keywords.selectOrg",
+      "keywordMethods": [
+        {
+          "name": "organization",
+          "parameters": [
+            {
+              "name": "organization",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "language",
+          "parameters": [
+            {
+              "name": "language",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "resource",
+          "parameters": [
+            {
+              "name": "resource",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

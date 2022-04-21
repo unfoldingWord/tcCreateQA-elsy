@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>tCC tN Open For Edit</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3269ab81-23d7-404c-aa1a-d926306513f1</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>090806ba-d1df-42d3-b0d1-a722c01f383c</id>
+      <masked>false</masked>
+      <name>$username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5a9be3e4-cb51-4750-a1f7-a4bfb0d458fe</id>
+      <masked>false</masked>
+      <name>$password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>not used except in Archives</description>
+      <id>9ef363af-b106-4352-a6a3-d876a7c9bb18</id>
+      <masked>false</masked>
+      <name>$origQuote</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>not used except in Archives</description>
+      <id>e1b33e87-78e4-49ca-bdc5-82b2779c7b14</id>
+      <masked>false</masked>
+      <name>$newOrigQuote</name>
+   </variable>
+</TestCaseEntity>

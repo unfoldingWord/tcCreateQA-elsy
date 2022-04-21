@@ -1,0 +1,60 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. com.tccreate.keywords.WriteToFile.writeTofilename("Links to Org page")
+
+2
+00:00:00,000 --> 00:00:00,000
+5. com.helper.login.TimeDate.getTimeDate()
+
+3
+00:00:00,000 --> 00:00:00,000
+9. com.helper.login.loginhelper.logintoapp()
+
+4
+00:00:00,000 --> 00:00:00,000
+13. verifyElementPresent(findTestObject("Object Repository/Organization Link/span_unfoldingWord"), 1)
+
+5
+00:00:00,000 --> 00:00:00,000
+17. expectedTooltip = "Go to Organization"
+
+6
+00:00:00,000 --> 00:00:00,000
+21. actualTooltip = getAttribute(findTestObject("Object Repository/Organization Link/button_unfoldingWord_MuiButtonBase-root MuiIconButton-root"), "title")
+
+7
+00:00:00,000 --> 00:00:00,000
+25. out.println("Actual Title of Tool Tip" + actualTooltip)
+
+8
+00:00:00,000 --> 00:00:00,000
+29. if (actualTooltip.equals(expectedTooltip))
+
+9
+00:00:00,000 --> 00:00:00,000
+2. out.println("Test Case failed- Tool tips are different or not present")
+
+10
+00:00:00,000 --> 00:00:00,000
+33. click(findTestObject("Object Repository/Organization Link/button_unfoldingWord_MuiButtonBase-root MuiIconButton-root"))
+
+11
+00:00:00,000 --> 00:00:00,000
+37. switchToWindowIndex(1)
+
+12
+00:00:00,000 --> 00:00:00,000
+41. if (verifyElementVisible(findTestObject("Object Repository/Organization Link/div_unfoldingWord"), CONTINUE_ON_FAILURE))
+
+13
+00:00:00,000 --> 00:00:00,000
+2. out.println("Error: Cannot find the Organization page")
+
+14
+00:00:00,000 --> 00:00:00,000
+45. switchToWindowIndex(0)
+
+15
+00:00:00,000 --> 00:00:00,000
+49. closeBrowser()
+

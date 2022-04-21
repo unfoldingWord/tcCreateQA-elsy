@@ -1,0 +1,28 @@
+1
+00:00:00,000 --> 00:00:00,000
+5. println(testCaseContext.getTestCaseVariables())
+
+2
+00:00:00,000 --> 00:00:00,000
+1. com.tccreate.keywords.WriteToFile.writeTofilename("tN-Add new resource")
+
+3
+00:00:00,000 --> 00:00:00,000
+5. com.helper.login.TimeDate.getTimeDate()
+
+4
+00:00:00,000 --> 00:00:00,000
+9. com.helper.login.loginhelper.logintoapp()
+
+5
+00:00:00,000 --> 00:00:00,000
+1. println(testCaseContext.getTestCaseId())
+
+6
+00:00:00,000 --> 00:00:00,000
+5. println(testCaseContext.getTestCaseStatus())
+
+7
+00:00:00,000 --> 00:00:00,000
+1. println(testCaseContext.getTestCaseId())
+

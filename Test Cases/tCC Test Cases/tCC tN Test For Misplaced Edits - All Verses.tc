@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>tCC tN Test For Misplaced Edits - All Verses</name>
+   <tag>Issues tested: 160, 455, 498</tag>
+   <comment></comment>
+   <testCaseGuid>22bc7e08-e659-4ee0-8d3a-d1e7d38df203</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5dda6231-d7d4-4ef0-a142-57a12b1060dd</id>
+      <masked>false</masked>
+      <name>$username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0ba2b0d6-cc72-4634-a162-ad451962d51c</id>
+      <masked>false</masked>
+      <name>$password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>not used except in Archives</description>
+      <id>e50785f3-7272-4747-9b4e-59dcc0618f58</id>
+      <masked>false</masked>
+      <name>$origQuote</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>not used except in Archives</description>
+      <id>a9c4f3b0-27f5-47de-aa90-f290d5846578</id>
+      <masked>false</masked>
+      <name>$newOrigQuote</name>
+   </variable>
+</TestCaseEntity>

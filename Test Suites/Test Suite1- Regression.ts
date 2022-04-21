@@ -45,7 +45,7 @@
       <guid>180c92e5-6cec-4a61-a29d-3aed1913c005</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/tCC Test Cases/tN_Highlighting by Occurrence Number</testCaseId>
+      <testCaseId>Test Cases/tCC Test Cases/tN_Highlighting by Occurrence Number-Tofix</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>0631d134-f1de-4e60-87c8-138f68fd9fc6</guid>
@@ -80,25 +80,253 @@
    <testCaseLink>
       <guid>6aae0acc-bd44-4714-9eed-8bec590cadaf</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/tCC Test Cases/tCC Test OBS-tQ</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>e86741dd-dd31-439e-9b05-61cb0f081081</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/tCC Test Cases/tCC-Test OBS-tn</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>db53eb01-7af0-4d21-8abf-23ded244f246</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/tCC Test Cases/tCC Test OBS Study Notes</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>1c785542-ba90-43b8-9fc5-47ab2d44136f</guid>
+      <guid>de47b334-c7c0-4671-b295-87f6fd0f7381</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/tCC Test Cases/Tool Tips - tA</testCaseId>
+      <testCaseId>Test Cases/tCC Test Cases/tCC tN Test All Books from Drawer</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fa40ebb5-072f-4e8f-902a-f86e2130dfc4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>82af7ad2-9943-4d36-b2bc-022d3f40433c</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9a06e5e1-4eb4-41a3-a741-b9a0ba0fa4b7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/tCC Test Cases/tCC tN Test App Crash on Paging-to fix</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c37b2491-a18a-457a-82fc-6bd1340ca58f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/tCC Test Cases/tCC tN Test Columns and Page Rows</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ebd78070-923d-49f2-ad3c-dd25d37c4069</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d421b42f-d5fa-48c1-804a-3c321a9cf6e0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>69bab9f0-302b-4fde-a5fb-79fda335e3e9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8c7d35d1-ccea-49ff-86f0-5a75822b9c0c</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>477c7b41-f0c5-47e5-ab46-19fd58cea4ff</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/tCC Test Cases/tCC Test Permissions</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4a7d05bf-6084-4945-b628-a825100eda9b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/tCC Test Cases/tCC tN Test Filters</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e90786a9-800d-4243-b7bd-c9323ca0cb61</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2464d956-d89a-41e5-a52c-addd33f0fdf8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>80ab2296-2b28-4af0-b716-f5574df84a60</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>35d38a38-2044-497d-83c7-ab994619f880</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c52b458b-99c1-454d-bf8f-894bfa10bd4d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/tCC Test Cases/TCC tN Test Moving Rows</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>11400f42-1d97-46ca-947b-37f6769286de</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9f88b676-3e14-482a-b488-5aa660d52081</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>11b97f9e-eb02-4547-91c2-c318ed1ae57d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6b2d5781-fb92-44d9-baa5-540290e023f4</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c2c371b3-196d-4384-8b71-b3478d77b6e0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/tCC Test Cases/tCC tN Test Paging Performance</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8adc4334-20f1-4a3a-b95b-90fe58418987</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/tCC Test Cases/tCC tN Test Search</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cfab43d0-b806-42ac-9378-57a45b8881b1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e6de0448-bed0-4a51-aa1f-7df684f88d94</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2e3fbedf-3ff7-44ee-a3c8-aea43c1b3640</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1f352f9f-48c4-4b1a-9607-5f0a55dd2370</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fb6abf60-e911-4c96-999b-c64caff12160</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/tCC Test Cases/Test All Source Repos Correct</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b29f63f4-2509-4602-a4c1-f80187ce2c64</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/tCC Test Cases/tCC Test tN Files for Duplicate IDs</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c3497935-0960-4e7b-8877-1bac230cc66d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/tCC Test Cases/tCC Test App Crashes</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>416d5b60-981d-4959-916f-c9b2aa07e1f8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e3f878cb-cc30-45e2-955d-8fbc59b08e39</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8df9d24e-f47a-4d14-b743-e77a11203ca4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>489f32e6-b676-49a3-9874-bdb1f2cf6635</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e14f6346-794a-475b-a8a2-37d472217066</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/tCC Test Cases/tCC Test Multiple Sessions</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4e8f371b-ba65-434f-95ff-64102d8c3e11</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d596a5f5-6fae-4e55-83b6-3716d4289d0a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1fda8670-c49e-4d26-91cc-b68c6cddc3ab</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>23f11733-810b-4f73-8199-5bcd6e9ee0c4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>769e85b5-2e0f-41b7-80e7-740e1c809cde</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

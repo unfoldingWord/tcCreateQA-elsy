@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>tCC tN Test Copy OrigLangQuote - Copy (5)</name>
+   <tag>Issues 251, 321, 358, 424</tag>
+   <comment></comment>
+   <testCaseGuid>5ab140c2-936e-405f-b033-59299c7c227b</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c203631c-25e6-49d9-9fa6-a53cec7161c7</id>
+      <masked>false</masked>
+      <name>$username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3394bd16-6d68-43b1-a4d7-0d52b75a994a</id>
+      <masked>false</masked>
+      <name>$password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>not used except in Archives</description>
+      <id>da9b76fd-d205-429a-8c38-0bdd396af582</id>
+      <masked>false</masked>
+      <name>$origQuote</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>not used except in Archives</description>
+      <id>94df7b1c-16b9-4cf1-ba72-7865d9cf3569</id>
+      <masked>false</masked>
+      <name>$newOrigQuote</name>
+   </variable>
+</TestCaseEntity>

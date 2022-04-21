@@ -1,0 +1,96 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. com.tccreate.keywords.WriteToFile.writeTofilename("tN-Parallel Scripture Viewer")
+
+2
+00:00:00,000 --> 00:00:00,000
+5. com.helper.login.TimeDate.getTimeDate()
+
+3
+00:00:00,000 --> 00:00:00,000
+9. com.helper.login.loginhelper.logintoapp()
+
+4
+00:00:00,000 --> 00:00:00,000
+13. com.tccreate.keywords.selectOrg.organization("")
+
+5
+00:00:00,000 --> 00:00:00,000
+17. com.tccreate.keywords.selectOrg.resource("unfoldingWord® Translation Notes")
+
+6
+00:00:00,000 --> 00:00:00,000
+21. com.tccreate.keywords.selectOrg.language("")
+
+7
+00:00:00,000 --> 00:00:00,000
+25. delay(2)
+
+8
+00:00:00,000 --> 00:00:00,000
+29. scrollToElement(findTestObject("Object Repository/Page_tC Create/span_en_tn_57-TIT.tsv"), 1)
+
+9
+00:00:00,000 --> 00:00:00,000
+33. click(findTestObject("Object Repository/Page_tC Create/span_en_tn_57-TIT.tsv"))
+
+10
+00:00:00,000 --> 00:00:00,000
+37. com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScripture(""test"")
+
+11
+00:00:00,000 --> 00:00:00,000
+41. com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScripture(""on"")
+
+12
+00:00:00,000 --> 00:00:00,000
+45. if (verifyElementPresent(findTestObject("Page_tC Create/span_unfoldingWord Literal Text v14"), 5))
+
+13
+00:00:00,000 --> 00:00:00,000
+2. logInfo("Cannot find ULT in PSV")
+
+14
+00:00:00,000 --> 00:00:00,000
+49. if (verifyElementPresent(findTestObject("Page_tC Create/span_unfoldingWord Simplified Text v14"), 5))
+
+15
+00:00:00,000 --> 00:00:00,000
+2. logInfo("Cannot find UST in PSV")
+
+16
+00:00:00,000 --> 00:00:00,000
+53. logInfo("ParallelScripture is present")
+
+17
+00:00:00,000 --> 00:00:00,000
+57. com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScripture(""off"")
+
+18
+00:00:00,000 --> 00:00:00,000
+61. logInfo("button is toggled")
+
+19
+00:00:00,000 --> 00:00:00,000
+65. if (verifyElementNotPresent(findTestObject("Page_tC Create/span_unfoldingWord Literal Text v14"), 3))
+
+20
+00:00:00,000 --> 00:00:00,000
+1. logInfo("ULT is not visible as expected")
+
+21
+00:00:00,000 --> 00:00:00,000
+69. closeBrowser()
+
+22
+00:00:00,000 --> 00:00:00,000
+1. println(testCaseContext.getTestCaseId())
+
+23
+00:00:00,000 --> 00:00:00,000
+5. println(testCaseContext.getTestCaseStatus())
+
+24
+00:00:00,000 --> 00:00:00,000
+1. println(testCaseContext.getTestCaseId())
+

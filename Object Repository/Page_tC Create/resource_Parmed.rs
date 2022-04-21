@@ -3,18 +3,18 @@
    <description></description>
    <name>resource_Parmed</name>
    <tag></tag>
-   <elementGuidId>28d83b3f-b144-48bd-a9c0-c6aef7c1c90f</elementGuidId>
+   <elementGuidId>cf6aa245-d678-4650-ba0a-5039f28c42fb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root']/div/div/div/div/div[2]/div/ul/div[3]/div/div[2]/p</value>
+         <key>BASIC</key>
+         <value>//*[(text() = '${resource}' or . = '${resource}')]</value>
       </entry>
       <entry>
          <key>CSS</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = '${resource}' or . = '${resource}')]</value>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div/div[2]/div/ul/div[3]/div/div[2]/p</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

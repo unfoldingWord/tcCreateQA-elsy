@@ -1,0 +1,49 @@
+{
+  "keywordFileContentHash": "FC82B342691E032467B8D77BB2A6D6CA",
+  "keywordClasses": [
+    {
+      "name": "com.tccreate.keywords.ExpandAllScriptureToggle",
+      "keywordMethods": [
+        {
+          "name": "toggleAllScripture",
+          "parameters": [
+            {
+              "name": "toState",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "chooseValidationLevel",
+          "parameters": [
+            {
+              "name": "level",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

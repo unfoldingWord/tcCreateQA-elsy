@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>test tN</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>58ffb1c5-284b-4203-9f5a-98aae48579b2</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>dcc03307-f995-4ad8-98ea-c25fb79746f1</id>
+      <masked>false</masked>
+      <name>$username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6c6dbaf2-46a0-43a8-8d9e-33a642e1ad2a</id>
+      <masked>false</masked>
+      <name>$password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>not used except in Archives</description>
+      <id>ff91ebac-11f2-41b8-9d2a-0c769462ff65</id>
+      <masked>false</masked>
+      <name>$origQuote</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>not used except in Archives</description>
+      <id>b2d564a2-8cf5-4123-8292-b33e3dee6a46</id>
+      <masked>false</masked>
+      <name>$newOrigQuote</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,36 @@
+{
+  "keywordFileContentHash": "9AA586A96F47E2F631A96DEA620E4412",
+  "keywordClasses": [
+    {
+      "name": "unfoldingWord_Keywords.GetTestingConfig",
+      "keywordMethods": [
+        {
+          "name": "getOperatingSystem",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "getBrowserAndVersion",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "getScreenResolution",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "getTestCaseName",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "getServer",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

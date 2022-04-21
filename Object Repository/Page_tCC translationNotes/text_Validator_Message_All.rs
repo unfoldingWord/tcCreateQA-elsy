@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>text_Validator_Message_All</name>
+   <tag></tag>
+   <elementGuidId>f5290f82-677b-420f-a180-ee97c866639e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[2]/div[3]/div/div[2]/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.MuiDialogContent-root</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiDialogContent-root</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>On line 1 Bad TSV Header, expecting:&quot;Book, Chapter, Verse, ID, SupportReference, OrigQuote, Occurrence, GLQuote, OccurrenceNote&quot;, found:&quot;TIT, front, intro, m2jl, ​, ​ab, 0, , # Introduction to Titus&lt;br>&lt;br>## Part 1: General Introduction&lt;br>&lt;br>### Outline of the Book of Titus&lt;br>&lt;br>1.  Paul instructs Titus to appoint godly leaders (1:1-16)&lt;br>2.  Paul instructs Titus to train people to live godly lives (2:1-3:11)&lt;br>3.  Paul ends by sharing some of his plans and sending greetings to various believers (3:12-15)&lt;br>&lt;br>### Who wrote the Book of Titus?&lt;br>&lt;br>Paul wrote the Book of Titus. Paul was from the city of Tarsus. He had been known as Saul in his early life. Before becoming a Christian, Paul was a Pharisee. He persecuted Christians. After he became a Christian, he traveled several times throughout the Roman Empire telling people about Jesus.&lt;br>&lt;br>Paul wrote the Book of Titus. Paul was from the city of Tarsus. He had been known as Saul in his early life. Before becoming a Christian, Paul was a Pharisee. He persecuted Christians. After he became a Christian, he traveled several times throughout the Roman Empire telling people about Jesus.&lt;br>&lt;br>What is the Book of Titus about?&lt;br>&lt;br>Paul wrote this letter to Titus, his fellow worker, who was leading the churches on the island of Crete. Paul instructed him about selecting church leaders. Paul also described how the believers should behave towards each other. He also encouraged them all to live in a way that pleases God.&lt;br>&lt;br>How should the title of this book be translated?&lt;br>&lt;br>Translators may choose to call this book by its traditional title, “Titus”. Or they may choose a clearer title, such as “Paul’s Letter to Titus” or “A Letter to Titus”. (See: \[\[rc://en/ta/man/translate/translate-names\]\])&lt;br>&lt;br>## Part 2: Important Religious and Cultural Concepts&lt;br>&lt;br>### In what roles can people serve within the church?&lt;br>&lt;br>There are some teachings in the Book of Titus about whether a woman or divorced man can serve in positions of leadership within the church. Scholars disagree about the meaning of these teachings. Further study on these issues may be necessary before translating this book.&lt;br>&lt;br>There are some teachings in the Book of Titus about whether a woman or divorced man can serve in positions of leadership within the church. Scholars disagree about the meaning of these teachings. Further study on these issues may be necessary before translating this book.&lt;br>&lt;br>## Part 3: Important Translation Issues&lt;br>&lt;br>### Singular and plural **you**&lt;br>&lt;br>In this book, the word **I** refers to Paul. Also, the word **you** is almost always singular and refers to Titus. The exception to this is 3:15. (See: \[\[rc://en/ta/man/translate/figs-exclusive\]\] and \[\[rc://en/ta/man/translate/figs-you\]\])&lt;br>&lt;br>### What is the meaning of **God our Savior**?&lt;br>&lt;br>This is a common phrase in this letter. Paul meant to make the readers think about how God forgave them in Christ for sinning against him, and by forgiving them he saved them from being punished when he judges all people. A similar phrase in this letter is **our great God and Savior Jesus Christ**.&quot;   On line 1 Headers different at character 1: B (x42) vs T (x54)   On line 1 TSV Header has incorrect length, should be 82; found 3027   On line 140 Row ID abc8 is a duplicate of ID on row 4   </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;MuiDialog-root&quot;]/div[@class=&quot;MuiDialog-container MuiDialog-scrollPaper&quot;]/div[@class=&quot;MuiPaper-root MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-elevation24 MuiPaper-rounded&quot;]/div[@class=&quot;MuiDialogContent-root&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='en_tn'])[1]/following::div[10]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='en_tn_57-TIT.tsv'])[1]/following::div[14]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[2]</value>
+   </webElementXpaths>
+</WebElementEntity>

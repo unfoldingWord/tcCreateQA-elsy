@@ -1,0 +1,48 @@
+1
+00:00:00,000 --> 00:00:00,000
+5. println(testCaseContext.getTestCaseVariables())
+
+2
+00:00:00,000 --> 00:00:00,000
+1. com.tccreate.keywords.WriteToFile.writeTofilename("tA-Add or delete row")
+
+3
+00:00:00,000 --> 00:00:00,000
+5. com.helper.login.TimeDate.getTimeDate()
+
+4
+00:00:00,000 --> 00:00:00,000
+9. com.helper.login.loginhelper.logintoapp()
+
+5
+00:00:00,000 --> 00:00:00,000
+13. com.tccreate.keywords.selectOrg.organization("")
+
+6
+00:00:00,000 --> 00:00:00,000
+17. com.tccreate.keywords.selectOrg.resource("unfoldingWord® Translation Notes")
+
+7
+00:00:00,000 --> 00:00:00,000
+21. com.tccreate.keywords.selectOrg.language("")
+
+8
+00:00:00,000 --> 00:00:00,000
+25. click(findTestObject("Page_tC Create/Add new resource objects/span_en_tn_57-TIT.tsv"))
+
+9
+00:00:00,000 --> 00:00:00,000
+29. click(findTestObject("Object Repository/tN objects/button_view columns"))
+
+10
+00:00:00,000 --> 00:00:00,000
+33. click(findTestObject("Object Repository/tN objects/input_ID"))
+
+11
+00:00:00,000 --> 00:00:00,000
+37. click(findTestObject("tN objects/button__Close-Columns"))
+
+12
+00:00:00,000 --> 00:00:00,000
+41. scrollToElement(findTestObject("Object Repository/tN objects/div_Titus 11"), 2)
+

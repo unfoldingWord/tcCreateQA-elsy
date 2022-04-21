@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>English Source side-Master</name>
+   <tag></tag>
+   <elementGuidId>c6b81a60-5f6e-4231-9dd7-670694ab81b2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='Workspace-Container']/div/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.MuiButtonBase-root.MuiChip-root.jss53.MuiChip-outlined.MuiChip-clickable.MuiChip-deletable</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiButtonBase-root MuiChip-root jss53 MuiChip-outlined MuiChip-clickable MuiChip-deletable</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>English - unfoldingWord/en_tn/master</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Workspace-Container&quot;)/div[@class=&quot;jss50&quot;]/div[@class=&quot;MuiGrid-root jss52 MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-wrap-xs-nowrap&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12&quot;]/div[@class=&quot;MuiButtonBase-root MuiChip-root jss53 MuiChip-outlined MuiChip-clickable MuiChip-deletable&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='Workspace-Container']/div/div/div/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='en_tn'])[1]/following::div[7]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='en_tn_57-TIT.tsv'])[1]/following::div[11]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='English - unfoldingWord/en_tn/ElsyLambert-tc-create-1'])[1]/preceding::div[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div</value>
+   </webElementXpaths>
+</WebElementEntity>

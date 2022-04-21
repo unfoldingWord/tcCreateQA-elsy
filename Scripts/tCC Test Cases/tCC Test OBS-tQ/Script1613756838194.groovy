@@ -30,11 +30,7 @@ CustomKeywords.'com.tccreate.keywords.selectOrg.resource'('unfoldingWord® Open 
 CustomKeywords.'com.tccreate.keywords.selectOrg.language'("")
 
 
-WebUI.click(findTestObject('Object Repository/OBS-tn/div_content'))
-
-WebUI.click(findTestObject('Object Repository/OBS-tn/span_02'))
-
-WebUI.click(findTestObject('Object Repository/OBS-tn/span_01.md'))
+WebUI.click(findTestObject('obs-tq/tq_OBS.tsv'))
 
 WebUI.click(findTestObject('Object Repository/obs-tq/div_question edit box'))
 

@@ -6,11 +6,11 @@
    <elementGuidId>58ce8a71-5579-4f07-a2f8-67f59585b1d3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='wrapY']/table/thead/tr/th[3]/span</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div/div[2]/div/div[2]/div/div[3]/table/tbody/tr[3]/td[1]/div/div/div/div/div[2]/table/thead/tr/th[3]/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

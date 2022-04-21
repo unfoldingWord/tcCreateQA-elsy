@@ -6,12 +6,12 @@
    <elementGuidId>e1fe2ded-069f-439f-96dd-756728419fd9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>id(&quot;App-header&quot;)/div[@class=&quot;headroom-wrapper&quot;]/div[@class=&quot;headroom headroom--unfixed headroom-disable-animation&quot;]/div[@class=&quot;jss1&quot;]/header[@class=&quot;MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary jss4 MuiPaper-elevation4&quot;]/div[@class=&quot;MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters&quot;]/h6[@class=&quot;MuiTypography-root jss2 MuiTypography-h6 MuiTypography-colorInherit MuiTypography-noWrap&quot;][count(. | //*[@class = 'MuiTypography-root jss2 MuiTypography-h6 MuiTypography-colorInherit MuiTypography-noWrap']) = count(//*[@class = 'MuiTypography-root jss2 MuiTypography-h6 MuiTypography-colorInherit MuiTypography-noWrap'])]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>h6.MuiTypography-root.jss2.MuiTypography-h6.MuiTypography-colorInherit.MuiTypography-noWrap</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'MuiTypography-root jss2 MuiTypography-h6 MuiTypography-colorInherit MuiTypography-noWrap']</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -42,7 +42,7 @@
       <value>translationCore Create - v1.0.3</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

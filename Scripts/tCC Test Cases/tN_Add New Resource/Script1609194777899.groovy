@@ -31,7 +31,7 @@ CustomKeywords.'com.tccreate.keywords.selectOrg.organization'('')
 CustomKeywords.'com.tccreate.keywords.selectOrg.resource'('unfoldingWord® Translation Notes')
 CustomKeywords.'com.tccreate.keywords.selectOrg.language'("")
 
-
+WebUI.scrollToElement(findTestObject('Page_tC Create/Add new resource objects/span_en_tn_57-TIT.tsv'), 1)
 WebUI.click(findTestObject('Page_tC Create/Add new resource objects/span_en_tn_57-TIT.tsv'))
 
 //Add steps to validate if PSV is on

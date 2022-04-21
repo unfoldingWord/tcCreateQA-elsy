@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>tCC Test App Crashes</name>
+   <tag>Issues 365, 428, 440, 463, 639, 914</tag>
+   <comment></comment>
+   <testCaseGuid>54a97535-ea69-4d04-bf80-d7fe81abe883</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>416d5b60-981d-4959-916f-c9b2aa07e1f8</id>
+      <masked>false</masked>
+      <name>$username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e3f878cb-cc30-45e2-955d-8fbc59b08e39</id>
+      <masked>false</masked>
+      <name>$password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>not used except in Archives</description>
+      <id>8df9d24e-f47a-4d14-b743-e77a11203ca4</id>
+      <masked>false</masked>
+      <name>$origQuote</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>not used except in Archives</description>
+      <id>489f32e6-b676-49a3-9874-bdb1f2cf6635</id>
+      <masked>false</masked>
+      <name>$newOrigQuote</name>
+   </variable>
+</TestCaseEntity>

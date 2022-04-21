@@ -28,7 +28,8 @@ CustomKeywords.'com.tccreate.keywords.selectOrg.organization'('')
 CustomKeywords.'com.tccreate.keywords.selectOrg.resource'('unfoldingWord® Translation Notes')
 CustomKeywords.'com.tccreate.keywords.selectOrg.language'("")
 
-
+WebUI.delay(2)
+WebUI.scrollToElement(findTestObject('Object Repository/Page_tC Create/span_en_tn_57-TIT.tsv'), 1)
 WebUI.click(findTestObject('Object Repository/Page_tC Create/span_en_tn_57-TIT.tsv'))
 
 //Scrolls to top for the hamburger to be visible
@@ -38,31 +39,38 @@ CustomKeywords.'com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScriptur
 //turn the toggle On if it is not
 CustomKeywords.'com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScripture'('"on"')
 
+//WebUI.scrollToElement(findTestObject('Page_tC Create/span_unfoldingWord Literal Text v14'), 2)
 //Checks ULT in the scripture pane
-if (WebUI.verifyElementPresent(findTestObject('Page_tC Create/span_unfoldingWord Literal Text v14'), 5)) {
-    KeywordUtil.logInfo('ULT is visible 1')
-} else {
-   KeywordUtil.logInfo('Cannot find ULT in PSV')
+//WebUI.scrollToElement(findTestObject('Object Repository/Page_tC Create/Add new resource objects/Page_1648836637269/h6_Titus 11'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.scrollToPosition(100,1200, FailureHandling.CONTINUE_ON_FAILURE)
+
+//def row= ['Page_tC Create/span_unfoldingWord Literal Text v14','Page_tCC translationNotes/Page_tC Create/span_unfoldingWord Literal Text row 2' ]
+//for(def i:0..row.size -1) {
+if (WebUI.verifyElementPresent(findTestObject('Page_tC Create/span_unfoldingWord Literal Text v14'), 2)) {
+    KeywordUtil.logInfo('ULT is visible 1 ')
+} 
+else {
+   KeywordUtil.logInfo('Cannot find ULT in PSV in')
 }
 
 //Checks UST in the scripture pane
 if (WebUI.verifyElementPresent(findTestObject('Page_tC Create/span_unfoldingWord Simplified Text v14'), 5)) {
- KeywordUtil.logInfo('UST is visible')
+ KeywordUtil.logInfo('UST is visible in row 1')
 } else {
-    KeywordUtil.logInfo('Cannot find UST in PSV')
+    KeywordUtil.logInfo('Cannot find UST in PSV in row1')
 }
 
-KeywordUtil.logInfo('ParallelScripture is present')
+//KeywordUtil.logInfo('ParallelScripture is present')
 
 //turn toggle Off
 CustomKeywords.'com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScripture'('"off"')
 
 KeywordUtil.logInfo('button is toggled')
-
+WebUI.scrollToPosition(100,1200, FailureHandling.CONTINUE_ON_FAILURE)
 if (WebUI.verifyElementNotPresent(findTestObject('Page_tC Create/span_unfoldingWord Literal Text v14'), 3)) {
-    KeywordUtil.logInfo('ULT is not visible as expected')
+    KeywordUtil.logInfo('ULT is not visible in row 1 as expected')
 } else {
-   KeywordUtil.logInfo('PSV is visible when it should not be')
+   KeywordUtil.logInfo('PSV is visible in row 1 when it should not be')
 }
 
 WebUI.closeBrowser()

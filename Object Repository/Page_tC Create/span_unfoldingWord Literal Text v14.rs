@@ -6,11 +6,15 @@
    <elementGuidId>4daaf1c3-ebff-4ce6-9b1c-96893bbb04f0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='wrapY']/table/thead/tr/th[2]/span</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>BASIC</key>
+         <value>//*[(text() = 'unfoldingWord® Literal Text v14' or . = 'unfoldingWord® Literal Text v14')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div/div[2]/div/div[2]/div/div[3]/table/tbody/tr[3]/td[1]/div/div/div/div/div[2]/table/thead/tr/th[2]/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

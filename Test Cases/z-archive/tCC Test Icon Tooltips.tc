@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>tCC Test Icon Tooltips</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cc58f4ef-8689-4b08-bd95-7f4939fa47d0</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>11fed0b8-4155-47ed-952e-3496b9bdbe42</id>
+      <masked>false</masked>
+      <name>$username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a45b4263-f023-4856-a76c-4f573a1beaeb</id>
+      <masked>false</masked>
+      <name>$password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>not used except in Archives</description>
+      <id>d5cc6d09-94ae-45fe-95c5-0bd61c64de2f</id>
+      <masked>false</masked>
+      <name>$origQuote</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>not used except in Archives</description>
+      <id>89db451b-cf0b-4062-b0e8-5bde1473f047</id>
+      <masked>false</masked>
+      <name>$newOrigQuote</name>
+   </variable>
+</TestCaseEntity>

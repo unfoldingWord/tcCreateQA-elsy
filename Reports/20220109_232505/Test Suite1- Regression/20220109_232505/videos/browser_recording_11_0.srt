@@ -1,0 +1,53 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. com.tccreate.keywords.WriteToFile.writeTofilename("tA-buttons")
+
+2
+00:00:00,000 --> 00:00:00,000
+5. com.helper.login.TimeDate.getTimeDate()
+
+3
+00:00:00,000 --> 00:00:00,000
+9. com.helper.login.loginhelper.logintoapp()
+
+4
+00:00:00,000 --> 00:00:00,000
+13. com.tccreate.keywords.selectOrg.organization("")
+
+5
+00:00:00,000 --> 00:00:00,000
+17. com.tccreate.keywords.selectOrg.resource("unfoldingWord® Translation Academy")
+
+6
+00:00:00,000 --> 00:00:00,000
+21. com.tccreate.keywords.selectOrg.language("")
+
+7
+00:00:00,000 --> 00:00:00,000
+25. click(findTestObject("Page_tC Create/span_translate"))
+
+8
+00:00:00,000 --> 00:00:00,000
+29. click(findTestObject("Object Repository/Page_tC Create/span_bita-farming"))
+
+9
+00:00:00,000 --> 00:00:00,000
+33. click(findTestObject("Object Repository/Page_tC Create/span_01.md"))
+
+10
+00:00:00,000 --> 00:00:00,000
+37. click(findTestObject("Object Repository/tA/button_Sections"))
+
+11
+00:00:00,000 --> 00:00:00,000
+41. if (verifyElementNotPresent(findTestObject("Object Repository/tA/div_A FARMER represents God, collapse tab"), 2, CONTINUE_ON_FAILURE))
+
+12
+00:00:00,000 --> 00:00:00,000
+2. logInfo("Error: Section is nt expanded 
+")
+
+13
+00:00:00,000 --> 00:00:00,000
+45. if (getText(findTestObject("Object Repository/tA/p_My well section")).contains("My well beloved had a vineyard"))
+
