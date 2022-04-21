@@ -6,15 +6,15 @@
    <elementGuidId>12ac38f5-f207-4a36-836f-a12229c90541</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>(//tr[@id='1:1']/td/div/span[3])[4]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Θεοῦ' or . = 'Θεοῦ')]</value>
+         <value></value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//tr[@id='1:1']/td/div/span[3])[4]</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

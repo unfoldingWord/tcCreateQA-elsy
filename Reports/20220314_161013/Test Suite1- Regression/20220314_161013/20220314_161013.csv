@@ -1,0 +1,79 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite1- Regression,,,,2022-03-14 16:10:15,2022-03-14 16:10:18,2.418s,ERROR
+,,,,,,,
+Test Cases/tCC Test Cases/tN_Parallel Scripture viewer,,,#415,2022-03-14 16:10:15,2022-03-14 16:10:16,0.706s,ERROR
+Start listener action : sampleBeforeTestCase,,,,2022-03-14 16:10:15,2022-03-14 16:10:15,0.015s,PASSED
+"com.tccreate.keywords.WriteToFile.writeTofilename(""tN-Parallel Scripture Viewer"")",,,,2022-03-14 16:10:16,2022-03-14 16:10:16,0.144s,PASSED
+com.helper.login.TimeDate.getTimeDate(),,,,2022-03-14 16:10:16,2022-03-14 16:10:16,0.023s,PASSED
+com.helper.login.loginhelper.logintoapp(),,,,2022-03-14 16:10:16,2022-03-14 16:10:16,0.348s,ERROR
+Start listener action : sampleAfterTestCase,,,,2022-03-14 16:10:16,2022-03-14 16:10:16,0.003s,PASSED
+,,,,,,,
+Test Cases/tCC Test Cases/tCC_Link to Organization page,,,#338,2022-03-14 16:10:16,2022-03-14 16:10:16,0.139s,ERROR
+Start listener action : sampleBeforeTestCase,,,,2022-03-14 16:10:16,2022-03-14 16:10:16,0.002s,PASSED
+"com.tccreate.keywords.WriteToFile.writeTofilename(""Links to Org page"")",,,,2022-03-14 16:10:16,2022-03-14 16:10:16,0.003s,PASSED
+com.helper.login.TimeDate.getTimeDate(),,,,2022-03-14 16:10:16,2022-03-14 16:10:16,0.001s,PASSED
+com.helper.login.loginhelper.logintoapp(),,,,2022-03-14 16:10:16,2022-03-14 16:10:16,0.003s,ERROR
+Start listener action : sampleAfterTestCase,,,,2022-03-14 16:10:16,2022-03-14 16:10:16,0.001s,PASSED
+,,,,,,,
+Test Cases/tCC Test Cases/tN_undo text in tN Editor,,,,2022-03-14 16:10:16,2022-03-14 16:10:16,0.176s,ERROR
+Start listener action : sampleBeforeTestCase,,,,2022-03-14 16:10:16,2022-03-14 16:10:16,0.003s,PASSED
+"com.tccreate.keywords.WriteToFile.writeTofilename(""tN-undo editing"")",,,,2022-03-14 16:10:16,2022-03-14 16:10:16,0.003s,PASSED
+com.helper.login.TimeDate.getTimeDate(),,,,2022-03-14 16:10:16,2022-03-14 16:10:16,0.001s,PASSED
+com.helper.login.loginhelper.logintoapp(),,,,2022-03-14 16:10:16,2022-03-14 16:10:16,0.003s,ERROR
+Start listener action : sampleAfterTestCase,,,,2022-03-14 16:10:16,2022-03-14 16:10:16,0.002s,PASSED
+,,,,,,,
+Test Cases/tCC Test Cases/tN_Add or Delete a Row,,,,2022-03-14 16:10:16,2022-03-14 16:10:17,0.136s,ERROR
+Start listener action : sampleBeforeTestCase,,,,2022-03-14 16:10:16,2022-03-14 16:10:16,0.001s,PASSED
+"com.tccreate.keywords.WriteToFile.writeTofilename(""tA-Add or delete row"")",,,,2022-03-14 16:10:17,2022-03-14 16:10:17,0.002s,PASSED
+com.helper.login.TimeDate.getTimeDate(),,,,2022-03-14 16:10:17,2022-03-14 16:10:17,0.002s,PASSED
+com.helper.login.loginhelper.logintoapp(),,,,2022-03-14 16:10:17,2022-03-14 16:10:17,0.003s,ERROR
+Start listener action : sampleAfterTestCase,,,,2022-03-14 16:10:17,2022-03-14 16:10:17,0.002s,PASSED
+,,,,,,,
+Test Cases/tCC Test Cases/tN_Expand chapter,,,,2022-03-14 16:10:17,2022-03-14 16:10:17,0.193s,ERROR
+Start listener action : sampleBeforeTestCase,,,,2022-03-14 16:10:17,2022-03-14 16:10:17,0.001s,PASSED
+"com.tccreate.keywords.WriteToFile.writeTofilename(""tN-Expand chapter"")",,,,2022-03-14 16:10:17,2022-03-14 16:10:17,0.001s,PASSED
+com.helper.login.TimeDate.getTimeDate(),,,,2022-03-14 16:10:17,2022-03-14 16:10:17,0.002s,PASSED
+com.helper.login.loginhelper.logintoapp(),,,,2022-03-14 16:10:17,2022-03-14 16:10:17,0.002s,ERROR
+Start listener action : sampleAfterTestCase,,,,2022-03-14 16:10:17,2022-03-14 16:10:17,0.002s,PASSED
+,,,,,,,
+Test Cases/tCC Test Cases/tN_Highlighting by Occurrence Number,,,"rcl-#47, tcc-app-#94",2022-03-14 16:10:17,2022-03-14 16:10:17,0.185s,ERROR
+Start listener action : sampleBeforeTestCase,,,,2022-03-14 16:10:17,2022-03-14 16:10:17,0.001s,PASSED
+"com.tccreate.keywords.WriteToFile.writeTofilename(""tN-Highlighting by occurrence number"")",,,,2022-03-14 16:10:17,2022-03-14 16:10:17,0.002s,PASSED
+com.helper.login.TimeDate.getTimeDate(),,,,2022-03-14 16:10:17,2022-03-14 16:10:17,0.001s,PASSED
+com.helper.login.loginhelper.logintoapp(),,,,2022-03-14 16:10:17,2022-03-14 16:10:17,0.003s,ERROR
+Start listener action : sampleAfterTestCase,,,,2022-03-14 16:10:17,2022-03-14 16:10:17,0.002s,PASSED
+,,,,,,,
+Test Cases/tCC Test Cases/tW_Saving tW Article,,,,2022-03-14 16:10:17,2022-03-14 16:10:17,0.147s,ERROR
+Start listener action : sampleBeforeTestCase,,,,2022-03-14 16:10:17,2022-03-14 16:10:17,0.001s,PASSED
+"com.tccreate.keywords.WriteToFile.writeTofilename(""tW-Save"")",,,,2022-03-14 16:10:17,2022-03-14 16:10:17,0.001s,PASSED
+com.helper.login.TimeDate.getTimeDate(),,,,2022-03-14 16:10:17,2022-03-14 16:10:17,0.001s,PASSED
+com.helper.login.loginhelper.logintoapp(),,,,2022-03-14 16:10:17,2022-03-14 16:10:17,0.003s,ERROR
+Start listener action : sampleAfterTestCase,,,,2022-03-14 16:10:17,2022-03-14 16:10:17,0.002s,PASSED
+,,,,,,,
+Test Cases/tCC Test Cases/tA_Saving tA Article,,,,2022-03-14 16:10:17,2022-03-14 16:10:17,0.134s,ERROR
+Start listener action : sampleBeforeTestCase,,,,2022-03-14 16:10:17,2022-03-14 16:10:17,0.001s,PASSED
+"com.tccreate.keywords.WriteToFile.writeTofilename(""tA-Save"")",,,,2022-03-14 16:10:17,2022-03-14 16:10:17,0.001s,PASSED
+com.helper.login.TimeDate.getTimeDate(),,,,2022-03-14 16:10:17,2022-03-14 16:10:17,0.001s,PASSED
+com.helper.login.loginhelper.logintoapp(),,,,2022-03-14 16:10:17,2022-03-14 16:10:17,0.003s,ERROR
+Start listener action : sampleAfterTestCase,,,,2022-03-14 16:10:17,2022-03-14 16:10:17,0.001s,PASSED
+,,,,,,,
+Test Cases/tCC Test Cases/tN_Add New Resource,,,#322,2022-03-14 16:10:17,2022-03-14 16:10:17,0.167s,ERROR
+Start listener action : sampleBeforeTestCase,,,,2022-03-14 16:10:17,2022-03-14 16:10:17,0.002s,PASSED
+"com.tccreate.keywords.WriteToFile.writeTofilename(""tN-Add new resource"")",,,,2022-03-14 16:10:17,2022-03-14 16:10:17,0.002s,PASSED
+com.helper.login.TimeDate.getTimeDate(),,,,2022-03-14 16:10:17,2022-03-14 16:10:17,0.001s,PASSED
+com.helper.login.loginhelper.logintoapp(),,,,2022-03-14 16:10:17,2022-03-14 16:10:17,0.002s,ERROR
+Start listener action : sampleAfterTestCase,,,,2022-03-14 16:10:17,2022-03-14 16:10:17,0.001s,PASSED
+,,,,,,,
+Test Cases/tCC Test Cases/tN_Tool Tips,,,,2022-03-14 16:10:17,2022-03-14 16:10:17,0.133s,ERROR
+Start listener action : sampleBeforeTestCase,,,,2022-03-14 16:10:17,2022-03-14 16:10:17,0.001s,PASSED
+"com.tccreate.keywords.WriteToFile.writeTofilename(""tN-ToolTips"")",,,,2022-03-14 16:10:17,2022-03-14 16:10:17,0.001s,PASSED
+com.helper.login.TimeDate.getTimeDate(),,,,2022-03-14 16:10:17,2022-03-14 16:10:17,0.001s,PASSED
+com.helper.login.loginhelper.logintoapp(),,,,2022-03-14 16:10:17,2022-03-14 16:10:17,0.002s,ERROR
+Start listener action : sampleAfterTestCase,,,,2022-03-14 16:10:17,2022-03-14 16:10:17,0.001s,PASSED
+,,,,,,,
+Test Cases/tCC Test Cases/tA buttons funtions,,,,2022-03-14 16:10:17,2022-03-14 16:10:18,0.124s,ERROR
+Start listener action : sampleBeforeTestCase,,,,2022-03-14 16:10:17,2022-03-14 16:10:17,0.000s,PASSED
+"com.tccreate.keywords.WriteToFile.writeTofilename(""tA-buttons"")",,,,2022-03-14 16:10:18,2022-03-14 16:10:18,0.001s,PASSED
+com.helper.login.TimeDate.getTimeDate(),,,,2022-03-14 16:10:18,2022-03-14 16:10:18,0.001s,PASSED
+com.helper.login.loginhelper.logintoapp(),,,,2022-03-14 16:10:18,2022-03-14 16:10:18,0.001s,ERROR
+Start listener action : sampleAfterTestCase,,,,2022-03-14 16:10:18,2022-03-14 16:10:18,0.001s,PASSED

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>tCC tN Test Copy OrigLangQuote - Sikulix</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a4d8ecce-b68d-46ab-ba09-9ba3397e48d9</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>153e3728-78b4-44a3-8ad5-5370b6fc9bda</id>
+      <masked>false</masked>
+      <name>$username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a44ceefb-8bc0-4147-8bf4-4e0c5936b006</id>
+      <masked>false</masked>
+      <name>$password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>not used except in Archives</description>
+      <id>5024fee9-7b23-4c5d-be92-bdda572132f9</id>
+      <masked>false</masked>
+      <name>$origQuote</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>not used except in Archives</description>
+      <id>d081adc8-3546-44cc-8ee9-68296960be7e</id>
+      <masked>false</masked>
+      <name>$newOrigQuote</name>
+   </variable>
+</TestCaseEntity>

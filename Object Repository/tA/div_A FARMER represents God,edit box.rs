@@ -6,19 +6,19 @@
    <elementGuidId>ae027b88-c19d-4a8d-8f67-aa5402eed8bb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@contenteditable = 'true' and (text() = 'A FARMER represents God, and the VINEYARD represents his chosen people' or . = 'A FARMER represents God, and the VINEYARD represents his chosen people')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.MuiCollapse-container.MuiCollapse-entered > div.MuiCollapse-wrapper > div.MuiCollapse-wrapperInner > div > div.MuiExpansionPanelDetails-root.jss60 > div.MuiGrid-root.jss62.MuiGrid-container.MuiGrid-wrap-xs-nowrap > div.MuiGrid-root.jss64.MuiGrid-item.MuiGrid-grid-xs-12 > div.jss65 > div.jss66</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='translatableComponent']/div/div[2]/div[2]/div[2]/div/div/div/div/div/div[2]/div/div</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

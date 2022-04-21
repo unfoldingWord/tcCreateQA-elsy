@@ -1,0 +1,443 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite1- Regression,Chrome 93.0.4577.63,,,2021-09-07 13:44:30,2021-09-07 13:56:55,12m - 25.627s,FAILED
+,,,,,,,
+Test Cases/tCC Test Cases/tN_Parallel Scripture viewer,Chrome 93.0.4577.63,,#415,2021-09-07 13:44:30,2021-09-07 13:45:31,1m - 0.757s,PASSED
+"com.tccreate.keywords.WriteToFile.writeTofilename(""tN-Parallel Scripture Viewer"")",Chrome 93.0.4577.63,,,2021-09-07 13:44:30,2021-09-07 13:44:30,0.113s,PASSED
+com.helper.login.TimeDate.getTimeDate(),Chrome 93.0.4577.63,,,2021-09-07 13:44:30,2021-09-07 13:44:30,0.028s,PASSED
+com.helper.login.loginhelper.logintoapp(),Chrome 93.0.4577.63,,,2021-09-07 13:44:30,2021-09-07 13:44:46,15.227s,PASSED
+"com.tccreate.keywords.selectOrg.organization("""")",Chrome 93.0.4577.63,,,2021-09-07 13:44:46,2021-09-07 13:44:49,3.894s,PASSED
+"com.tccreate.keywords.selectOrg.resource(""unfoldingWord® Translation Notes"")",Chrome 93.0.4577.63,,,2021-09-07 13:44:49,2021-09-07 13:44:51,1.375s,PASSED
+"com.tccreate.keywords.selectOrg.language("""")",Chrome 93.0.4577.63,,,2021-09-07 13:44:51,2021-09-07 13:44:54,3.121s,PASSED
+"click(findTestObject(""Object Repository/Page_tC Create/span_en_tn_57-TIT.tsv""))",Chrome 93.0.4577.63,,,2021-09-07 13:44:54,2021-09-07 13:44:56,1.852s,PASSED
+"com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScripture(""""test"""")",Chrome 93.0.4577.63,,,2021-09-07 13:44:56,2021-09-07 13:45:07,11.138s,PASSED
+"com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScripture(""""on"""")",Chrome 93.0.4577.63,,,2021-09-07 13:45:07,2021-09-07 13:45:19,11.906s,PASSED
+"if (verifyElementPresent(findTestObject(""Page_tC Create/span_unfoldingWord Literal Text v14""), 5))",Chrome 93.0.4577.63,,,2021-09-07 13:45:19,2021-09-07 13:45:19,0.378s,PASSED
+"if (verifyElementPresent(findTestObject(""Page_tC Create/span_unfoldingWord Simplified Text v14""), 5))",Chrome 93.0.4577.63,,,2021-09-07 13:45:19,2021-09-07 13:45:20,0.376s,PASSED
+"logInfo(""ParallelScripture is present"")",Chrome 93.0.4577.63,,,2021-09-07 13:45:20,2021-09-07 13:45:20,0.001s,PASSED
+"com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScripture(""""off"""")",Chrome 93.0.4577.63,,,2021-09-07 13:45:20,2021-09-07 13:45:30,10.618s,PASSED
+"logInfo(""button is toggled"")",Chrome 93.0.4577.63,,,2021-09-07 13:45:30,2021-09-07 13:45:30,0.001s,PASSED
+"if (verifyElementNotPresent(findTestObject(""Page_tC Create/span_unfoldingWord Literal Text v14""), 3))",Chrome 93.0.4577.63,,,2021-09-07 13:45:30,2021-09-07 13:45:31,0.381s,PASSED
+closeBrowser(),Chrome 93.0.4577.63,,,2021-09-07 13:45:31,2021-09-07 13:45:31,0.099s,PASSED
+,,,,,,,
+Test Cases/tCC Test Cases/tCC_Link to Organization page,Chrome 93.0.4577.63,,#338,2021-09-07 13:45:31,2021-09-07 13:45:49,18.115s,PASSED
+"com.tccreate.keywords.WriteToFile.writeTofilename(""Links to Org page"")",Chrome 93.0.4577.63,,,2021-09-07 13:45:31,2021-09-07 13:45:31,0.001s,PASSED
+com.helper.login.TimeDate.getTimeDate(),Chrome 93.0.4577.63,,,2021-09-07 13:45:31,2021-09-07 13:45:31,0.001s,PASSED
+com.helper.login.loginhelper.logintoapp(),Chrome 93.0.4577.63,,,2021-09-07 13:45:31,2021-09-07 13:45:45,14.078s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Organization Link/span_unfoldingWord""), 1)",Chrome 93.0.4577.63,,,2021-09-07 13:45:45,2021-09-07 13:45:46,0.663s,PASSED
+"expectedTooltip = ""Go to Organization""",Chrome 93.0.4577.63,,,2021-09-07 13:45:46,2021-09-07 13:45:46,0.000s,PASSED
+"actualTooltip = getAttribute(findTestObject(""Object Repository/Organization Link/button_unfoldingWord_MuiButtonBase-root MuiIconButton-root""), ""title"")",Chrome 93.0.4577.63,,,2021-09-07 13:45:46,2021-09-07 13:45:46,0.267s,PASSED
+"out.println(""Actual Title of Tool Tip"" + actualTooltip)",Chrome 93.0.4577.63,,,2021-09-07 13:45:46,2021-09-07 13:45:46,0.008s,PASSED
+if (actualTooltip.equals(expectedTooltip)),Chrome 93.0.4577.63,,,2021-09-07 13:45:46,2021-09-07 13:45:46,0.001s,PASSED
+"click(findTestObject(""Object Repository/Organization Link/button_unfoldingWord_MuiButtonBase-root MuiIconButton-root""))",Chrome 93.0.4577.63,,,2021-09-07 13:45:46,2021-09-07 13:45:47,1.306s,PASSED
+switchToWindowIndex(1),Chrome 93.0.4577.63,,,2021-09-07 13:45:47,2021-09-07 13:45:47,0.014s,PASSED
+"if (verifyElementVisible(findTestObject(""Object Repository/Organization Link/div_unfoldingWord""), CONTINUE_ON_FAILURE))",Chrome 93.0.4577.63,,,2021-09-07 13:45:47,2021-09-07 13:45:49,1.535s,PASSED
+switchToWindowIndex(0),Chrome 93.0.4577.63,,,2021-09-07 13:45:49,2021-09-07 13:45:49,0.016s,PASSED
+closeBrowser(),Chrome 93.0.4577.63,,,2021-09-07 13:45:49,2021-09-07 13:45:49,0.090s,PASSED
+,,,,,,,
+Test Cases/tCC Test Cases/tN_undo text in tN Editor,Chrome 93.0.4577.63,,,2021-09-07 13:45:49,2021-09-07 13:46:18,29.506s,PASSED
+"com.tccreate.keywords.WriteToFile.writeTofilename(""tN-undo editing"")",Chrome 93.0.4577.63,,,2021-09-07 13:45:49,2021-09-07 13:45:49,0.001s,PASSED
+com.helper.login.TimeDate.getTimeDate(),Chrome 93.0.4577.63,,,2021-09-07 13:45:49,2021-09-07 13:45:49,0.001s,PASSED
+com.helper.login.loginhelper.logintoapp(),Chrome 93.0.4577.63,,,2021-09-07 13:45:49,2021-09-07 13:46:00,11.430s,PASSED
+"com.tccreate.keywords.selectOrg.organization("""")",Chrome 93.0.4577.63,,,2021-09-07 13:46:00,2021-09-07 13:46:04,3.429s,PASSED
+"com.tccreate.keywords.selectOrg.resource(""unfoldingWord® Translation Notes"")",Chrome 93.0.4577.63,,,2021-09-07 13:46:04,2021-09-07 13:46:05,1.463s,PASSED
+"com.tccreate.keywords.selectOrg.language("""")",Chrome 93.0.4577.63,,,2021-09-07 13:46:05,2021-09-07 13:46:08,3.094s,PASSED
+"click(findTestObject(""Object Repository/Page_tC Create/span_en_tn_57-TIT.tsv""))",Chrome 93.0.4577.63,,,2021-09-07 13:46:08,2021-09-07 13:46:10,1.891s,PASSED
+"click(findTestObject(""Object Repository/Page_tC Create/div_Introduction to TitusPart 1""))",Chrome 93.0.4577.63,,,2021-09-07 13:46:10,2021-09-07 13:46:15,4.807s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_tC Create/div_Introduction to TitusPart 1""), ""edit again "")",Chrome 93.0.4577.63,,,2021-09-07 13:46:15,2021-09-07 13:46:17,1.584s,PASSED
+driver = getWebDriver(),Chrome 93.0.4577.63,,,2021-09-07 13:46:17,2021-09-07 13:46:17,0.000s,PASSED
+action = new org.openqa.selenium.interactions.Actions(driver),Chrome 93.0.4577.63,,,2021-09-07 13:46:17,2021-09-07 13:46:17,0.005s,PASSED
+keyUp(COMMAND).perform(),Chrome 93.0.4577.63,,,2021-09-07 13:46:17,2021-09-07 13:46:17,0.018s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_tC Create/div_Introduction to TitusPart 1""), Keys.chord(COMMAND, ""z""))",Chrome 93.0.4577.63,,,2021-09-07 13:46:17,2021-09-07 13:46:18,1.499s,PASSED
+"logInfo(""Text is cleared successfully by undo action"")",Chrome 93.0.4577.63,,,2021-09-07 13:46:18,2021-09-07 13:46:18,0.001s,PASSED
+closeBrowser(),Chrome 93.0.4577.63,,,2021-09-07 13:46:18,2021-09-07 13:46:18,0.094s,PASSED
+,,,,,,,
+Test Cases/tCC Test Cases/tN_Add or Delete a Row,Chrome 93.0.4577.63,,,2021-09-07 13:46:18,2021-09-07 13:46:57,38.835s,PASSED
+"com.tccreate.keywords.WriteToFile.writeTofilename(""tA-Add or delete row"")",Chrome 93.0.4577.63,,,2021-09-07 13:46:19,2021-09-07 13:46:19,0.001s,PASSED
+com.helper.login.TimeDate.getTimeDate(),Chrome 93.0.4577.63,,,2021-09-07 13:46:19,2021-09-07 13:46:19,0.002s,PASSED
+com.helper.login.loginhelper.logintoapp(),Chrome 93.0.4577.63,,,2021-09-07 13:46:19,2021-09-07 13:46:29,10.902s,PASSED
+"com.tccreate.keywords.selectOrg.organization("""")",Chrome 93.0.4577.63,,,2021-09-07 13:46:29,2021-09-07 13:46:33,3.782s,PASSED
+"com.tccreate.keywords.selectOrg.resource(""unfoldingWord® Translation Notes"")",Chrome 93.0.4577.63,,,2021-09-07 13:46:33,2021-09-07 13:46:35,1.365s,PASSED
+"com.tccreate.keywords.selectOrg.language("""")",Chrome 93.0.4577.63,,,2021-09-07 13:46:35,2021-09-07 13:46:38,3.088s,PASSED
+"click(findTestObject(""Page_tC Create/Add new resource objects/span_en_tn_57-TIT.tsv""))",Chrome 93.0.4577.63,,,2021-09-07 13:46:38,2021-09-07 13:46:40,1.869s,PASSED
+"click(findTestObject(""Object Repository/tN objects/button_view columns""))",Chrome 93.0.4577.63,,,2021-09-07 13:46:40,2021-09-07 13:46:45,5.598s,PASSED
+"click(findTestObject(""Object Repository/tN objects/input_ID""))",Chrome 93.0.4577.63,,,2021-09-07 13:46:45,2021-09-07 13:46:47,1.619s,PASSED
+"click(findTestObject(""tN objects/button__Close-Columns""))",Chrome 93.0.4577.63,,,2021-09-07 13:46:47,2021-09-07 13:46:48,1.409s,PASSED
+"scrollToElement(findTestObject(""Object Repository/tN objects/div_Titus 11""), 2)",Chrome 93.0.4577.63,,,2021-09-07 13:46:48,2021-09-07 13:46:49,0.888s,PASSED
+"click(findTestObject(""Object Repository/tN objects/button_Titus 11_add a new row""))",Chrome 93.0.4577.63,,,2021-09-07 13:46:49,2021-09-07 13:46:51,1.741s,PASSED
+"click(findTestObject(""Object Repository/tN objects/button_Add""))",Chrome 93.0.4577.63,,,2021-09-07 13:46:51,2021-09-07 13:46:53,2.063s,PASSED
+"if (verifyElementVisible(findTestObject(""Object Repository/tN objects/p_empty"")))",Chrome 93.0.4577.63,,,2021-09-07 13:46:53,2021-09-07 13:46:53,0.480s,PASSED
+"click(findTestObject(""Object Repository/tN objects/button_Titus 11_Delete new row""))",Chrome 93.0.4577.63,,,2021-09-07 13:46:53,2021-09-07 13:46:55,1.317s,PASSED
+"click(findTestObject(""Object Repository/tN objects/span_Delete""))",Chrome 93.0.4577.63,,,2021-09-07 13:46:55,2021-09-07 13:46:57,1.985s,PASSED
+"if (verifyElementVisible(findTestObject(""Object Repository/tN objects/p_empty"")))",Chrome 93.0.4577.63,,,2021-09-07 13:46:57,2021-09-07 13:46:57,0.473s,PASSED
+closeBrowser(),Chrome 93.0.4577.63,,,2021-09-07 13:46:57,2021-09-07 13:46:57,0.091s,PASSED
+,,,,,,,
+Test Cases/tCC Test Cases/tN_Expand chapter,Chrome 93.0.4577.63,,,2021-09-07 13:46:57,2021-09-07 13:48:12,1m - 14.348s,PASSED
+"com.tccreate.keywords.WriteToFile.writeTofilename(""tN-Expand chapter"")",Chrome 93.0.4577.63,,,2021-09-07 13:46:57,2021-09-07 13:46:57,0.001s,PASSED
+com.helper.login.TimeDate.getTimeDate(),Chrome 93.0.4577.63,,,2021-09-07 13:46:57,2021-09-07 13:46:57,0.001s,PASSED
+com.helper.login.loginhelper.logintoapp(),Chrome 93.0.4577.63,,,2021-09-07 13:46:57,2021-09-07 13:47:08,10.508s,PASSED
+"com.tccreate.keywords.selectOrg.organization("""")",Chrome 93.0.4577.63,,,2021-09-07 13:47:08,2021-09-07 13:47:12,3.728s,PASSED
+"com.tccreate.keywords.selectOrg.resource(""unfoldingWord® Translation Notes"")",Chrome 93.0.4577.63,,,2021-09-07 13:47:12,2021-09-07 13:47:13,1.470s,PASSED
+"com.tccreate.keywords.selectOrg.language("""")",Chrome 93.0.4577.63,,,2021-09-07 13:47:13,2021-09-07 13:47:16,3.086s,PASSED
+"click(findTestObject(""Page_tC Create/Add new resource objects/span_en_tn_57-TIT.tsv""))",Chrome 93.0.4577.63,,,2021-09-07 13:47:16,2021-09-07 13:47:18,1.971s,PASSED
+"buttonstate = com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScripture(""test"")",Chrome 93.0.4577.63,,,2021-09-07 13:47:18,2021-09-07 13:47:27,8.377s,PASSED
+"out.println("" the state of the button is"" + buttonstate)",Chrome 93.0.4577.63,,,2021-09-07 13:47:27,2021-09-07 13:47:27,0.000s,PASSED
+delay(1),Chrome 93.0.4577.63,,,2021-09-07 13:47:27,2021-09-07 13:47:28,1.004s,PASSED
+"if (buttonstate == ""off"")",Chrome 93.0.4577.63,,,2021-09-07 13:47:28,2021-09-07 13:47:28,0.000s,PASSED
+else,Chrome 93.0.4577.63,,,2021-09-07 13:47:28,2021-09-07 13:47:28,0.002s,PASSED
+"scrollToElement(findTestObject(""Page_tC Create/Add new resource objects/h6_TIT 1intro""), 2, CONTINUE_ON_FAILURE)",Chrome 93.0.4577.63,,,2021-09-07 13:47:28,2021-09-07 13:47:28,0.275s,PASSED
+"click(findTestObject(""Object Repository/tN objects/button_Titus 11_Expand chapter button""))",Chrome 93.0.4577.63,,,2021-09-07 13:47:28,2021-09-07 13:47:29,1.425s,PASSED
+"mouseOver(findTestObject(""Object Repository/tN objects/td_12""))",Chrome 93.0.4577.63,,,2021-09-07 13:47:29,2021-09-07 13:47:30,1.070s,PASSED
+"click(findTestObject(""Object Repository/tN objects/td_12""))",Chrome 93.0.4577.63,,,2021-09-07 13:47:30,2021-09-07 13:47:32,1.432s,PASSED
+for (int i : (1..19)),Chrome 93.0.4577.63,,,2021-09-07 13:47:32,2021-09-07 13:48:03,31.069s,PASSED
+"if (verifyElementVisible(findTestObject(""Object Repository/tN objects/sup_315"")))",Chrome 93.0.4577.63,,,2021-09-07 13:48:03,2021-09-07 13:48:03,0.580s,PASSED
+delay(3),Chrome 93.0.4577.63,,,2021-09-07 13:48:03,2021-09-07 13:48:06,3.003s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(PAGE_UP))",Chrome 93.0.4577.63,,,2021-09-07 13:48:06,2021-09-07 13:48:08,1.377s,PASSED
+"click(findTestObject(""Object Repository/tN objects/button_Titus 11_collapse-chapter""))",Chrome 93.0.4577.63,,,2021-09-07 13:48:08,2021-09-07 13:48:09,1.380s,PASSED
+delay(2),Chrome 93.0.4577.63,,,2021-09-07 13:48:09,2021-09-07 13:48:11,2.005s,PASSED
+"if (verifyElementNotPresent(findTestObject(""Object Repository/tN objects/sup_315""), 2, CONTINUE_ON_FAILURE))",Chrome 93.0.4577.63,,,2021-09-07 13:48:11,2021-09-07 13:48:11,0.262s,PASSED
+closeBrowser(),Chrome 93.0.4577.63,,,2021-09-07 13:48:11,2021-09-07 13:48:12,0.127s,PASSED
+,,,,,,,
+Test Cases/tCC Test Cases/tN_Highlighting by Occurrence Number,Chrome 93.0.4577.63,,"rcl-#47, tcc-app-#94",2021-09-07 13:48:12,2021-09-07 13:49:14,1m - 2.419s,PASSED
+"com.tccreate.keywords.WriteToFile.writeTofilename(""tN-Highlighting by occurrence number"")",Chrome 93.0.4577.63,,,2021-09-07 13:48:12,2021-09-07 13:48:12,0.001s,PASSED
+com.helper.login.TimeDate.getTimeDate(),Chrome 93.0.4577.63,,,2021-09-07 13:48:12,2021-09-07 13:48:12,0.002s,PASSED
+com.helper.login.loginhelper.logintoapp(),Chrome 93.0.4577.63,,,2021-09-07 13:48:12,2021-09-07 13:48:26,13.997s,PASSED
+"com.tccreate.keywords.selectOrg.organization("""")",Chrome 93.0.4577.63,,,2021-09-07 13:48:26,2021-09-07 13:48:30,3.955s,PASSED
+"com.tccreate.keywords.selectOrg.resource(""unfoldingWord® Translation Notes"")",Chrome 93.0.4577.63,,,2021-09-07 13:48:30,2021-09-07 13:48:31,1.381s,PASSED
+"com.tccreate.keywords.selectOrg.language("""")",Chrome 93.0.4577.63,,,2021-09-07 13:48:31,2021-09-07 13:48:34,3.111s,PASSED
+"click(findTestObject(""Object Repository/Page_tC Create/span_en_tn_57-TIT.tsv""))",Chrome 93.0.4577.63,,,2021-09-07 13:48:34,2021-09-07 13:48:36,1.841s,PASSED
+"click(findTestObject(""Object Repository/tN objects/button_view columns""))",Chrome 93.0.4577.63,,,2021-09-07 13:48:36,2021-09-07 13:48:41,4.959s,PASSED
+"click(findTestObject(""tN objects/input_OrigQuote_checkbox""))",Chrome 93.0.4577.63,,,2021-09-07 13:48:41,2021-09-07 13:48:43,1.609s,PASSED
+"click(findTestObject(""Object Repository/tN objects/input_SupportReference""))",Chrome 93.0.4577.63,,,2021-09-07 13:48:43,2021-09-07 13:48:44,1.483s,PASSED
+"click(findTestObject(""tN objects/button__Close-Columns""))",Chrome 93.0.4577.63,,,2021-09-07 13:48:44,2021-09-07 13:48:45,1.416s,PASSED
+"buttonstate = com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScripture(""test"")",Chrome 93.0.4577.63,,,2021-09-07 13:48:45,2021-09-07 13:48:53,7.988s,PASSED
+"out.println("" the state of the button is"" + buttonstate)",Chrome 93.0.4577.63,,,2021-09-07 13:48:53,2021-09-07 13:48:53,0.000s,PASSED
+delay(1),Chrome 93.0.4577.63,,,2021-09-07 13:48:53,2021-09-07 13:48:54,1.007s,PASSED
+"if (buttonstate == ""off"")",Chrome 93.0.4577.63,,,2021-09-07 13:48:54,2021-09-07 13:48:54,0.001s,PASSED
+else,Chrome 93.0.4577.63,,,2021-09-07 13:48:54,2021-09-07 13:48:54,0.001s,PASSED
+"scrollToElement(findTestObject(""Object Repository/tN objects/div_Titus 11""), 2)",Chrome 93.0.4577.63,,,2021-09-07 13:48:54,2021-09-07 13:48:55,0.267s,PASSED
+"click(findTestObject(""Object Repository/tN objects/button_Titus 11_add a new row""))",Chrome 93.0.4577.63,,,2021-09-07 13:48:55,2021-09-07 13:48:56,1.337s,PASSED
+"click(findTestObject(""Object Repository/tN objects/button_Add""))",Chrome 93.0.4577.63,,,2021-09-07 13:48:56,2021-09-07 13:48:58,2.038s,PASSED
+"word1 = getText(findTestObject(""tN objects/word1""))",Chrome 93.0.4577.63,,,2021-09-07 13:48:58,2021-09-07 13:48:59,0.474s,PASSED
+"logInfo(""the word is"" + word1)",Chrome 93.0.4577.63,,,2021-09-07 13:48:59,2021-09-07 13:48:59,0.000s,PASSED
+"color_word1 = getCSSValue(findTestObject(""tN objects/word1""), ""color"")",Chrome 93.0.4577.63,,,2021-09-07 13:48:59,2021-09-07 13:48:59,0.258s,PASSED
+"backcolor_word1 = getCSSValue(findTestObject(""tN objects/word1""), ""background-color"")",Chrome 93.0.4577.63,,,2021-09-07 13:48:59,2021-09-07 13:48:59,0.259s,PASSED
+logInfo(color_word1),Chrome 93.0.4577.63,,,2021-09-07 13:48:59,2021-09-07 13:48:59,0.001s,PASSED
+logInfo(backcolor_word1),Chrome 93.0.4577.63,,,2021-09-07 13:48:59,2021-09-07 13:48:59,0.000s,PASSED
+"click(findTestObject(""Object Repository/tN objects/p_OL_box""))",Chrome 93.0.4577.63,,,2021-09-07 13:48:59,2021-09-07 13:49:00,1.287s,PASSED
+"setText(findTestObject(""Object Repository/tN objects/p_OL_box""), ""Θεοῦ"")",Chrome 93.0.4577.63,,,2021-09-07 13:49:00,2021-09-07 13:49:03,2.975s,PASSED
+driver = getWebDriver(),Chrome 93.0.4577.63,,,2021-09-07 13:49:03,2021-09-07 13:49:03,0.036s,PASSED
+action = new org.openqa.selenium.interactions.Actions(driver),Chrome 93.0.4577.63,,,2021-09-07 13:49:03,2021-09-07 13:49:03,0.000s,PASSED
+build().perform(),Chrome 93.0.4577.63,,,2021-09-07 13:49:03,2021-09-07 13:49:04,0.146s,PASSED
+if (!(color_word1.equals(backcolor_word1))),Chrome 93.0.4577.63,,,2021-09-07 13:49:04,2021-09-07 13:49:04,0.001s,PASSED
+"color_word2 = getCSSValue(findTestObject(""tN objects/word2""), ""color"")",Chrome 93.0.4577.63,,,2021-09-07 13:49:04,2021-09-07 13:49:04,0.468s,PASSED
+"backcolor_word2 = getCSSValue(findTestObject(""tN objects/word2""), ""background-color"")",Chrome 93.0.4577.63,,,2021-09-07 13:49:04,2021-09-07 13:49:04,0.265s,PASSED
+"click(findTestObject(""Object Repository/tN objects/p_occurrence box""))",Chrome 93.0.4577.63,,,2021-09-07 13:49:04,2021-09-07 13:49:06,1.391s,PASSED
+"clearText(findTestObject(""Object Repository/tN objects/p_occurrence box""), CONTINUE_ON_FAILURE)",Chrome 93.0.4577.63,,,2021-09-07 13:49:06,2021-09-07 13:49:07,1.388s,PASSED
+"sendKeys(findTestObject(""Object Repository/tN objects/p_occurrence box""), ""2"")",Chrome 93.0.4577.63,,,2021-09-07 13:49:07,2021-09-07 13:49:09,1.511s,PASSED
+build().perform(),Chrome 93.0.4577.63,,,2021-09-07 13:49:09,2021-09-07 13:49:09,0.151s,PASSED
+if (!(color_word2.equals(backcolor_word2))),Chrome 93.0.4577.63,,,2021-09-07 13:49:09,2021-09-07 13:49:09,0.002s,PASSED
+"clearText(findTestObject(""Object Repository/tN objects/p_occurrence box""), CONTINUE_ON_FAILURE)",Chrome 93.0.4577.63,,,2021-09-07 13:49:09,2021-09-07 13:49:10,1.491s,PASSED
+"sendKeys(findTestObject(""Object Repository/tN objects/p_occurrence box""), ""-1"")",Chrome 93.0.4577.63,,,2021-09-07 13:49:10,2021-09-07 13:49:12,1.505s,PASSED
+build().perform(),Chrome 93.0.4577.63,,,2021-09-07 13:49:12,2021-09-07 13:49:12,0.141s,PASSED
+if (!(color_word1.equals(backcolor_word1)) && !(color_word2.equals(backcolor_word2))),Chrome 93.0.4577.63,,,2021-09-07 13:49:12,2021-09-07 13:49:12,0.001s,PASSED
+delay(2),Chrome 93.0.4577.63,,,2021-09-07 13:49:12,2021-09-07 13:49:14,2.003s,PASSED
+closeBrowser(),Chrome 93.0.4577.63,,,2021-09-07 13:49:14,2021-09-07 13:49:14,0.096s,PASSED
+,,,,,,,
+Test Cases/tCC Test Cases/tW_Saving tW Article,Chrome 93.0.4577.63,,,2021-09-07 13:49:14,2021-09-07 13:49:56,41.596s,PASSED
+"com.tccreate.keywords.WriteToFile.writeTofilename(""tW-Save"")",Chrome 93.0.4577.63,,,2021-09-07 13:49:14,2021-09-07 13:49:14,0.002s,PASSED
+com.helper.login.TimeDate.getTimeDate(),Chrome 93.0.4577.63,,,2021-09-07 13:49:14,2021-09-07 13:49:14,0.001s,PASSED
+com.helper.login.loginhelper.logintoapp(),Chrome 93.0.4577.63,,,2021-09-07 13:49:14,2021-09-07 13:49:28,14.008s,PASSED
+"com.tccreate.keywords.selectOrg.organization("""")",Chrome 93.0.4577.63,,,2021-09-07 13:49:28,2021-09-07 13:49:32,3.736s,PASSED
+"com.tccreate.keywords.selectOrg.resource(""unfoldingWord® Translation Words"")",Chrome 93.0.4577.63,,,2021-09-07 13:49:32,2021-09-07 13:49:33,1.346s,PASSED
+"com.tccreate.keywords.selectOrg.language("""")",Chrome 93.0.4577.63,,,2021-09-07 13:49:33,2021-09-07 13:49:36,3.101s,PASSED
+"click(findTestObject(""tW Objects/span_bible""))",Chrome 93.0.4577.63,,,2021-09-07 13:49:36,2021-09-07 13:49:38,1.926s,PASSED
+"click(findTestObject(""tW Objects/span_kt""))",Chrome 93.0.4577.63,,,2021-09-07 13:49:38,2021-09-07 13:49:40,2.028s,PASSED
+"click(findTestObject(""tW Objects/span_almighty.md""))",Chrome 93.0.4577.63,,,2021-09-07 13:49:40,2021-09-07 13:49:42,2.175s,PASSED
+"click(findTestObject(""tW Objects/h1_Almighty""))",Chrome 93.0.4577.63,,,2021-09-07 13:49:42,2021-09-07 13:49:46,3.991s,PASSED
+"sendKeys(findTestObject(""tW Objects/h1_Almighty""), ""  edits by a test script"")",Chrome 93.0.4577.63,,,2021-09-07 13:49:46,2021-09-07 13:49:48,1.322s,PASSED
+"click(findTestObject(""Object Repository/Page_tC Create/button_Save""))",Chrome 93.0.4577.63,,,2021-09-07 13:49:48,2021-09-07 13:49:49,1.529s,PASSED
+delay(2),Chrome 93.0.4577.63,,,2021-09-07 13:49:49,2021-09-07 13:49:51,2.024s,PASSED
+"if (verifyElementNotClickable(findTestObject(""Page_tC Create/button_Save""), CONTINUE_ON_FAILURE))",Chrome 93.0.4577.63,,,2021-09-07 13:49:51,2021-09-07 13:49:52,0.371s,PASSED
+"click(findTestObject(""Object Repository/tW Objects/chip_English - unfoldingWorden_twElsyLambert-tc-create-1""))",Chrome 93.0.4577.63,,,2021-09-07 13:49:52,2021-09-07 13:49:53,1.469s,PASSED
+delay(2),Chrome 93.0.4577.63,,,2021-09-07 13:49:53,2021-09-07 13:49:55,2.003s,PASSED
+switchToWindowIndex(1),Chrome 93.0.4577.63,,,2021-09-07 13:49:55,2021-09-07 13:49:55,0.012s,PASSED
+"if (getText(findTestObject(""Object Repository/tW Objects/h1_Almighty article on DCS"")).contains(""edits by a test script""))",Chrome 93.0.4577.63,,,2021-09-07 13:49:55,2021-09-07 13:49:55,0.272s,PASSED
+switchToWindowIndex(0),Chrome 93.0.4577.63,,,2021-09-07 13:49:55,2021-09-07 13:49:55,0.013s,PASSED
+closeBrowser(),Chrome 93.0.4577.63,,,2021-09-07 13:49:55,2021-09-07 13:49:56,0.095s,PASSED
+closeBrowser(),Chrome 93.0.4577.63,,,2021-09-07 13:49:56,2021-09-07 13:49:56,0.003s,PASSED
+,,,,,,,
+Test Cases/tCC Test Cases/tA_Saving tA Article,Chrome 93.0.4577.63,,,2021-09-07 13:49:56,2021-09-07 13:50:33,37.250s,PASSED
+"com.tccreate.keywords.WriteToFile.writeTofilename(""tA-Save"")",Chrome 93.0.4577.63,,,2021-09-07 13:49:56,2021-09-07 13:49:56,0.001s,PASSED
+com.helper.login.TimeDate.getTimeDate(),Chrome 93.0.4577.63,,,2021-09-07 13:49:56,2021-09-07 13:49:56,0.001s,PASSED
+com.helper.login.loginhelper.logintoapp(),Chrome 93.0.4577.63,,,2021-09-07 13:49:56,2021-09-07 13:50:06,10.766s,PASSED
+"com.tccreate.keywords.selectOrg.organization("""")",Chrome 93.0.4577.63,,,2021-09-07 13:50:06,2021-09-07 13:50:10,3.860s,PASSED
+"com.tccreate.keywords.selectOrg.resource(""unfoldingWord® Translation Academy"")",Chrome 93.0.4577.63,,,2021-09-07 13:50:10,2021-09-07 13:50:12,1.372s,PASSED
+"com.tccreate.keywords.selectOrg.language("""")",Chrome 93.0.4577.63,,,2021-09-07 13:50:12,2021-09-07 13:50:15,3.101s,PASSED
+"click(findTestObject(""Page_tC Create/span_translate""))",Chrome 93.0.4577.63,,,2021-09-07 13:50:15,2021-09-07 13:50:17,1.913s,PASSED
+"click(findTestObject(""Object Repository/Page_tC Create/span_bita-farming""))",Chrome 93.0.4577.63,,,2021-09-07 13:50:17,2021-09-07 13:50:19,2.101s,PASSED
+"click(findTestObject(""Object Repository/Page_tC Create/span_01.md""))",Chrome 93.0.4577.63,,,2021-09-07 13:50:19,2021-09-07 13:50:21,2.086s,PASSED
+"click(findTestObject(""Object Repository/Page_tC Create/div_A FARMER represents God, and the VINEYA_8b10d9""))",Chrome 93.0.4577.63,,,2021-09-07 13:50:21,2021-09-07 13:50:23,2.460s,PASSED
+"sendKeys(findTestObject(""Object Repository/tA/div_A FARMER represents God,edit box""), "" test edit by the test script"")",Chrome 93.0.4577.63,,,2021-09-07 13:50:23,2021-09-07 13:50:25,1.548s,PASSED
+"click(findTestObject(""Page_tC Create/button_Save""))",Chrome 93.0.4577.63,,,2021-09-07 13:50:25,2021-09-07 13:50:26,1.554s,PASSED
+delay(2),Chrome 93.0.4577.63,,,2021-09-07 13:50:26,2021-09-07 13:50:28,2.012s,PASSED
+"if (verifyElementNotClickable(findTestObject(""Page_tC Create/button_Save""), CONTINUE_ON_FAILURE))",Chrome 93.0.4577.63,,,2021-09-07 13:50:28,2021-09-07 13:50:29,0.469s,PASSED
+"click(findTestObject(""Object Repository/tA/Chip_English - unfoldingWorden_taElsyLambert-tc-create-1""))",Chrome 93.0.4577.63,,,2021-09-07 13:50:29,2021-09-07 13:50:30,1.355s,PASSED
+delay(2),Chrome 93.0.4577.63,,,2021-09-07 13:50:30,2021-09-07 13:50:32,2.011s,PASSED
+switchToWindowIndex(1),Chrome 93.0.4577.63,,,2021-09-07 13:50:32,2021-09-07 13:50:32,0.012s,PASSED
+"if (getText(findTestObject(""Object Repository/tA/h4_dcs article"")).contains(""test edit by the test script""))",Chrome 93.0.4577.63,,,2021-09-07 13:50:32,2021-09-07 13:50:33,0.377s,PASSED
+switchToWindowIndex(0),Chrome 93.0.4577.63,,,2021-09-07 13:50:33,2021-09-07 13:50:33,0.013s,PASSED
+"logInfo(""
+ TEST PASSED:Edits are saved successfully in tA articles"")",Chrome 93.0.4577.63,,,2021-09-07 13:50:33,2021-09-07 13:50:33,0.001s,PASSED
+closeBrowser(),Chrome 93.0.4577.63,,,2021-09-07 13:50:33,2021-09-07 13:50:33,0.101s,PASSED
+,,,,,,,
+Test Cases/tCC Test Cases/tN_Add New Resource,Chrome 93.0.4577.63,,#322,2021-09-07 13:50:33,2021-09-07 13:51:50,1m - 16.717s,PASSED
+"com.tccreate.keywords.WriteToFile.writeTofilename(""tN-Add new resource"")",Chrome 93.0.4577.63,,,2021-09-07 13:50:33,2021-09-07 13:50:33,0.001s,PASSED
+com.helper.login.TimeDate.getTimeDate(),Chrome 93.0.4577.63,,,2021-09-07 13:50:33,2021-09-07 13:50:33,0.001s,PASSED
+com.helper.login.loginhelper.logintoapp(),Chrome 93.0.4577.63,,,2021-09-07 13:50:33,2021-09-07 13:50:44,10.965s,PASSED
+"com.tccreate.keywords.selectOrg.organization("""")",Chrome 93.0.4577.63,,,2021-09-07 13:50:44,2021-09-07 13:50:48,3.978s,PASSED
+"com.tccreate.keywords.selectOrg.resource(""unfoldingWord® Translation Notes"")",Chrome 93.0.4577.63,,,2021-09-07 13:50:48,2021-09-07 13:50:49,1.457s,PASSED
+"com.tccreate.keywords.selectOrg.language("""")",Chrome 93.0.4577.63,,,2021-09-07 13:50:49,2021-09-07 13:50:53,3.096s,PASSED
+"click(findTestObject(""Page_tC Create/Add new resource objects/span_en_tn_57-TIT.tsv""))",Chrome 93.0.4577.63,,,2021-09-07 13:50:53,2021-09-07 13:50:54,1.899s,PASSED
+"buttonstate = com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScripture(""test"")",Chrome 93.0.4577.63,,,2021-09-07 13:50:54,2021-09-07 13:51:03,8.999s,PASSED
+"out.println("" the state of the button is"" + buttonstate)",Chrome 93.0.4577.63,,,2021-09-07 13:51:03,2021-09-07 13:51:03,0.000s,PASSED
+delay(1),Chrome 93.0.4577.63,,,2021-09-07 13:51:03,2021-09-07 13:51:04,1.004s,PASSED
+"if (buttonstate == ""off"")",Chrome 93.0.4577.63,,,2021-09-07 13:51:04,2021-09-07 13:51:04,0.000s,PASSED
+else,Chrome 93.0.4577.63,,,2021-09-07 13:51:04,2021-09-07 13:51:04,0.001s,PASSED
+"scrollToElement(findTestObject(""Page_tC Create/Add new resource objects/h6_TIT 1intro""), 2, CONTINUE_ON_FAILURE)",Chrome 93.0.4577.63,,,2021-09-07 13:51:04,2021-09-07 13:51:05,0.379s,PASSED
+"click(findTestObject(""Page_tC Create/Add new resource objects/h6_Titus 11""))",Chrome 93.0.4577.63,,,2021-09-07 13:51:05,2021-09-07 13:51:06,1.430s,PASSED
+"verifyElementVisible(findTestObject(""Page_tC Create/Add new resource objects/h6_Titus 11""), CONTINUE_ON_FAILURE)",Chrome 93.0.4577.63,,,2021-09-07 13:51:06,2021-09-07 13:51:07,0.270s,PASSED
+"click(findTestObject(""Object Repository/Page_tC Create/Add new resource objects/button_Manage Versions""))",Chrome 93.0.4577.63,,,2021-09-07 13:51:07,2021-09-07 13:51:08,1.461s,PASSED
+"click(findTestObject(""Page_tC Create/Add new resource objects/input_Resource Path_resourceUrl""))",Chrome 93.0.4577.63,,,2021-09-07 13:51:08,2021-09-07 13:51:09,1.506s,PASSED
+"setText(findTestObject(""Page_tC Create/Add new resource objects/input_Resource Path_resourceUrl""), ""Door43-Catalog/hi/ulb/master/"")",Chrome 93.0.4577.63,,,2021-09-07 13:51:09,2021-09-07 13:51:12,2.913s,PASSED
+"click(findTestObject(""Object Repository/Page_tC Create/Add new resource objects/button_Add_Resource Path""))",Chrome 93.0.4577.63,,,2021-09-07 13:51:12,2021-09-07 13:51:14,1.313s,PASSED
+"if (verifyElementChecked(findTestObject(""Object Repository/Page_tC Create/Add new resource objects/input_unfoldingWord Simplified Textv14_jss5689""), 1))",Chrome 93.0.4577.63,,,2021-09-07 13:51:14,2021-09-07 13:51:18,4.632s,PASSED
+"click(findTestObject(""Object Repository/Page_tC Create/Add new resource objects/button_Manage Versions""))",Chrome 93.0.4577.63,,,2021-09-07 13:51:18,2021-09-07 13:51:20,1.441s,PASSED
+"click(findTestObject(""Page_tC Create/Add new resource objects/input_Resource Path_resourceUrl""))",Chrome 93.0.4577.63,,,2021-09-07 13:51:20,2021-09-07 13:51:22,2.026s,PASSED
+"setText(findTestObject(""Page_tC Create/Add new resource objects/input_Resource Path_resourceUrl""), ""https://git.door43.org/ru_gl/ru_rlob"")",Chrome 93.0.4577.63,,,2021-09-07 13:51:22,2021-09-07 13:51:25,2.799s,PASSED
+"click(findTestObject(""Object Repository/Page_tC Create/Add new resource objects/button_Add_Resource Path""))",Chrome 93.0.4577.63,,,2021-09-07 13:51:25,2021-09-07 13:51:26,1.292s,PASSED
+"if (verifyElementChecked(findTestObject(""Object Repository/Page_tC Create/Add new resource objects/input_unfoldingWord Simplified Text-Russian check box""), 1))",Chrome 93.0.4577.63,,,2021-09-07 13:51:26,2021-09-07 13:51:30,4.498s,PASSED
+delay(2),Chrome 93.0.4577.63,,,2021-09-07 13:51:30,2021-09-07 13:51:32,2.005s,PASSED
+try,Chrome 93.0.4577.63,,,2021-09-07 13:51:32,2021-09-07 13:51:35,2.777s,FAILED
+catch (Exception e),Chrome 93.0.4577.63,,,2021-09-07 13:51:35,2021-09-07 13:51:37,1.820s,PASSED
+"click(findTestObject(""Object Repository/Page_tC Create/Add new resource objects/span_en_tn_01-GEN.tsv""))",Chrome 93.0.4577.63,,,2021-09-07 13:51:37,2021-09-07 13:51:39,2.336s,PASSED
+"click(findTestObject(""Object Repository/Page_tC Create/button_DrawerClose""))",Chrome 93.0.4577.63,,,2021-09-07 13:51:39,2021-09-07 13:51:42,2.301s,PASSED
+delay(1),Chrome 93.0.4577.63,,,2021-09-07 13:51:42,2021-09-07 13:51:43,1.008s,PASSED
+"if (verifyElementVisible(findTestObject(""Object Repository/Page_tC Create/Add new resource objects/h6_GEN frontintro""), CONTINUE_ON_FAILURE))",Chrome 93.0.4577.63,,,2021-09-07 13:51:43,2021-09-07 13:51:49,6.773s,PASSED
+closeBrowser(),Chrome 93.0.4577.63,,,2021-09-07 13:51:49,2021-09-07 13:51:50,0.134s,PASSED
+,,,,,,,
+Test Cases/tCC Test Cases/tN_Tool Tips,Chrome 93.0.4577.63,,,2021-09-07 13:51:50,2021-09-07 13:52:28,38.053s,PASSED
+"com.tccreate.keywords.WriteToFile.writeTofilename(""tN-ToolTips"")",Chrome 93.0.4577.63,,,2021-09-07 13:51:50,2021-09-07 13:51:50,0.001s,PASSED
+com.helper.login.TimeDate.getTimeDate(),Chrome 93.0.4577.63,,,2021-09-07 13:51:50,2021-09-07 13:51:50,0.001s,PASSED
+com.helper.login.loginhelper.logintoapp(),Chrome 93.0.4577.63,,,2021-09-07 13:51:50,2021-09-07 13:52:04,14.111s,PASSED
+"com.tccreate.keywords.selectOrg.organization("""")",Chrome 93.0.4577.63,,,2021-09-07 13:52:04,2021-09-07 13:52:08,3.746s,PASSED
+"com.tccreate.keywords.selectOrg.resource(""unfoldingWord® Translation Notes"")",Chrome 93.0.4577.63,,,2021-09-07 13:52:08,2021-09-07 13:52:09,1.343s,PASSED
+"com.tccreate.keywords.selectOrg.language("""")",Chrome 93.0.4577.63,,,2021-09-07 13:52:09,2021-09-07 13:52:12,3.113s,PASSED
+"click(findTestObject(""Page_tC Create/Add new resource objects/span_en_tn_57-TIT.tsv""))",Chrome 93.0.4577.63,,,2021-09-07 13:52:12,2021-09-07 13:52:14,1.999s,PASSED
+"testToolTip(""Object Repository/Tool tips/button_Search"", ""Search"")",Chrome 93.0.4577.63,,,2021-09-07 13:52:14,2021-09-07 13:52:14,0.001s,PASSED
+"actualTooltip = getAttribute(findTestObject(button), ""title"")",Chrome 93.0.4577.63,,,2021-09-07 13:52:14,2021-09-07 13:52:18,3.694s,PASSED
+"out.println(""Actual Title of Tool Tip for button "" + toolTip + "" is "" + actualTooltip)",Chrome 93.0.4577.63,,,2021-09-07 13:52:18,2021-09-07 13:52:18,0.000s,PASSED
+expectedTooltip = toolTip,Chrome 93.0.4577.63,,,2021-09-07 13:52:18,2021-09-07 13:52:18,0.000s,PASSED
+if (actualTooltip.equals(expectedTooltip)),Chrome 93.0.4577.63,,,2021-09-07 13:52:18,2021-09-07 13:52:18,0.001s,PASSED
+"testToolTip(""Object Repository/Tool tips/button_Filter table"", ""Filter Table"")",Chrome 93.0.4577.63,,,2021-09-07 13:52:18,2021-09-07 13:52:18,0.000s,PASSED
+"actualTooltip = getAttribute(findTestObject(button), ""title"")",Chrome 93.0.4577.63,,,2021-09-07 13:52:18,2021-09-07 13:52:18,0.468s,PASSED
+"out.println(""Actual Title of Tool Tip for button "" + toolTip + "" is "" + actualTooltip)",Chrome 93.0.4577.63,,,2021-09-07 13:52:18,2021-09-07 13:52:18,0.000s,PASSED
+expectedTooltip = toolTip,Chrome 93.0.4577.63,,,2021-09-07 13:52:18,2021-09-07 13:52:18,0.000s,PASSED
+if (actualTooltip.equals(expectedTooltip)),Chrome 93.0.4577.63,,,2021-09-07 13:52:18,2021-09-07 13:52:18,0.001s,PASSED
+"testToolTip(""Object Repository/Tool tips/button_view columns"", ""View Columns"")",Chrome 93.0.4577.63,,,2021-09-07 13:52:18,2021-09-07 13:52:18,0.000s,PASSED
+"actualTooltip = getAttribute(findTestObject(button), ""title"")",Chrome 93.0.4577.63,,,2021-09-07 13:52:18,2021-09-07 13:52:19,0.470s,PASSED
+"out.println(""Actual Title of Tool Tip for button "" + toolTip + "" is "" + actualTooltip)",Chrome 93.0.4577.63,,,2021-09-07 13:52:19,2021-09-07 13:52:19,0.000s,PASSED
+expectedTooltip = toolTip,Chrome 93.0.4577.63,,,2021-09-07 13:52:19,2021-09-07 13:52:19,0.000s,PASSED
+if (actualTooltip.equals(expectedTooltip)),Chrome 93.0.4577.63,,,2021-09-07 13:52:19,2021-09-07 13:52:19,0.000s,PASSED
+"testToolTip(""Object Repository/Tool tips/button_Validate"", ""Validate"")",Chrome 93.0.4577.63,,,2021-09-07 13:52:19,2021-09-07 13:52:19,0.000s,PASSED
+"actualTooltip = getAttribute(findTestObject(button), ""title"")",Chrome 93.0.4577.63,,,2021-09-07 13:52:19,2021-09-07 13:52:19,0.258s,PASSED
+"out.println(""Actual Title of Tool Tip for button "" + toolTip + "" is "" + actualTooltip)",Chrome 93.0.4577.63,,,2021-09-07 13:52:19,2021-09-07 13:52:19,0.001s,PASSED
+expectedTooltip = toolTip,Chrome 93.0.4577.63,,,2021-09-07 13:52:19,2021-09-07 13:52:19,0.000s,PASSED
+if (actualTooltip.equals(expectedTooltip)),Chrome 93.0.4577.63,,,2021-09-07 13:52:19,2021-09-07 13:52:19,0.000s,PASSED
+"testToolTip(""Object Repository/Tool tips/button_Preview"", ""Preview"")",Chrome 93.0.4577.63,,,2021-09-07 13:52:19,2021-09-07 13:52:19,0.001s,PASSED
+"actualTooltip = getAttribute(findTestObject(button), ""title"")",Chrome 93.0.4577.63,,,2021-09-07 13:52:19,2021-09-07 13:52:19,0.355s,PASSED
+"out.println(""Actual Title of Tool Tip for button "" + toolTip + "" is "" + actualTooltip)",Chrome 93.0.4577.63,,,2021-09-07 13:52:19,2021-09-07 13:52:19,0.000s,PASSED
+expectedTooltip = toolTip,Chrome 93.0.4577.63,,,2021-09-07 13:52:19,2021-09-07 13:52:19,0.001s,PASSED
+if (actualTooltip.equals(expectedTooltip)),Chrome 93.0.4577.63,,,2021-09-07 13:52:19,2021-09-07 13:52:19,0.000s,PASSED
+"testToolTip(""Object Repository/Tool tips/button_add a new row"", ""Add a Row"")",Chrome 93.0.4577.63,,,2021-09-07 13:52:19,2021-09-07 13:52:19,0.000s,PASSED
+"actualTooltip = getAttribute(findTestObject(button), ""title"")",Chrome 93.0.4577.63,,,2021-09-07 13:52:19,2021-09-07 13:52:20,0.256s,PASSED
+"out.println(""Actual Title of Tool Tip for button "" + toolTip + "" is "" + actualTooltip)",Chrome 93.0.4577.63,,,2021-09-07 13:52:20,2021-09-07 13:52:20,0.000s,PASSED
+expectedTooltip = toolTip,Chrome 93.0.4577.63,,,2021-09-07 13:52:20,2021-09-07 13:52:20,0.001s,PASSED
+if (actualTooltip.equals(expectedTooltip)),Chrome 93.0.4577.63,,,2021-09-07 13:52:20,2021-09-07 13:52:20,0.000s,PASSED
+"testToolTip(""Object Repository/Tool tips/button_Delete new row"", ""Delete a Row"")",Chrome 93.0.4577.63,,,2021-09-07 13:52:20,2021-09-07 13:52:20,0.000s,PASSED
+"actualTooltip = getAttribute(findTestObject(button), ""title"")",Chrome 93.0.4577.63,,,2021-09-07 13:52:20,2021-09-07 13:52:20,0.357s,PASSED
+"out.println(""Actual Title of Tool Tip for button "" + toolTip + "" is "" + actualTooltip)",Chrome 93.0.4577.63,,,2021-09-07 13:52:20,2021-09-07 13:52:20,0.001s,PASSED
+expectedTooltip = toolTip,Chrome 93.0.4577.63,,,2021-09-07 13:52:20,2021-09-07 13:52:20,0.000s,PASSED
+if (actualTooltip.equals(expectedTooltip)),Chrome 93.0.4577.63,,,2021-09-07 13:52:20,2021-09-07 13:52:20,0.000s,PASSED
+"testToolTip(""Object Repository/Tool tips/button_Move Row Down"", ""Move Row Down"")",Chrome 93.0.4577.63,,,2021-09-07 13:52:20,2021-09-07 13:52:20,0.001s,PASSED
+"actualTooltip = getAttribute(findTestObject(button), ""title"")",Chrome 93.0.4577.63,,,2021-09-07 13:52:20,2021-09-07 13:52:20,0.256s,PASSED
+"out.println(""Actual Title of Tool Tip for button "" + toolTip + "" is "" + actualTooltip)",Chrome 93.0.4577.63,,,2021-09-07 13:52:20,2021-09-07 13:52:20,0.000s,PASSED
+expectedTooltip = toolTip,Chrome 93.0.4577.63,,,2021-09-07 13:52:20,2021-09-07 13:52:20,0.000s,PASSED
+if (actualTooltip.equals(expectedTooltip)),Chrome 93.0.4577.63,,,2021-09-07 13:52:20,2021-09-07 13:52:20,0.001s,PASSED
+"testToolTip(""Object Repository/Tool tips/button_Move row up"", ""Move Row Up"")",Chrome 93.0.4577.63,,,2021-09-07 13:52:20,2021-09-07 13:52:20,0.000s,PASSED
+"actualTooltip = getAttribute(findTestObject(button), ""title"")",Chrome 93.0.4577.63,,,2021-09-07 13:52:20,2021-09-07 13:52:20,0.258s,PASSED
+"out.println(""Actual Title of Tool Tip for button "" + toolTip + "" is "" + actualTooltip)",Chrome 93.0.4577.63,,,2021-09-07 13:52:20,2021-09-07 13:52:20,0.000s,PASSED
+expectedTooltip = toolTip,Chrome 93.0.4577.63,,,2021-09-07 13:52:20,2021-09-07 13:52:20,0.001s,PASSED
+if (actualTooltip.equals(expectedTooltip)),Chrome 93.0.4577.63,,,2021-09-07 13:52:20,2021-09-07 13:52:20,0.000s,PASSED
+"testToolTip(""Object Repository/Tool tips/button_Manage Versions"", ""Manage Versions"")",Chrome 93.0.4577.63,,,2021-09-07 13:52:20,2021-09-07 13:52:20,0.000s,PASSED
+"actualTooltip = getAttribute(findTestObject(button), ""title"")",Chrome 93.0.4577.63,,,2021-09-07 13:52:20,2021-09-07 13:52:21,0.362s,PASSED
+"out.println(""Actual Title of Tool Tip for button "" + toolTip + "" is "" + actualTooltip)",Chrome 93.0.4577.63,,,2021-09-07 13:52:21,2021-09-07 13:52:21,0.000s,PASSED
+expectedTooltip = toolTip,Chrome 93.0.4577.63,,,2021-09-07 13:52:21,2021-09-07 13:52:21,0.001s,PASSED
+if (actualTooltip.equals(expectedTooltip)),Chrome 93.0.4577.63,,,2021-09-07 13:52:21,2021-09-07 13:52:21,0.000s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Tool tips/button_Expand chapter""), 2)",Chrome 93.0.4577.63,,,2021-09-07 13:52:21,2021-09-07 13:52:21,0.467s,PASSED
+"testToggleTip(""Object Repository/Tool tips/button_Expand chapter"", ""Expand Chapter"", ""Object Repository/Tool tips/button_collapse-chapter"", ""Collapse Chapter"")",Chrome 93.0.4577.63,,,2021-09-07 13:52:21,2021-09-07 13:52:21,0.000s,PASSED
+"actualTooltip = getAttribute(findTestObject(button1), ""title"")",Chrome 93.0.4577.63,,,2021-09-07 13:52:21,2021-09-07 13:52:22,0.366s,PASSED
+"out.println(""Actual Title of Tool Tip for button "" + toolTip + "" is "" + actualTooltip)",Chrome 93.0.4577.63,,,2021-09-07 13:52:22,2021-09-07 13:52:22,0.000s,PASSED
+expectedTooltip = toolTip,Chrome 93.0.4577.63,,,2021-09-07 13:52:22,2021-09-07 13:52:22,0.000s,PASSED
+if (actualTooltip.equals(expectedTooltip)),Chrome 93.0.4577.63,,,2021-09-07 13:52:22,2021-09-07 13:52:22,0.001s,PASSED
+delay(2),Chrome 93.0.4577.63,,,2021-09-07 13:52:22,2021-09-07 13:52:24,2.003s,PASSED
+click(findTestObject(button1)),Chrome 93.0.4577.63,,,2021-09-07 13:52:24,2021-09-07 13:52:25,1.552s,PASSED
+button = toggleButton,Chrome 93.0.4577.63,,,2021-09-07 13:52:25,2021-09-07 13:52:25,0.001s,PASSED
+toggleTipTest = toggleTip,Chrome 93.0.4577.63,,,2021-09-07 13:52:25,2021-09-07 13:52:25,0.000s,PASSED
+"out.println(""Togglebutton"" + button)",Chrome 93.0.4577.63,,,2021-09-07 13:52:25,2021-09-07 13:52:25,0.000s,PASSED
+"out.println(""ToggleTip"" + toggleTipTest)",Chrome 93.0.4577.63,,,2021-09-07 13:52:25,2021-09-07 13:52:25,0.001s,PASSED
+delay(2),Chrome 93.0.4577.63,,,2021-09-07 13:52:25,2021-09-07 13:52:27,2.008s,PASSED
+"testToolTip(button, toggleTipTest)",Chrome 93.0.4577.63,,,2021-09-07 13:52:27,2021-09-07 13:52:27,0.001s,PASSED
+"actualTooltip = getAttribute(findTestObject(button), ""title"")",Chrome 93.0.4577.63,,,2021-09-07 13:52:27,2021-09-07 13:52:28,0.372s,PASSED
+"out.println(""Actual Title of Tool Tip for button "" + toolTip + "" is "" + actualTooltip)",Chrome 93.0.4577.63,,,2021-09-07 13:52:28,2021-09-07 13:52:28,0.000s,PASSED
+expectedTooltip = toolTip,Chrome 93.0.4577.63,,,2021-09-07 13:52:28,2021-09-07 13:52:28,0.000s,PASSED
+if (actualTooltip.equals(expectedTooltip)),Chrome 93.0.4577.63,,,2021-09-07 13:52:28,2021-09-07 13:52:28,0.000s,PASSED
+else,Chrome 93.0.4577.63,,,2021-09-07 13:52:28,2021-09-07 13:52:28,0.001s,PASSED
+closeBrowser(),Chrome 93.0.4577.63,,,2021-09-07 13:52:28,2021-09-07 13:52:28,0.093s,PASSED
+,,,,,,,
+Test Cases/tCC Test Cases/tA buttons funtions,Chrome 93.0.4577.63,,,2021-09-07 13:52:28,2021-09-07 13:53:06,38.171s,PASSED
+"com.tccreate.keywords.WriteToFile.writeTofilename(""tA-buttons"")",Chrome 93.0.4577.63,,,2021-09-07 13:52:28,2021-09-07 13:52:28,0.001s,PASSED
+com.helper.login.TimeDate.getTimeDate(),Chrome 93.0.4577.63,,,2021-09-07 13:52:28,2021-09-07 13:52:28,0.001s,PASSED
+com.helper.login.loginhelper.logintoapp(),Chrome 93.0.4577.63,,,2021-09-07 13:52:28,2021-09-07 13:52:42,14.747s,PASSED
+"com.tccreate.keywords.selectOrg.organization("""")",Chrome 93.0.4577.63,,,2021-09-07 13:52:42,2021-09-07 13:52:47,4.165s,PASSED
+"com.tccreate.keywords.selectOrg.resource(""unfoldingWord® Translation Academy"")",Chrome 93.0.4577.63,,,2021-09-07 13:52:47,2021-09-07 13:52:48,1.346s,PASSED
+"com.tccreate.keywords.selectOrg.language("""")",Chrome 93.0.4577.63,,,2021-09-07 13:52:48,2021-09-07 13:52:51,3.092s,PASSED
+"click(findTestObject(""Page_tC Create/span_translate""))",Chrome 93.0.4577.63,,,2021-09-07 13:52:51,2021-09-07 13:52:53,1.921s,PASSED
+"click(findTestObject(""Object Repository/Page_tC Create/span_bita-farming""))",Chrome 93.0.4577.63,,,2021-09-07 13:52:53,2021-09-07 13:52:55,2.096s,PASSED
+"click(findTestObject(""Object Repository/Page_tC Create/span_01.md""))",Chrome 93.0.4577.63,,,2021-09-07 13:52:55,2021-09-07 13:52:57,2.097s,PASSED
+"click(findTestObject(""Object Repository/tA/button_Sections""))",Chrome 93.0.4577.63,,,2021-09-07 13:52:57,2021-09-07 13:53:00,2.547s,PASSED
+"if (verifyElementNotPresent(findTestObject(""Object Repository/tA/div_A FARMER represents God, collapse tab""), 2, CONTINUE_ON_FAILURE))",Chrome 93.0.4577.63,,,2021-09-07 13:53:00,2021-09-07 13:53:01,0.979s,PASSED
+"if (getText(findTestObject(""Object Repository/tA/p_My well section"")).contains(""My well beloved had a vineyard""))",Chrome 93.0.4577.63,,,2021-09-07 13:53:01,2021-09-07 13:53:01,0.369s,PASSED
+"click(findTestObject(""Object Repository/tA/button_Blocks""))",Chrome 93.0.4577.63,,,2021-09-07 13:53:01,2021-09-07 13:53:03,1.451s,PASSED
+"click(findTestObject(""Object Repository/tA/button_Preview""))",Chrome 93.0.4577.63,,,2021-09-07 13:53:03,2021-09-07 13:53:05,2.025s,PASSED
+"if (getText(findTestObject(""Object Repository/tA/block in preview mode"")).contains("">""))",Chrome 93.0.4577.63,,,2021-09-07 13:53:05,2021-09-07 13:53:06,1.090s,PASSED
+closeBrowser(),Chrome 93.0.4577.63,,,2021-09-07 13:53:06,2021-09-07 13:53:06,0.094s,PASSED
+,,,,,,,
+Test Cases/tCC Test Cases/tCC Test OBS-tQ,Chrome 93.0.4577.63,,666,2021-09-07 13:53:06,2021-09-07 13:53:43,37.079s,PASSED
+"com.tccreate.keywords.WriteToFile.writeTofilename(""OBS-tQ-Save"")",Chrome 93.0.4577.63,,,2021-09-07 13:53:06,2021-09-07 13:53:06,0.001s,PASSED
+com.helper.login.TimeDate.getTimeDate(),Chrome 93.0.4577.63,,,2021-09-07 13:53:06,2021-09-07 13:53:06,0.000s,PASSED
+com.helper.login.loginhelper.logintoapp(),Chrome 93.0.4577.63,,,2021-09-07 13:53:06,2021-09-07 13:53:16,10.526s,PASSED
+"com.tccreate.keywords.selectOrg.organization("""")",Chrome 93.0.4577.63,,,2021-09-07 13:53:16,2021-09-07 13:53:20,3.859s,PASSED
+"com.tccreate.keywords.selectOrg.resource(""unfoldingWord® Open Bible Stories Translation Questions"")",Chrome 93.0.4577.63,,,2021-09-07 13:53:20,2021-09-07 13:53:22,1.452s,PASSED
+"com.tccreate.keywords.selectOrg.language("""")",Chrome 93.0.4577.63,,,2021-09-07 13:53:22,2021-09-07 13:53:25,3.094s,PASSED
+"click(findTestObject(""Object Repository/OBS-tn/div_content""))",Chrome 93.0.4577.63,,,2021-09-07 13:53:25,2021-09-07 13:53:27,1.912s,PASSED
+"click(findTestObject(""Object Repository/OBS-tn/span_02""))",Chrome 93.0.4577.63,,,2021-09-07 13:53:27,2021-09-07 13:53:29,2.132s,PASSED
+"click(findTestObject(""Object Repository/OBS-tn/span_01.md""))",Chrome 93.0.4577.63,,,2021-09-07 13:53:29,2021-09-07 13:53:31,2.073s,PASSED
+"click(findTestObject(""Object Repository/obs-tq/div_question edit box""))",Chrome 93.0.4577.63,,,2021-09-07 13:53:31,2021-09-07 13:53:33,2.438s,PASSED
+"sendKeys(findTestObject(""Object Repository/obs-tq/div_question edit box""), ""  edits by a test script"")",Chrome 93.0.4577.63,,,2021-09-07 13:53:33,2021-09-07 13:53:35,1.433s,PASSED
+"click(findTestObject(""Object Repository/Page_tC Create/button_Save""))",Chrome 93.0.4577.63,,,2021-09-07 13:53:35,2021-09-07 13:53:36,1.530s,PASSED
+delay(2),Chrome 93.0.4577.63,,,2021-09-07 13:53:36,2021-09-07 13:53:38,2.012s,PASSED
+"if (verifyElementNotClickable(findTestObject(""Page_tC Create/button_Save""), CONTINUE_ON_FAILURE))",Chrome 93.0.4577.63,,,2021-09-07 13:53:38,2021-09-07 13:53:39,0.368s,PASSED
+"click(findTestObject(""Object Repository/obs-tq/span_English - unfoldingWorden_obs-tqElsyLambert-tc-create-1""))",Chrome 93.0.4577.63,,,2021-09-07 13:53:39,2021-09-07 13:53:40,1.466s,PASSED
+delay(2),Chrome 93.0.4577.63,,,2021-09-07 13:53:40,2021-09-07 13:53:42,2.007s,PASSED
+switchToWindowIndex(1),Chrome 93.0.4577.63,,,2021-09-07 13:53:42,2021-09-07 13:53:42,0.011s,PASSED
+"if (getText(findTestObject(""Object Repository/obs-tq/h1_DCS Repo question"")).contains(""edits by a test script""))",Chrome 93.0.4577.63,,,2021-09-07 13:53:42,2021-09-07 13:53:43,0.480s,PASSED
+switchToWindowIndex(0),Chrome 93.0.4577.63,,,2021-09-07 13:53:43,2021-09-07 13:53:43,0.013s,PASSED
+closeBrowser(),Chrome 93.0.4577.63,,,2021-09-07 13:53:43,2021-09-07 13:53:43,0.095s,PASSED
+closeBrowser(),Chrome 93.0.4577.63,,,2021-09-07 13:53:43,2021-09-07 13:53:43,0.002s,PASSED
+,,,,,,,
+Test Cases/tCC Test Cases/tCC-Test OBS-tn,Chrome 93.0.4577.63,,,2021-09-07 13:53:43,2021-09-07 13:54:22,38.683s,PASSED
+"com.tccreate.keywords.WriteToFile.writeTofilename(""OBS-tN-Save"")",Chrome 93.0.4577.63,,,2021-09-07 13:53:43,2021-09-07 13:53:43,0.001s,PASSED
+com.helper.login.TimeDate.getTimeDate(),Chrome 93.0.4577.63,,,2021-09-07 13:53:43,2021-09-07 13:53:43,0.001s,PASSED
+com.helper.login.loginhelper.logintoapp(),Chrome 93.0.4577.63,,,2021-09-07 13:53:43,2021-09-07 13:53:54,10.816s,PASSED
+"com.tccreate.keywords.selectOrg.organization("""")",Chrome 93.0.4577.63,,,2021-09-07 13:53:54,2021-09-07 13:53:58,4.162s,PASSED
+"com.tccreate.keywords.selectOrg.resource(""unfoldingWord® Open Bible Stories Translation Notes"")",Chrome 93.0.4577.63,,,2021-09-07 13:53:58,2021-09-07 13:53:59,1.349s,PASSED
+"com.tccreate.keywords.selectOrg.language("""")",Chrome 93.0.4577.63,,,2021-09-07 13:53:59,2021-09-07 13:54:02,3.095s,PASSED
+"click(findTestObject(""Object Repository/OBS-tn/div_content""))",Chrome 93.0.4577.63,,,2021-09-07 13:54:02,2021-09-07 13:54:04,1.918s,PASSED
+"click(findTestObject(""Object Repository/OBS-tn/span_02""))",Chrome 93.0.4577.63,,,2021-09-07 13:54:04,2021-09-07 13:54:06,2.128s,PASSED
+"click(findTestObject(""Object Repository/OBS-tn/span_01.md""))",Chrome 93.0.4577.63,,,2021-09-07 13:54:06,2021-09-07 13:54:09,2.051s,PASSED
+"click(findTestObject(""Object Repository/OBS-tn/div_the beautiful garden edits box""))",Chrome 93.0.4577.63,,,2021-09-07 13:54:09,2021-09-07 13:54:11,2.683s,PASSED
+"sendKeys(findTestObject(""Object Repository/OBS-tn/div_the beautiful garden edits box""), ""  edits by a test script"")",Chrome 93.0.4577.63,,,2021-09-07 13:54:11,2021-09-07 13:54:13,1.509s,PASSED
+"click(findTestObject(""Object Repository/Page_tC Create/button_Save""))",Chrome 93.0.4577.63,,,2021-09-07 13:54:13,2021-09-07 13:54:14,1.537s,PASSED
+delay(2),Chrome 93.0.4577.63,,,2021-09-07 13:54:14,2021-09-07 13:54:16,2.012s,PASSED
+"if (verifyElementNotClickable(findTestObject(""Page_tC Create/button_Save""), CONTINUE_ON_FAILURE))",Chrome 93.0.4577.63,,,2021-09-07 13:54:16,2021-09-07 13:54:18,1.290s,PASSED
+"click(findTestObject(""Object Repository/OBS-tn/div_English - unfoldingWorden_obs-tnElsyLambert-tc-create-1""))",Chrome 93.0.4577.63,,,2021-09-07 13:54:18,2021-09-07 13:54:19,1.535s,PASSED
+delay(2),Chrome 93.0.4577.63,,,2021-09-07 13:54:19,2021-09-07 13:54:21,2.003s,PASSED
+switchToWindowIndex(1),Chrome 93.0.4577.63,,,2021-09-07 13:54:21,2021-09-07 13:54:21,0.011s,PASSED
+"if (getText(findTestObject(""Object Repository/OBS-tn/h1_the beautiful garden on DCS"")).contains(""edits by a test script""))",Chrome 93.0.4577.63,,,2021-09-07 13:54:21,2021-09-07 13:54:21,0.309s,PASSED
+switchToWindowIndex(0),Chrome 93.0.4577.63,,,2021-09-07 13:54:21,2021-09-07 13:54:21,0.011s,PASSED
+closeBrowser(),Chrome 93.0.4577.63,,,2021-09-07 13:54:21,2021-09-07 13:54:22,0.095s,PASSED
+closeBrowser(),Chrome 93.0.4577.63,,,2021-09-07 13:54:22,2021-09-07 13:54:22,0.003s,PASSED
+,,,,,,,
+Test Cases/tCC Test Cases/tCC Test OBS Study Notes,Chrome 93.0.4577.63,,,2021-09-07 13:54:22,2021-09-07 13:55:09,47.157s,PASSED
+"com.tccreate.keywords.WriteToFile.writeTofilename(""OBS-sn-Save"")",Chrome 93.0.4577.63,,,2021-09-07 13:54:22,2021-09-07 13:54:22,0.002s,PASSED
+com.helper.login.TimeDate.getTimeDate(),Chrome 93.0.4577.63,,,2021-09-07 13:54:22,2021-09-07 13:54:22,0.001s,PASSED
+com.helper.login.loginhelper.logintoapp(),Chrome 93.0.4577.63,,,2021-09-07 13:54:22,2021-09-07 13:54:38,16.454s,PASSED
+"com.tccreate.keywords.selectOrg.organization("""")",Chrome 93.0.4577.63,,,2021-09-07 13:54:38,2021-09-07 13:54:46,7.983s,PASSED
+"com.tccreate.keywords.selectOrg.resource(""unfoldingWord® Open Bible Stories Study Notes"")",Chrome 93.0.4577.63,,,2021-09-07 13:54:46,2021-09-07 13:54:48,1.476s,PASSED
+"com.tccreate.keywords.selectOrg.language("""")",Chrome 93.0.4577.63,,,2021-09-07 13:54:48,2021-09-07 13:54:51,3.098s,PASSED
+"click(findTestObject(""Object Repository/OBS-tn/div_content""))",Chrome 93.0.4577.63,,,2021-09-07 13:54:51,2021-09-07 13:54:53,2.121s,PASSED
+"click(findTestObject(""Object Repository/OBS-tn/span_02""))",Chrome 93.0.4577.63,,,2021-09-07 13:54:53,2021-09-07 13:54:55,2.032s,PASSED
+"click(findTestObject(""Object Repository/OBS-tn/span_02.md""))",Chrome 93.0.4577.63,,,2021-09-07 13:54:55,2021-09-07 13:54:57,2.050s,PASSED
+"click(findTestObject(""Object Repository/obs-sn/div_a snake edit box""))",Chrome 93.0.4577.63,,,2021-09-07 13:54:57,2021-09-07 13:54:59,2.525s,PASSED
+"sendKeys(findTestObject(""Object Repository/obs-sn/div_a snake edit box""), ""  edits by a test script"")",Chrome 93.0.4577.63,,,2021-09-07 13:54:59,2021-09-07 13:55:01,1.438s,PASSED
+"click(findTestObject(""Object Repository/Page_tC Create/button_Save""))",Chrome 93.0.4577.63,,,2021-09-07 13:55:01,2021-09-07 13:55:03,1.639s,PASSED
+delay(2),Chrome 93.0.4577.63,,,2021-09-07 13:55:03,2021-09-07 13:55:05,2.027s,PASSED
+"if (verifyElementNotClickable(findTestObject(""Page_tC Create/button_Save""), CONTINUE_ON_FAILURE))",Chrome 93.0.4577.63,,,2021-09-07 13:55:05,2021-09-07 13:55:05,0.263s,PASSED
+"click(findTestObject(""Object Repository/obs-sn/div_English - unfoldingWorden_obs-snElsyLambert-tc-create-1""))",Chrome 93.0.4577.63,,,2021-09-07 13:55:05,2021-09-07 13:55:06,1.465s,PASSED
+delay(2),Chrome 93.0.4577.63,,,2021-09-07 13:55:06,2021-09-07 13:55:08,2.005s,PASSED
+switchToWindowIndex(1),Chrome 93.0.4577.63,,,2021-09-07 13:55:08,2021-09-07 13:55:08,0.011s,PASSED
+"if (getText(findTestObject(""Object Repository/obs-sn/h1_a snake DCS page"")).contains(""edits by a test script""))",Chrome 93.0.4577.63,,,2021-09-07 13:55:08,2021-09-07 13:55:09,0.310s,PASSED
+switchToWindowIndex(0),Chrome 93.0.4577.63,,,2021-09-07 13:55:09,2021-09-07 13:55:09,0.012s,PASSED
+closeBrowser(),Chrome 93.0.4577.63,,,2021-09-07 13:55:09,2021-09-07 13:55:09,0.094s,PASSED
+closeBrowser(),Chrome 93.0.4577.63,,,2021-09-07 13:55:09,2021-09-07 13:55:09,0.003s,PASSED
+,,,,,,,
+Test Cases/tCC Test Cases/Tool Tips - tA,Chrome 93.0.4577.63,,,2021-09-07 13:55:09,2021-09-07 13:56:55,1m - 46.742s,FAILED
+com.helper.login.loginhelper.logintoapp(),Chrome 93.0.4577.63,,,2021-09-07 13:55:09,2021-09-07 13:55:23,14.663s,PASSED
+"com.tccreate.keywords.selectOrg.organization("""")",Chrome 93.0.4577.63,,,2021-09-07 13:55:23,2021-09-07 13:55:28,4.163s,PASSED
+"com.tccreate.keywords.selectOrg.resource(""unfoldingWord® Translation Academy"")",Chrome 93.0.4577.63,,,2021-09-07 13:55:28,2021-09-07 13:55:29,1.568s,PASSED
+"com.tccreate.keywords.selectOrg.language("""")",Chrome 93.0.4577.63,,,2021-09-07 13:55:29,2021-09-07 13:55:32,3.114s,PASSED
+"click(findTestObject(""Page_tC Create/span_translate""))",Chrome 93.0.4577.63,,,2021-09-07 13:55:32,2021-09-07 13:55:34,2.023s,PASSED
+"click(findTestObject(""Object Repository/Page_tC Create/span_bita-farming""))",Chrome 93.0.4577.63,,,2021-09-07 13:55:34,2021-09-07 13:55:36,2.101s,PASSED
+"click(findTestObject(""Object Repository/Page_tC Create/span_01.md""))",Chrome 93.0.4577.63,,,2021-09-07 13:55:36,2021-09-07 13:55:39,2.094s,PASSED
+"testToggleTip(""Object Repository/Tool tips/button_Sections"", ""Sections"", ""Object Repository/Tool tips/button_No Sections"", ""No Sections"")",Chrome 93.0.4577.63,,,2021-09-07 13:55:39,2021-09-07 13:55:39,0.000s,PASSED
+"actualTooltip = getAttribute(findTestObject(button1), ""title"")",Chrome 93.0.4577.63,,,2021-09-07 13:55:39,2021-09-07 13:55:40,1.735s,PASSED
+"out.println(""Actual Title of Tool Tip for button "" + toolTip + "" is "" + actualTooltip)",Chrome 93.0.4577.63,,,2021-09-07 13:55:40,2021-09-07 13:55:40,0.001s,PASSED
+expectedTooltip = toolTip,Chrome 93.0.4577.63,,,2021-09-07 13:55:40,2021-09-07 13:55:40,0.000s,PASSED
+if (actualTooltip.equals(expectedTooltip)),Chrome 93.0.4577.63,,,2021-09-07 13:55:40,2021-09-07 13:55:40,0.001s,PASSED
+delay(2),Chrome 93.0.4577.63,,,2021-09-07 13:55:40,2021-09-07 13:55:42,2.003s,PASSED
+click(findTestObject(button1)),Chrome 93.0.4577.63,,,2021-09-07 13:55:42,2021-09-07 13:55:44,1.440s,PASSED
+button = toggleButton,Chrome 93.0.4577.63,,,2021-09-07 13:55:44,2021-09-07 13:55:44,0.000s,PASSED
+toggleTipTest = toggleTip,Chrome 93.0.4577.63,,,2021-09-07 13:55:44,2021-09-07 13:55:44,0.000s,PASSED
+"out.println(""Togglebutton"" + button)",Chrome 93.0.4577.63,,,2021-09-07 13:55:44,2021-09-07 13:55:44,0.000s,PASSED
+"out.println(""ToggleTip"" + toggleTipTest)",Chrome 93.0.4577.63,,,2021-09-07 13:55:44,2021-09-07 13:55:44,0.000s,PASSED
+delay(2),Chrome 93.0.4577.63,,,2021-09-07 13:55:44,2021-09-07 13:55:46,2.011s,PASSED
+"testToolTip(button, toggleTipTest)",Chrome 93.0.4577.63,,,2021-09-07 13:55:46,2021-09-07 13:55:46,0.001s,PASSED
+"actualTooltip = getAttribute(findTestObject(button), ""title"")",Chrome 93.0.4577.63,,,2021-09-07 13:55:46,2021-09-07 13:56:17,31.663s,FAILED
+"out.println(""Actual Title of Tool Tip for button "" + toolTip + "" is "" + actualTooltip)",Chrome 93.0.4577.63,,,2021-09-07 13:56:17,2021-09-07 13:56:17,0.004s,PASSED
+expectedTooltip = toolTip,Chrome 93.0.4577.63,,,2021-09-07 13:56:17,2021-09-07 13:56:17,0.000s,PASSED
+if (actualTooltip.equals(expectedTooltip)),Chrome 93.0.4577.63,,,2021-09-07 13:56:17,2021-09-07 13:56:17,0.002s,PASSED
+else,Chrome 93.0.4577.63,,,2021-09-07 13:56:17,2021-09-07 13:56:17,0.000s,PASSED
+"testToggleTip(""Object Repository/Tool tips/button_Blocks"", ""Blocks"", ""Object Repository/Tool tips/button_No Blocks"", ""NoBlocks"")",Chrome 93.0.4577.63,,,2021-09-07 13:56:17,2021-09-07 13:56:17,0.000s,PASSED
+"actualTooltip = getAttribute(findTestObject(button1), ""title"")",Chrome 93.0.4577.63,,,2021-09-07 13:56:17,2021-09-07 13:56:18,0.354s,PASSED
+"out.println(""Actual Title of Tool Tip for button "" + toolTip + "" is "" + actualTooltip)",Chrome 93.0.4577.63,,,2021-09-07 13:56:18,2021-09-07 13:56:18,0.000s,PASSED
+expectedTooltip = toolTip,Chrome 93.0.4577.63,,,2021-09-07 13:56:18,2021-09-07 13:56:18,0.001s,PASSED
+if (actualTooltip.equals(expectedTooltip)),Chrome 93.0.4577.63,,,2021-09-07 13:56:18,2021-09-07 13:56:18,0.000s,PASSED
+delay(2),Chrome 93.0.4577.63,,,2021-09-07 13:56:18,2021-09-07 13:56:20,2.003s,PASSED
+click(findTestObject(button1)),Chrome 93.0.4577.63,,,2021-09-07 13:56:20,2021-09-07 13:56:21,1.485s,PASSED
+button = toggleButton,Chrome 93.0.4577.63,,,2021-09-07 13:56:21,2021-09-07 13:56:21,0.001s,PASSED
+toggleTipTest = toggleTip,Chrome 93.0.4577.63,,,2021-09-07 13:56:21,2021-09-07 13:56:21,0.000s,PASSED
+"out.println(""Togglebutton"" + button)",Chrome 93.0.4577.63,,,2021-09-07 13:56:21,2021-09-07 13:56:21,0.000s,PASSED
+"out.println(""ToggleTip"" + toggleTipTest)",Chrome 93.0.4577.63,,,2021-09-07 13:56:21,2021-09-07 13:56:21,0.001s,PASSED
+delay(2),Chrome 93.0.4577.63,,,2021-09-07 13:56:21,2021-09-07 13:56:23,2.004s,PASSED
+"testToolTip(button, toggleTipTest)",Chrome 93.0.4577.63,,,2021-09-07 13:56:23,2021-09-07 13:56:23,0.000s,PASSED
+"actualTooltip = getAttribute(findTestObject(button), ""title"")",Chrome 93.0.4577.63,,,2021-09-07 13:56:23,2021-09-07 13:56:55,31.699s,FAILED
+"out.println(""Actual Title of Tool Tip for button "" + toolTip + "" is "" + actualTooltip)",Chrome 93.0.4577.63,,,2021-09-07 13:56:55,2021-09-07 13:56:55,0.001s,PASSED
+expectedTooltip = toolTip,Chrome 93.0.4577.63,,,2021-09-07 13:56:55,2021-09-07 13:56:55,0.000s,PASSED
+if (actualTooltip.equals(expectedTooltip)),Chrome 93.0.4577.63,,,2021-09-07 13:56:55,2021-09-07 13:56:55,0.001s,PASSED
+else,Chrome 93.0.4577.63,,,2021-09-07 13:56:55,2021-09-07 13:56:55,0.000s,PASSED
+"testToolTip(""Object Repository/Tool tips/button_Preview"", ""Preview"")",Chrome 93.0.4577.63,,,2021-09-07 13:56:55,2021-09-07 13:56:55,0.000s,PASSED
+"actualTooltip = getAttribute(findTestObject(button), ""title"")",Chrome 93.0.4577.63,,,2021-09-07 13:56:55,2021-09-07 13:56:55,0.353s,PASSED
+"out.println(""Actual Title of Tool Tip for button "" + toolTip + "" is "" + actualTooltip)",Chrome 93.0.4577.63,,,2021-09-07 13:56:55,2021-09-07 13:56:55,0.000s,PASSED
+expectedTooltip = toolTip,Chrome 93.0.4577.63,,,2021-09-07 13:56:55,2021-09-07 13:56:55,0.000s,PASSED
+if (actualTooltip.equals(expectedTooltip)),Chrome 93.0.4577.63,,,2021-09-07 13:56:55,2021-09-07 13:56:55,0.001s,PASSED
+closeBrowser(),Chrome 93.0.4577.63,,,2021-09-07 13:56:55,2021-09-07 13:56:55,0.127s,PASSED

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCC tN Test Moving Rows</name>
+   <tag>Issues tested: 160 455 742</tag>
+   <comment></comment>
+   <testCaseGuid>32fd8572-9283-4cb0-ae94-deee3ca5319d</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>11400f42-1d97-46ca-947b-37f6769286de</id>
+      <masked>false</masked>
+      <name>$username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9f88b676-3e14-482a-b488-5aa660d52081</id>
+      <masked>false</masked>
+      <name>$password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>not used except in Archives</description>
+      <id>11b97f9e-eb02-4547-91c2-c318ed1ae57d</id>
+      <masked>false</masked>
+      <name>$origQuote</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>not used except in Archives</description>
+      <id>6b2d5781-fb92-44d9-baa5-540290e023f4</id>
+      <masked>false</masked>
+      <name>$newOrigQuote</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test OrigLangQuoteForrmat</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6f7e3c39-a39d-4437-a032-337c1386b141</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a13e2476-2162-480e-9913-e0b7cdf3f21d</id>
+      <masked>false</masked>
+      <name>$username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a5c5bc3d-a543-48b9-a0a9-05ffe041b94a</id>
+      <masked>false</masked>
+      <name>$password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>not used except in Archives</description>
+      <id>95504b00-f3de-461f-b7da-b0c6c1036e06</id>
+      <masked>false</masked>
+      <name>$origQuote</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>not used except in Archives</description>
+      <id>9ce21bbd-f94c-43b2-a8c0-41bce0b7f252</id>
+      <masked>false</masked>
+      <name>$newOrigQuote</name>
+   </variable>
+</TestCaseEntity>

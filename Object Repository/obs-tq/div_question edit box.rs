@@ -6,12 +6,12 @@
    <elementGuidId>49a87b99-34c3-40ca-b8d2-42393aee0f9b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@contenteditable = 'true' and (contains(text(), 'Why were Adam and Eve not ashamed that they were naked?') or contains(., 'Why were Adam and Eve not ashamed that they were naked?'))]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.MuiGrid-root.jss64.MuiGrid-item.MuiGrid-grid-xs-12 > div.jss65 > div.jss66</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@contenteditable = 'true' and (starts-with(text(), 'Why were Adam') or starts-with(., 'Why were Adam'))]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -50,10 +50,10 @@
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>contains</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Why were Adam and Eve not ashamed that they were naked?</value>
+      <value>Why were Adam</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -1,0 +1,60 @@
+1
+00:00:00,000 --> 00:00:00,000
+9. com.helper.login.loginhelper.logintoapp()
+
+2
+00:00:00,000 --> 00:00:00,000
+13. com.tccreate.keywords.selectOrg.organization("")
+
+3
+00:00:00,000 --> 00:00:00,000
+17. com.tccreate.keywords.selectOrg.resource("unfoldingWord® Translation Notes")
+
+4
+00:00:00,000 --> 00:00:00,000
+21. com.tccreate.keywords.selectOrg.language("")
+
+5
+00:00:00,000 --> 00:00:00,000
+25. click(findTestObject("Object Repository/Page_tC Create/span_en_tn_57-TIT.tsv"))
+
+6
+00:00:00,000 --> 00:00:00,000
+29. click(findTestObject("Object Repository/Page_tC Create/div_Introduction to TitusPart 1"))
+
+7
+00:00:00,000 --> 00:00:00,000
+33. sendKeys(findTestObject("Object Repository/Page_tC Create/div_Introduction to TitusPart 1"), "edit again ")
+
+8
+00:00:00,000 --> 00:00:00,000
+37. driver = getWebDriver()
+
+9
+00:00:00,000 --> 00:00:00,000
+41. action = new org.openqa.selenium.interactions.Actions(driver)
+
+10
+00:00:00,000 --> 00:00:00,000
+45. keyUp(COMMAND).perform()
+
+11
+00:00:00,000 --> 00:00:00,000
+49. sendKeys(findTestObject("Object Repository/Page_tC Create/div_Introduction to TitusPart 1"), Keys.chord(COMMAND, "z"))
+
+12
+00:00:00,000 --> 00:00:00,000
+53. logInfo("Text is cleared successfully by undo action")
+
+13
+00:00:00,000 --> 00:00:00,000
+57. closeBrowser()
+
+14
+00:00:00,000 --> 00:00:00,000
+1. com.tccreate.keywords.WriteToFile.writeTofilename("tA-Add or delete row")
+
+15
+00:00:00,000 --> 00:00:00,000
+5. com.helper.login.TimeDate.getTimeDate()
+

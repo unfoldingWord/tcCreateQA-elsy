@@ -1,0 +1,108 @@
+1
+00:00:00,000 --> 00:00:00,000
+5. println(testCaseContext.getTestCaseVariables())
+
+2
+00:00:00,000 --> 00:00:00,000
+1. com.tccreate.keywords.WriteToFile.writeTofilename("tW-Save")
+
+3
+00:00:00,000 --> 00:00:00,000
+5. com.helper.login.TimeDate.getTimeDate()
+
+4
+00:00:00,000 --> 00:00:00,000
+9. com.helper.login.loginhelper.logintoapp()
+
+5
+00:00:00,000 --> 00:00:00,000
+13. com.tccreate.keywords.selectOrg.organization("")
+
+6
+00:00:00,000 --> 00:00:00,000
+17. com.tccreate.keywords.selectOrg.resource("unfoldingWord® Translation Words")
+
+7
+00:00:00,000 --> 00:00:00,000
+21. com.tccreate.keywords.selectOrg.language("")
+
+8
+00:00:00,000 --> 00:00:00,000
+25. click(findTestObject("tW Objects/span_bible"))
+
+9
+00:00:00,000 --> 00:00:00,000
+29. click(findTestObject("tW Objects/span_kt"))
+
+10
+00:00:00,000 --> 00:00:00,000
+33. click(findTestObject("tW Objects/span_almighty.md"))
+
+11
+00:00:00,000 --> 00:00:00,000
+37. click(findTestObject("tW Objects/h1_Almighty"))
+
+12
+00:00:00,000 --> 00:00:00,000
+41. sendKeys(findTestObject("tW Objects/h1_Almighty"), "  edits by a test script")
+
+13
+00:00:00,000 --> 00:00:00,000
+45. click(findTestObject("Object Repository/Page_tC Create/button_Save"))
+
+14
+00:00:00,000 --> 00:00:00,000
+49. delay(2)
+
+15
+00:00:00,000 --> 00:00:00,000
+53. if (verifyElementNotClickable(findTestObject("Page_tC Create/button_Save"), CONTINUE_ON_FAILURE))
+
+16
+00:00:00,000 --> 00:00:00,000
+1. logInfo(" Save button is greyed out as expected")
+
+17
+00:00:00,000 --> 00:00:00,000
+57. click(findTestObject("Object Repository/tW Objects/chip_English - unfoldingWorden_twElsyLambert-tc-create-1"))
+
+18
+00:00:00,000 --> 00:00:00,000
+61. delay(2)
+
+19
+00:00:00,000 --> 00:00:00,000
+65. switchToWindowIndex(1)
+
+20
+00:00:00,000 --> 00:00:00,000
+69. if (getText(findTestObject("Object Repository/tW Objects/h1_Almighty article on DCS")).contains("edits by a test script"))
+
+21
+00:00:00,000 --> 00:00:00,000
+1. logInfo("The edits are saved on the DCS Repo File")
+
+22
+00:00:00,000 --> 00:00:00,000
+73. switchToWindowIndex(0)
+
+23
+00:00:00,000 --> 00:00:00,000
+77. closeBrowser()
+
+24
+00:00:00,000 --> 00:00:00,000
+81. closeBrowser()
+
+25
+00:00:00,000 --> 00:00:00,000
+1. println(testCaseContext.getTestCaseId())
+
+26
+00:00:00,000 --> 00:00:00,000
+5. println(testCaseContext.getTestCaseStatus())
+
+27
+00:00:00,000 --> 00:00:00,000
+1. println(testCaseContext.getTestCaseId())
+

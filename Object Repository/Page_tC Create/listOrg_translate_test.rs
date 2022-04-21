@@ -3,15 +3,19 @@
    <description></description>
    <name>listOrg_translate_test</name>
    <tag></tag>
-   <elementGuidId>964db678-ee1e-468b-b686-a08f6ea24797</elementGuidId>
+   <elementGuidId>02bfa44f-564b-49af-bff8-76862fb52cb4</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.MuiTypography-root.MuiListItemText-primary.MuiTypography-body1.MuiTypography-displayBlock</value>
+      </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='root']/div/div/div/div/div[2]/div/ul/ul/div/div/div[2]/span</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>span.MuiTypography-root.MuiListItemText-primary.MuiTypography-body1.MuiTypography-displayBlock</value>
+         <key>BASIC</key>
+         <value>//*[(text() = 'translate_test' or . = 'translate_test')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

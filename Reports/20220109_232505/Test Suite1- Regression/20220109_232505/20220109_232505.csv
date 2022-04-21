@@ -1,0 +1,244 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite1- Regression,,,,2022-01-09 23:25:06,2022-01-09 23:25:54,47.828s,FAILED
+,,,,,,,
+Test Cases/tCC Test Cases/tN_Parallel Scripture viewer,,,#415,2022-01-09 23:25:07,2022-01-09 23:25:11,4.637s,FAILED
+"com.tccreate.keywords.WriteToFile.writeTofilename(""tN-Parallel Scripture Viewer"")",,,,2022-01-09 23:25:07,2022-01-09 23:25:07,0.148s,PASSED
+com.helper.login.TimeDate.getTimeDate(),,,,2022-01-09 23:25:07,2022-01-09 23:25:07,0.026s,PASSED
+com.helper.login.loginhelper.logintoapp(),,,,2022-01-09 23:25:07,2022-01-09 23:25:11,3.871s,FAILED
+"com.tccreate.keywords.selectOrg.organization("""")",,,,2022-01-09 23:25:11,2022-01-09 23:25:11,0.089s,FAILED
+"com.tccreate.keywords.selectOrg.resource(""unfoldingWord® Translation Notes"")",,,,2022-01-09 23:25:11,2022-01-09 23:25:11,0.051s,FAILED
+"com.tccreate.keywords.selectOrg.language("""")",,,,2022-01-09 23:25:11,2022-01-09 23:25:11,0.072s,FAILED
+"click(findTestObject(""Object Repository/Page_tC Create/span_en_tn_57-TIT.tsv""))",,,,2022-01-09 23:25:11,2022-01-09 23:25:11,0.027s,FAILED
+"com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScripture(""""test"""")",,,,2022-01-09 23:25:11,2022-01-09 23:25:11,0.121s,FAILED
+,,,,,,,
+Test Cases/tCC Test Cases/tCC_Link to Organization page,,,#338,2022-01-09 23:25:11,2022-01-09 23:25:14,2.909s,FAILED
+"com.tccreate.keywords.WriteToFile.writeTofilename(""Links to Org page"")",,,,2022-01-09 23:25:11,2022-01-09 23:25:11,0.003s,PASSED
+com.helper.login.TimeDate.getTimeDate(),,,,2022-01-09 23:25:11,2022-01-09 23:25:11,0.002s,PASSED
+com.helper.login.loginhelper.logintoapp(),,,,2022-01-09 23:25:11,2022-01-09 23:25:14,2.613s,FAILED
+"verifyElementPresent(findTestObject(""Object Repository/Organization Link/span_unfoldingWord""), 1)",,,,2022-01-09 23:25:14,2022-01-09 23:25:14,0.039s,FAILED
+"expectedTooltip = ""Go to Organization""",,,,2022-01-09 23:25:14,2022-01-09 23:25:14,0.001s,PASSED
+"actualTooltip = getAttribute(findTestObject(""Object Repository/Organization Link/button_unfoldingWord_MuiButtonBase-root MuiIconButton-root""), ""title"")",,,,2022-01-09 23:25:14,2022-01-09 23:25:14,0.032s,FAILED
+"out.println(""Actual Title of Tool Tip"" + actualTooltip)",,,,2022-01-09 23:25:14,2022-01-09 23:25:14,0.008s,PASSED
+if (actualTooltip.equals(expectedTooltip)),,,,2022-01-09 23:25:14,2022-01-09 23:25:14,0.001s,PASSED
+else,,,,2022-01-09 23:25:14,2022-01-09 23:25:14,0.001s,PASSED
+"click(findTestObject(""Object Repository/Organization Link/button_unfoldingWord_MuiButtonBase-root MuiIconButton-root""))",,,,2022-01-09 23:25:14,2022-01-09 23:25:14,0.028s,FAILED
+switchToWindowIndex(1),,,,2022-01-09 23:25:14,2022-01-09 23:25:14,0.009s,FAILED
+"if (verifyElementVisible(findTestObject(""Object Repository/Organization Link/div_unfoldingWord""), CONTINUE_ON_FAILURE))",,,,2022-01-09 23:25:14,2022-01-09 23:25:14,0.031s,FAILED
+else,,,,2022-01-09 23:25:14,2022-01-09 23:25:14,0.002s,PASSED
+switchToWindowIndex(0),,,,2022-01-09 23:25:14,2022-01-09 23:25:14,0.005s,FAILED
+closeBrowser(),,,,2022-01-09 23:25:14,2022-01-09 23:25:14,0.007s,PASSED
+,,,,,,,
+Test Cases/tCC Test Cases/tN_undo text in tN Editor,,,,2022-01-09 23:25:14,2022-01-09 23:25:17,2.968s,FAILED
+"com.tccreate.keywords.WriteToFile.writeTofilename(""tN-undo editing"")",,,,2022-01-09 23:25:14,2022-01-09 23:25:14,0.003s,PASSED
+com.helper.login.TimeDate.getTimeDate(),,,,2022-01-09 23:25:14,2022-01-09 23:25:14,0.001s,PASSED
+com.helper.login.loginhelper.logintoapp(),,,,2022-01-09 23:25:14,2022-01-09 23:25:17,2.561s,FAILED
+"com.tccreate.keywords.selectOrg.organization("""")",,,,2022-01-09 23:25:17,2022-01-09 23:25:17,0.048s,FAILED
+"com.tccreate.keywords.selectOrg.resource(""unfoldingWord® Translation Notes"")",,,,2022-01-09 23:25:17,2022-01-09 23:25:17,0.040s,FAILED
+"com.tccreate.keywords.selectOrg.language("""")",,,,2022-01-09 23:25:17,2022-01-09 23:25:17,0.074s,FAILED
+"click(findTestObject(""Object Repository/Page_tC Create/span_en_tn_57-TIT.tsv""))",,,,2022-01-09 23:25:17,2022-01-09 23:25:17,0.026s,FAILED
+"click(findTestObject(""Object Repository/Page_tC Create/div_Introduction to TitusPart 1""))",,,,2022-01-09 23:25:17,2022-01-09 23:25:17,0.027s,FAILED
+"sendKeys(findTestObject(""Object Repository/Page_tC Create/div_Introduction to TitusPart 1""), ""edit again "")",,,,2022-01-09 23:25:17,2022-01-09 23:25:17,0.026s,FAILED
+driver = getWebDriver(),,,,2022-01-09 23:25:17,2022-01-09 23:25:17,0.001s,ERROR
+,,,,,,,
+Test Cases/tCC Test Cases/tN_Add or Delete a Row,,,,2022-01-09 23:25:17,2022-01-09 23:25:20,3.212s,FAILED
+"com.tccreate.keywords.WriteToFile.writeTofilename(""tA-Add or delete row"")",,,,2022-01-09 23:25:17,2022-01-09 23:25:17,0.004s,PASSED
+com.helper.login.TimeDate.getTimeDate(),,,,2022-01-09 23:25:17,2022-01-09 23:25:17,0.001s,PASSED
+com.helper.login.loginhelper.logintoapp(),,,,2022-01-09 23:25:17,2022-01-09 23:25:20,2.605s,FAILED
+"com.tccreate.keywords.selectOrg.organization("""")",,,,2022-01-09 23:25:20,2022-01-09 23:25:20,0.044s,FAILED
+"com.tccreate.keywords.selectOrg.resource(""unfoldingWord® Translation Notes"")",,,,2022-01-09 23:25:20,2022-01-09 23:25:20,0.040s,FAILED
+"com.tccreate.keywords.selectOrg.language("""")",,,,2022-01-09 23:25:20,2022-01-09 23:25:20,0.065s,FAILED
+"click(findTestObject(""Page_tC Create/Add new resource objects/span_en_tn_57-TIT.tsv""))",,,,2022-01-09 23:25:20,2022-01-09 23:25:20,0.026s,FAILED
+"click(findTestObject(""Object Repository/tN objects/button_view columns""))",,,,2022-01-09 23:25:20,2022-01-09 23:25:20,0.026s,FAILED
+"click(findTestObject(""Object Repository/tN objects/input_ID""))",,,,2022-01-09 23:25:20,2022-01-09 23:25:20,0.025s,FAILED
+"click(findTestObject(""tN objects/button__Close-Columns""))",,,,2022-01-09 23:25:20,2022-01-09 23:25:20,0.030s,FAILED
+"scrollToElement(findTestObject(""Object Repository/tN objects/div_Titus 11""), 2)",,,,2022-01-09 23:25:20,2022-01-09 23:25:20,0.031s,FAILED
+"click(findTestObject(""Object Repository/tN objects/button_Titus 11_add a new row""))",,,,2022-01-09 23:25:20,2022-01-09 23:25:20,0.033s,FAILED
+"click(findTestObject(""Object Repository/tN objects/button_Add""))",,,,2022-01-09 23:25:20,2022-01-09 23:25:20,0.027s,FAILED
+"if (verifyElementVisible(findTestObject(""Object Repository/tN objects/p_empty"")))",,,,2022-01-09 23:25:20,2022-01-09 23:25:20,0.030s,FAILED
+else,,,,2022-01-09 23:25:20,2022-01-09 23:25:20,0.002s,PASSED
+"click(findTestObject(""Object Repository/tN objects/button_Titus 11_Delete new row""))",,,,2022-01-09 23:25:20,2022-01-09 23:25:20,0.031s,FAILED
+"click(findTestObject(""Object Repository/tN objects/span_Delete""))",,,,2022-01-09 23:25:20,2022-01-09 23:25:20,0.038s,FAILED
+"if (verifyElementVisible(findTestObject(""Object Repository/tN objects/p_empty"")))",,,,2022-01-09 23:25:20,2022-01-09 23:25:20,0.027s,FAILED
+else,,,,2022-01-09 23:25:20,2022-01-09 23:25:20,0.001s,PASSED
+closeBrowser(),,,,2022-01-09 23:25:20,2022-01-09 23:25:20,0.003s,PASSED
+,,,,,,,
+Test Cases/tCC Test Cases/tN_Expand chapter,,,,2022-01-09 23:25:20,2022-01-09 23:25:23,3.075s,FAILED
+"com.tccreate.keywords.WriteToFile.writeTofilename(""tN-Expand chapter"")",,,,2022-01-09 23:25:21,2022-01-09 23:25:21,0.003s,PASSED
+com.helper.login.TimeDate.getTimeDate(),,,,2022-01-09 23:25:21,2022-01-09 23:25:21,0.001s,PASSED
+com.helper.login.loginhelper.logintoapp(),,,,2022-01-09 23:25:21,2022-01-09 23:25:23,2.588s,FAILED
+"com.tccreate.keywords.selectOrg.organization("""")",,,,2022-01-09 23:25:23,2022-01-09 23:25:23,0.045s,FAILED
+"com.tccreate.keywords.selectOrg.resource(""unfoldingWord® Translation Notes"")",,,,2022-01-09 23:25:23,2022-01-09 23:25:23,0.040s,FAILED
+"com.tccreate.keywords.selectOrg.language("""")",,,,2022-01-09 23:25:23,2022-01-09 23:25:23,0.069s,FAILED
+"click(findTestObject(""Page_tC Create/Add new resource objects/span_en_tn_57-TIT.tsv""))",,,,2022-01-09 23:25:23,2022-01-09 23:25:23,0.028s,FAILED
+"buttonstate = com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScripture(""test"")",,,,2022-01-09 23:25:23,2022-01-09 23:25:23,0.110s,FAILED
+,,,,,,,
+Test Cases/tCC Test Cases/tN_Highlighting by Occurrence Number,,,"rcl-#47, tcc-app-#94",2022-01-09 23:25:23,2022-01-09 23:25:27,3.165s,FAILED
+"com.tccreate.keywords.WriteToFile.writeTofilename(""tN-Highlighting by occurrence number"")",,,,2022-01-09 23:25:24,2022-01-09 23:25:24,0.003s,PASSED
+com.helper.login.TimeDate.getTimeDate(),,,,2022-01-09 23:25:24,2022-01-09 23:25:24,0.001s,PASSED
+com.helper.login.loginhelper.logintoapp(),,,,2022-01-09 23:25:24,2022-01-09 23:25:26,2.539s,FAILED
+"com.tccreate.keywords.selectOrg.organization("""")",,,,2022-01-09 23:25:26,2022-01-09 23:25:26,0.043s,FAILED
+"com.tccreate.keywords.selectOrg.resource(""unfoldingWord® Translation Notes"")",,,,2022-01-09 23:25:26,2022-01-09 23:25:26,0.038s,FAILED
+"com.tccreate.keywords.selectOrg.language("""")",,,,2022-01-09 23:25:26,2022-01-09 23:25:26,0.064s,FAILED
+"click(findTestObject(""Object Repository/Page_tC Create/span_en_tn_57-TIT.tsv""))",,,,2022-01-09 23:25:26,2022-01-09 23:25:26,0.031s,FAILED
+"click(findTestObject(""Object Repository/tN objects/button_view columns""))",,,,2022-01-09 23:25:26,2022-01-09 23:25:26,0.028s,FAILED
+"click(findTestObject(""tN objects/input_OrigQuote_checkbox""))",,,,2022-01-09 23:25:26,2022-01-09 23:25:26,0.028s,FAILED
+"click(findTestObject(""Object Repository/tN objects/input_SupportReference""))",,,,2022-01-09 23:25:26,2022-01-09 23:25:26,0.028s,FAILED
+"click(findTestObject(""tN objects/button__Close-Columns""))",,,,2022-01-09 23:25:26,2022-01-09 23:25:26,0.030s,FAILED
+"buttonstate = com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScripture(""test"")",,,,2022-01-09 23:25:26,2022-01-09 23:25:27,0.137s,FAILED
+,,,,,,,
+Test Cases/tCC Test Cases/tW_Saving tW Article,,,,2022-01-09 23:25:27,2022-01-09 23:25:34,7.242s,FAILED
+"com.tccreate.keywords.WriteToFile.writeTofilename(""tW-Save"")",,,,2022-01-09 23:25:27,2022-01-09 23:25:27,0.004s,PASSED
+com.helper.login.TimeDate.getTimeDate(),,,,2022-01-09 23:25:27,2022-01-09 23:25:27,0.002s,PASSED
+com.helper.login.loginhelper.logintoapp(),,,,2022-01-09 23:25:27,2022-01-09 23:25:30,2.646s,FAILED
+"com.tccreate.keywords.selectOrg.organization("""")",,,,2022-01-09 23:25:30,2022-01-09 23:25:30,0.041s,FAILED
+"com.tccreate.keywords.selectOrg.resource(""unfoldingWord® Translation Words"")",,,,2022-01-09 23:25:30,2022-01-09 23:25:30,0.037s,FAILED
+"com.tccreate.keywords.selectOrg.language("""")",,,,2022-01-09 23:25:30,2022-01-09 23:25:30,0.058s,FAILED
+"click(findTestObject(""tW Objects/span_bible""))",,,,2022-01-09 23:25:30,2022-01-09 23:25:30,0.022s,FAILED
+"click(findTestObject(""tW Objects/span_kt""))",,,,2022-01-09 23:25:30,2022-01-09 23:25:30,0.023s,FAILED
+"click(findTestObject(""tW Objects/span_almighty.md""))",,,,2022-01-09 23:25:30,2022-01-09 23:25:30,0.024s,FAILED
+"click(findTestObject(""tW Objects/h1_Almighty""))",,,,2022-01-09 23:25:30,2022-01-09 23:25:30,0.025s,FAILED
+"sendKeys(findTestObject(""tW Objects/h1_Almighty""), ""  edits by a test script"")",,,,2022-01-09 23:25:30,2022-01-09 23:25:30,0.026s,FAILED
+"click(findTestObject(""Object Repository/Page_tC Create/button_Save""))",,,,2022-01-09 23:25:30,2022-01-09 23:25:30,0.024s,FAILED
+delay(2),,,,2022-01-09 23:25:30,2022-01-09 23:25:32,2.003s,PASSED
+"if (verifyElementNotClickable(findTestObject(""Page_tC Create/button_Save""), CONTINUE_ON_FAILURE))",,,,2022-01-09 23:25:32,2022-01-09 23:25:32,0.031s,FAILED
+else,,,,2022-01-09 23:25:32,2022-01-09 23:25:32,0.001s,PASSED
+"click(findTestObject(""Object Repository/tW Objects/chip_English - unfoldingWorden_twElsyLambert-tc-create-1""))",,,,2022-01-09 23:25:32,2022-01-09 23:25:32,0.024s,FAILED
+delay(2),,,,2022-01-09 23:25:32,2022-01-09 23:25:34,2.002s,PASSED
+switchToWindowIndex(1),,,,2022-01-09 23:25:34,2022-01-09 23:25:34,0.006s,FAILED
+"if (getText(findTestObject(""Object Repository/tW Objects/h1_Almighty article on DCS"")).contains(""edits by a test script""))",,,,2022-01-09 23:25:34,2022-01-09 23:25:34,0.026s,ERROR
+,,,,,,,
+Test Cases/tCC Test Cases/tA_Saving tA Article,,,,2022-01-09 23:25:34,2022-01-09 23:25:41,7.178s,FAILED
+"com.tccreate.keywords.WriteToFile.writeTofilename(""tA-Save"")",,,,2022-01-09 23:25:34,2022-01-09 23:25:34,0.002s,PASSED
+com.helper.login.TimeDate.getTimeDate(),,,,2022-01-09 23:25:34,2022-01-09 23:25:34,0.001s,PASSED
+com.helper.login.loginhelper.logintoapp(),,,,2022-01-09 23:25:34,2022-01-09 23:25:37,2.582s,FAILED
+"com.tccreate.keywords.selectOrg.organization("""")",,,,2022-01-09 23:25:37,2022-01-09 23:25:37,0.042s,FAILED
+"com.tccreate.keywords.selectOrg.resource(""unfoldingWord® Translation Academy"")",,,,2022-01-09 23:25:37,2022-01-09 23:25:37,0.043s,FAILED
+"com.tccreate.keywords.selectOrg.language("""")",,,,2022-01-09 23:25:37,2022-01-09 23:25:37,0.073s,FAILED
+"click(findTestObject(""Page_tC Create/span_translate""))",,,,2022-01-09 23:25:37,2022-01-09 23:25:37,0.032s,FAILED
+"click(findTestObject(""Object Repository/Page_tC Create/span_bita-farming""))",,,,2022-01-09 23:25:37,2022-01-09 23:25:37,0.035s,FAILED
+"click(findTestObject(""Object Repository/Page_tC Create/span_01.md""))",,,,2022-01-09 23:25:37,2022-01-09 23:25:37,0.035s,FAILED
+"click(findTestObject(""Object Repository/Page_tC Create/div_A FARMER represents God, and the VINEYA_8b10d9""))",,,,2022-01-09 23:25:37,2022-01-09 23:25:37,0.044s,FAILED
+"sendKeys(findTestObject(""Object Repository/tA/div_A FARMER represents God,edit box""), "" test edit by the test script"")",,,,2022-01-09 23:25:37,2022-01-09 23:25:37,0.027s,FAILED
+"click(findTestObject(""Page_tC Create/button_Save""))",,,,2022-01-09 23:25:37,2022-01-09 23:25:37,0.026s,FAILED
+delay(2),,,,2022-01-09 23:25:37,2022-01-09 23:25:39,2.006s,PASSED
+"if (verifyElementNotClickable(findTestObject(""Page_tC Create/button_Save""), CONTINUE_ON_FAILURE))",,,,2022-01-09 23:25:39,2022-01-09 23:25:39,0.030s,FAILED
+else,,,,2022-01-09 23:25:39,2022-01-09 23:25:39,0.002s,PASSED
+"click(findTestObject(""Object Repository/tA/Chip_English - unfoldingWorden_taElsyLambert-tc-create-1""))",,,,2022-01-09 23:25:39,2022-01-09 23:25:39,0.027s,FAILED
+delay(2),,,,2022-01-09 23:25:39,2022-01-09 23:25:41,2.007s,PASSED
+switchToWindowIndex(1),,,,2022-01-09 23:25:41,2022-01-09 23:25:41,0.005s,FAILED
+"if (getText(findTestObject(""Object Repository/tA/h4_dcs article"")).contains(""test edit by the test script""))",,,,2022-01-09 23:25:41,2022-01-09 23:25:41,0.027s,ERROR
+,,,,,,,
+Test Cases/tCC Test Cases/tN_Add New Resource,,,#322,2022-01-09 23:25:41,2022-01-09 23:25:44,3.044s,FAILED
+"com.tccreate.keywords.WriteToFile.writeTofilename(""tN-Add new resource"")",,,,2022-01-09 23:25:41,2022-01-09 23:25:41,0.003s,PASSED
+com.helper.login.TimeDate.getTimeDate(),,,,2022-01-09 23:25:41,2022-01-09 23:25:41,0.001s,PASSED
+com.helper.login.loginhelper.logintoapp(),,,,2022-01-09 23:25:41,2022-01-09 23:25:44,2.593s,FAILED
+"com.tccreate.keywords.selectOrg.organization("""")",,,,2022-01-09 23:25:44,2022-01-09 23:25:44,0.044s,FAILED
+"com.tccreate.keywords.selectOrg.resource(""unfoldingWord® Translation Notes"")",,,,2022-01-09 23:25:44,2022-01-09 23:25:44,0.041s,FAILED
+"com.tccreate.keywords.selectOrg.language("""")",,,,2022-01-09 23:25:44,2022-01-09 23:25:44,0.071s,FAILED
+"click(findTestObject(""Page_tC Create/Add new resource objects/span_en_tn_57-TIT.tsv""))",,,,2022-01-09 23:25:44,2022-01-09 23:25:44,0.026s,FAILED
+"buttonstate = com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScripture(""test"")",,,,2022-01-09 23:25:44,2022-01-09 23:25:44,0.100s,FAILED
+,,,,,,,
+Test Cases/tCC Test Cases/tN_Tool Tips,,,,2022-01-09 23:25:44,2022-01-09 23:25:51,7.208s,FAILED
+"com.tccreate.keywords.WriteToFile.writeTofilename(""tN-ToolTips"")",,,,2022-01-09 23:25:44,2022-01-09 23:25:44,0.002s,PASSED
+com.helper.login.TimeDate.getTimeDate(),,,,2022-01-09 23:25:44,2022-01-09 23:25:44,0.001s,PASSED
+com.helper.login.loginhelper.logintoapp(),,,,2022-01-09 23:25:44,2022-01-09 23:25:47,2.476s,FAILED
+"com.tccreate.keywords.selectOrg.organization("""")",,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.043s,FAILED
+"com.tccreate.keywords.selectOrg.resource(""unfoldingWord® Translation Notes"")",,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.039s,FAILED
+"com.tccreate.keywords.selectOrg.language("""")",,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.064s,FAILED
+"click(findTestObject(""Page_tC Create/Add new resource objects/span_en_tn_57-TIT.tsv""))",,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.026s,FAILED
+"testToolTip(""Object Repository/Tool tips/button_Search"", ""Search"")",,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.000s,PASSED
+"actualTooltip = getAttribute(findTestObject(button), ""title"")",,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.026s,FAILED
+"out.println(""Actual Title of Tool Tip for button "" + toolTip + "" is "" + actualTooltip)",,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.001s,PASSED
+expectedTooltip = toolTip,,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.000s,PASSED
+if (actualTooltip.equals(expectedTooltip)),,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.000s,PASSED
+else,,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.001s,PASSED
+"testToolTip(""Object Repository/Tool tips/button_Filter table"", ""Filter Table"")",,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.001s,PASSED
+"actualTooltip = getAttribute(findTestObject(button), ""title"")",,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.026s,FAILED
+"out.println(""Actual Title of Tool Tip for button "" + toolTip + "" is "" + actualTooltip)",,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.001s,PASSED
+expectedTooltip = toolTip,,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.000s,PASSED
+if (actualTooltip.equals(expectedTooltip)),,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.000s,PASSED
+else,,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.000s,PASSED
+"testToolTip(""Object Repository/Tool tips/button_view columns"", ""View Columns"")",,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.001s,PASSED
+"actualTooltip = getAttribute(findTestObject(button), ""title"")",,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.025s,FAILED
+"out.println(""Actual Title of Tool Tip for button "" + toolTip + "" is "" + actualTooltip)",,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.000s,PASSED
+expectedTooltip = toolTip,,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.000s,PASSED
+if (actualTooltip.equals(expectedTooltip)),,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.000s,PASSED
+else,,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.001s,PASSED
+"testToolTip(""Object Repository/Tool tips/button_Validate"", ""Validate"")",,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.000s,PASSED
+"actualTooltip = getAttribute(findTestObject(button), ""title"")",,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.026s,FAILED
+"out.println(""Actual Title of Tool Tip for button "" + toolTip + "" is "" + actualTooltip)",,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.000s,PASSED
+expectedTooltip = toolTip,,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.001s,PASSED
+if (actualTooltip.equals(expectedTooltip)),,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.000s,PASSED
+else,,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.001s,PASSED
+"testToolTip(""Object Repository/Tool tips/button_Preview"", ""Preview"")",,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.000s,PASSED
+"actualTooltip = getAttribute(findTestObject(button), ""title"")",,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.026s,FAILED
+"out.println(""Actual Title of Tool Tip for button "" + toolTip + "" is "" + actualTooltip)",,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.001s,PASSED
+expectedTooltip = toolTip,,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.000s,PASSED
+if (actualTooltip.equals(expectedTooltip)),,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.000s,PASSED
+else,,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.000s,PASSED
+"testToolTip(""Object Repository/Tool tips/button_add a new row"", ""Add a Row"")",,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.001s,PASSED
+"actualTooltip = getAttribute(findTestObject(button), ""title"")",,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.026s,FAILED
+"out.println(""Actual Title of Tool Tip for button "" + toolTip + "" is "" + actualTooltip)",,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.001s,PASSED
+expectedTooltip = toolTip,,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.000s,PASSED
+if (actualTooltip.equals(expectedTooltip)),,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.000s,PASSED
+else,,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.001s,PASSED
+"testToolTip(""Object Repository/Tool tips/button_Delete new row"", ""Delete a Row"")",,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.001s,PASSED
+"actualTooltip = getAttribute(findTestObject(button), ""title"")",,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.025s,FAILED
+"out.println(""Actual Title of Tool Tip for button "" + toolTip + "" is "" + actualTooltip)",,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.001s,PASSED
+expectedTooltip = toolTip,,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.000s,PASSED
+if (actualTooltip.equals(expectedTooltip)),,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.000s,PASSED
+else,,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.000s,PASSED
+"testToolTip(""Object Repository/Tool tips/button_Move Row Down"", ""Move Row Down"")",,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.001s,PASSED
+"actualTooltip = getAttribute(findTestObject(button), ""title"")",,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.027s,FAILED
+"out.println(""Actual Title of Tool Tip for button "" + toolTip + "" is "" + actualTooltip)",,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.000s,PASSED
+expectedTooltip = toolTip,,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.000s,PASSED
+if (actualTooltip.equals(expectedTooltip)),,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.000s,PASSED
+else,,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.001s,PASSED
+"testToolTip(""Object Repository/Tool tips/button_Move row up"", ""Move Row Up"")",,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.000s,PASSED
+"actualTooltip = getAttribute(findTestObject(button), ""title"")",,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.027s,FAILED
+"out.println(""Actual Title of Tool Tip for button "" + toolTip + "" is "" + actualTooltip)",,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.000s,PASSED
+expectedTooltip = toolTip,,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.001s,PASSED
+if (actualTooltip.equals(expectedTooltip)),,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.000s,PASSED
+else,,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.001s,PASSED
+"testToolTip(""Object Repository/Tool tips/button_Manage Versions"", ""Manage Versions"")",,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.000s,PASSED
+"actualTooltip = getAttribute(findTestObject(button), ""title"")",,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.027s,FAILED
+"out.println(""Actual Title of Tool Tip for button "" + toolTip + "" is "" + actualTooltip)",,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.000s,PASSED
+expectedTooltip = toolTip,,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.000s,PASSED
+if (actualTooltip.equals(expectedTooltip)),,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.000s,PASSED
+else,,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.001s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Tool tips/button_Expand chapter""), 2)",,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.026s,FAILED
+"testToggleTip(""Object Repository/Tool tips/button_Expand chapter"", ""Expand Chapter"", ""Object Repository/Tool tips/button_collapse-chapter"", ""Collapse Chapter"")",,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.000s,PASSED
+"actualTooltip = getAttribute(findTestObject(button1), ""title"")",,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.027s,FAILED
+"out.println(""Actual Title of Tool Tip for button "" + toolTip + "" is "" + actualTooltip)",,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.001s,PASSED
+expectedTooltip = toolTip,,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.000s,PASSED
+if (actualTooltip.equals(expectedTooltip)),,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.000s,PASSED
+else,,,,2022-01-09 23:25:47,2022-01-09 23:25:47,0.001s,PASSED
+delay(2),,,,2022-01-09 23:25:47,2022-01-09 23:25:49,2.005s,PASSED
+click(findTestObject(button1)),,,,2022-01-09 23:25:49,2022-01-09 23:25:49,0.031s,FAILED
+button = toggleButton,,,,2022-01-09 23:25:49,2022-01-09 23:25:49,0.000s,PASSED
+toggleTipTest = toggleTip,,,,2022-01-09 23:25:49,2022-01-09 23:25:49,0.001s,PASSED
+"out.println(""Togglebutton"" + button)",,,,2022-01-09 23:25:49,2022-01-09 23:25:49,0.000s,PASSED
+"out.println(""ToggleTip"" + toggleTipTest)",,,,2022-01-09 23:25:49,2022-01-09 23:25:49,0.000s,PASSED
+delay(2),,,,2022-01-09 23:25:49,2022-01-09 23:25:51,2.006s,PASSED
+"testToolTip(button, toggleTipTest)",,,,2022-01-09 23:25:51,2022-01-09 23:25:51,0.000s,PASSED
+"actualTooltip = getAttribute(findTestObject(button), ""title"")",,,,2022-01-09 23:25:51,2022-01-09 23:25:51,0.030s,FAILED
+"out.println(""Actual Title of Tool Tip for button "" + toolTip + "" is "" + actualTooltip)",,,,2022-01-09 23:25:51,2022-01-09 23:25:51,0.001s,PASSED
+expectedTooltip = toolTip,,,,2022-01-09 23:25:51,2022-01-09 23:25:51,0.000s,PASSED
+if (actualTooltip.equals(expectedTooltip)),,,,2022-01-09 23:25:51,2022-01-09 23:25:51,0.000s,PASSED
+else,,,,2022-01-09 23:25:51,2022-01-09 23:25:51,0.000s,PASSED
+closeBrowser(),,,,2022-01-09 23:25:51,2022-01-09 23:25:51,0.003s,PASSED
+,,,,,,,
+Test Cases/tCC Test Cases/tA buttons funtions,,,,2022-01-09 23:25:51,2022-01-09 23:25:54,3.007s,FAILED
+"com.tccreate.keywords.WriteToFile.writeTofilename(""tA-buttons"")",,,,2022-01-09 23:25:51,2022-01-09 23:25:51,0.001s,PASSED
+com.helper.login.TimeDate.getTimeDate(),,,,2022-01-09 23:25:51,2022-01-09 23:25:51,0.002s,PASSED
+com.helper.login.loginhelper.logintoapp(),,,,2022-01-09 23:25:51,2022-01-09 23:25:54,2.524s,FAILED
+"com.tccreate.keywords.selectOrg.organization("""")",,,,2022-01-09 23:25:54,2022-01-09 23:25:54,0.046s,FAILED
+"com.tccreate.keywords.selectOrg.resource(""unfoldingWord® Translation Academy"")",,,,2022-01-09 23:25:54,2022-01-09 23:25:54,0.042s,FAILED
+"com.tccreate.keywords.selectOrg.language("""")",,,,2022-01-09 23:25:54,2022-01-09 23:25:54,0.071s,FAILED
+"click(findTestObject(""Page_tC Create/span_translate""))",,,,2022-01-09 23:25:54,2022-01-09 23:25:54,0.027s,FAILED
+"click(findTestObject(""Object Repository/Page_tC Create/span_bita-farming""))",,,,2022-01-09 23:25:54,2022-01-09 23:25:54,0.028s,FAILED
+"click(findTestObject(""Object Repository/Page_tC Create/span_01.md""))",,,,2022-01-09 23:25:54,2022-01-09 23:25:54,0.029s,FAILED
+"click(findTestObject(""Object Repository/tA/button_Sections""))",,,,2022-01-09 23:25:54,2022-01-09 23:25:54,0.032s,FAILED
+"if (verifyElementNotPresent(findTestObject(""Object Repository/tA/div_A FARMER represents God, collapse tab""), 2, CONTINUE_ON_FAILURE))",,,,2022-01-09 23:25:54,2022-01-09 23:25:54,0.051s,FAILED
+else,,,,2022-01-09 23:25:54,2022-01-09 23:25:54,0.003s,PASSED
+"if (getText(findTestObject(""Object Repository/tA/p_My well section"")).contains(""My well beloved had a vineyard""))",,,,2022-01-09 23:25:54,2022-01-09 23:25:54,0.028s,ERROR

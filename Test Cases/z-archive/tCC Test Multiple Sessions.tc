@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>tCC Test Multiple Sessions</name>
+   <tag>Issues 397, 331</tag>
+   <comment></comment>
+   <testCaseGuid>656906d3-0e2c-4886-a7da-ff520d7fd5ac</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cb953c31-2ace-4a89-9464-05ace89708cb</id>
+      <masked>false</masked>
+      <name>$username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>18648d48-ac46-43a6-bfba-8fe0716fdb14</id>
+      <masked>false</masked>
+      <name>$password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>not used except in Archives</description>
+      <id>83f89bed-b276-4449-a3c1-167ee259ee6c</id>
+      <masked>false</masked>
+      <name>$origQuote</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>not used except in Archives</description>
+      <id>b6200504-3d47-4a7f-ad3e-acb39c8d40f8</id>
+      <masked>false</masked>
+      <name>$newOrigQuote</name>
+   </variable>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>66081b30-34c9-477f-8852-dfbceaf5c3b6</id>
+      <masked>false</masked>
+      <name>$browser</name>
+   </variable>
+</TestCaseEntity>

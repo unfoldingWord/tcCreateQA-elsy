@@ -10,6 +10,10 @@
          <value>#header-1-intro-c7me > div.jss256 > div.jss258 > h6.MuiTypography-root-114.jss260.MuiTypography-h6-124</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//h6[(text() = 'tit 1:intro' or . = 'tit 1:intro')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='header-1-intro-c7me']/div/div/h6</value>
       </entry>
@@ -17,7 +21,7 @@
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -35,7 +39,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>TIT 1:intro</value>
+      <value>tit 1:intro</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -6,18 +6,18 @@
    <elementGuidId>d4ce0cf2-90b6-4150-9baf-fce3c7e6e2ff</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@class = 'MuiExpansionPanelSummary-content' and (text() = 'A FARMER represents God, and the VINEYARD represents his chosen people' or . = 'A FARMER represents God, and the VINEYARD represents his chosen people')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//div[@id='root']/div/div/div/div[2]/div[2]/div[2]/div/div</value>
+         <value>//div[@id='translatableComponent']/div/div[2]/div[2]/div/div[2]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -27,15 +27,15 @@
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>MuiExpansionPanelSummary-content</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <isSelected>false</isSelected>
+      <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>A FARMER represents God, and the VINEYARD represents his chosen people</value>

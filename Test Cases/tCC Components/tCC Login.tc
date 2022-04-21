@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>tCC Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>24050638-58c4-42cb-9b5e-35aec23c461e</testCaseGuid>
+   <variable>
+      <defaultValue>'tcc001'</defaultValue>
+      <description></description>
+      <id>05653dca-ea9d-458e-b7a2-c591fc2870f8</id>
+      <masked>false</masked>
+      <name>$username</name>
+   </variable>
+   <variable>
+      <defaultValue>'tcc001'</defaultValue>
+      <description></description>
+      <id>7f3565ba-8047-4b01-981b-1cde8e81d712</id>
+      <masked>false</masked>
+      <name>$password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f25e414f-6095-487f-b009-7eb2e4fcd66e</id>
+      <masked>false</masked>
+      <name>$origQuote</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>63c4ef5a-e8b6-435a-ac6c-aa0559f47d7e</id>
+      <masked>false</masked>
+      <name>$newOrigQuote</name>
+   </variable>
+</TestCaseEntity>

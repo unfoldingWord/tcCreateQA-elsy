@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>tCC tN Test Filters</name>
+   <tag>Issues 365, 428, 440, 463</tag>
+   <comment></comment>
+   <testCaseGuid>20e63492-0b13-4593-b8d9-aa89144e95f9</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>039758b4-2fa1-4391-a20c-abadd7e82274</id>
+      <masked>false</masked>
+      <name>$username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>22dd7e85-1ffd-4998-a2cf-736d671fc04c</id>
+      <masked>false</masked>
+      <name>$password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>not used except in Archives</description>
+      <id>a78f18eb-08df-4c11-ba6c-6e9a1a591e9b</id>
+      <masked>false</masked>
+      <name>$origQuote</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>not used except in Archives</description>
+      <id>fef80241-8ad8-40d9-bab3-b6937fe18deb</id>
+      <masked>false</masked>
+      <name>$newOrigQuote</name>
+   </variable>
+</TestCaseEntity>

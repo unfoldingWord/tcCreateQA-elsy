@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "B476B8716680DD5D03B7D61850934D1A",
+  "keywordClasses": [
+    {
+      "name": "unfoldingWord_Keywords.SikuliFunctions",
+      "keywordMethods": [
+        {
+          "name": "fileSaveAs",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

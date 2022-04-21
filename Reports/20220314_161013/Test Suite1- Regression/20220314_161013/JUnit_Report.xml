@@ -1,0 +1,1596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite1- Regression" time="2.623" tests="11" failures="0" errors="11">
+   <testsuite name="Test Suite1- Regression" tests="11" failures="0" errors="11" time="2.623" skipped="0" timestamp="2022-03-14 16:10:15" hostname="elsylitsonlambert - localhost" id="Test Suites/Test Suite1- Regression">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/elsylitsonlambert/git/tcCreateQA/Reports/20220314_161013/Test Suite1- Regression/20220314_161013"/>
+         <property name="logFiles" value="/Users/elsylitsonlambert/git/tcCreateQA/Reports/20220314_161013/Test Suite1- Regression/20220314_161013/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="elsylitsonlambert - localhost"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+      </properties>
+      <testcase name="Test Cases/tCC Test Cases/tN_Parallel Scripture viewer" time="0.706" classname="Test Cases/tCC Test Cases/tN_Parallel Scripture viewer" status="ERROR">
+         <error type="ERROR" message="Test Cases/tCC Test Cases/tN_Parallel Scripture viewer FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.helper.login.loginhelper.logintoapp(loginhelper.groovy:38)
+	at com.helper.login.loginhelper.invokeMethod(loginhelper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at tN_Parallel Scripture viewer.run(tN_Parallel Scripture viewer:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647288613761.run(TempTestSuite1647288613761.groovy:36)
+"/>
+         <system-out><![CDATA[2022-03-14 16:10:15 - [TEST_CASE][ERROR] - Test Cases/tCC Test Cases/tN_Parallel Scripture viewer: Test Cases/tCC Test Cases/tN_Parallel Scripture viewer FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.helper.login.loginhelper.logintoapp(loginhelper.groovy:38)
+	at com.helper.login.loginhelper.invokeMethod(loginhelper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at tN_Parallel Scripture viewer.run(tN_Parallel Scripture viewer:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647288613761.run(TempTestSuite1647288613761.groovy:36)
+
+
+2022-03-14 16:10:15 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2022-03-14 16:10:15 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-03-14 16:10:15 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2022-03-14 16:10:16 - [TEST_STEP][PASSED] - com.tccreate.keywords.WriteToFile.writeTofilename("tN-Parallel Scripture Viewer"): com.tccreate.keywords.WriteToFile.writeTofilename is PASSED
+
+2022-03-14 16:10:16 - [MESSAGE][PASSED] - com.tccreate.keywords.WriteToFile.writeTofilename is PASSED
+
+2022-03-14 16:10:16 - [TEST_STEP][PASSED] - com.helper.login.TimeDate.getTimeDate(): com.helper.login.TimeDate.getTimeDate is PASSED
+
+2022-03-14 16:10:16 - [MESSAGE][INFO] - Time at which the test run:2022-03-14 16:10:16.185
+
+2022-03-14 16:10:16 - [MESSAGE][PASSED] - com.helper.login.TimeDate.getTimeDate is PASSED
+
+2022-03-14 16:10:16 - [TEST_STEP][ERROR] - com.helper.login.loginhelper.logintoapp(): Test Cases/tCC Test Cases/tN_Parallel Scripture viewer FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:96)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:68)
+	at tN_Parallel Scripture viewer.run(tN_Parallel Scripture viewer:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647288613761.run(TempTestSuite1647288613761.groovy:36)
+Caused by: groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.helper.login.loginhelper.logintoapp(loginhelper.groovy:38)
+	at com.helper.login.loginhelper.invokeMethod(loginhelper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	... 14 more
+
+
+2022-03-14 16:10:16 - [MESSAGE][ERROR] - No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+
+2022-03-14 16:10:16 - [MESSAGE][ERROR] - Test Cases/tCC Test Cases/tN_Parallel Scripture viewer FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:96)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:68)
+	at tN_Parallel Scripture viewer.run(tN_Parallel Scripture viewer:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647288613761.run(TempTestSuite1647288613761.groovy:36)
+Caused by: groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.helper.login.loginhelper.logintoapp(loginhelper.groovy:38)
+	at com.helper.login.loginhelper.invokeMethod(loginhelper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	... 14 more
+
+
+2022-03-14 16:10:16 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2022-03-14 16:10:16 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-03-14 16:10:16 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[2022-03-14 16:10:15 - [TEST_CASE][ERROR] - Test Cases/tCC Test Cases/tN_Parallel Scripture viewer: Test Cases/tCC Test Cases/tN_Parallel Scripture viewer FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.helper.login.loginhelper.logintoapp(loginhelper.groovy:38)
+	at com.helper.login.loginhelper.invokeMethod(loginhelper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at tN_Parallel Scripture viewer.run(tN_Parallel Scripture viewer:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647288613761.run(TempTestSuite1647288613761.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/tCC Test Cases/tCC_Link to Organization page" time="0.139" classname="Test Cases/tCC Test Cases/tCC_Link to Organization page" status="ERROR">
+         <error type="ERROR" message="Test Cases/tCC Test Cases/tCC_Link to Organization page FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.helper.login.loginhelper.logintoapp(loginhelper.groovy:38)
+	at com.helper.login.loginhelper.invokeMethod(loginhelper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at tCC_Link to Organization page.run(tCC_Link to Organization page:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647288613761.run(TempTestSuite1647288613761.groovy:36)
+"/>
+         <system-out><![CDATA[2022-03-14 16:10:16 - [TEST_CASE][ERROR] - Test Cases/tCC Test Cases/tCC_Link to Organization page: Test Cases/tCC Test Cases/tCC_Link to Organization page FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.helper.login.loginhelper.logintoapp(loginhelper.groovy:38)
+	at com.helper.login.loginhelper.invokeMethod(loginhelper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at tCC_Link to Organization page.run(tCC_Link to Organization page:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647288613761.run(TempTestSuite1647288613761.groovy:36)
+
+
+2022-03-14 16:10:16 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2022-03-14 16:10:16 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-03-14 16:10:16 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2022-03-14 16:10:16 - [TEST_STEP][PASSED] - com.tccreate.keywords.WriteToFile.writeTofilename("Links to Org page"): com.tccreate.keywords.WriteToFile.writeTofilename is PASSED
+
+2022-03-14 16:10:16 - [MESSAGE][PASSED] - com.tccreate.keywords.WriteToFile.writeTofilename is PASSED
+
+2022-03-14 16:10:16 - [TEST_STEP][PASSED] - com.helper.login.TimeDate.getTimeDate(): com.helper.login.TimeDate.getTimeDate is PASSED
+
+2022-03-14 16:10:16 - [MESSAGE][INFO] - Time at which the test run:2022-03-14 16:10:16.689
+
+2022-03-14 16:10:16 - [MESSAGE][PASSED] - com.helper.login.TimeDate.getTimeDate is PASSED
+
+2022-03-14 16:10:16 - [TEST_STEP][ERROR] - com.helper.login.loginhelper.logintoapp(): Test Cases/tCC Test Cases/tCC_Link to Organization page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:96)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:68)
+	at tCC_Link to Organization page.run(tCC_Link to Organization page:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647288613761.run(TempTestSuite1647288613761.groovy:36)
+Caused by: groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.helper.login.loginhelper.logintoapp(loginhelper.groovy:38)
+	at com.helper.login.loginhelper.invokeMethod(loginhelper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	... 14 more
+
+
+2022-03-14 16:10:16 - [MESSAGE][ERROR] - No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+
+2022-03-14 16:10:16 - [MESSAGE][ERROR] - Test Cases/tCC Test Cases/tCC_Link to Organization page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:96)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:68)
+	at tCC_Link to Organization page.run(tCC_Link to Organization page:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647288613761.run(TempTestSuite1647288613761.groovy:36)
+Caused by: groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.helper.login.loginhelper.logintoapp(loginhelper.groovy:38)
+	at com.helper.login.loginhelper.invokeMethod(loginhelper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	... 14 more
+
+
+2022-03-14 16:10:16 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2022-03-14 16:10:16 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-03-14 16:10:16 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[2022-03-14 16:10:16 - [TEST_CASE][ERROR] - Test Cases/tCC Test Cases/tCC_Link to Organization page: Test Cases/tCC Test Cases/tCC_Link to Organization page FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.helper.login.loginhelper.logintoapp(loginhelper.groovy:38)
+	at com.helper.login.loginhelper.invokeMethod(loginhelper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at tCC_Link to Organization page.run(tCC_Link to Organization page:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647288613761.run(TempTestSuite1647288613761.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/tCC Test Cases/tN_undo text in tN Editor" time="0.176" classname="Test Cases/tCC Test Cases/tN_undo text in tN Editor" status="ERROR">
+         <error type="ERROR" message="Test Cases/tCC Test Cases/tN_undo text in tN Editor FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.helper.login.loginhelper.logintoapp(loginhelper.groovy:38)
+	at com.helper.login.loginhelper.invokeMethod(loginhelper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at tN_undo text in tN Editor.run(tN_undo text in tN Editor:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647288613761.run(TempTestSuite1647288613761.groovy:36)
+"/>
+         <system-out><![CDATA[2022-03-14 16:10:16 - [TEST_CASE][ERROR] - Test Cases/tCC Test Cases/tN_undo text in tN Editor: Test Cases/tCC Test Cases/tN_undo text in tN Editor FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.helper.login.loginhelper.logintoapp(loginhelper.groovy:38)
+	at com.helper.login.loginhelper.invokeMethod(loginhelper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at tN_undo text in tN Editor.run(tN_undo text in tN Editor:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647288613761.run(TempTestSuite1647288613761.groovy:36)
+
+
+2022-03-14 16:10:16 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2022-03-14 16:10:16 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-03-14 16:10:16 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2022-03-14 16:10:16 - [TEST_STEP][PASSED] - com.tccreate.keywords.WriteToFile.writeTofilename("tN-undo editing"): com.tccreate.keywords.WriteToFile.writeTofilename is PASSED
+
+2022-03-14 16:10:16 - [MESSAGE][PASSED] - com.tccreate.keywords.WriteToFile.writeTofilename is PASSED
+
+2022-03-14 16:10:16 - [TEST_STEP][PASSED] - com.helper.login.TimeDate.getTimeDate(): com.helper.login.TimeDate.getTimeDate is PASSED
+
+2022-03-14 16:10:16 - [MESSAGE][INFO] - Time at which the test run:2022-03-14 16:10:16.868
+
+2022-03-14 16:10:16 - [MESSAGE][PASSED] - com.helper.login.TimeDate.getTimeDate is PASSED
+
+2022-03-14 16:10:16 - [TEST_STEP][ERROR] - com.helper.login.loginhelper.logintoapp(): Test Cases/tCC Test Cases/tN_undo text in tN Editor FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:96)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:68)
+	at tN_undo text in tN Editor.run(tN_undo text in tN Editor:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647288613761.run(TempTestSuite1647288613761.groovy:36)
+Caused by: groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.helper.login.loginhelper.logintoapp(loginhelper.groovy:38)
+	at com.helper.login.loginhelper.invokeMethod(loginhelper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	... 14 more
+
+
+2022-03-14 16:10:16 - [MESSAGE][ERROR] - No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+
+2022-03-14 16:10:16 - [MESSAGE][ERROR] - Test Cases/tCC Test Cases/tN_undo text in tN Editor FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:96)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:68)
+	at tN_undo text in tN Editor.run(tN_undo text in tN Editor:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647288613761.run(TempTestSuite1647288613761.groovy:36)
+Caused by: groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.helper.login.loginhelper.logintoapp(loginhelper.groovy:38)
+	at com.helper.login.loginhelper.invokeMethod(loginhelper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	... 14 more
+
+
+2022-03-14 16:10:16 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2022-03-14 16:10:16 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-03-14 16:10:16 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[2022-03-14 16:10:16 - [TEST_CASE][ERROR] - Test Cases/tCC Test Cases/tN_undo text in tN Editor: Test Cases/tCC Test Cases/tN_undo text in tN Editor FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.helper.login.loginhelper.logintoapp(loginhelper.groovy:38)
+	at com.helper.login.loginhelper.invokeMethod(loginhelper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at tN_undo text in tN Editor.run(tN_undo text in tN Editor:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647288613761.run(TempTestSuite1647288613761.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/tCC Test Cases/tN_Add or Delete a Row" time="0.136" classname="Test Cases/tCC Test Cases/tN_Add or Delete a Row" status="ERROR">
+         <error type="ERROR" message="Test Cases/tCC Test Cases/tN_Add or Delete a Row FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.helper.login.loginhelper.logintoapp(loginhelper.groovy:38)
+	at com.helper.login.loginhelper.invokeMethod(loginhelper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at tN_Add or Delete a Row.run(tN_Add or Delete a Row:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647288613761.run(TempTestSuite1647288613761.groovy:36)
+"/>
+         <system-out><![CDATA[2022-03-14 16:10:16 - [TEST_CASE][ERROR] - Test Cases/tCC Test Cases/tN_Add or Delete a Row: Test Cases/tCC Test Cases/tN_Add or Delete a Row FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.helper.login.loginhelper.logintoapp(loginhelper.groovy:38)
+	at com.helper.login.loginhelper.invokeMethod(loginhelper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at tN_Add or Delete a Row.run(tN_Add or Delete a Row:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647288613761.run(TempTestSuite1647288613761.groovy:36)
+
+
+2022-03-14 16:10:16 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2022-03-14 16:10:16 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-03-14 16:10:16 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2022-03-14 16:10:17 - [TEST_STEP][PASSED] - com.tccreate.keywords.WriteToFile.writeTofilename("tA-Add or delete row"): com.tccreate.keywords.WriteToFile.writeTofilename is PASSED
+
+2022-03-14 16:10:17 - [MESSAGE][PASSED] - com.tccreate.keywords.WriteToFile.writeTofilename is PASSED
+
+2022-03-14 16:10:17 - [TEST_STEP][PASSED] - com.helper.login.TimeDate.getTimeDate(): com.helper.login.TimeDate.getTimeDate is PASSED
+
+2022-03-14 16:10:17 - [MESSAGE][INFO] - Time at which the test run:2022-03-14 16:10:17.006
+
+2022-03-14 16:10:17 - [MESSAGE][PASSED] - com.helper.login.TimeDate.getTimeDate is PASSED
+
+2022-03-14 16:10:17 - [TEST_STEP][ERROR] - com.helper.login.loginhelper.logintoapp(): Test Cases/tCC Test Cases/tN_Add or Delete a Row FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:96)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:68)
+	at tN_Add or Delete a Row.run(tN_Add or Delete a Row:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647288613761.run(TempTestSuite1647288613761.groovy:36)
+Caused by: groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.helper.login.loginhelper.logintoapp(loginhelper.groovy:38)
+	at com.helper.login.loginhelper.invokeMethod(loginhelper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	... 14 more
+
+
+2022-03-14 16:10:17 - [MESSAGE][ERROR] - No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+
+2022-03-14 16:10:17 - [MESSAGE][ERROR] - Test Cases/tCC Test Cases/tN_Add or Delete a Row FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:96)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:68)
+	at tN_Add or Delete a Row.run(tN_Add or Delete a Row:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647288613761.run(TempTestSuite1647288613761.groovy:36)
+Caused by: groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.helper.login.loginhelper.logintoapp(loginhelper.groovy:38)
+	at com.helper.login.loginhelper.invokeMethod(loginhelper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	... 14 more
+
+
+2022-03-14 16:10:17 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2022-03-14 16:10:17 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-03-14 16:10:17 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[2022-03-14 16:10:16 - [TEST_CASE][ERROR] - Test Cases/tCC Test Cases/tN_Add or Delete a Row: Test Cases/tCC Test Cases/tN_Add or Delete a Row FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.helper.login.loginhelper.logintoapp(loginhelper.groovy:38)
+	at com.helper.login.loginhelper.invokeMethod(loginhelper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at tN_Add or Delete a Row.run(tN_Add or Delete a Row:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647288613761.run(TempTestSuite1647288613761.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/tCC Test Cases/tN_Expand chapter" time="0.193" classname="Test Cases/tCC Test Cases/tN_Expand chapter" status="ERROR">
+         <error type="ERROR" message="Test Cases/tCC Test Cases/tN_Expand chapter FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.helper.login.loginhelper.logintoapp(loginhelper.groovy:38)
+	at com.helper.login.loginhelper.invokeMethod(loginhelper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at tN_Expand chapter.run(tN_Expand chapter:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647288613761.run(TempTestSuite1647288613761.groovy:36)
+"/>
+         <system-out><![CDATA[2022-03-14 16:10:17 - [TEST_CASE][ERROR] - Test Cases/tCC Test Cases/tN_Expand chapter: Test Cases/tCC Test Cases/tN_Expand chapter FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.helper.login.loginhelper.logintoapp(loginhelper.groovy:38)
+	at com.helper.login.loginhelper.invokeMethod(loginhelper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at tN_Expand chapter.run(tN_Expand chapter:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647288613761.run(TempTestSuite1647288613761.groovy:36)
+
+
+2022-03-14 16:10:17 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2022-03-14 16:10:17 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-03-14 16:10:17 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2022-03-14 16:10:17 - [TEST_STEP][PASSED] - com.tccreate.keywords.WriteToFile.writeTofilename("tN-Expand chapter"): com.tccreate.keywords.WriteToFile.writeTofilename is PASSED
+
+2022-03-14 16:10:17 - [MESSAGE][PASSED] - com.tccreate.keywords.WriteToFile.writeTofilename is PASSED
+
+2022-03-14 16:10:17 - [TEST_STEP][PASSED] - com.helper.login.TimeDate.getTimeDate(): com.helper.login.TimeDate.getTimeDate is PASSED
+
+2022-03-14 16:10:17 - [MESSAGE][INFO] - Time at which the test run:2022-03-14 16:10:17.203
+
+2022-03-14 16:10:17 - [MESSAGE][PASSED] - com.helper.login.TimeDate.getTimeDate is PASSED
+
+2022-03-14 16:10:17 - [TEST_STEP][ERROR] - com.helper.login.loginhelper.logintoapp(): Test Cases/tCC Test Cases/tN_Expand chapter FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:96)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:68)
+	at tN_Expand chapter.run(tN_Expand chapter:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647288613761.run(TempTestSuite1647288613761.groovy:36)
+Caused by: groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.helper.login.loginhelper.logintoapp(loginhelper.groovy:38)
+	at com.helper.login.loginhelper.invokeMethod(loginhelper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	... 14 more
+
+
+2022-03-14 16:10:17 - [MESSAGE][ERROR] - No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+
+2022-03-14 16:10:17 - [MESSAGE][ERROR] - Test Cases/tCC Test Cases/tN_Expand chapter FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:96)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:68)
+	at tN_Expand chapter.run(tN_Expand chapter:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647288613761.run(TempTestSuite1647288613761.groovy:36)
+Caused by: groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.helper.login.loginhelper.logintoapp(loginhelper.groovy:38)
+	at com.helper.login.loginhelper.invokeMethod(loginhelper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	... 14 more
+
+
+2022-03-14 16:10:17 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2022-03-14 16:10:17 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-03-14 16:10:17 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[2022-03-14 16:10:17 - [TEST_CASE][ERROR] - Test Cases/tCC Test Cases/tN_Expand chapter: Test Cases/tCC Test Cases/tN_Expand chapter FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.helper.login.loginhelper.logintoapp(loginhelper.groovy:38)
+	at com.helper.login.loginhelper.invokeMethod(loginhelper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at tN_Expand chapter.run(tN_Expand chapter:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647288613761.run(TempTestSuite1647288613761.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/tCC Test Cases/tN_Highlighting by Occurrence Number" time="0.185" classname="Test Cases/tCC Test Cases/tN_Highlighting by Occurrence Number" status="ERROR">
+         <error type="ERROR" message="Test Cases/tCC Test Cases/tN_Highlighting by Occurrence Number FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.helper.login.loginhelper.logintoapp(loginhelper.groovy:38)
+	at com.helper.login.loginhelper.invokeMethod(loginhelper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at tN_Highlighting by Occurrence Number.run(tN_Highlighting by Occurrence Number:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647288613761.run(TempTestSuite1647288613761.groovy:36)
+"/>
+         <system-out><![CDATA[2022-03-14 16:10:17 - [TEST_CASE][ERROR] - Test Cases/tCC Test Cases/tN_Highlighting by Occurrence Number: Test Cases/tCC Test Cases/tN_Highlighting by Occurrence Number FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.helper.login.loginhelper.logintoapp(loginhelper.groovy:38)
+	at com.helper.login.loginhelper.invokeMethod(loginhelper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at tN_Highlighting by Occurrence Number.run(tN_Highlighting by Occurrence Number:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647288613761.run(TempTestSuite1647288613761.groovy:36)
+
+
+2022-03-14 16:10:17 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2022-03-14 16:10:17 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-03-14 16:10:17 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2022-03-14 16:10:17 - [TEST_STEP][PASSED] - com.tccreate.keywords.WriteToFile.writeTofilename("tN-Highlighting by occurrence number"): com.tccreate.keywords.WriteToFile.writeTofilename is PASSED
+
+2022-03-14 16:10:17 - [MESSAGE][PASSED] - com.tccreate.keywords.WriteToFile.writeTofilename is PASSED
+
+2022-03-14 16:10:17 - [TEST_STEP][PASSED] - com.helper.login.TimeDate.getTimeDate(): com.helper.login.TimeDate.getTimeDate is PASSED
+
+2022-03-14 16:10:17 - [MESSAGE][INFO] - Time at which the test run:2022-03-14 16:10:17.39
+
+2022-03-14 16:10:17 - [MESSAGE][PASSED] - com.helper.login.TimeDate.getTimeDate is PASSED
+
+2022-03-14 16:10:17 - [TEST_STEP][ERROR] - com.helper.login.loginhelper.logintoapp(): Test Cases/tCC Test Cases/tN_Highlighting by Occurrence Number FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:96)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:68)
+	at tN_Highlighting by Occurrence Number.run(tN_Highlighting by Occurrence Number:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647288613761.run(TempTestSuite1647288613761.groovy:36)
+Caused by: groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.helper.login.loginhelper.logintoapp(loginhelper.groovy:38)
+	at com.helper.login.loginhelper.invokeMethod(loginhelper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	... 14 more
+
+
+2022-03-14 16:10:17 - [MESSAGE][ERROR] - No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+
+2022-03-14 16:10:17 - [MESSAGE][ERROR] - Test Cases/tCC Test Cases/tN_Highlighting by Occurrence Number FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:96)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:68)
+	at tN_Highlighting by Occurrence Number.run(tN_Highlighting by Occurrence Number:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647288613761.run(TempTestSuite1647288613761.groovy:36)
+Caused by: groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.helper.login.loginhelper.logintoapp(loginhelper.groovy:38)
+	at com.helper.login.loginhelper.invokeMethod(loginhelper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	... 14 more
+
+
+2022-03-14 16:10:17 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2022-03-14 16:10:17 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-03-14 16:10:17 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[2022-03-14 16:10:17 - [TEST_CASE][ERROR] - Test Cases/tCC Test Cases/tN_Highlighting by Occurrence Number: Test Cases/tCC Test Cases/tN_Highlighting by Occurrence Number FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.helper.login.loginhelper.logintoapp(loginhelper.groovy:38)
+	at com.helper.login.loginhelper.invokeMethod(loginhelper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at tN_Highlighting by Occurrence Number.run(tN_Highlighting by Occurrence Number:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647288613761.run(TempTestSuite1647288613761.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/tCC Test Cases/tW_Saving tW Article" time="0.147" classname="Test Cases/tCC Test Cases/tW_Saving tW Article" status="ERROR">
+         <error type="ERROR" message="Test Cases/tCC Test Cases/tW_Saving tW Article FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.helper.login.loginhelper.logintoapp(loginhelper.groovy:38)
+	at com.helper.login.loginhelper.invokeMethod(loginhelper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at tW_Saving tW Article.run(tW_Saving tW Article:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647288613761.run(TempTestSuite1647288613761.groovy:36)
+"/>
+         <system-out><![CDATA[2022-03-14 16:10:17 - [TEST_CASE][ERROR] - Test Cases/tCC Test Cases/tW_Saving tW Article: Test Cases/tCC Test Cases/tW_Saving tW Article FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.helper.login.loginhelper.logintoapp(loginhelper.groovy:38)
+	at com.helper.login.loginhelper.invokeMethod(loginhelper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at tW_Saving tW Article.run(tW_Saving tW Article:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647288613761.run(TempTestSuite1647288613761.groovy:36)
+
+
+2022-03-14 16:10:17 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2022-03-14 16:10:17 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-03-14 16:10:17 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2022-03-14 16:10:17 - [TEST_STEP][PASSED] - com.tccreate.keywords.WriteToFile.writeTofilename("tW-Save"): com.tccreate.keywords.WriteToFile.writeTofilename is PASSED
+
+2022-03-14 16:10:17 - [MESSAGE][PASSED] - com.tccreate.keywords.WriteToFile.writeTofilename is PASSED
+
+2022-03-14 16:10:17 - [TEST_STEP][PASSED] - com.helper.login.TimeDate.getTimeDate(): com.helper.login.TimeDate.getTimeDate is PASSED
+
+2022-03-14 16:10:17 - [MESSAGE][INFO] - Time at which the test run:2022-03-14 16:10:17.541
+
+2022-03-14 16:10:17 - [MESSAGE][PASSED] - com.helper.login.TimeDate.getTimeDate is PASSED
+
+2022-03-14 16:10:17 - [TEST_STEP][ERROR] - com.helper.login.loginhelper.logintoapp(): Test Cases/tCC Test Cases/tW_Saving tW Article FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:96)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:68)
+	at tW_Saving tW Article.run(tW_Saving tW Article:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647288613761.run(TempTestSuite1647288613761.groovy:36)
+Caused by: groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.helper.login.loginhelper.logintoapp(loginhelper.groovy:38)
+	at com.helper.login.loginhelper.invokeMethod(loginhelper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	... 14 more
+
+
+2022-03-14 16:10:17 - [MESSAGE][ERROR] - No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+
+2022-03-14 16:10:17 - [MESSAGE][ERROR] - Test Cases/tCC Test Cases/tW_Saving tW Article FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:96)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:68)
+	at tW_Saving tW Article.run(tW_Saving tW Article:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647288613761.run(TempTestSuite1647288613761.groovy:36)
+Caused by: groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.helper.login.loginhelper.logintoapp(loginhelper.groovy:38)
+	at com.helper.login.loginhelper.invokeMethod(loginhelper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	... 14 more
+
+
+2022-03-14 16:10:17 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2022-03-14 16:10:17 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-03-14 16:10:17 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[2022-03-14 16:10:17 - [TEST_CASE][ERROR] - Test Cases/tCC Test Cases/tW_Saving tW Article: Test Cases/tCC Test Cases/tW_Saving tW Article FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.helper.login.loginhelper.logintoapp(loginhelper.groovy:38)
+	at com.helper.login.loginhelper.invokeMethod(loginhelper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at tW_Saving tW Article.run(tW_Saving tW Article:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647288613761.run(TempTestSuite1647288613761.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/tCC Test Cases/tA_Saving tA Article" time="0.134" classname="Test Cases/tCC Test Cases/tA_Saving tA Article" status="ERROR">
+         <error type="ERROR" message="Test Cases/tCC Test Cases/tA_Saving tA Article FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.helper.login.loginhelper.logintoapp(loginhelper.groovy:38)
+	at com.helper.login.loginhelper.invokeMethod(loginhelper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at tA_Saving tA Article.run(tA_Saving tA Article:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647288613761.run(TempTestSuite1647288613761.groovy:36)
+"/>
+         <system-out><![CDATA[2022-03-14 16:10:17 - [TEST_CASE][ERROR] - Test Cases/tCC Test Cases/tA_Saving tA Article: Test Cases/tCC Test Cases/tA_Saving tA Article FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.helper.login.loginhelper.logintoapp(loginhelper.groovy:38)
+	at com.helper.login.loginhelper.invokeMethod(loginhelper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at tA_Saving tA Article.run(tA_Saving tA Article:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647288613761.run(TempTestSuite1647288613761.groovy:36)
+
+
+2022-03-14 16:10:17 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2022-03-14 16:10:17 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-03-14 16:10:17 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2022-03-14 16:10:17 - [TEST_STEP][PASSED] - com.tccreate.keywords.WriteToFile.writeTofilename("tA-Save"): com.tccreate.keywords.WriteToFile.writeTofilename is PASSED
+
+2022-03-14 16:10:17 - [MESSAGE][PASSED] - com.tccreate.keywords.WriteToFile.writeTofilename is PASSED
+
+2022-03-14 16:10:17 - [TEST_STEP][PASSED] - com.helper.login.TimeDate.getTimeDate(): com.helper.login.TimeDate.getTimeDate is PASSED
+
+2022-03-14 16:10:17 - [MESSAGE][INFO] - Time at which the test run:2022-03-14 16:10:17.676
+
+2022-03-14 16:10:17 - [MESSAGE][PASSED] - com.helper.login.TimeDate.getTimeDate is PASSED
+
+2022-03-14 16:10:17 - [TEST_STEP][ERROR] - com.helper.login.loginhelper.logintoapp(): Test Cases/tCC Test Cases/tA_Saving tA Article FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:96)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:68)
+	at tA_Saving tA Article.run(tA_Saving tA Article:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647288613761.run(TempTestSuite1647288613761.groovy:36)
+Caused by: groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.helper.login.loginhelper.logintoapp(loginhelper.groovy:38)
+	at com.helper.login.loginhelper.invokeMethod(loginhelper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	... 14 more
+
+
+2022-03-14 16:10:17 - [MESSAGE][ERROR] - No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+
+2022-03-14 16:10:17 - [MESSAGE][ERROR] - Test Cases/tCC Test Cases/tA_Saving tA Article FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:96)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:68)
+	at tA_Saving tA Article.run(tA_Saving tA Article:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647288613761.run(TempTestSuite1647288613761.groovy:36)
+Caused by: groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.helper.login.loginhelper.logintoapp(loginhelper.groovy:38)
+	at com.helper.login.loginhelper.invokeMethod(loginhelper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	... 14 more
+
+
+2022-03-14 16:10:17 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2022-03-14 16:10:17 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-03-14 16:10:17 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[2022-03-14 16:10:17 - [TEST_CASE][ERROR] - Test Cases/tCC Test Cases/tA_Saving tA Article: Test Cases/tCC Test Cases/tA_Saving tA Article FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.helper.login.loginhelper.logintoapp(loginhelper.groovy:38)
+	at com.helper.login.loginhelper.invokeMethod(loginhelper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at tA_Saving tA Article.run(tA_Saving tA Article:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647288613761.run(TempTestSuite1647288613761.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/tCC Test Cases/tN_Add New Resource" time="0.167" classname="Test Cases/tCC Test Cases/tN_Add New Resource" status="ERROR">
+         <error type="ERROR" message="Test Cases/tCC Test Cases/tN_Add New Resource FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.helper.login.loginhelper.logintoapp(loginhelper.groovy:38)
+	at com.helper.login.loginhelper.invokeMethod(loginhelper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at tN_Add New Resource.run(tN_Add New Resource:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647288613761.run(TempTestSuite1647288613761.groovy:36)
+"/>
+         <system-out><![CDATA[2022-03-14 16:10:17 - [TEST_CASE][ERROR] - Test Cases/tCC Test Cases/tN_Add New Resource: Test Cases/tCC Test Cases/tN_Add New Resource FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.helper.login.loginhelper.logintoapp(loginhelper.groovy:38)
+	at com.helper.login.loginhelper.invokeMethod(loginhelper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at tN_Add New Resource.run(tN_Add New Resource:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647288613761.run(TempTestSuite1647288613761.groovy:36)
+
+
+2022-03-14 16:10:17 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2022-03-14 16:10:17 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-03-14 16:10:17 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2022-03-14 16:10:17 - [TEST_STEP][PASSED] - com.tccreate.keywords.WriteToFile.writeTofilename("tN-Add new resource"): com.tccreate.keywords.WriteToFile.writeTofilename is PASSED
+
+2022-03-14 16:10:17 - [MESSAGE][PASSED] - com.tccreate.keywords.WriteToFile.writeTofilename is PASSED
+
+2022-03-14 16:10:17 - [TEST_STEP][PASSED] - com.helper.login.TimeDate.getTimeDate(): com.helper.login.TimeDate.getTimeDate is PASSED
+
+2022-03-14 16:10:17 - [MESSAGE][INFO] - Time at which the test run:2022-03-14 16:10:17.847
+
+2022-03-14 16:10:17 - [MESSAGE][PASSED] - com.helper.login.TimeDate.getTimeDate is PASSED
+
+2022-03-14 16:10:17 - [TEST_STEP][ERROR] - com.helper.login.loginhelper.logintoapp(): Test Cases/tCC Test Cases/tN_Add New Resource FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:96)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:68)
+	at tN_Add New Resource.run(tN_Add New Resource:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647288613761.run(TempTestSuite1647288613761.groovy:36)
+Caused by: groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.helper.login.loginhelper.logintoapp(loginhelper.groovy:38)
+	at com.helper.login.loginhelper.invokeMethod(loginhelper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	... 14 more
+
+
+2022-03-14 16:10:17 - [MESSAGE][ERROR] - No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+
+2022-03-14 16:10:17 - [MESSAGE][ERROR] - Test Cases/tCC Test Cases/tN_Add New Resource FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:96)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:68)
+	at tN_Add New Resource.run(tN_Add New Resource:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647288613761.run(TempTestSuite1647288613761.groovy:36)
+Caused by: groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.helper.login.loginhelper.logintoapp(loginhelper.groovy:38)
+	at com.helper.login.loginhelper.invokeMethod(loginhelper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	... 14 more
+
+
+2022-03-14 16:10:17 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2022-03-14 16:10:17 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-03-14 16:10:17 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[2022-03-14 16:10:17 - [TEST_CASE][ERROR] - Test Cases/tCC Test Cases/tN_Add New Resource: Test Cases/tCC Test Cases/tN_Add New Resource FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.helper.login.loginhelper.logintoapp(loginhelper.groovy:38)
+	at com.helper.login.loginhelper.invokeMethod(loginhelper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at tN_Add New Resource.run(tN_Add New Resource:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647288613761.run(TempTestSuite1647288613761.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/tCC Test Cases/tN_Tool Tips" time="0.133" classname="Test Cases/tCC Test Cases/tN_Tool Tips" status="ERROR">
+         <error type="ERROR" message="Test Cases/tCC Test Cases/tN_Tool Tips FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.helper.login.loginhelper.logintoapp(loginhelper.groovy:38)
+	at com.helper.login.loginhelper.invokeMethod(loginhelper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at tN_Tool Tips.run(tN_Tool Tips:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647288613761.run(TempTestSuite1647288613761.groovy:36)
+"/>
+         <system-out><![CDATA[2022-03-14 16:10:17 - [TEST_CASE][ERROR] - Test Cases/tCC Test Cases/tN_Tool Tips: Test Cases/tCC Test Cases/tN_Tool Tips FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.helper.login.loginhelper.logintoapp(loginhelper.groovy:38)
+	at com.helper.login.loginhelper.invokeMethod(loginhelper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at tN_Tool Tips.run(tN_Tool Tips:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647288613761.run(TempTestSuite1647288613761.groovy:36)
+
+
+2022-03-14 16:10:17 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2022-03-14 16:10:17 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-03-14 16:10:17 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2022-03-14 16:10:17 - [TEST_STEP][PASSED] - com.tccreate.keywords.WriteToFile.writeTofilename("tN-ToolTips"): com.tccreate.keywords.WriteToFile.writeTofilename is PASSED
+
+2022-03-14 16:10:17 - [MESSAGE][PASSED] - com.tccreate.keywords.WriteToFile.writeTofilename is PASSED
+
+2022-03-14 16:10:17 - [TEST_STEP][PASSED] - com.helper.login.TimeDate.getTimeDate(): com.helper.login.TimeDate.getTimeDate is PASSED
+
+2022-03-14 16:10:17 - [MESSAGE][INFO] - Time at which the test run:2022-03-14 16:10:17.984
+
+2022-03-14 16:10:17 - [MESSAGE][PASSED] - com.helper.login.TimeDate.getTimeDate is PASSED
+
+2022-03-14 16:10:17 - [TEST_STEP][ERROR] - com.helper.login.loginhelper.logintoapp(): Test Cases/tCC Test Cases/tN_Tool Tips FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:96)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:68)
+	at tN_Tool Tips.run(tN_Tool Tips:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647288613761.run(TempTestSuite1647288613761.groovy:36)
+Caused by: groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.helper.login.loginhelper.logintoapp(loginhelper.groovy:38)
+	at com.helper.login.loginhelper.invokeMethod(loginhelper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	... 14 more
+
+
+2022-03-14 16:10:17 - [MESSAGE][ERROR] - No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+
+2022-03-14 16:10:17 - [MESSAGE][ERROR] - Test Cases/tCC Test Cases/tN_Tool Tips FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:96)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:68)
+	at tN_Tool Tips.run(tN_Tool Tips:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647288613761.run(TempTestSuite1647288613761.groovy:36)
+Caused by: groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.helper.login.loginhelper.logintoapp(loginhelper.groovy:38)
+	at com.helper.login.loginhelper.invokeMethod(loginhelper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	... 14 more
+
+
+2022-03-14 16:10:17 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2022-03-14 16:10:17 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-03-14 16:10:17 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[2022-03-14 16:10:17 - [TEST_CASE][ERROR] - Test Cases/tCC Test Cases/tN_Tool Tips: Test Cases/tCC Test Cases/tN_Tool Tips FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.helper.login.loginhelper.logintoapp(loginhelper.groovy:38)
+	at com.helper.login.loginhelper.invokeMethod(loginhelper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at tN_Tool Tips.run(tN_Tool Tips:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647288613761.run(TempTestSuite1647288613761.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/tCC Test Cases/tA buttons funtions" time="0.124" classname="Test Cases/tCC Test Cases/tA buttons funtions" status="ERROR">
+         <error type="ERROR" message="Test Cases/tCC Test Cases/tA buttons funtions FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.helper.login.loginhelper.logintoapp(loginhelper.groovy:38)
+	at com.helper.login.loginhelper.invokeMethod(loginhelper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at tA buttons funtions.run(tA buttons funtions:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647288613761.run(TempTestSuite1647288613761.groovy:36)
+"/>
+         <system-out><![CDATA[2022-03-14 16:10:17 - [TEST_CASE][ERROR] - Test Cases/tCC Test Cases/tA buttons funtions: Test Cases/tCC Test Cases/tA buttons funtions FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.helper.login.loginhelper.logintoapp(loginhelper.groovy:38)
+	at com.helper.login.loginhelper.invokeMethod(loginhelper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at tA buttons funtions.run(tA buttons funtions:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647288613761.run(TempTestSuite1647288613761.groovy:36)
+
+
+2022-03-14 16:10:17 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2022-03-14 16:10:17 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-03-14 16:10:17 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2022-03-14 16:10:18 - [TEST_STEP][PASSED] - com.tccreate.keywords.WriteToFile.writeTofilename("tA-buttons"): com.tccreate.keywords.WriteToFile.writeTofilename is PASSED
+
+2022-03-14 16:10:18 - [MESSAGE][PASSED] - com.tccreate.keywords.WriteToFile.writeTofilename is PASSED
+
+2022-03-14 16:10:18 - [TEST_STEP][PASSED] - com.helper.login.TimeDate.getTimeDate(): com.helper.login.TimeDate.getTimeDate is PASSED
+
+2022-03-14 16:10:18 - [MESSAGE][INFO] - Time at which the test run:2022-03-14 16:10:18.109
+
+2022-03-14 16:10:18 - [MESSAGE][PASSED] - com.helper.login.TimeDate.getTimeDate is PASSED
+
+2022-03-14 16:10:18 - [TEST_STEP][ERROR] - com.helper.login.loginhelper.logintoapp(): Test Cases/tCC Test Cases/tA buttons funtions FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:96)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:68)
+	at tA buttons funtions.run(tA buttons funtions:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647288613761.run(TempTestSuite1647288613761.groovy:36)
+Caused by: groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.helper.login.loginhelper.logintoapp(loginhelper.groovy:38)
+	at com.helper.login.loginhelper.invokeMethod(loginhelper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	... 14 more
+
+
+2022-03-14 16:10:18 - [MESSAGE][ERROR] - No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+
+2022-03-14 16:10:18 - [MESSAGE][ERROR] - Test Cases/tCC Test Cases/tA buttons funtions FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:96)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:68)
+	at tA buttons funtions.run(tA buttons funtions:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647288613761.run(TempTestSuite1647288613761.groovy:36)
+Caused by: groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.helper.login.loginhelper.logintoapp(loginhelper.groovy:38)
+	at com.helper.login.loginhelper.invokeMethod(loginhelper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	... 14 more
+
+
+2022-03-14 16:10:18 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2022-03-14 16:10:18 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-03-14 16:10:18 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[2022-03-14 16:10:17 - [TEST_CASE][ERROR] - Test Cases/tCC Test Cases/tA buttons funtions: Test Cases/tCC Test Cases/tA buttons funtions FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.helper.login.loginhelper.logintoapp(loginhelper.groovy:38)
+	at com.helper.login.loginhelper.invokeMethod(loginhelper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at tA buttons funtions.run(tA buttons funtions:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647288613761.run(TempTestSuite1647288613761.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-03-14 16:10:15 - [TEST_SUITE][ERROR] - Test Suite1- Regression: Test Cases/tCC Test Cases/tN_Parallel Scripture viewer FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.helper.login.loginhelper.logintoapp(loginhelper.groovy:38)
+	at com.helper.login.loginhelper.invokeMethod(loginhelper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at tN_Parallel Scripture viewer.run(tN_Parallel Scripture viewer:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647288613761.run(TempTestSuite1647288613761.groovy:36)]]></system-out>
+      <system-err><![CDATA[2022-03-14 16:10:15 - [TEST_SUITE][ERROR] - Test Suite1- Regression: Test Cases/tCC Test Cases/tN_Parallel Scripture viewer FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: user1Name1Name1Name1Name for class: internal.GlobalVariable
+	at com.helper.login.loginhelper.logintoapp(loginhelper.groovy:38)
+	at com.helper.login.loginhelper.invokeMethod(loginhelper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at tN_Parallel Scripture viewer.run(tN_Parallel Scripture viewer:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647288613761.run(TempTestSuite1647288613761.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

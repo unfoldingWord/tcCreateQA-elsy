@@ -1,0 +1,95 @@
+1
+00:00:00,000 --> 00:00:00,000
+9. com.helper.login.loginhelper.logintoapp()
+
+2
+00:00:00,000 --> 00:00:00,000
+13. com.tccreate.keywords.selectOrg.organization("")
+
+3
+00:00:00,000 --> 00:00:00,000
+17. com.tccreate.keywords.selectOrg.resource("unfoldingWord® Translation Academy")
+
+4
+00:00:00,000 --> 00:00:00,000
+21. com.tccreate.keywords.selectOrg.language("")
+
+5
+00:00:00,000 --> 00:00:00,000
+25. click(findTestObject("Page_tC Create/span_translate"))
+
+6
+00:00:00,000 --> 00:00:00,000
+29. click(findTestObject("Object Repository/Page_tC Create/span_bita-farming"))
+
+7
+00:00:00,000 --> 00:00:00,000
+33. click(findTestObject("Object Repository/Page_tC Create/span_01.md"))
+
+8
+00:00:00,000 --> 00:00:00,000
+37. click(findTestObject("Object Repository/Page_tC Create/div_A FARMER represents God, and the VINEYA_8b10d9"))
+
+9
+00:00:00,000 --> 00:00:00,000
+41. sendKeys(findTestObject("Object Repository/tA/div_A FARMER represents God,edit box"), " test edit by the test script")
+
+10
+00:00:00,000 --> 00:00:00,000
+45. click(findTestObject("Page_tC Create/button_Save"))
+
+11
+00:00:00,000 --> 00:00:00,000
+49. delay(2)
+
+12
+00:00:00,000 --> 00:00:00,000
+53. if (verifyElementNotClickable(findTestObject("Page_tC Create/button_Save"), CONTINUE_ON_FAILURE))
+
+13
+00:00:00,000 --> 00:00:00,000
+1. logInfo(" 
+ Save button is greyed out as expected")
+
+14
+00:00:00,000 --> 00:00:00,000
+57. click(findTestObject("Object Repository/tA/Chip_English - unfoldingWorden_taElsyLambert-tc-create-1"))
+
+15
+00:00:00,000 --> 00:00:00,000
+61. delay(2)
+
+16
+00:00:00,000 --> 00:00:00,000
+65. switchToWindowIndex(1)
+
+17
+00:00:00,000 --> 00:00:00,000
+69. if (getText(findTestObject("Object Repository/tA/h4_dcs article")).contains("test edit by the test script"))
+
+18
+00:00:00,000 --> 00:00:00,000
+1. logInfo("
+ The edits are saved on the DCS Repo File")
+
+19
+00:00:00,000 --> 00:00:00,000
+73. switchToWindowIndex(0)
+
+20
+00:00:00,000 --> 00:00:00,000
+77. logInfo("
+ TEST PASSED:Edits are saved successfully in tA articles")
+
+21
+00:00:00,000 --> 00:00:00,000
+81. closeBrowser()
+
+22
+00:00:00,000 --> 00:00:00,000
+1. com.tccreate.keywords.WriteToFile.writeTofilename("tN-Add new resource")
+
+23
+00:00:00,000 --> 00:00:00,000
+5. com.helper.login.TimeDate.getTimeDate()
+

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>tCC tA Test Block Quotes and Save Enabled</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e7ad628a-d400-4ac4-b582-8e0765efc322</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bd8e3593-d5fa-4c21-9085-da9181ec4c9a</id>
+      <masked>false</masked>
+      <name>$username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cfe8f954-bd33-4c4a-994a-732116b4c16b</id>
+      <masked>false</masked>
+      <name>$password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>not used except in Archives</description>
+      <id>d17a2d74-d5b5-4547-8a42-bf27eb6007f2</id>
+      <masked>false</masked>
+      <name>$origQuote</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>not used except in Archives</description>
+      <id>1ea8925f-b480-4f9f-b519-ae86395c1409</id>
+      <masked>false</masked>
+      <name>$newOrigQuote</name>
+   </variable>
+</TestCaseEntity>
