@@ -6,15 +6,19 @@
    <elementGuidId>e44e44d7-bde0-4e81-93b5-c05a17fe0a9e</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>div.jss37224</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='header-front-intro-m2jl']/div/div</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>div.jss37224</value>
+         <key>BASIC</key>
+         <value>//*[(text() = 'TIT front:intro' or . = 'TIT front:intro')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
+      <webElementGuid>8d656dd9-2eba-4cda-999d-263123a8a435</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>jss37224</value>
+      <webElementGuid>fb34349c-dd13-4074-ac06-5b6546cf74fb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>TIT front:intro</value>
+      <webElementGuid>1267e812-6c78-49be-b444-f733cc5793d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;header-front-intro-m2jl&quot;)/div[@class=&quot;jss37222&quot;]/div[@class=&quot;jss37224&quot;]</value>
+      <webElementGuid>4a4806ff-9200-4c34-baa2-b37af0032159</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,6 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='header-front-intro-m2jl']/div/div</value>
+      <webElementGuid>9c10c26f-fed9-48da-9951-3c2d353b5bc8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='rowHeader'])[1]/following::div[5]</value>
+      <webElementGuid>3e8209e4-a8ea-4096-ab10-65e37f985682</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='English - translate_test/en_tn/tcc001-tc-create-1'])[1]/following::div[15]</value>
+      <webElementGuid>42f56141-4cb8-4e64-9a39-eecaffe09fa3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='TIT 1:intro'])[1]/preceding::div[6]</value>
+      <webElementGuid>e8410e80-004e-4484-aa62-0435ab11a858</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,5 +90,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td/div/div/div/div</value>
+      <webElementGuid>889cf746-67b8-47c1-ac5c-360e2f0a515b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

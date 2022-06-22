@@ -5,6 +5,30 @@
    <tag>Issues 356, 437, 679, 717</tag>
    <comment></comment>
    <testCaseGuid>16826d59-5581-47e2-87f9-41c0572bfed2</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>539ade9c-551e-4b50-a35e-96cde2373dc7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2efbe80c-5f49-421c-b1a7-cc6f145e31c0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>88ecf495-b837-4ae8-b4b9-9ee4c27943ce</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>de66dbc3-c215-45a8-b7f6-41f3ca480d90</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>

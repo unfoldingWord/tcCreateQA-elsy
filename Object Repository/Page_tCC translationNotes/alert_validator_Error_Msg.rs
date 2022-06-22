@@ -6,15 +6,19 @@
    <elementGuidId>ce50aca6-dc49-496c-8086-8bafe86c8489</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root']/div/div/div</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.MuiPaper-root.MuiAlert-root.MuiAlert-standardError.MuiPaper-elevation0</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'ErrorOn line 1 Bad TSV Header, expecting &quot;Book,Chapter,Verse,ID,SupportReference,OrigQuote,Occurrence,GLQuote,OccurrenceNote&quot;   On line 22 Not enough columns, expecting 9, found 8   Please correct resource or close and select another' or . = 'ErrorOn line 1 Bad TSV Header, expecting &quot;Book,Chapter,Verse,ID,SupportReference,OrigQuote,Occurrence,GLQuote,OccurrenceNote&quot;   On line 22 Not enough columns, expecting 9, found 8   Please correct resource or close and select another')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
+      <webElementGuid>5bdab7de-cb89-4567-8996-3b0fce42b49f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>MuiPaper-root MuiAlert-root MuiAlert-standardError MuiPaper-elevation0</value>
+      <webElementGuid>d0d969d0-5bd0-40f3-ba70-996551aedcf2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,13 +42,15 @@
       <name>role</name>
       <type>Main</type>
       <value>alert</value>
+      <webElementGuid>f9d238c9-9d62-4c01-a2ba-121e9844088b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>ErrorOn line 1 Bad TSV Header, expecting &quot;Book,Chapter,Verse,ID,SupportReference,OrigQuote,Occurrence,GLQuote,OccurrenceNote&quot;   On line 22 Not enough columns, expecting 9, found 8   Please correct resource or close and select another</value>
+      <webElementGuid>24eebd45-d595-4a3e-ae33-1e956c39b705</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[1]/div[@class=&quot;MuiPaper-root MuiAlert-root MuiAlert-standardError MuiPaper-elevation0&quot;]</value>
+      <webElementGuid>27e303f9-fd95-4146-84b2-6795795f492f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +66,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div/div</value>
+      <webElementGuid>4c826d14-5ce5-4e92-8745-74b16a0e5094</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='en_tn'])[1]/following::div[4]</value>
+      <webElementGuid>efc0e558-a980-4b7c-98dd-be3508439abb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='en_tn_57-TIT.tsv'])[1]/following::div[8]</value>
+      <webElementGuid>481d07b7-7eba-479e-9004-87be5dada197</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,5 +90,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div/div</value>
+      <webElementGuid>fd2377a4-0985-43c3-8c3b-1dd470af2bc0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

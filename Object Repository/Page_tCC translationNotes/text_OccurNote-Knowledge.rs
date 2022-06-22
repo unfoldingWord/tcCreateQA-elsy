@@ -6,19 +6,19 @@
    <elementGuidId>a1450c29-ce64-47d9-941d-66c1ec2ea449</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//tr[@id='MUIDataTableBodyRow-3']/td[4]/div/div/div/div/div/div/p/strong</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;MUIDataTableBodyRow-3&quot;)/td[@class=&quot;MuiTableCell-root-222 MuiTableCell-body-224 jss210&quot;]/div[@class=&quot;jss210&quot;]/div[@class=&quot;cell-3-9 jss305&quot;]/div[@class=&quot;jss310&quot;]/div[@class=&quot;jss306&quot;]/div[@class=&quot;jss317&quot;]/div[@class=&quot;jss318&quot;]/p[1]/strong[1][count(. | //*[(text() = 'knowledge' or . = 'knowledge')]) = count(//*[(text() = 'knowledge' or . = 'knowledge')])]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.cell-3-9.jss305 > div.jss310 > div.jss306 > div.jss317 > div.jss318 > p > strong</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'knowledge' or . = 'knowledge')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//tr[@id='MUIDataTableBodyRow-3']/td[4]/div/div/div/div/div/div/p/strong</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>strong</value>
+      <webElementGuid>3437555c-ee16-46db-94ca-7c4eee485aea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -33,13 +34,15 @@
       <name>text</name>
       <type>Main</type>
       <value>knowledge</value>
+      <webElementGuid>2ca7d2e2-f6a7-404c-b89c-e1dd50b6ed10</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;MUIDataTableBodyRow-3&quot;)/td[@class=&quot;MuiTableCell-root-222 MuiTableCell-body-224 jss210&quot;]/div[@class=&quot;jss210&quot;]/div[@class=&quot;cell-3-9 jss305&quot;]/div[@class=&quot;jss310&quot;]/div[@class=&quot;jss306&quot;]/div[@class=&quot;jss317&quot;]/div[@class=&quot;jss318&quot;]/p[1]/strong[1]</value>
+      <webElementGuid>481b84b5-102f-45cb-b269-b1b338c53b76</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,6 +50,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tr[@id='MUIDataTableBodyRow-3']/td[4]/div/div/div/div/div/div/p/strong</value>
+      <webElementGuid>232140bd-7fe4-40a0-8d0a-1060e45a6055</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,6 +58,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='OccurrenceNote'])[8]/following::strong[1]</value>
+      <webElementGuid>073e4dc6-73af-4c81-95da-590a307a1114</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,6 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='OrigQuote'])[9]/following::strong[1]</value>
+      <webElementGuid>bc8cb6d5-c87a-4567-96b6-a076805873ee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -68,6 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='OccurrenceNote'])[9]/preceding::strong[1]</value>
+      <webElementGuid>0e8864b8-ec24-44f4-b40a-bdcb82cde081</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,6 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='knowledge'])[4]/preceding::strong[1]</value>
+      <webElementGuid>3db5fe73-4049-46d9-96d6-7ca8fe522702</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,5 +90,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[4]/td[4]/div/div/div/div/div/div/p/strong</value>
+      <webElementGuid>46a2cbd6-1298-4070-a43c-d6f535099890</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

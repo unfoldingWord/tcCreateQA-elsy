@@ -1,0 +1,76 @@
+1
+00:00:00,000 --> 00:00:00,000
+5. println(testCaseContext.getTestCaseVariables())
+
+2
+00:00:00,000 --> 00:00:00,000
+1. com.tccreate.keywords.WriteToFile.writeTofilename("tN-undo editing")
+
+3
+00:00:00,000 --> 00:00:00,000
+5. com.helper.login.TimeDate.getTimeDate()
+
+4
+00:00:00,000 --> 00:00:06,348
+9. com.helper.login.loginhelper.logintoapp()
+
+5
+00:00:06,348 --> 00:00:09,536
+13. com.tccreate.keywords.selectOrg.organization("")
+
+6
+00:00:09,536 --> 00:00:09,868
+17. com.tccreate.keywords.selectOrg.resource("unfoldingWord® Translation Notes")
+
+7
+00:00:09,868 --> 00:00:11,566
+21. com.tccreate.keywords.selectOrg.language("")
+
+8
+00:00:11,566 --> 00:00:12,553
+25. click(findTestObject("Object Repository/Page_tC Create/span_en_tn_57-TIT.tsv"))
+
+9
+00:00:12,553 --> 00:00:14,265
+29. click(findTestObject("Object Repository/Page_tC Create/div_Introduction to TitusPart 1"))
+
+10
+00:00:14,265 --> 00:00:15,144
+33. sendKeys(findTestObject("Object Repository/Page_tC Create/div_Introduction to TitusPart 1"), "edit again ")
+
+11
+00:00:15,144 --> 00:00:15,145
+37. driver = getWebDriver()
+
+12
+00:00:15,145 --> 00:00:15,149
+41. action = new org.openqa.selenium.interactions.Actions(driver)
+
+13
+00:00:15,149 --> 00:00:15,171
+45. keyUp(COMMAND).perform()
+
+14
+00:00:15,172 --> 00:00:16,115
+49. sendKeys(findTestObject("Object Repository/Page_tC Create/div_Introduction to TitusPart 1"), Keys.chord(COMMAND, "z"))
+
+15
+00:00:16,116 --> 00:00:16,117
+53. logInfo("Text is cleared successfully by undo action")
+
+16
+00:00:16,117 --> 00:00:16,217
+57. closeBrowser()
+
+17
+00:00:16,218 --> 00:00:16,218
+1. println(testCaseContext.getTestCaseId())
+
+18
+00:00:16,218 --> 00:00:16,218
+5. println(testCaseContext.getTestCaseStatus())
+
+19
+00:00:16,248 --> 00:00:16,248
+1. println(testCaseContext.getTestCaseId())
+

@@ -1,0 +1,204 @@
+1
+00:00:00,000 --> 00:00:00,000
+5. println(testCaseContext.getTestCaseVariables())
+
+2
+00:00:00,000 --> 00:00:00,000
+1. com.tccreate.keywords.WriteToFile.writeTofilename("tN-Highlighting by occurrence number")
+
+3
+00:00:00,000 --> 00:00:00,000
+5. com.helper.login.TimeDate.getTimeDate()
+
+4
+00:00:00,000 --> 00:00:05,556
+9. com.helper.login.loginhelper.logintoapp()
+
+5
+00:00:05,556 --> 00:00:08,980
+13. com.tccreate.keywords.selectOrg.organization("")
+
+6
+00:00:08,980 --> 00:00:09,396
+17. com.tccreate.keywords.selectOrg.resource("unfoldingWord® Translation Notes")
+
+7
+00:00:09,397 --> 00:00:11,178
+21. com.tccreate.keywords.selectOrg.language("")
+
+8
+00:00:11,178 --> 00:00:12,466
+25. click(findTestObject("Object Repository/Page_tC Create/span_en_tn_57-TIT.tsv"))
+
+9
+00:00:12,466 --> 00:00:14,497
+29. click(findTestObject("Object Repository/tN objects/button_view columns"))
+
+10
+00:00:14,516 --> 00:00:15,245
+33. click(findTestObject("tN objects/input_OrigQuote_checkbox"))
+
+11
+00:00:15,245 --> 00:00:15,920
+37. click(findTestObject("Object Repository/tN objects/input_SupportReference"))
+
+12
+00:00:15,920 --> 00:00:16,498
+41. click(findTestObject("tN objects/button__Close-Columns"))
+
+13
+00:00:16,499 --> 00:00:22,686
+45. buttonstate = com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScripture("test")
+
+14
+00:00:22,687 --> 00:00:22,687
+49. out.println(" the state of the button is" + buttonstate)
+
+15
+00:00:22,687 --> 00:00:23,708
+53. delay(1)
+
+16
+00:00:23,709 --> 00:00:23,710
+57. if (buttonstate == "off")
+
+17
+00:00:23,710 --> 00:00:23,711
+2. logInfo("Parallel scripture viewer is ON")
+
+18
+00:00:23,711 --> 00:00:55,389
+61. scrollToElement(findTestObject("Object Repository/tN objects/div_Titus 11"), 2)
+
+19
+00:00:55,389 --> 00:01:26,988
+65. click(findTestObject("Object Repository/tN objects/button_Titus 11_add a new row"))
+
+20
+00:01:26,988 --> 00:01:58,761
+69. click(findTestObject("Object Repository/tN objects/button_Add"))
+
+21
+00:01:58,761 --> 00:02:30,351
+73. word1 = getText(findTestObject("tN objects/word1"))
+
+22
+00:02:30,351 --> 00:02:30,356
+77. logInfo("the word is" + word1)
+
+23
+00:02:30,356 --> 00:03:02,009
+81. color_word1 = getCSSValue(findTestObject("tN objects/word1"), "color")
+
+24
+00:03:02,010 --> 00:03:33,628
+85. backcolor_word1 = getCSSValue(findTestObject("tN objects/word1"), "background-color")
+
+25
+00:03:33,629 --> 00:03:33,630
+89. logInfo(color_word1)
+
+26
+00:03:33,630 --> 00:03:33,631
+93. logInfo(backcolor_word1)
+
+27
+00:03:33,631 --> 00:04:05,197
+97. click(findTestObject("Object Repository/tN objects/p_OL_box"))
+
+28
+00:04:05,197 --> 00:04:36,810
+101. setText(findTestObject("Object Repository/tN objects/p_OL_box"), "Θεοῦ")
+
+29
+00:04:36,810 --> 00:04:36,811
+105. driver = getWebDriver()
+
+30
+00:04:36,811 --> 00:04:36,811
+109. action = new org.openqa.selenium.interactions.Actions(driver)
+
+31
+00:04:36,811 --> 00:04:36,846
+113. build().perform()
+
+32
+00:04:36,846 --> 00:04:36,847
+117. if (!(color_word1.equals(backcolor_word1)))
+
+33
+00:04:36,848 --> 00:04:36,848
+2. logInfo("First Occurrence is not highlighted! or No hightlight at all!")
+
+34
+00:04:36,848 --> 00:05:08,928
+121. color_word2 = getCSSValue(findTestObject("tN objects/word2"), "color")
+
+35
+00:05:08,929 --> 00:05:40,811
+125. backcolor_word2 = getCSSValue(findTestObject("tN objects/word2"), "background-color")
+
+36
+00:05:40,812 --> 00:06:12,691
+129. click(findTestObject("Object Repository/tN objects/p_occurrence box"))
+
+37
+00:06:12,692 --> 00:06:44,555
+133. clearText(findTestObject("Object Repository/tN objects/p_occurrence box"), CONTINUE_ON_FAILURE)
+
+38
+00:06:44,555 --> 00:07:16,345
+137. sendKeys(findTestObject("Object Repository/tN objects/p_occurrence box"), "2")
+
+39
+00:07:16,345 --> 00:07:16,402
+141. build().perform()
+
+40
+00:07:16,402 --> 00:07:16,403
+145. if (!(color_word2.equals(backcolor_word2)))
+
+41
+00:07:16,403 --> 00:07:16,403
+2. logInfo("Text is not highlighted!")
+
+42
+00:07:16,403 --> 00:07:48,182
+149. clearText(findTestObject("Object Repository/tN objects/p_occurrence box"), CONTINUE_ON_FAILURE)
+
+43
+00:07:48,182 --> 00:08:19,892
+153. sendKeys(findTestObject("Object Repository/tN objects/p_occurrence box"), "-1")
+
+44
+00:08:19,893 --> 00:08:19,915
+157. build().perform()
+
+45
+00:08:19,915 --> 00:08:19,916
+161. if (!(color_word1.equals(backcolor_word1)) && !(color_word2.equals(backcolor_word2)))
+
+46
+00:08:19,916 --> 00:08:19,917
+2. logInfo("Text is not highlighted!")
+
+47
+00:08:19,917 --> 00:08:21,923
+165. delay(2)
+
+48
+00:08:21,924 --> 00:08:22,048
+169. closeBrowser()
+
+49
+00:08:22,049 --> 00:08:22,049
+1. println(testCaseContext.getTestCaseId())
+
+50
+00:08:22,049 --> 00:08:22,049
+5. println(testCaseContext.getTestCaseStatus())
+
+51
+00:08:22,513 --> 00:08:22,514
+1. println(testCaseContext.getTestCaseId())
+

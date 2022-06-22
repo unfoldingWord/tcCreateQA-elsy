@@ -10,15 +10,15 @@
          <value>div.cell-2-6.jss304 > div.jss309 > div.jss306 > div.jss316 > div.jss317</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '​κατὰ πίστιν' or . = '​κατὰ πίστιν')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//tr[@id='MUIDataTableBodyRow-2']/td[3]/div/div/div/div[2]/div/div</value>
       </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;MUIDataTableBodyRow-2&quot;)/td[@class=&quot;MuiTableCell-root-222 MuiTableCell-body-224 jss210&quot;]/div[@class=&quot;jss210&quot;]/div[@class=&quot;cell-2-6 jss304&quot;]/div[@class=&quot;jss309&quot;]/div[@class=&quot;jss306&quot;]/div[@class=&quot;jss316&quot;]/div[@class=&quot;jss317&quot;]</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
+      <webElementGuid>c75cdc98-713d-44d4-ba40-c9dcc3ef6591</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -33,6 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>jss317</value>
+      <webElementGuid>f7d8a0b2-d9ec-4a6d-857b-511ae96db179</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -40,6 +42,7 @@
       <name>dir</name>
       <type>Main</type>
       <value>auto</value>
+      <webElementGuid>c0e99955-106d-4065-ab1c-36c5f4b64b38</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,20 +50,23 @@
       <name>contenteditable</name>
       <type>Main</type>
       <value>true</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>​κατὰ πίστιν abc abc abc abc abc abc abc abc abc abc</value>
+      <webElementGuid>31844c60-3ee6-4dea-88ce-b0af069afa9e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>​κατὰ πίστιν</value>
+      <webElementGuid>94c765b3-d272-425f-a812-f3bf6774727a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;MUIDataTableBodyRow-2&quot;)/td[@class=&quot;MuiTableCell-root-222 MuiTableCell-body-224 jss210&quot;]/div[@class=&quot;jss210&quot;]/div[@class=&quot;cell-2-6 jss304&quot;]/div[@class=&quot;jss309&quot;]/div[@class=&quot;jss306&quot;]/div[@class=&quot;jss316&quot;]/div[@class=&quot;jss317&quot;]</value>
+      <webElementGuid>631fe4c9-1ca9-4cf6-861b-a84a250f7d0a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -68,6 +74,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tr[@id='MUIDataTableBodyRow-2']/td[3]/div/div/div/div[2]/div/div</value>
+      <webElementGuid>ebeacd9c-8e40-4821-bbc8-f3e5f6bca7d1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,6 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='OrigQuote'])[7]/following::div[2]</value>
+      <webElementGuid>4415a884-7dd5-4560-ae6e-6d2dc0d591e9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,6 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='OrigQuote'])[6]/following::div[5]</value>
+      <webElementGuid>0400f0ed-6239-415b-a80f-3b51fc720489</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,6 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='OccurrenceNote'])[6]/preceding::div[1]</value>
+      <webElementGuid>74f8f5ac-103c-41da-b55f-d80878105012</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,6 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='faith'])[2]/preceding::div[1]</value>
+      <webElementGuid>cb7b7284-d40b-4bd4-a077-c16c88e8e507</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,5 +114,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[3]/td[3]/div/div/div/div[2]/div/div</value>
+      <webElementGuid>79c97d20-2353-496d-a2a4-7ead15bd4b34</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

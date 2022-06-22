@@ -11,11 +11,10 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Yahweh supports all who are falling and raises up all those who are bent over. (Psalm 145:14 ULT)' or . = 'Yahweh supports all who are falling and raises up all those who are bent over. (Psalm 145:14 ULT)')]</value>
+         <value>//*[(text() = '> Yahweh supports all who are falling and raises up all those who are **bent over**. (Psalm 145:14 ULT)' or . = '> Yahweh supports all who are falling and raises up all those who are **bent over**. (Psalm 145:14 ULT)')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -26,13 +25,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
+      <webElementGuid>0501632f-3e1a-43d4-b1d7-efdc81fac6a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Yahweh supports all who are falling and raises up all those who are bent over. (Psalm 145:14 ULT)</value>
+      <value>> Yahweh supports all who are falling and raises up all those who are **bent over**. (Psalm 145:14 ULT)</value>
+      <webElementGuid>061c0b3c-e2d7-4f42-b36c-e0b80d47c631</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -40,6 +41,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[1]/div[@class=&quot;jss50&quot;]/div[@class=&quot;jss54&quot;]/div[@class=&quot;MuiPaper-root MuiExpansionPanel-root jss58 Mui-expanded MuiExpansionPanel-rounded MuiPaper-elevation1 MuiPaper-rounded&quot;]/div[@class=&quot;MuiCollapse-container MuiCollapse-entered&quot;]/div[@class=&quot;MuiCollapse-wrapper&quot;]/div[@class=&quot;MuiCollapse-wrapperInner&quot;]/div[1]/div[@class=&quot;MuiExpansionPanelDetails-root jss59&quot;]/div[@class=&quot;MuiGrid-root jss61 MuiGrid-container MuiGrid-wrap-xs-nowrap&quot;]/div[@class=&quot;MuiGrid-root jss63 MuiGrid-item MuiGrid-grid-xs-12&quot;]/div[@class=&quot;jss64&quot;]/div[@class=&quot;jss65&quot;]/p[1]</value>
+      <webElementGuid>0efd3409-4b54-4d3b-827b-5b858502de4b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,6 +49,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div/div/div[2]/div[2]/div[2]/div/div/div/div/div[3]/div[2]/div/div/p</value>
+      <webElementGuid>2338fed7-01e3-46b8-8b49-feea40dff9c8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,6 +57,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='bent over'])[1]/following::p[1]</value>
+      <webElementGuid>fb25c09a-a3aa-45c1-bf0a-b077919107ca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,6 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Being BENT OVER means being discouraged or oppressed'])[2]/following::p[2]</value>
+      <webElementGuid>84f5f6eb-d9ad-4231-9346-82acb6abdfb9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -68,6 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Having BIRTH PAINS mean suffering that is necessary to achieve a new condition'])[1]/preceding::p[1]</value>
+      <webElementGuid>ad91b905-64ba-47b1-95e5-534ddf04214b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,5 +81,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div[2]/div/div/p</value>
+      <webElementGuid>bade0fe7-5132-4197-a7fb-a4403f4618e9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

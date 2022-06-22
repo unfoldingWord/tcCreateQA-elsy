@@ -6,10 +6,6 @@
    <elementGuidId>0828b416-9e29-45fa-8189-cdec42f46311</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//tr[@id='MUIDataTableBodyRow-3']/td[2]/div/div/div/div/div/div/p</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.cell-3-6.jss5779 > div.jss5784 > div.jss5780 > div.jss5785 > div.jss5786 > p</value>
       </entry>
@@ -17,8 +13,12 @@
          <key>BASIC</key>
          <value>//*[(text() = 'ἐπίγνωσιν' or . = 'ἐπίγνωσιν')]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//tr[@id='MUIDataTableBodyRow-3']/td[2]/div/div/div/div/div/div/p</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
+      <webElementGuid>7a4738f6-7f8b-4e35-9c7c-20d56eaaefaf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -33,6 +34,7 @@
       <name>text</name>
       <type>Main</type>
       <value>ἐπίγνωσιν</value>
+      <webElementGuid>e04f36f0-c210-4430-bb09-b95afb3c80aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -40,6 +42,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;MUIDataTableBodyRow-3&quot;)/td[@class=&quot;MuiTableCell-root-222 MuiTableCell-body-224 jss5767&quot;]/div[@class=&quot;jss5767&quot;]/div[@class=&quot;cell-3-6 jss5779&quot;]/div[@class=&quot;jss5784&quot;]/div[@class=&quot;jss5780&quot;]/div[@class=&quot;jss5785&quot;]/div[@class=&quot;jss5786&quot;]/p[1]</value>
+      <webElementGuid>6f0a9fd3-527b-482e-99c1-c8978b93a854</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,6 +50,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tr[@id='MUIDataTableBodyRow-3']/td[2]/div/div/div/div/div/div/p</value>
+      <webElementGuid>ee822e59-f0d4-45b4-9e36-9e9f816285a4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,6 +58,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='OrigQuote'])[8]/following::p[1]</value>
+      <webElementGuid>820c564b-4aa3-45bd-bcf5-11a7d4f4c6be</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,6 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='SupportReference'])[9]/following::p[2]</value>
+      <webElementGuid>09ac3db5-b513-47d0-b104-c02959926ed4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -68,6 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='OrigQuote'])[9]/preceding::p[1]</value>
+      <webElementGuid>560a4a39-9f10-435c-aad8-decd60332e37</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,6 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='SupportReference'])[10]/preceding::p[2]</value>
+      <webElementGuid>cf2a752f-9f26-4e1e-8e36-430beea4b762</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,6 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='ἐπίγνωσιν']/parent::*</value>
+      <webElementGuid>f6e1fc68-597e-4886-9338-3e359ef06e33</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,5 +98,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[4]/td[2]/div/div/div/div/div/div/p</value>
+      <webElementGuid>a97ed746-7816-4e02-a205-e8249fc7af96</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,15 +6,19 @@
    <elementGuidId>78744024-fa08-4abc-a0f1-3df738b7f296</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>span.jss5437</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(//tr[@id='1:1']/td/div/span[17])[4]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>span.jss5437</value>
+         <key>BASIC</key>
+         <value>//*[(text() = 'εὐσέβειαν' or . = 'εὐσέβειαν')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>05825bfb-0579-4ac1-a855-4faf65978a2e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +34,7 @@
       <name>data-test</name>
       <type>Main</type>
       <value>aligned-word-object</value>
+      <webElementGuid>51593b2a-cfc5-438f-a1da-3f9d6d193c19</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>jss5437</value>
+      <webElementGuid>f88515f8-0442-4309-863a-9628cd9829b4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,6 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>εὐσέβειαν</value>
+      <webElementGuid>4c976488-1af7-4c09-8ee5-0c939ea81e6a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;header-1-1-xyz8&quot;)/div[@class=&quot;jss308&quot;]/div[@class=&quot;jss311&quot;]/div[@id=&quot;wrapY&quot;]/table[@class=&quot;MuiTable-root-710 jss533&quot;]/tbody[@class=&quot;MuiTableBody-root-719 jss534&quot;]/tr[@id=&quot;1:1&quot;]/td[@class=&quot;MuiTableCell-root-722 MuiTableCell-body-724 jss721&quot;]/div[@class=&quot;jss5432&quot;]/span[@class=&quot;jss5437&quot;]</value>
+      <webElementGuid>46042da8-65da-42dc-98ae-3d5a603e6f4e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,6 +66,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>(//tr[@id='1:1']/td/div/span[17])[4]</value>
+      <webElementGuid>6da64318-565e-4603-8e22-5418ccef1bb2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='κατ’'])[2]/following::span[1]</value>
+      <webElementGuid>056c13bc-864d-4e6a-846c-ce4fba0c667e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='τῆς'])[2]/following::span[2]</value>
+      <webElementGuid>a128bd1e-2b88-425c-8a29-94cedfbce03f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Paul'])[3]/preceding::span[1]</value>
+      <webElementGuid>af6d6700-0c67-427a-9b73-7670ac4e0f58</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,5 +98,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[4]/td/div/div/div/div/div[2]/table/tbody/tr/td/div/span[17]</value>
+      <webElementGuid>3ed9940a-89c5-4f6c-8038-3366a58c7638</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

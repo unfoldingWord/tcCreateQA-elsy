@@ -9,15 +9,15 @@
          <key>CSS</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'translate/' or . = 'translate/')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='root']/div/div/div/div/div[2]/div/div/div/div/ul/div[8]/div/div[2]/span</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'translate/' or . = 'translate/')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -25,6 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>6b15a6f9-96ce-445b-918a-2c4a9286e4c3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -32,6 +33,7 @@
       <name>class</name>
       <type>Main</type>
       <value>MuiTypography-root MuiListItemText-primary MuiTypography-body2 MuiTypography-displayBlock</value>
+      <webElementGuid>6991ed27-b01c-407b-9a66-c5840ac2b6eb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,6 +41,7 @@
       <name>text</name>
       <type>Main</type>
       <value>translate/</value>
+      <webElementGuid>682fb771-b31b-4f56-92f3-f1b89ff68fe8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,6 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[1]/div[@class=&quot;MuiPaper-root MuiPaper-elevation1 MuiPaper-rounded&quot;]/div[@class=&quot;jss11&quot;]/div[2]/div[@class=&quot;jss12&quot;]/div[@class=&quot;MuiCollapse-container MuiCollapse-entered&quot;]/div[@class=&quot;MuiCollapse-wrapper&quot;]/div[@class=&quot;MuiCollapse-wrapperInner&quot;]/ul[@class=&quot;MuiList-root jss45 MuiList-dense MuiList-padding&quot;]/div[8]/div[@class=&quot;MuiButtonBase-root MuiListItem-root jss48 MuiListItem-dense MuiListItem-gutters MuiListItem-button&quot;]/div[@class=&quot;MuiListItemText-root jss49 MuiListItemText-dense&quot;]/span[@class=&quot;MuiTypography-root MuiListItemText-primary MuiTypography-body2 MuiTypography-displayBlock&quot;]</value>
+      <webElementGuid>397ae08f-c83b-4054-87b9-f0f5b297ab40</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,6 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div/div/div/div[2]/div/div/div/div/ul/div[8]/div/div[2]/span</value>
+      <webElementGuid>15553c21-571f-4ff9-8537-081a7efbcf18</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -60,6 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='process/'])[1]/following::span[2]</value>
+      <webElementGuid>ca915288-ba5e-4c95-978e-e1fbc23c98e0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -67,6 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='manifest.yaml'])[1]/following::span[4]</value>
+      <webElementGuid>7b5dcd4b-2f56-4ee9-a6c9-492cfde348eb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,6 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/preceding::span[4]</value>
+      <webElementGuid>99841bd5-a29a-43fd-b772-3a98bfab4f66</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,6 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/preceding::span[6]</value>
+      <webElementGuid>ab4d8467-b934-4c1e-904c-20e311169ca7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,6 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='translate/']/parent::*</value>
+      <webElementGuid>627b3790-47ae-446d-bfe3-24b497c6eb69</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,6 +105,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[8]/div/div[2]/span</value>
+      <webElementGuid>01ec9af2-e44f-49cc-b5d8-9a3f8d1ee89c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +113,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/preceding::span[2]</value>
+      <webElementGuid>41096b73-29ad-434e-bdd1-37daa143990e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,5 +121,6 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/preceding::span[4]</value>
+      <webElementGuid>290ad5af-bec2-4b2d-aa27-12968b13fd71</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

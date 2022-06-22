@@ -6,15 +6,19 @@
    <elementGuidId>664da1bd-5be2-4684-b8a7-d9c40060094a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='alert-dialog-title']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#alert-dialog-title</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'alert-dialog-title' and (text() = 'This file cannot be opened by tC Create. Please contact your administrator to address the following error(s).' or . = 'This file cannot be opened by tC Create. Please contact your administrator to address the following error(s).')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='alert-dialog-title']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
+      <webElementGuid>d234dd6b-1c96-46bd-9cb2-ec69cb1cfac0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>MuiDialogTitle-root</value>
+      <webElementGuid>ab49b16b-212b-46ab-8e4c-606b8a82510a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +42,7 @@
       <name>id</name>
       <type>Main</type>
       <value>alert-dialog-title</value>
+      <webElementGuid>cd727360-f33f-49f9-8857-3005bf167ab3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,6 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>This file cannot be opened by tC Create. Please contact your administrator to address the following error(s).</value>
+      <webElementGuid>d419eda5-af38-4afb-a2ea-01bcf8f3f698</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;alert-dialog-title&quot;)</value>
+      <webElementGuid>6fe4fa8d-1efd-4b55-898f-af73cbf4eb5a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,6 +66,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='alert-dialog-title']</value>
+      <webElementGuid>50f0ffe3-d5b5-49bb-a1e5-b81081449425</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='en_tn'])[1]/following::div[9]</value>
+      <webElementGuid>67d1ccfd-e267-4101-9754-d6ea0d16fb89</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='en_tn_57-TIT.tsv'])[1]/following::div[13]</value>
+      <webElementGuid>9d28dc0a-c6d4-435b-9571-801cf6ce1d93</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,5 +90,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[3]/div/div</value>
+      <webElementGuid>240c804c-67bd-49c1-aa8c-1671e9a03944</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

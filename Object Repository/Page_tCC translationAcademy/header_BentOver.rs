@@ -6,15 +6,19 @@
    <elementGuidId>cff95d20-ddc2-480f-b80d-42d3e4d250ab</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>/html/body/div/div/div[2]/div/div[2]/div/div[2]/div[2]/div[2]/div/div/div/div[1]/div[1]/div[2]/div/pre/code</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@contenteditable = 'true' and (text() = 'Being BENT OVER means being discouraged or oppressed' or . = 'Being BENT OVER means being discouraged or oppressed')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>div.MuiCollapse-container.MuiCollapse-entered > div.MuiCollapse-wrapper > div.MuiCollapse-wrapperInner > div > div.MuiExpansionPanelDetails-root.jss59 > div.MuiGrid-root.jss61.MuiGrid-container.MuiGrid-wrap-xs-nowrap > div.MuiGrid-root.jss63.MuiGrid-item.MuiGrid-grid-xs-12 > div.jss64 > div.jss65</value>
       </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root']/div/div/div/div[2]/div[2]/div[2]/div[2]/div/div/div/div/div/div[2]/div/div</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
+      <webElementGuid>8cce398e-c4c0-49fb-ad51-c30eee3ef9e7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>jss65</value>
+      <webElementGuid>60aa6439-4a42-486a-a485-279be374fb8a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +42,7 @@
       <name>dir</name>
       <type>Main</type>
       <value>auto</value>
+      <webElementGuid>7bb7bb3c-41ce-4b31-ba27-628191498f1a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,6 +50,7 @@
       <name>contenteditable</name>
       <type>Main</type>
       <value>true</value>
+      <webElementGuid>065e6751-ba6f-468e-ac43-32b2c362018f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,6 +58,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Being BENT OVER means being discouraged or oppressed</value>
+      <webElementGuid>ad2300c7-f9c9-4f19-b659-f169ca5fb181</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[1]/div[@class=&quot;jss50&quot;]/div[@class=&quot;jss54&quot;]/div[@class=&quot;jss57&quot;]/div[@class=&quot;MuiPaper-root MuiExpansionPanel-root jss58 Mui-expanded MuiExpansionPanel-rounded MuiPaper-elevation1 MuiPaper-rounded&quot;]/div[@class=&quot;MuiCollapse-container MuiCollapse-entered&quot;]/div[@class=&quot;MuiCollapse-wrapper&quot;]/div[@class=&quot;MuiCollapse-wrapperInner&quot;]/div[1]/div[@class=&quot;MuiExpansionPanelDetails-root jss59&quot;]/div[@class=&quot;MuiGrid-root jss61 MuiGrid-container MuiGrid-wrap-xs-nowrap&quot;]/div[@class=&quot;MuiGrid-root jss63 MuiGrid-item MuiGrid-grid-xs-12&quot;]/div[@class=&quot;jss64&quot;]/div[@class=&quot;jss65&quot;]</value>
+      <webElementGuid>f3707afe-dc23-41e7-86fd-8e092b0fde8a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -64,6 +74,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div/div/div[2]/div[2]/div[2]/div[2]/div/div/div/div/div/div[2]/div/div</value>
+      <webElementGuid>803ac5b9-da78-43a9-a02e-5ff79d6d02a8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Being BENT OVER means being discouraged or oppressed'])[1]/following::div[3]</value>
+      <webElementGuid>9419ec36-4c58-4fc9-87de-96a51c063cc3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='metaphors'])[3]/following::div[17]</value>
+      <webElementGuid>15a44203-c3ae-4a30-a441-5d93388c3348</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='bent over'])[1]/preceding::div[1]</value>
+      <webElementGuid>d2b10520-5b0c-469e-8a13-a7a1b7511e83</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,5 +106,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div[2]/div[2]/div/div/div/div/div/div[2]/div/div</value>
+      <webElementGuid>71e7d01f-0747-468d-a4e3-6e8c55379810</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

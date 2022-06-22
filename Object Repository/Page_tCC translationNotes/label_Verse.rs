@@ -6,15 +6,19 @@
    <elementGuidId>b18f36c5-726f-4439-a2d9-eb0ca0d84e7c</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>h6.MuiTypography-root-113.jss6016.MuiTypography-subtitle2-125.MuiTypography-colorTextSecondary-139.MuiTypography-alignLeft-128</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//tr[@id='MUIDataTableBodyRow-0']/td/div/div/div/div/h6</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>h6.MuiTypography-root-113.jss6016.MuiTypography-subtitle2-125.MuiTypography-colorTextSecondary-139.MuiTypography-alignLeft-128</value>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Verse' or . = 'Verse')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h6</value>
+      <webElementGuid>c8dcaa2c-051a-4973-a568-5884ea1ae17f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>MuiTypography-root-113 jss6016 MuiTypography-subtitle2-125 MuiTypography-colorTextSecondary-139 MuiTypography-alignLeft-128</value>
+      <webElementGuid>78cd9d58-0f34-4511-bf8e-89dff0445095</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Verse</value>
+      <webElementGuid>addb896a-0f37-4479-84c6-4f9b116dea30</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;MUIDataTableBodyRow-0&quot;)/td[@class=&quot;MuiTableCell-root-222 MuiTableCell-body-224 jss6001&quot;]/div[@class=&quot;jss6001&quot;]/div[@class=&quot;cell-0-3 jss6013&quot;]/div[@class=&quot;jss6018&quot;]/div[@class=&quot;jss6014&quot;]/h6[@class=&quot;MuiTypography-root-113 jss6016 MuiTypography-subtitle2-125 MuiTypography-colorTextSecondary-139 MuiTypography-alignLeft-128&quot;]</value>
+      <webElementGuid>b0294252-ee22-489d-a8bd-a50a0b530f64</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,6 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tr[@id='MUIDataTableBodyRow-0']/td/div/div/div/div/h6</value>
+      <webElementGuid>1156f6f2-98af-4d64-8035-82f0c19fff3e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Verse'])[1]/following::h6[1]</value>
+      <webElementGuid>3e1d0742-6cc1-42c6-a68e-1c7de29d265e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='English - translate_test/en_tn/tcc001-tc-create-1'])[1]/following::h6[2]</value>
+      <webElementGuid>800b8380-6b3b-47f7-a969-1be519a5f8e0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Verse'])[3]/preceding::h6[1]</value>
+      <webElementGuid>e970bc3c-4619-4175-8387-dddbd37d86df</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Verse'])[4]/preceding::h6[2]</value>
+      <webElementGuid>2ef97d6b-4eca-4726-add2-bd06664d3424</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,5 +98,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td/div/div/div/div/h6</value>
+      <webElementGuid>41bdbbde-442d-48bf-9d7f-d897003e67c7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

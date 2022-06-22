@@ -6,15 +6,19 @@
    <elementGuidId>a8be9098-336c-45d8-abd4-71c2a4bbc486</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::div[8]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.MuiDialogContent-root</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'On line 1 Bad TSV Header, expecting:&quot;Book, Chapter, Verse, ID, SupportReference, OrigQuote, Occurrence, GLQuote, OccurrenceNote&quot;, found:&quot;Book, Chpt, Verse, ID, SupportReference, OrigQuote, Occurrence, GLQuote, OccurrenceNote&quot;   On line 1 Headers different at character 8: a (x61) vs p (x70)   On line 1 TSV Header has incorrect length, should be 82; found 79   On line 22 Not enough columns, expecting 9, found 8   On line 26 Not enough columns, expecting 9, found 8   On line 98 Not enough columns, expecting 9, found 8   On line 187 Row ID  is a duplicate of ID on row 25   On line 187 Too many columns, expecting 9, found 10   ' or . = 'On line 1 Bad TSV Header, expecting:&quot;Book, Chapter, Verse, ID, SupportReference, OrigQuote, Occurrence, GLQuote, OccurrenceNote&quot;, found:&quot;Book, Chpt, Verse, ID, SupportReference, OrigQuote, Occurrence, GLQuote, OccurrenceNote&quot;   On line 1 Headers different at character 8: a (x61) vs p (x70)   On line 1 TSV Header has incorrect length, should be 82; found 79   On line 22 Not enough columns, expecting 9, found 8   On line 26 Not enough columns, expecting 9, found 8   On line 98 Not enough columns, expecting 9, found 8   On line 187 Row ID  is a duplicate of ID on row 25   On line 187 Too many columns, expecting 9, found 10   ')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::div[8]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
+      <webElementGuid>893b8626-4fbd-4466-8889-4f5e845d5dd2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>MuiDialogContent-root</value>
+      <webElementGuid>bebc8cdb-173a-4284-b2d0-4b4253394433</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>On line 1 Bad TSV Header, expecting:&quot;Book, Chapter, Verse, ID, SupportReference, OrigQuote, Occurrence, GLQuote, OccurrenceNote&quot;, found:&quot;Book, Chpt, Verse, ID, SupportReference, OrigQuote, Occurrence, GLQuote, OccurrenceNote&quot;   On line 1 Headers different at character 8: a (x61) vs p (x70)   On line 1 TSV Header has incorrect length, should be 82; found 79   On line 22 Not enough columns, expecting 9, found 8   On line 26 Not enough columns, expecting 9, found 8   On line 98 Not enough columns, expecting 9, found 8   On line 187 Row ID  is a duplicate of ID on row 25   On line 187 Too many columns, expecting 9, found 10   </value>
+      <webElementGuid>a5a35df9-f99c-40c7-8f13-0c24495275c9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;MuiDialog-root&quot;]/div[@class=&quot;MuiDialog-container MuiDialog-scrollPaper&quot;]/div[@class=&quot;MuiPaper-root MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-elevation24 MuiPaper-rounded&quot;]/div[@class=&quot;MuiDialogContent-root&quot;]</value>
+      <webElementGuid>21f3903f-2c4d-4686-bbf0-0e342e1da109</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,6 +58,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::div[8]</value>
+      <webElementGuid>6166796b-5170-4dfe-842b-8b6ad0e05335</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[2]/following::div[8]</value>
+      <webElementGuid>bc0a48e7-d0fc-4021-9a3b-8efcbafa5a63</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,5 +74,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div[2]</value>
+      <webElementGuid>a7392609-74ec-465a-a345-568cff41bfe5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

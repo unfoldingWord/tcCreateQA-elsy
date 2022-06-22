@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>sn_obs_edit box test1</name>
+   <tag></tag>
+   <elementGuidId>81f86f12-8898-445d-9d7d-9a798daf2c0a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//tr[@id='MUIDataTableBodyRow-1']/td[3]/div/div/div/div[2]/div/div[2]/div/pre/code</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@contenteditable = 'true' and (contains(text(), 'The term God refers to the eternal being who created the universe out of nothing. God exists as Father, Son, and Holy Spirit. God’s personal name is ‘Yahweh.’') or contains(., 'The term God refers to the eternal being who created the universe out of nothing. God exists as Father, Son, and Holy Spirit. God’s personal name is ‘Yahweh.’'))]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.cell-0-7.jss250 > div.jss255 > div.jss252 > div.MuiGrid-root-268.MuiGrid-container-269.MuiGrid-spacing-xs-2-292 > div.MuiGrid-root-268.MuiGrid-item-270.MuiGrid-grid-xs-6-308 > div.jss371 > div.jss372</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>47072392-a8e0-47ed-bbf9-f842712d1afd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>jss372</value>
+      <webElementGuid>c4c11425-b53f-4ec3-b610-bd2ce49568fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>dir</name>
+      <type>Main</type>
+      <value>auto</value>
+      <webElementGuid>1d3c98e1-4d72-4df9-85cc-51082babfd15</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>contenteditable</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>fe4d3bd8-82c2-4bf5-a26a-d8d7c91c91e2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>The term God refers to the eternal being who created the universe out of nothing. God exists as Father, Son, and Holy Spirit. God’s personal name is ‘Yahweh.’</value>
+      <webElementGuid>462407c7-845f-48eb-8c69-91170875d998</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;MUIDataTableBodyRow-0&quot;)/td[@class=&quot;MuiTableCell-root-212 MuiTableCell-body-214 jss238&quot;]/div[@class=&quot;jss238&quot;]/div[@class=&quot;cell-0-7 jss250&quot;]/div[@class=&quot;jss255&quot;]/div[@class=&quot;jss252&quot;]/div[@class=&quot;MuiGrid-root-268 MuiGrid-container-269 MuiGrid-spacing-xs-2-292&quot;]/div[@class=&quot;MuiGrid-root-268 MuiGrid-item-270 MuiGrid-grid-xs-6-308&quot;]/div[@class=&quot;jss371&quot;]/div[@class=&quot;jss372&quot;]</value>
+      <webElementGuid>a41d04db-3b15-4407-8307-11310829d15a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tr[@id='MUIDataTableBodyRow-0']/td[3]/div/div/div/div[2]/div/div[2]/div/div</value>
+      <webElementGuid>c19fdb05-0a4c-4ba7-a015-77c795754935</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Note'])[3]/following::div[3]</value>
+      <webElementGuid>9b0a9f67-12dd-4d63-92c8-4d977a0984f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='God'])[1]/following::div[7]</value>
+      <webElementGuid>59260cbd-738e-4d4f-882e-b24d5357b0b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OBS 1:1'])[2]/preceding::div[2]</value>
+      <webElementGuid>6adaeecb-7497-49ce-ad6a-5eb585a1be5c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[3]/div/div/div/div[2]/div/div[2]/div/div</value>
+      <webElementGuid>0e7e2afd-8768-4785-94c1-4a9bfa6cf795</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'The term God refers to the eternal being who created the universe out of nothing. God exists as Father, Son, and Holy Spirit. God’s personal name is ‘Yahweh.’' or . = 'The term God refers to the eternal being who created the universe out of nothing. God exists as Father, Son, and Holy Spirit. God’s personal name is ‘Yahweh.’')]</value>
+      <webElementGuid>9b78dfe1-b4ff-48ab-a535-ee472451071f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

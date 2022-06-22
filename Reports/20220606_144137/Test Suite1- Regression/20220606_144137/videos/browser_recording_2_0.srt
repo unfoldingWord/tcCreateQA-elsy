@@ -1,0 +1,132 @@
+1
+00:00:00,000 --> 00:00:00,000
+13. executionProfile = RC.getExecutionProfile()
+
+2
+00:00:00,000 --> 00:00:00,000
+1. com.tccreate.keywords.WriteToFile.writeTofilename("Links to Org page")
+
+3
+00:00:00,000 --> 00:00:00,000
+5. com.helper.login.TimeDate.getTimeDate()
+
+4
+00:00:00,000 --> 00:00:05,923
+9. com.helper.login.loginhelper.logintoapp()
+
+5
+00:00:05,923 --> 00:00:08,480
+13. verifyElementPresent(findTestObject("Object Repository/Organization Link/span_unfoldingWord"), 1)
+
+6
+00:00:08,480 --> 00:00:08,480
+17. expectedTooltip = "Go to Organization"
+
+7
+00:00:08,480 --> 00:00:08,939
+21. actualTooltip = getAttribute(findTestObject("Object Repository/Organization Link/button_unfoldingWord_MuiButtonBase-root MuiIconButton-root"), "title")
+
+8
+00:00:08,939 --> 00:00:08,945
+25. out.println("Actual Title of Tool Tip" + actualTooltip)
+
+9
+00:00:08,945 --> 00:00:08,945
+29. if (actualTooltip.equals(expectedTooltip))
+
+10
+00:00:08,945 --> 00:00:08,946
+1. out.println("Test Case Passed")
+
+11
+00:00:08,946 --> 00:00:09,435
+33. click(findTestObject("Object Repository/Organization Link/button_unfoldingWord_MuiButtonBase-root MuiIconButton-root"))
+
+12
+00:00:09,435 --> 00:00:09,449
+37. switchToWindowIndex(1)
+
+13
+00:00:09,449 --> 00:00:11,125
+41. if (verifyElementVisible(findTestObject("Object Repository/Organization Link/div_unfoldingWord"), CONTINUE_ON_FAILURE))
+
+14
+00:00:11,125 --> 00:00:11,125
+1. out.println("Organization page is opening")
+
+15
+00:00:11,125 --> 00:00:11,138
+45. switchToWindowIndex(0)
+
+16
+00:00:11,138 --> 00:00:11,280
+49. closeBrowser()
+
+17
+00:00:11,280 --> 00:00:11,280
+1. suite = false
+
+18
+00:00:11,283 --> 00:00:11,283
+5. fileName = testSuiteLogFile
+
+19
+00:00:11,283 --> 00:00:11,283
+9. if (fileName != null && fileName.length() > 1)
+
+20
+00:00:11,283 --> 00:00:11,284
+13. browser = unfoldingWord_Keywords.GetTestingConfig.getBrowserAndVersion()
+
+21
+00:00:11,284 --> 00:00:11,285
+17. separator = "==================================================================================================================================================="
+
+22
+00:00:11,285 --> 00:00:11,285
+21. msg = separator
+
+23
+00:00:11,285 --> 00:00:11,285
+25. println(msg)
+
+24
+00:00:11,286 --> 00:00:11,286
+29. if (suite)
+
+25
+00:00:11,286 --> 00:00:11,286
+33. prefix = " +++++++++++ "
+
+26
+00:00:11,286 --> 00:00:11,286
+37. testCaseStatus = testCaseContext.getTestCaseStatus()
+
+27
+00:00:11,287 --> 00:00:11,287
+41. if (scriptRunning)
+
+28
+00:00:11,287 --> 00:00:11,287
+45. if (testCaseStatus != "PASSED")
+
+29
+00:00:11,287 --> 00:00:11,287
+1. prefix = " ---------------------- "
+
+30
+00:00:11,287 --> 00:00:11,289
+49. executionProfile = RC.getExecutionProfile()
+
+31
+00:00:11,310 --> 00:00:11,310
+1. println("setup start")
+
+32
+00:00:11,311 --> 00:00:11,311
+5. systemOS = unfoldingWord_Keywords.GetTestingConfig.getOperatingSystem()
+
+33
+00:00:11,311 --> 00:00:11,311
+9. tcMessages = []
+

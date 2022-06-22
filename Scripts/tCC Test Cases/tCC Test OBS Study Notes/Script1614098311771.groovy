@@ -30,15 +30,15 @@ CustomKeywords.'com.tccreate.keywords.selectOrg.resource'('unfoldingWord® Open 
 CustomKeywords.'com.tccreate.keywords.selectOrg.language'("")
 
 
-WebUI.click(findTestObject('OBS-tn/tn_OBS.tsv'))
+WebUI.click(findTestObject('Page_tC Create/file_Parmed', [('fileName') : "sn_OBS.tsv"]))
 
-WebUI.click(findTestObject('Object Repository/OBS-tn/span_02'))
+WebUI.delay(2)
+WebUI.waitForElementVisible(findTestObject('Object Repository/obs-sn/h6_OBS 11'), 2)
+println("seeing the obs 1:1 header")
 
-WebUI.click(findTestObject('Object Repository/OBS-tn/span_02.md'))
+WebUI.click(findTestObject('Object Repository/obs-sn/sn_obs_edit box test1'))
 
-WebUI.click(findTestObject('Object Repository/obs-sn/div_a snake edit box'))
-
-WebUI.sendKeys(findTestObject('Object Repository/obs-sn/div_a snake edit box'), '  edits by a test script')
+WebUI.sendKeys(findTestObject('Object Repository/obs-sn/sn_obs_edit box test1'), '  edits by a test script')
 
 WebUI.click(findTestObject('Object Repository/Page_tC Create/button_Save'))
 //validate

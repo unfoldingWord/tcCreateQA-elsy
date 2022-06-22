@@ -6,15 +6,19 @@
    <elementGuidId>55923b72-4cb3-4586-8748-d9aaf064a7ce</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>#header-1-intro-c7me > div.jss37222 > div.jss37224</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='header-1-intro-c7me']/div/div</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#header-1-intro-c7me > div.jss37222 > div.jss37224</value>
+         <key>BASIC</key>
+         <value>//*[(text() = 'TIT 1:intro' or . = 'TIT 1:intro')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
+      <webElementGuid>765f3661-ac16-4729-8672-426a08f89897</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>jss37224</value>
+      <webElementGuid>10eb4686-232c-448b-bba1-8780f0b1c061</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>TIT 1:intro</value>
+      <webElementGuid>811db6d8-3b49-4ed6-b1d4-3ebd538d5e90</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;header-1-intro-c7me&quot;)/div[@class=&quot;jss37222&quot;]/div[@class=&quot;jss37224&quot;]</value>
+      <webElementGuid>ce8f057a-013f-431a-8222-43194e5a0182</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,6 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='header-1-intro-c7me']/div/div</value>
+      <webElementGuid>4f07b16a-7a9e-465f-ad08-6e2ba7bcaa61</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='TIT front:intro'])[1]/following::div[9]</value>
+      <webElementGuid>15c165c8-58a2-4545-83f9-e1e9dd26dbe5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='rowHeader'])[1]/following::div[14]</value>
+      <webElementGuid>cdecacae-360d-437f-8cdc-07b7c2f3d779</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Titus 1:1'])[1]/preceding::div[6]</value>
+      <webElementGuid>9146be15-dea6-4986-9cb2-abab5931c2d4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,5 +90,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[2]/td/div/div/div/div</value>
+      <webElementGuid>332b66da-1b4d-4117-bd7b-1b1ef4e32224</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

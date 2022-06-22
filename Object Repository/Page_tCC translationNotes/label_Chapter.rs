@@ -6,26 +6,27 @@
    <elementGuidId>ac475b0d-5517-4de7-8c13-8e4fcca21bfa</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//tr[@id='MUIDataTableBodyRow-0']/td/div/div/div/div/h6</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>h6.MuiTypography-root-113.jss5872.MuiTypography-subtitle2-125.MuiTypography-colorTextSecondary-139.MuiTypography-alignLeft-128</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Chapter' or . = 'Chapter')]</value>
+         <value>//h6[(text() = 'Chapter' or . = 'Chapter')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//tr[@id='MUIDataTableBodyRow-0']/td/div/div/div/div/h6</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>h6</value>
+      <webElementGuid>38ff3ea0-e737-4376-92d1-ca7a3bb2356f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -33,6 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>MuiTypography-root-113 jss5872 MuiTypography-subtitle2-125 MuiTypography-colorTextSecondary-139 MuiTypography-alignLeft-128</value>
+      <webElementGuid>716bb287-7db5-495d-8fc7-25301d6471e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -40,6 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Chapter</value>
+      <webElementGuid>1fd2311a-e73e-4d3c-966f-d3001c01ed4f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,6 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;MUIDataTableBodyRow-0&quot;)/td[@class=&quot;MuiTableCell-root-222 MuiTableCell-body-224 jss5857&quot;]/div[@class=&quot;jss5857&quot;]/div[@class=&quot;cell-0-2 jss5869&quot;]/div[@class=&quot;jss5874&quot;]/div[@class=&quot;jss5870&quot;]/h6[@class=&quot;MuiTypography-root-113 jss5872 MuiTypography-subtitle2-125 MuiTypography-colorTextSecondary-139 MuiTypography-alignLeft-128&quot;]</value>
+      <webElementGuid>27780b82-b0cf-4c60-b197-22861e36ca64</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,6 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tr[@id='MUIDataTableBodyRow-0']/td/div/div/div/div/h6</value>
+      <webElementGuid>4e7b8fa4-da85-422f-8d99-90e53def00a1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,6 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Chapter'])[1]/following::h6[1]</value>
+      <webElementGuid>cb6fe0db-bc8a-4c5b-94d4-b1f39b1fe6fd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -68,6 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='English - translate_test/en_tn/tcc001-tc-create-1'])[1]/following::h6[2]</value>
+      <webElementGuid>a4e9e5f0-6947-4fff-9e44-91af56903a3b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,6 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Chapter'])[3]/preceding::h6[1]</value>
+      <webElementGuid>1517eee2-ee01-478e-8d84-32927362cada</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,6 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Chapter'])[4]/preceding::h6[2]</value>
+      <webElementGuid>e3392967-5eaa-4e2f-8ff5-55314f67f159</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,5 +98,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td/div/div/div/div/h6</value>
+      <webElementGuid>dd299608-4df0-4734-8760-a7eb3dfdae3a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
