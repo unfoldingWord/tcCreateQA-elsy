@@ -1,0 +1,132 @@
+1
+00:00:00,000 --> 00:00:00,000
+13. executionProfile = RC.getExecutionProfile()
+
+2
+00:00:00,000 --> 00:00:00,000
+1. com.tccreate.keywords.WriteToFile.writeTofilename("tN-undo editing")
+
+3
+00:00:00,000 --> 00:00:00,000
+5. com.helper.login.TimeDate.getTimeDate()
+
+4
+00:00:00,000 --> 00:00:06,293
+9. com.helper.login.loginhelper.logintoapp()
+
+5
+00:00:06,294 --> 00:00:09,264
+13. com.tccreate.keywords.selectOrg.organization("")
+
+6
+00:00:09,264 --> 00:00:09,667
+17. com.tccreate.keywords.selectOrg.resource("unfoldingWord® Translation Notes")
+
+7
+00:00:09,686 --> 00:00:12,659
+21. com.tccreate.keywords.selectOrg.language("")
+
+8
+00:00:12,659 --> 00:00:13,692
+25. click(findTestObject("Object Repository/Page_tC Create/span_en_tn_57-TIT.tsv"))
+
+9
+00:00:13,692 --> 00:00:15,337
+29. click(findTestObject("Object Repository/Page_tC Create/div_Introduction to TitusPart 1"))
+
+10
+00:00:15,337 --> 00:00:16,359
+33. sendKeys(findTestObject("Object Repository/Page_tC Create/div_Introduction to TitusPart 1"), "edit again ")
+
+11
+00:00:16,360 --> 00:00:16,360
+37. driver = getWebDriver()
+
+12
+00:00:16,360 --> 00:00:16,363
+41. action = new org.openqa.selenium.interactions.Actions(driver)
+
+13
+00:00:16,363 --> 00:00:16,379
+45. keyUp(COMMAND).perform()
+
+14
+00:00:16,379 --> 00:00:17,370
+49. sendKeys(findTestObject("Object Repository/Page_tC Create/div_Introduction to TitusPart 1"), Keys.chord(COMMAND, "z"))
+
+15
+00:00:17,371 --> 00:00:17,371
+53. logInfo("Text is cleared successfully by undo action")
+
+16
+00:00:17,371 --> 00:00:17,471
+57. closeBrowser()
+
+17
+00:00:17,471 --> 00:00:17,471
+1. suite = false
+
+18
+00:00:17,471 --> 00:00:17,471
+5. fileName = testSuiteLogFile
+
+19
+00:00:17,471 --> 00:00:17,471
+9. if (fileName != null && fileName.length() > 1)
+
+20
+00:00:17,472 --> 00:00:17,472
+13. browser = unfoldingWord_Keywords.GetTestingConfig.getBrowserAndVersion()
+
+21
+00:00:17,472 --> 00:00:17,472
+17. separator = "==================================================================================================================================================="
+
+22
+00:00:17,472 --> 00:00:17,472
+21. msg = separator
+
+23
+00:00:17,472 --> 00:00:17,473
+25. println(msg)
+
+24
+00:00:17,473 --> 00:00:17,473
+29. if (suite)
+
+25
+00:00:17,473 --> 00:00:17,473
+33. prefix = " +++++++++++ "
+
+26
+00:00:17,473 --> 00:00:17,473
+37. testCaseStatus = testCaseContext.getTestCaseStatus()
+
+27
+00:00:17,473 --> 00:00:17,474
+41. if (scriptRunning)
+
+28
+00:00:17,474 --> 00:00:17,474
+45. if (testCaseStatus != "PASSED")
+
+29
+00:00:17,474 --> 00:00:17,474
+1. prefix = " ---------------------- "
+
+30
+00:00:17,474 --> 00:00:17,475
+49. executionProfile = RC.getExecutionProfile()
+
+31
+00:00:17,504 --> 00:00:17,504
+1. println("setup start")
+
+32
+00:00:17,505 --> 00:00:17,505
+5. systemOS = unfoldingWord_Keywords.GetTestingConfig.getOperatingSystem()
+
+33
+00:00:17,505 --> 00:00:17,505
+9. tcMessages = []
+

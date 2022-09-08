@@ -58,14 +58,17 @@ testFiles.each({ def testFile ->
         println('Testing ' + testFile)
 
         if (CustomKeywords.'unfoldingWord_Keywords.HamburgerFunctions.chooseFile'(testFile)) {
+			
+			//println("inside the test function")
 
-	   	    WebUI.delay(1)
+			WebUI.click(findTestObject('Page_tC Create/button_DrawerClose'), FailureHandling.OPTIONAL)
+			WebUI.delay(1)
 		
 			WebUI.click(findTestObject('Object Repository/Page_tCC translationNotes/list_RowsPerPage'))
 			
 			WebUI.delay(1)
 			
-			WebUI.click(findTestObject('Page_tCC translationNotes/option_RowsPerPage_parmned', [('rows') : 10]))
+			WebUI.click(findTestObject('Page_tCC translationNotes/option_RowsPerPage_parmned', [('rows') : 100]))
 		
 	        atEnd = false
 	

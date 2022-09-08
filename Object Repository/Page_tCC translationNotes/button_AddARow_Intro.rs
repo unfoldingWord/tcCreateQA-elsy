@@ -4,19 +4,21 @@
    <name>button_AddARow_Intro</name>
    <tag></tag>
    <elementGuidId>1c0b16c4-4fde-4227-b4ed-53c56ac1fc39</elementGuidId>
-   <imagePath></imagePath>
    <selectorCollection>
       <entry>
-         <key>IMAGE</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[13]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#header-1-intro-c7me > div.jss5869 > div.jss5871 > div.jss5874 > div > button.MuiButtonBase-root-5776.MuiIconButton-root-5768.jss5876</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[13]</value>
+         <key>IMAGE</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -27,6 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>c2c27e73-c94b-4295-9491-604e1ca8826b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,6 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>MuiButtonBase-root-5776 MuiIconButton-root-5768 jss5876</value>
+      <webElementGuid>ec56df01-5958-4d1c-8af3-b2700def52fa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,6 +45,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
+      <webElementGuid>a45c2aac-c314-48c5-85ad-92d7b8e0bd89</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -48,6 +53,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>1888d4a2-ff6b-4720-991e-6362c866eab2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,6 +61,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>mui-23249</value>
+      <webElementGuid>16e88d08-a01b-4962-8d6f-77143d4865f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,6 +69,55 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;header-1-intro-c7me&quot;)/div[@class=&quot;jss5869&quot;]/div[@class=&quot;jss5871&quot;]/div[@class=&quot;jss5874&quot;]/div[1]/button[@class=&quot;MuiButtonBase-root-5776 MuiIconButton-root-5768 jss5876&quot;]</value>
+      <webElementGuid>dbd96aee-adb0-487d-97ec-e9db0c604582</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>271c7294-fba4-4cb7-b60c-8192406dc461</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiButtonBase-root-5776 MuiIconButton-root-5768 jss5876</value>
+      <webElementGuid>fc1a50e1-196d-4730-8a31-5fd75cea62bd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>1e686a72-362b-4b28-b110-698299522e8c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>7a8ef118-1fee-4b08-a5fc-716793a8d039</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>mui-23249</value>
+      <webElementGuid>cebfcf69-2622-402a-b496-32c081b3048e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;header-1-intro-c7me&quot;)/div[@class=&quot;jss5869&quot;]/div[@class=&quot;jss5871&quot;]/div[@class=&quot;jss5874&quot;]/div[1]/button[@class=&quot;MuiButtonBase-root-5776 MuiIconButton-root-5768 jss5876&quot;]</value>
+      <webElementGuid>98bb3c0a-9e1c-48ac-bc42-8bb249650414</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,6 +125,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[13]</value>
+      <webElementGuid>fd1fe9d6-6932-4436-8710-d57f14cf1212</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -76,6 +133,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='header-1-intro-c7me']/div/div/div/div/button</value>
+      <webElementGuid>af7d66fd-243b-4b6a-9386-bf97647c8319</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -83,6 +141,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='TIT 1:intro'])[1]/following::button[2]</value>
+      <webElementGuid>6722c7ab-a548-41a4-9211-44c6c02160a3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,6 +149,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='our great God and Savior Jesus Christ'])[2]/following::button[2]</value>
+      <webElementGuid>d33f781d-6788-40e3-8fb7-4d9ea712d066</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,6 +157,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='SupportReference'])[4]/preceding::button[3]</value>
+      <webElementGuid>d89c6ebb-b9fd-4643-84d8-6ee4a6635111</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -104,6 +165,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*empty*'])[2]/preceding::button[3]</value>
+      <webElementGuid>e58dac9b-12c4-4241-8f5e-c6af53ff91c2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,5 +173,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[2]/td/div/div/div/div/div/div/button</value>
+      <webElementGuid>443490e5-f168-4d10-9fa5-a6aa4cb528f7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

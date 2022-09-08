@@ -1,0 +1,108 @@
+1
+00:00:00,000 --> 00:00:00,000
+13. executionProfile = RC.getExecutionProfile()
+
+2
+00:00:00,000 --> 00:00:00,000
+1. com.tccreate.keywords.WriteToFile.writeTofilename("tN-Highlighting by occurrence number")
+
+3
+00:00:00,000 --> 00:00:00,000
+5. com.helper.login.TimeDate.getTimeDate()
+
+4
+00:00:00,000 --> 00:00:06,249
+9. com.helper.login.loginhelper.logintoapp()
+
+5
+00:00:06,249 --> 00:00:09,268
+13. com.tccreate.keywords.selectOrg.organization("")
+
+6
+00:00:09,268 --> 00:00:09,786
+17. com.tccreate.keywords.selectOrg.resource("unfoldingWord® Translation Notes")
+
+7
+00:00:09,787 --> 00:00:11,620
+21. com.tccreate.keywords.selectOrg.language("")
+
+8
+00:00:11,637 --> 00:00:12,623
+25. click(findTestObject("Object Repository/Page_tC Create/span_en_tn_57-TIT.tsv"))
+
+9
+00:00:12,623 --> 00:00:14,258
+29. click(findTestObject("Object Repository/tN objects/button_view columns"))
+
+10
+00:00:14,258 --> 00:00:14,991
+33. click(findTestObject("tN objects/input_OrigQuote_checkbox"))
+
+11
+00:00:14,991 --> 00:00:15,641
+37. click(findTestObject("Object Repository/tN objects/input_SupportReference"))
+
+12
+00:00:15,641 --> 00:00:16,255
+41. click(findTestObject("tN objects/button__Close-Columns"))
+
+13
+00:00:16,255 --> 00:00:22,075
+45. buttonstate = com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScripture("test")
+
+14
+00:00:22,075 --> 00:00:22,075
+49. out.println(" the state of the button is" + buttonstate)
+
+15
+00:00:22,075 --> 00:00:23,077
+53. delay(1)
+
+16
+00:00:23,078 --> 00:00:23,078
+57. if (buttonstate == "off")
+
+17
+00:00:23,078 --> 00:00:23,079
+2. logInfo("Parallel scripture viewer is ON")
+
+18
+00:00:23,079 --> 00:00:54,799
+61. scrollToElement(findTestObject("Object Repository/tN objects/div_Titus 11"), 2)
+
+19
+00:00:54,799 --> 00:01:26,392
+65. click(findTestObject("Object Repository/tN objects/button_Titus 11_add a new row"))
+
+20
+00:01:26,393 --> 00:01:57,938
+69. click(findTestObject("Object Repository/tN objects/button_Add"))
+
+21
+00:01:57,938 --> 00:02:29,800
+73. word1 = getText(findTestObject("tN objects/word1"))
+
+22
+00:02:29,800 --> 00:02:29,805
+77. logInfo("the word is" + word1)
+
+23
+00:02:29,805 --> 00:03:01,639
+81. color_word1 = getCSSValue(findTestObject("tN objects/word1"), "color")
+
+24
+00:03:01,639 --> 00:03:33,422
+85. backcolor_word1 = getCSSValue(findTestObject("tN objects/word1"), "background-color")
+
+25
+00:03:33,423 --> 00:03:33,424
+89. logInfo(color_word1)
+
+26
+00:03:33,424 --> 00:03:33,424
+93. logInfo(backcolor_word1)
+
+27
+00:03:33,424 --> 00:04:05,362
+97. click(findTestObject("Object Repository/tN objects/p_OL_box"))
+

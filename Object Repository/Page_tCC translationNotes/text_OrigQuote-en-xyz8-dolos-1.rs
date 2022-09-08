@@ -6,15 +6,18 @@
    <elementGuidId>b5a15f98-060f-4d88-974a-6f0b166ff889</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(//tr[@id='1:1']/td/div/span[2])[4]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>BASIC</key>
+         <value>//*[(text() = 'δοῦλος' or . = 'δοῦλος')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,6 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>442ab69c-843a-463b-94ba-c5f474df60a7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +33,7 @@
       <name>data-test</name>
       <type>Main</type>
       <value>aligned-word-object</value>
+      <webElementGuid>6c548fc7-2a70-4f39-9c10-f9779d6e006f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +41,7 @@
       <name>text</name>
       <type>Main</type>
       <value>δοῦλος</value>
+      <webElementGuid>809f49ea-9b6e-41b5-a725-b6a1fa5b48f4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;header-1-1-xyz8&quot;)/div[@class=&quot;jss308&quot;]/div[@class=&quot;jss311&quot;]/div[@id=&quot;wrapY&quot;]/table[@class=&quot;MuiTable-root-710 jss533&quot;]/tbody[@class=&quot;MuiTableBody-root-719 jss534&quot;]/tr[@id=&quot;1:1&quot;]/td[@class=&quot;MuiTableCell-root-722 MuiTableCell-body-724 jss721&quot;]/div[@class=&quot;jss5432&quot;]/span[2]</value>
+      <webElementGuid>ab745255-3fb0-4977-b278-7ac6a65f5d73</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,6 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>(//tr[@id='1:1']/td/div/span[2])[4]</value>
+      <webElementGuid>3d5dc4e5-8dc8-457c-9d26-345ebb318e53</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Παῦλος'])[2]/following::span[1]</value>
+      <webElementGuid>890186f0-de00-445e-a45c-f3bd1069c00c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Θεοῦ'])[3]/preceding::span[1]</value>
+      <webElementGuid>4566c483-0746-4ca4-a220-5542b201943a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ἀπόστολος'])[2]/preceding::span[2]</value>
+      <webElementGuid>58f1669b-9b7b-4942-a159-9fe1031a249b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,5 +89,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[4]/td/div/div/div/div/div[2]/table/tbody/tr/td/div/span[2]</value>
+      <webElementGuid>05432a7c-e590-434f-bbc2-ad39dd652d6b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

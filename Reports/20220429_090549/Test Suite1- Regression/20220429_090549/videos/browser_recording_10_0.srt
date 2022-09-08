@@ -1,0 +1,300 @@
+1
+00:00:00,000 --> 00:00:00,000
+5. println(testCaseContext.getTestCaseVariables())
+
+2
+00:00:00,000 --> 00:00:00,000
+1. com.tccreate.keywords.WriteToFile.writeTofilename("tN-ToolTips")
+
+3
+00:00:00,000 --> 00:00:00,000
+5. com.helper.login.TimeDate.getTimeDate()
+
+4
+00:00:00,000 --> 00:00:05,893
+9. com.helper.login.loginhelper.logintoapp()
+
+5
+00:00:05,893 --> 00:00:08,877
+13. com.tccreate.keywords.selectOrg.organization("")
+
+6
+00:00:08,877 --> 00:00:09,288
+17. com.tccreate.keywords.selectOrg.resource("unfoldingWord® Translation Notes")
+
+7
+00:00:09,288 --> 00:00:11,126
+21. com.tccreate.keywords.selectOrg.language("")
+
+8
+00:00:11,126 --> 00:00:12,057
+25. click(findTestObject("Page_tC Create/Add new resource objects/span_en_tn_57-TIT.tsv"))
+
+9
+00:00:12,057 --> 00:00:12,079
+29. testToolTip("Object Repository/Tool tips/button_Search", "Search")
+
+10
+00:00:12,080 --> 00:00:13,623
+1. actualTooltip = getAttribute(findTestObject(button), "title")
+
+11
+00:00:13,623 --> 00:00:13,624
+5. out.println("Actual Title of Tool Tip for button " + toolTip + " is " + actualTooltip)
+
+12
+00:00:13,624 --> 00:00:13,624
+9. expectedTooltip = toolTip
+
+13
+00:00:13,625 --> 00:00:13,625
+13. if (actualTooltip.equals(expectedTooltip))
+
+14
+00:00:13,661 --> 00:00:13,662
+1. out.println("Test Case Passed for " + toolTip)
+
+15
+00:00:13,681 --> 00:00:13,682
+33. testToolTip("Object Repository/Tool tips/button_Filter table", "Filter Table")
+
+16
+00:00:13,682 --> 00:00:14,187
+1. actualTooltip = getAttribute(findTestObject(button), "title")
+
+17
+00:00:14,187 --> 00:00:14,188
+5. out.println("Actual Title of Tool Tip for button " + toolTip + " is " + actualTooltip)
+
+18
+00:00:14,188 --> 00:00:14,188
+9. expectedTooltip = toolTip
+
+19
+00:00:14,188 --> 00:00:14,188
+13. if (actualTooltip.equals(expectedTooltip))
+
+20
+00:00:14,188 --> 00:00:14,188
+1. out.println("Test Case Passed for " + toolTip)
+
+21
+00:00:14,189 --> 00:00:14,189
+37. testToolTip("Object Repository/Tool tips/button_view columns", "View Columns")
+
+22
+00:00:14,189 --> 00:00:14,443
+1. actualTooltip = getAttribute(findTestObject(button), "title")
+
+23
+00:00:14,443 --> 00:00:14,444
+5. out.println("Actual Title of Tool Tip for button " + toolTip + " is " + actualTooltip)
+
+24
+00:00:14,444 --> 00:00:14,444
+9. expectedTooltip = toolTip
+
+25
+00:00:14,444 --> 00:00:14,444
+13. if (actualTooltip.equals(expectedTooltip))
+
+26
+00:00:14,444 --> 00:00:14,444
+1. out.println("Test Case Passed for " + toolTip)
+
+27
+00:00:14,445 --> 00:00:14,445
+41. testToolTip("Object Repository/Tool tips/button_Validate", "Validate")
+
+28
+00:00:14,445 --> 00:00:14,803
+1. actualTooltip = getAttribute(findTestObject(button), "title")
+
+29
+00:00:14,803 --> 00:00:14,803
+5. out.println("Actual Title of Tool Tip for button " + toolTip + " is " + actualTooltip)
+
+30
+00:00:14,803 --> 00:00:14,804
+9. expectedTooltip = toolTip
+
+31
+00:00:14,804 --> 00:00:14,804
+13. if (actualTooltip.equals(expectedTooltip))
+
+32
+00:00:14,804 --> 00:00:14,804
+1. out.println("Test Case Passed for " + toolTip)
+
+33
+00:00:14,804 --> 00:00:14,804
+45. testToolTip("Object Repository/Tool tips/button_Preview", "Preview")
+
+34
+00:00:14,805 --> 00:00:15,162
+1. actualTooltip = getAttribute(findTestObject(button), "title")
+
+35
+00:00:15,162 --> 00:00:15,163
+5. out.println("Actual Title of Tool Tip for button " + toolTip + " is " + actualTooltip)
+
+36
+00:00:15,163 --> 00:00:15,163
+9. expectedTooltip = toolTip
+
+37
+00:00:15,163 --> 00:00:15,163
+13. if (actualTooltip.equals(expectedTooltip))
+
+38
+00:00:15,163 --> 00:00:15,164
+1. out.println("Test Case Passed for " + toolTip)
+
+39
+00:00:15,164 --> 00:00:15,164
+49. testToolTip("Object Repository/Tool tips/button_add a new row", "Add a Row")
+
+40
+00:00:15,164 --> 00:00:15,421
+1. actualTooltip = getAttribute(findTestObject(button), "title")
+
+41
+00:00:15,421 --> 00:00:15,421
+5. out.println("Actual Title of Tool Tip for button " + toolTip + " is " + actualTooltip)
+
+42
+00:00:15,422 --> 00:00:15,422
+9. expectedTooltip = toolTip
+
+43
+00:00:15,422 --> 00:00:15,422
+13. if (actualTooltip.equals(expectedTooltip))
+
+44
+00:00:15,422 --> 00:00:15,422
+1. out.println("Test Case Passed for " + toolTip)
+
+45
+00:00:15,422 --> 00:00:15,423
+53. testToolTip("Object Repository/Tool tips/button_Delete new row", "Delete a Row")
+
+46
+00:00:15,423 --> 00:00:15,882
+1. actualTooltip = getAttribute(findTestObject(button), "title")
+
+47
+00:00:15,882 --> 00:00:15,882
+5. out.println("Actual Title of Tool Tip for button " + toolTip + " is " + actualTooltip)
+
+48
+00:00:15,883 --> 00:00:15,883
+9. expectedTooltip = toolTip
+
+49
+00:00:15,883 --> 00:00:15,883
+13. if (actualTooltip.equals(expectedTooltip))
+
+50
+00:00:15,883 --> 00:00:15,883
+1. out.println("Test Case Passed for " + toolTip)
+
+51
+00:00:15,883 --> 00:00:15,884
+57. testToolTip("Object Repository/Tool tips/button_Move Row Down", "Move Row Down")
+
+52
+00:00:15,884 --> 00:00:16,346
+1. actualTooltip = getAttribute(findTestObject(button), "title")
+
+53
+00:00:16,346 --> 00:00:16,346
+5. out.println("Actual Title of Tool Tip for button " + toolTip + " is " + actualTooltip)
+
+54
+00:00:16,346 --> 00:00:16,346
+9. expectedTooltip = toolTip
+
+55
+00:00:16,346 --> 00:00:16,347
+13. if (actualTooltip.equals(expectedTooltip))
+
+56
+00:00:16,347 --> 00:00:16,347
+1. out.println("Test Case Passed for " + toolTip)
+
+57
+00:00:16,347 --> 00:00:16,347
+61. testToolTip("Object Repository/Tool tips/button_Move row up", "Move Row Up")
+
+58
+00:00:16,347 --> 00:00:46,230
+1. actualTooltip = getAttribute(findTestObject(button), "title")
+
+59
+00:00:46,230 --> 00:00:46,231
+5. out.println("Actual Title of Tool Tip for button " + toolTip + " is " + actualTooltip)
+
+60
+00:00:46,231 --> 00:00:46,231
+9. expectedTooltip = toolTip
+
+61
+00:00:46,231 --> 00:00:46,232
+13. if (actualTooltip.equals(expectedTooltip))
+
+62
+00:00:46,232 --> 00:00:46,232
+2. out.println("Test Case failed- Tool tips are different")
+
+63
+00:00:46,233 --> 00:00:46,233
+65. testToolTip("Object Repository/Tool tips/button_Manage Versions", "Manage Versions")
+
+64
+00:00:46,233 --> 00:00:46,269
+1. actualTooltip = getAttribute(findTestObject(button), "title")
+
+65
+00:00:46,269 --> 00:00:46,269
+5. out.println("Actual Title of Tool Tip for button " + toolTip + " is " + actualTooltip)
+
+66
+00:00:46,269 --> 00:00:46,269
+9. expectedTooltip = toolTip
+
+67
+00:00:46,269 --> 00:00:46,270
+13. if (actualTooltip.equals(expectedTooltip))
+
+68
+00:00:46,270 --> 00:00:46,270
+2. out.println("Test Case failed- Tool tips are different")
+
+69
+00:00:46,270 --> 00:00:46,303
+69. scrollToElement(findTestObject("Object Repository/Tool tips/button_Expand chapter"), 2)
+
+70
+00:00:46,303 --> 00:00:46,303
+73. testToggleTip("Object Repository/Tool tips/button_Expand chapter", "Expand Chapter", "Object Repository/Tool tips/button_collapse-chapter", "Collapse Chapter")
+
+71
+00:00:46,303 --> 00:00:46,336
+1. actualTooltip = getAttribute(findTestObject(button1), "title")
+
+72
+00:00:46,336 --> 00:00:46,336
+5. out.println("Actual Title of Tool Tip for button " + toolTip + " is " + actualTooltip)
+
+73
+00:00:46,337 --> 00:00:46,337
+9. expectedTooltip = toolTip
+
+74
+00:00:46,337 --> 00:00:46,337
+13. if (actualTooltip.equals(expectedTooltip))
+
+75
+00:00:46,337 --> 00:00:46,337
+2. out.println("Test Case failed- Tool tips are different")
+

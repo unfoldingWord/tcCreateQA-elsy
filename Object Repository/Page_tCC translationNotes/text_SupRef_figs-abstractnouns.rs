@@ -6,15 +6,19 @@
    <elementGuidId>efc94bb1-0971-43eb-a718-7b38686f90df</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>div.cell-2-5.jss5779 > div.jss5784 > div.jss5780 > div.jss5785 > div.jss5786 > p</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//tr[@id='MUIDataTableBodyRow-2']/td/div/div/div/div/div/div/p</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>div.cell-2-5.jss5779 > div.jss5784 > div.jss5780 > div.jss5785 > div.jss5786 > p</value>
+         <key>BASIC</key>
+         <value>//*[(text() = 'figs-abstractnouns' or . = 'figs-abstractnouns')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
+      <webElementGuid>3040d28e-42b6-4423-a458-b5da0c63999e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +34,7 @@
       <name>text</name>
       <type>Main</type>
       <value>figs-abstractnouns</value>
+      <webElementGuid>e68f2491-66d9-4cf6-ada7-0b43f9c30c14</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +42,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;MUIDataTableBodyRow-2&quot;)/td[@class=&quot;MuiTableCell-root-222 MuiTableCell-body-224 jss5767&quot;]/div[@class=&quot;jss5767&quot;]/div[@class=&quot;cell-2-5 jss5779&quot;]/div[@class=&quot;jss5784&quot;]/div[@class=&quot;jss5780&quot;]/div[@class=&quot;jss5785&quot;]/div[@class=&quot;jss5786&quot;]/p[1]</value>
+      <webElementGuid>4e15f987-45f1-4b38-a2c5-81155ca74be6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -43,6 +50,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tr[@id='MUIDataTableBodyRow-2']/td/div/div/div/div/div/div/p</value>
+      <webElementGuid>e87ae5f4-7430-402c-8485-20bc165167f3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -50,6 +58,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='SupportReference'])[6]/following::p[1]</value>
+      <webElementGuid>d5b93064-4421-4896-8130-1dd8ace7e964</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='SupportReference'])[5]/following::p[2]</value>
+      <webElementGuid>efb259a1-fe84-4a60-a597-b1815bdc5505</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='SupportReference'])[7]/preceding::p[1]</value>
+      <webElementGuid>87995b03-da01-420c-af92-0628c6f9f0fa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='SupportReference'])[8]/preceding::p[2]</value>
+      <webElementGuid>8583050e-7283-41ca-a58b-770673e4637a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='figs-abstractnouns']/parent::*</value>
+      <webElementGuid>e1124a48-0231-4a1a-aea1-57870069f662</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,5 +98,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[3]/td/div/div/div/div/div/div/p</value>
+      <webElementGuid>20d99c8a-8c68-494e-8132-30b7636e7deb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

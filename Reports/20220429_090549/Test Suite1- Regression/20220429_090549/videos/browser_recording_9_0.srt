@@ -1,0 +1,164 @@
+1
+00:00:00,000 --> 00:00:00,000
+5. println(testCaseContext.getTestCaseVariables())
+
+2
+00:00:00,000 --> 00:00:00,000
+1. com.tccreate.keywords.WriteToFile.writeTofilename("tN-Add new resource")
+
+3
+00:00:00,000 --> 00:00:00,000
+5. com.helper.login.TimeDate.getTimeDate()
+
+4
+00:00:00,000 --> 00:00:05,975
+9. com.helper.login.loginhelper.logintoapp()
+
+5
+00:00:05,975 --> 00:00:09,218
+13. com.tccreate.keywords.selectOrg.organization("")
+
+6
+00:00:09,218 --> 00:00:09,529
+17. com.tccreate.keywords.selectOrg.resource("unfoldingWord® Translation Notes")
+
+7
+00:00:09,529 --> 00:00:12,354
+21. com.tccreate.keywords.selectOrg.language("")
+
+8
+00:00:12,354 --> 00:00:13,555
+25. scrollToElement(findTestObject("Page_tC Create/Add new resource objects/span_en_tn_57-TIT.tsv"), 1)
+
+9
+00:00:13,555 --> 00:00:13,885
+29. click(findTestObject("Page_tC Create/Add new resource objects/span_en_tn_57-TIT.tsv"))
+
+10
+00:00:13,885 --> 00:00:19,864
+33. buttonstate = com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScripture("test")
+
+11
+00:00:19,864 --> 00:00:19,865
+37. out.println(" the state of the button is" + buttonstate)
+
+12
+00:00:19,865 --> 00:00:20,870
+41. delay(1)
+
+13
+00:00:20,871 --> 00:00:20,871
+45. if (buttonstate == "off")
+
+14
+00:00:20,871 --> 00:00:20,872
+2. logInfo("Parallel scripture viewer is ON")
+
+15
+00:00:20,872 --> 00:00:52,555
+49. scrollToElement(findTestObject("Page_tC Create/Add new resource objects/h6_TIT 1intro"), 2, CONTINUE_ON_FAILURE)
+
+16
+00:00:52,555 --> 00:01:24,459
+53. click(findTestObject("Page_tC Create/Add new resource objects/h6_Titus 11"))
+
+17
+00:01:24,459 --> 00:01:56,090
+57. verifyElementVisible(findTestObject("Page_tC Create/Add new resource objects/h6_Titus 11"), CONTINUE_ON_FAILURE)
+
+18
+00:01:56,090 --> 00:02:29,171
+61. click(findTestObject("Object Repository/Page_tC Create/Add new resource objects/button_Manage Versions"))
+
+19
+00:02:29,171 --> 00:03:00,787
+65. click(findTestObject("Page_tC Create/Add new resource objects/input_Resource Path_resourceUrl"))
+
+20
+00:03:00,787 --> 00:03:32,687
+69. setText(findTestObject("Page_tC Create/Add new resource objects/input_Resource Path_resourceUrl"), "Door43-Catalog/hi/ulb/master/")
+
+21
+00:03:32,687 --> 00:04:04,327
+73. click(findTestObject("Object Repository/Page_tC Create/Add new resource objects/button_Add_Resource Path"))
+
+22
+00:04:04,327 --> 00:04:07,194
+77. if (verifyElementChecked(findTestObject("Object Repository/Page_tC Create/Add new resource objects/input_unfoldingWord Simplified Textv14_jss5689"), 1))
+
+23
+00:04:07,194 --> 00:04:07,194
+2. logInfo("Resource unchecked")
+
+24
+00:04:07,194 --> 00:04:40,241
+81. click(findTestObject("Object Repository/Page_tC Create/Add new resource objects/button_Manage Versions"))
+
+25
+00:04:40,242 --> 00:05:12,011
+85. click(findTestObject("Page_tC Create/Add new resource objects/input_Resource Path_resourceUrl"))
+
+26
+00:05:12,011 --> 00:05:43,895
+89. setText(findTestObject("Page_tC Create/Add new resource objects/input_Resource Path_resourceUrl"), "https://git.door43.org/ru_gl/ru_rlob")
+
+27
+00:05:43,895 --> 00:06:15,493
+93. click(findTestObject("Object Repository/Page_tC Create/Add new resource objects/button_Add_Resource Path"))
+
+28
+00:06:15,493 --> 00:06:18,161
+97. if (verifyElementChecked(findTestObject("Object Repository/Page_tC Create/Add new resource objects/input_unfoldingWord Simplified Text-Russian check box"), 1))
+
+29
+00:06:18,161 --> 00:06:18,162
+2. logInfo("Resource unchecked")
+
+30
+00:06:18,162 --> 00:06:20,167
+101. delay(2)
+
+31
+00:06:20,168 --> 00:06:20,168
+105. try
+
+32
+00:06:20,168 --> 00:06:22,746
+1. click(findTestObject("Object Repository/Page_tC Create/Hamburger Menu Button"), STOP_ON_FAILURE)
+
+33
+00:06:22,746 --> 00:06:24,140
+109. click(findTestObject("Object Repository/Page_tC Create/Add new resource objects/span_en_tn_01-GEN.tsv"))
+
+34
+00:06:24,140 --> 00:06:30,537
+113. click(findTestObject("Object Repository/Page_tC Create/button_DrawerClose"))
+
+35
+00:06:30,537 --> 00:06:31,542
+117. delay(1)
+
+36
+00:06:31,543 --> 00:06:35,072
+121. if (verifyElementVisible(findTestObject("Object Repository/Page_tC Create/Add new resource objects/h6_GEN frontintro"), CONTINUE_ON_FAILURE))
+
+37
+00:06:35,072 --> 00:06:35,073
+1. logInfo("Other Books which do not have the added resource did not crash ")
+
+38
+00:06:35,073 --> 00:06:35,205
+125. closeBrowser()
+
+39
+00:06:35,206 --> 00:06:35,206
+1. println(testCaseContext.getTestCaseId())
+
+40
+00:06:35,206 --> 00:06:35,206
+5. println(testCaseContext.getTestCaseStatus())
+
+41
+00:06:35,285 --> 00:06:35,285
+1. println(testCaseContext.getTestCaseId())
+

@@ -6,16 +6,15 @@
    <elementGuidId>ae027b88-c19d-4a8d-8f67-aa5402eed8bb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.MuiCollapse-container.MuiCollapse-entered > div.MuiCollapse-wrapper > div.MuiCollapse-wrapperInner > div > div.MuiExpansionPanelDetails-root.jss60 > div.MuiGrid-root.jss62.MuiGrid-container.MuiGrid-wrap-xs-nowrap > div.MuiGrid-root.jss64.MuiGrid-item.MuiGrid-grid-xs-12 > div.jss65 > div.jss66</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='translatableComponent']/div/div[2]/div[2]/div[2]/div/div/div/div/div/div[2]/div/div</value>
+         <value>//html/body/div[1]/div/div[2]/div/div[2]/div/div[2]/div[2]/div[2]/div/div/div/div[1]/div[1]/div[2]/div/pre/code</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.MuiCollapse-container.MuiCollapse-entered > div.MuiCollapse-wrapper > div.MuiCollapse-wrapperInner > div > div.MuiExpansionPanelDetails-root.jss60 > div.MuiGrid-root.jss62.MuiGrid-container.MuiGrid-wrap-xs-nowrap > div.MuiGrid-root.jss64.MuiGrid-item.MuiGrid-grid-xs-12 > div.jss65 > div.jss66</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,6 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
+      <webElementGuid>367ad586-b908-42e2-8430-d3cab2b53367</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -33,6 +33,7 @@
       <name>class</name>
       <type>Main</type>
       <value>jss66</value>
+      <webElementGuid>604b8dc5-adae-4ade-82b6-266cac33ac59</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -40,6 +41,7 @@
       <name>dir</name>
       <type>Main</type>
       <value>auto</value>
+      <webElementGuid>e1fb6de9-f7fe-461d-8071-953123cf367a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,6 +49,7 @@
       <name>contenteditable</name>
       <type>Main</type>
       <value>true</value>
+      <webElementGuid>7dc664d9-f92b-48cd-ab8a-bdf877797935</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,6 +57,7 @@
       <name>text</name>
       <type>Main</type>
       <value>A FARMER represents God, and the VINEYARD represents his chosen people</value>
+      <webElementGuid>f5ae7e27-e1e6-4712-941c-ede3656eddf8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,6 +65,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;translatableComponent&quot;)/div[@class=&quot;jss55&quot;]/div[@class=&quot;jss58&quot;]/div[@class=&quot;MuiPaper-root MuiExpansionPanel-root jss59 Mui-expanded MuiExpansionPanel-rounded MuiPaper-elevation1 MuiPaper-rounded&quot;]/div[@class=&quot;MuiCollapse-container MuiCollapse-entered&quot;]/div[@class=&quot;MuiCollapse-wrapper&quot;]/div[@class=&quot;MuiCollapse-wrapperInner&quot;]/div[1]/div[@class=&quot;MuiExpansionPanelDetails-root jss60&quot;]/div[@class=&quot;MuiGrid-root jss62 MuiGrid-container MuiGrid-wrap-xs-nowrap&quot;]/div[@class=&quot;MuiGrid-root jss64 MuiGrid-item MuiGrid-grid-xs-12&quot;]/div[@class=&quot;jss65&quot;]/div[@class=&quot;jss66&quot;]</value>
+      <webElementGuid>817a4040-04ba-4daf-9b49-12d3898dc6c2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -68,6 +73,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='translatableComponent']/div/div[2]/div[2]/div[2]/div/div/div/div/div/div[2]/div/div</value>
+      <webElementGuid>84fc36d3-4ac6-4ef8-bab0-490b19e940a3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,6 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='A FARMER represents God, and the VINEYARD represents his chosen people'])[1]/following::div[3]</value>
+      <webElementGuid>f8ff8afb-d83d-466f-8401-62524a77dc38</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,6 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='metaphors'])[3]/following::div[17]</value>
+      <webElementGuid>e52c542f-70b7-4e22-9d24-5a64a0f2b01e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,6 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='vineyard'])[1]/preceding::div[1]</value>
+      <webElementGuid>c3d44fe4-d102-4187-a481-a900b6d84ff2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,5 +105,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div[2]/div/div/div/div/div/div[2]/div/div</value>
+      <webElementGuid>c0fc6b9e-340a-475f-9169-d09492dfe658</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

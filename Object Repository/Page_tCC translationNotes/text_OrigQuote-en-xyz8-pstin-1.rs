@@ -6,15 +6,18 @@
    <elementGuidId>c21e315a-4690-453f-ade6-9055bfec792c</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(//tr[@id='1:1']/td/div/span[9])[4]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>BASIC</key>
+         <value>//*[(text() = 'πίστιν' or . = 'πίστιν')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,6 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>8a5f1a47-46f5-4399-87b6-49ced4a1a81e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +33,7 @@
       <name>data-test</name>
       <type>Main</type>
       <value>aligned-word-object</value>
+      <webElementGuid>1a9c9ccd-e8bb-4acc-bc45-02ddd95a62d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +41,7 @@
       <name>text</name>
       <type>Main</type>
       <value>πίστιν</value>
+      <webElementGuid>7666c06f-fcb0-4335-a739-91f9086aad92</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;header-1-1-xyz8&quot;)/div[@class=&quot;jss308&quot;]/div[@class=&quot;jss311&quot;]/div[@id=&quot;wrapY&quot;]/table[@class=&quot;MuiTable-root-710 jss533&quot;]/tbody[@class=&quot;MuiTableBody-root-719 jss534&quot;]/tr[@id=&quot;1:1&quot;]/td[@class=&quot;MuiTableCell-root-722 MuiTableCell-body-724 jss721&quot;]/div[@class=&quot;jss5432&quot;]/span[9]</value>
+      <webElementGuid>8084dd06-cc01-48cc-95da-76ac84c29fcf</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,6 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>(//tr[@id='1:1']/td/div/span[9])[4]</value>
+      <webElementGuid>3e1e4c16-f2fc-47ec-834a-c6297b0fff35</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='κατὰ'])[2]/following::span[1]</value>
+      <webElementGuid>5aed9c83-2f91-4d49-832e-41bf0b2ac5a6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Χριστοῦ'])[2]/following::span[2]</value>
+      <webElementGuid>9d9dee7b-9967-41aa-bf6a-d308f720ac83</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ἐκλεκτῶν'])[2]/preceding::span[1]</value>
+      <webElementGuid>19ea2351-f831-4f3c-a96b-a4c5f07f7cfd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Θεοῦ'])[4]/preceding::span[2]</value>
+      <webElementGuid>1a8e6513-0ae4-4bbf-9ebc-f67be93bdc6c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,5 +97,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[4]/td/div/div/div/div/div[2]/table/tbody/tr/td/div/span[9]</value>
+      <webElementGuid>a87df3b9-350e-4788-bcbe-99e08021b975</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -22,24 +22,33 @@ import com.kms.katalon.core.annotation.AfterTestSuite
 import com.kms.katalon.core.context.TestCaseContext
 import com.kms.katalon.core.context.TestSuiteContext
 
-class NewTestListener {
+class Test_Case_Setup {
 	/**
 	 * Executes before every test case starts.
 	 * @param testCaseContext related information of the executed test case.
 	 */
 	@BeforeTestCase
 	def sampleBeforeTestCase(TestCaseContext testCaseContext) {
-		println testCaseContext.getTestCaseId()
-		println testCaseContext.getTestCaseVariables()
-	}
-
-	/**
-	 * Executes after every test case ends.
-	 * @param testCaseContext related information of the executed test case.
-	 */
-	@AfterTestCase
-	def sampleAfterTestCase(TestCaseContext testCaseContext) {
-		println testCaseContext.getTestCaseId()
-		println testCaseContext.getTestCaseStatus()
+		println('setup start')
+		GlobalVariable.systemOS = CustomKeywords.'unfoldingWord_Keywords.GetTestingConfig.getOperatingSystem'()
+		GlobalVariable.tcMessages = []
+		def executionProfile = RC.getExecutionProfile()
+		KeywordUtil.logInfo('Execution profile is ' + executionProfile)
+		println('Execution profile is ' + executionProfile)
+		if (GlobalVariable.systemOS == '' || GlobalVariable.systemOS == null) {
+			GlobalVariable.systemOS = CustomKeywords.'unfoldingWord_Keywords.GetTestingConfig.getOperatingSystem'()
+		}
+		if (GlobalVariable.pcUser == '' || GlobalVariable.pcUser == null) {
+			def dirName = RC.getProjectDir()
+			println('Project path is ' + dirName)
+			GlobalVariable.projectPath = dirName
+			def loc = dirName.indexOf('/Users/')
+			def git = dirName.indexOf('/git')
+			def user = dirName.substring(loc+7,git)
+			GlobalVariable.pcUser = user
+		}
+		GlobalVariable.scriptRunning = true
+		println('setup success')
 	}
 }
+

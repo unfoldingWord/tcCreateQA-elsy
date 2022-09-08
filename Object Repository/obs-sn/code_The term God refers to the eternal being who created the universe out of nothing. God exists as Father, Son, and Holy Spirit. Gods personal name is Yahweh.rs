@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>code_The term God refers to the eternal being who created the universe out of nothing. God exists as Father, Son, and Holy Spirit. Gods personal name is Yahweh</name>
+   <tag></tag>
+   <elementGuidId>9a7e28cb-8603-4776-8a71-02547470565e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div/div[2]/div/div[2]/div/div[3]/table/tbody/tr[1]/td[3]/div/div/div/div[2]/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.cell-0-7.jss250 > div.jss255 > div.jss252 > div.jss257 > div.jss259 > div.jss274 > pre.jss277 > code.jss276</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>code</value>
+      <webElementGuid>5ebde8e3-aa2f-4e76-b2c1-fd28ad7da10b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>jss276</value>
+      <webElementGuid>b84d5b8e-8f61-42e9-b300-47b41a73d84d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>dir</name>
+      <type>Main</type>
+      <value>auto</value>
+      <webElementGuid>8fe91923-e9b6-40ee-a864-e6d4736eaed9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>contenteditable</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>52f14573-a406-443c-943d-1cd1be1acc28</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test</name>
+      <type>Main</type>
+      <value>blockeditable-editable-markdown-pre</value>
+      <webElementGuid>86722e0c-279f-465e-a751-638652ce1794</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>The term **God** refers to the eternal being who created the universe out of nothing. God exists as Father, Son, and Holy Spirit. God’s personal name is ‘Yahweh.’</value>
+      <webElementGuid>56f8aeaf-192c-4cea-9c60-698bf705a2cc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;MUIDataTableBodyRow-0&quot;)/td[@class=&quot;MuiTableCell-root-212 MuiTableCell-body-214 jss238&quot;]/div[@class=&quot;jss238&quot;]/div[@class=&quot;cell-0-7 jss250&quot;]/div[@class=&quot;jss255&quot;]/div[@class=&quot;jss252&quot;]/div[@class=&quot;jss257&quot;]/div[@class=&quot;jss259&quot;]/div[@class=&quot;jss274&quot;]/pre[@class=&quot;jss277&quot;]/code[@class=&quot;jss276&quot;]</value>
+      <webElementGuid>0efb7486-05aa-452d-96ea-3a1c9affaa19</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tr[@id='MUIDataTableBodyRow-0']/td[3]/div/div/div/div[2]/div/div[2]/div/pre/code</value>
+      <webElementGuid>bc9de43d-2f09-498c-a2cf-e3b80f61e145</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Note'])[3]/following::code[1]</value>
+      <webElementGuid>25ea38c7-c2ca-4d80-9249-38398251184c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Note'])[2]/following::code[2]</value>
+      <webElementGuid>a404edd8-7892-4fdc-93d7-f4dbf6bf39cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OBS 1:1'])[2]/preceding::code[1]</value>
+      <webElementGuid>ce9e6831-14da-43ca-90c4-48e8485de170</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SupportReference'])[4]/preceding::code[1]</value>
+      <webElementGuid>d2caa630-9ad4-48d7-bb93-cea1260d6712</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[3]/div/div/div/div[2]/div/div[2]/div/pre/code</value>
+      <webElementGuid>6a459d48-39e8-4f78-b3fb-91bc3694d68c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//code[(text() = 'The term **God** refers to the eternal being who created the universe out of nothing. God exists as Father, Son, and Holy Spirit. God’s personal name is ‘Yahweh.’' or . = 'The term **God** refers to the eternal being who created the universe out of nothing. God exists as Father, Son, and Holy Spirit. God’s personal name is ‘Yahweh.’')]</value>
+      <webElementGuid>11ceaaa5-241f-496a-93cd-6fd804f34f34</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

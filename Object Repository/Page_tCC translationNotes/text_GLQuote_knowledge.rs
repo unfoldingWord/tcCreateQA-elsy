@@ -6,15 +6,19 @@
    <elementGuidId>60f2677c-b8e7-4919-a2d0-88b882304407</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>div.cell-3-8.jss6787 > div.jss6792 > div.jss6788 > div.jss6793 > div.jss6794 > p</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//tr[@id='MUIDataTableBodyRow-3']/td/div/div/div/div/div/div/p</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>div.cell-3-8.jss6787 > div.jss6792 > div.jss6788 > div.jss6793 > div.jss6794 > p</value>
+         <key>BASIC</key>
+         <value>//*[(text() = 'knowledge' or . = 'knowledge')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
+      <webElementGuid>5878e08f-09bb-4fda-9369-dc304bf1bd85</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +34,7 @@
       <name>text</name>
       <type>Main</type>
       <value>knowledge</value>
+      <webElementGuid>cf37dc44-af16-4eb9-8ae6-39ed5031ac8d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +42,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;MUIDataTableBodyRow-3&quot;)/td[@class=&quot;MuiTableCell-root-222 MuiTableCell-body-224 jss6775&quot;]/div[@class=&quot;jss6775&quot;]/div[@class=&quot;cell-3-8 jss6787&quot;]/div[@class=&quot;jss6792&quot;]/div[@class=&quot;jss6788&quot;]/div[@class=&quot;jss6793&quot;]/div[@class=&quot;jss6794&quot;]/p[1]</value>
+      <webElementGuid>4c3585e3-fb8b-4832-bffc-e075ddc57d3a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -43,6 +50,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tr[@id='MUIDataTableBodyRow-3']/td/div/div/div/div/div/div/p</value>
+      <webElementGuid>ad79c18f-3bf1-41e8-8976-3321e304b997</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -50,6 +58,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GLQuote'])[8]/following::p[1]</value>
+      <webElementGuid>d486d122-f3f4-4ab0-b3e6-edcd655989bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GLQuote'])[7]/following::p[2]</value>
+      <webElementGuid>d0296d1a-839b-46d3-9133-061b873d2c60</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GLQuote'])[9]/preceding::p[1]</value>
+      <webElementGuid>65a3ef61-50b2-4a74-bfdd-16532da78e9d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GLQuote'])[10]/preceding::p[2]</value>
+      <webElementGuid>f1c559f2-0d3d-4f0e-8804-8a7c6100c454</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='knowledge']/parent::*</value>
+      <webElementGuid>9e3b42d7-e6b6-4843-9f10-c2222049e950</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,5 +98,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[4]/td/div/div/div/div/div/div/p</value>
+      <webElementGuid>0886bd13-6e1b-44b0-bc53-6f9df7f1c5fe</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,15 +6,18 @@
    <elementGuidId>f9afd477-56e2-49af-9d97-86b1a55c608a</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(//tr[@id='1:1']/td/div/span[5])[4]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>BASIC</key>
+         <value>//*[(text() = 'δὲ' or . = 'δὲ')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,6 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>84251bf9-a6a0-4481-a44f-ab09cbcbc72b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +33,7 @@
       <name>data-test</name>
       <type>Main</type>
       <value>aligned-word-object</value>
+      <webElementGuid>7a641be7-27cd-4498-be92-3cea516e76cc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +41,7 @@
       <name>text</name>
       <type>Main</type>
       <value>δὲ</value>
+      <webElementGuid>0ec5fa6e-4e76-4455-b45b-e0e998ff5a0b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;header-1-1-xyz8&quot;)/div[@class=&quot;jss308&quot;]/div[@class=&quot;jss311&quot;]/div[@id=&quot;wrapY&quot;]/table[@class=&quot;MuiTable-root-710 jss533&quot;]/tbody[@class=&quot;MuiTableBody-root-719 jss534&quot;]/tr[@id=&quot;1:1&quot;]/td[@class=&quot;MuiTableCell-root-722 MuiTableCell-body-724 jss721&quot;]/div[@class=&quot;jss5432&quot;]/span[5]</value>
+      <webElementGuid>68ac72fe-4b25-4e76-96cd-c0faecd999f7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,6 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>(//tr[@id='1:1']/td/div/span[5])[4]</value>
+      <webElementGuid>66b40696-791a-4d1b-899d-dd28c56bac86</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ἀπόστολος'])[2]/following::span[1]</value>
+      <webElementGuid>958b70cd-77cd-41c3-92cc-97612e681524</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Θεοῦ'])[3]/following::span[2]</value>
+      <webElementGuid>2cbec704-2077-4fc6-9dc5-61e6eb95ee49</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Ἰησοῦ'])[2]/preceding::span[1]</value>
+      <webElementGuid>0d50359f-55e2-44b6-97b6-318de4866a6a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Χριστοῦ'])[2]/preceding::span[2]</value>
+      <webElementGuid>13a85ff3-e5a6-4a5c-8247-92a886410927</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,5 +97,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[4]/td/div/div/div/div/div[2]/table/tbody/tr/td/div/span[5]</value>
+      <webElementGuid>0a37a846-23b6-49a0-a1ad-6e9aa3e972f5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

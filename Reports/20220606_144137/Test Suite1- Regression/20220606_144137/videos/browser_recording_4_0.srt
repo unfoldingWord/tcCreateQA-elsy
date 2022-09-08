@@ -1,0 +1,152 @@
+1
+00:00:00,000 --> 00:00:00,000
+13. executionProfile = RC.getExecutionProfile()
+
+2
+00:00:00,000 --> 00:00:00,000
+1. com.tccreate.keywords.WriteToFile.writeTofilename("tA-Add or delete row")
+
+3
+00:00:00,000 --> 00:00:00,000
+5. com.helper.login.TimeDate.getTimeDate()
+
+4
+00:00:00,000 --> 00:00:05,901
+9. com.helper.login.loginhelper.logintoapp()
+
+5
+00:00:05,902 --> 00:00:08,769
+13. com.tccreate.keywords.selectOrg.organization("")
+
+6
+00:00:08,769 --> 00:00:09,179
+17. com.tccreate.keywords.selectOrg.resource("unfoldingWord® Translation Notes")
+
+7
+00:00:09,200 --> 00:00:12,464
+21. com.tccreate.keywords.selectOrg.language("")
+
+8
+00:00:12,465 --> 00:00:13,524
+25. click(findTestObject("Page_tC Create/Add new resource objects/span_en_tn_57-TIT.tsv"))
+
+9
+00:00:13,524 --> 00:00:15,280
+29. click(findTestObject("Object Repository/tN objects/button_view columns"))
+
+10
+00:00:15,281 --> 00:00:16,028
+33. click(findTestObject("Object Repository/tN objects/input_ID"))
+
+11
+00:00:16,028 --> 00:00:16,552
+37. click(findTestObject("tN objects/button__Close-Columns"))
+
+12
+00:00:16,552 --> 00:00:48,160
+41. scrollToElement(findTestObject("Object Repository/tN objects/div_Titus 11"), 2)
+
+13
+00:00:48,160 --> 00:01:19,927
+45. click(findTestObject("Object Repository/tN objects/button_Titus 11_add a new row"))
+
+14
+00:01:19,927 --> 00:01:51,561
+49. click(findTestObject("Object Repository/tN objects/button_Add"))
+
+15
+00:01:51,561 --> 00:01:52,029
+53. if (verifyElementVisible(findTestObject("Object Repository/tN objects/p_empty")))
+
+16
+00:01:52,029 --> 00:01:52,030
+1. logInfo(" New row is added successfully")
+
+17
+00:01:52,030 --> 00:02:23,768
+57. click(findTestObject("Object Repository/tN objects/button_Titus 11_Delete new row"))
+
+18
+00:02:23,768 --> 00:02:55,564
+61. click(findTestObject("Object Repository/tN objects/span_Delete"))
+
+19
+00:02:55,564 --> 00:02:55,925
+65. if (verifyElementVisible(findTestObject("Object Repository/tN objects/p_empty")))
+
+20
+00:02:55,926 --> 00:02:55,926
+1. logInfo(" New row is deleted successfully")
+
+21
+00:02:55,926 --> 00:02:56,066
+69. closeBrowser()
+
+22
+00:02:56,066 --> 00:02:56,067
+1. suite = false
+
+23
+00:02:56,067 --> 00:02:56,067
+5. fileName = testSuiteLogFile
+
+24
+00:02:56,067 --> 00:02:56,067
+9. if (fileName != null && fileName.length() > 1)
+
+25
+00:02:56,067 --> 00:02:56,068
+13. browser = unfoldingWord_Keywords.GetTestingConfig.getBrowserAndVersion()
+
+26
+00:02:56,068 --> 00:02:56,068
+17. separator = "==================================================================================================================================================="
+
+27
+00:02:56,068 --> 00:02:56,068
+21. msg = separator
+
+28
+00:02:56,069 --> 00:02:56,069
+25. println(msg)
+
+29
+00:02:56,069 --> 00:02:56,069
+29. if (suite)
+
+30
+00:02:56,069 --> 00:02:56,069
+33. prefix = " +++++++++++ "
+
+31
+00:02:56,070 --> 00:02:56,070
+37. testCaseStatus = testCaseContext.getTestCaseStatus()
+
+32
+00:02:56,070 --> 00:02:56,070
+41. if (scriptRunning)
+
+33
+00:02:56,070 --> 00:02:56,070
+45. if (testCaseStatus != "PASSED")
+
+34
+00:02:56,070 --> 00:02:56,070
+1. prefix = " ---------------------- "
+
+35
+00:02:56,071 --> 00:02:56,072
+49. executionProfile = RC.getExecutionProfile()
+
+36
+00:02:56,112 --> 00:02:56,113
+1. println("setup start")
+
+37
+00:02:56,113 --> 00:02:56,113
+5. systemOS = unfoldingWord_Keywords.GetTestingConfig.getOperatingSystem()
+
+38
+00:02:56,113 --> 00:02:56,113
+9. tcMessages = []
+

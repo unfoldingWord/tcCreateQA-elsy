@@ -97,7 +97,7 @@ if (!(WebUI.getText(findTestObject('Page_tCC translationAcademy/text_BentOver'))
 }
 
 if (CustomKeywords.'unfoldingWord_Keywords.TestVersion.isVersionGreater'('1.0.4')) {
-    WebUI.click(findTestObject('Page_tC Create/button_Preview'))
+    //WebUI.click(findTestObject('Page_tC Create/button_Preview'))
 
     WebUI.click(findTestObject('Page_tCC translationAcademy/section_Having BIRTH PAINS'))
 
@@ -114,7 +114,7 @@ if (CustomKeywords.'unfoldingWord_Keywords.TestVersion.isVersionGreater'('1.0.4'
 
         CustomKeywords.'unfoldingWord_Keywords.SendMessage.SendFailMessage'('Test failed because "&gt;" was displayed instead of ">" for block quotes.')
 
-        WebUI.click(findTestObject('Page_tC Create/button_Preview'))
+        //WebUI.click(findTestObject('Page_tC Create/button_Preview'))
 
         WebUI.scrollToElement(findTestObject('Page_tCC translationAcademy/chip_Repo'), 2)
 
@@ -137,11 +137,12 @@ if (CustomKeywords.'unfoldingWord_Keywords.TestVersion.isVersionGreater'('1.0.4'
 		
 		WebUI.scrollToPosition(0, 0)
         
-        WebUI.click(findTestObject('Page_tC Create/button_preview'))
+      WebUI.click(findTestObject('Page_tC Create/button_preview'))
 
         WebUI.scrollToElement(findTestObject('Page_tCC translationAcademy/paragraph_My little children'), 2)
 		
 		bText = WebUI.getText(findTestObject('Page_tCC translationAcademy/paragraph_My little children'))
+		WebUI.click(findTestObject('Page_tC Create/button_preview'))
 		
 		lf = (char)10
 		
@@ -166,6 +167,7 @@ if (CustomKeywords.'unfoldingWord_Keywords.TestVersion.isVersionGreater'('1.0.4'
 println('Testing for sections visible and invisible')
 
 println('Showing sections')
+//WebUI.click(findTestObject('Page_tC Create/button_Preview'))
 
 WebUI.delay(1)
 
@@ -263,28 +265,5 @@ if (WebUI.verifyElementNotPresent(findTestObject('Object Repository/Page_tC Crea
 
 WebUI.closeBrowser()
 
-resource = ['en_obs-sn', 'content/', '01/', '01.md']
 
-WebUI.callTestCase(findTestCase('tCC Components/tCC md Open For Edit'), [('$username') : '', ('$password') : '', ('resource') : resource], FailureHandling.STOP_ON_FAILURE)
-
-header = "God’s Spirit"
-
-WebUI.scrollToElement(findTestObject('Object Repository/Page_tC Create/header_mdParmed', [('header') : header]) ,1)
-
-WebUI.click(findTestObject('Object Repository/Page_tC Create/header_mdParmed', [('header') : header]))
-
-WebUI.clickOffset(findTestObject('Page_tC Create/link_scripture_24_08'), 0, 0)
-
-WebUI.delay(2)
-
-if ((!WebUI.verifyElementPresent(findTestObject('Page_tC Create/link_scripture_24_08'), 1, FailureHandling.OPTIONAL)) ||
-	WebUI.verifyElementPresent(findTestObject('Page_tCC translationAcademy/h1_Page Not Found'), 1, FailureHandling.OPTIONAL)) {
-
-	println('ERROR: Clicking on a scripture link in OBS-sn causes a 404 error')
-	
-	CustomKeywords.'unfoldingWord_Keywords.SendMessage.SendFailMessage'('Test failed because clicking on a scripture link to in OBS-sn causes a 404 error.')
-}
-GlobalVariable.scriptRunning = false
-
-WebUI.closeBrowser()
 

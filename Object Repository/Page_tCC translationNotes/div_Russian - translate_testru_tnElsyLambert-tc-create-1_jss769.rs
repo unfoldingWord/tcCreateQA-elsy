@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Russian - translate_testru_tnElsyLambert-tc-create-1_jss769</name>
+   <tag></tag>
+   <elementGuidId>ae43291d-6161-4a75-8200-14cedd3b4124</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='translatableComponent']/div/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.jss769</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>c36bca23-23b4-4be3-9eaf-3f76823d6bb7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>jss769</value>
+      <webElementGuid>0f74bead-2508-44ea-93d8-7fafd4a90268</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;translatableComponent&quot;)/div[@class=&quot;MuiPaper-root-737 jss726 undefined MuiPaper-elevation4-744 MuiPaper-rounded-738&quot;]/div[@class=&quot;MuiToolbar-root-780 MuiToolbar-regular-782 jss765 MuiToolbar-gutters-781&quot;]/div[@class=&quot;jss769&quot;]</value>
+      <webElementGuid>51c0f430-9552-4677-9963-365308db8dc1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='translatableComponent']/div/div/div[2]</value>
+      <webElementGuid>236bd623-95a5-44df-adf1-3480cd3a2282</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Russian - translate_test/ru_tn/ElsyLambert-tc-create-1'])[1]/following::div[6]</value>
+      <webElementGuid>ce55a0cd-f0d1-4e51-b32d-cc28f07b4c74</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='English - unfoldingWord/en_tn/v60'])[1]/following::div[8]</value>
+      <webElementGuid>4c71e6b3-5822-4e69-9a61-c8a75e6be767</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='rowHeader'])[1]/preceding::div[3]</value>
+      <webElementGuid>45f2453d-fb92-4b0c-96d7-b11938bcbae6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SupportReference'])[1]/preceding::div[6]</value>
+      <webElementGuid>eede27f1-75ff-4d4a-b7ca-5d22cc36e16f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/div/div/div[2]</value>
+      <webElementGuid>de857bb7-8545-4371-8d02-445750b68dc1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

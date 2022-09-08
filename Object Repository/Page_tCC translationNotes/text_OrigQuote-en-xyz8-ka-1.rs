@@ -6,15 +6,18 @@
    <elementGuidId>b36eeede-e7c4-4d6b-94ca-039f7a51e16d</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(//tr[@id='1:1']/td/div/span[12])[4]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>BASIC</key>
+         <value>//*[(text() = 'καὶ' or . = 'καὶ')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,6 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>3213b8bd-921c-414a-be77-52ac13782ff0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +33,7 @@
       <name>data-test</name>
       <type>Main</type>
       <value>aligned-word-object</value>
+      <webElementGuid>b6aabea6-2e3d-4986-b62e-92d389612358</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +41,7 @@
       <name>text</name>
       <type>Main</type>
       <value>καὶ</value>
+      <webElementGuid>37202d2f-1767-4291-84ec-6586413686d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;header-1-1-xyz8&quot;)/div[@class=&quot;jss308&quot;]/div[@class=&quot;jss311&quot;]/div[@id=&quot;wrapY&quot;]/table[@class=&quot;MuiTable-root-710 jss533&quot;]/tbody[@class=&quot;MuiTableBody-root-719 jss534&quot;]/tr[@id=&quot;1:1&quot;]/td[@class=&quot;MuiTableCell-root-722 MuiTableCell-body-724 jss721&quot;]/div[@class=&quot;jss5432&quot;]/span[12]</value>
+      <webElementGuid>aaaa3bca-9ab9-4ac3-8d12-83b161d3103f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,6 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>(//tr[@id='1:1']/td/div/span[12])[4]</value>
+      <webElementGuid>d81596d3-5414-48c6-897f-5e5e081a5d0b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Θεοῦ'])[4]/following::span[1]</value>
+      <webElementGuid>a0342046-8b97-4696-9d81-6341553f516a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ἐκλεκτῶν'])[2]/following::span[2]</value>
+      <webElementGuid>b2738183-50a8-4ba6-84e4-50156a7863e7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ἐπίγνωσιν'])[2]/preceding::span[1]</value>
+      <webElementGuid>ef839daf-5a37-4f1a-9561-76a0c7b151e6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ἀληθείας'])[2]/preceding::span[2]</value>
+      <webElementGuid>d6dd759c-2159-4a96-aac5-ec28c056f055</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,5 +97,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[4]/td/div/div/div/div/div[2]/table/tbody/tr/td/div/span[12]</value>
+      <webElementGuid>dc995380-4d13-4b0f-9384-eedcf1caaa83</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,15 +6,19 @@
    <elementGuidId>fcc4c4a5-3ecf-4e24-879c-eba7162a2ce3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#pagination-next</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//button[@id='pagination-next']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and @title = 'Next page' and @id = 'pagination-next']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#pagination-next</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>752cc982-0ec4-4af3-b47b-4d590337ba45</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>MuiButtonBase-root-163 MuiIconButton-root-155 MuiIconButton-colorInherit-158</value>
+      <webElementGuid>a61ea7f5-85fe-4d9b-8a46-bdbc2e4b50b0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +42,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
+      <webElementGuid>163cab1b-72a7-4a20-ac12-a471107d89d4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,6 +50,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>9a92602d-8ea5-4144-8bef-8e25efe99924</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,6 +58,7 @@
       <name>title</name>
       <type>Main</type>
       <value>Next page</value>
+      <webElementGuid>098830cd-e267-4c5e-99e9-419b772e8f34</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +66,7 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>Next Page</value>
+      <webElementGuid>bcdafe96-ce69-4c33-bd44-b51fa5a52c6d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -64,6 +74,7 @@
       <name>id</name>
       <type>Main</type>
       <value>pagination-next</value>
+      <webElementGuid>a76ac092-8ce0-43c4-a34d-910dd1a4729f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,6 +82,7 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>pagination-next</value>
+      <webElementGuid>86d22de7-6585-4e6e-bbd9-9feaea840529</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,6 +90,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;pagination-next&quot;)</value>
+      <webElementGuid>b6c4730a-1161-4569-990f-6d4245d50447</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,6 +98,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='pagination-next']</value>
+      <webElementGuid>8424e72b-0376-4f3f-8534-b686e30c8390</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +106,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div/div/div[2]/table/tfoot/tr/td/div/div/div/div[3]/button[2]</value>
+      <webElementGuid>216de7bc-be5e-47cb-9ac2-a8df924401bd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='OccurrenceNote'])[51]/following::button[2]</value>
+      <webElementGuid>efd5ea66-54c8-49d2-95d9-1f080c6c46f6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='OccurrenceNote'])[50]/following::button[2]</value>
+      <webElementGuid>d3a8020c-5a7e-4af8-9a3d-dcc2b961177a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +130,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::button[1]</value>
+      <webElementGuid>e571b385-81c7-4f6a-a7ca-c66cae38f471</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,6 +138,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::button[1]</value>
+      <webElementGuid>73767b04-f33e-4116-8f71-b53fbd474e9d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,5 +146,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/button[2]</value>
+      <webElementGuid>ac3dfda1-1920-435b-90a8-2a79ea8ccc51</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,196 @@
+1
+00:00:00,000 --> 00:00:00,000
+5. println(testCaseContext.getTestCaseVariables())
+
+2
+00:00:00,000 --> 00:00:00,000
+1. com.tccreate.keywords.WriteToFile.writeTofilename("tN-Expand chapter")
+
+3
+00:00:00,000 --> 00:00:00,000
+5. com.helper.login.TimeDate.getTimeDate()
+
+4
+00:00:00,000 --> 00:00:05,744
+9. com.helper.login.loginhelper.logintoapp()
+
+5
+00:00:05,745 --> 00:00:08,769
+13. com.tccreate.keywords.selectOrg.organization("")
+
+6
+00:00:08,770 --> 00:00:09,293
+17. com.tccreate.keywords.selectOrg.resource("unfoldingWord® Translation Notes")
+
+7
+00:00:09,293 --> 00:00:10,700
+21. com.tccreate.keywords.selectOrg.language("")
+
+8
+00:00:10,700 --> 00:00:11,879
+25. click(findTestObject("Page_tC Create/Add new resource objects/span_en_tn_57-TIT.tsv"))
+
+9
+00:00:11,879 --> 00:00:18,019
+29. buttonstate = com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScripture("test")
+
+10
+00:00:18,019 --> 00:00:18,020
+33. out.println(" the state of the button is" + buttonstate)
+
+11
+00:00:18,020 --> 00:00:19,024
+37. delay(1)
+
+12
+00:00:19,024 --> 00:00:19,025
+41. if (buttonstate == "off")
+
+13
+00:00:19,025 --> 00:00:19,026
+2. logInfo("Parallel scripture viewer is ON")
+
+14
+00:00:19,026 --> 00:00:51,733
+45. scrollToElement(findTestObject("Page_tC Create/Add new resource objects/h6_TIT 1intro"), 2, CONTINUE_ON_FAILURE)
+
+15
+00:00:51,733 --> 00:00:52,450
+49. click(findTestObject("Object Repository/tN objects/button_Titus 11_Expand chapter button"))
+
+16
+00:00:52,451 --> 00:01:24,372
+53. mouseOver(findTestObject("Object Repository/tN objects/td_12"))
+
+17
+00:01:24,373 --> 00:01:56,403
+57. click(findTestObject("Object Repository/tN objects/td_12"))
+
+18
+00:01:56,403 --> 00:01:56,410
+61. for (int i : (1..19))
+
+19
+00:01:56,410 --> 00:01:56,917
+1. sendKeys(findTestObject(null), Keys.chord(PAGE_DOWN))
+
+20
+00:01:56,918 --> 00:01:57,866
+1. sendKeys(findTestObject(null), Keys.chord(PAGE_DOWN))
+
+21
+00:01:57,867 --> 00:01:58,598
+1. sendKeys(findTestObject(null), Keys.chord(PAGE_DOWN))
+
+22
+00:01:58,598 --> 00:01:59,578
+1. sendKeys(findTestObject(null), Keys.chord(PAGE_DOWN))
+
+23
+00:01:59,579 --> 00:02:00,493
+1. sendKeys(findTestObject(null), Keys.chord(PAGE_DOWN))
+
+24
+00:02:00,493 --> 00:02:01,534
+1. sendKeys(findTestObject(null), Keys.chord(PAGE_DOWN))
+
+25
+00:02:01,534 --> 00:02:02,538
+1. sendKeys(findTestObject(null), Keys.chord(PAGE_DOWN))
+
+26
+00:02:02,538 --> 00:02:03,412
+1. sendKeys(findTestObject(null), Keys.chord(PAGE_DOWN))
+
+27
+00:02:03,412 --> 00:02:04,009
+1. sendKeys(findTestObject(null), Keys.chord(PAGE_DOWN))
+
+28
+00:02:04,009 --> 00:02:04,387
+1. sendKeys(findTestObject(null), Keys.chord(PAGE_DOWN))
+
+29
+00:02:04,388 --> 00:02:04,742
+1. sendKeys(findTestObject(null), Keys.chord(PAGE_DOWN))
+
+30
+00:02:04,742 --> 00:02:05,090
+1. sendKeys(findTestObject(null), Keys.chord(PAGE_DOWN))
+
+31
+00:02:05,090 --> 00:02:05,437
+1. sendKeys(findTestObject(null), Keys.chord(PAGE_DOWN))
+
+32
+00:02:05,437 --> 00:02:05,784
+1. sendKeys(findTestObject(null), Keys.chord(PAGE_DOWN))
+
+33
+00:02:05,785 --> 00:02:06,130
+1. sendKeys(findTestObject(null), Keys.chord(PAGE_DOWN))
+
+34
+00:02:06,131 --> 00:02:06,478
+1. sendKeys(findTestObject(null), Keys.chord(PAGE_DOWN))
+
+35
+00:02:06,478 --> 00:02:06,826
+1. sendKeys(findTestObject(null), Keys.chord(PAGE_DOWN))
+
+36
+00:02:06,826 --> 00:02:07,174
+1. sendKeys(findTestObject(null), Keys.chord(PAGE_DOWN))
+
+37
+00:02:07,175 --> 00:02:07,521
+1. sendKeys(findTestObject(null), Keys.chord(PAGE_DOWN))
+
+38
+00:02:07,521 --> 00:02:39,302
+65. if (verifyElementVisible(findTestObject("Object Repository/tN objects/sup_315")))
+
+39
+00:02:39,302 --> 00:02:39,303
+2. logInfo("Chapter not expanded")
+
+40
+00:02:39,303 --> 00:02:42,309
+69. delay(3)
+
+41
+00:02:42,309 --> 00:02:42,568
+73. sendKeys(findTestObject(null), Keys.chord(PAGE_UP))
+
+42
+00:02:42,568 --> 00:03:14,443
+77. click(findTestObject("Object Repository/tN objects/button_Titus 11_collapse-chapter"))
+
+43
+00:03:14,443 --> 00:03:16,448
+81. delay(2)
+
+44
+00:03:16,449 --> 00:03:16,911
+85. if (verifyElementNotPresent(findTestObject("Object Repository/tN objects/sup_315"), 2, CONTINUE_ON_FAILURE))
+
+45
+00:03:16,911 --> 00:03:16,911
+1. logInfo("Chapter is collapsed successfully")
+
+46
+00:03:16,912 --> 00:03:17,042
+89. closeBrowser()
+
+47
+00:03:17,042 --> 00:03:17,042
+1. println(testCaseContext.getTestCaseId())
+
+48
+00:03:17,043 --> 00:03:17,043
+5. println(testCaseContext.getTestCaseStatus())
+
+49
+00:03:17,278 --> 00:03:17,278
+1. println(testCaseContext.getTestCaseId())
+

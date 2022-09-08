@@ -6,15 +6,19 @@
    <elementGuidId>fa2ca13e-a2e5-4393-9f61-0594ae33c093</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[2]/div[3]/div/div[2]/p</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.MuiDialogContent-root</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'On line 1 Bad TSV Header, expecting &quot;Book, Chapter, Verse, ID, SupportReference, OrigQuote, Occurrence, GLQuote, OccurrenceNote&quot;   On line 22 Not enough columns, expecting 9, found 8   On line 26 Not enough columns, expecting 9, found 8   On line 98 Not enough columns, expecting 9, found 8   ' or . = 'On line 1 Bad TSV Header, expecting &quot;Book, Chapter, Verse, ID, SupportReference, OrigQuote, Occurrence, GLQuote, OccurrenceNote&quot;   On line 22 Not enough columns, expecting 9, found 8   On line 26 Not enough columns, expecting 9, found 8   On line 98 Not enough columns, expecting 9, found 8   ')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[2]/div[3]/div/div[2]/p</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
+      <webElementGuid>1e3c7bd5-2449-4b7f-9f8b-25b86c89dbcb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>MuiDialogContent-root</value>
+      <webElementGuid>9f1bca71-4529-49a0-b7b7-b815b0a9247c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>On line 1 Bad TSV Header, expecting &quot;Book, Chapter, Verse, ID, SupportReference, OrigQuote, Occurrence, GLQuote, OccurrenceNote&quot;   On line 22 Not enough columns, expecting 9, found 8   On line 26 Not enough columns, expecting 9, found 8   On line 98 Not enough columns, expecting 9, found 8   </value>
+      <webElementGuid>a4fcf092-8f0a-4194-9e8f-078fb5210ea3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;MuiDialog-root&quot;]/div[@class=&quot;MuiDialog-container MuiDialog-scrollPaper&quot;]/div[@class=&quot;MuiPaper-root MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-elevation24 MuiPaper-rounded&quot;]/div[@class=&quot;MuiDialogContent-root&quot;]</value>
+      <webElementGuid>12a2526f-6a32-4fa4-bf20-306e1e72f619</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,6 +58,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='en_tn'])[1]/following::div[10]</value>
+      <webElementGuid>a7fefd10-3656-4c51-84c6-fcd039097ec8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='en_tn_57-TIT.tsv'])[1]/following::div[14]</value>
+      <webElementGuid>dac3ceeb-bb4d-463a-af0d-a326522c73b2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,5 +74,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div[2]</value>
+      <webElementGuid>117ca57f-f67d-4b5b-b668-a55ab92dedc0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

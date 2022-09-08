@@ -6,16 +6,16 @@
    <elementGuidId>631c91ee-e6cb-4b9d-82e9-c878ed6cd0d6</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>h6.MuiTypography-root-114.jss260.MuiTypography-h6-124</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'MuiTypography-root-114 jss260 MuiTypography-h6-124' and (text() = '${text}' or . = '${text}')]</value>
+         <value>//*[(text() = '${text}' or . = '${text}')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='header-front-intro-m2jl']/div/div/h6</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>h6.MuiTypography-root-114.jss260.MuiTypography-h6-124</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -26,13 +26,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>h6</value>
+      <webElementGuid>c95200b4-f3a3-484e-a852-3265ed7752aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>MuiTypography-root-114 jss260 MuiTypography-h6-124</value>
+      <webElementGuid>f57f5b5f-e2fb-421b-881a-6f9072179221</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -40,6 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>${text}</value>
+      <webElementGuid>8ce85a8d-cb17-44b8-9e9c-73a59b3ebd1c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,6 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;header-front-intro-m2jl&quot;)/div[@class=&quot;jss256&quot;]/div[@class=&quot;jss258&quot;]/h6[@class=&quot;MuiTypography-root-114 jss260 MuiTypography-h6-124&quot;]</value>
+      <webElementGuid>6ca03d8a-47f2-4877-81b1-9aeb1bf54365</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,6 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='header-front-intro-m2jl']/div/div/h6</value>
+      <webElementGuid>090618cb-06d8-448e-aea9-98ebe96a97c3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,6 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='OccurrenceNote'])[1]/following::h6[1]</value>
+      <webElementGuid>dbce464d-69bf-4d58-a7f8-6685b4419d3e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -68,6 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='SupportReference'])[1]/following::h6[1]</value>
+      <webElementGuid>2b7a7ef0-4e7e-4607-ba5a-57b11e2cb1f9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,6 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='SupportReference'])[2]/preceding::h6[1]</value>
+      <webElementGuid>100641c6-178b-4c11-b6e0-10630d34d43a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,6 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='empty'])[1]/preceding::h6[2]</value>
+      <webElementGuid>60b6c0e7-c051-4fae-a2fe-d8b88085e5f6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,6 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='TIT front:intro']/parent::*</value>
+      <webElementGuid>90a4d17e-86f2-41cd-bf18-fa2959052ebf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,5 +106,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/h6</value>
+      <webElementGuid>7b4df7b1-9793-42fd-a647-64c23f8b6c98</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

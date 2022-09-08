@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Preview Changes'])[1]/following::span[2]</value>
+         <value>/html/body/div[1]/div[2]/div[2]/form/div[2]/div[2]/div/div/div[1]/div[2]/div[1]/div[4]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>8147f6bf-fc0e-41ca-b16d-127eeddfce56</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mtk1</value>
+      <webElementGuid>fa79ef38-c654-4383-afae-07ecf1d60159</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Book    Chapter Verse   ID  SupportReference    OrigQuote   O</value>
+      <webElementGuid>04b929a3-3d96-4d85-bc11-a53bd471ce2b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;theme-gitea&quot;]/body[1]/div[@class=&quot;full height&quot;]/div[@class=&quot;repository file editor edit&quot;]/div[@class=&quot;ui container&quot;]/form[@class=&quot;ui edit form dirty dirty-file&quot;]/div[@class=&quot;field&quot;]/div[@class=&quot;ui bottom attached active tab segment&quot;]/div[@class=&quot;monaco-editor-container&quot;]/div[@class=&quot;monaco-editor no-user-select mac  showUnused vs&quot;]/div[@class=&quot;overflow-guard&quot;]/div[@class=&quot;monaco-scrollable-element editor-scrollable vs mac&quot;]/div[@class=&quot;lines-content monaco-editor-background&quot;]/div[@class=&quot;view-lines&quot;]/div[@class=&quot;view-line&quot;]/span[1]/span[@class=&quot;mtk1&quot;]</value>
+      <webElementGuid>7c68b80f-53af-4dc0-830a-eafd6fd1a6a7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Preview Changes'])[1]/following::span[2]</value>
+      <webElementGuid>043723ac-2a65-4d59-b24b-3791f6bc61a1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Preview'])[1]/following::span[2]</value>
+      <webElementGuid>99ef74bd-ef20-49cb-b64f-66fb9f81b912</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ccurrence  GLQuote OccurrenceNote'])[1]/preceding::span[1]</value>
+      <webElementGuid>07511739-5d4c-4e9a-9e63-f6ec34aa5c9d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Book    Chapter Verse   ID  SupportReference    OrigQuote   O']/parent::*</value>
+      <webElementGuid>9c329eca-1490-46f5-b094-6dd96b1315e7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,5 +86,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/span/span</value>
+      <webElementGuid>c71a388a-cc13-43fb-8bb4-79c547affa60</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

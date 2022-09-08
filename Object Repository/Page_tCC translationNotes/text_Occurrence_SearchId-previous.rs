@@ -13,8 +13,12 @@
          <key>XPATH</key>
          <value>/html/body/div[1]/div/div/div/div[2]/div[3]/table/tbody/tr/td[5]/div/div/div/div[2]/div/div/p</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '0' or . = '0')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,20 +26,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>0</value>
+      <webElementGuid>e0cd05d6-d022-4b90-a50c-7f1e984a2c19</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>a35fd45a-3b03-4f3a-93f1-fdf1d7b22e7c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;MUIDataTableBodyRow-128&quot;)/td[@class=&quot;MuiTableCell-root-214 MuiTableCell-body-216 jss240&quot;]/div[@class=&quot;jss240&quot;]/div[@class=&quot;cell-128-7 jss2448&quot;]/div[@class=&quot;jss2453&quot;]/div[@class=&quot;jss2450&quot;]/div[@class=&quot;jss2457&quot;]/div[@class=&quot;jss2458&quot;]/p[1]</value>
+      <webElementGuid>2197c532-53e6-468f-802c-0926e9fdf76a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -43,6 +50,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tr[@id='MUIDataTableBodyRow-128']/td[5]/div/div/div/div[2]/div/div/p</value>
+      <webElementGuid>42b15aa3-0885-499d-aa7d-a7546656cb9b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -50,6 +58,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Occurrence'])[3]/following::p[1]</value>
+      <webElementGuid>bab19035-442a-4d1f-ba56-d0731a680c3d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Occurrence'])[2]/following::p[2]</value>
+      <webElementGuid>3e8a1c0f-7bac-405f-b903-b74cb35b3f34</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='OccurrenceNote'])[2]/preceding::p[1]</value>
+      <webElementGuid>254d7f8e-a6d4-4403-9297-c76bc71428b2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='OccurrenceNote'])[3]/preceding::p[2]</value>
+      <webElementGuid>bc3ed2a0-43bf-4706-8ca2-3d2ee00b646d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,5 +90,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[5]/div/div/div/div[2]/div/div/p</value>
+      <webElementGuid>9d44fee2-0a62-45de-a50b-d7c7490f9114</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

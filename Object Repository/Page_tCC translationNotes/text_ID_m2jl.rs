@@ -6,15 +6,19 @@
    <elementGuidId>92ef8f9c-799a-472b-9d25-52628a1ae29c</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>p</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//tr[@id='MUIDataTableBodyRow-0']/td/div/div/div/div/div/div/p</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>p</value>
+         <key>BASIC</key>
+         <value>//*[(text() = 'm2jl' or . = 'm2jl')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
+      <webElementGuid>b91ba22d-258d-4297-b75a-5583baf6e481</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +34,7 @@
       <name>text</name>
       <type>Main</type>
       <value>m2jl</value>
+      <webElementGuid>bb07b557-85b4-4685-8f92-db269a27a531</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +42,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;MUIDataTableBodyRow-0&quot;)/td[@class=&quot;MuiTableCell-root-222 MuiTableCell-body-224 jss6343&quot;]/div[@class=&quot;jss6343&quot;]/div[@class=&quot;cell-0-4 jss6355&quot;]/div[@class=&quot;jss6360&quot;]/div[@class=&quot;jss6356&quot;]/div[@class=&quot;jss6361&quot;]/div[@class=&quot;jss6362&quot;]/p[1]</value>
+      <webElementGuid>bd75b0b9-6e5a-448f-b1f7-00a980f0ab02</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -43,6 +50,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tr[@id='MUIDataTableBodyRow-0']/td/div/div/div/div/div/div/p</value>
+      <webElementGuid>01cf3afa-f32f-4391-b38d-cf625480f3b6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -50,6 +58,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ID'])[2]/following::p[1]</value>
+      <webElementGuid>8db803ee-d069-4816-a418-ff8549fb7fce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ID'])[1]/following::p[1]</value>
+      <webElementGuid>93485dee-1fcd-4e4a-b25f-500f45a8ca1b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ID'])[3]/preceding::p[1]</value>
+      <webElementGuid>380357f5-5e6f-4f13-9f43-38a6fe23bb04</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ID'])[4]/preceding::p[2]</value>
+      <webElementGuid>838f44f1-200a-40a7-bb2a-4406b794459f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='m2jl']/parent::*</value>
+      <webElementGuid>0788e499-97c5-4e2f-a224-234f10c9f0f3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,5 +98,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//p</value>
+      <webElementGuid>671c8a09-7c47-4d4b-b311-524747812c0e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

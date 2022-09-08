@@ -68,7 +68,7 @@ public class HamburgerFunctions {
 	@Keyword
 	def chooseFile(name) {
 		def retCode = true
-		def drawerOpen = WebUI.waitForElementPresent(findTestObject('Page_tC Create/button_DrawerClose'), 1, FailureHandling.OPTIONAL)
+		def drawerOpen = WebUI.waitForElementPresent(findTestObject('Page_tC Create/button_DrawerClose'), 2, FailureHandling.OPTIONAL)
 		if (!drawerOpen) {
 			try {
 				WebUI.click(findTestObject('Page_tC Create/button_DrawerOpen'), FailureHandling.STOP_ON_FAILURE)
@@ -94,7 +94,7 @@ public class HamburgerFunctions {
 			WebUI.click(findTestObject('Page_tC Create/file_Parmed', [('fileName') : name]))
 			//		WebUI.click(findTestObject('Page_tC Create/file_Parmed'))
 
-			if (!drawerOpen) {
+			if (drawerOpen) {
 				if (WebUI.waitForElementVisible(findTestObject('Page_tC Create/button_DrawerClose'),2, FailureHandling.OPTIONAL)) {
 					if (WebUI.click(findTestObject('Page_tC Create/button_DrawerClose'), FailureHandling.OPTIONAL)) {
 						WebUI.waitForElementVisible(findTestObject('Page_tC Create/button_DrawerOpen'), 5)
@@ -105,6 +105,7 @@ public class HamburgerFunctions {
 					retCode = false
 				}
 			}
+			//WebUI.click(findTestObject('Page_tC Create/button_DrawerClose'), FailureHandling.OPTIONAL)
 		}
 		println('returning ' + retCode)
 		return retCode
