@@ -141,7 +141,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'chrome'</initValue>
+      <initValue>''</initValue>
       <name>browser</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
