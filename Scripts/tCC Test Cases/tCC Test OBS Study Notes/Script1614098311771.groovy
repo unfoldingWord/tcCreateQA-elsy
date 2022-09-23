@@ -29,9 +29,9 @@ CustomKeywords.'com.tccreate.keywords.selectOrg.organization'('')
 CustomKeywords.'com.tccreate.keywords.selectOrg.resource'('unfoldingWord® Open Bible Stories Study Notes')
 CustomKeywords.'com.tccreate.keywords.selectOrg.language'("")
 
-
+CustomKeywords.'com.tccreate.keywords.selectOrg.checkBranchAlert'()
 WebUI.click(findTestObject('Page_tC Create/file_Parmed', [('fileName') : "sn_OBS.tsv"]))
-
+CustomKeywords.'com.tccreate.keywords.selectOrg.checkBranchAlert'()
 WebUI.delay(2)
 WebUI.waitForElementVisible(findTestObject('Object Repository/obs-sn/h6_OBS 11'), 2)
 println("seeing the obs 1:1 header")

@@ -1,0 +1,598 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite1- Regression,Chrome 105.0.0.0,,,2022-09-23 09:51:32,2022-09-23 10:25:23,33m - 51.272s,FAILED
+,,,,,,,
+Test Cases/tCC Test Cases/tN_Parallel Scripture viewer,Chrome 105.0.0.0,,#415,2022-09-23 09:51:33,2022-09-23 09:52:24,51.044s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 105.0.0.0,,,2022-09-23 09:51:33,2022-09-23 09:51:33,0.026s,ERROR
+"com.tccreate.keywords.WriteToFile.writeTofilename(""tN-Parallel Scripture Viewer"")",Chrome 105.0.0.0,,,2022-09-23 09:51:33,2022-09-23 09:51:33,0.026s,PASSED
+com.helper.login.TimeDate.getTimeDate(),Chrome 105.0.0.0,,,2022-09-23 09:51:33,2022-09-23 09:51:33,0.022s,PASSED
+com.helper.login.loginhelper.logintoapp(),Chrome 105.0.0.0,,,2022-09-23 09:51:33,2022-09-23 09:51:42,8.910s,PASSED
+"com.tccreate.keywords.selectOrg.organization("""")",Chrome 105.0.0.0,,,2022-09-23 09:51:42,2022-09-23 09:51:45,3.208s,PASSED
+"com.tccreate.keywords.selectOrg.resource(""unfoldingWord® Translation Notes"")",Chrome 105.0.0.0,,,2022-09-23 09:51:45,2022-09-23 09:51:46,0.548s,PASSED
+"com.tccreate.keywords.selectOrg.language("""")",Chrome 105.0.0.0,,,2022-09-23 09:51:46,2022-09-23 09:51:49,3.136s,PASSED
+com.tccreate.keywords.selectOrg.checkBranchAlert(),Chrome 105.0.0.0,,,2022-09-23 09:51:49,2022-09-23 09:51:51,2.594s,FAILED
+delay(2),Chrome 105.0.0.0,,,2022-09-23 09:51:51,2022-09-23 09:51:53,2.004s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_tC Create/span_en_tn_57-TIT.tsv""), 1)",Chrome 105.0.0.0,,,2022-09-23 09:51:53,2022-09-23 09:51:54,0.493s,PASSED
+"click(findTestObject(""Object Repository/Page_tC Create/span_en_tn_57-TIT.tsv""))",Chrome 105.0.0.0,,,2022-09-23 09:51:54,2022-09-23 09:51:54,0.368s,PASSED
+com.tccreate.keywords.selectOrg.checkBranchAlert(),Chrome 105.0.0.0,,,2022-09-23 09:51:54,2022-09-23 09:51:57,2.732s,FAILED
+"com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScripture(""""test"""")",Chrome 105.0.0.0,,,2022-09-23 09:51:57,2022-09-23 09:52:04,7.531s,PASSED
+"com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScripture(""""on"""")",Chrome 105.0.0.0,,,2022-09-23 09:52:04,2022-09-23 09:52:13,8.128s,PASSED
+"scrollToPosition(100, 1200, CONTINUE_ON_FAILURE)",Chrome 105.0.0.0,,,2022-09-23 09:52:13,2022-09-23 09:52:13,0.014s,PASSED
+"if (verifyElementPresent(findTestObject(""Page_tC Create/span_unfoldingWord Literal Text v14""), 2))",Chrome 105.0.0.0,,,2022-09-23 09:52:13,2022-09-23 09:52:13,0.551s,PASSED
+"if (verifyElementPresent(findTestObject(""Page_tC Create/span_unfoldingWord Simplified Text v14""), 5))",Chrome 105.0.0.0,,,2022-09-23 09:52:13,2022-09-23 09:52:14,0.478s,PASSED
+"com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScripture(""""off"""")",Chrome 105.0.0.0,,,2022-09-23 09:52:14,2022-09-23 09:52:23,9.406s,PASSED
+"logInfo(""button is toggled"")",Chrome 105.0.0.0,,,2022-09-23 09:52:23,2022-09-23 09:52:23,0.001s,PASSED
+"scrollToPosition(100, 1200, CONTINUE_ON_FAILURE)",Chrome 105.0.0.0,,,2022-09-23 09:52:23,2022-09-23 09:52:23,0.008s,PASSED
+"if (verifyElementNotPresent(findTestObject(""Page_tC Create/span_unfoldingWord Literal Text v14""), 3))",Chrome 105.0.0.0,,,2022-09-23 09:52:23,2022-09-23 09:52:24,0.508s,PASSED
+closeBrowser(),Chrome 105.0.0.0,,,2022-09-23 09:52:24,2022-09-23 09:52:24,0.097s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 105.0.0.0,,,2022-09-23 09:52:24,2022-09-23 09:52:24,0.032s,PASSED
+Video,Chrome 105.0.0.0,,,2022-09-23 09:52:24,2022-09-23 09:52:24,0.000s,PASSED
+,,,,,,,
+Test Cases/tCC Test Cases/tCC_Link to Organization page,Chrome 105.0.0.0,,#338,2022-09-23 09:52:24,2022-09-23 09:52:38,13.960s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 105.0.0.0,,,2022-09-23 09:52:24,2022-09-23 09:52:24,0.003s,ERROR
+"com.tccreate.keywords.WriteToFile.writeTofilename(""Links to Org page"")",Chrome 105.0.0.0,,,2022-09-23 09:52:24,2022-09-23 09:52:24,0.002s,PASSED
+com.helper.login.TimeDate.getTimeDate(),Chrome 105.0.0.0,,,2022-09-23 09:52:24,2022-09-23 09:52:24,0.001s,PASSED
+com.helper.login.loginhelper.logintoapp(),Chrome 105.0.0.0,,,2022-09-23 09:52:24,2022-09-23 09:52:32,8.476s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Organization Link/span_unfoldingWord""), 1)",Chrome 105.0.0.0,,,2022-09-23 09:52:32,2022-09-23 09:52:35,2.659s,FAILED
+"expectedTooltip = ""Go to Organization""",Chrome 105.0.0.0,,,2022-09-23 09:52:35,2022-09-23 09:52:35,0.000s,PASSED
+"actualTooltip = getAttribute(findTestObject(""Object Repository/Organization Link/button_unfoldingWord_MuiButtonBase-root MuiIconButton-root""), ""title"")",Chrome 105.0.0.0,,,2022-09-23 09:52:35,2022-09-23 09:52:35,0.358s,PASSED
+"out.println(""Actual Title of Tool Tip"" + actualTooltip)",Chrome 105.0.0.0,,,2022-09-23 09:52:35,2022-09-23 09:52:35,0.006s,PASSED
+if (actualTooltip.equals(expectedTooltip)),Chrome 105.0.0.0,,,2022-09-23 09:52:35,2022-09-23 09:52:35,0.000s,PASSED
+"click(findTestObject(""Object Repository/Organization Link/button_unfoldingWord_MuiButtonBase-root MuiIconButton-root""))",Chrome 105.0.0.0,,,2022-09-23 09:52:35,2022-09-23 09:52:36,0.417s,PASSED
+switchToWindowIndex(1),Chrome 105.0.0.0,,,2022-09-23 09:52:36,2022-09-23 09:52:36,0.021s,PASSED
+"if (verifyElementVisible(findTestObject(""Object Repository/Organization Link/div_unfoldingWord""), CONTINUE_ON_FAILURE))",Chrome 105.0.0.0,,,2022-09-23 09:52:36,2022-09-23 09:52:38,1.772s,PASSED
+switchToWindowIndex(0),Chrome 105.0.0.0,,,2022-09-23 09:52:38,2022-09-23 09:52:38,0.013s,PASSED
+closeBrowser(),Chrome 105.0.0.0,,,2022-09-23 09:52:38,2022-09-23 09:52:38,0.088s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 105.0.0.0,,,2022-09-23 09:52:38,2022-09-23 09:52:38,0.011s,PASSED
+Video,Chrome 105.0.0.0,,,2022-09-23 09:52:38,2022-09-23 09:52:38,0.001s,PASSED
+,,,,,,,
+Test Cases/tCC Test Cases/tN_undo text in tN Editor,Chrome 105.0.0.0,,,2022-09-23 09:52:38,2022-09-23 09:53:00,22.077s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 105.0.0.0,,,2022-09-23 09:52:38,2022-09-23 09:52:38,0.003s,ERROR
+"com.tccreate.keywords.WriteToFile.writeTofilename(""tN-undo editing"")",Chrome 105.0.0.0,,,2022-09-23 09:52:38,2022-09-23 09:52:38,0.001s,PASSED
+com.helper.login.TimeDate.getTimeDate(),Chrome 105.0.0.0,,,2022-09-23 09:52:38,2022-09-23 09:52:38,0.000s,PASSED
+com.helper.login.loginhelper.logintoapp(),Chrome 105.0.0.0,,,2022-09-23 09:52:38,2022-09-23 09:52:45,7.289s,PASSED
+"com.tccreate.keywords.selectOrg.organization("""")",Chrome 105.0.0.0,,,2022-09-23 09:52:45,2022-09-23 09:52:48,3.262s,PASSED
+"com.tccreate.keywords.selectOrg.resource(""unfoldingWord® Translation Notes"")",Chrome 105.0.0.0,,,2022-09-23 09:52:48,2022-09-23 09:52:49,0.541s,PASSED
+"com.tccreate.keywords.selectOrg.language("""")",Chrome 105.0.0.0,,,2022-09-23 09:52:49,2022-09-23 09:52:52,3.438s,PASSED
+com.tccreate.keywords.selectOrg.checkBranchAlert(),Chrome 105.0.0.0,,,2022-09-23 09:52:52,2022-09-23 09:52:55,2.625s,FAILED
+"click(findTestObject(""Object Repository/Page_tC Create/span_en_tn_57-TIT.tsv""))",Chrome 105.0.0.0,,,2022-09-23 09:52:55,2022-09-23 09:52:55,0.423s,PASSED
+com.tccreate.keywords.selectOrg.checkBranchAlert(),Chrome 105.0.0.0,,,2022-09-23 09:52:55,2022-09-23 09:52:58,2.890s,FAILED
+"click(findTestObject(""Object Repository/Page_tC Create/div_Introduction to TitusPart 1""))",Chrome 105.0.0.0,,,2022-09-23 09:52:58,2022-09-23 09:52:59,0.436s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_tC Create/div_Introduction to TitusPart 1""), ""edit again "")",Chrome 105.0.0.0,,,2022-09-23 09:52:59,2022-09-23 09:52:59,0.451s,PASSED
+driver = getWebDriver(),Chrome 105.0.0.0,,,2022-09-23 09:52:59,2022-09-23 09:52:59,0.001s,PASSED
+action = new org.openqa.selenium.interactions.Actions(driver),Chrome 105.0.0.0,,,2022-09-23 09:52:59,2022-09-23 09:52:59,0.008s,PASSED
+keyUp(COMMAND).perform(),Chrome 105.0.0.0,,,2022-09-23 09:52:59,2022-09-23 09:52:59,0.021s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_tC Create/div_Introduction to TitusPart 1""), Keys.chord(COMMAND, ""z""))",Chrome 105.0.0.0,,,2022-09-23 09:52:59,2022-09-23 09:53:00,0.375s,PASSED
+"logInfo(""Text is cleared successfully by undo action"")",Chrome 105.0.0.0,,,2022-09-23 09:53:00,2022-09-23 09:53:00,0.001s,PASSED
+closeBrowser(),Chrome 105.0.0.0,,,2022-09-23 09:53:00,2022-09-23 09:53:00,0.103s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 105.0.0.0,,,2022-09-23 09:53:00,2022-09-23 09:53:00,0.009s,PASSED
+Video,Chrome 105.0.0.0,,,2022-09-23 09:53:00,2022-09-23 09:53:00,0.000s,PASSED
+,,,,,,,
+Test Cases/tCC Test Cases/tN_Add or Delete a Row,Chrome 105.0.0.0,,,2022-09-23 09:53:00,2022-09-23 09:55:00,2m - 0.650s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 105.0.0.0,,,2022-09-23 09:53:00,2022-09-23 09:53:00,0.002s,ERROR
+"com.tccreate.keywords.WriteToFile.writeTofilename(""tA-Add or delete row"")",Chrome 105.0.0.0,,,2022-09-23 09:53:00,2022-09-23 09:53:00,0.002s,PASSED
+com.helper.login.TimeDate.getTimeDate(),Chrome 105.0.0.0,,,2022-09-23 09:53:00,2022-09-23 09:53:00,0.001s,PASSED
+com.helper.login.loginhelper.logintoapp(),Chrome 105.0.0.0,,,2022-09-23 09:53:00,2022-09-23 09:53:07,7.055s,PASSED
+"com.tccreate.keywords.selectOrg.organization("""")",Chrome 105.0.0.0,,,2022-09-23 09:53:07,2022-09-23 09:53:10,3.373s,PASSED
+"com.tccreate.keywords.selectOrg.resource(""unfoldingWord® Translation Notes"")",Chrome 105.0.0.0,,,2022-09-23 09:53:10,2022-09-23 09:53:11,0.535s,PASSED
+"com.tccreate.keywords.selectOrg.language("""")",Chrome 105.0.0.0,,,2022-09-23 09:53:11,2022-09-23 09:53:15,3.872s,PASSED
+com.tccreate.keywords.selectOrg.checkBranchAlert(),Chrome 105.0.0.0,,,2022-09-23 09:53:15,2022-09-23 09:53:17,2.446s,FAILED
+"click(findTestObject(""Page_tC Create/Add new resource objects/span_en_tn_57-TIT.tsv""))",Chrome 105.0.0.0,,,2022-09-23 09:53:17,2022-09-23 09:53:18,0.531s,PASSED
+com.tccreate.keywords.selectOrg.checkBranchAlert(),Chrome 105.0.0.0,,,2022-09-23 09:53:18,2022-09-23 09:53:20,2.824s,FAILED
+"click(findTestObject(""Object Repository/tN objects/button_view columns""))",Chrome 105.0.0.0,,,2022-09-23 09:53:20,2022-09-23 09:53:21,0.495s,PASSED
+"click(findTestObject(""Object Repository/tN objects/input_ID""))",Chrome 105.0.0.0,,,2022-09-23 09:53:21,2022-09-23 09:53:22,0.766s,PASSED
+"click(findTestObject(""tN objects/button__Close-Columns""))",Chrome 105.0.0.0,,,2022-09-23 09:53:22,2022-09-23 09:53:22,0.589s,PASSED
+"scrollToElement(findTestObject(""Object Repository/tN objects/div_Titus 11""), 2)",Chrome 105.0.0.0,,,2022-09-23 09:53:22,2022-09-23 09:53:54,31.722s,FAILED
+"click(findTestObject(""Object Repository/tN objects/button_Titus 11_add a new row""))",Chrome 105.0.0.0,,,2022-09-23 09:53:54,2022-09-23 09:53:55,0.881s,FAILED
+"click(findTestObject(""Object Repository/tN objects/button_Add""))",Chrome 105.0.0.0,,,2022-09-23 09:53:55,2022-09-23 09:54:27,31.690s,FAILED
+"if (verifyElementVisible(findTestObject(""Object Repository/tN objects/p_empty"")))",Chrome 105.0.0.0,,,2022-09-23 09:54:27,2022-09-23 09:54:27,0.469s,PASSED
+"click(findTestObject(""Object Repository/tN objects/button_Titus 11_Delete new row""))",Chrome 105.0.0.0,,,2022-09-23 09:54:27,2022-09-23 09:54:28,0.892s,FAILED
+"click(findTestObject(""Object Repository/tN objects/span_Delete""))",Chrome 105.0.0.0,,,2022-09-23 09:54:28,2022-09-23 09:55:00,31.761s,FAILED
+"if (verifyElementVisible(findTestObject(""Object Repository/tN objects/p_empty"")))",Chrome 105.0.0.0,,,2022-09-23 09:55:00,2022-09-23 09:55:00,0.467s,PASSED
+closeBrowser(),Chrome 105.0.0.0,,,2022-09-23 09:55:00,2022-09-23 09:55:00,0.127s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 105.0.0.0,,,2022-09-23 09:55:00,2022-09-23 09:55:00,0.010s,PASSED
+Video,Chrome 105.0.0.0,,,2022-09-23 09:55:00,2022-09-23 09:55:00,0.000s,PASSED
+,,,,,,,
+Test Cases/tCC Test Cases/tN_Expand chapter,Chrome 105.0.0.0,,,2022-09-23 09:55:00,2022-09-23 09:58:24,3m - 23.141s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 105.0.0.0,,,2022-09-23 09:55:00,2022-09-23 09:55:00,0.002s,ERROR
+"com.tccreate.keywords.WriteToFile.writeTofilename(""tN-Expand chapter"")",Chrome 105.0.0.0,,,2022-09-23 09:55:01,2022-09-23 09:55:01,0.003s,PASSED
+com.helper.login.TimeDate.getTimeDate(),Chrome 105.0.0.0,,,2022-09-23 09:55:01,2022-09-23 09:55:01,0.001s,PASSED
+com.helper.login.loginhelper.logintoapp(),Chrome 105.0.0.0,,,2022-09-23 09:55:01,2022-09-23 09:55:08,7.179s,PASSED
+"com.tccreate.keywords.selectOrg.organization("""")",Chrome 105.0.0.0,,,2022-09-23 09:55:08,2022-09-23 09:55:11,3.032s,PASSED
+"com.tccreate.keywords.selectOrg.resource(""unfoldingWord® Translation Notes"")",Chrome 105.0.0.0,,,2022-09-23 09:55:11,2022-09-23 09:55:11,0.424s,PASSED
+"com.tccreate.keywords.selectOrg.language("""")",Chrome 105.0.0.0,,,2022-09-23 09:55:11,2022-09-23 09:55:15,3.437s,PASSED
+com.tccreate.keywords.selectOrg.checkBranchAlert(),Chrome 105.0.0.0,,,2022-09-23 09:55:15,2022-09-23 09:55:17,2.800s,FAILED
+"click(findTestObject(""Page_tC Create/Add new resource objects/span_en_tn_57-TIT.tsv""))",Chrome 105.0.0.0,,,2022-09-23 09:55:17,2022-09-23 09:55:18,0.402s,PASSED
+com.tccreate.keywords.selectOrg.checkBranchAlert(),Chrome 105.0.0.0,,,2022-09-23 09:55:18,2022-09-23 09:55:20,2.525s,FAILED
+"buttonstate = com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScripture(""test"")",Chrome 105.0.0.0,,,2022-09-23 09:55:20,2022-09-23 09:55:26,5.937s,PASSED
+"out.println("" the state of the button is"" + buttonstate)",Chrome 105.0.0.0,,,2022-09-23 09:55:26,2022-09-23 09:55:26,0.000s,PASSED
+delay(1),Chrome 105.0.0.0,,,2022-09-23 09:55:26,2022-09-23 09:55:27,1.006s,PASSED
+"if (buttonstate == ""off"")",Chrome 105.0.0.0,,,2022-09-23 09:55:27,2022-09-23 09:55:27,0.001s,PASSED
+else,Chrome 105.0.0.0,,,2022-09-23 09:55:27,2022-09-23 09:55:27,0.002s,PASSED
+"scrollToElement(findTestObject(""Page_tC Create/Add new resource objects/h6_TIT 1intro""), 2, CONTINUE_ON_FAILURE)",Chrome 105.0.0.0,,,2022-09-23 09:55:27,2022-09-23 09:55:59,31.714s,FAILED
+"click(findTestObject(""Object Repository/tN objects/button_Titus 11_Expand chapter button""))",Chrome 105.0.0.0,,,2022-09-23 09:55:59,2022-09-23 09:56:00,0.774s,FAILED
+"mouseOver(findTestObject(""Object Repository/tN objects/td_12""))",Chrome 105.0.0.0,,,2022-09-23 09:56:00,2022-09-23 09:56:31,31.463s,FAILED
+"click(findTestObject(""Object Repository/tN objects/td_12""))",Chrome 105.0.0.0,,,2022-09-23 09:56:31,2022-09-23 09:57:03,31.584s,FAILED
+for (int i : (1..19)),Chrome 105.0.0.0,,,2022-09-23 09:57:03,2022-09-23 09:57:14,11.224s,PASSED
+"if (verifyElementVisible(findTestObject(""Object Repository/tN objects/sup_315"")))",Chrome 105.0.0.0,,,2022-09-23 09:57:14,2022-09-23 09:57:46,31.620s,FAILED
+else,Chrome 105.0.0.0,,,2022-09-23 09:57:46,2022-09-23 09:57:46,0.001s,PASSED
+delay(3),Chrome 105.0.0.0,,,2022-09-23 09:57:46,2022-09-23 09:57:49,3.003s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(PAGE_UP))",Chrome 105.0.0.0,,,2022-09-23 09:57:49,2022-09-23 09:57:49,0.458s,PASSED
+"click(findTestObject(""Object Repository/tN objects/button_Titus 11_collapse-chapter""))",Chrome 105.0.0.0,,,2022-09-23 09:57:49,2022-09-23 09:58:21,31.730s,FAILED
+delay(2),Chrome 105.0.0.0,,,2022-09-23 09:58:21,2022-09-23 09:58:23,2.005s,PASSED
+"if (verifyElementNotPresent(findTestObject(""Object Repository/tN objects/sup_315""), 2, CONTINUE_ON_FAILURE))",Chrome 105.0.0.0,,,2022-09-23 09:58:23,2022-09-23 09:58:23,0.462s,PASSED
+closeBrowser(),Chrome 105.0.0.0,,,2022-09-23 09:58:23,2022-09-23 09:58:23,0.134s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 105.0.0.0,,,2022-09-23 09:58:23,2022-09-23 09:58:23,0.013s,PASSED
+Video,Chrome 105.0.0.0,,,2022-09-23 09:58:24,2022-09-23 09:58:24,0.000s,PASSED
+,,,,,,,
+Test Cases/tCC Test Cases/tN_Highlighting by Occurrence Number-Tofix,Chrome 105.0.0.0,,"rcl-#47, tcc-app-#94",2022-09-23 09:58:24,2022-09-23 10:06:21,7m - 57.758s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 105.0.0.0,,,2022-09-23 09:58:24,2022-09-23 09:58:24,0.003s,ERROR
+"com.tccreate.keywords.WriteToFile.writeTofilename(""tN-Highlighting by occurrence number"")",Chrome 105.0.0.0,,,2022-09-23 09:58:24,2022-09-23 09:58:24,0.002s,PASSED
+com.helper.login.TimeDate.getTimeDate(),Chrome 105.0.0.0,,,2022-09-23 09:58:24,2022-09-23 09:58:24,0.001s,PASSED
+com.helper.login.loginhelper.logintoapp(),Chrome 105.0.0.0,,,2022-09-23 09:58:24,2022-09-23 09:58:33,9.247s,PASSED
+"com.tccreate.keywords.selectOrg.organization("""")",Chrome 105.0.0.0,,,2022-09-23 09:58:33,2022-09-23 09:58:35,2.348s,PASSED
+"com.tccreate.keywords.selectOrg.resource(""unfoldingWord® Translation Notes"")",Chrome 105.0.0.0,,,2022-09-23 09:58:35,2022-09-23 09:58:36,0.431s,PASSED
+"com.tccreate.keywords.selectOrg.language("""")",Chrome 105.0.0.0,,,2022-09-23 09:58:36,2022-09-23 09:58:39,3.493s,PASSED
+com.tccreate.keywords.selectOrg.checkBranchAlert(),Chrome 105.0.0.0,,,2022-09-23 09:58:39,2022-09-23 09:58:42,2.715s,FAILED
+"click(findTestObject(""Object Repository/Page_tC Create/span_en_tn_57-TIT.tsv""))",Chrome 105.0.0.0,,,2022-09-23 09:58:42,2022-09-23 09:58:42,0.450s,PASSED
+com.tccreate.keywords.selectOrg.checkBranchAlert(),Chrome 105.0.0.0,,,2022-09-23 09:58:42,2022-09-23 09:58:45,2.998s,FAILED
+"click(findTestObject(""Object Repository/tN objects/button_view columns""))",Chrome 105.0.0.0,,,2022-09-23 09:58:45,2022-09-23 09:58:46,0.288s,PASSED
+"click(findTestObject(""tN objects/input_OrigQuote_checkbox""))",Chrome 105.0.0.0,,,2022-09-23 09:58:46,2022-09-23 09:58:46,0.760s,PASSED
+"click(findTestObject(""Object Repository/tN objects/input_SupportReference""))",Chrome 105.0.0.0,,,2022-09-23 09:58:46,2022-09-23 09:58:47,0.674s,PASSED
+"click(findTestObject(""tN objects/button__Close-Columns""))",Chrome 105.0.0.0,,,2022-09-23 09:58:47,2022-09-23 09:58:48,0.610s,PASSED
+"buttonstate = com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScripture(""test"")",Chrome 105.0.0.0,,,2022-09-23 09:58:48,2022-09-23 09:58:54,6.054s,PASSED
+"out.println("" the state of the button is"" + buttonstate)",Chrome 105.0.0.0,,,2022-09-23 09:58:54,2022-09-23 09:58:54,0.000s,PASSED
+delay(1),Chrome 105.0.0.0,,,2022-09-23 09:58:54,2022-09-23 09:58:55,1.006s,PASSED
+"if (buttonstate == ""off"")",Chrome 105.0.0.0,,,2022-09-23 09:58:55,2022-09-23 09:58:55,0.001s,PASSED
+else,Chrome 105.0.0.0,,,2022-09-23 09:58:55,2022-09-23 09:58:55,0.002s,PASSED
+"scrollToElement(findTestObject(""Object Repository/tN objects/div_Titus 11""), 2)",Chrome 105.0.0.0,,,2022-09-23 09:58:55,2022-09-23 09:59:26,31.546s,FAILED
+"click(findTestObject(""Object Repository/tN objects/button_Titus 11_add a new row""))",Chrome 105.0.0.0,,,2022-09-23 09:59:26,2022-09-23 09:59:27,0.766s,FAILED
+"click(findTestObject(""Object Repository/tN objects/button_Add""))",Chrome 105.0.0.0,,,2022-09-23 09:59:27,2022-09-23 09:59:59,31.618s,FAILED
+"word1 = getText(findTestObject(""tN objects/word1""))",Chrome 105.0.0.0,,,2022-09-23 09:59:59,2022-09-23 10:00:30,31.669s,FAILED
+"logInfo(""the word is"" + word1)",Chrome 105.0.0.0,,,2022-09-23 10:00:30,2022-09-23 10:00:30,0.004s,PASSED
+"color_word1 = getCSSValue(findTestObject(""tN objects/word1""), ""color"")",Chrome 105.0.0.0,,,2022-09-23 10:00:30,2022-09-23 10:01:02,31.810s,FAILED
+"backcolor_word1 = getCSSValue(findTestObject(""tN objects/word1""), ""background-color"")",Chrome 105.0.0.0,,,2022-09-23 10:01:02,2022-09-23 10:01:34,31.572s,FAILED
+logInfo(color_word1),Chrome 105.0.0.0,,,2022-09-23 10:01:34,2022-09-23 10:01:34,0.001s,PASSED
+logInfo(backcolor_word1),Chrome 105.0.0.0,,,2022-09-23 10:01:34,2022-09-23 10:01:34,0.001s,PASSED
+"click(findTestObject(""Object Repository/tN objects/p_OL_box""))",Chrome 105.0.0.0,,,2022-09-23 10:01:34,2022-09-23 10:02:05,31.506s,FAILED
+"setText(findTestObject(""Object Repository/tN objects/p_OL_box""), ""Θεοῦ"")",Chrome 105.0.0.0,,,2022-09-23 10:02:05,2022-09-23 10:02:37,31.695s,FAILED
+driver = getWebDriver(),Chrome 105.0.0.0,,,2022-09-23 10:02:37,2022-09-23 10:02:37,0.000s,PASSED
+action = new org.openqa.selenium.interactions.Actions(driver),Chrome 105.0.0.0,,,2022-09-23 10:02:37,2022-09-23 10:02:37,0.001s,PASSED
+build().perform(),Chrome 105.0.0.0,,,2022-09-23 10:02:37,2022-09-23 10:02:37,0.024s,PASSED
+if (!(color_word1.equals(backcolor_word1))),Chrome 105.0.0.0,,,2022-09-23 10:02:37,2022-09-23 10:02:37,0.001s,PASSED
+else,Chrome 105.0.0.0,,,2022-09-23 10:02:37,2022-09-23 10:02:37,0.001s,PASSED
+"color_word2 = getCSSValue(findTestObject(""tN objects/word2""), ""color"")",Chrome 105.0.0.0,,,2022-09-23 10:02:37,2022-09-23 10:03:09,31.871s,FAILED
+"backcolor_word2 = getCSSValue(findTestObject(""tN objects/word2""), ""background-color"")",Chrome 105.0.0.0,,,2022-09-23 10:03:09,2022-09-23 10:03:41,31.748s,FAILED
+"click(findTestObject(""Object Repository/tN objects/p_occurrence box""))",Chrome 105.0.0.0,,,2022-09-23 10:03:41,2022-09-23 10:04:12,31.736s,FAILED
+"clearText(findTestObject(""Object Repository/tN objects/p_occurrence box""), CONTINUE_ON_FAILURE)",Chrome 105.0.0.0,,,2022-09-23 10:04:12,2022-09-23 10:04:44,31.434s,FAILED
+"sendKeys(findTestObject(""Object Repository/tN objects/p_occurrence box""), ""2"")",Chrome 105.0.0.0,,,2022-09-23 10:04:44,2022-09-23 10:05:15,31.504s,FAILED
+build().perform(),Chrome 105.0.0.0,,,2022-09-23 10:05:15,2022-09-23 10:05:16,0.304s,PASSED
+if (!(color_word2.equals(backcolor_word2))),Chrome 105.0.0.0,,,2022-09-23 10:05:16,2022-09-23 10:05:16,0.000s,PASSED
+else,Chrome 105.0.0.0,,,2022-09-23 10:05:16,2022-09-23 10:05:16,0.050s,PASSED
+"clearText(findTestObject(""Object Repository/tN objects/p_occurrence box""), CONTINUE_ON_FAILURE)",Chrome 105.0.0.0,,,2022-09-23 10:05:16,2022-09-23 10:05:47,31.730s,FAILED
+"sendKeys(findTestObject(""Object Repository/tN objects/p_occurrence box""), ""-1"")",Chrome 105.0.0.0,,,2022-09-23 10:05:47,2022-09-23 10:06:19,31.505s,FAILED
+build().perform(),Chrome 105.0.0.0,,,2022-09-23 10:06:19,2022-09-23 10:06:19,0.153s,PASSED
+if (!(color_word1.equals(backcolor_word1)) && !(color_word2.equals(backcolor_word2))),Chrome 105.0.0.0,,,2022-09-23 10:06:19,2022-09-23 10:06:19,0.001s,PASSED
+else,Chrome 105.0.0.0,,,2022-09-23 10:06:19,2022-09-23 10:06:19,0.021s,PASSED
+delay(2),Chrome 105.0.0.0,,,2022-09-23 10:06:19,2022-09-23 10:06:21,2.002s,PASSED
+closeBrowser(),Chrome 105.0.0.0,,,2022-09-23 10:06:21,2022-09-23 10:06:21,0.132s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 105.0.0.0,,,2022-09-23 10:06:21,2022-09-23 10:06:21,0.012s,PASSED
+Video,Chrome 105.0.0.0,,,2022-09-23 10:06:21,2022-09-23 10:06:21,0.000s,PASSED
+,,,,,,,
+Test Cases/tCC Test Cases/tW_Saving tW Article,Chrome 105.0.0.0,,,2022-09-23 10:06:21,2022-09-23 10:08:24,2m - 2.803s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 105.0.0.0,,,2022-09-23 10:06:21,2022-09-23 10:06:21,0.003s,ERROR
+"com.tccreate.keywords.WriteToFile.writeTofilename(""tW-Save"")",Chrome 105.0.0.0,,,2022-09-23 10:06:21,2022-09-23 10:06:21,0.001s,PASSED
+com.helper.login.TimeDate.getTimeDate(),Chrome 105.0.0.0,,,2022-09-23 10:06:21,2022-09-23 10:06:21,0.001s,PASSED
+com.helper.login.loginhelper.logintoapp(),Chrome 105.0.0.0,,,2022-09-23 10:06:21,2022-09-23 10:06:28,6.951s,PASSED
+"com.tccreate.keywords.selectOrg.organization("""")",Chrome 105.0.0.0,,,2022-09-23 10:06:28,2022-09-23 10:06:31,3.073s,PASSED
+"com.tccreate.keywords.selectOrg.resource(""unfoldingWord® Translation Words"")",Chrome 105.0.0.0,,,2022-09-23 10:06:31,2022-09-23 10:06:32,0.517s,PASSED
+"com.tccreate.keywords.selectOrg.language("""")",Chrome 105.0.0.0,,,2022-09-23 10:06:32,2022-09-23 10:06:35,3.335s,PASSED
+com.tccreate.keywords.selectOrg.checkBranchAlert(),Chrome 105.0.0.0,,,2022-09-23 10:06:35,2022-09-23 10:06:37,2.044s,PASSED
+"click(findTestObject(""tW Objects/span_bible""))",Chrome 105.0.0.0,,,2022-09-23 10:06:37,2022-09-23 10:06:38,0.735s,PASSED
+"click(findTestObject(""tW Objects/span_kt""))",Chrome 105.0.0.0,,,2022-09-23 10:06:38,2022-09-23 10:06:39,1.046s,PASSED
+"click(findTestObject(""tW Objects/span_almighty.md""))",Chrome 105.0.0.0,,,2022-09-23 10:06:39,2022-09-23 10:06:40,1.367s,PASSED
+com.tccreate.keywords.selectOrg.checkBranchAlert(),Chrome 105.0.0.0,,,2022-09-23 10:06:40,2022-09-23 10:06:43,2.012s,PASSED
+"click(findTestObject(""tW Objects/h1_Almighty""))",Chrome 105.0.0.0,,,2022-09-23 10:06:43,2022-09-23 10:07:14,31.502s,FAILED
+"sendKeys(findTestObject(""tW Objects/h1_Almighty""), ""  edits by a test script"")",Chrome 105.0.0.0,,,2022-09-23 10:07:14,2022-09-23 10:07:46,31.617s,FAILED
+"click(findTestObject(""Object Repository/Page_tC Create/button_Save""))",Chrome 105.0.0.0,,,2022-09-23 10:07:46,2022-09-23 10:08:18,32.743s,FAILED
+delay(2),Chrome 105.0.0.0,,,2022-09-23 10:08:18,2022-09-23 10:08:20,2.006s,PASSED
+"if (verifyElementNotClickable(findTestObject(""Page_tC Create/button_Save""), CONTINUE_ON_FAILURE))",Chrome 105.0.0.0,,,2022-09-23 10:08:20,2022-09-23 10:08:21,0.376s,PASSED
+"click(findTestObject(""Object Repository/tW Objects/chip_English - unfoldingWorden_twElsyLambert-tc-create-1""))",Chrome 105.0.0.0,,,2022-09-23 10:08:21,2022-09-23 10:08:21,0.475s,PASSED
+delay(2),Chrome 105.0.0.0,,,2022-09-23 10:08:21,2022-09-23 10:08:23,2.005s,PASSED
+switchToWindowIndex(1),Chrome 105.0.0.0,,,2022-09-23 10:08:23,2022-09-23 10:08:23,0.009s,PASSED
+"if (getText(findTestObject(""Object Repository/tW Objects/h1_Almighty article on DCS"")).contains(""edits by a test script""))",Chrome 105.0.0.0,,,2022-09-23 10:08:23,2022-09-23 10:08:24,0.656s,PASSED
+else,Chrome 105.0.0.0,,,2022-09-23 10:08:24,2022-09-23 10:08:24,0.003s,PASSED
+switchToWindowIndex(0),Chrome 105.0.0.0,,,2022-09-23 10:08:24,2022-09-23 10:08:24,0.013s,PASSED
+closeBrowser(),Chrome 105.0.0.0,,,2022-09-23 10:08:24,2022-09-23 10:08:24,0.132s,PASSED
+closeBrowser(),Chrome 105.0.0.0,,,2022-09-23 10:08:24,2022-09-23 10:08:24,0.003s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 105.0.0.0,,,2022-09-23 10:08:24,2022-09-23 10:08:24,0.012s,PASSED
+Video,Chrome 105.0.0.0,,,2022-09-23 10:08:24,2022-09-23 10:08:24,0.001s,PASSED
+,,,,,,,
+Test Cases/tCC Test Cases/tA_Saving tA Article,Chrome 105.0.0.0,,,2022-09-23 10:08:24,2022-09-23 10:08:55,31.330s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 105.0.0.0,,,2022-09-23 10:08:24,2022-09-23 10:08:24,0.002s,ERROR
+"com.tccreate.keywords.WriteToFile.writeTofilename(""tA-Save"")",Chrome 105.0.0.0,,,2022-09-23 10:08:24,2022-09-23 10:08:24,0.001s,PASSED
+com.helper.login.TimeDate.getTimeDate(),Chrome 105.0.0.0,,,2022-09-23 10:08:24,2022-09-23 10:08:24,0.000s,PASSED
+com.helper.login.loginhelper.logintoapp(),Chrome 105.0.0.0,,,2022-09-23 10:08:24,2022-09-23 10:08:33,9.084s,PASSED
+"com.tccreate.keywords.selectOrg.organization("""")",Chrome 105.0.0.0,,,2022-09-23 10:08:33,2022-09-23 10:08:36,2.947s,PASSED
+"com.tccreate.keywords.selectOrg.resource(""unfoldingWord® Translation Academy"")",Chrome 105.0.0.0,,,2022-09-23 10:08:36,2022-09-23 10:08:37,0.581s,PASSED
+"com.tccreate.keywords.selectOrg.language("""")",Chrome 105.0.0.0,,,2022-09-23 10:08:37,2022-09-23 10:08:41,3.821s,PASSED
+com.tccreate.keywords.selectOrg.checkBranchAlert(),Chrome 105.0.0.0,,,2022-09-23 10:08:41,2022-09-23 10:08:43,2.104s,PASSED
+"click(findTestObject(""Page_tC Create/span_translate""))",Chrome 105.0.0.0,,,2022-09-23 10:08:43,2022-09-23 10:08:43,0.700s,PASSED
+"click(findTestObject(""Object Repository/Page_tC Create/span_bita-farming""))",Chrome 105.0.0.0,,,2022-09-23 10:08:43,2022-09-23 10:08:45,1.103s,PASSED
+"click(findTestObject(""Object Repository/Page_tC Create/span_01.md""))",Chrome 105.0.0.0,,,2022-09-23 10:08:45,2022-09-23 10:08:46,1.142s,PASSED
+com.tccreate.keywords.selectOrg.checkBranchAlert(),Chrome 105.0.0.0,,,2022-09-23 10:08:46,2022-09-23 10:08:48,2.264s,PASSED
+"click(findTestObject(""Object Repository/Page_tC Create/div_A FARMER represents God, and the VINEYA_8b10d9""))",Chrome 105.0.0.0,,,2022-09-23 10:08:48,2022-09-23 10:08:49,0.688s,PASSED
+"sendKeys(findTestObject(""Object Repository/tA/div_A FARMER represents God,edit box""), "" test edit by the test script"")",Chrome 105.0.0.0,,,2022-09-23 10:08:49,2022-09-23 10:08:50,0.845s,PASSED
+"click(findTestObject(""Page_tC Create/button_Save""))",Chrome 105.0.0.0,,,2022-09-23 10:08:50,2022-09-23 10:08:50,0.512s,PASSED
+delay(2),Chrome 105.0.0.0,,,2022-09-23 10:08:50,2022-09-23 10:08:52,2.021s,PASSED
+"if (verifyElementNotClickable(findTestObject(""Page_tC Create/button_Save""), CONTINUE_ON_FAILURE))",Chrome 105.0.0.0,,,2022-09-23 10:08:52,2022-09-23 10:08:52,0.369s,PASSED
+"click(findTestObject(""Object Repository/tA/Chip_English - unfoldingWorden_taElsyLambert-tc-create-1""))",Chrome 105.0.0.0,,,2022-09-23 10:08:52,2022-09-23 10:08:53,0.400s,PASSED
+delay(2),Chrome 105.0.0.0,,,2022-09-23 10:08:53,2022-09-23 10:08:55,2.006s,PASSED
+switchToWindowIndex(1),Chrome 105.0.0.0,,,2022-09-23 10:08:55,2022-09-23 10:08:55,0.012s,PASSED
+"if (getText(findTestObject(""Object Repository/tA/h4_dcs article"")).contains(""test edit by the test script""))",Chrome 105.0.0.0,,,2022-09-23 10:08:55,2022-09-23 10:08:55,0.406s,PASSED
+switchToWindowIndex(0),Chrome 105.0.0.0,,,2022-09-23 10:08:55,2022-09-23 10:08:55,0.011s,PASSED
+"logInfo(""
+ TEST PASSED:Edits are saved successfully in tA articles"")",Chrome 105.0.0.0,,,2022-09-23 10:08:55,2022-09-23 10:08:55,0.001s,PASSED
+closeBrowser(),Chrome 105.0.0.0,,,2022-09-23 10:08:55,2022-09-23 10:08:55,0.102s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 105.0.0.0,,,2022-09-23 10:08:55,2022-09-23 10:08:55,0.012s,PASSED
+,,,,,,,
+Test Cases/tCC Test Cases/tN_Add New Resource,Chrome 105.0.0.0,,#322,2022-09-23 10:08:55,2022-09-23 10:15:38,6m - 42.589s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 105.0.0.0,,,2022-09-23 10:08:55,2022-09-23 10:08:55,0.003s,ERROR
+"com.tccreate.keywords.WriteToFile.writeTofilename(""tN-Add new resource"")",Chrome 105.0.0.0,,,2022-09-23 10:08:56,2022-09-23 10:08:56,0.002s,PASSED
+com.helper.login.TimeDate.getTimeDate(),Chrome 105.0.0.0,,,2022-09-23 10:08:56,2022-09-23 10:08:56,0.001s,PASSED
+com.helper.login.loginhelper.logintoapp(),Chrome 105.0.0.0,,,2022-09-23 10:08:56,2022-09-23 10:09:04,8.720s,PASSED
+"com.tccreate.keywords.selectOrg.organization("""")",Chrome 105.0.0.0,,,2022-09-23 10:09:04,2022-09-23 10:09:08,3.491s,PASSED
+"com.tccreate.keywords.selectOrg.resource(""unfoldingWord® Translation Notes"")",Chrome 105.0.0.0,,,2022-09-23 10:09:08,2022-09-23 10:09:08,0.460s,PASSED
+"com.tccreate.keywords.selectOrg.language("""")",Chrome 105.0.0.0,,,2022-09-23 10:09:08,2022-09-23 10:09:12,4.124s,PASSED
+com.tccreate.keywords.selectOrg.checkBranchAlert(),Chrome 105.0.0.0,,,2022-09-23 10:09:12,2022-09-23 10:09:15,2.613s,FAILED
+"scrollToElement(findTestObject(""Page_tC Create/Add new resource objects/span_en_tn_57-TIT.tsv""), 1)",Chrome 105.0.0.0,,,2022-09-23 10:09:15,2022-09-23 10:09:15,0.279s,PASSED
+"click(findTestObject(""Page_tC Create/Add new resource objects/span_en_tn_57-TIT.tsv""))",Chrome 105.0.0.0,,,2022-09-23 10:09:15,2022-09-23 10:09:16,0.498s,PASSED
+com.tccreate.keywords.selectOrg.checkBranchAlert(),Chrome 105.0.0.0,,,2022-09-23 10:09:16,2022-09-23 10:09:19,2.852s,FAILED
+"buttonstate = com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScripture(""test"")",Chrome 105.0.0.0,,,2022-09-23 10:09:19,2022-09-23 10:09:25,6.216s,PASSED
+"out.println("" the state of the button is"" + buttonstate)",Chrome 105.0.0.0,,,2022-09-23 10:09:25,2022-09-23 10:09:25,0.001s,PASSED
+delay(1),Chrome 105.0.0.0,,,2022-09-23 10:09:25,2022-09-23 10:09:26,1.004s,PASSED
+"if (buttonstate == ""off"")",Chrome 105.0.0.0,,,2022-09-23 10:09:26,2022-09-23 10:09:26,0.000s,PASSED
+else,Chrome 105.0.0.0,,,2022-09-23 10:09:26,2022-09-23 10:09:26,0.002s,PASSED
+"scrollToElement(findTestObject(""Page_tC Create/Add new resource objects/h6_TIT 1intro""), 2, CONTINUE_ON_FAILURE)",Chrome 105.0.0.0,,,2022-09-23 10:09:26,2022-09-23 10:09:58,31.757s,FAILED
+"click(findTestObject(""Page_tC Create/Add new resource objects/h6_Titus 11""))",Chrome 105.0.0.0,,,2022-09-23 10:09:58,2022-09-23 10:10:30,31.878s,FAILED
+"verifyElementVisible(findTestObject(""Page_tC Create/Add new resource objects/h6_Titus 11""), CONTINUE_ON_FAILURE)",Chrome 105.0.0.0,,,2022-09-23 10:10:30,2022-09-23 10:11:01,31.774s,FAILED
+"click(findTestObject(""Object Repository/Page_tC Create/Add new resource objects/button_Manage Versions""))",Chrome 105.0.0.0,,,2022-09-23 10:11:01,2022-09-23 10:11:33,31.787s,FAILED
+"click(findTestObject(""Page_tC Create/Add new resource objects/input_Resource Path_resourceUrl""))",Chrome 105.0.0.0,,,2022-09-23 10:11:33,2022-09-23 10:12:05,31.704s,FAILED
+"setText(findTestObject(""Page_tC Create/Add new resource objects/input_Resource Path_resourceUrl""), ""Door43-Catalog/hi/ulb/master/"")",Chrome 105.0.0.0,,,2022-09-23 10:12:05,2022-09-23 10:12:37,31.839s,FAILED
+"click(findTestObject(""Object Repository/Page_tC Create/Add new resource objects/button_Add_Resource Path""))",Chrome 105.0.0.0,,,2022-09-23 10:12:37,2022-09-23 10:13:09,31.914s,FAILED
+"if (verifyElementChecked(findTestObject(""Object Repository/Page_tC Create/Add new resource objects/input_unfoldingWord Simplified Textv14_jss5689""), 1))",Chrome 105.0.0.0,,,2022-09-23 10:13:09,2022-09-23 10:13:09,0.886s,FAILED
+else,Chrome 105.0.0.0,,,2022-09-23 10:13:09,2022-09-23 10:13:09,0.001s,PASSED
+"click(findTestObject(""Object Repository/Page_tC Create/Add new resource objects/button_Manage Versions""))",Chrome 105.0.0.0,,,2022-09-23 10:13:09,2022-09-23 10:13:41,31.701s,FAILED
+"click(findTestObject(""Page_tC Create/Add new resource objects/input_Resource Path_resourceUrl""))",Chrome 105.0.0.0,,,2022-09-23 10:13:41,2022-09-23 10:14:13,31.666s,FAILED
+"setText(findTestObject(""Page_tC Create/Add new resource objects/input_Resource Path_resourceUrl""), ""https://git.door43.org/ru_gl/ru_rlob"")",Chrome 105.0.0.0,,,2022-09-23 10:14:13,2022-09-23 10:14:45,31.780s,FAILED
+"click(findTestObject(""Object Repository/Page_tC Create/Add new resource objects/button_Add_Resource Path""))",Chrome 105.0.0.0,,,2022-09-23 10:14:45,2022-09-23 10:15:16,31.617s,FAILED
+"if (verifyElementChecked(findTestObject(""Object Repository/Page_tC Create/Add new resource objects/input_unfoldingWord Simplified Text-Russian check box""), 1))",Chrome 105.0.0.0,,,2022-09-23 10:15:16,2022-09-23 10:15:17,0.974s,FAILED
+else,Chrome 105.0.0.0,,,2022-09-23 10:15:17,2022-09-23 10:15:17,0.003s,PASSED
+delay(2),Chrome 105.0.0.0,,,2022-09-23 10:15:17,2022-09-23 10:15:19,2.002s,PASSED
+try,Chrome 105.0.0.0,,,2022-09-23 10:15:19,2022-09-23 10:15:20,0.572s,PASSED
+"click(findTestObject(""Object Repository/Page_tC Create/Add new resource objects/span_en_tn_01-GEN.tsv""))",Chrome 105.0.0.0,,,2022-09-23 10:15:20,2022-09-23 10:15:21,1.604s,PASSED
+"click(findTestObject(""Object Repository/Page_tC Create/button_DrawerClose""))",Chrome 105.0.0.0,,,2022-09-23 10:15:21,2022-09-23 10:15:29,7.703s,PASSED
+delay(1),Chrome 105.0.0.0,,,2022-09-23 10:15:29,2022-09-23 10:15:30,1.003s,PASSED
+"if (verifyElementVisible(findTestObject(""Object Repository/Page_tC Create/Add new resource objects/h6_GEN frontintro""), CONTINUE_ON_FAILURE))",Chrome 105.0.0.0,,,2022-09-23 10:15:30,2022-09-23 10:15:38,7.799s,PASSED
+closeBrowser(),Chrome 105.0.0.0,,,2022-09-23 10:15:38,2022-09-23 10:15:38,0.137s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 105.0.0.0,,,2022-09-23 10:15:38,2022-09-23 10:15:38,0.011s,PASSED
+Video,Chrome 105.0.0.0,,,2022-09-23 10:15:38,2022-09-23 10:15:38,0.001s,PASSED
+,,,,,,,
+Test Cases/tCC Test Cases/tCC tN Test All Books from Drawer,Chrome 105.0.0.0,,,2022-09-23 10:15:38,2022-09-23 10:16:00,22.010s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 105.0.0.0,,,2022-09-23 10:15:38,2022-09-23 10:15:38,0.002s,ERROR
+"callTestCase(findTestCase(""tCC Components/tCC tsv Open For Edit""), [""$username"":$username, ""$password"":$password, ""file"":""""], STOP_ON_FAILURE)",Chrome 105.0.0.0,,,2022-09-23 10:15:38,2022-09-23 10:16:00,21.757s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 105.0.0.0,,,2022-09-23 10:16:00,2022-09-23 10:16:00,0.031s,PASSED
+Video,Chrome 105.0.0.0,,,2022-09-23 10:16:00,2022-09-23 10:16:00,0.000s,PASSED
+,,,,,,,
+Test Cases/tCC Test Cases/tCC tN Test App Crash on Paging,Chrome 105.0.0.0,,,2022-09-23 10:16:00,2022-09-23 10:16:23,23.235s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 105.0.0.0,,,2022-09-23 10:16:00,2022-09-23 10:16:00,0.009s,ERROR
+"callTestCase(findTestCase(""tCC Components/tCC tsv Open For Edit""), [""$username"":"""", ""$password"":"""", ""file"":""""], STOP_ON_FAILURE)",Chrome 105.0.0.0,,,2022-09-23 10:16:00,2022-09-23 10:16:23,22.806s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 105.0.0.0,,,2022-09-23 10:16:23,2022-09-23 10:16:23,0.023s,PASSED
+Video,Chrome 105.0.0.0,,,2022-09-23 10:16:23,2022-09-23 10:16:23,0.001s,PASSED
+,,,,,,,
+Test Cases/tCC Test Cases/tCC tN Test Columns and Page Rows,Chrome 105.0.0.0,,"Issues tested: 160, 455, 498",2022-09-23 10:16:23,2022-09-23 10:16:46,22.608s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 105.0.0.0,,,2022-09-23 10:16:23,2022-09-23 10:16:23,0.006s,ERROR
+"callTestCase(findTestCase(""tCC Components/tCC tsv Open For Edit""), [:], STOP_ON_FAILURE)",Chrome 105.0.0.0,,,2022-09-23 10:16:24,2022-09-23 10:16:46,22.106s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 105.0.0.0,,,2022-09-23 10:16:46,2022-09-23 10:16:46,0.022s,PASSED
+Video,Chrome 105.0.0.0,,,2022-09-23 10:16:46,2022-09-23 10:16:46,0.000s,PASSED
+,,,,,,,
+Test Cases/tCC Test Cases/tCC Test Permissions,Chrome 105.0.0.0,,,2022-09-23 10:16:46,2022-09-23 10:17:09,23.298s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 105.0.0.0,,,2022-09-23 10:16:46,2022-09-23 10:16:46,0.004s,ERROR
+"callTestCase(findTestCase(""tCC Components/tCC Login""), [""user"":""tc01"", ""password"":""tc01"", ""newSession"":true], STOP_ON_FAILURE)",Chrome 105.0.0.0,,,2022-09-23 10:16:46,2022-09-23 10:16:55,8.772s,PASSED
+"if (!(callTestCase(findTestCase(""tCC Components/tCC Select Org-Lang-Resource""), [""organization"":"""", ""language"":"""", ""resource"":""en_ta""], STOP_ON_FAILURE)))",Chrome 105.0.0.0,,,2022-09-23 10:16:55,2022-09-23 10:17:09,14.142s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 105.0.0.0,,,2022-09-23 10:17:09,2022-09-23 10:17:09,0.022s,PASSED
+Video,Chrome 105.0.0.0,,,2022-09-23 10:17:09,2022-09-23 10:17:09,0.001s,PASSED
+,,,,,,,
+Test Cases/tCC Test Cases/tCC tN Test Filters,Chrome 105.0.0.0,,"Issues 365, 428, 440, 463",2022-09-23 10:17:09,2022-09-23 10:17:31,22.279s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 105.0.0.0,,,2022-09-23 10:17:09,2022-09-23 10:17:09,0.005s,ERROR
+"callTestCase(findTestCase(""tCC Components/tCC tsv Open For Edit""), [""$username"":"""", ""$password"":"""", ""file"":""""], STOP_ON_FAILURE)",Chrome 105.0.0.0,,,2022-09-23 10:17:10,2022-09-23 10:17:31,21.697s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 105.0.0.0,,,2022-09-23 10:17:31,2022-09-23 10:17:31,0.024s,PASSED
+Video,Chrome 105.0.0.0,,,2022-09-23 10:17:31,2022-09-23 10:17:31,0.000s,PASSED
+,,,,,,,
+Test Cases/tCC Test Cases/TCC tN Test Moving Rows,Chrome 105.0.0.0,,Issues tested: 160 455 742,2022-09-23 10:17:31,2022-09-23 10:17:55,23.432s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 105.0.0.0,,,2022-09-23 10:17:32,2022-09-23 10:17:32,0.004s,ERROR
+"callTestCase(findTestCase(""tCC Components/tCC tsv Open For Edit""), [:], STOP_ON_FAILURE)",Chrome 105.0.0.0,,,2022-09-23 10:17:32,2022-09-23 10:17:55,22.898s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 105.0.0.0,,,2022-09-23 10:17:55,2022-09-23 10:17:55,0.024s,PASSED
+Video,Chrome 105.0.0.0,,,2022-09-23 10:17:55,2022-09-23 10:17:55,0.001s,PASSED
+,,,,,,,
+Test Cases/tCC Test Cases/tCC tN Test Paging Performance,Chrome 105.0.0.0,,,2022-09-23 10:17:55,2022-09-23 10:18:19,23.721s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 105.0.0.0,,,2022-09-23 10:17:55,2022-09-23 10:17:55,0.009s,ERROR
+"rowsList = [10, 25, 50, 100]",Chrome 105.0.0.0,,,2022-09-23 10:17:55,2022-09-23 10:17:55,0.000s,PASSED
+timings = [],Chrome 105.0.0.0,,,2022-09-23 10:17:55,2022-09-23 10:17:55,0.000s,PASSED
+avgTimes = [],Chrome 105.0.0.0,,,2022-09-23 10:17:55,2022-09-23 10:17:55,0.001s,PASSED
+"callTestCase(findTestCase(""tCC Components/tCC tsv Open For Edit""), [""$username"":validateUser, ""$password"":validatePassword, ""file"":""en_tn_42-MRK.tsv"", ""language"":""""], STOP_ON_FAILURE)",Chrome 105.0.0.0,,,2022-09-23 10:17:55,2022-09-23 10:18:19,23.184s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 105.0.0.0,,,2022-09-23 10:18:19,2022-09-23 10:18:19,0.016s,PASSED
+Video,Chrome 105.0.0.0,,,2022-09-23 10:18:19,2022-09-23 10:18:19,0.000s,PASSED
+,,,,,,,
+Test Cases/tCC Test Cases/tCC tN Test Search,Chrome 105.0.0.0,,"Issues 365, 428, 440, 463",2022-09-23 10:18:19,2022-09-23 10:18:41,22.460s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 105.0.0.0,,,2022-09-23 10:18:19,2022-09-23 10:18:19,0.003s,ERROR
+"callTestCase(findTestCase(""tCC Components/tCC tsv Open For Edit""), [""$username"":"""", ""$password"":"""", ""file"":""""], STOP_ON_FAILURE)",Chrome 105.0.0.0,,,2022-09-23 10:18:19,2022-09-23 10:18:41,22.049s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 105.0.0.0,,,2022-09-23 10:18:41,2022-09-23 10:18:41,0.022s,PASSED
+Video,Chrome 105.0.0.0,,,2022-09-23 10:18:41,2022-09-23 10:18:41,0.000s,PASSED
+,,,,,,,
+Test Cases/tCC Test Cases/Test All Source Repos Correct,Chrome 105.0.0.0,,,2022-09-23 10:18:41,2022-09-23 10:21:15,2m - 33.821s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 105.0.0.0,,,2022-09-23 10:18:41,2022-09-23 10:18:41,0.004s,ERROR
+"md_resources = [[""en_ta"", ""translate/"", ""bita-humanbehavior/"", ""01.md""], [""en_tw"", ""bible/"", ""kt/"", ""adoption.md""], [""en_tq"", ""tq_TIT.tsv""], [""en_obs"", ""content/"", ""01.md""], [""en_obs-tq"", ""tq_OBS.tsv""], [""en_obs-tn"", ""tn_OBS.tsv""], [""en_obs-sn"", ""sn_OBS.tsv""], [""en_obs-sq"", ""sq_OBS.tsv""]]",Chrome 105.0.0.0,,,2022-09-23 10:18:41,2022-09-23 10:18:41,0.000s,PASSED
+"org = ""translate_test""",Chrome 105.0.0.0,,,2022-09-23 10:18:41,2022-09-23 10:18:41,0.000s,PASSED
+"lang = ""en -""",Chrome 105.0.0.0,,,2022-09-23 10:18:41,2022-09-23 10:18:41,0.000s,PASSED
+md_resources.each({ java.lang.Object resource -> ... }),Chrome 105.0.0.0,,,2022-09-23 10:18:41,2022-09-23 10:21:15,2m - 33.271s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 105.0.0.0,,,2022-09-23 10:21:15,2022-09-23 10:21:15,0.039s,PASSED
+Video,Chrome 105.0.0.0,,,2022-09-23 10:21:15,2022-09-23 10:21:15,0.000s,PASSED
+,,,,,,,
+Test Cases/tCC Test Cases/tCC Test tN Files for Duplicate IDs,Chrome 105.0.0.0,,,2022-09-23 10:21:15,2022-09-23 10:25:23,4m - 8.507s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 105.0.0.0,,,2022-09-23 10:21:15,2022-09-23 10:21:15,0.002s,ERROR
+"dirName = ""/Users/"" + pcUser + ""/Downloads""",Chrome 105.0.0.0,,,2022-09-23 10:21:15,2022-09-23 10:21:15,0.001s,PASSED
+"filesPath = ""/Users/"" + pcUser + ""/Katalon Studio/Files/Reference/""",Chrome 105.0.0.0,,,2022-09-23 10:21:15,2022-09-23 10:21:15,0.000s,PASSED
+"allBooks = filesPath + ""Bible_Books.csv""",Chrome 105.0.0.0,,,2022-09-23 10:21:15,2022-09-23 10:21:15,0.001s,PASSED
+"ntBooks = filesPath + ""NT_Books.csv""",Chrome 105.0.0.0,,,2022-09-23 10:21:15,2022-09-23 10:21:15,0.000s,PASSED
+"otBooks = filesPath + ""OT_Books.csv""",Chrome 105.0.0.0,,,2022-09-23 10:21:15,2022-09-23 10:21:15,0.000s,PASSED
+"someBooks = filesPath + ""Some_Books.csv""",Chrome 105.0.0.0,,,2022-09-23 10:21:15,2022-09-23 10:21:15,0.001s,PASSED
+"oneBook = filesPath + ""One_Book.csv""",Chrome 105.0.0.0,,,2022-09-23 10:21:15,2022-09-23 10:21:15,0.001s,PASSED
+"epistleBooks = filesPath + ""Epistle_Books.csv""",Chrome 105.0.0.0,,,2022-09-23 10:21:15,2022-09-23 10:21:15,0.001s,PASSED
+myBooks = ntBooks,Chrome 105.0.0.0,,,2022-09-23 10:21:15,2022-09-23 10:21:15,0.000s,PASSED
+dupsOnly = true,Chrome 105.0.0.0,,,2022-09-23 10:21:15,2022-09-23 10:21:15,0.000s,PASSED
+testFiles = [],Chrome 105.0.0.0,,,2022-09-23 10:21:15,2022-09-23 10:21:15,0.000s,PASSED
+"File(myBooks).splitEachLine("","", { java.lang.Object fields -> ... })",Chrome 105.0.0.0,,,2022-09-23 10:21:15,2022-09-23 10:21:15,0.011s,PASSED
+server = unfoldingWord_Keywords.GetTestingConfig.getServer(),Chrome 105.0.0.0,,,2022-09-23 10:21:15,2022-09-23 10:21:15,0.002s,PASSED
+"userTCC = ""tcc001""",Chrome 105.0.0.0,,,2022-09-23 10:21:15,2022-09-23 10:21:15,0.000s,PASSED
+"userTC = ""tc01""",Chrome 105.0.0.0,,,2022-09-23 10:21:15,2022-09-23 10:21:15,0.001s,PASSED
+"userEL = ""ElsyLambert""",Chrome 105.0.0.0,,,2022-09-23 10:21:15,2022-09-23 10:21:15,0.000s,PASSED
+user = userEL,Chrome 105.0.0.0,,,2022-09-23 10:21:15,2022-09-23 10:21:15,0.001s,PASSED
+"catalogBase = ""https://"" + server + "".door43.org/Door43-Catalog/en_tn/src/branch/master/""",Chrome 105.0.0.0,,,2022-09-23 10:21:15,2022-09-23 10:21:15,0.001s,PASSED
+"myRepoBase = ""https://"" + server + "".door43.org/translate_test/en_tn/src/branch/"" + user + ""-tc-create-1/""",Chrome 105.0.0.0,,,2022-09-23 10:21:15,2022-09-23 10:21:15,0.001s,PASSED
+"uWBase = ""https://"" + server + "".door43.org/unfoldingWord/en_tn/src/branch/master/""",Chrome 105.0.0.0,,,2022-09-23 10:21:15,2022-09-23 10:21:15,0.001s,PASSED
+repoBase = myRepoBase,Chrome 105.0.0.0,,,2022-09-23 10:21:15,2022-09-23 10:21:15,0.001s,PASSED
+"openBrowser("""")",Chrome 105.0.0.0,,,2022-09-23 10:21:15,2022-09-23 10:21:17,1.228s,PASSED
+maximizeWindow(),Chrome 105.0.0.0,,,2022-09-23 10:21:17,2022-09-23 10:21:17,0.174s,PASSED
+"unfoldingWord_Keywords.SendMessage.SendInfoMessage(""Testing files in repo "" + repoBase)",Chrome 105.0.0.0,,,2022-09-23 10:21:17,2022-09-23 10:21:17,0.001s,PASSED
+testFiles.each({ java.lang.Object book -> ... }),Chrome 105.0.0.0,,,2022-09-23 10:21:17,2022-09-23 10:21:32,15.433s,PASSED
+r = 0,Chrome 105.0.0.0,,,2022-09-23 10:21:32,2022-09-23 10:21:32,0.000s,PASSED
+dupCount = 0,Chrome 105.0.0.0,,,2022-09-23 10:21:32,2022-09-23 10:21:32,0.001s,PASSED
+ids = [:],Chrome 105.0.0.0,,,2022-09-23 10:21:32,2022-09-23 10:21:32,0.000s,PASSED
+chpts = [],Chrome 105.0.0.0,,,2022-09-23 10:21:32,2022-09-23 10:21:32,0.001s,PASSED
+verss = [],Chrome 105.0.0.0,,,2022-09-23 10:21:32,2022-09-23 10:21:32,0.000s,PASSED
+"table = getText(findTestObject(""Object Repository/Page_Git Repo/text_raw""))",Chrome 105.0.0.0,,,2022-09-23 10:21:32,2022-09-23 10:21:33,0.573s,PASSED
+"table.splitEachLine("" "", { java.lang.Object fields -> ... })",Chrome 105.0.0.0,,,2022-09-23 10:21:33,2022-09-23 10:21:33,0.048s,PASSED
+if (dupCount < 1 && !(dupsOnly)),Chrome 105.0.0.0,,,2022-09-23 10:21:33,2022-09-23 10:21:43,9.876s,PASSED
+r = 0,Chrome 105.0.0.0,,,2022-09-23 10:21:43,2022-09-23 10:21:43,0.000s,PASSED
+dupCount = 0,Chrome 105.0.0.0,,,2022-09-23 10:21:43,2022-09-23 10:21:43,0.000s,PASSED
+ids = [:],Chrome 105.0.0.0,,,2022-09-23 10:21:43,2022-09-23 10:21:43,0.001s,PASSED
+chpts = [],Chrome 105.0.0.0,,,2022-09-23 10:21:43,2022-09-23 10:21:43,0.000s,PASSED
+verss = [],Chrome 105.0.0.0,,,2022-09-23 10:21:43,2022-09-23 10:21:43,0.000s,PASSED
+"table = getText(findTestObject(""Object Repository/Page_Git Repo/text_raw""))",Chrome 105.0.0.0,,,2022-09-23 10:21:43,2022-09-23 10:21:43,0.376s,PASSED
+"table.splitEachLine("" "", { java.lang.Object fields -> ... })",Chrome 105.0.0.0,,,2022-09-23 10:21:43,2022-09-23 10:21:43,0.038s,PASSED
+if (dupCount < 1 && !(dupsOnly)),Chrome 105.0.0.0,,,2022-09-23 10:21:43,2022-09-23 10:22:04,20.594s,PASSED
+r = 0,Chrome 105.0.0.0,,,2022-09-23 10:22:04,2022-09-23 10:22:04,0.001s,PASSED
+dupCount = 0,Chrome 105.0.0.0,,,2022-09-23 10:22:04,2022-09-23 10:22:04,0.000s,PASSED
+ids = [:],Chrome 105.0.0.0,,,2022-09-23 10:22:04,2022-09-23 10:22:04,0.001s,PASSED
+chpts = [],Chrome 105.0.0.0,,,2022-09-23 10:22:04,2022-09-23 10:22:04,0.000s,PASSED
+verss = [],Chrome 105.0.0.0,,,2022-09-23 10:22:04,2022-09-23 10:22:04,0.001s,PASSED
+"table = getText(findTestObject(""Object Repository/Page_Git Repo/text_raw""))",Chrome 105.0.0.0,,,2022-09-23 10:22:04,2022-09-23 10:22:04,0.704s,PASSED
+"table.splitEachLine("" "", { java.lang.Object fields -> ... })",Chrome 105.0.0.0,,,2022-09-23 10:22:04,2022-09-23 10:22:04,0.032s,PASSED
+if (dupCount < 1 && !(dupsOnly)),Chrome 105.0.0.0,,,2022-09-23 10:22:04,2022-09-23 10:22:15,10.454s,PASSED
+r = 0,Chrome 105.0.0.0,,,2022-09-23 10:22:15,2022-09-23 10:22:15,0.001s,PASSED
+dupCount = 0,Chrome 105.0.0.0,,,2022-09-23 10:22:15,2022-09-23 10:22:15,0.000s,PASSED
+ids = [:],Chrome 105.0.0.0,,,2022-09-23 10:22:15,2022-09-23 10:22:15,0.001s,PASSED
+chpts = [],Chrome 105.0.0.0,,,2022-09-23 10:22:15,2022-09-23 10:22:15,0.000s,PASSED
+verss = [],Chrome 105.0.0.0,,,2022-09-23 10:22:15,2022-09-23 10:22:15,0.001s,PASSED
+"table = getText(findTestObject(""Object Repository/Page_Git Repo/text_raw""))",Chrome 105.0.0.0,,,2022-09-23 10:22:15,2022-09-23 10:22:15,0.602s,PASSED
+"table.splitEachLine("" "", { java.lang.Object fields -> ... })",Chrome 105.0.0.0,,,2022-09-23 10:22:15,2022-09-23 10:22:16,0.020s,PASSED
+if (dupCount < 1 && !(dupsOnly)),Chrome 105.0.0.0,,,2022-09-23 10:22:16,2022-09-23 10:22:30,14.612s,PASSED
+r = 0,Chrome 105.0.0.0,,,2022-09-23 10:22:30,2022-09-23 10:22:30,0.001s,PASSED
+dupCount = 0,Chrome 105.0.0.0,,,2022-09-23 10:22:30,2022-09-23 10:22:30,0.000s,PASSED
+ids = [:],Chrome 105.0.0.0,,,2022-09-23 10:22:30,2022-09-23 10:22:30,0.001s,PASSED
+chpts = [],Chrome 105.0.0.0,,,2022-09-23 10:22:30,2022-09-23 10:22:30,0.000s,PASSED
+verss = [],Chrome 105.0.0.0,,,2022-09-23 10:22:30,2022-09-23 10:22:30,0.001s,PASSED
+"table = getText(findTestObject(""Object Repository/Page_Git Repo/text_raw""))",Chrome 105.0.0.0,,,2022-09-23 10:22:30,2022-09-23 10:22:31,0.638s,PASSED
+"table.splitEachLine("" "", { java.lang.Object fields -> ... })",Chrome 105.0.0.0,,,2022-09-23 10:22:31,2022-09-23 10:22:31,0.018s,PASSED
+if (dupCount < 1 && !(dupsOnly)),Chrome 105.0.0.0,,,2022-09-23 10:22:31,2022-09-23 10:22:40,9.474s,PASSED
+r = 0,Chrome 105.0.0.0,,,2022-09-23 10:22:40,2022-09-23 10:22:40,0.000s,PASSED
+dupCount = 0,Chrome 105.0.0.0,,,2022-09-23 10:22:40,2022-09-23 10:22:40,0.000s,PASSED
+ids = [:],Chrome 105.0.0.0,,,2022-09-23 10:22:40,2022-09-23 10:22:40,0.000s,PASSED
+chpts = [],Chrome 105.0.0.0,,,2022-09-23 10:22:40,2022-09-23 10:22:40,0.001s,PASSED
+verss = [],Chrome 105.0.0.0,,,2022-09-23 10:22:40,2022-09-23 10:22:40,0.000s,PASSED
+"table = getText(findTestObject(""Object Repository/Page_Git Repo/text_raw""))",Chrome 105.0.0.0,,,2022-09-23 10:22:40,2022-09-23 10:22:41,0.538s,PASSED
+"table.splitEachLine("" "", { java.lang.Object fields -> ... })",Chrome 105.0.0.0,,,2022-09-23 10:22:41,2022-09-23 10:22:41,0.007s,PASSED
+if (dupCount < 1 && !(dupsOnly)),Chrome 105.0.0.0,,,2022-09-23 10:22:41,2022-09-23 10:22:49,8.395s,PASSED
+r = 0,Chrome 105.0.0.0,,,2022-09-23 10:22:49,2022-09-23 10:22:49,0.001s,PASSED
+dupCount = 0,Chrome 105.0.0.0,,,2022-09-23 10:22:49,2022-09-23 10:22:49,0.000s,PASSED
+ids = [:],Chrome 105.0.0.0,,,2022-09-23 10:22:49,2022-09-23 10:22:49,0.000s,PASSED
+chpts = [],Chrome 105.0.0.0,,,2022-09-23 10:22:49,2022-09-23 10:22:49,0.001s,PASSED
+verss = [],Chrome 105.0.0.0,,,2022-09-23 10:22:49,2022-09-23 10:22:49,0.000s,PASSED
+"table = getText(findTestObject(""Object Repository/Page_Git Repo/text_raw""))",Chrome 105.0.0.0,,,2022-09-23 10:22:49,2022-09-23 10:22:50,0.413s,PASSED
+"table.splitEachLine("" "", { java.lang.Object fields -> ... })",Chrome 105.0.0.0,,,2022-09-23 10:22:50,2022-09-23 10:22:50,0.004s,PASSED
+if (dupCount < 1 && !(dupsOnly)),Chrome 105.0.0.0,,,2022-09-23 10:22:50,2022-09-23 10:22:58,7.957s,PASSED
+r = 0,Chrome 105.0.0.0,,,2022-09-23 10:22:58,2022-09-23 10:22:58,0.000s,PASSED
+dupCount = 0,Chrome 105.0.0.0,,,2022-09-23 10:22:58,2022-09-23 10:22:58,0.001s,PASSED
+ids = [:],Chrome 105.0.0.0,,,2022-09-23 10:22:58,2022-09-23 10:22:58,0.000s,PASSED
+chpts = [],Chrome 105.0.0.0,,,2022-09-23 10:22:58,2022-09-23 10:22:58,0.001s,PASSED
+verss = [],Chrome 105.0.0.0,,,2022-09-23 10:22:58,2022-09-23 10:22:58,0.000s,PASSED
+"table = getText(findTestObject(""Object Repository/Page_Git Repo/text_raw""))",Chrome 105.0.0.0,,,2022-09-23 10:22:58,2022-09-23 10:22:58,0.308s,PASSED
+"table.splitEachLine("" "", { java.lang.Object fields -> ... })",Chrome 105.0.0.0,,,2022-09-23 10:22:58,2022-09-23 10:22:58,0.004s,PASSED
+if (dupCount < 1 && !(dupsOnly)),Chrome 105.0.0.0,,,2022-09-23 10:22:58,2022-09-23 10:23:05,6.910s,PASSED
+r = 0,Chrome 105.0.0.0,,,2022-09-23 10:23:05,2022-09-23 10:23:05,0.000s,PASSED
+dupCount = 0,Chrome 105.0.0.0,,,2022-09-23 10:23:05,2022-09-23 10:23:05,0.001s,PASSED
+ids = [:],Chrome 105.0.0.0,,,2022-09-23 10:23:05,2022-09-23 10:23:05,0.000s,PASSED
+chpts = [],Chrome 105.0.0.0,,,2022-09-23 10:23:05,2022-09-23 10:23:05,0.000s,PASSED
+verss = [],Chrome 105.0.0.0,,,2022-09-23 10:23:05,2022-09-23 10:23:05,0.000s,PASSED
+"table = getText(findTestObject(""Object Repository/Page_Git Repo/text_raw""))",Chrome 105.0.0.0,,,2022-09-23 10:23:05,2022-09-23 10:23:05,0.493s,PASSED
+"table.splitEachLine("" "", { java.lang.Object fields -> ... })",Chrome 105.0.0.0,,,2022-09-23 10:23:05,2022-09-23 10:23:05,0.002s,PASSED
+if (dupCount < 1 && !(dupsOnly)),Chrome 105.0.0.0,,,2022-09-23 10:23:05,2022-09-23 10:23:13,7.303s,PASSED
+r = 0,Chrome 105.0.0.0,,,2022-09-23 10:23:13,2022-09-23 10:23:13,0.000s,PASSED
+dupCount = 0,Chrome 105.0.0.0,,,2022-09-23 10:23:13,2022-09-23 10:23:13,0.000s,PASSED
+ids = [:],Chrome 105.0.0.0,,,2022-09-23 10:23:13,2022-09-23 10:23:13,0.000s,PASSED
+chpts = [],Chrome 105.0.0.0,,,2022-09-23 10:23:13,2022-09-23 10:23:13,0.000s,PASSED
+verss = [],Chrome 105.0.0.0,,,2022-09-23 10:23:13,2022-09-23 10:23:13,0.000s,PASSED
+"table = getText(findTestObject(""Object Repository/Page_Git Repo/text_raw""))",Chrome 105.0.0.0,,,2022-09-23 10:23:13,2022-09-23 10:23:13,0.498s,PASSED
+"table.splitEachLine("" "", { java.lang.Object fields -> ... })",Chrome 105.0.0.0,,,2022-09-23 10:23:13,2022-09-23 10:23:13,0.003s,PASSED
+if (dupCount < 1 && !(dupsOnly)),Chrome 105.0.0.0,,,2022-09-23 10:23:13,2022-09-23 10:23:20,7.236s,PASSED
+r = 0,Chrome 105.0.0.0,,,2022-09-23 10:23:20,2022-09-23 10:23:20,0.000s,PASSED
+dupCount = 0,Chrome 105.0.0.0,,,2022-09-23 10:23:20,2022-09-23 10:23:20,0.001s,PASSED
+ids = [:],Chrome 105.0.0.0,,,2022-09-23 10:23:20,2022-09-23 10:23:20,0.000s,PASSED
+chpts = [],Chrome 105.0.0.0,,,2022-09-23 10:23:20,2022-09-23 10:23:20,0.000s,PASSED
+verss = [],Chrome 105.0.0.0,,,2022-09-23 10:23:20,2022-09-23 10:23:20,0.000s,PASSED
+"table = getText(findTestObject(""Object Repository/Page_Git Repo/text_raw""))",Chrome 105.0.0.0,,,2022-09-23 10:23:20,2022-09-23 10:23:21,0.505s,PASSED
+"table.splitEachLine("" "", { java.lang.Object fields -> ... })",Chrome 105.0.0.0,,,2022-09-23 10:23:21,2022-09-23 10:23:21,0.004s,PASSED
+if (dupCount < 1 && !(dupsOnly)),Chrome 105.0.0.0,,,2022-09-23 10:23:21,2022-09-23 10:23:28,7.547s,PASSED
+r = 0,Chrome 105.0.0.0,,,2022-09-23 10:23:28,2022-09-23 10:23:28,0.001s,PASSED
+dupCount = 0,Chrome 105.0.0.0,,,2022-09-23 10:23:28,2022-09-23 10:23:28,0.000s,PASSED
+ids = [:],Chrome 105.0.0.0,,,2022-09-23 10:23:28,2022-09-23 10:23:28,0.001s,PASSED
+chpts = [],Chrome 105.0.0.0,,,2022-09-23 10:23:28,2022-09-23 10:23:28,0.000s,PASSED
+verss = [],Chrome 105.0.0.0,,,2022-09-23 10:23:28,2022-09-23 10:23:28,0.000s,PASSED
+"table = getText(findTestObject(""Object Repository/Page_Git Repo/text_raw""))",Chrome 105.0.0.0,,,2022-09-23 10:23:28,2022-09-23 10:23:29,0.417s,PASSED
+"table.splitEachLine("" "", { java.lang.Object fields -> ... })",Chrome 105.0.0.0,,,2022-09-23 10:23:29,2022-09-23 10:23:29,0.005s,PASSED
+if (dupCount < 1 && !(dupsOnly)),Chrome 105.0.0.0,,,2022-09-23 10:23:29,2022-09-23 10:23:35,6.388s,PASSED
+r = 0,Chrome 105.0.0.0,,,2022-09-23 10:23:35,2022-09-23 10:23:35,0.001s,PASSED
+dupCount = 0,Chrome 105.0.0.0,,,2022-09-23 10:23:35,2022-09-23 10:23:35,0.000s,PASSED
+ids = [:],Chrome 105.0.0.0,,,2022-09-23 10:23:35,2022-09-23 10:23:35,0.000s,PASSED
+chpts = [],Chrome 105.0.0.0,,,2022-09-23 10:23:35,2022-09-23 10:23:35,0.001s,PASSED
+verss = [],Chrome 105.0.0.0,,,2022-09-23 10:23:35,2022-09-23 10:23:35,0.000s,PASSED
+"table = getText(findTestObject(""Object Repository/Page_Git Repo/text_raw""))",Chrome 105.0.0.0,,,2022-09-23 10:23:35,2022-09-23 10:23:36,0.399s,PASSED
+"table.splitEachLine("" "", { java.lang.Object fields -> ... })",Chrome 105.0.0.0,,,2022-09-23 10:23:36,2022-09-23 10:23:36,0.002s,PASSED
+if (dupCount < 1 && !(dupsOnly)),Chrome 105.0.0.0,,,2022-09-23 10:23:36,2022-09-23 10:23:42,6.287s,PASSED
+r = 0,Chrome 105.0.0.0,,,2022-09-23 10:23:42,2022-09-23 10:23:42,0.000s,PASSED
+dupCount = 0,Chrome 105.0.0.0,,,2022-09-23 10:23:42,2022-09-23 10:23:42,0.001s,PASSED
+ids = [:],Chrome 105.0.0.0,,,2022-09-23 10:23:42,2022-09-23 10:23:42,0.000s,PASSED
+chpts = [],Chrome 105.0.0.0,,,2022-09-23 10:23:42,2022-09-23 10:23:42,0.001s,PASSED
+verss = [],Chrome 105.0.0.0,,,2022-09-23 10:23:42,2022-09-23 10:23:42,0.000s,PASSED
+"table = getText(findTestObject(""Object Repository/Page_Git Repo/text_raw""))",Chrome 105.0.0.0,,,2022-09-23 10:23:42,2022-09-23 10:23:42,0.375s,PASSED
+"table.splitEachLine("" "", { java.lang.Object fields -> ... })",Chrome 105.0.0.0,,,2022-09-23 10:23:42,2022-09-23 10:23:42,0.001s,PASSED
+if (dupCount < 1 && !(dupsOnly)),Chrome 105.0.0.0,,,2022-09-23 10:23:42,2022-09-23 10:23:50,7.620s,PASSED
+r = 0,Chrome 105.0.0.0,,,2022-09-23 10:23:50,2022-09-23 10:23:50,0.000s,PASSED
+dupCount = 0,Chrome 105.0.0.0,,,2022-09-23 10:23:50,2022-09-23 10:23:50,0.001s,PASSED
+ids = [:],Chrome 105.0.0.0,,,2022-09-23 10:23:50,2022-09-23 10:23:50,0.000s,PASSED
+chpts = [],Chrome 105.0.0.0,,,2022-09-23 10:23:50,2022-09-23 10:23:50,0.000s,PASSED
+verss = [],Chrome 105.0.0.0,,,2022-09-23 10:23:50,2022-09-23 10:23:50,0.000s,PASSED
+"table = getText(findTestObject(""Object Repository/Page_Git Repo/text_raw""))",Chrome 105.0.0.0,,,2022-09-23 10:23:50,2022-09-23 10:23:50,0.498s,PASSED
+"table.splitEachLine("" "", { java.lang.Object fields -> ... })",Chrome 105.0.0.0,,,2022-09-23 10:23:50,2022-09-23 10:23:50,0.003s,PASSED
+if (dupCount < 1 && !(dupsOnly)),Chrome 105.0.0.0,,,2022-09-23 10:23:50,2022-09-23 10:23:58,7.627s,PASSED
+r = 0,Chrome 105.0.0.0,,,2022-09-23 10:23:58,2022-09-23 10:23:58,0.000s,PASSED
+dupCount = 0,Chrome 105.0.0.0,,,2022-09-23 10:23:58,2022-09-23 10:23:58,0.001s,PASSED
+ids = [:],Chrome 105.0.0.0,,,2022-09-23 10:23:58,2022-09-23 10:23:58,0.000s,PASSED
+chpts = [],Chrome 105.0.0.0,,,2022-09-23 10:23:58,2022-09-23 10:23:58,0.001s,PASSED
+verss = [],Chrome 105.0.0.0,,,2022-09-23 10:23:58,2022-09-23 10:23:58,0.000s,PASSED
+"table = getText(findTestObject(""Object Repository/Page_Git Repo/text_raw""))",Chrome 105.0.0.0,,,2022-09-23 10:23:58,2022-09-23 10:23:59,0.494s,PASSED
+"table.splitEachLine("" "", { java.lang.Object fields -> ... })",Chrome 105.0.0.0,,,2022-09-23 10:23:59,2022-09-23 10:23:59,0.002s,PASSED
+if (dupCount < 1 && !(dupsOnly)),Chrome 105.0.0.0,,,2022-09-23 10:23:59,2022-09-23 10:24:05,6.314s,PASSED
+r = 0,Chrome 105.0.0.0,,,2022-09-23 10:24:05,2022-09-23 10:24:05,0.000s,PASSED
+dupCount = 0,Chrome 105.0.0.0,,,2022-09-23 10:24:05,2022-09-23 10:24:05,0.001s,PASSED
+ids = [:],Chrome 105.0.0.0,,,2022-09-23 10:24:05,2022-09-23 10:24:05,0.000s,PASSED
+chpts = [],Chrome 105.0.0.0,,,2022-09-23 10:24:05,2022-09-23 10:24:05,0.001s,PASSED
+verss = [],Chrome 105.0.0.0,,,2022-09-23 10:24:05,2022-09-23 10:24:05,0.000s,PASSED
+"table = getText(findTestObject(""Object Repository/Page_Git Repo/text_raw""))",Chrome 105.0.0.0,,,2022-09-23 10:24:05,2022-09-23 10:24:05,0.397s,PASSED
+"table.splitEachLine("" "", { java.lang.Object fields -> ... })",Chrome 105.0.0.0,,,2022-09-23 10:24:05,2022-09-23 10:24:05,0.002s,PASSED
+if (dupCount < 1 && !(dupsOnly)),Chrome 105.0.0.0,,,2022-09-23 10:24:05,2022-09-23 10:24:11,6.148s,PASSED
+r = 0,Chrome 105.0.0.0,,,2022-09-23 10:24:11,2022-09-23 10:24:11,0.000s,PASSED
+dupCount = 0,Chrome 105.0.0.0,,,2022-09-23 10:24:11,2022-09-23 10:24:11,0.001s,PASSED
+ids = [:],Chrome 105.0.0.0,,,2022-09-23 10:24:11,2022-09-23 10:24:11,0.000s,PASSED
+chpts = [],Chrome 105.0.0.0,,,2022-09-23 10:24:11,2022-09-23 10:24:11,0.001s,PASSED
+verss = [],Chrome 105.0.0.0,,,2022-09-23 10:24:11,2022-09-23 10:24:11,0.000s,PASSED
+"table = getText(findTestObject(""Object Repository/Page_Git Repo/text_raw""))",Chrome 105.0.0.0,,,2022-09-23 10:24:11,2022-09-23 10:24:12,0.485s,PASSED
+"table.splitEachLine("" "", { java.lang.Object fields -> ... })",Chrome 105.0.0.0,,,2022-09-23 10:24:12,2022-09-23 10:24:12,0.001s,PASSED
+if (dupCount < 1 && !(dupsOnly)),Chrome 105.0.0.0,,,2022-09-23 10:24:12,2022-09-23 10:24:20,8.439s,PASSED
+r = 0,Chrome 105.0.0.0,,,2022-09-23 10:24:20,2022-09-23 10:24:20,0.000s,PASSED
+dupCount = 0,Chrome 105.0.0.0,,,2022-09-23 10:24:20,2022-09-23 10:24:20,0.000s,PASSED
+ids = [:],Chrome 105.0.0.0,,,2022-09-23 10:24:20,2022-09-23 10:24:20,0.000s,PASSED
+chpts = [],Chrome 105.0.0.0,,,2022-09-23 10:24:20,2022-09-23 10:24:20,0.001s,PASSED
+verss = [],Chrome 105.0.0.0,,,2022-09-23 10:24:20,2022-09-23 10:24:20,0.000s,PASSED
+"table = getText(findTestObject(""Object Repository/Page_Git Repo/text_raw""))",Chrome 105.0.0.0,,,2022-09-23 10:24:20,2022-09-23 10:24:21,0.519s,PASSED
+"table.splitEachLine("" "", { java.lang.Object fields -> ... })",Chrome 105.0.0.0,,,2022-09-23 10:24:21,2022-09-23 10:24:21,0.004s,PASSED
+if (dupCount < 1 && !(dupsOnly)),Chrome 105.0.0.0,,,2022-09-23 10:24:21,2022-09-23 10:24:29,8.599s,PASSED
+r = 0,Chrome 105.0.0.0,,,2022-09-23 10:24:29,2022-09-23 10:24:29,0.000s,PASSED
+dupCount = 0,Chrome 105.0.0.0,,,2022-09-23 10:24:29,2022-09-23 10:24:29,0.001s,PASSED
+ids = [:],Chrome 105.0.0.0,,,2022-09-23 10:24:29,2022-09-23 10:24:29,0.000s,PASSED
+chpts = [],Chrome 105.0.0.0,,,2022-09-23 10:24:29,2022-09-23 10:24:29,0.001s,PASSED
+verss = [],Chrome 105.0.0.0,,,2022-09-23 10:24:29,2022-09-23 10:24:29,0.000s,PASSED
+"table = getText(findTestObject(""Object Repository/Page_Git Repo/text_raw""))",Chrome 105.0.0.0,,,2022-09-23 10:24:29,2022-09-23 10:24:30,0.332s,PASSED
+"table.splitEachLine("" "", { java.lang.Object fields -> ... })",Chrome 105.0.0.0,,,2022-09-23 10:24:30,2022-09-23 10:24:30,0.004s,PASSED
+if (dupCount < 1 && !(dupsOnly)),Chrome 105.0.0.0,,,2022-09-23 10:24:30,2022-09-23 10:24:37,6.807s,PASSED
+r = 0,Chrome 105.0.0.0,,,2022-09-23 10:24:37,2022-09-23 10:24:37,0.001s,PASSED
+dupCount = 0,Chrome 105.0.0.0,,,2022-09-23 10:24:37,2022-09-23 10:24:37,0.000s,PASSED
+ids = [:],Chrome 105.0.0.0,,,2022-09-23 10:24:37,2022-09-23 10:24:37,0.001s,PASSED
+chpts = [],Chrome 105.0.0.0,,,2022-09-23 10:24:37,2022-09-23 10:24:37,0.000s,PASSED
+verss = [],Chrome 105.0.0.0,,,2022-09-23 10:24:37,2022-09-23 10:24:37,0.001s,PASSED
+"table = getText(findTestObject(""Object Repository/Page_Git Repo/text_raw""))",Chrome 105.0.0.0,,,2022-09-23 10:24:37,2022-09-23 10:24:37,0.489s,PASSED
+"table.splitEachLine("" "", { java.lang.Object fields -> ... })",Chrome 105.0.0.0,,,2022-09-23 10:24:37,2022-09-23 10:24:37,0.002s,PASSED
+if (dupCount < 1 && !(dupsOnly)),Chrome 105.0.0.0,,,2022-09-23 10:24:37,2022-09-23 10:24:45,7.478s,PASSED
+r = 0,Chrome 105.0.0.0,,,2022-09-23 10:24:45,2022-09-23 10:24:45,0.001s,PASSED
+dupCount = 0,Chrome 105.0.0.0,,,2022-09-23 10:24:45,2022-09-23 10:24:45,0.000s,PASSED
+ids = [:],Chrome 105.0.0.0,,,2022-09-23 10:24:45,2022-09-23 10:24:45,0.001s,PASSED
+chpts = [],Chrome 105.0.0.0,,,2022-09-23 10:24:45,2022-09-23 10:24:45,0.000s,PASSED
+verss = [],Chrome 105.0.0.0,,,2022-09-23 10:24:45,2022-09-23 10:24:45,0.000s,PASSED
+"table = getText(findTestObject(""Object Repository/Page_Git Repo/text_raw""))",Chrome 105.0.0.0,,,2022-09-23 10:24:45,2022-09-23 10:24:45,0.401s,PASSED
+"table.splitEachLine("" "", { java.lang.Object fields -> ... })",Chrome 105.0.0.0,,,2022-09-23 10:24:45,2022-09-23 10:24:45,0.003s,PASSED
+if (dupCount < 1 && !(dupsOnly)),Chrome 105.0.0.0,,,2022-09-23 10:24:45,2022-09-23 10:24:53,8.222s,PASSED
+r = 0,Chrome 105.0.0.0,,,2022-09-23 10:24:53,2022-09-23 10:24:53,0.000s,PASSED
+dupCount = 0,Chrome 105.0.0.0,,,2022-09-23 10:24:53,2022-09-23 10:24:53,0.000s,PASSED
+ids = [:],Chrome 105.0.0.0,,,2022-09-23 10:24:53,2022-09-23 10:24:53,0.000s,PASSED
+chpts = [],Chrome 105.0.0.0,,,2022-09-23 10:24:53,2022-09-23 10:24:53,0.001s,PASSED
+verss = [],Chrome 105.0.0.0,,,2022-09-23 10:24:53,2022-09-23 10:24:53,0.000s,PASSED
+"table = getText(findTestObject(""Object Repository/Page_Git Repo/text_raw""))",Chrome 105.0.0.0,,,2022-09-23 10:24:53,2022-09-23 10:24:54,0.408s,PASSED
+"table.splitEachLine("" "", { java.lang.Object fields -> ... })",Chrome 105.0.0.0,,,2022-09-23 10:24:54,2022-09-23 10:24:54,0.005s,PASSED
+if (dupCount < 1 && !(dupsOnly)),Chrome 105.0.0.0,,,2022-09-23 10:24:54,2022-09-23 10:25:00,6.427s,PASSED
+r = 0,Chrome 105.0.0.0,,,2022-09-23 10:25:00,2022-09-23 10:25:00,0.001s,PASSED
+dupCount = 0,Chrome 105.0.0.0,,,2022-09-23 10:25:00,2022-09-23 10:25:00,0.000s,PASSED
+ids = [:],Chrome 105.0.0.0,,,2022-09-23 10:25:00,2022-09-23 10:25:00,0.001s,PASSED
+chpts = [],Chrome 105.0.0.0,,,2022-09-23 10:25:00,2022-09-23 10:25:00,0.000s,PASSED
+verss = [],Chrome 105.0.0.0,,,2022-09-23 10:25:00,2022-09-23 10:25:00,0.001s,PASSED
+"table = getText(findTestObject(""Object Repository/Page_Git Repo/text_raw""))",Chrome 105.0.0.0,,,2022-09-23 10:25:00,2022-09-23 10:25:01,0.481s,PASSED
+"table.splitEachLine("" "", { java.lang.Object fields -> ... })",Chrome 105.0.0.0,,,2022-09-23 10:25:01,2022-09-23 10:25:01,0.001s,PASSED
+if (dupCount < 1 && !(dupsOnly)),Chrome 105.0.0.0,,,2022-09-23 10:25:01,2022-09-23 10:25:07,6.069s,PASSED
+r = 0,Chrome 105.0.0.0,,,2022-09-23 10:25:07,2022-09-23 10:25:07,0.000s,PASSED
+dupCount = 0,Chrome 105.0.0.0,,,2022-09-23 10:25:07,2022-09-23 10:25:07,0.000s,PASSED
+ids = [:],Chrome 105.0.0.0,,,2022-09-23 10:25:07,2022-09-23 10:25:07,0.000s,PASSED
+chpts = [],Chrome 105.0.0.0,,,2022-09-23 10:25:07,2022-09-23 10:25:07,0.000s,PASSED
+verss = [],Chrome 105.0.0.0,,,2022-09-23 10:25:07,2022-09-23 10:25:07,0.000s,PASSED
+"table = getText(findTestObject(""Object Repository/Page_Git Repo/text_raw""))",Chrome 105.0.0.0,,,2022-09-23 10:25:07,2022-09-23 10:25:07,0.477s,PASSED
+"table.splitEachLine("" "", { java.lang.Object fields -> ... })",Chrome 105.0.0.0,,,2022-09-23 10:25:07,2022-09-23 10:25:07,0.001s,PASSED
+if (dupCount < 1 && !(dupsOnly)),Chrome 105.0.0.0,,,2022-09-23 10:25:07,2022-09-23 10:25:13,6.361s,PASSED
+r = 0,Chrome 105.0.0.0,,,2022-09-23 10:25:13,2022-09-23 10:25:13,0.001s,PASSED
+dupCount = 0,Chrome 105.0.0.0,,,2022-09-23 10:25:13,2022-09-23 10:25:13,0.000s,PASSED
+ids = [:],Chrome 105.0.0.0,,,2022-09-23 10:25:13,2022-09-23 10:25:13,0.000s,PASSED
+chpts = [],Chrome 105.0.0.0,,,2022-09-23 10:25:13,2022-09-23 10:25:13,0.001s,PASSED
+verss = [],Chrome 105.0.0.0,,,2022-09-23 10:25:13,2022-09-23 10:25:13,0.000s,PASSED
+"table = getText(findTestObject(""Object Repository/Page_Git Repo/text_raw""))",Chrome 105.0.0.0,,,2022-09-23 10:25:13,2022-09-23 10:25:14,0.486s,PASSED
+"table.splitEachLine("" "", { java.lang.Object fields -> ... })",Chrome 105.0.0.0,,,2022-09-23 10:25:14,2022-09-23 10:25:14,0.001s,PASSED
+if (dupCount < 1 && !(dupsOnly)),Chrome 105.0.0.0,,,2022-09-23 10:25:14,2022-09-23 10:25:23,8.999s,PASSED
+r = 0,Chrome 105.0.0.0,,,2022-09-23 10:25:23,2022-09-23 10:25:23,0.000s,PASSED
+dupCount = 0,Chrome 105.0.0.0,,,2022-09-23 10:25:23,2022-09-23 10:25:23,0.001s,PASSED
+ids = [:],Chrome 105.0.0.0,,,2022-09-23 10:25:23,2022-09-23 10:25:23,0.000s,PASSED
+chpts = [],Chrome 105.0.0.0,,,2022-09-23 10:25:23,2022-09-23 10:25:23,0.000s,PASSED
+verss = [],Chrome 105.0.0.0,,,2022-09-23 10:25:23,2022-09-23 10:25:23,0.000s,PASSED
+"table = getText(findTestObject(""Object Repository/Page_Git Repo/text_raw""))",Chrome 105.0.0.0,,,2022-09-23 10:25:23,2022-09-23 10:25:23,0.425s,PASSED
+"table.splitEachLine("" "", { java.lang.Object fields -> ... })",Chrome 105.0.0.0,,,2022-09-23 10:25:23,2022-09-23 10:25:23,0.005s,PASSED
+if (dupCount < 1 && !(dupsOnly)),Chrome 105.0.0.0,,,2022-09-23 10:25:23,2022-09-23 10:25:23,0.000s,PASSED
+scriptRunning = false,Chrome 105.0.0.0,,,2022-09-23 10:25:23,2022-09-23 10:25:23,0.000s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 105.0.0.0,,,2022-09-23 10:25:23,2022-09-23 10:25:23,0.010s,PASSED
+,,,,,,,
+Test Cases/tCC Test Cases/tCC Test App Crashes,Chrome 105.0.0.0,,"Issues 365, 428, 440, 463, 639, 914",2022-09-23 10:25:23,2022-09-23 10:25:44,20.181s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 105.0.0.0,,,2022-09-23 10:25:23,2022-09-23 10:25:23,0.002s,ERROR
+"callTestCase(findTestCase(""tCC Components/tCC tsv Open For Edit""), [""$username"":"""", ""$password"":"""", ""file"":""""], STOP_ON_FAILURE)",Chrome 105.0.0.0,,,2022-09-23 10:25:24,2022-09-23 10:25:44,19.910s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 105.0.0.0,,,2022-09-23 10:25:44,2022-09-23 10:25:44,0.010s,PASSED
+Video,Chrome 105.0.0.0,,,2022-09-23 10:25:44,2022-09-23 10:25:44,0.000s,PASSED
+,,,,,,,
+Test Cases/tCC Test Cases/tCC Test Multiple Sessions,Chrome 105.0.0.0,,"Issues 397, 331",2022-09-23 10:25:44,2022-09-23 10:26:06,22.349s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 105.0.0.0,,,2022-09-23 10:25:44,2022-09-23 10:25:44,0.003s,ERROR
+system = unfoldingWord_Keywords.GetTestingConfig.getOperatingSystem(),Chrome 105.0.0.0,,,2022-09-23 10:25:44,2022-09-23 10:25:44,0.001s,PASSED
+"callTestCase(findTestCase(""tCC Components/tCC tsv Open For Edit""), [:], STOP_ON_FAILURE)",Chrome 105.0.0.0,,,2022-09-23 10:25:44,2022-09-23 10:26:06,22.097s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 105.0.0.0,,,2022-09-23 10:26:06,2022-09-23 10:26:06,0.010s,PASSED
+Video,Chrome 105.0.0.0,,,2022-09-23 10:26:06,2022-09-23 10:26:06,0.001s,PASSED

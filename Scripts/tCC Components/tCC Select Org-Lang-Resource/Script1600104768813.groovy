@@ -88,12 +88,13 @@ if (WebUI.waitForElementPresent(findTestObject('Page_tC Create/listOrg_Parmed', 
 		WebUI.click(findTestObject('Page_tC Create/combo_Select Language'))
 
 		WebUI.click(findTestObject('Page_tC Create/listOption_Language_Parmed', [('lang_code') : language]))
-		
+		CustomKeywords.'com.tccreate.keywords.selectOrg.checkBranchAlert'()
 		if (listFlag) {
 			for (def r : (1..resources.size()-1)) {
 				println('Choosing ' + resources[r])
 				WebUI.click(findTestObject('Page_tC Create/resource_Parmed', [('resource') : resources[r]]))
 			}
+			CustomKeywords.'com.tccreate.keywords.selectOrg.checkBranchAlert'()
 		}
 	}
 	

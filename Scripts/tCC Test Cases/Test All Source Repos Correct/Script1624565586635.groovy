@@ -62,9 +62,9 @@ md_resources.each { resource ->
 	
 	println('Latest release is ' + latestRelease)
 	
-	repoExpected =  'unfoldingword/' + resource[0]
+	repoExpected =  'unfoldingWord/' + resource[0]
 	
-	longRepo = repoExpected + '/src/branch/master/'
+	longRepo = repoExpected + '/src/tag/' + myVersion
 	
 	if (!gitURL.contains(longRepo)) {		
 		msg = '"' + longRepo + '" was not found in the source URL "' + gitURL + '".'

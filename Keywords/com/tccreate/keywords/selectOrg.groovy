@@ -60,4 +60,16 @@ public class selectOrg {
 
 		//WebUI.click(findTestObject('Page_tC Create/resource_Parmed', resource))
 	}
+	@Keyword
+	def checkBranchAlert() {
+		if(WebUI.waitForElementPresent(findTestObject('Object Repository/Page_tC Create/Old branch Alert'), 1, FailureHandling.CONTINUE_ON_FAILURE)) {
+			if(WebUI.getText(findTestObject('Object Repository/Page_tC Create/Old branch Alert')).contains('Your branch is more than 2 weeks out of date. Older branches are more likely to conflict with newer work. Please contact your administrator to update your branch.')) {
+				println(' \n Old branch alert thrown' )
+				WebUI.click(findTestObject('Object Repository/Page_tC Create/Branch alert_OK'))
+		}
+		else {
+			println(' \n Old branch alert not thrown' )
+			}
+		}
+	}
 }

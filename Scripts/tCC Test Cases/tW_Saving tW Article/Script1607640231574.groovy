@@ -26,13 +26,14 @@ CustomKeywords.'com.tccreate.keywords.selectOrg.organization'('')
 
 CustomKeywords.'com.tccreate.keywords.selectOrg.resource'('unfoldingWord® Translation Words')
 CustomKeywords.'com.tccreate.keywords.selectOrg.language'("")
-
+CustomKeywords.'com.tccreate.keywords.selectOrg.checkBranchAlert'()
 
 WebUI.click(findTestObject('tW Objects/span_bible'))
 
 WebUI.click(findTestObject('tW Objects/span_kt'))
 
 WebUI.click(findTestObject('tW Objects/span_almighty.md'))
+CustomKeywords.'com.tccreate.keywords.selectOrg.checkBranchAlert'()
 
 WebUI.click(findTestObject('tW Objects/h1_Almighty'))
 

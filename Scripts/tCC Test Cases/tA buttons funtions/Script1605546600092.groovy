@@ -27,7 +27,7 @@ CustomKeywords.'com.tccreate.keywords.selectOrg.organization'('')
 
 CustomKeywords.'com.tccreate.keywords.selectOrg.resource'('unfoldingWord® Translation Academy')
 CustomKeywords.'com.tccreate.keywords.selectOrg.language'("")
-
+CustomKeywords.'com.tccreate.keywords.selectOrg.checkBranchAlert'()
 
 WebUI.click(findTestObject('Page_tC Create/span_translate'))
 

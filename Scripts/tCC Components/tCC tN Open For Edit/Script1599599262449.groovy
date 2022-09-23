@@ -40,7 +40,7 @@ WebUI.callTestCase(findTestCase('tCC Components/tCC Login'), [('user') : $userna
 if (WebUI.callTestCase(findTestCase('tCC Components/tCC Select Org-Lang-Resource'), [('organization') : 'translate_test', ('language') : myLanguage, ('file') : myFile,
          ('resource') : '/en_tn'], FailureHandling.STOP_ON_FAILURE) == false) {
     KeywordUtil.markFailed('Exiting script because organization was not found..')
-
+	CustomKeywords.'com.tccreate.keywords.selectOrg.checkBranchAlert'()
     WebUI.closeBrowser()
 
     return null

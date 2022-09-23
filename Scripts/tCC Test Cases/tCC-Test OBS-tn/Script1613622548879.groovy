@@ -29,9 +29,9 @@ CustomKeywords.'com.tccreate.keywords.selectOrg.organization'('')
 CustomKeywords.'com.tccreate.keywords.selectOrg.resource'('unfoldingWord® Open Bible Stories Translation Notes')
 CustomKeywords.'com.tccreate.keywords.selectOrg.language'("")
 
-
+CustomKeywords.'com.tccreate.keywords.selectOrg.checkBranchAlert'()
 WebUI.click(findTestObject('OBS-tn/tn_OBS.tsv'))
-
+CustomKeywords.'com.tccreate.keywords.selectOrg.checkBranchAlert'()
 WebUI.click(findTestObject('Object Repository/OBS-tn/span_02'))
 
 WebUI.click(findTestObject('Object Repository/OBS-tn/span_01.md'))

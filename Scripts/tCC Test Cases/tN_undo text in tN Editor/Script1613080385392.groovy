@@ -32,10 +32,10 @@ CustomKeywords.'com.tccreate.keywords.selectOrg.organization'('')
 
 CustomKeywords.'com.tccreate.keywords.selectOrg.resource'('unfoldingWord® Translation Notes')
 CustomKeywords.'com.tccreate.keywords.selectOrg.language'("")
-
+CustomKeywords.'com.tccreate.keywords.selectOrg.checkBranchAlert'()
 
 WebUI.click(findTestObject('Object Repository/Page_tC Create/span_en_tn_57-TIT.tsv'))
-
+CustomKeywords.'com.tccreate.keywords.selectOrg.checkBranchAlert'()
 WebUI.click(findTestObject('Object Repository/Page_tC Create/div_Introduction to TitusPart 1'))
 
 //WebUI.setText(findTestObject('Object Repository/Page_tC Create/div_Introduction to TitusPart 1'), 'this is a test edit')

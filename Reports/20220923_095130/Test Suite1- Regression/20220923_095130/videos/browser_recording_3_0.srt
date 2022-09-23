@@ -1,0 +1,232 @@
+1
+00:00:00,000 --> 00:00:00,000
+17. KeywordUtil.logInfo("Execution profile is " + executionProfile)
+
+2
+00:00:00,000 --> 00:00:00,000
+1. com.tccreate.keywords.WriteToFile.writeTofilename("tN-undo editing")
+
+3
+00:00:00,000 --> 00:00:00,000
+5. com.helper.login.TimeDate.getTimeDate()
+
+4
+00:00:00,000 --> 00:00:06,124
+9. com.helper.login.loginhelper.logintoapp()
+
+5
+00:00:06,124 --> 00:00:09,387
+13. com.tccreate.keywords.selectOrg.organization("")
+
+6
+00:00:09,387 --> 00:00:09,910
+17. com.tccreate.keywords.selectOrg.resource("unfoldingWord® Translation Notes")
+
+7
+00:00:09,929 --> 00:00:13,367
+21. com.tccreate.keywords.selectOrg.language("")
+
+8
+00:00:13,368 --> 00:00:15,992
+25. com.tccreate.keywords.selectOrg.checkBranchAlert()
+
+9
+00:00:15,993 --> 00:00:16,415
+29. click(findTestObject("Object Repository/Page_tC Create/span_en_tn_57-TIT.tsv"))
+
+10
+00:00:16,415 --> 00:00:19,329
+33. com.tccreate.keywords.selectOrg.checkBranchAlert()
+
+11
+00:00:19,329 --> 00:00:19,764
+37. click(findTestObject("Object Repository/Page_tC Create/div_Introduction to TitusPart 1"))
+
+12
+00:00:19,764 --> 00:00:20,216
+41. sendKeys(findTestObject("Object Repository/Page_tC Create/div_Introduction to TitusPart 1"), "edit again ")
+
+13
+00:00:20,216 --> 00:00:20,217
+45. driver = getWebDriver()
+
+14
+00:00:20,218 --> 00:00:20,227
+49. action = new org.openqa.selenium.interactions.Actions(driver)
+
+15
+00:00:20,227 --> 00:00:20,248
+53. keyUp(COMMAND).perform()
+
+16
+00:00:20,249 --> 00:00:20,623
+57. sendKeys(findTestObject("Object Repository/Page_tC Create/div_Introduction to TitusPart 1"), Keys.chord(COMMAND, "z"))
+
+17
+00:00:20,624 --> 00:00:20,624
+61. logInfo("Text is cleared successfully by undo action")
+
+18
+00:00:20,625 --> 00:00:20,731
+65. closeBrowser()
+
+19
+00:00:20,731 --> 00:00:20,731
+1. suite = false
+
+20
+00:00:20,731 --> 00:00:20,731
+5. fileName = testSuiteLogFile
+
+21
+00:00:20,731 --> 00:00:20,732
+9. if (fileName != null && fileName.length() > 1)
+
+22
+00:00:20,732 --> 00:00:20,732
+1. suite = true
+
+23
+00:00:20,732 --> 00:00:20,732
+5. println("test case teardown in suite")
+
+24
+00:00:20,732 --> 00:00:20,732
+9. println("log file is at " + fileName)
+
+25
+00:00:20,733 --> 00:00:20,733
+13. browser = unfoldingWord_Keywords.GetTestingConfig.getBrowserAndVersion()
+
+26
+00:00:20,733 --> 00:00:20,733
+17. separator = "==================================================================================================================================================="
+
+27
+00:00:20,733 --> 00:00:20,733
+21. msg = separator
+
+28
+00:00:20,733 --> 00:00:20,734
+25. println(msg)
+
+29
+00:00:20,734 --> 00:00:20,734
+29. if (suite)
+
+30
+00:00:20,734 --> 00:00:20,734
+1. oFile = new java.io.File(fileName)
+
+31
+00:00:20,734 --> 00:00:20,735
+5. oFile.append(msg + "
+")
+
+32
+00:00:20,735 --> 00:00:20,735
+33. prefix = " +++++++++++ "
+
+33
+00:00:20,735 --> 00:00:20,735
+37. testCaseStatus = testCaseContext.getTestCaseStatus()
+
+34
+00:00:20,735 --> 00:00:20,735
+41. if (scriptRunning)
+
+35
+00:00:20,735 --> 00:00:20,735
+45. if (testCaseStatus != "PASSED")
+
+36
+00:00:20,735 --> 00:00:20,736
+1. prefix = " ---------------------- "
+
+37
+00:00:20,736 --> 00:00:20,736
+49. executionProfile = getExecutionProfile()
+
+38
+00:00:20,736 --> 00:00:20,736
+53. msg = prefix + testCaseContext.getTestCaseId() + " on " + version + " running on " + browser + " in " + executionProfile + " " + testCaseStatus + prefix
+
+39
+00:00:20,736 --> 00:00:20,736
+57. println(msg)
+
+40
+00:00:20,736 --> 00:00:20,736
+61. if (suite)
+
+41
+00:00:20,736 --> 00:00:20,737
+1. oFile = new java.io.File(fileName)
+
+42
+00:00:20,737 --> 00:00:20,737
+5. oFile.append(msg + "
+")
+
+43
+00:00:20,737 --> 00:00:20,737
+65. tsMessages.add("##" + testCaseContext.getTestCaseId())
+
+44
+00:00:20,737 --> 00:00:20,737
+69. if (scriptRunning)
+
+45
+00:00:20,737 --> 00:00:20,737
+73. if (tcMessages.size() > 0)
+
+46
+00:00:20,738 --> 00:00:20,738
+77. if (scriptRunning && 1 == 2)
+
+47
+00:00:20,738 --> 00:00:20,738
+81. if (testCount > 0)
+
+48
+00:00:20,738 --> 00:00:20,738
+85. if (timings.size() > 0)
+
+49
+00:00:20,738 --> 00:00:20,738
+89. msg = separator
+
+50
+00:00:20,738 --> 00:00:20,738
+93. println(msg)
+
+51
+00:00:20,739 --> 00:00:20,739
+97. if (suite)
+
+52
+00:00:20,739 --> 00:00:20,739
+1. oFile = new java.io.File(fileName)
+
+53
+00:00:20,739 --> 00:00:20,739
+5. oFile.append(msg + "
+
+")
+
+54
+00:00:20,773 --> 00:00:20,773
+1. println("setup start")
+
+55
+00:00:20,774 --> 00:00:20,774
+5. systemOS = unfoldingWord_Keywords.GetTestingConfig.getOperatingSystem()
+
+56
+00:00:20,774 --> 00:00:20,774
+9. tcMessages = []
+
+57
+00:00:20,774 --> 00:00:20,774
+13. executionProfile = getExecutionProfile()
+

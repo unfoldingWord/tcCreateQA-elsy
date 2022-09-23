@@ -1,0 +1,256 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. com.tccreate.keywords.WriteToFile.writeTofilename("tN-Parallel Scripture Viewer")
+
+2
+00:00:00,000 --> 00:00:00,000
+5. com.helper.login.TimeDate.getTimeDate()
+
+3
+00:00:00,000 --> 00:00:06,595
+9. com.helper.login.loginhelper.logintoapp()
+
+4
+00:00:06,596 --> 00:00:09,804
+13. com.tccreate.keywords.selectOrg.organization("")
+
+5
+00:00:09,805 --> 00:00:10,353
+17. com.tccreate.keywords.selectOrg.resource("unfoldingWord® Translation Notes")
+
+6
+00:00:10,353 --> 00:00:13,489
+21. com.tccreate.keywords.selectOrg.language("")
+
+7
+00:00:13,489 --> 00:00:16,063
+25. com.tccreate.keywords.selectOrg.checkBranchAlert()
+
+8
+00:00:16,082 --> 00:00:18,086
+29. delay(2)
+
+9
+00:00:18,087 --> 00:00:18,579
+33. scrollToElement(findTestObject("Object Repository/Page_tC Create/span_en_tn_57-TIT.tsv"), 1)
+
+10
+00:00:18,580 --> 00:00:18,946
+37. click(findTestObject("Object Repository/Page_tC Create/span_en_tn_57-TIT.tsv"))
+
+11
+00:00:18,947 --> 00:00:21,697
+41. com.tccreate.keywords.selectOrg.checkBranchAlert()
+
+12
+00:00:21,697 --> 00:00:29,228
+45. com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScripture(""test"")
+
+13
+00:00:29,228 --> 00:00:37,356
+49. com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScripture(""on"")
+
+14
+00:00:37,356 --> 00:00:37,370
+53. scrollToPosition(100, 1200, CONTINUE_ON_FAILURE)
+
+15
+00:00:37,370 --> 00:00:37,916
+57. if (verifyElementPresent(findTestObject("Page_tC Create/span_unfoldingWord Literal Text v14"), 2))
+
+16
+00:00:37,917 --> 00:00:37,920
+1. logInfo("ULT is visible 1 ")
+
+17
+00:00:37,921 --> 00:00:38,398
+61. if (verifyElementPresent(findTestObject("Page_tC Create/span_unfoldingWord Simplified Text v14"), 5))
+
+18
+00:00:38,398 --> 00:00:38,399
+1. logInfo("UST is visible in row 1")
+
+19
+00:00:38,399 --> 00:00:47,806
+65. com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScripture(""off"")
+
+20
+00:00:47,806 --> 00:00:47,807
+69. logInfo("button is toggled")
+
+21
+00:00:47,807 --> 00:00:47,815
+73. scrollToPosition(100, 1200, CONTINUE_ON_FAILURE)
+
+22
+00:00:47,815 --> 00:00:48,321
+77. if (verifyElementNotPresent(findTestObject("Page_tC Create/span_unfoldingWord Literal Text v14"), 3))
+
+23
+00:00:48,322 --> 00:00:48,322
+1. logInfo("ULT is not visible in row 1 as expected")
+
+24
+00:00:48,322 --> 00:00:48,424
+81. closeBrowser()
+
+25
+00:00:48,424 --> 00:00:48,424
+1. suite = false
+
+26
+00:00:48,425 --> 00:00:48,425
+5. fileName = testSuiteLogFile
+
+27
+00:00:48,425 --> 00:00:48,425
+9. if (fileName != null && fileName.length() > 1)
+
+28
+00:00:48,425 --> 00:00:48,426
+1. suite = true
+
+29
+00:00:48,426 --> 00:00:48,426
+5. println("test case teardown in suite")
+
+30
+00:00:48,426 --> 00:00:48,426
+9. println("log file is at " + fileName)
+
+31
+00:00:48,426 --> 00:00:48,440
+13. browser = unfoldingWord_Keywords.GetTestingConfig.getBrowserAndVersion()
+
+32
+00:00:48,440 --> 00:00:48,440
+17. separator = "==================================================================================================================================================="
+
+33
+00:00:48,440 --> 00:00:48,441
+21. msg = separator
+
+34
+00:00:48,441 --> 00:00:48,441
+25. println(msg)
+
+35
+00:00:48,441 --> 00:00:48,441
+29. if (suite)
+
+36
+00:00:48,441 --> 00:00:48,442
+1. oFile = new java.io.File(fileName)
+
+37
+00:00:48,442 --> 00:00:48,442
+5. oFile.append(msg + "
+")
+
+38
+00:00:48,442 --> 00:00:48,443
+33. prefix = " +++++++++++ "
+
+39
+00:00:48,443 --> 00:00:48,447
+37. testCaseStatus = testCaseContext.getTestCaseStatus()
+
+40
+00:00:48,447 --> 00:00:48,448
+41. if (scriptRunning)
+
+41
+00:00:48,448 --> 00:00:48,448
+45. if (testCaseStatus != "PASSED")
+
+42
+00:00:48,448 --> 00:00:48,449
+1. prefix = " ---------------------- "
+
+43
+00:00:48,449 --> 00:00:48,449
+49. executionProfile = getExecutionProfile()
+
+44
+00:00:48,449 --> 00:00:48,450
+53. msg = prefix + testCaseContext.getTestCaseId() + " on " + version + " running on " + browser + " in " + executionProfile + " " + testCaseStatus + prefix
+
+45
+00:00:48,450 --> 00:00:48,450
+57. println(msg)
+
+46
+00:00:48,450 --> 00:00:48,451
+61. if (suite)
+
+47
+00:00:48,451 --> 00:00:48,451
+1. oFile = new java.io.File(fileName)
+
+48
+00:00:48,451 --> 00:00:48,451
+5. oFile.append(msg + "
+")
+
+49
+00:00:48,451 --> 00:00:48,452
+65. tsMessages.add("##" + testCaseContext.getTestCaseId())
+
+50
+00:00:48,452 --> 00:00:48,452
+69. if (scriptRunning)
+
+51
+00:00:48,452 --> 00:00:48,453
+73. if (tcMessages.size() > 0)
+
+52
+00:00:48,453 --> 00:00:48,453
+77. if (scriptRunning && 1 == 2)
+
+53
+00:00:48,453 --> 00:00:48,453
+81. if (testCount > 0)
+
+54
+00:00:48,454 --> 00:00:48,454
+85. if (timings.size() > 0)
+
+55
+00:00:48,454 --> 00:00:48,454
+89. msg = separator
+
+56
+00:00:48,454 --> 00:00:48,455
+93. println(msg)
+
+57
+00:00:48,455 --> 00:00:48,455
+97. if (suite)
+
+58
+00:00:48,455 --> 00:00:48,455
+1. oFile = new java.io.File(fileName)
+
+59
+00:00:48,455 --> 00:00:48,456
+5. oFile.append(msg + "
+
+")
+
+60
+00:00:48,516 --> 00:00:48,516
+1. println("setup start")
+
+61
+00:00:48,516 --> 00:00:48,516
+5. systemOS = unfoldingWord_Keywords.GetTestingConfig.getOperatingSystem()
+
+62
+00:00:48,517 --> 00:00:48,517
+9. tcMessages = []
+
+63
+00:00:48,517 --> 00:00:48,517
+13. executionProfile = getExecutionProfile()
+

@@ -1,0 +1,352 @@
+1
+00:00:00,000 --> 00:00:00,026
+17. KeywordUtil.logInfo("Execution profile is " + executionProfile)
+
+2
+00:00:00,026 --> 00:00:00,129
+1. callTestCase(findTestCase("tCC Components/tCC Login"), ["user":"tc01", "password":"tc01", "newSession":true], STOP_ON_FAILURE)
+
+3
+00:00:00,129 --> 00:00:00,130
+1. if (newSession)
+
+4
+00:00:00,130 --> 00:00:00,130
+1. if (openBrowser)
+
+5
+00:00:00,131 --> 00:00:01,488
+1. openBrowser("")
+
+6
+00:00:01,489 --> 00:00:01,685
+5. maximizeWindow()
+
+7
+00:00:01,685 --> 00:00:01,685
+5. println("Opening " + url)
+
+8
+00:00:01,685 --> 00:00:04,520
+9. navigateToUrl(url)
+
+9
+00:00:04,521 --> 00:00:05,475
+13. waitForElementVisible(findTestObject("Page_tC Create/text_tCCVersion"), 30)
+
+10
+00:00:05,475 --> 00:00:05,945
+17. version = getText(findTestObject("Page_tC Create/text_tCCVersion"))
+
+11
+00:00:05,945 --> 00:00:05,945
+21. version = version
+
+12
+00:00:05,945 --> 00:00:05,945
+25. println("Version is " + version)
+
+13
+00:00:05,946 --> 00:00:05,946
+5. if (user == "")
+
+14
+00:00:05,946 --> 00:00:05,946
+2. println("Logging in as " + user)
+
+15
+00:00:05,946 --> 00:00:05,947
+6. activeUser = user
+
+16
+00:00:05,947 --> 00:00:07,000
+10. setText(findTestObject("Page_tC Create/input__username"), user)
+
+17
+00:00:07,000 --> 00:00:07,958
+14. setText(findTestObject("Page_tC Create/input__password"), password)
+
+18
+00:00:07,958 --> 00:00:08,362
+18. if (verifyElementPresent(findTestObject("Page_tC Create/button_Login"), 1, OPTIONAL))
+
+19
+00:00:08,362 --> 00:00:08,799
+1. click(findTestObject("Page_tC Create/button_Login"))
+
+20
+00:00:08,799 --> 00:00:08,878
+5. if (!(callTestCase(findTestCase("tCC Components/tCC Select Org-Lang-Resource"), ["organization":"", "language":"", "resource":"en_ta"], STOP_ON_FAILURE)))
+
+21
+00:00:08,878 --> 00:00:08,879
+1. if (binding.hasVariable("resource"))
+
+22
+00:00:08,879 --> 00:00:08,880
+1. myResource = resource
+
+23
+00:00:08,880 --> 00:00:08,881
+5. println("resource is " + myResource)
+
+24
+00:00:08,881 --> 00:00:08,882
+9. if (organization == "")
+
+25
+00:00:08,882 --> 00:00:08,882
+1. organization = organization
+
+26
+00:00:08,882 --> 00:00:08,883
+13. if (language == "")
+
+27
+00:00:08,883 --> 00:00:08,883
+1. language = langCode
+
+28
+00:00:08,884 --> 00:00:08,884
+17. println("Choosing organization " + organization)
+
+29
+00:00:08,884 --> 00:00:12,545
+21. if (waitForElementPresent(findTestObject("Page_tC Create/listOrg_Parmed", ["organization":organization]), 5, OPTIONAL) == false)
+
+30
+00:00:12,545 --> 00:00:13,005
+2. click(findTestObject("Object Repository/Page_tC Create/listOrg_Parmed", ["organization":organization]))
+
+31
+00:00:13,006 --> 00:00:15,095
+6. alerted = waitForAlert(2)
+
+32
+00:00:15,095 --> 00:00:15,096
+10. if (alerted == true)
+
+33
+00:00:15,097 --> 00:00:15,097
+2. println("Not alerted on organization")
+
+34
+00:00:15,097 --> 00:00:15,097
+6. alertFlag = false
+
+35
+00:00:15,098 --> 00:00:15,098
+10. if (myResource instanceof java.util.List)
+
+36
+00:00:15,098 --> 00:00:15,099
+2. listFlag = false
+
+37
+00:00:15,099 --> 00:00:15,099
+14. if (resource.indexOf("/") == 0)
+
+38
+00:00:15,100 --> 00:00:15,100
+18. rsrc = "unfoldingWord/" + resource
+
+39
+00:00:15,101 --> 00:00:15,589
+22. if (verifyElementPresent(findTestObject("Page_tC Create/resource_Parmed", ["resource":rsrc]), 1, OPTIONAL))
+
+40
+00:00:15,589 --> 00:00:15,589
+1. resource = rsrc
+
+41
+00:00:15,590 --> 00:00:15,590
+26. println("Choosing resource " + resource)
+
+42
+00:00:15,590 --> 00:00:16,134
+30. click(findTestObject("Page_tC Create/resource_Parmed", ["resource":resource]))
+
+43
+00:00:16,134 --> 00:00:16,154
+34. println("Choosing language " + language)
+
+44
+00:00:16,155 --> 00:00:19,458
+38. click(findTestObject("Page_tC Create/combo_Select Language"))
+
+45
+00:00:19,458 --> 00:00:20,095
+42. click(findTestObject("Page_tC Create/listOption_Language_Parmed", ["lang_code":language]))
+
+46
+00:00:20,095 --> 00:00:22,935
+46. com.tccreate.keywords.selectOrg.checkBranchAlert()
+
+47
+00:00:22,935 --> 00:00:22,936
+50. if (listFlag)
+
+48
+00:00:22,936 --> 00:00:22,965
+14. return true
+
+49
+00:00:22,965 --> 00:00:22,965
+1. suite = false
+
+50
+00:00:22,966 --> 00:00:22,966
+5. fileName = testSuiteLogFile
+
+51
+00:00:22,966 --> 00:00:22,967
+9. if (fileName != null && fileName.length() > 1)
+
+52
+00:00:22,967 --> 00:00:22,967
+1. suite = true
+
+53
+00:00:22,967 --> 00:00:22,967
+5. println("test case teardown in suite")
+
+54
+00:00:22,967 --> 00:00:22,968
+9. println("log file is at " + fileName)
+
+55
+00:00:22,968 --> 00:00:22,969
+13. browser = unfoldingWord_Keywords.GetTestingConfig.getBrowserAndVersion()
+
+56
+00:00:22,969 --> 00:00:22,970
+17. separator = "==================================================================================================================================================="
+
+57
+00:00:22,970 --> 00:00:22,970
+21. msg = separator
+
+58
+00:00:22,971 --> 00:00:22,971
+25. println(msg)
+
+59
+00:00:22,971 --> 00:00:22,972
+29. if (suite)
+
+60
+00:00:22,972 --> 00:00:22,972
+1. oFile = new java.io.File(fileName)
+
+61
+00:00:22,973 --> 00:00:22,973
+5. oFile.append(msg + "
+")
+
+62
+00:00:22,974 --> 00:00:22,974
+33. prefix = " +++++++++++ "
+
+63
+00:00:22,974 --> 00:00:22,975
+37. testCaseStatus = testCaseContext.getTestCaseStatus()
+
+64
+00:00:22,975 --> 00:00:22,975
+41. if (scriptRunning)
+
+65
+00:00:22,976 --> 00:00:22,976
+45. if (testCaseStatus != "PASSED")
+
+66
+00:00:22,976 --> 00:00:22,976
+1. prefix = " ---------------------- "
+
+67
+00:00:22,977 --> 00:00:22,977
+49. executionProfile = getExecutionProfile()
+
+68
+00:00:22,977 --> 00:00:22,977
+53. msg = prefix + testCaseContext.getTestCaseId() + " on " + version + " running on " + browser + " in " + executionProfile + " " + testCaseStatus + prefix
+
+69
+00:00:22,978 --> 00:00:22,978
+57. println(msg)
+
+70
+00:00:22,979 --> 00:00:22,979
+61. if (suite)
+
+71
+00:00:22,979 --> 00:00:22,979
+1. oFile = new java.io.File(fileName)
+
+72
+00:00:22,979 --> 00:00:22,980
+5. oFile.append(msg + "
+")
+
+73
+00:00:22,980 --> 00:00:22,980
+65. tsMessages.add("##" + testCaseContext.getTestCaseId())
+
+74
+00:00:22,981 --> 00:00:22,981
+69. if (scriptRunning)
+
+75
+00:00:22,981 --> 00:00:22,981
+73. if (tcMessages.size() > 0)
+
+76
+00:00:22,981 --> 00:00:22,981
+77. if (scriptRunning && 1 == 2)
+
+77
+00:00:22,982 --> 00:00:22,982
+81. if (testCount > 0)
+
+78
+00:00:22,982 --> 00:00:22,982
+85. if (timings.size() > 0)
+
+79
+00:00:22,982 --> 00:00:22,983
+89. msg = separator
+
+80
+00:00:22,983 --> 00:00:22,983
+93. println(msg)
+
+81
+00:00:22,984 --> 00:00:22,984
+97. if (suite)
+
+82
+00:00:22,984 --> 00:00:22,984
+1. oFile = new java.io.File(fileName)
+
+83
+00:00:22,985 --> 00:00:22,986
+5. oFile.append(msg + "
+
+")
+
+84
+00:00:23,105 --> 00:00:23,105
+1. println("setup start")
+
+85
+00:00:23,105 --> 00:00:23,106
+5. systemOS = unfoldingWord_Keywords.GetTestingConfig.getOperatingSystem()
+
+86
+00:00:23,106 --> 00:00:23,106
+9. tcMessages = []
+
+87
+00:00:23,106 --> 00:00:23,107
+13. executionProfile = getExecutionProfile()
+

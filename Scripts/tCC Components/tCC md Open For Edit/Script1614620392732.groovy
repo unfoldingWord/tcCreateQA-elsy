@@ -41,7 +41,7 @@ println('>>>>> resource in tCC md Open for Edit after Login is ' + resource)
 if (WebUI.callTestCase(findTestCase('tCC Components/tCC Select Org-Lang-Resource'), [('organization') : myOrg, ('language') : myLanguage
         , ('resource') : resource], FailureHandling.STOP_ON_FAILURE) == false) {
     KeywordUtil.markFailed('Exiting script because organization was not found..')
-
+	CustomKeywords.'com.tccreate.keywords.selectOrg.checkBranchAlert'()
     WebUI.closeBrowser()
 
     return null

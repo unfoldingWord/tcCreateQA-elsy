@@ -27,13 +27,14 @@ CustomKeywords.'com.tccreate.keywords.selectOrg.organization'('')
 
 CustomKeywords.'com.tccreate.keywords.selectOrg.resource'('unfoldingWord® Translation Academy')
 CustomKeywords.'com.tccreate.keywords.selectOrg.language'("")
-
+CustomKeywords.'com.tccreate.keywords.selectOrg.checkBranchAlert'()
 
 WebUI.click(findTestObject('Page_tC Create/span_translate'))
 
 WebUI.click(findTestObject('Object Repository/Page_tC Create/span_bita-farming'))
 
 WebUI.click(findTestObject('Object Repository/Page_tC Create/span_01.md'))
+CustomKeywords.'com.tccreate.keywords.selectOrg.checkBranchAlert'()
 
 WebUI.click(findTestObject('Object Repository/Page_tC Create/div_A FARMER represents God, and the VINEYA_8b10d9'))
 

@@ -31,8 +31,9 @@ CustomKeywords.'com.tccreate.keywords.selectOrg.organization'('')
 
 CustomKeywords.'com.tccreate.keywords.selectOrg.resource'('unfoldingWord® Translation Notes')
 CustomKeywords.'com.tccreate.keywords.selectOrg.language'("")
-
+CustomKeywords.'com.tccreate.keywords.selectOrg.checkBranchAlert'()
 WebUI.click(findTestObject('Object Repository/Page_tC Create/span_en_tn_57-TIT.tsv'))
+CustomKeywords.'com.tccreate.keywords.selectOrg.checkBranchAlert'()
 WebUI.click(findTestObject('Object Repository/tN objects/button_view columns'))
 WebUI.click(findTestObject('tN objects/input_OrigQuote_checkbox'))
 WebUI.click(findTestObject('Object Repository/tN objects/input_SupportReference'))

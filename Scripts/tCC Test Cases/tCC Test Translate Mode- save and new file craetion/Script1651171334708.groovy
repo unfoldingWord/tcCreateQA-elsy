@@ -27,13 +27,14 @@ CustomKeywords.'com.tccreate.keywords.selectOrg.organization'('translate_test')
 
 CustomKeywords.'com.tccreate.keywords.selectOrg.resource'('unfoldingWord® Translation Academy')
 CustomKeywords.'com.tccreate.keywords.selectOrg.language'("ru")
-
+CustomKeywords.'com.tccreate.keywords.selectOrg.checkBranchAlert'()
 
 WebUI.click(findTestObject('Page_tC Create/span_translate'))
 
 WebUI.click(findTestObject('Object Repository/Page_tC Create/span_bita-farming'))
 
 WebUI.click(findTestObject('Object Repository/Page_tC Create/span_01.md'))
+CustomKeywords.'com.tccreate.keywords.selectOrg.checkBranchAlert'()
 
 WebUI.click(findTestObject('Object Repository/Page_tC Create/div_A FARMER represents God, and the VINEYA_8b10d9'))
 
@@ -76,7 +77,7 @@ WebUI.switchToWindowIndex(0)
 KeywordUtil.logInfo('\n TEST PASSED:Edits are saved successfully in tA articles')
 WebUI.click(findTestObject('Object Repository/Page_tC Create/Page_tC Create/svg_en_ta_deleteIcon_en_ta'))
 CustomKeywords.'com.tccreate.keywords.selectOrg.resource'('unfoldingWord® Translation Notes')
-
+CustomKeywords.'com.tccreate.keywords.selectOrg.checkBranchAlert'()
 WebUI.click(findTestObject('Page_tC Create/file_Parmed', [('fileName') : "en_tn_04-NUM.tsv"]))
 println("Opening book")
 WebUI.delay(5)

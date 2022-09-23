@@ -1,0 +1,360 @@
+1
+00:00:00,000 --> 00:00:00,000
+17. KeywordUtil.logInfo("Execution profile is " + executionProfile)
+
+2
+00:00:00,000 --> 00:00:00,000
+1. com.tccreate.keywords.WriteToFile.writeTofilename("tN-Highlighting by occurrence number")
+
+3
+00:00:00,000 --> 00:00:00,000
+5. com.helper.login.TimeDate.getTimeDate()
+
+4
+00:00:00,000 --> 00:00:08,078
+9. com.helper.login.loginhelper.logintoapp()
+
+5
+00:00:08,078 --> 00:00:10,426
+13. com.tccreate.keywords.selectOrg.organization("")
+
+6
+00:00:10,426 --> 00:00:10,840
+17. com.tccreate.keywords.selectOrg.resource("unfoldingWord® Translation Notes")
+
+7
+00:00:10,858 --> 00:00:14,351
+21. com.tccreate.keywords.selectOrg.language("")
+
+8
+00:00:14,351 --> 00:00:17,066
+25. com.tccreate.keywords.selectOrg.checkBranchAlert()
+
+9
+00:00:17,066 --> 00:00:17,515
+29. click(findTestObject("Object Repository/Page_tC Create/span_en_tn_57-TIT.tsv"))
+
+10
+00:00:17,516 --> 00:00:20,513
+33. com.tccreate.keywords.selectOrg.checkBranchAlert()
+
+11
+00:00:20,514 --> 00:00:20,801
+37. click(findTestObject("Object Repository/tN objects/button_view columns"))
+
+12
+00:00:20,802 --> 00:00:21,561
+41. click(findTestObject("tN objects/input_OrigQuote_checkbox"))
+
+13
+00:00:21,561 --> 00:00:22,235
+45. click(findTestObject("Object Repository/tN objects/input_SupportReference"))
+
+14
+00:00:22,236 --> 00:00:22,846
+49. click(findTestObject("tN objects/button__Close-Columns"))
+
+15
+00:00:22,846 --> 00:00:28,900
+53. buttonstate = com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScripture("test")
+
+16
+00:00:28,900 --> 00:00:28,900
+57. out.println(" the state of the button is" + buttonstate)
+
+17
+00:00:28,900 --> 00:00:29,906
+61. delay(1)
+
+18
+00:00:29,906 --> 00:00:29,907
+65. if (buttonstate == "off")
+
+19
+00:00:29,907 --> 00:00:29,908
+2. logInfo("Parallel scripture viewer is ON")
+
+20
+00:00:29,908 --> 00:01:01,455
+69. scrollToElement(findTestObject("Object Repository/tN objects/div_Titus 11"), 2)
+
+21
+00:01:01,455 --> 00:01:02,221
+73. click(findTestObject("Object Repository/tN objects/button_Titus 11_add a new row"))
+
+22
+00:01:02,221 --> 00:01:33,839
+77. click(findTestObject("Object Repository/tN objects/button_Add"))
+
+23
+00:01:33,839 --> 00:02:05,508
+81. word1 = getText(findTestObject("tN objects/word1"))
+
+24
+00:02:05,508 --> 00:02:05,512
+85. logInfo("the word is" + word1)
+
+25
+00:02:05,512 --> 00:02:37,322
+89. color_word1 = getCSSValue(findTestObject("tN objects/word1"), "color")
+
+26
+00:02:37,322 --> 00:03:08,894
+93. backcolor_word1 = getCSSValue(findTestObject("tN objects/word1"), "background-color")
+
+27
+00:03:08,894 --> 00:03:08,895
+97. logInfo(color_word1)
+
+28
+00:03:08,895 --> 00:03:08,896
+101. logInfo(backcolor_word1)
+
+29
+00:03:08,896 --> 00:03:40,402
+105. click(findTestObject("Object Repository/tN objects/p_OL_box"))
+
+30
+00:03:40,402 --> 00:04:12,097
+109. setText(findTestObject("Object Repository/tN objects/p_OL_box"), "Θεοῦ")
+
+31
+00:04:12,097 --> 00:04:12,098
+113. driver = getWebDriver()
+
+32
+00:04:12,098 --> 00:04:12,099
+117. action = new org.openqa.selenium.interactions.Actions(driver)
+
+33
+00:04:12,099 --> 00:04:12,122
+121. build().perform()
+
+34
+00:04:12,122 --> 00:04:12,124
+125. if (!(color_word1.equals(backcolor_word1)))
+
+35
+00:04:12,124 --> 00:04:12,124
+2. logInfo("First Occurrence is not highlighted! or No hightlight at all!")
+
+36
+00:04:12,125 --> 00:04:43,996
+129. color_word2 = getCSSValue(findTestObject("tN objects/word2"), "color")
+
+37
+00:04:43,996 --> 00:05:15,744
+133. backcolor_word2 = getCSSValue(findTestObject("tN objects/word2"), "background-color")
+
+38
+00:05:15,744 --> 00:05:47,480
+137. click(findTestObject("Object Repository/tN objects/p_occurrence box"))
+
+39
+00:05:47,480 --> 00:06:18,913
+141. clearText(findTestObject("Object Repository/tN objects/p_occurrence box"), CONTINUE_ON_FAILURE)
+
+40
+00:06:18,914 --> 00:06:50,417
+145. sendKeys(findTestObject("Object Repository/tN objects/p_occurrence box"), "2")
+
+41
+00:06:50,418 --> 00:06:50,704
+149. build().perform()
+
+42
+00:06:50,722 --> 00:06:50,724
+153. if (!(color_word2.equals(backcolor_word2)))
+
+43
+00:06:50,747 --> 00:06:50,748
+2. logInfo("Text is not highlighted!")
+
+44
+00:06:50,748 --> 00:07:22,521
+157. clearText(findTestObject("Object Repository/tN objects/p_occurrence box"), CONTINUE_ON_FAILURE)
+
+45
+00:07:22,522 --> 00:07:54,026
+161. sendKeys(findTestObject("Object Repository/tN objects/p_occurrence box"), "-1")
+
+46
+00:07:54,027 --> 00:07:54,180
+165. build().perform()
+
+47
+00:07:54,180 --> 00:07:54,202
+169. if (!(color_word1.equals(backcolor_word1)) && !(color_word2.equals(backcolor_word2)))
+
+48
+00:07:54,202 --> 00:07:54,203
+2. logInfo("Text is not highlighted!")
+
+49
+00:07:54,203 --> 00:07:56,225
+173. delay(2)
+
+50
+00:07:56,225 --> 00:07:56,359
+177. closeBrowser()
+
+51
+00:07:56,359 --> 00:07:56,360
+1. suite = false
+
+52
+00:07:56,360 --> 00:07:56,360
+5. fileName = testSuiteLogFile
+
+53
+00:07:56,360 --> 00:07:56,360
+9. if (fileName != null && fileName.length() > 1)
+
+54
+00:07:56,360 --> 00:07:56,361
+1. suite = true
+
+55
+00:07:56,361 --> 00:07:56,361
+5. println("test case teardown in suite")
+
+56
+00:07:56,361 --> 00:07:56,361
+9. println("log file is at " + fileName)
+
+57
+00:07:56,361 --> 00:07:56,362
+13. browser = unfoldingWord_Keywords.GetTestingConfig.getBrowserAndVersion()
+
+58
+00:07:56,362 --> 00:07:56,362
+17. separator = "==================================================================================================================================================="
+
+59
+00:07:56,362 --> 00:07:56,362
+21. msg = separator
+
+60
+00:07:56,362 --> 00:07:56,363
+25. println(msg)
+
+61
+00:07:56,363 --> 00:07:56,363
+29. if (suite)
+
+62
+00:07:56,363 --> 00:07:56,363
+1. oFile = new java.io.File(fileName)
+
+63
+00:07:56,363 --> 00:07:56,364
+5. oFile.append(msg + "
+")
+
+64
+00:07:56,364 --> 00:07:56,364
+33. prefix = " +++++++++++ "
+
+65
+00:07:56,364 --> 00:07:56,364
+37. testCaseStatus = testCaseContext.getTestCaseStatus()
+
+66
+00:07:56,364 --> 00:07:56,365
+41. if (scriptRunning)
+
+67
+00:07:56,365 --> 00:07:56,365
+45. if (testCaseStatus != "PASSED")
+
+68
+00:07:56,365 --> 00:07:56,365
+1. prefix = " ---------------------- "
+
+69
+00:07:56,365 --> 00:07:56,366
+49. executionProfile = getExecutionProfile()
+
+70
+00:07:56,366 --> 00:07:56,366
+53. msg = prefix + testCaseContext.getTestCaseId() + " on " + version + " running on " + browser + " in " + executionProfile + " " + testCaseStatus + prefix
+
+71
+00:07:56,366 --> 00:07:56,366
+57. println(msg)
+
+72
+00:07:56,366 --> 00:07:56,367
+61. if (suite)
+
+73
+00:07:56,367 --> 00:07:56,367
+1. oFile = new java.io.File(fileName)
+
+74
+00:07:56,367 --> 00:07:56,367
+5. oFile.append(msg + "
+")
+
+75
+00:07:56,367 --> 00:07:56,368
+65. tsMessages.add("##" + testCaseContext.getTestCaseId())
+
+76
+00:07:56,368 --> 00:07:56,368
+69. if (scriptRunning)
+
+77
+00:07:56,368 --> 00:07:56,368
+73. if (tcMessages.size() > 0)
+
+78
+00:07:56,368 --> 00:07:56,369
+77. if (scriptRunning && 1 == 2)
+
+79
+00:07:56,369 --> 00:07:56,369
+81. if (testCount > 0)
+
+80
+00:07:56,369 --> 00:07:56,369
+85. if (timings.size() > 0)
+
+81
+00:07:56,369 --> 00:07:56,370
+89. msg = separator
+
+82
+00:07:56,370 --> 00:07:56,370
+93. println(msg)
+
+83
+00:07:56,370 --> 00:07:56,370
+97. if (suite)
+
+84
+00:07:56,370 --> 00:07:56,371
+1. oFile = new java.io.File(fileName)
+
+85
+00:07:56,371 --> 00:07:56,371
+5. oFile.append(msg + "
+
+")
+
+86
+00:07:56,447 --> 00:07:56,448
+1. println("setup start")
+
+87
+00:07:56,448 --> 00:07:56,448
+5. systemOS = unfoldingWord_Keywords.GetTestingConfig.getOperatingSystem()
+
+88
+00:07:56,448 --> 00:07:56,448
+9. tcMessages = []
+
+89
+00:07:56,448 --> 00:07:56,449
+13. executionProfile = getExecutionProfile()
+

@@ -27,10 +27,12 @@ CustomKeywords.'com.tccreate.keywords.selectOrg.organization'('')
 
 CustomKeywords.'com.tccreate.keywords.selectOrg.resource'('unfoldingWord® Translation Notes')
 CustomKeywords.'com.tccreate.keywords.selectOrg.language'("")
+CustomKeywords.'com.tccreate.keywords.selectOrg.checkBranchAlert'()
 
 WebUI.delay(2)
 WebUI.scrollToElement(findTestObject('Object Repository/Page_tC Create/span_en_tn_57-TIT.tsv'), 1)
 WebUI.click(findTestObject('Object Repository/Page_tC Create/span_en_tn_57-TIT.tsv'))
+CustomKeywords.'com.tccreate.keywords.selectOrg.checkBranchAlert'()
 
 //Scrolls to top for the hamburger to be visible
 //check whether the toggle is "on"

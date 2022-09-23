@@ -29,9 +29,9 @@ CustomKeywords.'com.tccreate.keywords.selectOrg.organization'('')
 CustomKeywords.'com.tccreate.keywords.selectOrg.resource'('unfoldingWord® Open Bible Stories Translation Questions')
 CustomKeywords.'com.tccreate.keywords.selectOrg.language'("")
 
-
+CustomKeywords.'com.tccreate.keywords.selectOrg.checkBranchAlert'()
 WebUI.click(findTestObject('obs-tq/tq_OBS.tsv'))
-
+CustomKeywords.'com.tccreate.keywords.selectOrg.checkBranchAlert'()
 WebUI.click(findTestObject('Object Repository/obs-tq/div_question edit box'))
 
 WebUI.sendKeys(findTestObject('Object Repository/obs-tq/div_question edit box'), '  edits by a test script')

@@ -33,6 +33,7 @@ import org.sikuli.script.*
 resource = ['en_ta', 'translate/', 'bita-humanbehavior/', '01.md']
 
 WebUI.callTestCase(findTestCase('tCC Components/tCC md Open For Edit'), [('$username') : '', ('$password') : '', ('resource') : resource], FailureHandling.STOP_ON_FAILURE)
+CustomKeywords.'com.tccreate.keywords.selectOrg.checkBranchAlert'()
 
 // Use sikulix to test for proper redisplaying of the icon toolbar
 if (!GlobalVariable.systemOS.contains('Windows')) {

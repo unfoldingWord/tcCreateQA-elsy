@@ -7,94 +7,129 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[(contains(text(), 'Almighty') or contains(., 'Almighty'))]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>div.MuiGrid-root.jss63.MuiGrid-item.MuiGrid-grid-xs-12 > div.jss64 > div.jss65 > #almighty</value>
+         <value>//code[@contenteditable = 'true' and (contains(text(), '# Almighty') or contains(., '# Almighty'))]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[2]/div/div/h1</value>
+         <value>//div[@id='translatableComponent']/div/div[2]/div/div[2]/div/div/div/div/div/div[2]/div/pre/code</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.MuiGrid-root.jss63.MuiGrid-item.MuiGrid-grid-xs-12 > div.jss64 > pre.jss67 > code.jss66</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h1</value>
+      <value>code</value>
+      <webElementGuid>4d719a68-e5a3-4f16-baa8-d02aa92a63ce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>class</name>
       <type>Main</type>
-      <value>almighty</value>
+      <value>jss66</value>
+      <webElementGuid>3756c818-4da4-4e6a-bdaa-40dfa9099742</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>dir</name>
+      <type>Main</type>
+      <value>auto</value>
+      <webElementGuid>b2dbf144-0462-4fff-9ea6-24665f7de65f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>contenteditable</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>48da8842-84aa-46e6-9185-16a09709f324</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test</name>
+      <type>Main</type>
+      <value>blockeditable-editable-markdown-pre</value>
+      <webElementGuid>cbb2d8f6-050a-479f-be98-36a1019ce3af</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Almighty</value>
+      <value># Almighty</value>
+      <webElementGuid>141cfa81-10a1-43c2-8bd4-4acc3076edc1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[1]/div[@class=&quot;jss50&quot;]/div[@class=&quot;jss54&quot;]/div[@class=&quot;jss57&quot;]/div[@class=&quot;MuiPaper-root MuiExpansionPanel-root jss58 Mui-expanded MuiExpansionPanel-rounded MuiPaper-elevation1 MuiPaper-rounded&quot;]/div[@class=&quot;MuiCollapse-container MuiCollapse-entered&quot;]/div[@class=&quot;MuiCollapse-wrapper&quot;]/div[@class=&quot;MuiCollapse-wrapperInner&quot;]/div[1]/div[@class=&quot;MuiExpansionPanelDetails-root jss59&quot;]/div[@class=&quot;MuiGrid-root jss61 MuiGrid-container MuiGrid-wrap-xs-nowrap&quot;]/div[@class=&quot;MuiGrid-root jss63 MuiGrid-item MuiGrid-grid-xs-12&quot;]/div[@class=&quot;jss64&quot;]/div[@class=&quot;jss65&quot;]/h1[@id=&quot;almighty&quot;]</value>
+      <value>id(&quot;translatableComponent&quot;)/div[@class=&quot;jss54&quot;]/div[@class=&quot;jss57&quot;]/div[@class=&quot;MuiPaper-root MuiAccordion-root jss58 Mui-expanded MuiAccordion-rounded MuiPaper-elevation1 MuiPaper-rounded&quot;]/div[@class=&quot;MuiCollapse-root MuiCollapse-entered&quot;]/div[@class=&quot;MuiCollapse-wrapper&quot;]/div[@class=&quot;MuiCollapse-wrapperInner&quot;]/div[1]/div[@class=&quot;MuiAccordionDetails-root jss59&quot;]/div[@class=&quot;MuiGrid-root jss61 MuiGrid-container MuiGrid-wrap-xs-nowrap&quot;]/div[@class=&quot;MuiGrid-root jss63 MuiGrid-item MuiGrid-grid-xs-12&quot;]/div[@class=&quot;jss64&quot;]/pre[@class=&quot;jss67&quot;]/code[@class=&quot;jss66&quot;]</value>
+      <webElementGuid>93b5e679-a31a-44bd-a171-f83a83780cea</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>(//h1[@id='almighty'])[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div/div/div/div[2]/div[2]/div/div[2]/div/div/div/div/div/div[2]/div/div/h1</value>
+      <value>//div[@id='translatableComponent']/div/div[2]/div/div[2]/div/div/div/div/div/div[2]/div/pre/code</value>
+      <webElementGuid>2aad317a-b053-4592-ab7b-99c759c52e66</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Almighty'])[1]/following::h1[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='# Almighty'])[1]/following::code[1]</value>
+      <webElementGuid>d5690e55-fff6-4d5b-ae01-d5a815ccc46f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='English - unfoldingWord/en_tw/ElsyLambert-tc-create-1'])[1]/following::h1[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='English - unfoldingWord/en_tw/ElsyLambert-tc-create-1'])[1]/following::code[2]</value>
+      <webElementGuid>b41f4c2c-9988-46eb-9b67-315654028be3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Facts:'])[1]/preceding::h1[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Facts:'])[1]/preceding::code[1]</value>
+      <webElementGuid>235a772f-60cd-4c2a-bcb3-8bd862241581</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Facts:'])[2]/preceding::h1[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='## Facts:'])[1]/preceding::code[1]</value>
+      <webElementGuid>a92f79d8-394b-4f0d-874c-aefbc7338ce6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div/h1</value>
+      <value>//div[2]/div/pre/code</value>
+      <webElementGuid>f8f02afe-c433-466c-aeda-6d1420196310</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//code[(text() = '# Almighty' or . = '# Almighty')]</value>
+      <webElementGuid>2a010668-4068-4c26-96c1-cd933dec5ce5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
