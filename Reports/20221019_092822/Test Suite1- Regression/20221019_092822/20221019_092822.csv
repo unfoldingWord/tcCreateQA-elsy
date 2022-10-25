@@ -1,0 +1,598 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite1- Regression,Firefox 104.0,,,2022-10-19 09:28:24,2022-10-19 09:52:31,24m - 7.112s,ERROR
+,,,,,,,
+Test Cases/tCC Test Cases/tN_Parallel Scripture viewer,Firefox 104.0,,#415,2022-10-19 09:28:25,2022-10-19 09:29:22,57.713s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 104.0,,,2022-10-19 09:28:25,2022-10-19 09:28:25,0.024s,ERROR
+"com.tccreate.keywords.WriteToFile.writeTofilename(""tN-Parallel Scripture Viewer"")",Firefox 104.0,,,2022-10-19 09:28:25,2022-10-19 09:28:25,0.075s,PASSED
+com.helper.login.TimeDate.getTimeDate(),Firefox 104.0,,,2022-10-19 09:28:25,2022-10-19 09:28:25,0.021s,PASSED
+com.helper.login.loginhelper.logintoapp(),Firefox 104.0,,,2022-10-19 09:28:25,2022-10-19 09:28:37,11.735s,PASSED
+"com.tccreate.keywords.selectOrg.organization("""")",Firefox 104.0,,,2022-10-19 09:28:37,2022-10-19 09:28:42,5.763s,PASSED
+"com.tccreate.keywords.selectOrg.resource(""unfoldingWord® Translation Notes"")",Firefox 104.0,,,2022-10-19 09:28:42,2022-10-19 09:28:43,0.549s,PASSED
+"com.tccreate.keywords.selectOrg.language("""")",Firefox 104.0,,,2022-10-19 09:28:43,2022-10-19 09:28:47,4.351s,PASSED
+com.tccreate.keywords.selectOrg.checkBranchAlert(),Firefox 104.0,,,2022-10-19 09:28:47,2022-10-19 09:28:50,2.394s,PASSED
+delay(2),Firefox 104.0,,,2022-10-19 09:28:50,2022-10-19 09:28:52,2.007s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_tC Create/span_en_tn_57-TIT.tsv""), 1)",Firefox 104.0,,,2022-10-19 09:28:52,2022-10-19 09:28:52,0.501s,PASSED
+"click(findTestObject(""Object Repository/Page_tC Create/span_en_tn_57-TIT.tsv""))",Firefox 104.0,,,2022-10-19 09:28:52,2022-10-19 09:28:53,0.427s,PASSED
+com.tccreate.keywords.selectOrg.checkBranchAlert(),Firefox 104.0,,,2022-10-19 09:28:53,2022-10-19 09:28:55,2.514s,PASSED
+"com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScripture(""""test"""")",Firefox 104.0,,,2022-10-19 09:28:55,2022-10-19 09:29:03,7.713s,PASSED
+"com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScripture(""""on"""")",Firefox 104.0,,,2022-10-19 09:29:03,2022-10-19 09:29:11,8.007s,PASSED
+"scrollToPosition(100, 1200, CONTINUE_ON_FAILURE)",Firefox 104.0,,,2022-10-19 09:29:11,2022-10-19 09:29:11,0.014s,PASSED
+"if (verifyElementPresent(findTestObject(""Page_tC Create/span_unfoldingWord Literal Text v14""), 2))",Firefox 104.0,,,2022-10-19 09:29:11,2022-10-19 09:29:11,0.505s,PASSED
+"if (verifyElementPresent(findTestObject(""Page_tC Create/span_unfoldingWord Simplified Text v14""), 5))",Firefox 104.0,,,2022-10-19 09:29:11,2022-10-19 09:29:12,0.295s,PASSED
+"com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScripture(""""off"""")",Firefox 104.0,,,2022-10-19 09:29:12,2022-10-19 09:29:21,9.773s,PASSED
+"logInfo(""button is toggled"")",Firefox 104.0,,,2022-10-19 09:29:21,2022-10-19 09:29:21,0.001s,PASSED
+"scrollToPosition(100, 1200, CONTINUE_ON_FAILURE)",Firefox 104.0,,,2022-10-19 09:29:21,2022-10-19 09:29:21,0.008s,PASSED
+"if (verifyElementNotPresent(findTestObject(""Page_tC Create/span_unfoldingWord Literal Text v14""), 3))",Firefox 104.0,,,2022-10-19 09:29:21,2022-10-19 09:29:22,0.657s,PASSED
+closeBrowser(),Firefox 104.0,,,2022-10-19 09:29:22,2022-10-19 09:29:22,0.152s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 104.0,,,2022-10-19 09:29:22,2022-10-19 09:29:22,0.030s,PASSED
+,,,,,,,
+Test Cases/tCC Test Cases/tN_undo text in tN Editor,Firefox 104.0,,,2022-10-19 09:29:22,2022-10-19 09:29:47,25.022s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 104.0,,,2022-10-19 09:29:22,2022-10-19 09:29:22,0.011s,ERROR
+"com.tccreate.keywords.WriteToFile.writeTofilename(""tN-undo editing"")",Firefox 104.0,,,2022-10-19 09:29:23,2022-10-19 09:29:23,0.001s,PASSED
+com.helper.login.TimeDate.getTimeDate(),Firefox 104.0,,,2022-10-19 09:29:23,2022-10-19 09:29:23,0.001s,PASSED
+com.helper.login.loginhelper.logintoapp(),Firefox 104.0,,,2022-10-19 09:29:23,2022-10-19 09:29:33,10.475s,PASSED
+"com.tccreate.keywords.selectOrg.organization("""")",Firefox 104.0,,,2022-10-19 09:29:33,2022-10-19 09:29:36,3.217s,PASSED
+"com.tccreate.keywords.selectOrg.resource(""unfoldingWord® Translation Notes"")",Firefox 104.0,,,2022-10-19 09:29:36,2022-10-19 09:29:37,0.444s,PASSED
+"com.tccreate.keywords.selectOrg.language("""")",Firefox 104.0,,,2022-10-19 09:29:37,2022-10-19 09:29:40,3.319s,PASSED
+com.tccreate.keywords.selectOrg.checkBranchAlert(),Firefox 104.0,,,2022-10-19 09:29:40,2022-10-19 09:29:42,2.275s,PASSED
+"click(findTestObject(""Object Repository/Page_tC Create/span_en_tn_57-TIT.tsv""))",Firefox 104.0,,,2022-10-19 09:29:42,2022-10-19 09:29:43,0.520s,PASSED
+com.tccreate.keywords.selectOrg.checkBranchAlert(),Firefox 104.0,,,2022-10-19 09:29:43,2022-10-19 09:29:45,2.469s,PASSED
+"click(findTestObject(""Object Repository/Page_tC Create/div_Introduction to TitusPart 1""))",Firefox 104.0,,,2022-10-19 09:29:45,2022-10-19 09:29:46,1.008s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_tC Create/div_Introduction to TitusPart 1""), ""edit again "")",Firefox 104.0,,,2022-10-19 09:29:46,2022-10-19 09:29:47,0.556s,PASSED
+driver = getWebDriver(),Firefox 104.0,,,2022-10-19 09:29:47,2022-10-19 09:29:47,0.000s,PASSED
+action = new org.openqa.selenium.interactions.Actions(driver),Firefox 104.0,,,2022-10-19 09:29:47,2022-10-19 09:29:47,0.007s,PASSED
+keyUp(COMMAND).perform(),Firefox 104.0,,,2022-10-19 09:29:47,2022-10-19 09:29:47,0.025s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_tC Create/div_Introduction to TitusPart 1""), Keys.chord(COMMAND, ""z""))",Firefox 104.0,,,2022-10-19 09:29:47,2022-10-19 09:29:47,0.392s,PASSED
+"logInfo(""Text is cleared successfully by undo action"")",Firefox 104.0,,,2022-10-19 09:29:47,2022-10-19 09:29:47,0.001s,PASSED
+closeBrowser(),Firefox 104.0,,,2022-10-19 09:29:47,2022-10-19 09:29:47,0.093s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 104.0,,,2022-10-19 09:29:47,2022-10-19 09:29:47,0.010s,PASSED
+,,,,,,,
+Test Cases/tCC Test Cases/tW_Saving tW Article,Firefox 104.0,,,2022-10-19 09:29:47,2022-10-19 09:30:17,29.353s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 104.0,,,2022-10-19 09:29:47,2022-10-19 09:29:47,0.002s,ERROR
+"com.tccreate.keywords.WriteToFile.writeTofilename(""tW-Save"")",Firefox 104.0,,,2022-10-19 09:29:48,2022-10-19 09:29:48,0.001s,PASSED
+com.helper.login.TimeDate.getTimeDate(),Firefox 104.0,,,2022-10-19 09:29:48,2022-10-19 09:29:48,0.001s,PASSED
+com.helper.login.loginhelper.logintoapp(),Firefox 104.0,,,2022-10-19 09:29:48,2022-10-19 09:29:55,7.101s,PASSED
+"com.tccreate.keywords.selectOrg.organization("""")",Firefox 104.0,,,2022-10-19 09:29:55,2022-10-19 09:29:58,3.115s,PASSED
+"com.tccreate.keywords.selectOrg.resource(""unfoldingWord® Translation Words"")",Firefox 104.0,,,2022-10-19 09:29:58,2022-10-19 09:29:58,0.521s,PASSED
+"com.tccreate.keywords.selectOrg.language("""")",Firefox 104.0,,,2022-10-19 09:29:58,2022-10-19 09:30:00,1.996s,PASSED
+com.tccreate.keywords.selectOrg.checkBranchAlert(),Firefox 104.0,,,2022-10-19 09:30:00,2022-10-19 09:30:03,2.219s,PASSED
+"click(findTestObject(""tW Objects/span_bible""))",Firefox 104.0,,,2022-10-19 09:30:03,2022-10-19 09:30:03,0.737s,PASSED
+"click(findTestObject(""tW Objects/span_kt""))",Firefox 104.0,,,2022-10-19 09:30:03,2022-10-19 09:30:04,1.088s,PASSED
+"click(findTestObject(""tW Objects/span_almighty.md""))",Firefox 104.0,,,2022-10-19 09:30:04,2022-10-19 09:30:05,1.057s,PASSED
+com.tccreate.keywords.selectOrg.checkBranchAlert(),Firefox 104.0,,,2022-10-19 09:30:05,2022-10-19 09:30:08,2.252s,PASSED
+"click(findTestObject(""tW Objects/h1_Almighty""))",Firefox 104.0,,,2022-10-19 09:30:08,2022-10-19 09:30:08,0.717s,PASSED
+"sendKeys(findTestObject(""tW Objects/h1_Almighty""), ""  edits by a test script"")",Firefox 104.0,,,2022-10-19 09:30:08,2022-10-19 09:30:09,0.404s,PASSED
+"click(findTestObject(""Object Repository/Page_tC Create/button_Save""))",Firefox 104.0,,,2022-10-19 09:30:09,2022-10-19 09:30:09,0.543s,PASSED
+delay(2),Firefox 104.0,,,2022-10-19 09:30:09,2022-10-19 09:30:11,2.006s,PASSED
+"if (verifyElementNotClickable(findTestObject(""Page_tC Create/button_Save""), CONTINUE_ON_FAILURE))",Firefox 104.0,,,2022-10-19 09:30:11,2022-10-19 09:30:12,0.461s,PASSED
+"click(findTestObject(""Object Repository/tW Objects/chip_English - unfoldingWorden_twElsyLambert-tc-create-1""))",Firefox 104.0,,,2022-10-19 09:30:12,2022-10-19 09:30:12,0.535s,PASSED
+delay(2),Firefox 104.0,,,2022-10-19 09:30:12,2022-10-19 09:30:14,2.002s,PASSED
+switchToWindowIndex(1),Firefox 104.0,,,2022-10-19 09:30:14,2022-10-19 09:30:14,0.012s,PASSED
+"if (getText(findTestObject(""Object Repository/tW Objects/h1_Almighty article on DCS"")).contains(""edits by a test script""))",Firefox 104.0,,,2022-10-19 09:30:14,2022-10-19 09:30:17,2.257s,PASSED
+switchToWindowIndex(0),Firefox 104.0,,,2022-10-19 09:30:17,2022-10-19 09:30:17,0.012s,PASSED
+closeBrowser(),Firefox 104.0,,,2022-10-19 09:30:17,2022-10-19 09:30:17,0.092s,PASSED
+closeBrowser(),Firefox 104.0,,,2022-10-19 09:30:17,2022-10-19 09:30:17,0.002s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 104.0,,,2022-10-19 09:30:17,2022-10-19 09:30:17,0.008s,PASSED
+,,,,,,,
+Test Cases/tCC Test Cases/tA_Saving tA Article,Firefox 104.0,,,2022-10-19 09:30:17,2022-10-19 09:30:46,28.914s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 104.0,,,2022-10-19 09:30:17,2022-10-19 09:30:17,0.002s,ERROR
+"com.tccreate.keywords.WriteToFile.writeTofilename(""tA-Save"")",Firefox 104.0,,,2022-10-19 09:30:17,2022-10-19 09:30:17,0.001s,PASSED
+com.helper.login.TimeDate.getTimeDate(),Firefox 104.0,,,2022-10-19 09:30:17,2022-10-19 09:30:17,0.000s,PASSED
+com.helper.login.loginhelper.logintoapp(),Firefox 104.0,,,2022-10-19 09:30:17,2022-10-19 09:30:24,7.206s,PASSED
+"com.tccreate.keywords.selectOrg.organization("""")",Firefox 104.0,,,2022-10-19 09:30:24,2022-10-19 09:30:27,3.112s,PASSED
+"com.tccreate.keywords.selectOrg.resource(""unfoldingWord® Translation Academy"")",Firefox 104.0,,,2022-10-19 09:30:27,2022-10-19 09:30:28,0.541s,PASSED
+"com.tccreate.keywords.selectOrg.language("""")",Firefox 104.0,,,2022-10-19 09:30:28,2022-10-19 09:30:31,3.036s,PASSED
+com.tccreate.keywords.selectOrg.checkBranchAlert(),Firefox 104.0,,,2022-10-19 09:30:31,2022-10-19 09:30:33,1.979s,PASSED
+"click(findTestObject(""Page_tC Create/span_translate""))",Firefox 104.0,,,2022-10-19 09:30:33,2022-10-19 09:30:33,0.709s,PASSED
+"click(findTestObject(""Object Repository/Page_tC Create/span_bita-farming""))",Firefox 104.0,,,2022-10-19 09:30:33,2022-10-19 09:30:35,1.085s,PASSED
+"click(findTestObject(""Object Repository/Page_tC Create/span_01.md""))",Firefox 104.0,,,2022-10-19 09:30:35,2022-10-19 09:30:36,1.044s,PASSED
+com.tccreate.keywords.selectOrg.checkBranchAlert(),Firefox 104.0,,,2022-10-19 09:30:36,2022-10-19 09:30:38,2.833s,PASSED
+"click(findTestObject(""Object Repository/Page_tC Create/div_A FARMER represents God, and the VINEYA_8b10d9""))",Firefox 104.0,,,2022-10-19 09:30:38,2022-10-19 09:30:39,0.627s,PASSED
+"sendKeys(findTestObject(""Object Repository/tA/div_A FARMER represents God,edit box""), "" test edit by the test script"")",Firefox 104.0,,,2022-10-19 09:30:39,2022-10-19 09:30:40,0.719s,PASSED
+"click(findTestObject(""Page_tC Create/button_Save""))",Firefox 104.0,,,2022-10-19 09:30:40,2022-10-19 09:30:40,0.532s,PASSED
+delay(2),Firefox 104.0,,,2022-10-19 09:30:40,2022-10-19 09:30:42,2.007s,PASSED
+"if (verifyElementNotClickable(findTestObject(""Page_tC Create/button_Save""), CONTINUE_ON_FAILURE))",Firefox 104.0,,,2022-10-19 09:30:42,2022-10-19 09:30:43,0.482s,PASSED
+"click(findTestObject(""Object Repository/tA/Chip_English - unfoldingWorden_taElsyLambert-tc-create-1""))",Firefox 104.0,,,2022-10-19 09:30:43,2022-10-19 09:30:43,0.411s,PASSED
+delay(2),Firefox 104.0,,,2022-10-19 09:30:43,2022-10-19 09:30:45,2.002s,PASSED
+switchToWindowIndex(1),Firefox 104.0,,,2022-10-19 09:30:45,2022-10-19 09:30:45,0.009s,PASSED
+"if (getText(findTestObject(""Object Repository/tA/h4_dcs article"")).contains(""test edit by the test script""))",Firefox 104.0,,,2022-10-19 09:30:45,2022-10-19 09:30:46,0.272s,PASSED
+switchToWindowIndex(0),Firefox 104.0,,,2022-10-19 09:30:46,2022-10-19 09:30:46,0.012s,PASSED
+"logInfo(""
+ TEST PASSED:Edits are saved successfully in tA articles"")",Firefox 104.0,,,2022-10-19 09:30:46,2022-10-19 09:30:46,0.001s,PASSED
+closeBrowser(),Firefox 104.0,,,2022-10-19 09:30:46,2022-10-19 09:30:46,0.095s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 104.0,,,2022-10-19 09:30:46,2022-10-19 09:30:46,0.009s,PASSED
+,,,,,,,
+Test Cases/tCC Test Cases/tN_Add New Resource,Firefox 104.0,,#322,2022-10-19 09:30:46,2022-10-19 09:37:23,6m - 37.514s,FAILED
+Start listener action : sampleBeforeTestCase,Firefox 104.0,,,2022-10-19 09:30:46,2022-10-19 09:30:46,0.002s,ERROR
+"com.tccreate.keywords.WriteToFile.writeTofilename(""tN-Add new resource"")",Firefox 104.0,,,2022-10-19 09:30:46,2022-10-19 09:30:46,0.002s,PASSED
+com.helper.login.TimeDate.getTimeDate(),Firefox 104.0,,,2022-10-19 09:30:46,2022-10-19 09:30:46,0.000s,PASSED
+com.helper.login.loginhelper.logintoapp(),Firefox 104.0,,,2022-10-19 09:30:46,2022-10-19 09:30:53,6.879s,PASSED
+"com.tccreate.keywords.selectOrg.organization("""")",Firefox 104.0,,,2022-10-19 09:30:53,2022-10-19 09:30:56,3.171s,PASSED
+"com.tccreate.keywords.selectOrg.resource(""unfoldingWord® Translation Notes"")",Firefox 104.0,,,2022-10-19 09:30:56,2022-10-19 09:30:56,0.532s,PASSED
+"com.tccreate.keywords.selectOrg.language("""")",Firefox 104.0,,,2022-10-19 09:30:56,2022-10-19 09:31:00,4.050s,PASSED
+com.tccreate.keywords.selectOrg.checkBranchAlert(),Firefox 104.0,,,2022-10-19 09:31:00,2022-10-19 09:31:03,2.137s,PASSED
+"scrollToElement(findTestObject(""Page_tC Create/Add new resource objects/span_en_tn_57-TIT.tsv""), 1)",Firefox 104.0,,,2022-10-19 09:31:03,2022-10-19 09:31:03,0.456s,PASSED
+"click(findTestObject(""Page_tC Create/Add new resource objects/span_en_tn_57-TIT.tsv""))",Firefox 104.0,,,2022-10-19 09:31:03,2022-10-19 09:31:03,0.320s,PASSED
+com.tccreate.keywords.selectOrg.checkBranchAlert(),Firefox 104.0,,,2022-10-19 09:31:03,2022-10-19 09:31:06,2.642s,PASSED
+"buttonstate = com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScripture(""test"")",Firefox 104.0,,,2022-10-19 09:31:06,2022-10-19 09:31:12,5.778s,PASSED
+"out.println("" the state of the button is"" + buttonstate)",Firefox 104.0,,,2022-10-19 09:31:12,2022-10-19 09:31:12,0.007s,PASSED
+delay(1),Firefox 104.0,,,2022-10-19 09:31:12,2022-10-19 09:31:13,1.005s,PASSED
+"if (buttonstate == ""off"")",Firefox 104.0,,,2022-10-19 09:31:13,2022-10-19 09:31:13,0.001s,PASSED
+else,Firefox 104.0,,,2022-10-19 09:31:13,2022-10-19 09:31:13,0.001s,PASSED
+"scrollToElement(findTestObject(""Page_tC Create/Add new resource objects/h6_TIT 1intro""), 2, CONTINUE_ON_FAILURE)",Firefox 104.0,,,2022-10-19 09:31:13,2022-10-19 09:31:45,31.895s,FAILED
+"click(findTestObject(""Page_tC Create/Add new resource objects/h6_Titus 11""))",Firefox 104.0,,,2022-10-19 09:31:45,2022-10-19 09:32:17,31.871s,FAILED
+"verifyElementVisible(findTestObject(""Page_tC Create/Add new resource objects/h6_Titus 11""), CONTINUE_ON_FAILURE)",Firefox 104.0,,,2022-10-19 09:32:17,2022-10-19 09:32:49,31.898s,FAILED
+"click(findTestObject(""Object Repository/Page_tC Create/Add new resource objects/button_Manage Versions""))",Firefox 104.0,,,2022-10-19 09:32:49,2022-10-19 09:33:20,31.504s,FAILED
+"click(findTestObject(""Page_tC Create/Add new resource objects/input_Resource Path_resourceUrl""))",Firefox 104.0,,,2022-10-19 09:33:20,2022-10-19 09:33:52,31.628s,FAILED
+"setText(findTestObject(""Page_tC Create/Add new resource objects/input_Resource Path_resourceUrl""), ""Door43-Catalog/hi/ulb/master/"")",Firefox 104.0,,,2022-10-19 09:33:52,2022-10-19 09:34:23,31.523s,FAILED
+"click(findTestObject(""Object Repository/Page_tC Create/Add new resource objects/button_Add_Resource Path""))",Firefox 104.0,,,2022-10-19 09:34:23,2022-10-19 09:34:55,31.812s,FAILED
+"if (verifyElementChecked(findTestObject(""Object Repository/Page_tC Create/Add new resource objects/input_unfoldingWord Simplified Textv14_jss5689""), 1))",Firefox 104.0,,,2022-10-19 09:34:55,2022-10-19 09:34:56,0.905s,FAILED
+else,Firefox 104.0,,,2022-10-19 09:34:56,2022-10-19 09:34:56,0.001s,PASSED
+"click(findTestObject(""Object Repository/Page_tC Create/Add new resource objects/button_Manage Versions""))",Firefox 104.0,,,2022-10-19 09:34:56,2022-10-19 09:35:27,31.547s,FAILED
+"click(findTestObject(""Page_tC Create/Add new resource objects/input_Resource Path_resourceUrl""))",Firefox 104.0,,,2022-10-19 09:35:27,2022-10-19 09:35:59,31.877s,FAILED
+"setText(findTestObject(""Page_tC Create/Add new resource objects/input_Resource Path_resourceUrl""), ""https://git.door43.org/ru_gl/ru_rlob"")",Firefox 104.0,,,2022-10-19 09:35:59,2022-10-19 09:36:31,31.889s,FAILED
+"click(findTestObject(""Object Repository/Page_tC Create/Add new resource objects/button_Add_Resource Path""))",Firefox 104.0,,,2022-10-19 09:36:31,2022-10-19 09:37:03,31.745s,FAILED
+"if (verifyElementChecked(findTestObject(""Object Repository/Page_tC Create/Add new resource objects/input_unfoldingWord Simplified Text-Russian check box""), 1))",Firefox 104.0,,,2022-10-19 09:37:03,2022-10-19 09:37:04,0.965s,FAILED
+else,Firefox 104.0,,,2022-10-19 09:37:04,2022-10-19 09:37:04,0.001s,PASSED
+delay(2),Firefox 104.0,,,2022-10-19 09:37:04,2022-10-19 09:37:06,2.004s,PASSED
+try,Firefox 104.0,,,2022-10-19 09:37:06,2022-10-19 09:37:06,0.527s,PASSED
+"click(findTestObject(""Object Repository/Page_tC Create/Add new resource objects/span_en_tn_01-GEN.tsv""))",Firefox 104.0,,,2022-10-19 09:37:06,2022-10-19 09:37:08,1.461s,PASSED
+"click(findTestObject(""Object Repository/Page_tC Create/button_DrawerClose""))",Firefox 104.0,,,2022-10-19 09:37:08,2022-10-19 09:37:14,6.104s,PASSED
+delay(1),Firefox 104.0,,,2022-10-19 09:37:14,2022-10-19 09:37:15,1.004s,PASSED
+"if (verifyElementVisible(findTestObject(""Object Repository/Page_tC Create/Add new resource objects/h6_GEN frontintro""), CONTINUE_ON_FAILURE))",Firefox 104.0,,,2022-10-19 09:37:15,2022-10-19 09:37:23,7.989s,PASSED
+closeBrowser(),Firefox 104.0,,,2022-10-19 09:37:23,2022-10-19 09:37:23,0.133s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 104.0,,,2022-10-19 09:37:23,2022-10-19 09:37:23,0.009s,PASSED
+Video,Firefox 104.0,,,2022-10-19 09:37:23,2022-10-19 09:37:23,0.001s,PASSED
+,,,,,,,
+Test Cases/tCC Test Cases/tCC Test OBS-tQ,Firefox 104.0,,666,2022-10-19 09:37:23,2022-10-19 09:37:52,28.652s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 104.0,,,2022-10-19 09:37:23,2022-10-19 09:37:23,0.005s,ERROR
+"com.tccreate.keywords.WriteToFile.writeTofilename(""OBS-tQ-Save"")",Firefox 104.0,,,2022-10-19 09:37:23,2022-10-19 09:37:23,0.002s,PASSED
+com.helper.login.TimeDate.getTimeDate(),Firefox 104.0,,,2022-10-19 09:37:23,2022-10-19 09:37:23,0.000s,PASSED
+com.helper.login.loginhelper.logintoapp(),Firefox 104.0,,,2022-10-19 09:37:23,2022-10-19 09:37:31,7.449s,PASSED
+"com.tccreate.keywords.selectOrg.organization("""")",Firefox 104.0,,,2022-10-19 09:37:31,2022-10-19 09:37:34,3.127s,PASSED
+"com.tccreate.keywords.selectOrg.resource(""unfoldingWord® Open Bible Stories Translation Questions"")",Firefox 104.0,,,2022-10-19 09:37:34,2022-10-19 09:37:34,0.430s,PASSED
+"com.tccreate.keywords.selectOrg.language("""")",Firefox 104.0,,,2022-10-19 09:37:34,2022-10-19 09:37:36,1.850s,PASSED
+com.tccreate.keywords.selectOrg.checkBranchAlert(),Firefox 104.0,,,2022-10-19 09:37:36,2022-10-19 09:37:38,2.293s,PASSED
+"click(findTestObject(""obs-tq/tq_OBS.tsv""))",Firefox 104.0,,,2022-10-19 09:37:38,2022-10-19 09:37:39,0.502s,PASSED
+com.tccreate.keywords.selectOrg.checkBranchAlert(),Firefox 104.0,,,2022-10-19 09:37:39,2022-10-19 09:37:41,2.268s,PASSED
+"click(findTestObject(""Object Repository/obs-tq/div_question edit box""))",Firefox 104.0,,,2022-10-19 09:37:41,2022-10-19 09:37:44,2.835s,PASSED
+"sendKeys(findTestObject(""Object Repository/obs-tq/div_question edit box""), ""  edits by a test script"")",Firefox 104.0,,,2022-10-19 09:37:44,2022-10-19 09:37:45,0.758s,PASSED
+"click(findTestObject(""Object Repository/Page_tC Create/button_Save""))",Firefox 104.0,,,2022-10-19 09:37:45,2022-10-19 09:37:46,1.003s,PASSED
+delay(2),Firefox 104.0,,,2022-10-19 09:37:46,2022-10-19 09:37:48,2.011s,PASSED
+"if (verifyElementNotClickable(findTestObject(""Page_tC Create/button_Save""), CONTINUE_ON_FAILURE))",Firefox 104.0,,,2022-10-19 09:37:48,2022-10-19 09:37:48,0.524s,PASSED
+"click(findTestObject(""Object Repository/obs-tq/span_English - unfoldingWorden_obs-tqElsyLambert-tc-create-1""))",Firefox 104.0,,,2022-10-19 09:37:48,2022-10-19 09:37:49,0.526s,PASSED
+delay(2),Firefox 104.0,,,2022-10-19 09:37:49,2022-10-19 09:37:51,2.009s,PASSED
+switchToWindowIndex(1),Firefox 104.0,,,2022-10-19 09:37:51,2022-10-19 09:37:51,0.007s,PASSED
+"if (getText(findTestObject(""Object Repository/obs-tq/h1_DCS Repo question"")).contains(""edits by a test script""))",Firefox 104.0,,,2022-10-19 09:37:51,2022-10-19 09:37:52,0.764s,PASSED
+switchToWindowIndex(0),Firefox 104.0,,,2022-10-19 09:37:52,2022-10-19 09:37:52,0.011s,PASSED
+closeBrowser(),Firefox 104.0,,,2022-10-19 09:37:52,2022-10-19 09:37:52,0.092s,PASSED
+closeBrowser(),Firefox 104.0,,,2022-10-19 09:37:52,2022-10-19 09:37:52,0.002s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 104.0,,,2022-10-19 09:37:52,2022-10-19 09:37:52,0.008s,PASSED
+,,,,,,,
+Test Cases/tCC Test Cases/tCC-Test OBS-tn,Firefox 104.0,,,2022-10-19 09:37:52,2022-10-19 09:42:59,5m - 7.502s,FAILED
+Start listener action : sampleBeforeTestCase,Firefox 104.0,,,2022-10-19 09:37:52,2022-10-19 09:37:52,0.002s,ERROR
+"com.tccreate.keywords.WriteToFile.writeTofilename(""OBS-tN-Save"")",Firefox 104.0,,,2022-10-19 09:37:52,2022-10-19 09:37:52,0.002s,PASSED
+com.helper.login.TimeDate.getTimeDate(),Firefox 104.0,,,2022-10-19 09:37:52,2022-10-19 09:37:52,0.001s,PASSED
+com.helper.login.loginhelper.logintoapp(),Firefox 104.0,,,2022-10-19 09:37:52,2022-10-19 09:37:59,6.679s,PASSED
+"com.tccreate.keywords.selectOrg.organization("""")",Firefox 104.0,,,2022-10-19 09:37:59,2022-10-19 09:38:02,3.205s,PASSED
+"com.tccreate.keywords.selectOrg.resource(""unfoldingWord® Open Bible Stories Translation Notes"")",Firefox 104.0,,,2022-10-19 09:38:02,2022-10-19 09:38:02,0.541s,PASSED
+"com.tccreate.keywords.selectOrg.language("""")",Firefox 104.0,,,2022-10-19 09:38:02,2022-10-19 09:38:06,3.364s,PASSED
+com.tccreate.keywords.selectOrg.checkBranchAlert(),Firefox 104.0,,,2022-10-19 09:38:06,2022-10-19 09:38:08,2.440s,PASSED
+"click(findTestObject(""OBS-tn/tn_OBS.tsv""))",Firefox 104.0,,,2022-10-19 09:38:08,2022-10-19 09:38:09,0.389s,PASSED
+com.tccreate.keywords.selectOrg.checkBranchAlert(),Firefox 104.0,,,2022-10-19 09:38:09,2022-10-19 09:38:11,2.748s,PASSED
+"click(findTestObject(""Object Repository/OBS-tn/span_02""))",Firefox 104.0,,,2022-10-19 09:38:11,2022-10-19 09:38:43,31.530s,FAILED
+"click(findTestObject(""Object Repository/OBS-tn/span_01.md""))",Firefox 104.0,,,2022-10-19 09:38:43,2022-10-19 09:39:14,31.488s,FAILED
+"click(findTestObject(""Object Repository/OBS-tn/div_the beautiful garden edits box""))",Firefox 104.0,,,2022-10-19 09:39:14,2022-10-19 09:39:46,31.527s,FAILED
+"sendKeys(findTestObject(""Object Repository/OBS-tn/div_the beautiful garden edits box""), ""  edits by a test script"")",Firefox 104.0,,,2022-10-19 09:39:46,2022-10-19 09:40:17,31.550s,FAILED
+"click(findTestObject(""Object Repository/Page_tC Create/button_Save""))",Firefox 104.0,,,2022-10-19 09:40:17,2022-10-19 09:40:49,31.546s,FAILED
+delay(2),Firefox 104.0,,,2022-10-19 09:40:49,2022-10-19 09:40:51,2.003s,PASSED
+"if (verifyElementNotClickable(findTestObject(""Page_tC Create/button_Save""), CONTINUE_ON_FAILURE))",Firefox 104.0,,,2022-10-19 09:40:51,2022-10-19 09:41:23,31.801s,FAILED
+else,Firefox 104.0,,,2022-10-19 09:41:23,2022-10-19 09:41:23,0.002s,PASSED
+"click(findTestObject(""Object Repository/OBS-tn/div_English - unfoldingWorden_obs-tnElsyLambert-tc-create-1""))",Firefox 104.0,,,2022-10-19 09:41:23,2022-10-19 09:41:55,31.728s,FAILED
+delay(2),Firefox 104.0,,,2022-10-19 09:41:55,2022-10-19 09:41:57,2.005s,PASSED
+switchToWindowIndex(1),Firefox 104.0,,,2022-10-19 09:41:57,2022-10-19 09:42:28,31.160s,FAILED
+"if (getText(findTestObject(""Object Repository/OBS-tn/h1_the beautiful garden on DCS"")).contains(""edits by a test script""))",Firefox 104.0,,,2022-10-19 09:42:28,2022-10-19 09:42:59,31.572s,ERROR
+Start listener action : sampleAfterTestCase,Firefox 104.0,,,2022-10-19 09:42:59,2022-10-19 09:42:59,0.009s,PASSED
+Video,Firefox 104.0,,,2022-10-19 09:42:59,2022-10-19 09:42:59,0.001s,PASSED
+,,,,,,,
+Test Cases/tCC Test Cases/tCC Test OBS Study Notes,Firefox 104.0,,,2022-10-19 09:42:59,2022-10-19 09:43:30,30.750s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 104.0,,,2022-10-19 09:42:59,2022-10-19 09:42:59,0.003s,ERROR
+"com.tccreate.keywords.WriteToFile.writeTofilename(""OBS-sn-Save"")",Firefox 104.0,,,2022-10-19 09:43:00,2022-10-19 09:43:00,0.002s,PASSED
+com.helper.login.TimeDate.getTimeDate(),Firefox 104.0,,,2022-10-19 09:43:00,2022-10-19 09:43:00,0.001s,PASSED
+com.helper.login.loginhelper.logintoapp(),Firefox 104.0,,,2022-10-19 09:43:00,2022-10-19 09:43:06,6.899s,PASSED
+"com.tccreate.keywords.selectOrg.organization("""")",Firefox 104.0,,,2022-10-19 09:43:06,2022-10-19 09:43:10,3.372s,PASSED
+"com.tccreate.keywords.selectOrg.resource(""unfoldingWord® Open Bible Stories Study Notes"")",Firefox 104.0,,,2022-10-19 09:43:10,2022-10-19 09:43:10,0.552s,PASSED
+"com.tccreate.keywords.selectOrg.language("""")",Firefox 104.0,,,2022-10-19 09:43:10,2022-10-19 09:43:12,1.906s,PASSED
+com.tccreate.keywords.selectOrg.checkBranchAlert(),Firefox 104.0,,,2022-10-19 09:43:12,2022-10-19 09:43:15,2.285s,PASSED
+"click(findTestObject(""Page_tC Create/file_Parmed"", [""fileName"":""sn_OBS.tsv""]))",Firefox 104.0,,,2022-10-19 09:43:15,2022-10-19 09:43:15,0.501s,PASSED
+com.tccreate.keywords.selectOrg.checkBranchAlert(),Firefox 104.0,,,2022-10-19 09:43:15,2022-10-19 09:43:17,2.424s,PASSED
+delay(2),Firefox 104.0,,,2022-10-19 09:43:17,2022-10-19 09:43:19,2.005s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/obs-sn/h6_OBS 11""), 2)",Firefox 104.0,,,2022-10-19 09:43:19,2022-10-19 09:43:20,0.470s,PASSED
+"println(""seeing the obs 1:1 header"")",Firefox 104.0,,,2022-10-19 09:43:20,2022-10-19 09:43:20,0.001s,PASSED
+"click(findTestObject(""Object Repository/obs-sn/sn_obs_edit box test1""))",Firefox 104.0,,,2022-10-19 09:43:20,2022-10-19 09:43:21,0.614s,PASSED
+"sendKeys(findTestObject(""Object Repository/obs-sn/sn_obs_edit box test1""), ""  edits by a test script"")",Firefox 104.0,,,2022-10-19 09:43:21,2022-10-19 09:43:21,0.713s,PASSED
+"click(findTestObject(""Object Repository/Page_tC Create/button_Save""))",Firefox 104.0,,,2022-10-19 09:43:21,2022-10-19 09:43:22,0.949s,PASSED
+delay(2),Firefox 104.0,,,2022-10-19 09:43:22,2022-10-19 09:43:24,2.006s,PASSED
+"if (verifyElementNotClickable(findTestObject(""Page_tC Create/button_Save""), CONTINUE_ON_FAILURE))",Firefox 104.0,,,2022-10-19 09:43:24,2022-10-19 09:43:25,0.699s,PASSED
+"click(findTestObject(""Object Repository/obs-sn/div_English - unfoldingWorden_obs-snElsyLambert-tc-create-1""))",Firefox 104.0,,,2022-10-19 09:43:25,2022-10-19 09:43:25,0.496s,PASSED
+delay(2),Firefox 104.0,,,2022-10-19 09:43:25,2022-10-19 09:43:27,2.005s,PASSED
+switchToWindowIndex(1),Firefox 104.0,,,2022-10-19 09:43:27,2022-10-19 09:43:27,0.008s,PASSED
+"if (getText(findTestObject(""Object Repository/obs-sn/h1_a snake DCS page"")).contains(""edits by a test script""))",Firefox 104.0,,,2022-10-19 09:43:27,2022-10-19 09:43:30,2.514s,PASSED
+switchToWindowIndex(0),Firefox 104.0,,,2022-10-19 09:43:30,2022-10-19 09:43:30,0.011s,PASSED
+closeBrowser(),Firefox 104.0,,,2022-10-19 09:43:30,2022-10-19 09:43:30,0.096s,PASSED
+closeBrowser(),Firefox 104.0,,,2022-10-19 09:43:30,2022-10-19 09:43:30,0.002s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 104.0,,,2022-10-19 09:43:30,2022-10-19 09:43:30,0.008s,PASSED
+,,,,,,,
+Test Cases/tCC Test Cases/tCC tN Test All Books from Drawer,Firefox 104.0,,,2022-10-19 09:43:30,2022-10-19 09:43:54,23.608s,ERROR
+Start listener action : sampleBeforeTestCase,Firefox 104.0,,,2022-10-19 09:43:30,2022-10-19 09:43:30,0.002s,ERROR
+"callTestCase(findTestCase(""tCC Components/tCC tsv Open For Edit""), [""$username"":$username, ""$password"":$password, ""file"":""""], STOP_ON_FAILURE)",Firefox 104.0,,,2022-10-19 09:43:30,2022-10-19 09:43:54,23.391s,PASSED
+"baseDir = projectPath + ""/Data Files/""",Firefox 104.0,,,2022-10-19 09:43:54,2022-10-19 09:43:54,0.000s,PASSED
+books = [],Firefox 104.0,,,2022-10-19 09:43:54,2022-10-19 09:43:54,0.000s,PASSED
+"csv)).splitEachLine("","", { java.lang.Object fields -> ... })",Firefox 104.0,,,2022-10-19 09:43:54,2022-10-19 09:43:54,0.003s,ERROR
+Start listener action : sampleAfterTestCase,Firefox 104.0,,,2022-10-19 09:43:54,2022-10-19 09:43:54,0.009s,PASSED
+Video,Firefox 104.0,,,2022-10-19 09:43:54,2022-10-19 09:43:54,0.000s,PASSED
+,,,,,,,
+Test Cases/tCC Test Cases/tCC tN Test Paging Performance,Firefox 104.0,,,2022-10-19 09:43:54,2022-10-19 09:44:42,48.421s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 104.0,,,2022-10-19 09:43:54,2022-10-19 09:43:54,0.002s,ERROR
+"rowsList = [10, 25, 50, 100]",Firefox 104.0,,,2022-10-19 09:43:54,2022-10-19 09:43:54,0.000s,PASSED
+timings = [],Firefox 104.0,,,2022-10-19 09:43:54,2022-10-19 09:43:54,0.001s,PASSED
+avgTimes = [],Firefox 104.0,,,2022-10-19 09:43:54,2022-10-19 09:43:54,0.000s,PASSED
+"callTestCase(findTestCase(""tCC Components/tCC tsv Open For Edit""), [""$username"":validateUser, ""$password"":validatePassword, ""file"":""en_tn_42-MRK.tsv"", ""language"":""""], STOP_ON_FAILURE)",Firefox 104.0,,,2022-10-19 09:43:54,2022-10-19 09:44:19,24.583s,PASSED
+for (def rows : rowsList),Firefox 104.0,,,2022-10-19 09:44:19,2022-10-19 09:44:42,23.428s,PASSED
+i = 0,Firefox 104.0,,,2022-10-19 09:44:42,2022-10-19 09:44:42,0.000s,PASSED
+for (def rows : rowsList),Firefox 104.0,,,2022-10-19 09:44:42,2022-10-19 09:44:42,0.012s,PASSED
+timings = timings,Firefox 104.0,,,2022-10-19 09:44:42,2022-10-19 09:44:42,0.000s,PASSED
+scriptRunning = false,Firefox 104.0,,,2022-10-19 09:44:42,2022-10-19 09:44:42,0.000s,PASSED
+closeBrowser(),Firefox 104.0,,,2022-10-19 09:44:42,2022-10-19 09:44:42,0.107s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 104.0,,,2022-10-19 09:44:42,2022-10-19 09:44:42,0.013s,PASSED
+,,,,,,,
+Test Cases/tCC Test Cases/tCC tN Test Search,Firefox 104.0,,"Issues 365, 428, 440, 463",2022-10-19 09:44:42,2022-10-19 09:45:21,39.033s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 104.0,,,2022-10-19 09:44:42,2022-10-19 09:44:42,0.003s,ERROR
+"callTestCase(findTestCase(""tCC Components/tCC tsv Open For Edit""), [""$username"":"""", ""$password"":"""", ""file"":""""], STOP_ON_FAILURE)",Firefox 104.0,,,2022-10-19 09:44:42,2022-10-19 09:45:06,23.368s,PASSED
+"click(findTestObject(""Page_tCC translationNotes/button_Search""))",Firefox 104.0,,,2022-10-19 09:45:06,2022-10-19 09:45:06,0.494s,PASSED
+"setText(findTestObject(""Page_tCC translationNotes/input_Search""), ""church as if it were"")",Firefox 104.0,,,2022-10-19 09:45:06,2022-10-19 09:45:08,2.046s,PASSED
+"myText = ""managing that household""",Firefox 104.0,,,2022-10-19 09:45:08,2022-10-19 09:45:08,0.001s,PASSED
+"if (!(verifyTextPresent(myText, false)))",Firefox 104.0,,,2022-10-19 09:45:08,2022-10-19 09:45:09,0.708s,PASSED
+delay(1),Firefox 104.0,,,2022-10-19 09:45:09,2022-10-19 09:45:10,1.006s,PASSED
+"click(findTestObject(""Page_tCC translationNotes/button_SearchCloseX""))",Firefox 104.0,,,2022-10-19 09:45:10,2022-10-19 09:45:11,0.582s,PASSED
+delay(1),Firefox 104.0,,,2022-10-19 09:45:11,2022-10-19 09:45:12,1.003s,PASSED
+"click(findTestObject(""Page_tCC translationNotes/button_Search""))",Firefox 104.0,,,2022-10-19 09:45:12,2022-10-19 09:45:12,0.478s,PASSED
+"setText(findTestObject(""Page_tCC translationNotes/input_Search""), ""h15y"")",Firefox 104.0,,,2022-10-19 09:45:12,2022-10-19 09:45:14,1.509s,PASSED
+"myText = ""Sorry, no matching records found""",Firefox 104.0,,,2022-10-19 09:45:14,2022-10-19 09:45:14,0.001s,PASSED
+"if (!(verifyTextPresent(myText, false)))",Firefox 104.0,,,2022-10-19 09:45:14,2022-10-19 09:45:14,0.562s,PASSED
+"click(findTestObject(""Page_tCC translationNotes/button_SearchCloseX""))",Firefox 104.0,,,2022-10-19 09:45:14,2022-10-19 09:45:15,0.593s,PASSED
+"click(findTestObject(""Page_tCC translationNotes/button_ViewColumns""))",Firefox 104.0,,,2022-10-19 09:45:15,2022-10-19 09:45:15,0.768s,PASSED
+"click(findTestObject(""Page_tCC translationNotes/columns_Parmed"", [""column"":""ID""]))",Firefox 104.0,,,2022-10-19 09:45:15,2022-10-19 09:45:16,0.736s,PASSED
+"click(findTestObject(""Page_tCC translationNotes/btnX_CloseColumns""))",Firefox 104.0,,,2022-10-19 09:45:16,2022-10-19 09:45:17,0.545s,PASSED
+"click(findTestObject(""Page_tCC translationNotes/button_Search""))",Firefox 104.0,,,2022-10-19 09:45:17,2022-10-19 09:45:18,0.966s,PASSED
+"setText(findTestObject(""Page_tCC translationNotes/input_Search""), ""h15y"")",Firefox 104.0,,,2022-10-19 09:45:18,2022-10-19 09:45:19,1.665s,PASSED
+"myText = ""Do not allow anyone to ignore you""",Firefox 104.0,,,2022-10-19 09:45:19,2022-10-19 09:45:19,0.000s,PASSED
+"if (!(verifyTextPresent(myText, false)))",Firefox 104.0,,,2022-10-19 09:45:19,2022-10-19 09:45:20,0.640s,PASSED
+delay(1),Firefox 104.0,,,2022-10-19 09:45:20,2022-10-19 09:45:21,1.005s,PASSED
+scriptRunning = false,Firefox 104.0,,,2022-10-19 09:45:21,2022-10-19 09:45:21,0.001s,PASSED
+closeBrowser(),Firefox 104.0,,,2022-10-19 09:45:21,2022-10-19 09:45:21,0.097s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 104.0,,,2022-10-19 09:45:21,2022-10-19 09:45:21,0.008s,PASSED
+,,,,,,,
+Test Cases/tCC Test Cases/tCC Test tN Files for Duplicate IDs,Firefox 104.0,,,2022-10-19 09:45:21,2022-10-19 09:50:00,4m - 38.943s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 104.0,,,2022-10-19 09:45:21,2022-10-19 09:45:21,0.002s,ERROR
+"dirName = ""/Users/"" + pcUser + ""/Downloads""",Firefox 104.0,,,2022-10-19 09:45:21,2022-10-19 09:45:21,0.000s,PASSED
+"filesPath = ""/Users/"" + pcUser + ""/Katalon Studio/Files/Reference/""",Firefox 104.0,,,2022-10-19 09:45:21,2022-10-19 09:45:21,0.001s,PASSED
+"allBooks = filesPath + ""Bible_Books.csv""",Firefox 104.0,,,2022-10-19 09:45:21,2022-10-19 09:45:21,0.000s,PASSED
+"ntBooks = filesPath + ""NT_Books.csv""",Firefox 104.0,,,2022-10-19 09:45:21,2022-10-19 09:45:21,0.000s,PASSED
+"otBooks = filesPath + ""OT_Books.csv""",Firefox 104.0,,,2022-10-19 09:45:21,2022-10-19 09:45:21,0.000s,PASSED
+"someBooks = filesPath + ""Some_Books.csv""",Firefox 104.0,,,2022-10-19 09:45:21,2022-10-19 09:45:21,0.001s,PASSED
+"oneBook = filesPath + ""One_Book.csv""",Firefox 104.0,,,2022-10-19 09:45:21,2022-10-19 09:45:21,0.000s,PASSED
+"epistleBooks = filesPath + ""Epistle_Books.csv""",Firefox 104.0,,,2022-10-19 09:45:21,2022-10-19 09:45:21,0.000s,PASSED
+myBooks = ntBooks,Firefox 104.0,,,2022-10-19 09:45:21,2022-10-19 09:45:21,0.000s,PASSED
+dupsOnly = true,Firefox 104.0,,,2022-10-19 09:45:21,2022-10-19 09:45:21,0.001s,PASSED
+testFiles = [],Firefox 104.0,,,2022-10-19 09:45:21,2022-10-19 09:45:21,0.000s,PASSED
+"File(myBooks).splitEachLine("","", { java.lang.Object fields -> ... })",Firefox 104.0,,,2022-10-19 09:45:21,2022-10-19 09:45:21,0.005s,PASSED
+server = unfoldingWord_Keywords.GetTestingConfig.getServer(),Firefox 104.0,,,2022-10-19 09:45:21,2022-10-19 09:45:21,0.001s,PASSED
+"userTCC = ""tcc001""",Firefox 104.0,,,2022-10-19 09:45:21,2022-10-19 09:45:21,0.000s,PASSED
+"userTC = ""tc01""",Firefox 104.0,,,2022-10-19 09:45:21,2022-10-19 09:45:21,0.000s,PASSED
+"userEL = ""ElsyLambert""",Firefox 104.0,,,2022-10-19 09:45:21,2022-10-19 09:45:21,0.000s,PASSED
+user = userEL,Firefox 104.0,,,2022-10-19 09:45:21,2022-10-19 09:45:21,0.000s,PASSED
+"catalogBase = ""https://"" + server + "".door43.org/Door43-Catalog/en_tn/src/branch/master/""",Firefox 104.0,,,2022-10-19 09:45:21,2022-10-19 09:45:21,0.000s,PASSED
+"myRepoBase = ""https://"" + server + "".door43.org/translate_test/en_tn/src/branch/"" + user + ""-tc-create-1/""",Firefox 104.0,,,2022-10-19 09:45:21,2022-10-19 09:45:21,0.000s,PASSED
+"uWBase = ""https://"" + server + "".door43.org/unfoldingWord/en_tn/src/branch/master/""",Firefox 104.0,,,2022-10-19 09:45:21,2022-10-19 09:45:21,0.000s,PASSED
+repoBase = myRepoBase,Firefox 104.0,,,2022-10-19 09:45:21,2022-10-19 09:45:21,0.001s,PASSED
+"openBrowser("""")",Firefox 104.0,,,2022-10-19 09:45:21,2022-10-19 09:45:23,1.091s,PASSED
+maximizeWindow(),Firefox 104.0,,,2022-10-19 09:45:23,2022-10-19 09:45:23,0.114s,PASSED
+"unfoldingWord_Keywords.SendMessage.SendInfoMessage(""Testing files in repo "" + repoBase)",Firefox 104.0,,,2022-10-19 09:45:23,2022-10-19 09:45:23,0.022s,PASSED
+testFiles.each({ java.lang.Object book -> ... }),Firefox 104.0,,,2022-10-19 09:45:23,2022-10-19 09:45:38,15.284s,PASSED
+r = 0,Firefox 104.0,,,2022-10-19 09:45:38,2022-10-19 09:45:38,0.000s,PASSED
+dupCount = 0,Firefox 104.0,,,2022-10-19 09:45:38,2022-10-19 09:45:38,0.001s,PASSED
+ids = [:],Firefox 104.0,,,2022-10-19 09:45:38,2022-10-19 09:45:38,0.000s,PASSED
+chpts = [],Firefox 104.0,,,2022-10-19 09:45:38,2022-10-19 09:45:38,0.000s,PASSED
+verss = [],Firefox 104.0,,,2022-10-19 09:45:38,2022-10-19 09:45:38,0.001s,PASSED
+"table = getText(findTestObject(""Object Repository/Page_Git Repo/text_raw""))",Firefox 104.0,,,2022-10-19 09:45:38,2022-10-19 09:45:39,0.745s,PASSED
+"table.splitEachLine("" "", { java.lang.Object fields -> ... })",Firefox 104.0,,,2022-10-19 09:45:39,2022-10-19 09:45:39,0.048s,PASSED
+if (dupCount < 1 && !(dupsOnly)),Firefox 104.0,,,2022-10-19 09:45:39,2022-10-19 09:45:50,10.793s,PASSED
+r = 0,Firefox 104.0,,,2022-10-19 09:45:50,2022-10-19 09:45:50,0.000s,PASSED
+dupCount = 0,Firefox 104.0,,,2022-10-19 09:45:50,2022-10-19 09:45:50,0.000s,PASSED
+ids = [:],Firefox 104.0,,,2022-10-19 09:45:50,2022-10-19 09:45:50,0.000s,PASSED
+chpts = [],Firefox 104.0,,,2022-10-19 09:45:50,2022-10-19 09:45:50,0.000s,PASSED
+verss = [],Firefox 104.0,,,2022-10-19 09:45:50,2022-10-19 09:45:50,0.000s,PASSED
+"table = getText(findTestObject(""Object Repository/Page_Git Repo/text_raw""))",Firefox 104.0,,,2022-10-19 09:45:50,2022-10-19 09:45:50,0.569s,PASSED
+"table.splitEachLine("" "", { java.lang.Object fields -> ... })",Firefox 104.0,,,2022-10-19 09:45:50,2022-10-19 09:45:50,0.009s,PASSED
+if (dupCount < 1 && !(dupsOnly)),Firefox 104.0,,,2022-10-19 09:45:50,2022-10-19 09:46:11,21.196s,PASSED
+r = 0,Firefox 104.0,,,2022-10-19 09:46:11,2022-10-19 09:46:11,0.000s,PASSED
+dupCount = 0,Firefox 104.0,,,2022-10-19 09:46:11,2022-10-19 09:46:11,0.000s,PASSED
+ids = [:],Firefox 104.0,,,2022-10-19 09:46:11,2022-10-19 09:46:11,0.000s,PASSED
+chpts = [],Firefox 104.0,,,2022-10-19 09:46:11,2022-10-19 09:46:11,0.000s,PASSED
+verss = [],Firefox 104.0,,,2022-10-19 09:46:11,2022-10-19 09:46:11,0.001s,PASSED
+"table = getText(findTestObject(""Object Repository/Page_Git Repo/text_raw""))",Firefox 104.0,,,2022-10-19 09:46:11,2022-10-19 09:46:13,1.214s,PASSED
+"table.splitEachLine("" "", { java.lang.Object fields -> ... })",Firefox 104.0,,,2022-10-19 09:46:13,2022-10-19 09:46:13,0.035s,PASSED
+if (dupCount < 1 && !(dupsOnly)),Firefox 104.0,,,2022-10-19 09:46:13,2022-10-19 09:46:26,13.585s,PASSED
+r = 0,Firefox 104.0,,,2022-10-19 09:46:26,2022-10-19 09:46:26,0.000s,PASSED
+dupCount = 0,Firefox 104.0,,,2022-10-19 09:46:26,2022-10-19 09:46:26,0.000s,PASSED
+ids = [:],Firefox 104.0,,,2022-10-19 09:46:26,2022-10-19 09:46:26,0.000s,PASSED
+chpts = [],Firefox 104.0,,,2022-10-19 09:46:26,2022-10-19 09:46:26,0.000s,PASSED
+verss = [],Firefox 104.0,,,2022-10-19 09:46:26,2022-10-19 09:46:26,0.001s,PASSED
+"table = getText(findTestObject(""Object Repository/Page_Git Repo/text_raw""))",Firefox 104.0,,,2022-10-19 09:46:26,2022-10-19 09:46:27,0.610s,PASSED
+"table.splitEachLine("" "", { java.lang.Object fields -> ... })",Firefox 104.0,,,2022-10-19 09:46:27,2022-10-19 09:46:27,0.022s,PASSED
+if (dupCount < 1 && !(dupsOnly)),Firefox 104.0,,,2022-10-19 09:46:27,2022-10-19 09:46:42,15.522s,PASSED
+r = 0,Firefox 104.0,,,2022-10-19 09:46:42,2022-10-19 09:46:42,0.000s,PASSED
+dupCount = 0,Firefox 104.0,,,2022-10-19 09:46:42,2022-10-19 09:46:42,0.000s,PASSED
+ids = [:],Firefox 104.0,,,2022-10-19 09:46:42,2022-10-19 09:46:42,0.001s,PASSED
+chpts = [],Firefox 104.0,,,2022-10-19 09:46:42,2022-10-19 09:46:42,0.000s,PASSED
+verss = [],Firefox 104.0,,,2022-10-19 09:46:42,2022-10-19 09:46:42,0.000s,PASSED
+"table = getText(findTestObject(""Object Repository/Page_Git Repo/text_raw""))",Firefox 104.0,,,2022-10-19 09:46:42,2022-10-19 09:46:43,0.680s,PASSED
+"table.splitEachLine("" "", { java.lang.Object fields -> ... })",Firefox 104.0,,,2022-10-19 09:46:43,2022-10-19 09:46:43,0.017s,PASSED
+if (dupCount < 1 && !(dupsOnly)),Firefox 104.0,,,2022-10-19 09:46:43,2022-10-19 09:46:56,12.960s,PASSED
+r = 0,Firefox 104.0,,,2022-10-19 09:46:56,2022-10-19 09:46:56,0.001s,PASSED
+dupCount = 0,Firefox 104.0,,,2022-10-19 09:46:56,2022-10-19 09:46:56,0.000s,PASSED
+ids = [:],Firefox 104.0,,,2022-10-19 09:46:56,2022-10-19 09:46:56,0.000s,PASSED
+chpts = [],Firefox 104.0,,,2022-10-19 09:46:56,2022-10-19 09:46:56,0.001s,PASSED
+verss = [],Firefox 104.0,,,2022-10-19 09:46:56,2022-10-19 09:46:56,0.000s,PASSED
+"table = getText(findTestObject(""Object Repository/Page_Git Repo/text_raw""))",Firefox 104.0,,,2022-10-19 09:46:56,2022-10-19 09:46:57,0.549s,PASSED
+"table.splitEachLine("" "", { java.lang.Object fields -> ... })",Firefox 104.0,,,2022-10-19 09:46:57,2022-10-19 09:46:57,0.006s,PASSED
+if (dupCount < 1 && !(dupsOnly)),Firefox 104.0,,,2022-10-19 09:46:57,2022-10-19 09:47:06,9.815s,PASSED
+r = 0,Firefox 104.0,,,2022-10-19 09:47:06,2022-10-19 09:47:06,0.001s,PASSED
+dupCount = 0,Firefox 104.0,,,2022-10-19 09:47:06,2022-10-19 09:47:06,0.000s,PASSED
+ids = [:],Firefox 104.0,,,2022-10-19 09:47:06,2022-10-19 09:47:06,0.000s,PASSED
+chpts = [],Firefox 104.0,,,2022-10-19 09:47:06,2022-10-19 09:47:06,0.001s,PASSED
+verss = [],Firefox 104.0,,,2022-10-19 09:47:06,2022-10-19 09:47:06,0.000s,PASSED
+"table = getText(findTestObject(""Object Repository/Page_Git Repo/text_raw""))",Firefox 104.0,,,2022-10-19 09:47:06,2022-10-19 09:47:07,0.522s,PASSED
+"table.splitEachLine("" "", { java.lang.Object fields -> ... })",Firefox 104.0,,,2022-10-19 09:47:07,2022-10-19 09:47:07,0.004s,PASSED
+if (dupCount < 1 && !(dupsOnly)),Firefox 104.0,,,2022-10-19 09:47:07,2022-10-19 09:47:15,8.412s,PASSED
+r = 0,Firefox 104.0,,,2022-10-19 09:47:15,2022-10-19 09:47:15,0.000s,PASSED
+dupCount = 0,Firefox 104.0,,,2022-10-19 09:47:15,2022-10-19 09:47:15,0.000s,PASSED
+ids = [:],Firefox 104.0,,,2022-10-19 09:47:15,2022-10-19 09:47:15,0.001s,PASSED
+chpts = [],Firefox 104.0,,,2022-10-19 09:47:15,2022-10-19 09:47:15,0.000s,PASSED
+verss = [],Firefox 104.0,,,2022-10-19 09:47:15,2022-10-19 09:47:15,0.000s,PASSED
+"table = getText(findTestObject(""Object Repository/Page_Git Repo/text_raw""))",Firefox 104.0,,,2022-10-19 09:47:15,2022-10-19 09:47:16,0.512s,PASSED
+"table.splitEachLine("" "", { java.lang.Object fields -> ... })",Firefox 104.0,,,2022-10-19 09:47:16,2022-10-19 09:47:16,0.004s,PASSED
+if (dupCount < 1 && !(dupsOnly)),Firefox 104.0,,,2022-10-19 09:47:16,2022-10-19 09:47:24,7.815s,PASSED
+r = 0,Firefox 104.0,,,2022-10-19 09:47:24,2022-10-19 09:47:24,0.000s,PASSED
+dupCount = 0,Firefox 104.0,,,2022-10-19 09:47:24,2022-10-19 09:47:24,0.001s,PASSED
+ids = [:],Firefox 104.0,,,2022-10-19 09:47:24,2022-10-19 09:47:24,0.000s,PASSED
+chpts = [],Firefox 104.0,,,2022-10-19 09:47:24,2022-10-19 09:47:24,0.000s,PASSED
+verss = [],Firefox 104.0,,,2022-10-19 09:47:24,2022-10-19 09:47:24,0.001s,PASSED
+"table = getText(findTestObject(""Object Repository/Page_Git Repo/text_raw""))",Firefox 104.0,,,2022-10-19 09:47:24,2022-10-19 09:47:24,0.490s,PASSED
+"table.splitEachLine("" "", { java.lang.Object fields -> ... })",Firefox 104.0,,,2022-10-19 09:47:24,2022-10-19 09:47:24,0.001s,PASSED
+if (dupCount < 1 && !(dupsOnly)),Firefox 104.0,,,2022-10-19 09:47:24,2022-10-19 09:47:33,8.548s,PASSED
+r = 0,Firefox 104.0,,,2022-10-19 09:47:33,2022-10-19 09:47:33,0.000s,PASSED
+dupCount = 0,Firefox 104.0,,,2022-10-19 09:47:33,2022-10-19 09:47:33,0.000s,PASSED
+ids = [:],Firefox 104.0,,,2022-10-19 09:47:33,2022-10-19 09:47:33,0.000s,PASSED
+chpts = [],Firefox 104.0,,,2022-10-19 09:47:33,2022-10-19 09:47:33,0.001s,PASSED
+verss = [],Firefox 104.0,,,2022-10-19 09:47:33,2022-10-19 09:47:33,0.000s,PASSED
+"table = getText(findTestObject(""Object Repository/Page_Git Repo/text_raw""))",Firefox 104.0,,,2022-10-19 09:47:33,2022-10-19 09:47:33,0.507s,PASSED
+"table.splitEachLine("" "", { java.lang.Object fields -> ... })",Firefox 104.0,,,2022-10-19 09:47:33,2022-10-19 09:47:33,0.005s,PASSED
+if (dupCount < 1 && !(dupsOnly)),Firefox 104.0,,,2022-10-19 09:47:33,2022-10-19 09:47:42,8.668s,PASSED
+r = 0,Firefox 104.0,,,2022-10-19 09:47:42,2022-10-19 09:47:42,0.000s,PASSED
+dupCount = 0,Firefox 104.0,,,2022-10-19 09:47:42,2022-10-19 09:47:42,0.000s,PASSED
+ids = [:],Firefox 104.0,,,2022-10-19 09:47:42,2022-10-19 09:47:42,0.001s,PASSED
+chpts = [],Firefox 104.0,,,2022-10-19 09:47:42,2022-10-19 09:47:42,0.000s,PASSED
+verss = [],Firefox 104.0,,,2022-10-19 09:47:42,2022-10-19 09:47:42,0.000s,PASSED
+"table = getText(findTestObject(""Object Repository/Page_Git Repo/text_raw""))",Firefox 104.0,,,2022-10-19 09:47:42,2022-10-19 09:47:42,0.506s,PASSED
+"table.splitEachLine("" "", { java.lang.Object fields -> ... })",Firefox 104.0,,,2022-10-19 09:47:42,2022-10-19 09:47:42,0.004s,PASSED
+if (dupCount < 1 && !(dupsOnly)),Firefox 104.0,,,2022-10-19 09:47:42,2022-10-19 09:47:51,9.004s,PASSED
+r = 0,Firefox 104.0,,,2022-10-19 09:47:51,2022-10-19 09:47:51,0.001s,PASSED
+dupCount = 0,Firefox 104.0,,,2022-10-19 09:47:51,2022-10-19 09:47:51,0.000s,PASSED
+ids = [:],Firefox 104.0,,,2022-10-19 09:47:51,2022-10-19 09:47:51,0.000s,PASSED
+chpts = [],Firefox 104.0,,,2022-10-19 09:47:51,2022-10-19 09:47:51,0.001s,PASSED
+verss = [],Firefox 104.0,,,2022-10-19 09:47:51,2022-10-19 09:47:51,0.000s,PASSED
+"table = getText(findTestObject(""Object Repository/Page_Git Repo/text_raw""))",Firefox 104.0,,,2022-10-19 09:47:51,2022-10-19 09:47:52,0.510s,PASSED
+"table.splitEachLine("" "", { java.lang.Object fields -> ... })",Firefox 104.0,,,2022-10-19 09:47:52,2022-10-19 09:47:52,0.004s,PASSED
+if (dupCount < 1 && !(dupsOnly)),Firefox 104.0,,,2022-10-19 09:47:52,2022-10-19 09:48:00,7.663s,PASSED
+r = 0,Firefox 104.0,,,2022-10-19 09:48:00,2022-10-19 09:48:00,0.000s,PASSED
+dupCount = 0,Firefox 104.0,,,2022-10-19 09:48:00,2022-10-19 09:48:00,0.000s,PASSED
+ids = [:],Firefox 104.0,,,2022-10-19 09:48:00,2022-10-19 09:48:00,0.000s,PASSED
+chpts = [],Firefox 104.0,,,2022-10-19 09:48:00,2022-10-19 09:48:00,0.001s,PASSED
+verss = [],Firefox 104.0,,,2022-10-19 09:48:00,2022-10-19 09:48:00,0.000s,PASSED
+"table = getText(findTestObject(""Object Repository/Page_Git Repo/text_raw""))",Firefox 104.0,,,2022-10-19 09:48:00,2022-10-19 09:48:00,0.367s,PASSED
+"table.splitEachLine("" "", { java.lang.Object fields -> ... })",Firefox 104.0,,,2022-10-19 09:48:00,2022-10-19 09:48:00,0.001s,PASSED
+if (dupCount < 1 && !(dupsOnly)),Firefox 104.0,,,2022-10-19 09:48:00,2022-10-19 09:48:08,7.731s,PASSED
+r = 0,Firefox 104.0,,,2022-10-19 09:48:08,2022-10-19 09:48:08,0.000s,PASSED
+dupCount = 0,Firefox 104.0,,,2022-10-19 09:48:08,2022-10-19 09:48:08,0.001s,PASSED
+ids = [:],Firefox 104.0,,,2022-10-19 09:48:08,2022-10-19 09:48:08,0.000s,PASSED
+chpts = [],Firefox 104.0,,,2022-10-19 09:48:08,2022-10-19 09:48:08,0.000s,PASSED
+verss = [],Firefox 104.0,,,2022-10-19 09:48:08,2022-10-19 09:48:08,0.000s,PASSED
+"table = getText(findTestObject(""Object Repository/Page_Git Repo/text_raw""))",Firefox 104.0,,,2022-10-19 09:48:08,2022-10-19 09:48:08,0.468s,PASSED
+"table.splitEachLine("" "", { java.lang.Object fields -> ... })",Firefox 104.0,,,2022-10-19 09:48:08,2022-10-19 09:48:08,0.002s,PASSED
+if (dupCount < 1 && !(dupsOnly)),Firefox 104.0,,,2022-10-19 09:48:08,2022-10-19 09:48:16,8.311s,PASSED
+r = 0,Firefox 104.0,,,2022-10-19 09:48:16,2022-10-19 09:48:16,0.000s,PASSED
+dupCount = 0,Firefox 104.0,,,2022-10-19 09:48:16,2022-10-19 09:48:16,0.000s,PASSED
+ids = [:],Firefox 104.0,,,2022-10-19 09:48:16,2022-10-19 09:48:16,0.000s,PASSED
+chpts = [],Firefox 104.0,,,2022-10-19 09:48:16,2022-10-19 09:48:16,0.001s,PASSED
+verss = [],Firefox 104.0,,,2022-10-19 09:48:16,2022-10-19 09:48:16,0.000s,PASSED
+"table = getText(findTestObject(""Object Repository/Page_Git Repo/text_raw""))",Firefox 104.0,,,2022-10-19 09:48:16,2022-10-19 09:48:17,0.499s,PASSED
+"table.splitEachLine("" "", { java.lang.Object fields -> ... })",Firefox 104.0,,,2022-10-19 09:48:17,2022-10-19 09:48:17,0.003s,PASSED
+if (dupCount < 1 && !(dupsOnly)),Firefox 104.0,,,2022-10-19 09:48:17,2022-10-19 09:48:25,8.201s,PASSED
+r = 0,Firefox 104.0,,,2022-10-19 09:48:25,2022-10-19 09:48:25,0.000s,PASSED
+dupCount = 0,Firefox 104.0,,,2022-10-19 09:48:25,2022-10-19 09:48:25,0.000s,PASSED
+ids = [:],Firefox 104.0,,,2022-10-19 09:48:25,2022-10-19 09:48:25,0.000s,PASSED
+chpts = [],Firefox 104.0,,,2022-10-19 09:48:25,2022-10-19 09:48:25,0.000s,PASSED
+verss = [],Firefox 104.0,,,2022-10-19 09:48:25,2022-10-19 09:48:25,0.000s,PASSED
+"table = getText(findTestObject(""Object Repository/Page_Git Repo/text_raw""))",Firefox 104.0,,,2022-10-19 09:48:25,2022-10-19 09:48:26,0.506s,PASSED
+"table.splitEachLine("" "", { java.lang.Object fields -> ... })",Firefox 104.0,,,2022-10-19 09:48:26,2022-10-19 09:48:26,0.003s,PASSED
+if (dupCount < 1 && !(dupsOnly)),Firefox 104.0,,,2022-10-19 09:48:26,2022-10-19 09:48:33,7.515s,PASSED
+r = 0,Firefox 104.0,,,2022-10-19 09:48:33,2022-10-19 09:48:33,0.001s,PASSED
+dupCount = 0,Firefox 104.0,,,2022-10-19 09:48:33,2022-10-19 09:48:33,0.000s,PASSED
+ids = [:],Firefox 104.0,,,2022-10-19 09:48:33,2022-10-19 09:48:33,0.000s,PASSED
+chpts = [],Firefox 104.0,,,2022-10-19 09:48:33,2022-10-19 09:48:33,0.001s,PASSED
+verss = [],Firefox 104.0,,,2022-10-19 09:48:33,2022-10-19 09:48:33,0.000s,PASSED
+"table = getText(findTestObject(""Object Repository/Page_Git Repo/text_raw""))",Firefox 104.0,,,2022-10-19 09:48:33,2022-10-19 09:48:34,0.386s,PASSED
+"table.splitEachLine("" "", { java.lang.Object fields -> ... })",Firefox 104.0,,,2022-10-19 09:48:34,2022-10-19 09:48:34,0.020s,PASSED
+if (dupCount < 1 && !(dupsOnly)),Firefox 104.0,,,2022-10-19 09:48:34,2022-10-19 09:48:41,7.479s,PASSED
+r = 0,Firefox 104.0,,,2022-10-19 09:48:41,2022-10-19 09:48:41,0.000s,PASSED
+dupCount = 0,Firefox 104.0,,,2022-10-19 09:48:41,2022-10-19 09:48:41,0.000s,PASSED
+ids = [:],Firefox 104.0,,,2022-10-19 09:48:41,2022-10-19 09:48:41,0.000s,PASSED
+chpts = [],Firefox 104.0,,,2022-10-19 09:48:41,2022-10-19 09:48:41,0.000s,PASSED
+verss = [],Firefox 104.0,,,2022-10-19 09:48:41,2022-10-19 09:48:41,0.000s,PASSED
+"table = getText(findTestObject(""Object Repository/Page_Git Repo/text_raw""))",Firefox 104.0,,,2022-10-19 09:48:41,2022-10-19 09:48:42,0.483s,PASSED
+"table.splitEachLine("" "", { java.lang.Object fields -> ... })",Firefox 104.0,,,2022-10-19 09:48:42,2022-10-19 09:48:42,0.002s,PASSED
+if (dupCount < 1 && !(dupsOnly)),Firefox 104.0,,,2022-10-19 09:48:42,2022-10-19 09:48:51,9.065s,PASSED
+r = 0,Firefox 104.0,,,2022-10-19 09:48:51,2022-10-19 09:48:51,0.001s,PASSED
+dupCount = 0,Firefox 104.0,,,2022-10-19 09:48:51,2022-10-19 09:48:51,0.000s,PASSED
+ids = [:],Firefox 104.0,,,2022-10-19 09:48:51,2022-10-19 09:48:51,0.000s,PASSED
+chpts = [],Firefox 104.0,,,2022-10-19 09:48:51,2022-10-19 09:48:51,0.001s,PASSED
+verss = [],Firefox 104.0,,,2022-10-19 09:48:51,2022-10-19 09:48:51,0.000s,PASSED
+"table = getText(findTestObject(""Object Repository/Page_Git Repo/text_raw""))",Firefox 104.0,,,2022-10-19 09:48:51,2022-10-19 09:48:51,0.528s,PASSED
+"table.splitEachLine("" "", { java.lang.Object fields -> ... })",Firefox 104.0,,,2022-10-19 09:48:51,2022-10-19 09:48:51,0.005s,PASSED
+if (dupCount < 1 && !(dupsOnly)),Firefox 104.0,,,2022-10-19 09:48:51,2022-10-19 09:49:00,8.854s,PASSED
+r = 0,Firefox 104.0,,,2022-10-19 09:49:00,2022-10-19 09:49:00,0.000s,PASSED
+dupCount = 0,Firefox 104.0,,,2022-10-19 09:49:00,2022-10-19 09:49:00,0.001s,PASSED
+ids = [:],Firefox 104.0,,,2022-10-19 09:49:00,2022-10-19 09:49:00,0.000s,PASSED
+chpts = [],Firefox 104.0,,,2022-10-19 09:49:00,2022-10-19 09:49:00,0.001s,PASSED
+verss = [],Firefox 104.0,,,2022-10-19 09:49:00,2022-10-19 09:49:00,0.000s,PASSED
+"table = getText(findTestObject(""Object Repository/Page_Git Repo/text_raw""))",Firefox 104.0,,,2022-10-19 09:49:00,2022-10-19 09:49:00,0.529s,PASSED
+"table.splitEachLine("" "", { java.lang.Object fields -> ... })",Firefox 104.0,,,2022-10-19 09:49:00,2022-10-19 09:49:00,0.005s,PASSED
+if (dupCount < 1 && !(dupsOnly)),Firefox 104.0,,,2022-10-19 09:49:00,2022-10-19 09:49:08,7.539s,PASSED
+r = 0,Firefox 104.0,,,2022-10-19 09:49:08,2022-10-19 09:49:08,0.001s,PASSED
+dupCount = 0,Firefox 104.0,,,2022-10-19 09:49:08,2022-10-19 09:49:08,0.000s,PASSED
+ids = [:],Firefox 104.0,,,2022-10-19 09:49:08,2022-10-19 09:49:08,0.000s,PASSED
+chpts = [],Firefox 104.0,,,2022-10-19 09:49:08,2022-10-19 09:49:08,0.001s,PASSED
+verss = [],Firefox 104.0,,,2022-10-19 09:49:08,2022-10-19 09:49:08,0.000s,PASSED
+"table = getText(findTestObject(""Object Repository/Page_Git Repo/text_raw""))",Firefox 104.0,,,2022-10-19 09:49:08,2022-10-19 09:49:09,0.483s,PASSED
+"table.splitEachLine("" "", { java.lang.Object fields -> ... })",Firefox 104.0,,,2022-10-19 09:49:09,2022-10-19 09:49:09,0.002s,PASSED
+if (dupCount < 1 && !(dupsOnly)),Firefox 104.0,,,2022-10-19 09:49:09,2022-10-19 09:49:17,8.147s,PASSED
+r = 0,Firefox 104.0,,,2022-10-19 09:49:17,2022-10-19 09:49:17,0.000s,PASSED
+dupCount = 0,Firefox 104.0,,,2022-10-19 09:49:17,2022-10-19 09:49:17,0.000s,PASSED
+ids = [:],Firefox 104.0,,,2022-10-19 09:49:17,2022-10-19 09:49:17,0.001s,PASSED
+chpts = [],Firefox 104.0,,,2022-10-19 09:49:17,2022-10-19 09:49:17,0.000s,PASSED
+verss = [],Firefox 104.0,,,2022-10-19 09:49:17,2022-10-19 09:49:17,0.000s,PASSED
+"table = getText(findTestObject(""Object Repository/Page_Git Repo/text_raw""))",Firefox 104.0,,,2022-10-19 09:49:17,2022-10-19 09:49:17,0.411s,PASSED
+"table.splitEachLine("" "", { java.lang.Object fields -> ... })",Firefox 104.0,,,2022-10-19 09:49:17,2022-10-19 09:49:17,0.004s,PASSED
+if (dupCount < 1 && !(dupsOnly)),Firefox 104.0,,,2022-10-19 09:49:17,2022-10-19 09:49:26,9.161s,PASSED
+r = 0,Firefox 104.0,,,2022-10-19 09:49:26,2022-10-19 09:49:26,0.000s,PASSED
+dupCount = 0,Firefox 104.0,,,2022-10-19 09:49:26,2022-10-19 09:49:26,0.000s,PASSED
+ids = [:],Firefox 104.0,,,2022-10-19 09:49:26,2022-10-19 09:49:26,0.000s,PASSED
+chpts = [],Firefox 104.0,,,2022-10-19 09:49:26,2022-10-19 09:49:26,0.001s,PASSED
+verss = [],Firefox 104.0,,,2022-10-19 09:49:26,2022-10-19 09:49:26,0.000s,PASSED
+"table = getText(findTestObject(""Object Repository/Page_Git Repo/text_raw""))",Firefox 104.0,,,2022-10-19 09:49:26,2022-10-19 09:49:27,0.534s,PASSED
+"table.splitEachLine("" "", { java.lang.Object fields -> ... })",Firefox 104.0,,,2022-10-19 09:49:27,2022-10-19 09:49:27,0.005s,PASSED
+if (dupCount < 1 && !(dupsOnly)),Firefox 104.0,,,2022-10-19 09:49:27,2022-10-19 09:49:34,6.891s,PASSED
+r = 0,Firefox 104.0,,,2022-10-19 09:49:34,2022-10-19 09:49:34,0.000s,PASSED
+dupCount = 0,Firefox 104.0,,,2022-10-19 09:49:34,2022-10-19 09:49:34,0.000s,PASSED
+ids = [:],Firefox 104.0,,,2022-10-19 09:49:34,2022-10-19 09:49:34,0.001s,PASSED
+chpts = [],Firefox 104.0,,,2022-10-19 09:49:34,2022-10-19 09:49:34,0.000s,PASSED
+verss = [],Firefox 104.0,,,2022-10-19 09:49:34,2022-10-19 09:49:34,0.000s,PASSED
+"table = getText(findTestObject(""Object Repository/Page_Git Repo/text_raw""))",Firefox 104.0,,,2022-10-19 09:49:34,2022-10-19 09:49:34,0.377s,PASSED
+"table.splitEachLine("" "", { java.lang.Object fields -> ... })",Firefox 104.0,,,2022-10-19 09:49:34,2022-10-19 09:49:34,0.001s,PASSED
+if (dupCount < 1 && !(dupsOnly)),Firefox 104.0,,,2022-10-19 09:49:34,2022-10-19 09:49:42,8.013s,PASSED
+r = 0,Firefox 104.0,,,2022-10-19 09:49:42,2022-10-19 09:49:42,0.001s,PASSED
+dupCount = 0,Firefox 104.0,,,2022-10-19 09:49:42,2022-10-19 09:49:42,0.000s,PASSED
+ids = [:],Firefox 104.0,,,2022-10-19 09:49:42,2022-10-19 09:49:42,0.000s,PASSED
+chpts = [],Firefox 104.0,,,2022-10-19 09:49:42,2022-10-19 09:49:42,0.001s,PASSED
+verss = [],Firefox 104.0,,,2022-10-19 09:49:42,2022-10-19 09:49:42,0.000s,PASSED
+"table = getText(findTestObject(""Object Repository/Page_Git Repo/text_raw""))",Firefox 104.0,,,2022-10-19 09:49:42,2022-10-19 09:49:43,0.479s,PASSED
+"table.splitEachLine("" "", { java.lang.Object fields -> ... })",Firefox 104.0,,,2022-10-19 09:49:43,2022-10-19 09:49:43,0.001s,PASSED
+if (dupCount < 1 && !(dupsOnly)),Firefox 104.0,,,2022-10-19 09:49:43,2022-10-19 09:49:50,7.506s,PASSED
+r = 0,Firefox 104.0,,,2022-10-19 09:49:50,2022-10-19 09:49:50,0.001s,PASSED
+dupCount = 0,Firefox 104.0,,,2022-10-19 09:49:50,2022-10-19 09:49:50,0.000s,PASSED
+ids = [:],Firefox 104.0,,,2022-10-19 09:49:50,2022-10-19 09:49:50,0.000s,PASSED
+chpts = [],Firefox 104.0,,,2022-10-19 09:49:50,2022-10-19 09:49:50,0.001s,PASSED
+verss = [],Firefox 104.0,,,2022-10-19 09:49:50,2022-10-19 09:49:50,0.000s,PASSED
+"table = getText(findTestObject(""Object Repository/Page_Git Repo/text_raw""))",Firefox 104.0,,,2022-10-19 09:49:50,2022-10-19 09:49:51,0.490s,PASSED
+"table.splitEachLine("" "", { java.lang.Object fields -> ... })",Firefox 104.0,,,2022-10-19 09:49:51,2022-10-19 09:49:51,0.002s,PASSED
+if (dupCount < 1 && !(dupsOnly)),Firefox 104.0,,,2022-10-19 09:49:51,2022-10-19 09:50:00,9.508s,PASSED
+scriptRunning = false,Firefox 104.0,,,2022-10-19 09:50:00,2022-10-19 09:50:00,0.000s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 104.0,,,2022-10-19 09:50:00,2022-10-19 09:50:00,0.012s,PASSED
+,,,,,,,
+Test Cases/tCC Test Cases/Test All Source Repos Correct,Firefox 104.0,,,2022-10-19 09:50:00,2022-10-19 09:54:11,4m - 10.736s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 104.0,,,2022-10-19 09:50:00,2022-10-19 09:50:00,0.001s,ERROR
+"md_resources = [[""en_ta"", ""translate/"", ""bita-humanbehavior/"", ""01.md""], [""en_tw"", ""bible/"", ""kt/"", ""adoption.md""], [""en_tq"", ""tq_TIT.tsv""], [""en_obs"", ""content/"", ""01.md""], [""en_obs-tq"", ""tq_OBS.tsv""], [""en_obs-tn"", ""tn_OBS.tsv""], [""en_obs-sn"", ""sn_OBS.tsv""], [""en_obs-sq"", ""sq_OBS.tsv""]]",Firefox 104.0,,,2022-10-19 09:50:00,2022-10-19 09:50:00,0.000s,PASSED
+"org = ""translate_test""",Firefox 104.0,,,2022-10-19 09:50:00,2022-10-19 09:50:00,0.000s,PASSED
+"lang = ""en -""",Firefox 104.0,,,2022-10-19 09:50:00,2022-10-19 09:50:00,0.001s,PASSED
+md_resources.each({ java.lang.Object resource -> ... }),Firefox 104.0,,,2022-10-19 09:50:00,2022-10-19 09:54:11,4m - 10.383s,PASSED
+scriptRunning = false,Firefox 104.0,,,2022-10-19 09:54:11,2022-10-19 09:54:11,0.001s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 104.0,,,2022-10-19 09:54:11,2022-10-19 09:54:11,0.006s,PASSED
+,,,,,,,
+Test Cases/tCC Test Cases/Test All Source Repos Correct - Master-Editor,Firefox 104.0,,,2022-10-19 09:54:11,2022-10-19 10:00:12,6m - 0.731s,FAILED
+Start listener action : sampleBeforeTestCase,Firefox 104.0,,,2022-10-19 09:54:11,2022-10-19 09:54:11,0.001s,ERROR
+"md_resources = [[""en_ta"", ""translate/"", ""bita-humanbehavior/"", ""01.md""], [""en_tw"", ""bible/"", ""kt/"", ""adoption.md""], [""en_tq"", ""tq_TIT.tsv""], [""en_obs"", ""content/"", ""01.md""], [""en_obs-tq"", ""tq_OBS.tsv""], [""en_obs-tn"", ""tn_OBS.tsv""], [""en_obs-sn"", ""sn_OBS.tsv""], [""en_obs-sq"", ""sq_OBS.tsv""]]",Firefox 104.0,,,2022-10-19 09:54:11,2022-10-19 09:54:11,0.001s,PASSED
+"org = ""unfoldingWord®""",Firefox 104.0,,,2022-10-19 09:54:11,2022-10-19 09:54:11,0.000s,PASSED
+"lang = ""en -""",Firefox 104.0,,,2022-10-19 09:54:11,2022-10-19 09:54:11,0.000s,PASSED
+md_resources.each({ java.lang.Object resource -> ... }),Firefox 104.0,,,2022-10-19 09:54:11,2022-10-19 10:00:11,6m - 0.439s,ERROR
+Start listener action : sampleAfterTestCase,Firefox 104.0,,,2022-10-19 10:00:11,2022-10-19 10:00:11,0.007s,PASSED
+Video,Firefox 104.0,,,2022-10-19 10:00:12,2022-10-19 10:00:12,0.000s,PASSED
+,,,,,,,
+Test Cases/tCC Test Cases/tCC-AutoSave for TSVs,Firefox 104.0,,,2022-10-19 10:00:12,2022-10-19 10:01:06,54.655s,FAILED
+Start listener action : sampleBeforeTestCase,Firefox 104.0,,,2022-10-19 10:00:12,2022-10-19 10:00:12,0.002s,ERROR
+"com.tccreate.keywords.WriteToFile.writeTofilename(""tN-AutoSave"")",Firefox 104.0,,,2022-10-19 10:00:12,2022-10-19 10:00:12,0.003s,PASSED
+com.helper.login.TimeDate.getTimeDate(),Firefox 104.0,,,2022-10-19 10:00:12,2022-10-19 10:00:12,0.000s,PASSED
+com.helper.login.loginhelper.logintoapp(),Firefox 104.0,,,2022-10-19 10:00:12,2022-10-19 10:00:19,7.385s,PASSED
+"com.tccreate.keywords.selectOrg.organization("""")",Firefox 104.0,,,2022-10-19 10:00:19,2022-10-19 10:00:22,3.259s,PASSED
+"com.tccreate.keywords.selectOrg.resource(""unfoldingWord® Translation Notes"")",Firefox 104.0,,,2022-10-19 10:00:22,2022-10-19 10:00:23,0.334s,PASSED
+"com.tccreate.keywords.selectOrg.language("""")",Firefox 104.0,,,2022-10-19 10:00:23,2022-10-19 10:00:25,2.021s,PASSED
+com.tccreate.keywords.selectOrg.checkBranchAlert(),Firefox 104.0,,,2022-10-19 10:00:25,2022-10-19 10:00:27,2.133s,PASSED
+"click(findTestObject(""Object Repository/Page_tC Create/span_en_tn_57-TIT.tsv""))",Firefox 104.0,,,2022-10-19 10:00:27,2022-10-19 10:00:27,0.413s,PASSED
+com.tccreate.keywords.selectOrg.checkBranchAlert(),Firefox 104.0,,,2022-10-19 10:00:27,2022-10-19 10:00:30,2.336s,PASSED
+"click(findTestObject(""Object Repository/Page_tC Create/div_Introduction to TitusPart 1""))",Firefox 104.0,,,2022-10-19 10:00:30,2022-10-19 10:00:30,0.327s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_tC Create/div_Introduction to TitusPart 1""), ""AutoSAVE 1.7"")",Firefox 104.0,,,2022-10-19 10:00:30,2022-10-19 10:00:30,0.423s,PASSED
+"if (verifyElementClickable(findTestObject(""Page_tC Create/button_Save""), CONTINUE_ON_FAILURE))",Firefox 104.0,,,2022-10-19 10:00:30,2022-10-19 10:00:31,0.587s,PASSED
+"executeJavaScript(""window.open();"", [])",Firefox 104.0,,,2022-10-19 10:00:31,2022-10-19 10:00:31,0.117s,PASSED
+currentWindow = getWindowIndex(),Firefox 104.0,,,2022-10-19 10:00:31,2022-10-19 10:00:31,0.024s,PASSED
+switchToWindowIndex(currentWindow + 1),Firefox 104.0,,,2022-10-19 10:00:31,2022-10-19 10:00:31,0.019s,PASSED
+navigateToUrl(url),Firefox 104.0,,,2022-10-19 10:00:31,2022-10-19 10:00:33,1.714s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_tC Create/input__username""), user1Name)",Firefox 104.0,,,2022-10-19 10:00:33,2022-10-19 10:00:34,0.647s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_tC Create/input__password""), user1Password)",Firefox 104.0,,,2022-10-19 10:00:34,2022-10-19 10:00:34,0.295s,PASSED
+"click(findTestObject(""Object Repository/Page_tC Create/button_Login""))",Firefox 104.0,,,2022-10-19 10:00:34,2022-10-19 10:00:34,0.293s,PASSED
+"com.tccreate.keywords.selectOrg.organization("""")",Firefox 104.0,,,2022-10-19 10:00:34,2022-10-19 10:00:39,4.881s,PASSED
+"com.tccreate.keywords.selectOrg.resource(""unfoldingWord® Translation Notes"")",Firefox 104.0,,,2022-10-19 10:00:39,2022-10-19 10:00:40,0.511s,PASSED
+"com.tccreate.keywords.selectOrg.language("""")",Firefox 104.0,,,2022-10-19 10:00:40,2022-10-19 10:00:41,1.042s,PASSED
+com.tccreate.keywords.selectOrg.checkBranchAlert(),Firefox 104.0,,,2022-10-19 10:00:41,2022-10-19 10:00:43,2.172s,PASSED
+"click(findTestObject(""Object Repository/Page_tC Create/span_en_tn_57-TIT.tsv""))",Firefox 104.0,,,2022-10-19 10:00:43,2022-10-19 10:00:43,0.322s,PASSED
+com.tccreate.keywords.selectOrg.checkBranchAlert(),Firefox 104.0,,,2022-10-19 10:00:43,2022-10-19 10:00:45,2.040s,PASSED
+delay(2),Firefox 104.0,,,2022-10-19 10:00:45,2022-10-19 10:00:47,2.006s,PASSED
+"click(findTestObject(""Object Repository/Page_tC Create/div_Introduction to TitusPart 1""))",Firefox 104.0,,,2022-10-19 10:00:47,2022-10-19 10:00:48,0.463s,PASSED
+"if (!(getText(findTestObject(""Object Repository/Page_tC Create/div_Introduction to TitusPart 1"")).contains(""AutoSAVE 1.7"")))",Firefox 104.0,,,2022-10-19 10:00:48,2022-10-19 10:00:48,0.365s,PASSED
+else,Firefox 104.0,,,2022-10-19 10:00:48,2022-10-19 10:00:48,0.001s,PASSED
+"if (systemOS.contains(""Windows""))",Firefox 104.0,,,2022-10-19 10:00:48,2022-10-19 10:00:48,0.000s,PASSED
+else,Firefox 104.0,,,2022-10-19 10:00:48,2022-10-19 10:00:48,0.001s,PASSED
+driver = new org.openqa.selenium.firefox.FirefoxDriver(),Firefox 104.0,,,2022-10-19 10:00:48,2022-10-19 10:00:51,2.728s,PASSED
+changeWebDriver(driver),Firefox 104.0,,,2022-10-19 10:00:51,2022-10-19 10:00:51,0.018s,PASSED
+navigateToUrl(url),Firefox 104.0,,,2022-10-19 10:00:51,2022-10-19 10:00:53,2.118s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_tC Create/input__username""), user1Name)",Firefox 104.0,,,2022-10-19 10:00:53,2022-10-19 10:00:53,0.158s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_tC Create/input__password""), user1Password)",Firefox 104.0,,,2022-10-19 10:00:53,2022-10-19 10:00:53,0.050s,PASSED
+"click(findTestObject(""Object Repository/Page_tC Create/button_Login""))",Firefox 104.0,,,2022-10-19 10:00:53,2022-10-19 10:00:53,0.246s,PASSED
+"com.tccreate.keywords.selectOrg.organization("""")",Firefox 104.0,,,2022-10-19 10:00:53,2022-10-19 10:00:58,4.883s,PASSED
+"com.tccreate.keywords.selectOrg.resource(""unfoldingWord® Translation Notes"")",Firefox 104.0,,,2022-10-19 10:00:58,2022-10-19 10:00:58,0.304s,PASSED
+"com.tccreate.keywords.selectOrg.language("""")",Firefox 104.0,,,2022-10-19 10:00:58,2022-10-19 10:01:00,1.435s,PASSED
+com.tccreate.keywords.selectOrg.checkBranchAlert(),Firefox 104.0,,,2022-10-19 10:01:00,2022-10-19 10:01:02,2.028s,PASSED
+"click(findTestObject(""Object Repository/Page_tC Create/span_en_tn_57-TIT.tsv""))",Firefox 104.0,,,2022-10-19 10:01:02,2022-10-19 10:01:02,0.292s,PASSED
+com.tccreate.keywords.selectOrg.checkBranchAlert(),Firefox 104.0,,,2022-10-19 10:01:02,2022-10-19 10:01:04,2.024s,PASSED
+"click(findTestObject(""Object Repository/Page_tC Create/div_Introduction to TitusPart 1""))",Firefox 104.0,,,2022-10-19 10:01:04,2022-10-19 10:01:05,0.313s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_tC Create/div_Introduction to TitusPart 1""), ""Changes to the server file"")",Firefox 104.0,,,2022-10-19 10:01:05,2022-10-19 10:01:05,0.223s,PASSED
+"click(findTestObject(""Object Repository/Page_tC Create/button_Save""))",Firefox 104.0,,,2022-10-19 10:01:05,2022-10-19 10:01:05,0.523s,PASSED
+"System.println(""Changes are saved to DCS file-latest"")",Firefox 104.0,,,2022-10-19 10:01:05,2022-10-19 10:01:05,0.001s,PASSED
+closeBrowser(),Firefox 104.0,,,2022-10-19 10:01:05,2022-10-19 10:01:06,0.546s,PASSED
+switchToWindowIndex(currentWindow + 1),Firefox 104.0,,,2022-10-19 10:01:06,2022-10-19 10:01:06,0.007s,FAILED
+navigateToUrl(url),Firefox 104.0,,,2022-10-19 10:01:06,2022-10-19 10:01:06,0.006s,FAILED
+"sendKeys(findTestObject(""Object Repository/Page_tC Create/input__username""), user1Name)",Firefox 104.0,,,2022-10-19 10:01:06,2022-10-19 10:01:06,0.025s,FAILED
+"sendKeys(findTestObject(""Object Repository/Page_tC Create/input__password""), user1Password)",Firefox 104.0,,,2022-10-19 10:01:06,2022-10-19 10:01:06,0.023s,FAILED
+"click(findTestObject(""Object Repository/Page_tC Create/button_Login""))",Firefox 104.0,,,2022-10-19 10:01:06,2022-10-19 10:01:06,0.023s,FAILED
+"com.tccreate.keywords.selectOrg.organization("""")",Firefox 104.0,,,2022-10-19 10:01:06,2022-10-19 10:01:06,0.041s,FAILED
+"com.tccreate.keywords.selectOrg.resource(""unfoldingWord® Translation Notes"")",Firefox 104.0,,,2022-10-19 10:01:06,2022-10-19 10:01:06,0.034s,FAILED
+"com.tccreate.keywords.selectOrg.language("""")",Firefox 104.0,,,2022-10-19 10:01:06,2022-10-19 10:01:06,0.059s,FAILED
+com.tccreate.keywords.selectOrg.checkBranchAlert(),Firefox 104.0,,,2022-10-19 10:01:06,2022-10-19 10:01:06,0.026s,FAILED
+"click(findTestObject(""Object Repository/Page_tC Create/span_en_tn_57-TIT.tsv""))",Firefox 104.0,,,2022-10-19 10:01:06,2022-10-19 10:01:06,0.022s,FAILED
+com.tccreate.keywords.selectOrg.checkBranchAlert(),Firefox 104.0,,,2022-10-19 10:01:06,2022-10-19 10:01:06,0.025s,FAILED
+"if (verifyElementPresent(findTestObject(""Object Repository/Page_tC Create/Autosave alert""), 2))",Firefox 104.0,,,2022-10-19 10:01:06,2022-10-19 10:01:06,0.023s,FAILED
+else,Firefox 104.0,,,2022-10-19 10:01:06,2022-10-19 10:01:06,0.003s,PASSED
+"click(findTestObject(""Object Repository/Page_tC Create/button_Discard My AutoSaved File""))",Firefox 104.0,,,2022-10-19 10:01:06,2022-10-19 10:01:06,0.023s,FAILED
+"if (!(getText(findTestObject(""Object Repository/Page_tC Create/div_Introduction to TitusPart 1"")).contains(""Changes to the server file"")))",Firefox 104.0,,,2022-10-19 10:01:06,2022-10-19 10:01:06,0.023s,ERROR
+Start listener action : sampleAfterTestCase,Firefox 104.0,,,2022-10-19 10:01:06,2022-10-19 10:01:06,0.007s,PASSED
+Video,Firefox 104.0,,,2022-10-19 10:01:06,2022-10-19 10:01:06,0.000s,PASSED

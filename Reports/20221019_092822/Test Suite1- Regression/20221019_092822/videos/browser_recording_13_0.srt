@@ -1,0 +1,16 @@
+523
+00:04:10,624 --> 00:04:10,624
+1. println("setup start")
+
+524
+00:04:10,624 --> 00:04:10,624
+5. systemOS = unfoldingWord_Keywords.GetTestingConfig.getOperatingSystem()
+
+525
+00:04:10,624 --> 00:04:10,624
+9. tcMessages = []
+
+526
+00:04:10,624 --> 00:04:10,625
+13. executionProfile = getExecutionProfile()
+

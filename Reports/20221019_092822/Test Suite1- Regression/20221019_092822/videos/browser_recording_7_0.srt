@@ -1,0 +1,248 @@
+1
+00:00:00,000 --> 00:00:00,000
+17. KeywordUtil.logInfo("Execution profile is " + executionProfile)
+
+2
+00:00:00,000 --> 00:00:00,000
+1. com.tccreate.keywords.WriteToFile.writeTofilename("OBS-tN-Save")
+
+3
+00:00:00,000 --> 00:00:00,000
+5. com.helper.login.TimeDate.getTimeDate()
+
+4
+00:00:00,000 --> 00:00:05,583
+9. com.helper.login.loginhelper.logintoapp()
+
+5
+00:00:05,583 --> 00:00:08,789
+13. com.tccreate.keywords.selectOrg.organization("")
+
+6
+00:00:08,789 --> 00:00:09,311
+17. com.tccreate.keywords.selectOrg.resource("unfoldingWord® Open Bible Stories Translation Notes")
+
+7
+00:00:09,329 --> 00:00:12,693
+21. com.tccreate.keywords.selectOrg.language("")
+
+8
+00:00:12,694 --> 00:00:15,115
+25. com.tccreate.keywords.selectOrg.checkBranchAlert()
+
+9
+00:00:15,134 --> 00:00:15,524
+29. click(findTestObject("OBS-tn/tn_OBS.tsv"))
+
+10
+00:00:15,524 --> 00:00:18,290
+33. com.tccreate.keywords.selectOrg.checkBranchAlert()
+
+11
+00:00:18,291 --> 00:00:49,821
+37. click(findTestObject("Object Repository/OBS-tn/span_02"))
+
+12
+00:00:49,821 --> 00:01:21,308
+41. click(findTestObject("Object Repository/OBS-tn/span_01.md"))
+
+13
+00:01:21,309 --> 00:01:52,836
+45. click(findTestObject("Object Repository/OBS-tn/div_the beautiful garden edits box"))
+
+14
+00:01:52,836 --> 00:02:24,387
+49. sendKeys(findTestObject("Object Repository/OBS-tn/div_the beautiful garden edits box"), "  edits by a test script")
+
+15
+00:02:24,387 --> 00:02:55,933
+53. click(findTestObject("Object Repository/Page_tC Create/button_Save"))
+
+16
+00:02:55,933 --> 00:02:57,936
+57. delay(2)
+
+17
+00:02:57,936 --> 00:03:29,737
+61. if (verifyElementNotClickable(findTestObject("Page_tC Create/button_Save"), CONTINUE_ON_FAILURE))
+
+18
+00:03:29,737 --> 00:03:29,738
+2. logInfo(" Error: Save button is still enabled")
+
+19
+00:03:29,738 --> 00:04:01,466
+65. click(findTestObject("Object Repository/OBS-tn/div_English - unfoldingWorden_obs-tnElsyLambert-tc-create-1"))
+
+20
+00:04:01,467 --> 00:04:03,472
+69. delay(2)
+
+21
+00:04:03,472 --> 00:04:34,632
+73. switchToWindowIndex(1)
+
+22
+00:04:34,632 --> 00:05:06,226
+77. if (getText(findTestObject("Object Repository/OBS-tn/h1_the beautiful garden on DCS")).contains("edits by a test script"))
+
+23
+00:05:06,226 --> 00:05:06,226
+1. suite = false
+
+24
+00:05:06,227 --> 00:05:06,227
+5. fileName = testSuiteLogFile
+
+25
+00:05:06,227 --> 00:05:06,227
+9. if (fileName != null && fileName.length() > 1)
+
+26
+00:05:06,227 --> 00:05:06,228
+1. suite = true
+
+27
+00:05:06,228 --> 00:05:06,228
+5. println("test case teardown in suite")
+
+28
+00:05:06,228 --> 00:05:06,228
+9. println("log file is at " + fileName)
+
+29
+00:05:06,228 --> 00:05:06,229
+13. browser = unfoldingWord_Keywords.GetTestingConfig.getBrowserAndVersion()
+
+30
+00:05:06,229 --> 00:05:06,229
+17. separator = "==================================================================================================================================================="
+
+31
+00:05:06,229 --> 00:05:06,229
+21. msg = separator
+
+32
+00:05:06,229 --> 00:05:06,229
+25. println(msg)
+
+33
+00:05:06,229 --> 00:05:06,229
+29. if (suite)
+
+34
+00:05:06,229 --> 00:05:06,229
+1. oFile = new java.io.File(fileName)
+
+35
+00:05:06,229 --> 00:05:06,230
+5. oFile.append(msg + "
+")
+
+36
+00:05:06,230 --> 00:05:06,230
+33. prefix = " +++++++++++ "
+
+37
+00:05:06,230 --> 00:05:06,230
+37. testCaseStatus = testCaseContext.getTestCaseStatus()
+
+38
+00:05:06,230 --> 00:05:06,230
+41. if (scriptRunning)
+
+39
+00:05:06,230 --> 00:05:06,230
+45. if (testCaseStatus != "PASSED")
+
+40
+00:05:06,230 --> 00:05:06,230
+1. prefix = " ---------------------- "
+
+41
+00:05:06,231 --> 00:05:06,231
+49. executionProfile = getExecutionProfile()
+
+42
+00:05:06,231 --> 00:05:06,231
+53. msg = prefix + testCaseContext.getTestCaseId() + " on " + version + " running on " + browser + " in " + executionProfile + " " + testCaseStatus + prefix
+
+43
+00:05:06,231 --> 00:05:06,232
+57. println(msg)
+
+44
+00:05:06,232 --> 00:05:06,232
+61. if (suite)
+
+45
+00:05:06,232 --> 00:05:06,232
+1. oFile = new java.io.File(fileName)
+
+46
+00:05:06,232 --> 00:05:06,232
+5. oFile.append(msg + "
+")
+
+47
+00:05:06,232 --> 00:05:06,232
+65. tsMessages.add("##" + testCaseContext.getTestCaseId())
+
+48
+00:05:06,232 --> 00:05:06,233
+69. if (scriptRunning)
+
+49
+00:05:06,233 --> 00:05:06,233
+73. if (tcMessages.size() > 0)
+
+50
+00:05:06,233 --> 00:05:06,233
+77. if (scriptRunning && 1 == 2)
+
+51
+00:05:06,233 --> 00:05:06,233
+81. if (testCount > 0)
+
+52
+00:05:06,233 --> 00:05:06,233
+85. if (timings.size() > 0)
+
+53
+00:05:06,233 --> 00:05:06,233
+89. msg = separator
+
+54
+00:05:06,233 --> 00:05:06,234
+93. println(msg)
+
+55
+00:05:06,234 --> 00:05:06,234
+97. if (suite)
+
+56
+00:05:06,234 --> 00:05:06,234
+1. oFile = new java.io.File(fileName)
+
+57
+00:05:06,234 --> 00:05:06,235
+5. oFile.append(msg + "
+
+")
+
+58
+00:05:06,278 --> 00:05:06,278
+1. println("setup start")
+
+59
+00:05:06,279 --> 00:05:06,279
+5. systemOS = unfoldingWord_Keywords.GetTestingConfig.getOperatingSystem()
+
+60
+00:05:06,279 --> 00:05:06,279
+9. tcMessages = []
+
+61
+00:05:06,279 --> 00:05:06,279
+13. executionProfile = getExecutionProfile()
+

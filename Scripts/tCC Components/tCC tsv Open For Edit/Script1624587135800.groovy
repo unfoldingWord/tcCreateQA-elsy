@@ -76,6 +76,7 @@ if (WebUI.callTestCase(findTestCase('tCC Components/tCC Select Org-Lang-Resource
 WebUI.scrollToElement(findTestObject('Page_tC Create/file_Parmed', [('fileName') : myFile]), 1)
 
 WebUI.click(findTestObject('Page_tC Create/file_Parmed', [('fileName') : myFile]))
+CustomKeywords.'com.tccreate.keywords.selectOrg.checkBranchAlert'()
 
 //if (file.length() > 0 && file.contains('.tsv')) {
 //	myFile = file

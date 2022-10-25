@@ -7,83 +7,153 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>p</value>
+         <value>#mui-40821</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'text' and @aria-autocomplete = 'list' and @id = 'mui-75000']</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div/div/div/div[2]/div/div[3]/table/tbody/tr[1]/td[2]/div/div/div/div[1]/div/div/p</value>
+         <value>//*[@id=&quot;MUIDataTableBodyRow-71&quot;]/td[2]/div/div/div/div[2]/div/div[2]/div/div/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>p</value>
+      <value>input</value>
+      <webElementGuid>3c2be671-2d02-48f6-8078-e5d0afb77bc2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-invalid</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>e2d54d94-d178-46c4-ad95-b0e8a0ae729c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocomplete</name>
+      <type>Main</type>
+      <value>off</value>
+      <webElementGuid>a8423fd8-f39a-4f11-b8f3-bbda0a04f7fa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>5c0b3ceb-56e5-45ba-ac13-51cd6a685a45</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiInputBase-input-313 MuiInput-input-367 MuiAutocomplete-input-339 MuiAutocomplete-inputFocused-340 MuiInputBase-inputAdornedEnd-318</value>
+      <webElementGuid>d3d779e2-b585-4af5-b6e1-089af6128921</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-autocomplete</name>
+      <type>Main</type>
+      <value>list</value>
+      <webElementGuid>c46a0de4-0bfe-42b2-9f8f-eb4bed10fe33</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocapitalize</name>
+      <type>Main</type>
+      <value>none</value>
+      <webElementGuid>3d4a96e7-e5b7-470b-a30c-44dc9e0cc373</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>spellcheck</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>24d06dbb-422c-4a69-a9d5-c2d935ff4c7c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
       <type>Main</type>
       <value>figs-explicit</value>
+      <webElementGuid>169a72fc-0ad1-4993-95ab-1c99af5e8cb5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>mui-75000</value>
+      <webElementGuid>1b5edf38-3ccb-446e-9e58-1b36af7907c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-activedescendant</name>
+      <type>Main</type>
+      <value>mui-1470-option-6</value>
+      <webElementGuid>7e8d69ac-44cb-4f43-bcd0-3c3ee997757f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-controls</name>
+      <type>Main</type>
+      <value>mui-1470-popup</value>
+      <webElementGuid>647e9300-7c2f-4ce1-b22f-0cfd839283c9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;MUIDataTableBodyRow-27&quot;)/td[@class=&quot;MuiTableCell-root-214 MuiTableCell-body-216 jss240&quot;]/div[@class=&quot;jss240&quot;]/div[@class=&quot;cell-27-5 jss252&quot;]/div[@class=&quot;jss257&quot;]/div[@class=&quot;jss253&quot;]/div[@class=&quot;jss264&quot;]/div[@class=&quot;jss265&quot;]/p[1]</value>
+      <value>id(&quot;mui-1470&quot;)</value>
+      <webElementGuid>c2783415-4b4e-4408-9d40-6950338345c9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@id='mui-40821']</value>
+      <webElementGuid>66a2128e-b82c-46dd-aa48-4c185aa4d807</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//tr[@id='MUIDataTableBodyRow-27']/td[2]/div/div/div/div/div/div/p</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='SupportReference'])[2]/following::p[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='disobedient'])[1]/following::p[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='SupportReference'])[3]/preceding::p[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='OccurrenceNote'])[2]/preceding::p[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='figs-explicit']/parent::*</value>
+      <value>//tr[@id='MUIDataTableBodyRow-2']/td[2]/div/div/div/div[2]/div/div[2]/div/div/div/input</value>
+      <webElementGuid>ed9dfaa3-27fd-489d-95e9-1f6330d7c1a8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//p</value>
+      <value>//input</value>
+      <webElementGuid>90ff7313-78fb-4150-b027-ea0b8ccfd20c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @id = 'mui-40821']</value>
+      <webElementGuid>da5a365a-9f4d-4482-8119-d66e4a949a58</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

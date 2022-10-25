@@ -21,7 +21,7 @@
    <testCaseLink>
       <guid>3277f785-6f62-4cfa-b995-4b332fc07336</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/tCC Test Cases/tCC_Link to Organization page</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -35,21 +35,21 @@
    <testCaseLink>
       <guid>89ffe5a1-62ff-4a72-a9f3-a6035914d120</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/tCC Test Cases/tN_Add or Delete a Row</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>dcb8efd8-5aab-46a8-8552-abdbf8e14a97</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/tCC Test Cases/tN_Expand chapter</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>180c92e5-6cec-4a61-a29d-3aed1913c005</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/tCC Test Cases/tN_Highlighting by Occurrence Number-Tofix</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -77,21 +77,21 @@
    <testCaseLink>
       <guid>6aae0acc-bd44-4714-9eed-8bec590cadaf</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/tCC Test Cases/tCC Test OBS-tQ</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>e86741dd-dd31-439e-9b05-61cb0f081081</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/tCC Test Cases/tCC-Test OBS-tn</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>db53eb01-7af0-4d21-8abf-23ded244f246</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/tCC Test Cases/tCC Test OBS Study Notes</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -117,14 +117,14 @@
    <testCaseLink>
       <guid>9a06e5e1-4eb4-41a3-a741-b9a0ba0fa4b7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/tCC Test Cases/tCC tN Test App Crash on Paging</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>c37b2491-a18a-457a-82fc-6bd1340ca58f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/tCC Test Cases/tCC tN Test Columns and Page Rows</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -155,14 +155,14 @@
    <testCaseLink>
       <guid>477c7b41-f0c5-47e5-ab46-19fd58cea4ff</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/tCC Test Cases/tCC Test Permissions</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>4a7d05bf-6084-4945-b628-a825100eda9b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/tCC Test Cases/tCC tN Test Filters</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -193,7 +193,7 @@
    <testCaseLink>
       <guid>c52b458b-99c1-454d-bf8f-894bfa10bd4d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/tCC Test Cases/TCC tN Test Moving Rows</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -260,13 +260,6 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>fb6abf60-e911-4c96-999b-c64caff12160</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/tCC Test Cases/Test All Source Repos Correct</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>b29f63f4-2509-4602-a4c1-f80187ce2c64</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -276,7 +269,7 @@
    <testCaseLink>
       <guid>c3497935-0960-4e7b-8877-1bac230cc66d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/tCC Test Cases/tCC Test App Crashes</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -305,40 +298,24 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>e14f6346-794a-475b-a8a2-37d472217066</guid>
+      <guid>c1560b94-6362-4696-b105-dadd93e17946</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/tCC Test Cases/tCC Test Multiple Sessions</testCaseId>
+      <testCaseId>Test Cases/tCC Test Cases/Test All Source Repos Correct</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>4e8f371b-ba65-434f-95ff-64102d8c3e11</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>d596a5f5-6fae-4e55-83b6-3716d4289d0a</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>1fda8670-c49e-4d26-91cc-b68c6cddc3ab</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>23f11733-810b-4f73-8199-5bcd6e9ee0c4</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>769e85b5-2e0f-41b7-80e7-740e1c809cde</variableId>
-      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7d9322ca-9e1b-4a79-8dc8-6ea7592f5f5c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/tCC Test Cases/Test All Source Repos Correct - Master-Editor</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>24c075fc-c9a9-4993-b873-bfeb0e2eede6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/tCC Test Cases/tCC-AutoSave for TSVs</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

@@ -49,7 +49,7 @@ CustomKeywords.'com.tccreate.keywords.selectOrg.checkBranchAlert'()
 
 WebUI.click(findTestObject('Object Repository/Page_tC Create/div_Introduction to TitusPart 1'))
 
-WebUI.sendKeys(findTestObject('Object Repository/Page_tC Create/div_Introduction to TitusPart 1'), "AutoSAVE 1.7")
+WebUI.sendKeys(findTestObject('Object Repository/Page_tC Create/div_Introduction to TitusPart 1'), "TESTestAutoSAVE 1.7")
 if(WebUI.verifyElementClickable(findTestObject('Page_tC Create/button_Save') , FailureHandling.CONTINUE_ON_FAILURE))
 {
 	KeywordUtil.logInfo(' \n Save button is enabled as expected' )// System.out.println(' Error: Save button is still enabled')
@@ -85,7 +85,7 @@ WebUI.click(findTestObject('Object Repository/Page_tC Create/span_en_tn_57-TIT.t
 CustomKeywords.'com.tccreate.keywords.selectOrg.checkBranchAlert'()
 WebUI.delay(2)
 WebUI.click(findTestObject('Object Repository/Page_tC Create/div_Introduction to TitusPart 1'))
-if (!(WebUI.getText(findTestObject('Object Repository/Page_tC Create/div_Introduction to TitusPart 1')).contains('AutoSAVE 1.7'))) {
+if (!(WebUI.getText(findTestObject('Object Repository/Page_tC Create/div_Introduction to TitusPart 1')).contains('TESTTestAutoSAVE 1.7'))) {
     println('Edits were Autosaved when Browser was closed')
 
 
@@ -121,7 +121,7 @@ CustomKeywords.'com.tccreate.keywords.selectOrg.checkBranchAlert'()
 WebUI.click(findTestObject('Object Repository/Page_tC Create/span_en_tn_57-TIT.tsv'))
 CustomKeywords.'com.tccreate.keywords.selectOrg.checkBranchAlert'()
 WebUI.click(findTestObject('Object Repository/Page_tC Create/div_Introduction to TitusPart 1'))
-WebUI.sendKeys(findTestObject('Object Repository/Page_tC Create/div_Introduction to TitusPart 1'), "Changes to the server file")
+WebUI.sendKeys(findTestObject('Object Repository/Page_tC Create/div_Introduction to TitusPart 1'), "TestChanges1.5 to the server file")
 WebUI.click(findTestObject('Object Repository/Page_tC Create/button_Save'))
 System.println("Changes are saved to DCS file-latest")
 WebUI.closeBrowser()
@@ -152,7 +152,7 @@ else {
 	System.println("Error:Should get the Autosave pop-up")
 }
 WebUI.click(findTestObject('Object Repository/Page_tC Create/button_Discard My AutoSaved File'))
-if (!(WebUI.getText(findTestObject('Object Repository/Page_tC Create/div_Introduction to TitusPart 1')).contains('Changes to the server file'))) 
+if ((WebUI.getText(findTestObject('Object Repository/Page_tC Create/div_Introduction to TitusPart 1')).contains('TestChanges1.5 to the server file'))) 
 {
 	println('AutoSave is discarded and changes from server are overwritten to the user branch')
 

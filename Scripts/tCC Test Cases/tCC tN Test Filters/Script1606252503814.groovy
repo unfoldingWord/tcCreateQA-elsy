@@ -118,8 +118,13 @@ def filterBySupportRef(def ref) {
     WebUI.click(findTestObject('Page_tCC translationNotes/list_supportRef'))
 
     WebUI.click(findTestObject('Page_tCC translationNotes/filter_SupportRef_Parmed', [('supportRef') : ref]))
+	
+	refText = WebUI.getText(findTestObject('Object Repository/Page_tCC translationNotes/para_firstSupportRef'))
+	
 
-    refText = WebUI.getText(findTestObject('Object Repository/Page_tCC translationNotes/para_firstSupportRef'))
+   // refText = WebUI.getAttribute(findTestObject('Object Repository/Page_tCC translationNotes/para_firstSupportRef'), 'value') 
+	
+	println(refText)
 
     if (refText != myRef) {
         println((('ERROR: SupportReference is ' + refText) + ' but should be ') + myRef)

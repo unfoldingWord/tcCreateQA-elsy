@@ -1,0 +1,320 @@
+1
+00:00:00,000 --> 00:00:00,000
+17. KeywordUtil.logInfo("Execution profile is " + executionProfile)
+
+2
+00:00:00,000 --> 00:00:00,000
+1. com.tccreate.keywords.WriteToFile.writeTofilename("tN-Add new resource")
+
+3
+00:00:00,000 --> 00:00:00,000
+5. com.helper.login.TimeDate.getTimeDate()
+
+4
+00:00:00,000 --> 00:00:05,804
+9. com.helper.login.loginhelper.logintoapp()
+
+5
+00:00:05,805 --> 00:00:08,976
+13. com.tccreate.keywords.selectOrg.organization("")
+
+6
+00:00:08,976 --> 00:00:09,489
+17. com.tccreate.keywords.selectOrg.resource("unfoldingWord® Translation Notes")
+
+7
+00:00:09,508 --> 00:00:13,559
+21. com.tccreate.keywords.selectOrg.language("")
+
+8
+00:00:13,559 --> 00:00:15,677
+25. com.tccreate.keywords.selectOrg.checkBranchAlert()
+
+9
+00:00:15,696 --> 00:00:16,151
+29. scrollToElement(findTestObject("Page_tC Create/Add new resource objects/span_en_tn_57-TIT.tsv"), 1)
+
+10
+00:00:16,152 --> 00:00:16,471
+33. click(findTestObject("Page_tC Create/Add new resource objects/span_en_tn_57-TIT.tsv"))
+
+11
+00:00:16,472 --> 00:00:19,132
+37. com.tccreate.keywords.selectOrg.checkBranchAlert()
+
+12
+00:00:19,132 --> 00:00:24,910
+41. buttonstate = com.tccreate.keywords.ExpandAllScriptureToggle.toggleAllScripture("test")
+
+13
+00:00:24,910 --> 00:00:24,917
+45. out.println(" the state of the button is" + buttonstate)
+
+14
+00:00:24,917 --> 00:00:25,922
+49. delay(1)
+
+15
+00:00:25,922 --> 00:00:25,923
+53. if (buttonstate == "off")
+
+16
+00:00:25,923 --> 00:00:25,924
+2. logInfo("Parallel scripture viewer is ON")
+
+17
+00:00:25,924 --> 00:00:57,819
+57. scrollToElement(findTestObject("Page_tC Create/Add new resource objects/h6_TIT 1intro"), 2, CONTINUE_ON_FAILURE)
+
+18
+00:00:57,819 --> 00:01:29,690
+61. click(findTestObject("Page_tC Create/Add new resource objects/h6_Titus 11"))
+
+19
+00:01:29,690 --> 00:02:01,589
+65. verifyElementVisible(findTestObject("Page_tC Create/Add new resource objects/h6_Titus 11"), CONTINUE_ON_FAILURE)
+
+20
+00:02:01,589 --> 00:02:33,092
+69. click(findTestObject("Object Repository/Page_tC Create/Add new resource objects/button_Manage Versions"))
+
+21
+00:02:33,092 --> 00:03:04,721
+73. click(findTestObject("Page_tC Create/Add new resource objects/input_Resource Path_resourceUrl"))
+
+22
+00:03:04,721 --> 00:03:36,244
+77. setText(findTestObject("Page_tC Create/Add new resource objects/input_Resource Path_resourceUrl"), "Door43-Catalog/hi/ulb/master/")
+
+23
+00:03:36,244 --> 00:04:08,056
+81. click(findTestObject("Object Repository/Page_tC Create/Add new resource objects/button_Add_Resource Path"))
+
+24
+00:04:08,056 --> 00:04:08,961
+85. if (verifyElementChecked(findTestObject("Object Repository/Page_tC Create/Add new resource objects/input_unfoldingWord Simplified Textv14_jss5689"), 1))
+
+25
+00:04:08,961 --> 00:04:08,962
+2. logInfo("Resource unchecked")
+
+26
+00:04:08,962 --> 00:04:40,510
+89. click(findTestObject("Object Repository/Page_tC Create/Add new resource objects/button_Manage Versions"))
+
+27
+00:04:40,510 --> 00:05:12,388
+93. click(findTestObject("Page_tC Create/Add new resource objects/input_Resource Path_resourceUrl"))
+
+28
+00:05:12,388 --> 00:05:44,276
+97. setText(findTestObject("Page_tC Create/Add new resource objects/input_Resource Path_resourceUrl"), "https://git.door43.org/ru_gl/ru_rlob")
+
+29
+00:05:44,277 --> 00:06:16,022
+101. click(findTestObject("Object Repository/Page_tC Create/Add new resource objects/button_Add_Resource Path"))
+
+30
+00:06:16,022 --> 00:06:16,988
+105. if (verifyElementChecked(findTestObject("Object Repository/Page_tC Create/Add new resource objects/input_unfoldingWord Simplified Text-Russian check box"), 1))
+
+31
+00:06:16,988 --> 00:06:16,989
+2. logInfo("Resource unchecked")
+
+32
+00:06:16,989 --> 00:06:18,993
+109. delay(2)
+
+33
+00:06:18,993 --> 00:06:18,994
+113. try
+
+34
+00:06:18,994 --> 00:06:19,519
+1. click(findTestObject("Object Repository/Page_tC Create/Hamburger Menu Button"), STOP_ON_FAILURE)
+
+35
+00:06:19,520 --> 00:06:20,981
+117. click(findTestObject("Object Repository/Page_tC Create/Add new resource objects/span_en_tn_01-GEN.tsv"))
+
+36
+00:06:20,981 --> 00:06:27,085
+121. click(findTestObject("Object Repository/Page_tC Create/button_DrawerClose"))
+
+37
+00:06:27,085 --> 00:06:28,089
+125. delay(1)
+
+38
+00:06:28,089 --> 00:06:36,077
+129. if (verifyElementVisible(findTestObject("Object Repository/Page_tC Create/Add new resource objects/h6_GEN frontintro"), CONTINUE_ON_FAILURE))
+
+39
+00:06:36,077 --> 00:06:36,078
+1. logInfo("Other Books which do not have the added resource did not crash ")
+
+40
+00:06:36,078 --> 00:06:36,214
+133. closeBrowser()
+
+41
+00:06:36,214 --> 00:06:36,215
+1. suite = false
+
+42
+00:06:36,215 --> 00:06:36,215
+5. fileName = testSuiteLogFile
+
+43
+00:06:36,215 --> 00:06:36,215
+9. if (fileName != null && fileName.length() > 1)
+
+44
+00:06:36,215 --> 00:06:36,215
+1. suite = true
+
+45
+00:06:36,215 --> 00:06:36,216
+5. println("test case teardown in suite")
+
+46
+00:06:36,216 --> 00:06:36,216
+9. println("log file is at " + fileName)
+
+47
+00:06:36,216 --> 00:06:36,216
+13. browser = unfoldingWord_Keywords.GetTestingConfig.getBrowserAndVersion()
+
+48
+00:06:36,216 --> 00:06:36,216
+17. separator = "==================================================================================================================================================="
+
+49
+00:06:36,217 --> 00:06:36,217
+21. msg = separator
+
+50
+00:06:36,217 --> 00:06:36,217
+25. println(msg)
+
+51
+00:06:36,217 --> 00:06:36,217
+29. if (suite)
+
+52
+00:06:36,217 --> 00:06:36,217
+1. oFile = new java.io.File(fileName)
+
+53
+00:06:36,217 --> 00:06:36,218
+5. oFile.append(msg + "
+")
+
+54
+00:06:36,218 --> 00:06:36,218
+33. prefix = " +++++++++++ "
+
+55
+00:06:36,218 --> 00:06:36,218
+37. testCaseStatus = testCaseContext.getTestCaseStatus()
+
+56
+00:06:36,218 --> 00:06:36,218
+41. if (scriptRunning)
+
+57
+00:06:36,219 --> 00:06:36,219
+45. if (testCaseStatus != "PASSED")
+
+58
+00:06:36,219 --> 00:06:36,219
+1. prefix = " ---------------------- "
+
+59
+00:06:36,219 --> 00:06:36,219
+49. executionProfile = getExecutionProfile()
+
+60
+00:06:36,219 --> 00:06:36,219
+53. msg = prefix + testCaseContext.getTestCaseId() + " on " + version + " running on " + browser + " in " + executionProfile + " " + testCaseStatus + prefix
+
+61
+00:06:36,220 --> 00:06:36,220
+57. println(msg)
+
+62
+00:06:36,220 --> 00:06:36,220
+61. if (suite)
+
+63
+00:06:36,220 --> 00:06:36,220
+1. oFile = new java.io.File(fileName)
+
+64
+00:06:36,220 --> 00:06:36,221
+5. oFile.append(msg + "
+")
+
+65
+00:06:36,221 --> 00:06:36,221
+65. tsMessages.add("##" + testCaseContext.getTestCaseId())
+
+66
+00:06:36,221 --> 00:06:36,221
+69. if (scriptRunning)
+
+67
+00:06:36,221 --> 00:06:36,221
+73. if (tcMessages.size() > 0)
+
+68
+00:06:36,221 --> 00:06:36,221
+77. if (scriptRunning && 1 == 2)
+
+69
+00:06:36,222 --> 00:06:36,222
+81. if (testCount > 0)
+
+70
+00:06:36,222 --> 00:06:36,222
+85. if (timings.size() > 0)
+
+71
+00:06:36,222 --> 00:06:36,222
+89. msg = separator
+
+72
+00:06:36,222 --> 00:06:36,222
+93. println(msg)
+
+73
+00:06:36,223 --> 00:06:36,223
+97. if (suite)
+
+74
+00:06:36,223 --> 00:06:36,223
+1. oFile = new java.io.File(fileName)
+
+75
+00:06:36,223 --> 00:06:36,223
+5. oFile.append(msg + "
+
+")
+
+76
+00:06:36,283 --> 00:06:36,284
+1. println("setup start")
+
+77
+00:06:36,284 --> 00:06:36,285
+5. systemOS = unfoldingWord_Keywords.GetTestingConfig.getOperatingSystem()
+
+78
+00:06:36,285 --> 00:06:36,286
+9. tcMessages = []
+
+79
+00:06:36,286 --> 00:06:36,286
+13. executionProfile = getExecutionProfile()
+
