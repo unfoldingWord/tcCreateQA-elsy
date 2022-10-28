@@ -34,12 +34,13 @@ WebUI.click(findTestObject('Object Repository/tN objects/button_view columns'))
 WebUI.click(findTestObject('Object Repository/tN objects/input_ID'))
 WebUI.click(findTestObject('tN objects/button__Close-Columns'))
 //scroll to PSV
-WebUI.scrollToElement(findTestObject('Object Repository/tN objects/div_Titus 11'), 2)
+WebUI.scrollToPosition(100,1700)
+//WebUI.scrollToElement(findTestObject('Object Repository/tN objects/div_Titus 11'), 2)
 // Add a new Row
 WebUI.click(findTestObject('Object Repository/tN objects/button_Titus 11_add a new row'))
 WebUI.click(findTestObject('Object Repository/tN objects/button_Add'))
 //validate
-if (WebUI.verifyElementVisible(findTestObject('Object Repository/tN objects/p_empty')))
+if (WebUI.verifyElementVisible(findTestObject('Object Repository/tN objects/code_empty')))
 {
 	KeywordUtil.logInfo(" New row is added successfully")
 }
@@ -51,7 +52,7 @@ else
 WebUI.click(findTestObject('Object Repository/tN objects/button_Titus 11_Delete new row'))
 WebUI.click(findTestObject('Object Repository/tN objects/span_Delete'))
 //validate
-if (WebUI.verifyElementVisible(findTestObject('Object Repository/tN objects/p_empty')))
+if (WebUI.verifyElementVisible(findTestObject('Object Repository/tN objects/code_empty')))
 {
 	KeywordUtil.logInfo(" New row is deleted successfully")
 }

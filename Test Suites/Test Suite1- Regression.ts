@@ -50,7 +50,7 @@
       <guid>180c92e5-6cec-4a61-a29d-3aed1913c005</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/tCC Test Cases/tN_Highlighting by Occurrence Number-Tofix</testCaseId>
+      <testCaseId>Test Cases/tCC Test Cases/tN_Highlighting by Occurrence Number</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

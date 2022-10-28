@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Titus 11_add a new row</name>
+   <name>button_Titus 11_MuiButtonBase-root-4927 MuiIconButton-root-4919 jss4946</name>
    <tag></tag>
-   <elementGuidId>b923170a-aab1-49b5-be84-48c7009fa6e2</elementGuidId>
+   <elementGuidId>3b1daf99-ebba-430b-802c-f6ed450a61fe</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@class = 'MuiButtonBase-root-482 MuiIconButton-root-474 jss500' and @type = 'button' and @title = 'Add a Row']</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>(//button[@type='button'])[19]</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//button[@class = 'MuiButtonBase-root-4927 MuiIconButton-root-4919 jss4946' and @type = 'button' and @title = 'Add a Row']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
-         <value>button.MuiButtonBase-root-482.MuiIconButton-root-474.jss500</value>
+         <value>button.MuiButtonBase-root-4927.MuiIconButton-root-4919.jss4946</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>42fa2239-ae80-4ef0-86b3-f421f234421a</webElementGuid>
+      <webElementGuid>410acecc-371b-403e-a45a-a99616d0a76d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>MuiButtonBase-root-482 MuiIconButton-root-474 jss500</value>
-      <webElementGuid>edb48be2-d9e9-445a-9270-2d8f4169d4b8</webElementGuid>
+      <value>MuiButtonBase-root-4927 MuiIconButton-root-4919 jss4946</value>
+      <webElementGuid>1490f7c0-ef45-47f0-9d8a-36cc963b1ce2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>6b39f7af-4e05-48e2-90a6-8e86352f6af5</webElementGuid>
+      <webElementGuid>53bddbef-7b9f-4b10-966b-a47a4bc1b028</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,7 +50,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>e8105095-d68d-4595-b60b-855a1767eb4a</webElementGuid>
+      <webElementGuid>5ff6f685-9f59-457e-8e5f-7647d9fc9261</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -58,31 +58,31 @@
       <name>title</name>
       <type>Main</type>
       <value>Add a Row</value>
-      <webElementGuid>fa17b4fd-06ca-490e-bc61-d1ae09f1b056</webElementGuid>
+      <webElementGuid>7c90f82f-ae89-44de-b820-146456886ef8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;header-1-1-rtc9&quot;)/div[@class=&quot;jss256&quot;]/div[@class=&quot;jss259&quot;]/div[@class=&quot;MuiGrid-root-328 jss326 MuiGrid-container-329 MuiGrid-align-items-xs-center-337 MuiGrid-justify-xs-space-between-348&quot;]/div[@class=&quot;MuiGrid-root-328 MuiGrid-item-330&quot;]/div[@class=&quot;MuiGrid-root-328 jss461 MuiGrid-container-329 MuiGrid-align-items-xs-center-337 MuiGrid-justify-xs-flex-end-347&quot;]/div[@class=&quot;jss498&quot;]/div[1]/button[@class=&quot;MuiButtonBase-root-482 MuiIconButton-root-474 jss500&quot;]</value>
-      <webElementGuid>a5dc03bc-38eb-4b27-8cde-22088fe65225</webElementGuid>
+      <value>id(&quot;header-1-1-rtc9&quot;)/div[@class=&quot;jss256&quot;]/div[1]/div[@class=&quot;MuiGrid-root-4773 jss4771 MuiGrid-container-4774 MuiGrid-align-items-xs-center-4782 MuiGrid-justify-content-xs-space-between-4793&quot;]/div[@class=&quot;MuiGrid-root-4773 MuiGrid-item-4775&quot;]/div[@class=&quot;MuiGrid-root-4773 jss4906 MuiGrid-container-4774 MuiGrid-align-items-xs-center-4782 MuiGrid-justify-content-xs-flex-end-4792&quot;]/div[@class=&quot;jss4944&quot;]/div[2]/button[@class=&quot;MuiButtonBase-root-4927 MuiIconButton-root-4919 jss4946&quot;]</value>
+      <webElementGuid>d5b85c4f-e6b2-4abd-89ed-2dd2b860f7d8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[20]</value>
-      <webElementGuid>93f770fa-cc3c-4e49-97c3-933b43ea6c91</webElementGuid>
+      <value>(//button[@type='button'])[19]</value>
+      <webElementGuid>a93e95ed-3a1e-407a-93ba-bb454464f207</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='header-1-1-rtc9']/div/div/div/div[2]/div/div/div/button</value>
-      <webElementGuid>e248f905-5c13-4332-889b-438a89b3a993</webElementGuid>
+      <value>//div[@id='header-1-1-rtc9']/div/div/div/div[2]/div/div/div[2]/button</value>
+      <webElementGuid>ca555fdb-3120-4d34-891b-0c3e8b8ff191</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,22 +90,30 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Titus 1:1'])[1]/following::button[5]</value>
-      <webElementGuid>8107d3d7-5771-4bc0-86ed-4e88e5428f0b</webElementGuid>
+      <webElementGuid>c7a573a3-f1bc-46c2-a88a-2197fd4ba311</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Should, may, must'])[2]/following::button[5]</value>
-      <webElementGuid>a9e981c7-625b-43d6-a4fc-b072e45b4114</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OccurrenceNote'])[5]/following::button[5]</value>
+      <webElementGuid>fcdd5e99-9946-4fd1-a07b-46617bc8a702</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/div/div/div/div/div[2]/div/div/div/button</value>
-      <webElementGuid>852b3ea6-4bcc-4001-8edc-bddf2ce34f85</webElementGuid>
+      <value>//div/div/div/div/div/div[2]/div/div/div[2]/button</value>
+      <webElementGuid>cb54999b-d004-4577-9755-9dc01440ec5b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and @title = 'Add a Row']</value>
+      <webElementGuid>0e88dea1-8223-46ec-8e64-9da265e85cf8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

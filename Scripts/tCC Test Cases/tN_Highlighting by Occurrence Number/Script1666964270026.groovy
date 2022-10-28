@@ -53,7 +53,8 @@ WebUI.delay(1)
 	 KeywordUtil.logInfo("Parallel scripture viewer is ON")
  }
  //scroll to PSV
-	 WebUI.scrollToElement(findTestObject('Object Repository/tN objects/div_Titus 11'), 2)
+ WebUI.scrollToPosition(100,1700)
+	 //WebUI.scrollToElement(findTestObject('Object Repository/tN objects/div_Titus 11'), 2)
 	 // Add a new Row
 	 WebUI.click(findTestObject('Object Repository/tN objects/button_Titus 11_add a new row'))
 	 WebUI.click(findTestObject('Object Repository/tN objects/button_Add'))

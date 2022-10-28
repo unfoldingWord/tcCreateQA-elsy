@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>code_</name>
+   <tag></tag>
+   <elementGuidId>b6cce7e9-b4dc-429f-ab60-2150cb73675b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//tr[@id='MUIDataTableBodyRow-3']/td[3]/div/div/div/div[2]/div/div[2]/div/pre/code</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = ' ' or . = ' ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.cell-3-6.jss252 > div.jss257 > div.jss254 > div.jss259 > div.editableWrapper > div.jss274 > pre.jss277 > code.jss276</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>code</value>
+      <webElementGuid>2e4dd871-ed71-43a5-bb7f-1b804fd8a9e2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>jss276</value>
+      <webElementGuid>f1a5caeb-87a9-45e7-8b65-72d592c09a36</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>dir</name>
+      <type>Main</type>
+      <value>auto</value>
+      <webElementGuid>227043d9-edd7-4c1b-820a-fcaabc9665c8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>contenteditable</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>04a7f602-4544-4c00-976b-772ef7a05bc3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test</name>
+      <type>Main</type>
+      <value>blockeditable-editable-markdown-pre</value>
+      <webElementGuid>ab8fba90-c382-401c-a016-487bf0dffb8a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> </value>
+      <webElementGuid>d628c782-95a9-4469-af37-848b62f6533b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;MUIDataTableBodyRow-3&quot;)/td[@class=&quot;MuiTableCell-root-214 MuiTableCell-body-216 jss240&quot;]/div[@class=&quot;jss240&quot;]/div[@class=&quot;cell-3-6 jss252&quot;]/div[@class=&quot;jss257&quot;]/div[@class=&quot;jss254&quot;]/div[@class=&quot;jss259&quot;]/div[@class=&quot;editableWrapper&quot;]/div[@class=&quot;jss274&quot;]/pre[@class=&quot;jss277&quot;]/code[@class=&quot;jss276&quot;]</value>
+      <webElementGuid>46c22f55-ec50-4858-8a3a-916d9bfd56a9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tr[@id='MUIDataTableBodyRow-3']/td[3]/div/div/div/div[2]/div/div[2]/div/pre/code</value>
+      <webElementGuid>e6d4c58f-54a9-451c-a25a-f33db2fe7e26</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OrigQuote'])[9]/following::code[1]</value>
+      <webElementGuid>88829b52-e1a2-4953-851c-9f38b120cd20</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*empty*'])[6]/following::code[1]</value>
+      <webElementGuid>776c0a46-f852-426d-b2c7-cd667c5af1a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Occurrence'])[8]/preceding::code[1]</value>
+      <webElementGuid>fba94694-c133-4d40-b303-9fcc7b3e3550</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*empty*'])[7]/preceding::code[1]</value>
+      <webElementGuid>79b6f113-3cc7-4ee8-8e10-c629f245ce2d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[4]/td[3]/div/div/div/div[2]/div/div[2]/div/pre/code</value>
+      <webElementGuid>e7745443-fa31-4283-bf9d-b23cf21c24ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//code[(text() = ' ' or . = ' ')]</value>
+      <webElementGuid>b907fdb0-e8b1-4028-b0c9-ae3bd73235bf</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

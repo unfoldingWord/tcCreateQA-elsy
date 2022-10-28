@@ -11,13 +11,13 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//*[@data-test = 'aligned-word-object' and (text() = 'Θεοῦ' or . = 'Θεοῦ')]</value>
       </entry>
       <entry>
          <key>CSS</key>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -25,13 +25,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>82856fa9-f77e-4ff9-89fa-32d4f31b498c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-test</name>
       <type>Main</type>
       <value>aligned-word-object</value>
+      <webElementGuid>c7c0bd8d-1cb4-48c6-a4f2-496088d7b3fa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,13 +41,15 @@
       <name>data-testselected</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>ef47b91b-2c55-4e5a-aa3e-2eac7d969d89</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Θεοῦ</value>
+      <webElementGuid>97a69970-f85f-4201-97e0-c7b0dabd1ab1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,6 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;header---&quot;)/div[@class=&quot;jss309&quot;]/div[@class=&quot;jss312&quot;]/div[@id=&quot;wrapY&quot;]/table[@class=&quot;MuiTable-root-714 jss537&quot;]/tbody[@class=&quot;MuiTableBody-root-723 jss538&quot;]/tr[@id=&quot;1:1&quot;]/td[@class=&quot;MuiTableCell-root-726 MuiTableCell-body-728 jss725&quot;]/div[@class=&quot;jss5502&quot;]/span[3]</value>
+      <webElementGuid>9687db59-20a7-4794-8a45-28fb7208d8d4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -60,6 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>(//tr[@id='1:1']/td/div/span[3])[4]</value>
+      <webElementGuid>d1d56cad-9c03-437c-969b-830304e1352b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -67,6 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='δοῦλος'])[2]/following::span[1]</value>
+      <webElementGuid>4d26c900-2e4a-40a5-83dd-4684f7d6772c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,6 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Παῦλος'])[2]/following::span[2]</value>
+      <webElementGuid>5400f04b-b657-4217-aafa-2ce28a2f5482</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,6 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ἀπόστολος'])[2]/preceding::span[1]</value>
+      <webElementGuid>dd369d40-6f4b-4914-961b-b20b434ef451</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,6 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='δὲ'])[2]/preceding::span[2]</value>
+      <webElementGuid>f1f3fd5d-2486-438a-be98-87375c33c588</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,5 +105,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[4]/td/div/div/div/div/div[2]/table/tbody/tr/td/div/span[3]</value>
+      <webElementGuid>2b48e2c9-31b0-4ffd-999a-69130a8f5aa4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
