@@ -78,7 +78,7 @@ KeywordUtil.logInfo('\n TEST PASSED:Edits are saved successfully in tA articles'
 WebUI.click(findTestObject('Object Repository/Page_tC Create/Page_tC Create/svg_en_ta_deleteIcon_en_ta'))
 CustomKeywords.'com.tccreate.keywords.selectOrg.resource'('unfoldingWord® Translation Notes')
 CustomKeywords.'com.tccreate.keywords.selectOrg.checkBranchAlert'()
-WebUI.click(findTestObject('Page_tC Create/file_Parmed', [('fileName') : "en_tn_04-NUM.tsv"]))
+WebUI.click(findTestObject('Page_tC Create/file_Parmed', [('fileName') : "tn_NUM.tsv"]))
 println("Opening book")
 WebUI.delay(5)
 if(WebUI.verifyElementVisible(findTestObject('Object Repository/Page_tCC translationNotes/Button-Add-row'), FailureHandling.CONTINUE_ON_FAILURE))

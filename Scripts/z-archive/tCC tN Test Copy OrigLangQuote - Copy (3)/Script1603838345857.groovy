@@ -52,7 +52,7 @@ for (def i : (0..origQuote.size() - 1)) {
 // Show OrigQuotes
 WebUI.click(findTestObject('Page_tCC translationNotes/button_ViewColumns'))
 
-WebUI.click(findTestObject('Page_tCC translationNotes/columns_OrigQuote'))
+WebUI.click(findTestObject('Page_tCC translationNotes/columns_Quote'))
 
 WebUI.click(findTestObject('Page_tCC translationNotes/btnX_CloseColumns'))
 
@@ -216,7 +216,7 @@ def setGLOrigQuote(def fnc, def quote) {
         WebUI.setText(findTestObject('Page_tCC translationNotes/text_OrigQuote-GL-xyz8'), quote)
     }
     
-    WebUI.clickOffset(findTestObject('Page_tCC translationNotes/label_OrigQuote'), -10, -10)
+    WebUI.clickOffset(findTestObject('Page_tCC translationNotes/label_Quote'), -10, -10)
 }
 
 def printHighlightStatus(def element, def elementText) {

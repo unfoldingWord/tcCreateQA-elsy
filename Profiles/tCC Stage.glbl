@@ -71,7 +71,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'en_tn_57-TIT.tsv'</initValue>
+      <initValue>'tn_TIT.tsv'</initValue>
       <name>tNFile</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

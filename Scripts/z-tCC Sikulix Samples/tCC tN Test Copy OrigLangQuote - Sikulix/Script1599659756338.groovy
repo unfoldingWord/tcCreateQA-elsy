@@ -22,7 +22,7 @@ WebUI.callTestCase(findTestCase('tCC Components/tCC tN Open For Edit'), [:], Fai
 
 WebUI.click(findTestObject('Page_tCC translationNotes/button_ViewColumns'))
 
-WebUI.click(findTestObject('Page_tCC translationNotes/columns_OrigQuote'))
+WebUI.click(findTestObject('Page_tCC translationNotes/columns_Quote'))
 
 WebUI.click(findTestObject('Object Repository/Page_tCC translationNotes/btnX_CloseColumns'))
 
@@ -114,7 +114,7 @@ not_run: WebUI.callTestCase(findTestCase('null'), [('resource') : 'unfoldingWord
 
 not_run: WebUI.click(findTestObject('Page_tCC translationNotes/button_ViewColumns'))
 
-not_run: WebUI.click(findTestObject('Page_tCC translationNotes/columns_OrigQuote'))
+not_run: WebUI.click(findTestObject('Page_tCC translationNotes/columns_Quote'))
 
 not_run: WebUI.click(findTestObject('null'))
 

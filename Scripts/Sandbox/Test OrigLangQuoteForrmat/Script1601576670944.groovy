@@ -30,7 +30,7 @@ WebUI.callTestCase(findTestCase('tCC Components/tCC tN Open For Edit'), [('$user
 
 WebUI.click(findTestObject('Page_tCC translationNotes/button_ViewColumns'))
 
-WebUI.click(findTestObject('Page_tCC translationNotes/columns_OrigQuote'))
+WebUI.click(findTestObject('Page_tCC translationNotes/columns_Quote'))
 
 WebUI.click(findTestObject('Page_tCC translationNotes/btnX_CloseColumns'))
 

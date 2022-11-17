@@ -64,7 +64,7 @@ WebUI.click(findTestObject('Page_tCC translationNotes/option_RowsPerPage_parmned
 // Show OrigQuotes
 WebUI.click(findTestObject('Page_tCC translationNotes/button_ViewColumns'))
 
-WebUI.click(findTestObject('Page_tCC translationNotes/columns_OrigQuote'))
+WebUI.click(findTestObject('Page_tCC translationNotes/columns_Quote'))
 
 WebUI.click(findTestObject('Page_tCC translationNotes/btnX_CloseColumns'))
 
@@ -204,7 +204,7 @@ if ((system.contains('Windows') || myBrowser.contains('firefox')) || CustomKeywo
 			println(enText + ' is not highlighted as desired')
 		}
 		
-	    WebUI.clickOffset(findTestObject('Page_tCC translationNotes/label_OrigQuote'), -10, -10)
+	    WebUI.clickOffset(findTestObject('Page_tCC translationNotes/label_Quote'), -10, -10)
 	
 	} else {
 	
@@ -297,7 +297,7 @@ def setGLOrigQuote(def fnc, def quote, clickOut) {
     }
 	
 	if (clickOut) {
-		WebUI.clickOffset(findTestObject('Page_tCC translationNotes/label_OrigQuote'), -10, -10)
+		WebUI.clickOffset(findTestObject('Page_tCC translationNotes/label_Quote'), -10, -10)
 	}
 		
 }

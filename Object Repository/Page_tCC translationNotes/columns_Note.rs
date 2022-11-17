@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>columns_Book</name>
+   <name>columns_Note</name>
    <tag></tag>
-   <elementGuidId>964d44d1-5aac-4b5b-882e-87c162471171</elementGuidId>
+   <elementGuidId>15cf13b1-f2f4-443e-9794-30d0f00fc5bc</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@value='OccurrenceNote']</value>
+      </entry>
       <entry>
          <key>CSS</key>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@type = 'checkbox' and @value = 'Book']</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//input[@value='Book']</value>
+         <value>//*[@type = 'checkbox' and @value = 'Note']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -25,6 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>77a14d90-c2c5-4780-a9dc-49a4a4927d47</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -32,6 +33,7 @@
       <name>class</name>
       <type>Main</type>
       <value>jss31837</value>
+      <webElementGuid>ff27ff5b-4477-4e0d-893f-b9ce8a965825</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,6 +41,7 @@
       <name>type</name>
       <type>Main</type>
       <value>checkbox</value>
+      <webElementGuid>14d562b0-46be-459a-b0a0-991419571dd9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,13 +49,15 @@
       <name>data-indeterminate</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>b9cb5882-61c8-4dd6-97fe-632a91ff9240</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>Book</value>
+      <value>Note</value>
+      <webElementGuid>a9c624b0-dc9d-4038-b8e0-e26b8a75fc19</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -60,19 +65,22 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;MuiPopover-root-172&quot;]/div[@class=&quot;MuiPaper-root-66 MuiPopover-paper-173 MuiPaper-elevation2-71 MuiPaper-rounded-67&quot;]/fieldset[@class=&quot;MuiFormControl-root-31819 jss31811&quot;]/div[@class=&quot;MuiFormGroup-root-31823 jss31813&quot;]/label[@class=&quot;MuiFormControlLabel-root-31825 jss31814&quot;]/span[@class=&quot;MuiButtonBase-root-162 MuiIconButton-root-154 jss31834 MuiCheckbox-root-31830 jss31816 MuiCheckbox-colorPrimary-31832 jss31815 MuiIconButton-colorPrimary-158&quot;]/span[@class=&quot;MuiIconButton-label-161&quot;]/input[@class=&quot;jss31837&quot;]</value>
+      <webElementGuid>07ac4fe8-dfbb-4579-9bed-0ffd528f3087</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@value='Book']</value>
+      <value>//input[@value='OccurrenceNote']</value>
+      <webElementGuid>cccc3f6c-3eca-48db-9131-5c0cdc0c9a35</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//label[2]/span/span/input</value>
+      <value>//label[10]/span/span/input</value>
+      <webElementGuid>099de175-585e-4699-876e-52ff23359d31</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

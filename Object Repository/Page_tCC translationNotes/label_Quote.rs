@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_OrigQuote</name>
+   <name>label_Quote</name>
    <tag></tag>
    <elementGuidId>d786020c-5ed6-4e99-a168-0e42b7a1e7ee</elementGuidId>
    <selectorCollection>
@@ -15,7 +15,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'OrigQuote' or . = 'OrigQuote')]</value>
+         <value>//*[(text() = 'Quote' or . = 'Quote')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -26,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h6</value>
+      <webElementGuid>be098345-383c-4194-bff1-5cf6b1ff87b6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -33,13 +34,15 @@
       <name>class</name>
       <type>Main</type>
       <value>MuiTypography-root-114 jss255 MuiTypography-subtitle2-126 MuiTypography-colorTextSecondary-140 MuiTypography-alignLeft-129</value>
+      <webElementGuid>8b33d15a-eed8-4e7e-80e1-2caf7497c4df</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>OrigQuote</value>
+      <value>Quote</value>
+      <webElementGuid>1f4dde7a-2a3b-4ba0-be4f-fd0f3bf6da1e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,6 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;MUIDataTableBodyRow-3&quot;)/td[@class=&quot;MuiTableCell-root-214 MuiTableCell-body-216 jss240&quot;]/div[@class=&quot;jss240&quot;]/div[@class=&quot;cell-3-6 jss252&quot;]/div[@class=&quot;jss257&quot;]/div[@class=&quot;jss254&quot;]/h6[@class=&quot;MuiTypography-root-114 jss255 MuiTypography-subtitle2-126 MuiTypography-colorTextSecondary-140 MuiTypography-alignLeft-129&quot;]</value>
+      <webElementGuid>7011c255-4545-4794-a70d-70ac17e43c26</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,6 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tr[@id='MUIDataTableBodyRow-3']/td[3]/div/div/div/div[2]/h6</value>
+      <webElementGuid>a58902ed-90e7-481f-a0b2-ab6c3b132814</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,6 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='OrigQuote'])[8]/following::h6[1]</value>
+      <webElementGuid>4274f5bf-1a13-4734-93c6-e0965856f898</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -68,6 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='SupportReference'])[9]/following::h6[2]</value>
+      <webElementGuid>1ed5cdeb-0f98-46a1-8c14-49ddaba786ae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,6 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='OccurrenceNote'])[8]/preceding::h6[1]</value>
+      <webElementGuid>27adea05-31b1-49cb-a9a4-7805955d403e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,6 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Knowledge'])[1]/preceding::h6[2]</value>
+      <webElementGuid>7eeb913c-13c2-46c7-934c-25fc0aaac8c4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,5 +98,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[4]/td[3]/div/div/div/div[2]/h6</value>
+      <webElementGuid>8e58b7a4-df0a-4504-8d74-373d27deb753</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

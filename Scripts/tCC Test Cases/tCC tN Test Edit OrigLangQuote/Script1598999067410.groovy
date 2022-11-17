@@ -25,7 +25,7 @@ WebUI.callTestCase(findTestCase('tCC Components/tCC tsv Open For Edit'), [:], Fa
 
 WebUI.click(findTestObject('Page_tCC translationNotes/button_ViewColumns'))
 
-WebUI.click(findTestObject('Page_tCC translationNotes/columns_OrigQuote'))
+WebUI.click(findTestObject('Page_tCC translationNotes/columns_Quote'))
 
 WebUI.click(findTestObject('Page_tCC translationNotes/btnX_CloseColumns'))
 
@@ -61,9 +61,9 @@ WebUI.callTestCase(findTestCase('tCC Components/tCC tsv Open For Edit'), [:], Fa
 
 WebUI.click(findTestObject('Page_tCC translationNotes/button_ViewColumns'))
 
-WebUI.click(findTestObject('Page_tCC translationNotes/columns_OrigQuote'))
+WebUI.click(findTestObject('Page_tCC translationNotes/columns_Quote'))
 
-WebUI.clickOffset(findTestObject('Page_tCC translationNotes/columns_OrigQuote'), -30, 0)
+WebUI.clickOffset(findTestObject('Page_tCC translationNotes/columns_Quote'), -30, 0)
 
 origQuote2 = WebUI.getText(findTestObject('Page_tCC translationNotes/text_OrigQuote-GL-rtc9'))
 

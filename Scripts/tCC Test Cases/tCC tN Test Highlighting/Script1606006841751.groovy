@@ -37,7 +37,7 @@ import java.awt.Toolkit as Toolkit
 
 download = true
 
-myFile = 'en_tn_65-3JN.tsv' // SET TO FILE TO BE TESTED
+myFile = 'tn_3JN.tsv' // SET TO FILE TO BE TESTED
 myId = ''					// SET TO THE ID OF THE CHECK TO START TESTING WITH. IF EMPTY, STARTS WITH FIRST ID.
 
 fName = '/Users/' + GlobalVariable.pcUser + '/Downloads/' + myFile
@@ -162,11 +162,11 @@ WebUI.click(findTestObject('Page_tCC translationNotes/button_ViewColumns'))
 
 WebUI.click(findTestObject('Page_tCC translationNotes/columns_ID'))
 
-WebUI.click(findTestObject('Page_tCC translationNotes/columns_OrigQuote'))
+WebUI.click(findTestObject('Page_tCC translationNotes/columns_Quote'))
 
 WebUI.click(findTestObject('Page_tCC translationNotes/columns_SupportReference'))
 
-WebUI.click(findTestObject('Page_tCC translationNotes/columns_OccurrenceNote'))
+WebUI.click(findTestObject('Page_tCC translationNotes/columns_Note'))
 
 WebUI.click(findTestObject('Page_tCC translationNotes/btnX_CloseColumns'))
 

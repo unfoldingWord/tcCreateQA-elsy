@@ -87,26 +87,23 @@ page = 'Page_tCC translationNotes/'
 //def columns = new String[10]
 columns = []
 
-columns = ['Page_tCC translationNotes/columns_RowHeader', 'Page_tCC translationNotes/columns_Book', 
-	'Page_tCC translationNotes/columns_Chapter', 'Page_tCC translationNotes/columns_Verse', 'Page_tCC translationNotes/columns_ID', 
-	'Page_tCC translationNotes/columns_SupportReference', 'Page_tCC translationNotes/columns_OrigQuote', 
-	'Page_tCC translationNotes/columns_Occurrence', 'Page_tCC translationNotes/columns_GLQuote', 
-	'Page_tCC translationNotes/columns_OccurrenceNote']
+columns = ['Page_tCC translationNotes/columns_RowHeader', 'Page_tCC translationNotes/columns_Reference', 'Page_tCC translationNotes/columns_ID', 
+	'Page_tCC translationNotes/columns_SupportReference','Page_tCC translationNotes/columns_Tags', 'Page_tCC translationNotes/columns_Quote', 
+	'Page_tCC translationNotes/columns_Occurrence', 'Page_tCC translationNotes/columns_Note']
 
 //def elements = new String[10][3]
 elements = ([][[]])
 // need to fix the objects below>>
 elements = [['Page_tCC translationNotes/text_RowHeader_TIT frontintro', 'Page_tCC translationNotes/text_RowHeader_TIT 1intro', 
 	'Page_tCC translationNotes/text_RowHeader_Titus 11'], // 
-	['Page_tCC translationNotes/label_Book', 'Page_tCC translationNotes/text_Book_TIT'], //
-	['Page_tCC translationNotes/label_Chapter', 'Page_tCC translationNotes/text_Chapter_front', 'Page_tCC translationNotes/text_Chapter_1'], //
-	['Page_tCC translationNotes/label_Verse', 'Page_tCC translationNotes/text_Verse_intro', 'Page_tCC translationNotes/text_Verse_1'], //
+
+	['Page_tCC translationNotes/label_Reference', 'Page_tCC translationNotes/text_Chapter_front', 'Page_tCC translationNotes/text_Chapter_1'], //
+	['Page_tCC translationNotes/label_Tags', 'Page_tCC translationNotes/text_Verse_intro', 'Page_tCC translationNotes/text_Verse_1'], //
 	['Page_tCC translationNotes/label_ID', 'Page_tCC translationNotes/text_ID_m2jl', 'Page_tCC translationNotes/text_ID_c7me'], //
 	['Page_tCC translationNotes/label_SupportReference', 'Page_tCC translationNotes/text_SupRef_figs-abstractnouns'], // 
 	['Page_tCC translationNotes/label_OrigQuote_Text', 'Page_tCC translationNotes/text_OrigQuote1', 'Page_tCC translationNotes/text_OrigQuote2'], //
 	['Page_tCC translationNotes/label_Occurrence', 'Page_tCC translationNotes/text_Occurrence_0', 'Page_tCC translationNotes/text_Occurrence_1'], //
-	['Page_tCC translationNotes/label_GLQuote', 'Page_tCC translationNotes/text_GLQuote_for the faith', 'Page_tCC translationNotes/text_GLQuote_knowledge'], //
-	['Page_tCC translationNotes/label_OccurrenceNote', 'Page_tCC translationNotes/text_OccurrenceNote_Who wrote the Book of Titus']]
+	['Page_tCC translationNotes/label_Note', 'Page_tCC translationNotes/text_OccurrenceNote_Who wrote the Book of Titus']]
 
 WebUI.click(findTestObject('Page_tCC translationNotes/button_ViewColumns'))
 

@@ -5,6 +5,30 @@
    <tag>Issues tested: 160, 455, 498</tag>
    <comment></comment>
    <testCaseGuid>6ef40a5a-447a-4cf3-bcf8-2c137ef0ef7c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ebd78070-923d-49f2-ad3c-dd25d37c4069</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d421b42f-d5fa-48c1-804a-3c321a9cf6e0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>69bab9f0-302b-4fde-a5fb-79fda335e3e9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8c7d35d1-ccea-49ff-86f0-5a75822b9c0c</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>

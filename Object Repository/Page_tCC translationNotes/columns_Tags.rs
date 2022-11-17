@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>columns_OrigQuote</name>
+   <name>columns_Tags</name>
    <tag></tag>
-   <elementGuidId>21fb7096-b720-44fc-b0ab-9b8e29cccbad</elementGuidId>
+   <elementGuidId>7378b18a-4f87-4600-92bc-40b2650bb4bb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'checkbox' and @value = 'OrigQuote']</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//input[@value='OrigQuote']</value>
+         <value>//input[@value='Chapter']</value>
       </entry>
       <entry>
          <key>CSS</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'checkbox' and @value = 'Tags']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -25,13 +25,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>498eb636-b4aa-460c-9750-a0eaaebcd74d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>jss956</value>
+      <value>jss31837</value>
+      <webElementGuid>484aaadd-2121-4301-90ec-b3310e2fad84</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,6 +41,7 @@
       <name>type</name>
       <type>Main</type>
       <value>checkbox</value>
+      <webElementGuid>76ef569b-f10e-41c4-a649-29485f52fcd5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,33 +49,38 @@
       <name>data-indeterminate</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>566de25c-72a3-4e34-a34d-31d87970db51</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>OrigQuote</value>
+      <value>Tags</value>
+      <webElementGuid>8da26df7-f2cb-4022-bcfd-6ad41951fa5f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[@class=&quot;MuiPopover-root-754&quot;]/div[@class=&quot;MuiPaper-root-646 MuiPopover-paper-755 MuiPaper-elevation2-651 MuiPaper-rounded-647&quot;]/fieldset[@class=&quot;MuiFormControl-root-935 jss927&quot;]/div[@class=&quot;MuiFormGroup-root-939 jss929&quot;]/label[@class=&quot;MuiFormControlLabel-root-941 jss930&quot;]/span[@class=&quot;MuiButtonBase-root-742 MuiIconButton-root-733 jss953 MuiCheckbox-root-947 jss932 MuiCheckbox-colorSecondary-952 jss931 MuiIconButton-colorSecondary-738&quot;]/span[@class=&quot;MuiIconButton-label-741&quot;]/input[@class=&quot;jss956&quot;]</value>
+      <value>/html[1]/body[1]/div[@class=&quot;MuiPopover-root-172&quot;]/div[@class=&quot;MuiPaper-root-66 MuiPopover-paper-173 MuiPaper-elevation2-71 MuiPaper-rounded-67&quot;]/fieldset[@class=&quot;MuiFormControl-root-31819 jss31811&quot;]/div[@class=&quot;MuiFormGroup-root-31823 jss31813&quot;]/label[@class=&quot;MuiFormControlLabel-root-31825 jss31814&quot;]/span[@class=&quot;MuiButtonBase-root-162 MuiIconButton-root-154 jss31834 MuiCheckbox-root-31830 jss31816 MuiCheckbox-colorPrimary-31832 jss31815 MuiIconButton-colorPrimary-158&quot;]/span[@class=&quot;MuiIconButton-label-161&quot;]/input[@class=&quot;jss31837&quot;]</value>
+      <webElementGuid>1d77a96a-28c2-445b-86ce-a4921753a743</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@value='OrigQuote']</value>
+      <value>//input[@value='Chapter']</value>
+      <webElementGuid>f9a73c49-db0a-479b-8ff8-0f877d231c03</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//label[7]/span/span/input</value>
+      <value>//label[3]/span/span/input</value>
+      <webElementGuid>c6ccd182-aa20-4d9d-bbdf-c47b31eb9299</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

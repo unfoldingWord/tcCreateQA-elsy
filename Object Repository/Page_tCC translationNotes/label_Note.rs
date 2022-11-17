@@ -1,56 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_GLQuote</name>
+   <name>label_Note</name>
    <tag></tag>
-   <elementGuidId>57df3110-d427-4c3b-b47a-c9fab59e2c70</elementGuidId>
+   <elementGuidId>fe88286a-6375-4ba3-bb28-3cea881f4117</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>h6.MuiTypography-root-113.jss6790.MuiTypography-subtitle2-125.MuiTypography-colorTextSecondary-139.MuiTypography-alignLeft-128</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//h6[(text() = 'GLQuote' or . = 'GLQuote')]</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//tr[@id='MUIDataTableBodyRow-0']/td/div/div/div/div/h6</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h6.MuiTypography-root-113.jss307.MuiTypography-subtitle2-125.MuiTypography-colorTextSecondary-139.MuiTypography-alignLeft-128</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Note' or . = 'Note')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>h6</value>
-      <webElementGuid>c0b819e9-d5aa-4257-91d4-eabd03af0941</webElementGuid>
+      <webElementGuid>d0c9cc35-1f8b-487c-b01b-23800f25ea71</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>MuiTypography-root-113 jss6790 MuiTypography-subtitle2-125 MuiTypography-colorTextSecondary-139 MuiTypography-alignLeft-128</value>
-      <webElementGuid>5053438b-16b2-466e-b9f0-fb4b9584f562</webElementGuid>
+      <value>MuiTypography-root-113 jss307 MuiTypography-subtitle2-125 MuiTypography-colorTextSecondary-139 MuiTypography-alignLeft-128</value>
+      <webElementGuid>5a55a6e1-cf4d-4949-99cf-70381e1a1e38</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>GLQuote</value>
-      <webElementGuid>4c2d3c95-64b7-4191-b921-a3c2a508ed7d</webElementGuid>
+      <value>Note</value>
+      <webElementGuid>b8902841-6f8c-40e6-8112-91086dc97710</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;MUIDataTableBodyRow-0&quot;)/td[@class=&quot;MuiTableCell-root-222 MuiTableCell-body-224 jss6775&quot;]/div[@class=&quot;jss6775&quot;]/div[@class=&quot;cell-0-8 jss6787&quot;]/div[@class=&quot;jss6792&quot;]/div[@class=&quot;jss6788&quot;]/h6[@class=&quot;MuiTypography-root-113 jss6790 MuiTypography-subtitle2-125 MuiTypography-colorTextSecondary-139 MuiTypography-alignLeft-128&quot;]</value>
-      <webElementGuid>1e19f332-f8ab-4289-abde-7d1283fb68ab</webElementGuid>
+      <value>id(&quot;MUIDataTableBodyRow-0&quot;)/td[@class=&quot;MuiTableCell-root-222 MuiTableCell-body-224 jss210&quot;]/div[@class=&quot;jss210&quot;]/div[@class=&quot;cell-0-9 jss304&quot;]/div[@class=&quot;jss309&quot;]/div[@class=&quot;jss305&quot;]/h6[@class=&quot;MuiTypography-root-113 jss307 MuiTypography-subtitle2-125 MuiTypography-colorTextSecondary-139 MuiTypography-alignLeft-128&quot;]</value>
+      <webElementGuid>a423f86c-962e-4a98-878b-068ee76e1310</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,15 +58,15 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tr[@id='MUIDataTableBodyRow-0']/td/div/div/div/div/h6</value>
-      <webElementGuid>c426b118-dc50-49b8-82d3-238b7b0585ae</webElementGuid>
+      <webElementGuid>4981a1d1-9b49-47a0-998e-71044f3f01b1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='GLQuote'])[1]/following::h6[1]</value>
-      <webElementGuid>b794369d-3847-4a89-86be-1ad7e1f107c9</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OccurrenceNote'])[1]/following::h6[1]</value>
+      <webElementGuid>920910ba-06e5-4cb2-8272-6fec3642d99b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,23 +74,23 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='English - translate_test/en_tn/tcc001-tc-create-1'])[1]/following::h6[2]</value>
-      <webElementGuid>68bd8035-e23e-4c36-9b27-40d94b03fa03</webElementGuid>
+      <webElementGuid>8fb794f1-980c-4cda-8cb6-e2094d32f606</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='empty'])[1]/preceding::h6[1]</value>
-      <webElementGuid>388e2190-cdef-4334-a2cf-cd7c24240249</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Introduction to Titus'])[1]/preceding::h6[1]</value>
+      <webElementGuid>e30c3b11-50a6-419b-8b59-5c05249d1f67</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='GLQuote'])[3]/preceding::h6[1]</value>
-      <webElementGuid>fe26307e-1243-4b01-99da-90afda258859</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Part 1: General Introduction'])[1]/preceding::h6[1]</value>
+      <webElementGuid>a7af8b75-039e-4660-bc4c-f904dccbf859</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +98,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td/div/div/div/div/h6</value>
-      <webElementGuid>05d4747e-df07-42e2-ad4d-ae0a4154754e</webElementGuid>
+      <webElementGuid>36492aa7-0b00-4355-b1af-e04a2f731443</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
