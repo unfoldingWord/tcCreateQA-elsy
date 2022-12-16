@@ -47,18 +47,12 @@ dupsOnly = true
 testFiles = []
 
 new File(myBooks).splitEachLine(',', { def fields ->
-		bookNum = (fields[0])
-
-		if (bookNum.length() < 2) {
-			bookNum = ('0' + bookNum)
-		}
-		
 		bookAbrv = (fields[1])
 
-		testFiles.add(bookNum + '-' + bookAbrv)
+		testFiles.add(bookAbrv)
 	})
 
-//testFiles = ['08-RUT']
+//testFiles = ['RUT']
 
 server = CustomKeywords.'unfoldingWord_Keywords.GetTestingConfig.getServer'()
 
@@ -88,7 +82,7 @@ CustomKeywords.'unfoldingWord_Keywords.SendMessage.SendInfoMessage'('Testing fil
 
 testFiles.each { book ->
 	
-	file = 'en_tn_' + book + '.tsv'
+	file = 'tn_' + book + '.tsv'
 	
 	println('>>>>>>>>>> Processing ' + file + ' <<<<<<<<<<<')
 	
@@ -99,7 +93,7 @@ testFiles.each { book ->
 	WebUI.navigateToUrl(repoFile)
 	
 	if (WebUI.verifyElementPresent(findTestObject('Page_Git Repo/text_404_Error'), 1, FailureHandling.OPTIONAL)) {
-		if (!dupesOnly) {
+		if (!dupsOnly) {
 			msg = '404 error on ' + repoFile
 			println(msg)
 			CustomKeywords.'unfoldingWord_Keywords.SendMessage.SendInfoMessage'(msg)
@@ -135,25 +129,18 @@ def getRowIDs(file) {
 	int r = 0
 	dupCount = 0
 	def ids = [:]
-	def chpts = []
-	def verss = []
+	def refs = []
 	def table = WebUI.getText(findTestObject('Object Repository/Page_Git Repo/text_raw'))
-	//println("table is :" + table)
 	table.splitEachLine(' ', { def fields ->
-		book = fields[0]
-		//println("book is" + book)
-		chapter = fields[1]
-		//println("chapter is" +chapter)
-		verse = fields[2]
-		//println("verse is" + verse)
-		id = fields[3]
-		chpts.add(chapter)
-		verss.add(verse)
+		refss= fields[0]
+		id = fields[1]
+		refs.add(refss)
+		//verss.add(verse)
 	//})
 		if (ids.containsKey(id)) {
 			row1 = ids.get(id)
 			println("row1 is:" + row1)
-			rowMsg = ('ID ' + id + ' is duplicateed in rows ' + row1 + ', Ref ' + chpts[row1] + ':' + verss[row1] + ', and ' + r + ', Ref ' + chapter + ':' + verse + ' in ' + file)
+			rowMsg = ('ID ' + id + ' is duplicated in rows ' + row1 + ', Ref ' + refss[row1] + ', and ' + r + ', Ref ' + refs  + ' in ' + file)
 			println('##### ERROR: ' + rowMsg)
 			CustomKeywords.'unfoldingWord_Keywords.SendMessage.SendFailMessage'('Test failed because ' + rowMsg)
 			dupCount ++

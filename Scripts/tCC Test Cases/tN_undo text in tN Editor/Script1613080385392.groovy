@@ -34,7 +34,7 @@ CustomKeywords.'com.tccreate.keywords.selectOrg.resource'('unfoldingWord® Trans
 CustomKeywords.'com.tccreate.keywords.selectOrg.language'("")
 CustomKeywords.'com.tccreate.keywords.selectOrg.checkBranchAlert'()
 
-WebUI.click(findTestObject('Object Repository/Page_tC Create/span_en_tn_57-TIT.tsv'))
+WebUI.click(findTestObject('Object Repository/Page_tC Create/tn_TIT.tsv'))
 CustomKeywords.'com.tccreate.keywords.selectOrg.checkBranchAlert'()
 WebUI.click(findTestObject('Object Repository/Page_tC Create/div_Introduction to TitusPart 1'))
 

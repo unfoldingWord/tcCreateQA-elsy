@@ -35,7 +35,7 @@ timings = []
 avgTimes = []
 
 WebUI.callTestCase(findTestCase('tCC Components/tCC tsv Open For Edit'), [('$username') : GlobalVariable.validateUser, ('$password') : GlobalVariable.validatePassword
-	, ('file') : 'en_tn_42-MRK.tsv', ('language') : ''], FailureHandling.STOP_ON_FAILURE)
+	, ('file') : 'tn_MRK.tsv', ('language') : ''], FailureHandling.STOP_ON_FAILURE)
 
 for (rows in rowsList) {
 	

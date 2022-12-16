@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_en_tn_57-TIT.tsv</name>
+   <name>tn_TIT.tsv</name>
    <tag></tag>
    <elementGuidId>4f3fb2b2-3479-4dc2-b126-2b5f656447b3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'MuiTypography-root MuiListItemText-primary MuiTypography-body2 MuiTypography-displayBlock' and (text() = 'en_tn_57-TIT.tsv' or . = 'en_tn_57-TIT.tsv')]</value>
+         <value>//*[(text() = 'tn_TIT.tsv' or . = 'tn_TIT.tsv')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='root']/div/div/div/div/div[2]/div/div/div/div/ul/div[59]/div/div[2]/span</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -25,20 +25,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>1f475311-1a74-49f1-8ac6-31501c22ba0f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>MuiTypography-root MuiListItemText-primary MuiTypography-body2 MuiTypography-displayBlock</value>
+      <webElementGuid>c3e07c8f-2349-465c-afde-ee24ea8e0f19</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>en_tn_57-TIT.tsv</value>
+      <value>tn_TIT.tsv</value>
+      <webElementGuid>dc492e86-f88e-482d-9be8-996b33f7f98d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,6 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[1]/div[@class=&quot;MuiPaper-root MuiPaper-elevation1 MuiPaper-rounded&quot;]/div[@class=&quot;jss11&quot;]/div[2]/div[@class=&quot;jss12&quot;]/div[@class=&quot;MuiCollapse-container MuiCollapse-entered&quot;]/div[@class=&quot;MuiCollapse-wrapper&quot;]/div[@class=&quot;MuiCollapse-wrapperInner&quot;]/ul[@class=&quot;MuiList-root jss45 MuiList-dense MuiList-padding&quot;]/div[59]/div[@class=&quot;MuiButtonBase-root MuiListItem-root jss48 MuiListItem-dense MuiListItem-gutters MuiListItem-button&quot;]/div[@class=&quot;MuiListItemText-root jss49 MuiListItemText-dense MuiListItemText-multiline&quot;]/span[@class=&quot;MuiTypography-root MuiListItemText-primary MuiTypography-body2 MuiTypography-displayBlock&quot;]</value>
+      <webElementGuid>e8e78e4e-0e8e-45c5-b5cf-76cf1a429bfb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,6 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div/div/div/div[2]/div/div/div/div/ul/div[59]/div/div[2]/span</value>
+      <webElementGuid>2e916d41-a30e-4fe1-ab46-f502ad84a530</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -60,6 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='en_tn_56-2TI.tsv'])[1]/following::span[2]</value>
+      <webElementGuid>e847d275-2a27-488d-b04e-ef500d5307b4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -67,6 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='en_tn_55-1TI.tsv'])[1]/following::span[4]</value>
+      <webElementGuid>bdcb625b-cae9-4b68-95c8-7f8eba2790ff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,6 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='en_tn_58-PHM.tsv'])[1]/preceding::span[4]</value>
+      <webElementGuid>935c3c8c-91d4-464e-82cc-4a57eb5f2a4c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,6 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='en_tn_59-HEB.tsv'])[1]/preceding::span[6]</value>
+      <webElementGuid>3a7e602b-412e-47ae-8ed4-52a034312987</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,6 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='en_tn_57-TIT.tsv']/parent::*</value>
+      <webElementGuid>68bb887d-d82d-4611-8db2-78689f9761a9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,5 +105,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[59]/div/div[2]/span</value>
+      <webElementGuid>80b3897a-5595-4607-b68a-5e045dae7f99</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

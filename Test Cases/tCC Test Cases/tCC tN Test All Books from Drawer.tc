@@ -5,6 +5,18 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>a03464e1-f0ae-40bc-b54e-a58293d66c0b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fa40ebb5-072f-4e8f-902a-f86e2130dfc4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>82af7ad2-9943-4d36-b2bc-022d3f40433c</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'elsylambert'</defaultValue>
       <description></description>

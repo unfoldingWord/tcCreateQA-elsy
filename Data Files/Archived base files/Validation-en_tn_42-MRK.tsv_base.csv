@@ -1,0 +1,13 @@
+﻿Priority,Chapter,Verse,Line,Row ID,Details,Char Pos,Excerpt,Message,Location
+550,2,19,130,eke3,,,undefined,Invalid zero occurrence field when we have an original quote,
+163,6,14,418,sc6s,GLQuote,,undefined,Mismatched “” characters,
+563,7,19,534,hm98,OrigQuote,,undefined,Mismatched () characters,
+550,8,14,603,gtg6,,,undefined,Invalid zero occurrence field when we have an original quote,
+550,8,33,636,nu32,,,undefined,Invalid zero occurrence field when we have an original quote,
+163,10,10,797,c2ya,OccurrenceNote,,undefined,Mismatched “” characters,
+163,10,17,816,fpp6,OccurrenceNote,,undefined,Mismatched “” characters,
+163,10,30,844,v8nr,OccurrenceNote,,undefined,Mismatched “” characters,
+177,10,33,853,ils2,OccurrenceNote,42,…tiles””,Unexpected doubled ” characters,
+163,10,33,853,ils2,OccurrenceNote,,undefined,Mismatched “” characters,
+163,11,14,927,u3bk,GLQuote,,undefined,Mismatched “” characters,
+563,15,21,1369,cyn6,GLQuote,,undefined,Mismatched () characters,

@@ -37,7 +37,8 @@ import java.awt.Toolkit as Toolkit
 
 download = true
 
-myFile = 'tn_3JN.tsv' // SET TO FILE TO BE TESTED
+myFile = 'en_tn_65-3JN.tsv' // SET TO FILE TO BE TESTED
+myfile1 = 'tn_3JN.tsv'
 myId = ''					// SET TO THE ID OF THE CHECK TO START TESTING WITH. IF EMPTY, STARTS WITH FIRST ID.
 
 fName = '/Users/' + GlobalVariable.pcUser + '/Downloads/' + myFile
@@ -153,7 +154,7 @@ new File('/Users/' + GlobalVariable.pcUser + '/Downloads/' + myFile).splitEachLi
         }
     })
 
-WebUI.callTestCase(findTestCase('tCC Components/tCC tsv Open For Edit'), [('$username') : '', ('$password') : '', ('file') : myFile], 
+WebUI.callTestCase(findTestCase('tCC Components/tCC tsv Open For Edit'), [('$username') : '', ('$password') : '', ('file') : myfile1], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementPresent(findTestObject('Page_tCC translationNotes/button_ViewColumns'), 20)

@@ -1,0 +1,8 @@
+﻿Priority,Chapter,Verse,Line,Row ID,Details,Char Pos,Excerpt,Message,Location
+889,front,intro,2,m2jl,SupportReference,,​,Unable to find SupportReference TA link, translate/​/01.md
+851,front,intro,2,m2jl,OrigQuote,,undefined,Unable to load original language verse text,
+550,front,intro,2,m2jl,,,undefined,Invalid zero occurrence field when we have an original quote,
+194,front,intro,2,m2jl,OccurrenceNote,110,…br>1.␣␣Pau…,Unexpected double spaces,
+581,front,intro,2,m2jl,OccurrenceNote,398,…wrote⍽the …,Unexpected non-break space character,
+916,1,1,4,rtc9,OrigQuote,,,Unable to find original language quote in verse text,
+916,1,1,5,xyz8,OrigQuote,,εὐσέβειαν​,Unable to find original language quote in verse text,

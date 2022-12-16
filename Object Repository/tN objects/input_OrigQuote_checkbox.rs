@@ -7,18 +7,17 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@type = 'checkbox']</value>
+         <value>//input[@type = 'checkbox' and @value = 'Quote']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@value='Occurrence']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>3c4a32ce-d885-4219-9ffe-092173a48b4e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -33,6 +33,7 @@
       <name>class</name>
       <type>Main</type>
       <value>jss2223</value>
+      <webElementGuid>a957e604-11f6-4b4c-9550-9bee2e1b1296</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -40,6 +41,7 @@
       <name>type</name>
       <type>Main</type>
       <value>checkbox</value>
+      <webElementGuid>d6b52ebb-003d-4a9e-9f86-3342c65ced29</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,13 +49,15 @@
       <name>data-indeterminate</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>7713a15b-d856-4d86-ae7a-39e0783d7f04</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>Occurrence</value>
+      <value>Quote</value>
+      <webElementGuid>c46d9cd5-1ab8-49f7-a487-6cf20c2bd9d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,6 +65,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;MuiPopover-root-173&quot;]/div[@class=&quot;MuiPaper-root-67 MuiPopover-paper-174 MuiPaper-elevation2-72 MuiPaper-rounded-68&quot;]/fieldset[@class=&quot;MuiFormControl-root-2205 jss2197&quot;]/div[@class=&quot;MuiFormGroup-root-2209 jss2199&quot;]/label[@class=&quot;MuiFormControlLabel-root-2211 jss2200&quot;]/span[@class=&quot;MuiButtonBase-root-163 MuiIconButton-root-155 jss2220 MuiCheckbox-root-2216 jss2202 MuiCheckbox-colorPrimary-2218 jss2201 jss2221 Mui-checked jss2203 MuiIconButton-colorPrimary-159&quot;]/span[@class=&quot;MuiIconButton-label-162&quot;]/input[@class=&quot;jss2223&quot;]</value>
+      <webElementGuid>970c2752-2ded-4fe3-aead-b7b9868e31b3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -68,6 +73,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@value='Occurrence']</value>
+      <webElementGuid>fba681ed-4f8c-4392-bf5d-1ce0b1cd323c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,5 +81,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//label[8]/span/span/input</value>
+      <webElementGuid>5497c760-5839-4d36-b5cd-9b0f75cc58ff</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

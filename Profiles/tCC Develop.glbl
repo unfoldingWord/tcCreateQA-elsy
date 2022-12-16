@@ -96,12 +96,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'elsylitsonlambert'</initValue>
+      <initValue>'Elsy Litson'</initValue>
       <name>pcUser</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'/Users/elsylitsonlambert/Katalon Studio/Katalon_tC_Create-koz'</initValue>
+      <initValue>'C:\\Users\\Elsy Litson\\Katalon Studio\\'</initValue>
       <name>projectPath</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

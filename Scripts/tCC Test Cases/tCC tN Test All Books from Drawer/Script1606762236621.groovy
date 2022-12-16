@@ -26,15 +26,11 @@ books = []
 //new File('/Users/' + GlobalVariable.pcUser + '/Katalon Studio/Files/Reference/NT_Books.csv').splitEachLine(',', { def fields ->
 //new File('/Users/' + GlobalVariable.pcUser + '/Katalon Studio/Files/Reference/One_Book.csv').splitEachLine(',', { def fields ->
 new File(GlobalVariable.projectPath + '/Data Files/Reference/Bible_Books.csv').splitEachLine(',', { def fields ->
-        bookNum = (fields[0])
-
-        if (bookNum.length() < 2) {
-            bookNum = ('0' + bookNum)
-        }
+      
         
         bookAbrv = (fields[1])
 
-        bookName = (((('en_tn_' + bookNum) + '-') + bookAbrv) + '.tsv')
+        bookName = (('tn_' + bookAbrv) + '.tsv')
 
         books.add(bookName)
     })

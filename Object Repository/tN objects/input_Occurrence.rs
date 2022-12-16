@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Occurrence_jss2223</name>
+   <name>input_Occurrence</name>
    <tag></tag>
    <elementGuidId>e0550dc8-0883-4115-a36f-ce9d3a991776</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@type = 'checkbox']</value>
+         <value>//*[@type = 'checkbox' and @value = 'Occurrence']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -26,6 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>635c9624-b786-4811-b4a1-79c10e0acbf3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -33,6 +33,7 @@
       <name>class</name>
       <type>Main</type>
       <value>jss2223</value>
+      <webElementGuid>c947fb83-220a-4c9e-9b85-d962796c68af</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -40,6 +41,7 @@
       <name>type</name>
       <type>Main</type>
       <value>checkbox</value>
+      <webElementGuid>2a23e366-9ebb-419c-977f-2bd150dad60c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,13 +49,15 @@
       <name>data-indeterminate</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>4e7a7157-8669-4c14-a1f0-7689710729f0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>GLQuote</value>
+      <value>Occurrence</value>
+      <webElementGuid>123093b1-b9da-4038-89f0-719377e78c2b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,6 +65,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;MuiPopover-root-173&quot;]/div[@class=&quot;MuiPaper-root-67 MuiPopover-paper-174 MuiPaper-elevation2-72 MuiPaper-rounded-68&quot;]/fieldset[@class=&quot;MuiFormControl-root-2205 jss2197&quot;]/div[@class=&quot;MuiFormGroup-root-2209 jss2199&quot;]/label[@class=&quot;MuiFormControlLabel-root-2211 jss2200&quot;]/span[@class=&quot;MuiButtonBase-root-163 MuiIconButton-root-155 jss2220 MuiCheckbox-root-2216 jss2202 MuiCheckbox-colorPrimary-2218 jss2201 MuiIconButton-colorPrimary-159&quot;]/span[@class=&quot;MuiIconButton-label-162&quot;]/input[@class=&quot;jss2223&quot;]</value>
+      <webElementGuid>1a925f70-160e-4b37-a761-3da64c0c666b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -68,6 +73,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@value='GLQuote']</value>
+      <webElementGuid>bc64ade3-7bf9-47ad-932b-6ce321af8492</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,5 +81,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//label[9]/span/span/input</value>
+      <webElementGuid>0d0cb40f-ce6c-4f1a-8a82-21faa43b66fd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

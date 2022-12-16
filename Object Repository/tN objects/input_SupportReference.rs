@@ -7,18 +7,17 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@type = 'checkbox']</value>
+         <value>//*[@type = 'checkbox' and @value = 'Suppot Reference']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@value='OrigQuote']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,6 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>32df23c5-4696-4f1b-b683-2dc71075a98e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -33,6 +33,7 @@
       <name>class</name>
       <type>Main</type>
       <value>jss2223</value>
+      <webElementGuid>772fb6ff-64ab-4eab-8734-1d5e5ccaf5d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -40,6 +41,7 @@
       <name>type</name>
       <type>Main</type>
       <value>checkbox</value>
+      <webElementGuid>c9925cc1-2db8-47b7-8944-508c9e66cc7d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,13 +49,15 @@
       <name>data-indeterminate</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>60cf089c-f849-4de0-b283-162fd4c03052</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>OrigQuote</value>
+      <value>Suppot Reference</value>
+      <webElementGuid>166155bc-6330-4db5-bb44-89b7ec211eee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,6 +65,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;MuiPopover-root-173&quot;]/div[@class=&quot;MuiPaper-root-67 MuiPopover-paper-174 MuiPaper-elevation2-72 MuiPaper-rounded-68&quot;]/fieldset[@class=&quot;MuiFormControl-root-2205 jss2197&quot;]/div[@class=&quot;MuiFormGroup-root-2209 jss2199&quot;]/label[@class=&quot;MuiFormControlLabel-root-2211 jss2200&quot;]/span[@class=&quot;MuiButtonBase-root-163 MuiIconButton-root-155 jss2220 MuiCheckbox-root-2216 jss2202 MuiCheckbox-colorPrimary-2218 jss2201 jss2221 Mui-checked jss2203 MuiIconButton-colorPrimary-159&quot;]/span[@class=&quot;MuiIconButton-label-162&quot;]/input[@class=&quot;jss2223&quot;]</value>
+      <webElementGuid>ff87cf8b-2208-4009-8ac0-269253d45f4f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -68,6 +73,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@value='OrigQuote']</value>
+      <webElementGuid>7e535698-d0d8-4de7-85a0-8a6c4e44410c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,5 +81,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//label[7]/span/span/input</value>
+      <webElementGuid>10ccdadd-cd32-4c4c-be40-6bc0ece598b0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
