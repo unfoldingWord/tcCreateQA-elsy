@@ -37,6 +37,16 @@ avgTimes = []
 WebUI.callTestCase(findTestCase('tCC Components/tCC tsv Open For Edit'), [('$username') : GlobalVariable.validateUser, ('$password') : GlobalVariable.validatePassword
 	, ('file') : 'tn_PSA.tsv', ('language') : ''], FailureHandling.STOP_ON_FAILURE)
 
+timeStartOpen = new Date()
+println(timeStartOpen.getTime())
+WebUI.waitForElementClickable(findTestObject('Object Repository/Page_tCC translationNotes/button_NextPage'), 30)
+//WebUI.waitForElementPresent(findTestObject('Object Repository/Page_tCC translationNotes/button_Search'), 30)
+timeEndOpen = new Date()
+println(timeEndOpen.getTime())
+secondsOpen = (timeEndOpen.getTime() - timeStartOpen.getTime())/1000
+
+println('Time taken to open the file '+secondsOpen + ' seconds')
+
 for (rows in rowsList) {
 	
 	msg = 'Timings test on ' + rows + ' rows.'

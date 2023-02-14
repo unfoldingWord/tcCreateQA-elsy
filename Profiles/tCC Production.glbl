@@ -16,7 +16,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'fatak43'</initValue>
+      <initValue>'LuJWeveO3tM='</initValue>
       <name>user1Password</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -36,7 +36,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'translate_test'</initValue>
+      <initValue>'unfoldingWord®'</initValue>
       <name>organization</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -96,12 +96,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Elsy Litson'</initValue>
+      <initValue>'elsylitsonlambert'</initValue>
       <name>pcUser</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'/git/tcCreateQA-elsy'</initValue>
+      <initValue>'C:\\Users\\elsylitsonlambert\\Katalon Studio\\'</initValue>
       <name>projectPath</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

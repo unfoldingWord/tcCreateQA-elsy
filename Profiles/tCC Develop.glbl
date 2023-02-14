@@ -16,7 +16,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'fatak43'</initValue>
+      <initValue>'LuJWeveO3tM='</initValue>
       <name>user1Password</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -96,12 +96,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Elsy Litson'</initValue>
+      <initValue>'elsylitsonlambert'</initValue>
       <name>pcUser</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'C:\\Users\\Elsy Litson\\Katalon Studio\\'</initValue>
+      <initValue>'C:\\Users\\elsylitsonlambert\\Katalon Studio\\'</initValue>
       <name>projectPath</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

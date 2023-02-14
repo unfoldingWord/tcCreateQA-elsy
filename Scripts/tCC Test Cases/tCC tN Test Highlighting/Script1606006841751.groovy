@@ -37,8 +37,8 @@ import java.awt.Toolkit as Toolkit
 
 download = true
 
-myFile = 'en_tn_65-3JN.tsv' // SET TO FILE TO BE TESTED
-myfile1 = 'tn_3JN.tsv'
+myFile = 'tn_3JN.tsv' // SET TO FILE TO BE TESTED
+
 myId = ''					// SET TO THE ID OF THE CHECK TO START TESTING WITH. IF EMPTY, STARTS WITH FIRST ID.
 
 fName = '/Users/' + GlobalVariable.pcUser + '/Downloads/' + myFile
@@ -104,11 +104,11 @@ elips = '…'
 
 ids = []
 
-origQuotes = []
+quote = []
 
-chapters = []
+reference = []
 
-verses = []
+//verses = []
 
 occurs = []
 
@@ -119,31 +119,30 @@ paged = false
 puncts = [',',';',':','"','?','.']
 
 new File('/Users/' + GlobalVariable.pcUser + '/Downloads/' + myFile).splitEachLine('\t', { def fields ->
-        if ((fields[2]) != 'intro') {
+        if ((fields[0]) != 'intro') {
             if (!(first)) {
-                (fields[5]) = (fields[5]).trim()
+                (fields[4]) = (fields[4]).trim()
 
-                occur = (fields[6]).trim()
+                occur = (fields[5]).trim()
 				
 				occur = (occur.toInteger())
 				
 				println(((fields[3]) + ':') + (fields[5]) + ':' + fields[6])
 
-                ids.add(fields[3])
+                ids.add(fields[1])
 				
 				for (punct in puncts) {
-					(fields[5]) = (fields[5]).replace(punct, '')
+					(fields[4]) = (fields[4]).replace(punct, '')
 				}
 				
 				if (OT) {
-					fields[5] = fields[5].replace('־',' ')
+					fields[4] = fields[4].replace('־',' ')
 				}
 
-                origQuotes.add(fields[5])
+                quote.add(fields[4])
 
-                chapters.add(fields[1])
+                reference.add(fields[0])
 
-                verses.add(fields[2])
 				
 				occurs.add(occur)
 				
@@ -154,7 +153,7 @@ new File('/Users/' + GlobalVariable.pcUser + '/Downloads/' + myFile).splitEachLi
         }
     })
 
-WebUI.callTestCase(findTestCase('tCC Components/tCC tsv Open For Edit'), [('$username') : '', ('$password') : '', ('file') : myfile1], 
+WebUI.callTestCase(findTestCase('tCC Components/tCC tsv Open For Edit'), [('$username') : '', ('$password') : '', ('file') : myFile], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementPresent(findTestObject('Page_tCC translationNotes/button_ViewColumns'), 20)
@@ -209,23 +208,23 @@ ids.each({ def id ->
 		
 		occurUsed = false
 
-        println((('string is:' + (origQuotes[i])) + ':  and length is ') + (origQuotes[i]).length() + ' with occurrence of ' + occur)
+        println((('string is:' + (quote[i])) + ':  and length is ') + (quote[i]).length() + ' with occurrence of ' + occur)
 
 		if (occur > 2) {
 			System.exit(1)
 		}
 		
-        if ((origQuotes[i]).length() > 0) {
-            words = (origQuotes[i]).split('…| ')
+        if ((quote[i]).length() > 0) {
+            words = (quote[i]).split('…| ')
         }
         
         if (details) {
-            println(origQuotes[i])
+            println(quote[i])
 
             println(words)
         }
         
-        divId = (((((('id("header-' + (chapters[i])) + '-') + (verses[i])) + '-') + id) + '")')
+        divId = (((('id("header-' + (reference[i])) + '-') + id) + '")')
 		
 		//println('divId:' + divId)
 
@@ -273,8 +272,8 @@ ids.each({ def id ->
             }
 		}
 
-        if (((chapters[i]) != lastChapter) || (((verses[i]) != lastVerse) || paged)) {
-            msg = (((('\nReading spans for ' + (chapters[i])) + ':') + (verses[i])) + '\n')
+        if (((Reference[i]) != lastChapter || paged)) {
+            msg = (('\nReading spans for ' + (reference[i])) + '\n')
 
             paged = false
 
@@ -282,8 +281,8 @@ ids.each({ def id ->
 
             oFile.append(msg)
 
-            ultLeft = (WebUI.getElementLeftPosition(findTestObject('Page_tCC translationNotes/sup_ULT_Reference', [('chpt') : chapters[
-                        i], ('verse') : verses[i]])) - 10)
+            ultLeft = (WebUI.getElementLeftPosition(findTestObject('Page_tCC translationNotes/sup_ULT_Reference', [('chpt') : reference[
+                        i]])) - 10)
 
             if (details) {
                 //println('ultLeft is ' + ultLeft)
@@ -294,8 +293,8 @@ ids.each({ def id ->
 			fncs = []
 
             for (def myNum : (1..100)) {
-                word = WebUI.getText(findTestObject('Page_tCC translationNotes/span_OLW_Parmed', [('myDiv') : divId, ('chpt') : chapters[
-                            i], ('verse') : verses[i], ('wordNum') : myNum]), FailureHandling.OPTIONAL)
+                word = WebUI.getText(findTestObject('Page_tCC translationNotes/span_OLW_Parmed', [('myDiv') : divId, ('chpt') : reference[
+                            i], ('wordNum') : myNum]), FailureHandling.OPTIONAL)
 				
 //				wordText = WebUI.getText(findTestObject('Page_tCC translationNotes/span_OLW_Parmed', [('myDiv') : divId, ('chpt') : chapters[
 //                            i], ('verse') : verses[i], ('wordNum') : myNum]), FailureHandling.OPTIONAL)
@@ -305,7 +304,7 @@ ids.each({ def id ->
 				
 
                 wordLeft = WebUI.getElementLeftPosition(findTestObject('Page_tCC translationNotes/span_OLW_Parmed', [('myDiv') : divId
-                            , ('chpt') : chapters[i], ('verse') : verses[i], ('wordNum') : myNum]))
+                            , ('chpt') : reference[i], ('wordNum') : myNum]))
 				
 				if (!word.contains('fn')) {
 
@@ -341,9 +340,9 @@ ids.each({ def id ->
             
             println('olString length is ' + olString.length())
 
-            lastChapter = (chapters[i])
+            lastChapter = (reference[i])
 
-            lastVerse = (verses[i])
+            //lastVerse = (verses[i])
         }
         
         bgColors = []
@@ -352,7 +351,7 @@ ids.each({ def id ->
         for (def wordNum : (1..spans.size())) {
 			if (!fncs.contains(wordNum,)) {
 	            bgColors.add(WebUI.getCSSValue(findTestObject('Page_tCC translationNotes/span_OLW_Parmed', [('myDiv') : divId
-	                            , ('chpt') : chapters[i], ('verse') : verses[i], ('wordNum') : wordNum]), 'background-color'))
+	                            , ('chpt') : reference[i], ('wordNum') : wordNum]), 'background-color'))
 			} else {
 				println('did not add color for word ' + wordNum)
 			}
@@ -360,7 +359,7 @@ ids.each({ def id ->
         
         println('Background colors:' + bgColors)
 
-        origQuote = (origQuotes[i])
+        origQuote = (quote[i])
 		
         ellipsis = (origQuote).contains(elips)
 

@@ -39,8 +39,8 @@ someBooks = filesPath + 'Some_Books.csv'
 oneBook = filesPath + 'One_Book.csv'
 epistleBooks = filesPath + 'Epistle_Books.csv'
 
-myBooks = ntBooks
-//myBooks = oneBook
+//myBooks = ntBooks
+myBooks = oneBook
 
 dupsOnly = true 
 
@@ -65,7 +65,7 @@ user = userEL
 
 catalogBase = 'https://' + server + '.door43.org/Door43-Catalog/en_tn/src/branch/master/'
 
-myRepoBase = 'https://' + server + '.door43.org/translate_test/en_tn/src/branch/' + user + '-tc-create-1/'
+myRepoBase = 'https://' + server + '.door43.org/unfoldingWord/en_tn/src/branch/' + user + '-tc-create-1/'
 
 uWBase = 'https://' + server + '.door43.org/unfoldingWord/en_tn/src/branch/master/'
 
@@ -140,7 +140,7 @@ def getRowIDs(file) {
 		if (ids.containsKey(id)) {
 			row1 = ids.get(id)
 			println("row1 is:" + row1)
-			rowMsg = ('ID ' + id + ' is duplicated in rows ' + row1 + ', Ref ' + refss[row1] + ', and ' + r + ', Ref ' + refs  + ' in ' + file)
+			rowMsg = ('ID ' + id + ' is duplicated in rows ' + row1 + 'Reference '+ refss +' in ' + file)
 			println('##### ERROR: ' + rowMsg)
 			CustomKeywords.'unfoldingWord_Keywords.SendMessage.SendFailMessage'('Test failed because ' + rowMsg)
 			dupCount ++
